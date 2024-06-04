@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeTrapExplosive.label>Criando uma caixa - 6 minutos</MakeTrapExplosive.label>
+  <MakeTrapExplosive.description>Criando uma caixa com 6 minas.</MakeTrapExplosive.description>
+  <MakeTrapExplosive.jobString>Cria um conjunto de minas.</MakeTrapExplosive.jobString>
+
+  <MakeTrapTox.label>Criando uma caixa - 6 minas tóxicas</MakeTrapTox.label>
+  <MakeTrapTox.description>Criando uma caixa com 6 minas tóxicas.</MakeTrapTox.description>
+  <MakeTrapTox.jobString>Cria um conjunto de minas.</MakeTrapTox.jobString>
+
+  <MakeTrapIncendiary.label>Criando uma caixa - 6 minas incendiárias</MakeTrapIncendiary.label>
+  <MakeTrapIncendiary.description>Criando uma caixa  com 6 minas incendiárias.</MakeTrapIncendiary.description>
+  <MakeTrapIncendiary.jobString>Cria um conjunto de minas incendiárias.</MakeTrapIncendiary.jobString>
+
+  <MakeTrapEMP.label>Criando uma caixa - 6 EMP minas</MakeTrapEMP.label>
+  <MakeTrapEMP.description>Criando uma caixa com 6 minas EMP.</MakeTrapEMP.description>
+  <MakeTrapEMP.jobString>Cria um conjunto de EMP min.</MakeTrapEMP.jobString>
+
+  <MakeTrapAE.label>Criando uma caixa - 6 minas granulares</MakeTrapAE.label>
+  <MakeTrapAE.description>Criando uma caixa com 6 minas de grânulos.</MakeTrapAE.description>
+  <MakeTrapAE.jobString>Cria um conjunto de minas granulares.</MakeTrapAE.jobString>
+
+  <MakeTrapKapk.label>Criando uma caixa - 10 armadilhas</MakeTrapKapk.label>
+  <MakeTrapKapk.description>Criando uma caixa com 10 armadilhas.</MakeTrapKapk.description>
+  <MakeTrapKapk.jobString>Cria um conjunto de armadilhas.</MakeTrapKapk.jobString>
+
+
+</LanguageData>

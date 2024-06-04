@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeTrapExplosive.label>Изготовление  ящика - 6 осколочных мин</MakeTrapExplosive.label>
+  <MakeTrapExplosive.description>Создание ящика с 6 минами.</MakeTrapExplosive.description>
+  <MakeTrapExplosive.jobString>Создает набор мин.</MakeTrapExplosive.jobString>
+
+  <MakeTrapTox.label>Изготовление  ящика - 6 токсичных мин</MakeTrapTox.label>
+  <MakeTrapTox.description>Создайте ящик с 6 токсичными минами.</MakeTrapTox.description>
+  <MakeTrapTox.jobString>Создает набор токсичных мин.</MakeTrapTox.jobString>
+
+  <MakeTrapIncendiary.label>Изготовление  ящика - 6 зажигательных мин</MakeTrapIncendiary.label>
+  <MakeTrapIncendiary.description>Создание ящика с 6 зажигательными минами.</MakeTrapIncendiary.description>
+  <MakeTrapIncendiary.jobString>Создает набор зажигательных мин.</MakeTrapIncendiary.jobString>
+
+  <MakeTrapEMP.label>Изготовление  ящика - 6 ЭМИ мин</MakeTrapEMP.label>
+  <MakeTrapEMP.description>Создание ящика с 6 ЭМИ-минами.</MakeTrapEMP.description>
+  <MakeTrapEMP.jobString>Создает комплект ЭМИ мин.</MakeTrapEMP.jobString>
+
+  <MakeTrapAE.label>Изготовление  ящика - 6 гранулированных мин</MakeTrapAE.label>
+  <MakeTrapAE.description>Создайте коробку с 6 гранулированными минами.</MakeTrapAE.description>
+  <MakeTrapAE.jobString>Создает набор гранулированных мин.</MakeTrapAE.jobString>
+
+  <MakeTrapKapk.label>Изготовление  ящика - 10 капканов</MakeTrapKapk.label>
+  <MakeTrapKapk.description>Создание ящика с 10 капканами.</MakeTrapKapk.description>
+  <MakeTrapKapk.jobString>Создает набор капканов.</MakeTrapKapk.jobString>
+
+
+</LanguageData>

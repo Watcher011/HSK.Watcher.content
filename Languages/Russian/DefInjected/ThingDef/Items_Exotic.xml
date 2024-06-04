@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Trap2_Explosive.label>Коробка с минами</Trap2_Explosive.label>
+  <Trap2_Explosive.description>Коробка мин. Взрывчатка</Trap2_Explosive.description>
+
+  <Trap2_Incendiary.label>Коробка  с зажигательными минами</Trap2_Incendiary.label>
+  <Trap2_Incendiary.description>Коробка с зажигательными минами. Взрывчатка</Trap2_Incendiary.description>
+
+  <Trap2_EMP.label>Коробка с ЭМИ минами</Trap2_EMP.label>
+  <Trap2_EMP.description>Коробка ЭМИ мин. Взрывчатка</Trap2_EMP.description>
+
+  <Trap2_AE.label>Коробка гранульных мин</Trap2_AE.label>
+  <Trap2_AE.description>Коробка гранулированных мин. Взрывчатка</Trap2_AE.description>
+
+  <Trap2_Tox.label>Коробка с токсичными минами</Trap2_Tox.label>
+  <Trap2_Tox.description>Коробка токсичная мин. Взрывчатка</Trap2_Tox.description>
+
+  <TrapKapk.label>Коробка с капканами</TrapKapk.label>
+  <TrapKapk.description>Коробка с капканами</TrapKapk.description>
+
+
+</LanguageData>

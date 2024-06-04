@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+
+  <DamageDef ParentName="Bomb">
+    <defName>BombAntigrav</defName>
+	 <explosionCellFleck>BlastEMP</explosionCellFleck>
+    <explosionColorCenter>(0.5, 1, 0.5)</explosionColorCenter>
+    <explosionColorEdge>(0.3, 0.6, 0.3)</explosionColorEdge>
+    <defaultDamage>2550</defaultDamage>
+    <defaultStoppingPower>22.0</defaultStoppingPower>
+    <defaultArmorPenetration>21.30</defaultArmorPenetration>
+  </DamageDef>
+</Defs>

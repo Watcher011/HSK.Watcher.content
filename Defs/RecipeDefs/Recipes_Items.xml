@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+<RecipeDef ParentName="GrenadeRecipeBase">
+		<defName>MakeTrapExplosive</defName>
+		<label>Create a box 6 min</label>
+		<description>Creating a box with 6 mines.</description>
+		<jobString>Creates a set of mines.</jobString>
+		<workAmount>1000</workAmount>
+		<targetCountAdjustment>10</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Wire</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mechanism</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>FSX</li>
+				<li>Wire</li>
+				<li>Mechanism</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Trap2_Explosive>6</Trap2_Explosive>    
+		</products>
+		<researchPrerequisites>
+			<li>IED_C1</li>
+		</researchPrerequisites>
+	</RecipeDef>
+	
+	
+<RecipeDef ParentName="GrenadeRecipeBase">
+		<defName>MakeTrapTox</defName>
+		<label>Crafting a Box of 6 Toxic Mines</label>
+		<description>Create a box with 6 toxic mines.</description>
+		<jobString>Creates a set of mines.</jobString>
+		<workAmount>1000</workAmount>
+		<targetCountAdjustment>10</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Wastepack</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mechanism</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>FSX</li>
+				<li>Wire</li>
+				<li>Mechanism</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Trap2_Tox>6</Trap2_Tox>    
+		</products>
+		<researchPrerequisites>
+			<li>IED_C1</li>
+		</researchPrerequisites>
+	</RecipeDef>
+
+	
+	
+	
+	<RecipeDef ParentName="GrenadeRecipeBase">
+		<defName>MakeTrapIncendiary</defName>
+		<label>Crafting a box of 6 incendiary mines</label>
+		<description>Crafting a box containing 6 incendiary mines.</description>
+		<jobString>Creates a set of incendiary mines.</jobString>
+		<workAmount>1000</workAmount>
+		<targetCountAdjustment>10</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Wire</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Napalm</li>
+					</thingDefs>
+				</filter>
+				<count>60</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mechanism</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+			</categories>
+			<thingDefs>
+				<li>Napalm</li>
+				<li>Wire</li>
+				<li>Mechanism</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Trap2_Incendiary>6</Trap2_Incendiary>    
+		</products>
+		<researchPrerequisites>
+			<li>IED_C1</li>
+		</researchPrerequisites>
+	</RecipeDef>
+	
+	
+	
+<RecipeDef ParentName="GrenadeRecipeBase">
+		<defName>MakeTrapEMP</defName>
+		<label>Create a box 6 EMP min</label>
+		<description>Crafting a box with 6 EMP mines.</description>
+		<jobString>Creates a set of EMP min.</jobString>
+		<workAmount>1000</workAmount>
+		<targetCountAdjustment>10</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ElectronicComponents</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mechanism</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+			</categories>
+			<thingDefs>
+				<li>ElectronicComponents</li>
+				<li>Mechanism</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Trap2_EMP>6</Trap2_EMP>    
+		</products>
+		<researchPrerequisites>
+			<li>IED_C1</li>
+		</researchPrerequisites>
+	</RecipeDef>	
+	
+	
+	
+	<RecipeDef ParentName="GrenadeRecipeBase">
+		<defName>MakeTrapAE</defName>
+		<label>Crafting a Box of 6 Granular Mines</label>
+		<description>Create a box with 6 Granule Mines.</description>
+		<jobString>Creates a set of Granular Mines.</jobString>
+		<workAmount>1000</workAmount>
+		<targetCountAdjustment>10</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Prometheum</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mechanism</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+			</categories>
+			<thingDefs>
+				<li>FSX</li>
+				<li>Prometheum</li>
+				<li>ComponentSpacer</li>
+				<li>Mechanism</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Trap2_AE>6</Trap2_AE>      
+		</products>
+		<researchPrerequisites>
+			<li>IED_C1</li>
+		</researchPrerequisites>
+	</RecipeDef>	
+
+
+
+
+ <RecipeDef>
+		<defName>MakeTrapKapk</defName>
+		<label>Creating a box with 10 traps</label>
+		<description>Creating a box with 10 traps.</description>
+		<jobString>Creates a set of traps.</jobString>
+		<workAmount>1000</workAmount>
+		<targetCountAdjustment>10</targetCountAdjustment>
+		<recipeUsers>
+			<li>FueledSmithy</li>
+			<li>ElectricSmithy</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Wire</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+			</categories>
+			<thingDefs>
+				<li>Wire</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<TrapKapk>10</TrapKapk>    
+		</products>
+	</RecipeDef>
+</Defs>

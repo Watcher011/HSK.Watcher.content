@@ -51,6 +51,26 @@
 		<debug>false</debug>
 	</ArchitectSense.DesignationSubCategoryDef>
 	
+	
+	
+	<ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_Traps</defName>
+		<label>traps</label>
+		<description>Special traps for defend.</description>
+		<defNames>
+			<li>Razor_Wire_Trap</li>		
+			<li>TrapSpike</li>
+			<li>TrapIED_HighExplosive</li>
+			<li>TrapIED_Incendiary</li>
+			<li>TrapIED_EMP</li>
+			<li>TrapIED_Firefoam</li>
+			<li>TrapIED_AntigrainWarhead</li>
+		</defNames>
+		<designationCategory>Security</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+
+
 </Defs>
 
 

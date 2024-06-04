@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<ThingDef ParentName="SK_SculptureBase">
+		<defName>KatXArt</defName>
+		<label>скульптура котейки</label>
+		<description>Скульптура котейки для колонии. Дарит тепло и уют.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/Art/Can</texPath>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<fillPercent>0.3</fillPercent>
+		<rotatable>false</rotatable>
+			<size>(1,1)</size>
+		<statBases>
+			<MaxHitPoints>170</MaxHitPoints>
+			<Beauty>70</Beauty>
+			<WorkToMake>36000</WorkToMake>
+			<Bulk>80</Bulk>
+			<Mass>50</Mass>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">48</StyleDominance>
+		</statBases>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+			<li>Precious</li>
+			<li>Woody</li>
+			<li>Stony</li>
+			<li>Ceramic</li>
+		</stuffCategories>
+		<costStuffCount>60</costStuffCount>
+		<costList>
+			<Glowstone>2</Glowstone>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>1</glowRadius>
+				<glowColor>(180,197,215,0)</glowColor>
+			</li>
+		</comps>
+		<recipeMaker>
+			<researchPrerequisite>Art_B2</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+	
+	
+
+</Defs>

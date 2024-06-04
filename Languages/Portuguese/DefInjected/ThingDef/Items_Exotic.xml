@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Trap2_Explosive.label>Caixa com as minas</Trap2_Explosive.label>
+  <Trap2_Explosive.description>Caixa com as minas.Explosivo</Trap2_Explosive.description>
+
+  <Trap2_Incendiary.label>Caixa com as minas Incendiárias</Trap2_Incendiary.label>
+  <Trap2_Incendiary.description>Caixa com as minas Incendiárias.Explosivo</Trap2_Incendiary.description>
+
+  <Trap2_EMP.label>Caixa com as minas EMP</Trap2_EMP.label>
+  <Trap2_EMP.description>Caixa com as minas EMP.Explosivo</Trap2_EMP.description>
+
+  <Trap2_AE.label>Caixa com as minas granulado</Trap2_AE.label>
+  <Trap2_AE.description>Caixa com as minas granulado.Explosivo</Trap2_AE.description>
+
+  <Trap2_Tox.label>Caixa com as minas tóxicas</Trap2_Tox.label>
+  <Trap2_Tox.description>Caixa com as minas tóxicas.Explosivo</Trap2_Tox.description>
+
+  <TrapKapk.label>Caixa com as armadilhas</TrapKapk.label>
+  <TrapKapk.description>Caixa com as armadilhas.</TrapKapk.description>
+
+
+</LanguageData>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef>
+		<defName>Crate_Smal</defName>
+		<category>Building</category>
+		<label>Explosion crater</label>
+		<thingClass>SK.Crater</thingClass>
+		<graphicData>
+			<texPath>Overlays/Crater</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<drawSize>(1.3,1.3)</drawSize>
+		</graphicData>
+		<comps>
+			<li Class="SK.CompFade_Properties">
+				<lifespanTicks>50000</lifespanTicks>
+			</li>
+		</comps>
+		<drawerType>MapMeshOnly</drawerType>
+		<pathCost>40</pathCost>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<altitudeLayer>Floor</altitudeLayer>
+		<useHitPoints>false</useHitPoints>
+		<drawOffscreen>true</drawOffscreen>
+		<selectable>false</selectable>
+		<tickerType>Rare</tickerType>
+		<tradeability>None</tradeability>
+		<blockPlants>true</blockPlants>
+		<neverOverlapFloors>true</neverOverlapFloors>
+		<building>
+			<isEdifice>false</isEdifice>
+			<claimable>false</claimable>
+			<deconstructible>false</deconstructible>
+			<ai_neverTrashThis>true</ai_neverTrashThis>
+		</building>
+	</ThingDef>
+
+<ThingDef>
+		<defName>Crate_Medium</defName>
+		<category>Building</category>
+		<label>Explosion crater</label>
+		<thingClass>SK.Crater</thingClass>
+		<graphicData>
+			<texPath>Overlays/Crater</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<drawSize>(3.3,3.3)</drawSize>
+		</graphicData>
+		<comps>
+			<li Class="SK.CompFade_Properties">
+				<lifespanTicks>50000</lifespanTicks>
+			</li>
+		</comps>
+		<drawerType>MapMeshOnly</drawerType>
+		<pathCost>40</pathCost>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<altitudeLayer>Floor</altitudeLayer>
+		<useHitPoints>false</useHitPoints>
+		<drawOffscreen>true</drawOffscreen>
+		<selectable>false</selectable>
+		<tickerType>Rare</tickerType>
+		<tradeability>None</tradeability>
+		<blockPlants>true</blockPlants>
+		<neverOverlapFloors>true</neverOverlapFloors>
+		<building>
+			<isEdifice>false</isEdifice>
+			<claimable>false</claimable>
+			<deconstructible>false</deconstructible>
+			<ai_neverTrashThis>true</ai_neverTrashThis>
+		</building>
+	</ThingDef>
+	
+	<ThingDef>
+		<defName>Crate_Grande</defName>
+		<category>Building</category>
+		<label>Explosion crater</label>
+		<thingClass>SK.Crater</thingClass>
+		<graphicData>
+			<texPath>Overlays/Crater</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<drawSize>(5.3,5.3)</drawSize>
+		</graphicData>
+		<comps>
+			<li Class="SK.CompFade_Properties">
+				<lifespanTicks>50000</lifespanTicks>
+			</li>
+		</comps>
+		<drawerType>MapMeshOnly</drawerType>
+		<pathCost>40</pathCost>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<altitudeLayer>Floor</altitudeLayer>
+		<useHitPoints>false</useHitPoints>
+		<drawOffscreen>true</drawOffscreen>
+		<selectable>false</selectable>
+		<tickerType>Rare</tickerType>
+		<tradeability>None</tradeability>
+		<blockPlants>true</blockPlants>
+		<neverOverlapFloors>true</neverOverlapFloors>
+		<building>
+			<isEdifice>false</isEdifice>
+			<claimable>false</claimable>
+			<deconstructible>false</deconstructible>
+			<ai_neverTrashThis>true</ai_neverTrashThis>
+		</building>
+	</ThingDef>
+	
+
+</Defs>

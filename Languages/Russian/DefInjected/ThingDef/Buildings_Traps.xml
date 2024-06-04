@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Traps -->
+
+  <MinSign.label>Знак «Осторожно, мины»</MinSign.label>
+  <MinSign.description>Предупреждающий знак.</MinSign.description>
+
+
+</LanguageData>

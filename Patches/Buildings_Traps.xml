@@ -1,0 +1,67 @@
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<!-- Reliquary patches -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="TrapIED_HighExplosive"]/costList</xpath>
+				<value>
+					<costList>
+						<Trap2_Explosive>1</Trap2_Explosive>
+					</costList>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="TrapIED_EMP"]/costList</xpath>
+				<value>
+					<costList>
+						 <Trap2_EMP>1</Trap2_EMP>
+					</costList>
+				</value>
+			</li>
+			
+			
+				<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="TrapIED_Incendiary"]/costList</xpath>
+				<value>
+					<costList>
+					   
+						<Trap2_Incendiary>1</Trap2_Incendiary>
+					</costList>
+				</value>
+			</li>
+			
+			
+				<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="TrapIED_AntigrainWarhead"]/costList</xpath>
+				<value>
+					<costList>
+					    <Trap2_AE>1</Trap2_AE>
+					</costList>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="TrapIED_ToxGas"]/costList</xpath>
+				<value>
+					<costList>
+					    <Trap2_Tox>1</Trap2_Tox>
+					</costList>
+				</value>
+			</li>
+			
+				<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="TrapSpike"]/costList</xpath>
+				<value>
+					<costList>
+					    <TrapKapk>1</TrapKapk>
+					</costList>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+
+</Patch>
