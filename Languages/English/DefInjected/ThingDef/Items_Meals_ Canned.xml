@@ -20,6 +20,16 @@
 
   <Druchips.label>Dried chips</Druchips.label>
   <Druchips.description>Dried chips - a snack consisting of thin slices of potatoes.</Druchips.description>
+ <DirtyEthanol.label>moonshine</DirtyEthanol.label>
+  <DirtyEthanol.description>Dirty Ethanol is an organic compound with many side effects.</DirtyEthanol.description>
+  <DirtyEthanol.ingestible.ingestCommandString>drink {0}</DirtyEthanol.ingestible.ingestCommandString>
+  <DirtyEthanol.ingestible.ingestReportString>drinking {0}.</DirtyEthanol.ingestible.ingestReportString>
+  <DirtyEthanol.stuffProps.stuffAdjective>fuel</DirtyEthanol.stuffProps.stuffAdjective>
 
+  <Ethanol.label>Ethanol</Ethanol.label>
+  <Ethanol.description>Ethanol is an organic compound belonging to the class of monohydric alcohols. Under standard conditions, ethanol is a volatile, flammable, colorless, transparent liquid with a characteristic odor and pungent taste. Active ingredient in alcoholic beverages.</Ethanol.description>
+  <Ethanol.ingestible.ingestCommandString>drink {0}</Ethanol.ingestible.ingestCommandString>
+  <Ethanol.ingestible.ingestReportString>drinking {0}.</Ethanol.ingestible.ingestReportString>
+  <Ethanol.stuffProps.stuffAdjective>fuel</Ethanol.stuffProps.stuffAdjective>
 
 </LanguageData>

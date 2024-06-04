@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Make_EthanolFromAlcohol.label>음료에서 알코올 증류</Make_EthanolFromAlcohol.label>
+  <Make_EthanolFromAlcohol.description>증류는 발효된 혼합물에서 휘발성 성분(증기)이 증발하고 응축되어 알코올을 형성하는 과정입니다.</Make_EthanolFromAlcohol.description>
+  <Make_EthanolFromAlcohol.jobString>증류</Make_EthanolFromAlcohol.jobString>
+
+
+</LanguageData>

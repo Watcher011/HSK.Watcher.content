@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Make_EthanolFromAlcohol.label>Distillation of alcohol from drinks</Make_EthanolFromAlcohol.label>
+  <Make_EthanolFromAlcohol.description>Distillation is a process in which volatile components (vapors) evaporate from a fermented mixture and condense to form alcohol.</Make_EthanolFromAlcohol.description>
+  <Make_EthanolFromAlcohol.jobString>Distillation</Make_EthanolFromAlcohol.jobString>
+
+
+</LanguageData>

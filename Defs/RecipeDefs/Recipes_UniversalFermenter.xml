@@ -346,4 +346,44 @@
 		<slotsRequired>5</slotsRequired>
 	</RecipeDef>
 
+
+
+<RecipeDef ParentName="GlitterpediaModExtBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_Ethanol</defName>
+		<label>Сделать брагу</label>
+		<description>Произвести примитивный продукт с низким содержанием Этанола. Займёт 2х дней</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawBerries</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<products>
+			<DirtyEthanol>10</DirtyEthanol>
+		</products>
+		<recipeUsers>
+			<li>UniversalFermenter</li>
+		</recipeUsers>
+
+		<!-- RecipeDef_UF fields -->
+		<usesTemperature>true</usesTemperature>
+		<temperatureSafe>-1.0~32.0</temperatureSafe>
+		<temperatureIdeal>7.0~32.0</temperatureIdeal>
+		<ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour>
+		<!-- percent per degree per hour -->
+		<speedBelowSafe>0.1</speedBelowSafe>
+		<speedAboveSafe>1.0</speedAboveSafe>
+		<processDays>2</processDays>
+		<!-- in days, 60000 ticks is a day -->
+		<sunFactor>1.0~1.0</sunFactor>
+		<rainFactor>1.0~1.0</rainFactor>
+		<snowFactor>1.0~1.0</snowFactor>
+		<windFactor>1.0~1.0</windFactor>
+		<qualityDays>(4, 5, 6, 7, 8, 9, 10)</qualityDays>
+		<graphicSuffix/>
+	</RecipeDef>
 </Defs>
