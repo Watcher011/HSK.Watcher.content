@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FloorStoneStaggeredNefrBrick.label>Azulejos de jade</FloorStoneStaggeredNefrBrick.label>
+  <FloorStoneStaggeredNefrBrick.description>Piso de pedra feito de lajes quadradas de jade
+Beleza: 8.</FloorStoneStaggeredNefrBrick.description>
+
+  <FloorStoneMosaicNEF.label>Mosaico de jade</FloorStoneMosaicNEF.label>
+  <FloorStoneMosaicNEF.description>Piso de pedra feito de mosaico de jade elegante
+Beleza: 7.</FloorStoneMosaicNEF.description>
+
+  <FloorStoneMosaicNEFt.label>Pratos de jade</FloorStoneMosaicNEFt.label>
+  <FloorStoneMosaicNEFt.description>Piso de pedra jade
+Beleza: 9.</FloorStoneMosaicNEFt.description>
+
+  <FloorAmber.label>Placas âmbar</FloorAmber.label>
+  <FloorAmber.description>Piso de pedra âmbar
+Beleza: 8.</FloorAmber.description>
+
+
+</LanguageData>

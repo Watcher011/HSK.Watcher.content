@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BargestHead.label>바게스트 대표</BargestHead.label>
+  <BargestHead.description>무서운 괴물의 잘린 머리 모양을 한 소름끼치는 트로피입니다. 거인이 죽은 뒤에도 유리알 같은 눈은 소름끼친다.</BargestHead.description>
+
+  <BehirHead.label>베히르의 머리</BehirHead.label>
+  <BehirHead.description>잘린 보라색 드라코엔 머리 형태의 놀라운 트로피, 이것이 실제로 발생합니까? 그 사람 정말 진짜야? 거인이 죽은 후에도 그 유리같은 눈은 소름끼친다.</BehirHead.description>
+
+  <KirinHead.label>기린의 머리</KirinHead.label>
+  <KirinHead.description>기린의 잘린 머리 형태로 된 놀라운 트로피입니다. 푹신한 털을 만지면 약간의 성에가 남습니다. 거인이 죽은 뒤에도 유리알 같은 눈은 소름끼친다.</KirinHead.description>
+
+  <WyvernHead.label>와이번 헤드</WyvernHead.label>
+  <WyvernHead.description>잘린 녹색 용의 머리 모양을 한 놀라운 트로피입니다. 저울을 만지는 것은 매혹적입니다. 그 유리알 같은 눈은 거인이 죽은 후에도 무섭습니다.</WyvernHead.description>
+
+  <ThrumboHead.label>트럼보 헤드</ThrumboHead.label>
+  <ThrumboHead.description>털복숭이 거인의 잘린 머리 모양을 한 놀라운 트로피입니다. 눈처럼 하얀 털을 만지면 눈 덮인 평원이 떠오릅니다. 거인이 죽은 후에도 유리 같은 눈은 소름 끼칩니다.</ThrumboHead.description>
+
+  <FeenixHead.label>피닉스 헤드</FeenixHead.label>
+  <FeenixHead.description>불타는 용의 잘린 머리 모양을 한 놀라운 트로피입니다. 비늘을 만지면 용암강이 생각납니다. 거인이 죽은 뒤에도 유리알 같은 눈은 소름끼친다.</FeenixHead.description>
+
+  <LivingSun.label>바게스트의 심장</LivingSun.label>
+  <LivingSun.description>빛의 불꽃을 품은 어둠의 생명체의 살아있는 심장.</LivingSun.description>
+
+  <PsyHeart.label>베히르의 마음</PsyHeart.label>
+  <PsyHeart.description>베히르의 살아있는 심장은 때때로 사이오닉 충동을 방출하는데, 이것은 아마도 사용될 수 있을 것입니다.</PsyHeart.description>
+
+  <ToxHeart.label>와이번의 심장</ToxHeart.label>
+  <ToxHeart.description>와이번의 살아있는 심장은 주변의 독소를 정화하는데, 아마도 이것이 사용될 수 있을 것입니다.</ToxHeart.description>
+
+
+</LanguageData>

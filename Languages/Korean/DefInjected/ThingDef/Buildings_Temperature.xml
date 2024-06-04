@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bio_Heater.label>바이오히터</Bio_Heater.label>
+  <Bio_Heater.description>생명 유지 시스템과 연결된 피닉스의 심장은 혈액 내 영양분의 양 차이로 인해 헤마토겐의 빈번한 교체가 필요합니다.</Bio_Heater.description>
+
+  <Bio_coller.label>바이오 쿨러</Bio_coller.label>
+  <Bio_coller.description>생명 유지 시스템과 연결된 기린의 심장은 혈액 내 영양분의 양 차이로 인해 헤마토겐의 빈번한 교체가 필요합니다.</Bio_coller.description>
+
+  <Bio_Sun.label>바이오-썬</Bio_Sun.label>
+  <Bio_Sun.description>혼성화 절차를 통해 기린과 불사조의 심장에서 광원을 만드는 것이 가능해졌습니다. 생명 유지 시스템과의 연결이 필요합니다. 혈액 내 영양소 양의 차이로 인해 헤마토겐을 자주 교체해야 합니다.</Bio_Sun.description>
+
+  <Bio_PSY.label>바이오 싸이</Bio_PSY.label>
+  <Bio_PSY.description>사이오닉 공명을 생성하는 베히르의 심장입니다.</Bio_PSY.description>
+
+  <Bio_cleaning.label>바이오세정</Bio_cleaning.label>
+  <Bio_cleaning.description>와이번의 심장은 넓은 면적의 독소를 제거할 수 있지만, 혈액 내 영양분의 양의 차이로 인해 시간이 걸리고, 헤마토겐을 자주 교체해야 합니다.</Bio_cleaning.description>
+
+
+</LanguageData>

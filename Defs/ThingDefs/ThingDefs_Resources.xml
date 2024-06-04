@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- AMBER -->
+
+	<ThingDef ParentName="SK_RockBase">
+		<defName>MinableAmber</defName>
+		<label>amber</label>
+		<graphicData>
+			<texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(224,147,4)</color>
+			<colorTwo>(209,160,65)</colorTwo>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>1400</MaxHitPoints>
+		</statBases>
+		<description>Rock containing bits of preserved sap.</description>
+		<building>
+			<isResourceRock>true</isResourceRock>
+			<mineableThing>Amber</mineableThing>
+			<mineableYield>50</mineableYield>
+			<mineableScatterCommonality>0.12</mineableScatterCommonality>
+			<mineableScatterLumpSizeRange>
+				<min>1</min>
+				<max>3</max>
+			</mineableScatterLumpSizeRange>
+		</building>
+	</ThingDef>
+
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Amber</defName>
+		<label>Янтарь</label>
+		<description>Древний древесный сок, который сохранился. Иногда в нем есть маленькие существа. Мягкая смола, которая прекрасно полируется.</description>
+		<graphicData>
+		  <texPath>Things/Item/Chunk/Stone</texPath>
+		  <graphicClass>Graphic_Random</graphicClass>
+		  <flipExtraRotation>80</flipExtraRotation>
+		  <color>(224,147,4)</color>
+		</graphicData>
+		<soundInteract>Silver_Drop</soundInteract>
+		<soundDrop>Silver_Drop</soundDrop>
+		<tickerType>Rare</tickerType>
+		<statBases>
+			<MarketValue>3</MarketValue>
+			<Mass>0.07</Mass>
+			<Flammability>0</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<SharpDamageMultiplier>0.38</SharpDamageMultiplier>
+			<BluntDamageMultiplier>1.15</BluntDamageMultiplier>
+			<MeleeCounterParryBonus>0.85</MeleeCounterParryBonus>
+		</statBases>
+		<thingCategories>
+		  <li>StoneBlocks</li>
+		</thingCategories>
+		<techLevel>Neolithic</techLevel>
+		<stackLimit>200</stackLimit>
+		<deepCommonality>0.5</deepCommonality>
+		<deepCountPerCell>2500</deepCountPerCell>
+		<deepCountPerPortion>20</deepCountPerPortion>
+		<deepLumpSizeRange>
+			<min>25</min>
+			<max>50</max>
+		</deepLumpSizeRange>
+		<stuffProps>
+			<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+			<color>(224,147,4)</color>
+			<stuffAdjective>amber</stuffAdjective>
+			<statFactors>
+				<MaxHitPoints>1.3</MaxHitPoints>
+				<MarketValue>2.8</MarketValue>
+				<Flammability>0</Flammability>
+				<Beauty>6</Beauty>
+				<WorkToMake>3.5</WorkToMake>
+				<WorkToBuild>3.5</WorkToBuild>
+				<DoorOpenSpeed>0.5</DoorOpenSpeed>
+				<BedRestEffectiveness>1.0</BedRestEffectiveness>
+				<MeleeWeapon_CooldownMultiplier>1.27</MeleeWeapon_CooldownMultiplier>
+				<MeleePenetrationFactor>0.5</MeleePenetrationFactor>
+				<Mass>1.2</Mass>
+			</statFactors>
+		  <statOffsets>
+			<WorkToMake>140</WorkToMake>
+			<WorkToBuild>140</WorkToBuild>
+			<Beauty>3</Beauty>
+		  </statOffsets>
+			<categories>
+				<li>Stony</li>
+			</categories>
+			<commonality>0.02</commonality>
+			<constructEffect>ConstructWood</constructEffect>
+		</stuffProps>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+	</ThingDef>
+
+
+</Defs>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DruFungus.label>Cogumelos secos</DruFungus.label>
+  <DruFungus.description>Os cogumelos secos são um produto alimentar com aroma e sabor específicos, obtido pela secagem de cogumelos comestíveis frescos. Os cogumelos secos após pré-imersão podem ser amplamente utilizados na culinária, por exemplo, em sopas, ensopados, solyanka, molhos, recheios de tortas e caviar de cogumelos.</DruFungus.description>
+
+  <DruFish.label>Peixe salgado seco</DruFish.label>
+  <DruFish.description>O processo consiste em duas etapas: salga e secagem. A salga é obrigatória para um produto sem tratamento térmico: o sal destruirá os parasitas se estiverem nos peixes e retardará os processos de decomposição.</DruFish.description>
+
+  <DruFishPlastic.label>Peixe salgado seco em embalagem</DruFishPlastic.label>
+  <DruFishPlastic.description>O processo consiste em três etapas: salga, secagem e embalagem. A salga é obrigatória para um produto sem tratamento térmico: o sal destrói os parasitas se estiverem nos peixes e retarda os processos de decomposição. Uma vez embalado em plástico, pode ser armazenado quase para sempre.</DruFishPlastic.description>
+
+  <MealFishAndBeer.label>Cerveja com peixe seco</MealFishAndBeer.label>
+  <MealFishAndBeer.description>Cerveja e peixe parecem feitos um para o outro.</MealFishAndBeer.description>
+
+  <Yzvae.label>Fruta cozida</Yzvae.label>
+  <Yzvae.description>Uzvar-Compota à base de frutos secos, frutos secos ou frutos secos.</Yzvae.description>
+  <Yzvae.ingestible.ingestCommandString>Beba uzvar {0}</Yzvae.ingestible.ingestCommandString>
+  <Yzvae.ingestible.ingestReportString>Bebidas {0}.</Yzvae.ingestible.ingestReportString>
+
+  <Druchips.label>Batatas fritas secas</Druchips.label>
+  <Druchips.description>Batatas fritas secas são um lanche feito com fatias finas de batata.</Druchips.description>
+
+
+</LanguageData>

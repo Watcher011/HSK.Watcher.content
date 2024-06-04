@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- WallLights -->
+
+  <KristalWallLamp.label>발광석 벽 램프</KristalWallLamp.label>
+  <KristalWallLamp.description>이 멋진 벽 램프는 크리스털 모양의 빛나는 돌을 잘라서 만들어졌으며 눈부신 빛을 발산합니다.</KristalWallLamp.description>
+
+  <KristalWallLampDark.label>벽 희미한 발광석 램프</KristalWallLampDark.label>
+  <KristalWallLampDark.description>이 멋진 벽 램프는 빛나는 돌을 잘라서 크리스탈 모양으로 만들고 구리로 도금하여 희미한 빛을 발산합니다.</KristalWallLampDark.description>
+
+  <CeilingKristal.label>천장 조명 스톤 램프</CeilingKristal.label>
+  <CeilingKristal.description>Э이 멋진 천장 램프는 크리스털 모양의 빛나는 돌을 잘라서 만들어졌으며 눈부신 빛을 발산합니다..</CeilingKristal.description>
+
+  <CeilingKristalDark.label>천장 희미한 빛 돌 램프</CeilingKristalDark.label>
+  <CeilingKristalDark.description>이 멋진 천장 램프는 크리스털 모양의 빛나는 돌로 만들어졌으며 구리로 도금되어 희미한 빛을 발산합니다.</CeilingKristalDark.description>
+
+  <ColumnKristal.label>가벼운 돌기둥</ColumnKristal.label>
+  <ColumnKristal.description>발광석 수정으로 지붕을 지탱할 수 있는 기둥. 시야나 움직임을 가리지 않으며 꽤 괜찮아 보입니다.</ColumnKristal.description>
+
+  <ColumnKristalDark.label>라이트스톤 희미한 기둥</ColumnKristalDark.label>
+  <ColumnKristalDark.description>희미한 발광석 수정으로 지붕을 지탱할 수 있는 기둥. 시야나 움직임을 가리지 않고 꽤 괜찮아 보입니다.</ColumnKristalDark.description>
+
+  <HeadBarghestWall.label>Barghest의 트로피 헤드</HeadBarghestWall.label>
+  <HeadBarghestWall.description>패배한 몬스터의 트로피 머리</HeadBarghestWall.description>
+
+  <HeadBehirtWall.label>베키르의 트로피 헤드</HeadBehirtWall.label>
+  <HeadBehirtWall.description>패배한 몬스터의 트로피 머리</HeadBehirtWall.description>
+
+  <HeadKirinWall.label>기린의 트로피 헤드</HeadKirinWall.label>
+  <HeadKirinWall.description>패배한 몬스터의 트로피 머리</HeadKirinWall.description>
+
+  <WyvernHeadWall.label>트로피 와이번 헤드</WyvernHeadWall.label>
+  <WyvernHeadWall.description>패배한 몬스터의 트로피 머리</WyvernHeadWall.description>
+
+  <ThrumboHeadWall.label>트로피 헤드 트럼보</ThrumboHeadWall.label>
+  <ThrumboHeadWall.description>패배한 몬스터의 트로피 머리</ThrumboHeadWall.description>
+
+  <FeenixHeadWall.label>트로피 헤드 피닉스</FeenixHeadWall.label>
+  <FeenixHeadWall.description>패배한 몬스터의 트로피 머리</FeenixHeadWall.description>
+
+  <icecreamBasin.label>아이스크림 기계</icecreamBasin.label>
+  <icecreamBasin.description>냉동고 기계.</icecreamBasin.description>
+
+
+</LanguageData>

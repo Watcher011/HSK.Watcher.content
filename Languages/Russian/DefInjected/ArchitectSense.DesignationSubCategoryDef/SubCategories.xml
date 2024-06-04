@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SubCategory_AncientRugsGG.label>Шкуры реликтовых существ</SubCategory_AncientRugsGG.label>
+  <SubCategory_AncientRugsGG.description>Шкуры реликтов</SubCategory_AncientRugsGG.description>
+
+  <SubCategory_AncientRugsHH.label>Трофеи от реликтовых существ</SubCategory_AncientRugsHH.label>
+  <SubCategory_AncientRugsHH.description>Головы реликтов.</SubCategory_AncientRugsHH.description>
+
+  <SubCategory_heart.label>Колбы с сердцами</SubCategory_heart.label>
+  <SubCategory_heart.description>Сердца легендарных монстров.</SubCategory_heart.description>
+
+
+  <!--<SubCategory_Columns.label>Колонна</SubCategory_Columns.label>-->
+  <!--<SubCategory_Columns.description>Коло́нна — часть архитектурной конструкции, столб цилиндрической формы, деревянный, каменный или металлический.Удерживает крышу.</SubCategory_Columns.description>-->
+
+</LanguageData>

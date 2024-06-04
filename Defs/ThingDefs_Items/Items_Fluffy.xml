@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef>
+		<defName>BargestHead</defName>
+		<label>Head of Bagest</label>
+		<description>A creepy trophy in the form of the severed head of a scary monster. The glassy eyes are creepy even after the death of the giant.</description>
+		<thingClass>ThingWithComps</thingClass>
+		<comps>
+			<li Class="CompProperties_Lifespan">
+				<lifespanTicks>1000000</lifespanTicks>
+			</li>
+		</comps>
+		<tickerType>Normal</tickerType>
+		<category>Item</category>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+		<thingCategories>
+			<li>BodyParts</li>
+		</thingCategories>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<altitudeLayer>Item</altitudeLayer>
+		<stackLimit>1</stackLimit>
+		<alwaysHaulable>true</alwaysHaulable>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<rotatable>false</rotatable>
+		<pathCost>15</pathCost>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<DeteriorationRate>1</DeteriorationRate>
+			<MarketValue>1500</MarketValue>
+			<Bulk>7</Bulk>
+			<Mass>4</Mass>
+		</statBases>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/Head/BargestHead</texPath>
+		</graphicData>
+	</ThingDef>
+
+<ThingDef>
+		<defName>BehirHead</defName>
+		<label>Behir's head</label>
+		<description>An incredible trophy in the form of the severed head of a purple dracoen, does this really happen? Is he really real? The glassy eyes are creepy even after the death of the giant.</description>
+		<thingClass>ThingWithComps</thingClass>
+		<comps>
+			<li Class="CompProperties_Lifespan">
+				<lifespanTicks>1000000</lifespanTicks>
+			</li>
+		</comps>
+		<tickerType>Normal</tickerType>
+		<category>Item</category>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+		<thingCategories>
+			<li>BodyParts</li>
+		</thingCategories>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<altitudeLayer>Item</altitudeLayer>
+		<stackLimit>1</stackLimit>
+		<alwaysHaulable>true</alwaysHaulable>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<rotatable>false</rotatable>
+		<pathCost>15</pathCost>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<DeteriorationRate>1</DeteriorationRate>
+			<MarketValue>1500</MarketValue>
+			<Bulk>7</Bulk>
+			<Mass>4</Mass>
+		</statBases>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/Head/BehirHead</texPath>
+		</graphicData>
+	</ThingDef>
+
+<ThingDef>
+		<defName>KirinHead</defName>
+		<label>Kirin's head</label>
+		<description>An incredible trophy in the form of Kirin’s severed head. Touching the fluffy fur leaves a slight frost. The glassy eyes are creepy even after the death of the giant.</description>
+		<thingClass>ThingWithComps</thingClass>
+		<comps>
+			<li Class="CompProperties_Lifespan">
+				<lifespanTicks>1000000</lifespanTicks>
+			</li>
+		</comps>
+		<tickerType>Normal</tickerType>
+		<category>Item</category>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+		<thingCategories>
+			<li>BodyParts</li>
+		</thingCategories>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<altitudeLayer>Item</altitudeLayer>
+		<stackLimit>1</stackLimit>
+		<alwaysHaulable>true</alwaysHaulable>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<rotatable>false</rotatable>
+		<pathCost>15</pathCost>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<DeteriorationRate>1</DeteriorationRate>
+			<MarketValue>1500</MarketValue>
+			<Bulk>7</Bulk>
+			<Mass>4</Mass>
+		</statBases>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/Head/KirinHead</texPath>
+		</graphicData>
+	</ThingDef>
+
+
+<ThingDef>
+		<defName>WyvernHead</defName>
+		<label>Wyvern Head</label>
+		<description>An incredible trophy in the form of the severed head of a green dragon. Touching the scales is mesmerizing. The glassy eyes are terrifying even after the death of the giant.</description>
+		<thingClass>ThingWithComps</thingClass>
+		<comps>
+			<li Class="CompProperties_Lifespan">
+				<lifespanTicks>1000000</lifespanTicks>
+			</li>
+		</comps>
+		<tickerType>Normal</tickerType>
+		<category>Item</category>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+		<thingCategories>
+			<li>BodyParts</li>
+		</thingCategories>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<altitudeLayer>Item</altitudeLayer>
+		<stackLimit>1</stackLimit>
+		<alwaysHaulable>true</alwaysHaulable>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<rotatable>false</rotatable>
+		<pathCost>15</pathCost>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<DeteriorationRate>1</DeteriorationRate>
+			<MarketValue>1500</MarketValue>
+			<Bulk>7</Bulk>
+			<Mass>4</Mass>
+		</statBases>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/Head/WyvernHead</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	
+	<ThingDef>
+		<defName>ThrumboHead</defName>
+		<label>Trumbo head</label>
+		<description>An incredible trophy in the form of the severed head of a furry giant. Touching the snow-white fur gives rise to thoughts of snowy plains. Glassy eyes are creepy even after the death of the giant.</description>
+		<thingClass>ThingWithComps</thingClass>
+		<comps>
+			<li Class="CompProperties_Lifespan">
+				<lifespanTicks>1000000</lifespanTicks>
+			</li>
+		</comps>
+		<tickerType>Normal</tickerType>
+		<category>Item</category>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+		<thingCategories>
+			<li>BodyParts</li>
+		</thingCategories>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<altitudeLayer>Item</altitudeLayer>
+		<stackLimit>1</stackLimit>
+		<alwaysHaulable>true</alwaysHaulable>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<rotatable>false</rotatable>
+		<pathCost>15</pathCost>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<DeteriorationRate>1</DeteriorationRate>
+			<MarketValue>1500</MarketValue>
+			<Bulk>7</Bulk>
+			<Mass>4</Mass>
+		</statBases>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/Head/ThrumboHead</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	
+	<ThingDef>
+		<defName>FeenixHead</defName>
+		<label>Phoenix head</label>
+		<description>An incredible trophy in the form of the severed head of a fiery dragon. Touching the scales gives rise to thoughts of lava rivers. The glassy eyes are creepy even after the death of the giant.</description>
+		<thingClass>ThingWithComps</thingClass>
+		<comps>
+			<li Class="CompProperties_Lifespan">
+				<lifespanTicks>1000000</lifespanTicks>
+			</li>
+		</comps>
+		<tickerType>Normal</tickerType>
+		<category>Item</category>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+		<thingCategories>
+			<li>BodyParts</li>
+		</thingCategories>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<altitudeLayer>Item</altitudeLayer>
+		<stackLimit>1</stackLimit>
+		<alwaysHaulable>true</alwaysHaulable>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<rotatable>false</rotatable>
+		<pathCost>15</pathCost>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<DeteriorationRate>1</DeteriorationRate>
+			<MarketValue>1500</MarketValue>
+			<Bulk>7</Bulk>
+			<Mass>4</Mass>
+		</statBases>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/Head/FeenixHead</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	
+	<ThingDef>
+		<defName>LivingSun</defName>
+		<label>Heart of baguest</label>
+		<description>The living heart of the creature of darkness that contains sparks of light.</description>
+		<thingClass>ThingWithComps</thingClass>
+		<comps>
+			
+			<li Class="CompProperties_Forbiddable"/>
+
+			<li Class="CompProperties_Glower">
+				<glowRadius>1</glowRadius>
+				<glowColor>(238,238,238,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Lifespan">
+				<lifespanTicks>1000000</lifespanTicks>
+			</li>
+		</comps>
+		<tickerType>Normal</tickerType>
+		<category>Item</category>
+		 <thingCategories>
+          <li>ItemsMisc</li>
+         </thingCategories>
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<altitudeLayer>Item</altitudeLayer>
+		<stackLimit>1</stackLimit>
+		<alwaysHaulable>true</alwaysHaulable>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<rotatable>false</rotatable>
+		<pathCost>15</pathCost>
+		 <thingSetMakerTags>
+       <li>RewardStandardCore</li>
+    </thingSetMakerTags>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<DeteriorationRate>1</DeteriorationRate>
+			<MarketValue>1500</MarketValue>
+			<Bulk>7</Bulk>
+			<Mass>4</Mass>
+		</statBases>
+		 <allowedArchonexusCount>50</allowedArchonexusCount>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Item/BagestHeart</texPath>
+		</graphicData>
+		<researchPrerequisites>
+			<li>TheHybridization</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef>
+		<defName>PsyHeart</defName>
+		<label>Behir's heart</label>
+		<description>The living heart of a behir, from time to time releases a psi impulse, this can probably be used.</description>
+		<thingClass>ThingWithComps</thingClass>
+		<comps>
+			
+			<li Class="CompProperties_Forbiddable"/>
+
+			<li Class="CompProperties_Glower">
+				<glowRadius>4</glowRadius>
+				<glowColor>(139,0,255,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Lifespan">
+				<lifespanTicks>1000000</lifespanTicks>
+			</li>
+		</comps>
+		<tickerType>Normal</tickerType>
+		<category>Item</category>
+		 <thingCategories>
+          <li>ItemsMisc</li>
+         </thingCategories>
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<altitudeLayer>Item</altitudeLayer>
+		<stackLimit>1</stackLimit>
+		<alwaysHaulable>true</alwaysHaulable>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<rotatable>false</rotatable>
+		<pathCost>15</pathCost>
+		 <thingSetMakerTags>
+       <li>RewardStandardCore</li>
+    </thingSetMakerTags>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<DeteriorationRate>1</DeteriorationRate>
+			<MarketValue>1500</MarketValue>
+			<Bulk>7</Bulk>
+			<Mass>4</Mass>
+		</statBases>
+		 <allowedArchonexusCount>50</allowedArchonexusCount>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Item/BechirHart</texPath>
+		</graphicData>
+		<researchPrerequisites>
+			<li>TheHybridization</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	
+	<ThingDef>
+		<defName>ToxHeart</defName>
+		<label>Wyvern's heart</label>
+		<description>The living heart of a Wyvern, cleanses the area of ​​toxins, this can probably be used.</description>
+		<thingClass>ThingWithComps</thingClass>
+		<comps>
+			
+			<li Class="CompProperties_Forbiddable"/>
+
+			<li Class="CompProperties_Glower">
+				<glowRadius>1</glowRadius>
+				<glowColor>(0,155,0,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Lifespan">
+				<lifespanTicks>1000000</lifespanTicks>
+			</li>
+		</comps>
+		<tickerType>Normal</tickerType>
+		<category>Item</category>
+		 <thingCategories>
+          <li>ItemsMisc</li>
+         </thingCategories>
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<altitudeLayer>Item</altitudeLayer>
+		<stackLimit>1</stackLimit>
+		<alwaysHaulable>true</alwaysHaulable>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<rotatable>false</rotatable>
+		<pathCost>15</pathCost>
+		 <thingSetMakerTags>
+       <li>RewardStandardCore</li>
+    </thingSetMakerTags>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<DeteriorationRate>1</DeteriorationRate>
+			<MarketValue>1500</MarketValue>
+			<Bulk>7</Bulk>
+			<Mass>4</Mass>
+		</statBases>
+		 <allowedArchonexusCount>50</allowedArchonexusCount>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Item/WivernaHeart</texPath>
+		</graphicData>
+		<researchPrerequisites>
+			<li>TheHybridization</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+</Defs>

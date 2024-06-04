@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DragonCarpet.label>Ковер из Феникса</DragonCarpet.label>
+  <DragonCarpet.description>Ковер из кожи Феникса теплый на ощупь и немного светится в темноте!</DragonCarpet.description>
+
+  <KirinCarpet.label>Ковер из Кирина</KirinCarpet.label>
+  <KirinCarpet.description>Густой мех Кирина прекрасно украсит комнату, если не помнить, сколько людей погибло в процессе добычи этого меха!</KirinCarpet.description>
+
+  <GrindragonCarpet.label>Ковер из Виверны</GrindragonCarpet.label>
+  <GrindragonCarpet.description>Мифическое существо, напоминающее европейского дракона, но имеющее только одну пару ног, часто изображается со змеевидным хвостом и редко бывает огнедышащим, в отличие от четвероногих драконов. Дракон имеет наибольшее сходство с виверной..</GrindragonCarpet.description>
+
+  <BehirCarpet.label>Ковер от Бехира</BehirCarpet.label>
+  <BehirCarpet.description>Ковер из шкуры ужасающего монстра!</BehirCarpet.description>
+
+  <BagestCarpet.label>Ковер из Багеста</BagestCarpet.label>
+  <BagestCarpet.description>Жуткое существо оказалось не в той колонии, теперь она украшение колонии</BagestCarpet.description>
+
+  <TrumbCarpet.label>Ковер из Трумбо</TrumbCarpet.label>
+  <TrumbCarpet.description>Великое существо, оказавшееся не в той колонии, теперь его мех украшает колонию.</TrumbCarpet.description>
+
+  <InsectCarpet.label>Ковер из насекомых</InsectCarpet.label>
+  <InsectCarpet.description>Этот коврик-произведение искусства с одной стороны,соединение генной инженерии со второй стороны...сочетает в себе домашний уют,любит тепло от камина,раскрывая чешуйки теплу,защищает входную дверь от названных и бродячих.Издаёт разные звуки,вместо дверного звонка или будильника ,иногда кажется что он мигрирует к холодильнику..иногда обнимает кота
+</InsectCarpet.description>
+
+
+</LanguageData>

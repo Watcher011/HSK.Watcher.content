@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MinceHemogenPack.label>출혈</MinceHemogenPack.label>
+  <MinceHemogenPack.description>혈액 펌핑.</MinceHemogenPack.description>
+  <MinceHemogenPack.jobString>도살.</MinceHemogenPack.jobString>
+
+  <CookMealFishAndBeer.label>생선으로 맥주 만들기</CookMealFishAndBeer.label>
+  <CookMealFishAndBeer.description>진짜 남자들의 음식.</CookMealFishAndBeer.description>
+  <CookMealFishAndBeer.jobString>기차.</CookMealFishAndBeer.jobString>
+
+  <CookMealFishinplastic.label>물고기를 플라스틱으로 밀봉하세요</CookMealFishinplastic.label>
+  <CookMealFishinplastic.description>힘든 시기를 위한 식량을 포장했습니다.</CookMealFishinplastic.description>
+  <CookMealFishinplastic.jobString>기차.</CookMealFishinplastic.jobString>
+
+  <MakeYzvar.label>우즈바르 요리하기</MakeYzvar.label>
+  <MakeYzvar.description>말린 과일로 우즈바르를 요리하세요.</MakeYzvar.description>
+  <MakeYzvar.jobString>우즈바르 요리.</MakeYzvar.jobString>
+
+
+</LanguageData>

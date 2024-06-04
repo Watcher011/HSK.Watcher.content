@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DruFungus.label>Сушеные грибы</DruFungus.label>
+  <DruFungus.description>Сушёные грибы — продукт питания со специфическим ароматом и вкусом, получаемый путём сушки свежих съедобных грибов. Сушёные грибы после предварительного замачивания могут широко использоваться в кулинарии, например в супах, рагу, солянке, соусах, начинках для пирогов, грибной икре..</DruFungus.description>
+
+  <DruFish.label>Сушеная солёная рыба</DruFish.label>
+  <DruFish.description>Процесс состоит из двух этапов: засолка и сушка. Засолка обязательна для продукта без термической обработки: соль уничтожит паразитов, если они есть в рыбе, и затормозит процессы разложения.</DruFish.description>
+
+  <DruFishPlastic.label>Сушеная солёная рыба в упаковке</DruFishPlastic.label>
+  <DruFishPlastic.description>Процесс состоит из трёх этапов: засолка , сушка и упаковка. Засолка обязательна для продукта без термической обработки: соль уничтожит паразитов, если они есть в рыбе, и затормозит процессы разложения.После упаковки в пластик можно хранить почти вечно.</DruFishPlastic.description>
+
+  <MealFishAndBeer.label>Пиво с сушеной рыбкой</MealFishAndBeer.label>
+  <MealFishAndBeer.description>Пиво и рыба словно созданы друг для друга.</MealFishAndBeer.description>
+
+  <Yzvae.label>Узвар</Yzvae.label>
+  <Yzvae.description>Узвар-Компот на основе сухих плодов, сухих ягод или сухофруктов.</Yzvae.description>
+  <Yzvae.ingestible.ingestCommandString>Выпить узвару {0}</Yzvae.ingestible.ingestCommandString>
+  <Yzvae.ingestible.ingestReportString>Выпивает {0}.</Yzvae.ingestible.ingestReportString>
+
+  <Druchips.label>Сушеные чипсы</Druchips.label>
+  <Druchips.description>Сушеные чипсы - закуска, представляющая собой тонкие ломтики картофеля.</Druchips.description>
+
+
+</LanguageData>

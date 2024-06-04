@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<ThingDef ParentName="SK_MealBase">
+		<defName>DruFungus</defName>
+		<label>Сушеные грибы</label>
+		<description>Сушёные грибы — продукт питания со специфическим ароматом и вкусом, получаемый путём сушки свежих съедобных грибов. Сушёные грибы после предварительного замачивания могут широко использоваться в кулинарии, например в супах, рагу, солянке, соусах, начинках для пирогов, грибной икре..</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/DruFungus</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingCategories>
+			<li>BasicPlantFoodRaw</li>
+		</thingCategories>
+		<statBases>
+			<DeteriorationRate>12</DeteriorationRate>
+			<MarketValue>8</MarketValue>
+			<Bulk>0.25</Bulk>
+			<Mass>0.12</Mass>
+			<WorkToMake>1500</WorkToMake>
+			<Nutrition>0.18</Nutrition>
+		</statBases>
+		<stackLimit>75</stackLimit>
+		<ingestible>
+			<preferability>MealAwful</preferability>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>RawVegetable_Eat</ingestSound>
+			<maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>80</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
+
+<ThingDef ParentName="MealBase">
+		<defName>DruFish</defName>
+		<label>Сушеная солёная рыба</label>
+		<description>Процесс состоит из двух этапов: засолка и сушка. Засолка обязательна для продукта без термической обработки: соль уничтожит паразитов, если они есть в рыбе, и затормозит процессы разложения.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/DruFish</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingCategories>
+			<li>MeatRaw</li>
+		</thingCategories>
+		<statBases>
+			<DeteriorationRate>8</DeteriorationRate>
+			<MarketValue>8</MarketValue>
+			<Bulk>0.25</Bulk>
+			<Mass>0.12</Mass>
+			<WorkToMake>1500</WorkToMake>
+			<Nutrition>0.18</Nutrition>
+		</statBases>
+		<stackLimit>75</stackLimit>
+		<ingestible>
+			<preferability>MealAwful</preferability>
+			 <ingestEffect>EatMeat</ingestEffect>
+			 <ingestSound>RawMeat_Eat</ingestSound>
+			<maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
+			<tasteThought>HadGFish</tasteThought>
+			<chairSearchRadius>25</chairSearchRadius>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>40</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="MealBase">
+		<defName>DruFishPlastic</defName>
+		<label>Сушеная солёная рыба в упаковке</label>
+		<description>Процесс состоит из трёх этапов: засолка , сушка и упаковка. Засолка обязательна для продукта без термической обработки: соль уничтожит паразитов, если они есть в рыбе, и затормозит процессы разложения.После упаковки в пластик можно хранить почти вечно.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/DruFishplastic</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingCategories>
+			<li>MeatRaw</li>
+		</thingCategories>
+		<statBases>
+			<DeteriorationRate>0.1</DeteriorationRate>
+			<MarketValue>12</MarketValue>
+			<Bulk>0.25</Bulk>
+			<Mass>0.12</Mass>
+			<WorkToMake>1500</WorkToMake>
+			<Nutrition>0.48</Nutrition>
+		</statBases>
+		<stackLimit>75</stackLimit>
+		<ingestible>
+			 <preferability>MealSimple</preferability>
+			 <ingestEffect>EatMeat</ingestEffect>
+			 <ingestSound>RawMeat_Eat</ingestSound>
+			<maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
+			<tasteThought>HadGFish</tasteThought>
+			<chairSearchRadius>25</chairSearchRadius>
+		</ingestible>
+			<allowedArchonexusCount>40</allowedArchonexusCount>
+		<thingSetMakerTags>
+		<li>HSKhumanitarianSuppliesTierOne</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	
+	<ThingDef ParentName="MealBeverage">
+    <defName>MealFishAndBeer</defName>
+    <label>Пиво с сушеной рыбкой</label>
+    <description>Пиво и рыба словно созданы друг для друга.</description>
+	 <descriptionHyperlinks>
+      <HediffDef>AlcoholHigh</HediffDef>
+      <HediffDef>AlcoholTolerance</HediffDef>
+      <HediffDef>Hangover</HediffDef>
+      <HediffDef>AlcoholAddiction</HediffDef>
+      <HediffDef>Cirrhosis</HediffDef>
+      <HediffDef>ChemicalDamageModerate</HediffDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>Things/Item/Meal/FishAndBeer</texPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	 <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <statBases>
+      <MarketValue>15</MarketValue>
+      <WorkToMake>300</WorkToMake>
+	   <Mass>0.3</Mass>
+      <Flammability>0.5</Flammability>
+      <Nutrition>0.9</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+	  <tasteThought>HadGFishAndBear</tasteThought>
+	  <chairSearchRadius>25</chairSearchRadius>
+	  <joyKind>Gluttonous</joyKind>
+      <joy>0.20</joy>
+	   <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AlcoholHigh</hediffDef>
+          <severity>0.03</severity>
+          <toleranceChemical>Alcohol</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AlcoholTolerance</hediffDef>
+          <severity>0.003</severity>
+          <divideByBodySize>true</divideByBodySize>
+          <multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+	 <comps>
+      <li Class="CompProperties_Drug">
+        <chemical>Alcohol</chemical>
+        <addictiveness>0.010</addictiveness>
+        <minToleranceToAddict>0.25</minToleranceToAddict>
+        <existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
+        <needLevelOffset>0.9</needLevelOffset>
+        <listOrder>10</listOrder>
+      </li>
+    </comps>
+	<allowedArchonexusCount>40</allowedArchonexusCount>
+		<thingSetMakerTags>
+		<li>HSKhumanitarianSuppliesTierOne</li>
+		</thingSetMakerTags>
+  </ThingDef>
+  
+  
+  
+  
+  
+  
+  <ThingDef ParentName="MealBeverage">
+		<defName>Yzvae</defName>
+		<label>Узвар</label>
+		<description>Узвар-Компот на основе сухих плодов, сухих ягод или сухофруктов.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/Yzvar</texPath>
+			  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<stackLimit>10</stackLimit>
+		<statBases>
+			<MarketValue>7</MarketValue>
+			<Nutrition>0.10</Nutrition>
+		</statBases>
+		<thingCategories>
+			<li>Energetics</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<joy>0.17</joy>
+			<nurseable>true</nurseable>
+			<drugCategory>Social</drugCategory>
+			<ingestSound>Ingest_Drink</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>Выпить узвару {0}</ingestCommandString>
+			<ingestReportString>Выпивает {0}.</ingestReportString>
+			<tasteThought>HadYzvar</tasteThought>
+			<chairSearchRadius>25</chairSearchRadius>
+			<joyKind>Gluttonous</joyKind>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>GoodYzvar</hediffDef>
+					<severity>0.25</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<addictiveness>0</addictiveness>
+				<listOrder>1100</listOrder>
+			</li>
+		</comps>
+		<allowedArchonexusCount>40</allowedArchonexusCount>
+		<thingSetMakerTags>
+			<li>HSKhumanitarianSuppliesTierOne</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	
+	
+	
+	
+	<ThingDef ParentName="SK_MealBase">
+		<defName>Druchips</defName>
+		<label>Сушеные чипсы</label>
+		<description>Сушеные чипсы - закуска, представляющая собой тонкие ломтики картофеля.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/chips</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingCategories>
+			<li>BasicPlantFoodRaw</li>
+		</thingCategories>
+		<statBases>
+			<DeteriorationRate>40</DeteriorationRate>
+			<MarketValue>3</MarketValue>
+			<Bulk>0.05</Bulk>
+			<Mass>0.02</Mass>
+			<WorkToMake>2500</WorkToMake>
+			<Nutrition>0.08</Nutrition>
+		</statBases>
+		<stackLimit>30</stackLimit>
+		
+		<ingestible>
+			<preferability>MealAwful</preferability>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>RawVegetable_Eat</ingestSound>
+		 <tasteThought>Hadchips</tasteThought>
+			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Goodchips</hediffDef>
+					<severity>1</severity>
+				</li>
+		</outcomeDoers>
+		</ingestible>
+		 
+	</ThingDef>
+	
+</Defs>
+
+
+	
+

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Super leathers -->
+
+  <Leather_Thrumbo.label>magic fur</Leather_Thrumbo.label>
+  <Leather_Thrumbo.description>Luxurious and extraordinarily durable. Used for the highest-quality crafts for its insulation and strength.</Leather_Thrumbo.description>
+
+  <Leather_GRenLeather.label>Green Wyvern Scale</Leather_GRenLeather.label>
+  <Leather_GRenLeather.description>Scales from a green wyvern, extremely strong in appearance.</Leather_GRenLeather.description>
+
+  <Leather_BarghestFur.label>barghest fur pelt</Leather_BarghestFur.label>
+  <Leather_BarghestFur.description>Luxurious and extraordinarily durable. Used for the highest-quality crafts for its insulation and strength.</Leather_BarghestFur.description>
+
+  <Leather_Behir.label>Behir skin</Leather_Behir.label>
+  <Leather_Behir.description>Skin of an Ancient Monster.</Leather_Behir.description>
+
+
+</LanguageData>

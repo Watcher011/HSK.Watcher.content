@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BargestHead.label>Голова Багеста</BargestHead.label>
+  <BargestHead.description>Жуткий трофей в виде отрубленной головы страшного монстра. Стеклянные глаза вызывают жуткость даже после смерти великана.</BargestHead.description>
+
+  <BehirHead.label>Голова Бехира</BehirHead.label>
+  <BehirHead.description>Невероятный трофей в виде отрубленной головы пурпурного дракона, такое действительно бывает? Он действительно настоящий? Стеклянные глаза вызывают жуткость даже после смерти великана.</BehirHead.description>
+
+  <KirinHead.label>Голова Кирина</KirinHead.label>
+  <KirinHead.description>Невероятный трофей в виде отрубленной головы Кирин. Прикосновение к пушистому меху оставляет легкий иней. Стеклянные глаза вызывают жуткость даже после смерти великана.</KirinHead.description>
+
+  <WyvernHead.label>Голова Виверны</WyvernHead.label>
+  <WyvernHead.description>Невероятный трофей в виде отрубленной головы зеленого дракона. Прикосновение  завораживает. Стеклянные глаза вызывают ужас даже после смерти великана.</WyvernHead.description>
+
+  <ThrumboHead.label>Голова Трумбо</ThrumboHead.label>
+  <ThrumboHead.description>Невероятный трофей в виде отрубленной головы мохнатого великана. Прикосновение к белоснежному меху рождает мысли о заснеженных равнинах. Стеклянные глаза вызывают жуткость даже после смерти великана.</ThrumboHead.description>
+
+  <FeenixHead.label>Голова Феникса</FeenixHead.label>
+  <FeenixHead.description>Невероятный трофей в виде отрубленной головы огненного дракона. Прикосновение к весам вызывает мысли о лавовых реках. Стеклянные глаза вызывают жуткость даже после смерти великана.</FeenixHead.description>
+
+  <LivingSun.label>Сердце Багеста</LivingSun.label>
+  <LivingSun.description>Живое сердце порождения тьмы, содержащее искры света.</LivingSun.description>
+
+  <PsyHeart.label>Сердце Бехира</PsyHeart.label>
+  <PsyHeart.description>Живое сердце бехира время от времени выпускает пси-импульс, этим, наверное, можно воспользоваться.</PsyHeart.description>
+
+  <ToxHeart.label>Сердце Виверны</ToxHeart.label>
+  <ToxHeart.description>Живое сердце Виверны, очищает местность от токсинов, возможно это можно использовать.</ToxHeart.description>
+
+
+</LanguageData>

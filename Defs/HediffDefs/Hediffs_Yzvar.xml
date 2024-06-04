@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HediffDef>
+		<defName>GoodYzvar</defName>
+		<label>Энергия узвара</label>
+		<description>Узвар дарует силу природы.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>2</initialSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.7</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<label>Заряд энергии.</label>
+				<painFactor>0.9</painFactor>
+				<capMods>
+
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.05</offset>
+					</li>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>0.04</offset>
+					</li>
+
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.5</minSeverity>
+				<label>Заряд энергии.</label>
+				<painFactor>0.8</painFactor>
+				<capMods>
+
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.10</offset>
+					</li>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>0.08</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>Goodchips</defName>
+		<label>Сила чипсов</label>
+		<description>Чипсы повышают концентрацию.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1</initialSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.7</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<label>Заряд энергии.</label>
+				<painFactor>0.9</painFactor>
+				<capMods>
+
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.01</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<GlobalLearningFactor>0.2</GlobalLearningFactor>
+                     <MoveSpeed>0.2</MoveSpeed>		
+                     <RestFallRateFactor>1</RestFallRateFactor>	
+                    <WorkSpeedGlobal>-0.08</WorkSpeedGlobal>
+               <HygieneRateMultiplier>-0.1</HygieneRateMultiplier>					
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	
+
+
+</Defs>

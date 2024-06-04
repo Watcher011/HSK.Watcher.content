@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Make_DriedMushrooms.label>버섯을 말리다</Make_DriedMushrooms.label>
+  <Make_DriedMushrooms.description>신선한 버섯을 말리세요. 이 과정은 2일이 소요됩니다.</Make_DriedMushrooms.description>
+
+  <Make_DriedMushrooms_x5.label>마른 버섯 x5</Make_DriedMushrooms_x5.label>
+  <Make_DriedMushrooms_x5.description>신선한 버섯을 말리세요. 절차는 2일이 소요됩니다..</Make_DriedMushrooms_x5.description>
+
+  <Make_DriedFish.label>생선을 말리다</Make_DriedFish.label>
+  <Make_DriedFish.description>생선을 말리세요. 이 과정은 2일이 소요됩니다.</Make_DriedFish.description>
+
+  <Make_Driedchips.label>칩을 말리세요</Make_Driedchips.label>
+  <Make_Driedchips.description>칩을 말리세요. 절차는 3일이 소요됩니다.</Make_Driedchips.description>
+
+  <Make_icecream.label>간단한 아이스크림 만들기</Make_icecream.label>
+  <Make_icecream.description>어린 시절처럼 아이스크림 만들기</Make_icecream.description>
+
+  <Make_DriedNori.label>해초를 말리다</Make_DriedNori.label>
+  <Make_DriedNori.description>신선한 해초를 말리세요. 이 과정은 2일이 소요됩니다.</Make_DriedNori.description>
+
+  <Make_DriedNori_x5.label>마른 해초 x5</Make_DriedNori_x5.label>
+  <Make_DriedNori_x5.description>신선한 해초를 말리세요. 절차는 2일이 소요됩니다.</Make_DriedNori_x5.description>
+
+
+</LanguageData>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Super leathers -->
+
+  <Leather_Thrumbo.label>pele mágica</Leather_Thrumbo.label>
+  <Leather_Thrumbo.description>Luxuoso e extraordinariamente durável. Utilizado para artesanato da mais alta qualidade pelo seu isolamento e resistência.</Leather_Thrumbo.description>
+
+  <Leather_GRenLeather.label>Escala Wyvern Verde</Leather_GRenLeather.label>
+  <Leather_GRenLeather.description>Escamas de um wyvern verde, de aparência extremamente forte.</Leather_GRenLeather.description>
+
+  <Leather_BarghestFur.label>pele de barghest</Leather_BarghestFur.label>
+  <Leather_BarghestFur.description>Luxuoso e extraordinariamente durável. Usado para artesanato da mais alta qualidade por seu isolamento e resistência.</Leather_BarghestFur.description>
+
+  <Leather_Behir.label>Pele de Behir</Leather_Behir.label>
+  <Leather_Behir.description>Pele de um monstro antigo.</Leather_Behir.description>
+
+
+</LanguageData>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DruFungus.label>Dried mushrooms</DruFungus.label>
+  <DruFungus.description>Dried mushrooms are a food product with a specific aroma and taste, obtained by drying fresh edible mushrooms. Dried mushrooms after pre-soaking can be widely used in cooking, for example in soups, stews, solyanka, sauces, pie fillings, and mushroom caviar.</DruFungus.description>
+
+  <DruFish.label>Dried salted fish</DruFish.label>
+  <DruFish.description>The process consists of two stages: salting and drying. Salting is mandatory for a product without heat treatment: salt will destroy parasites if they are in the fish and slow down the decomposition processes.</DruFish.description>
+
+  <DruFishPlastic.label>Dried salted fish in packaging</DruFishPlastic.label>
+  <DruFishPlastic.description>The process consists of three stages: salting, drying and packaging. Salting is mandatory for a product without heat treatment: salt will destroy parasites if they are in the fish and slow down the decomposition processes. Once packaged in plastic, it can be stored almost forever.</DruFishPlastic.description>
+
+  <MealFishAndBeer.label>Beer with dried fish</MealFishAndBeer.label>
+  <MealFishAndBeer.description>Beer and fish seem made for each other.</MealFishAndBeer.description>
+
+  <Yzvae.label>Uzvar</Yzvae.label>
+  <Yzvae.description>Uzvar-Compote based on dry fruits, dry berries or dried fruits.</Yzvae.description>
+  <Yzvae.ingestible.ingestCommandString>Drink uzvara {0}</Yzvae.ingestible.ingestCommandString>
+  <Yzvae.ingestible.ingestReportString>Drinks {0}.</Yzvae.ingestible.ingestReportString>
+
+  <Druchips.label>Dried chips</Druchips.label>
+  <Druchips.description>Dried chips - a snack consisting of thin slices of potatoes.</Druchips.description>
+
+
+</LanguageData>

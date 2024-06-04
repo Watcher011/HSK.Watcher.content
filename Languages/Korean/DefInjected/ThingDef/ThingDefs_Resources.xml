@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- AMBER -->
+
+  <MinableAmber.label>호박색</MinableAmber.label>
+  <MinableAmber.description>보존된 수액이 약간 함유되어 있는 암석입니다.</MinableAmber.description>
+
+  <Amber.label>호박색</Amber.label>
+  <Amber.description>보존된 고대 나무 수액. 때로는 그 안에 작은 생물이 있습니다. 광택이 잘 나는 부드러운 레진.</Amber.description>
+  <Amber.stuffProps.stuffAdjective>호박색</Amber.stuffProps.stuffAdjective>
+
+
+</LanguageData>

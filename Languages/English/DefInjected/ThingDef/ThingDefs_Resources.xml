@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- AMBER -->
+
+  <MinableAmber.label>amber</MinableAmber.label>
+  <MinableAmber.description>Rock containing bits of preserved sap.</MinableAmber.description>
+
+  <Amber.label>Amber</Amber.label>
+  <Amber.description>Ancient tree sap that has been preserved. Sometimes there are small creatures in it. Soft resin that polishes well.</Amber.description>
+  <Amber.stuffProps.stuffAdjective>amber</Amber.stuffProps.stuffAdjective>
+
+
+</LanguageData>

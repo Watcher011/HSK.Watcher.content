@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- AMBER -->
+
+  <MinableAmber.label>âmbar</MinableAmber.label>
+  <MinableAmber.description>Rocha contendo pedaços de seiva preservada.</MinableAmber.description>
+
+  <Amber.label>Âmbar</Amber.label>
+  <Amber.description>Seiva de árvore antiga que foi preservada. Às vezes há pequenas criaturas nele. Resina macia que dá um bom polimento.</Amber.description>
+  <Amber.stuffProps.stuffAdjective>âmbar</Amber.stuffProps.stuffAdjective>
+
+
+</LanguageData>

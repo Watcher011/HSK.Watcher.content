@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Super leathers -->
+
+  <Leather_Thrumbo.label>마법의 모피</Leather_Thrumbo.label>
+  <Leather_Thrumbo.description>고급스럽고 내구성이 뛰어납니다. 보온성과 강도가 우수하여 최고 품질의 공예품에 사용됩니다..</Leather_Thrumbo.description>
+
+  <Leather_GRenLeather.label>녹색 와이번 비늘</Leather_GRenLeather.label>
+  <Leather_GRenLeather.description>녹색 와이번의 비늘로 외관이 매우 강합니다.</Leather_GRenLeather.description>
+
+  <Leather_BarghestFur.label>바게스트 모피 펠트</Leather_BarghestFur.label>
+  <Leather_BarghestFur.description>고급스럽고 내구성이 뛰어납니다. 보온성과 강도가 좋아 최고 품질의 공예품에 사용됩니다.</Leather_BarghestFur.description>
+
+  <Leather_Behir.label>베히르 스킨</Leather_Behir.label>
+  <Leather_Behir.description>고대 괴물의 가죽.</Leather_Behir.description>
+
+
+</LanguageData>

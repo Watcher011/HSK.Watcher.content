@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SubCategory_AncientRugsGG.label>유물 생물의 가죽</SubCategory_AncientRugsGG.label>
+  <SubCategory_AncientRugsGG.description>유물 스킨.</SubCategory_AncientRugsGG.description>
+
+  <SubCategory_AncientRugsHH.label>유물 생물의 트로피</SubCategory_AncientRugsHH.label>
+  <SubCategory_AncientRugsHH.description>유물 머리.</SubCategory_AncientRugsHH.description>
+
+  <SubCategory_heart.label>마음</SubCategory_heart.label>
+  <SubCategory_heart.description>마음.</SubCategory_heart.description>
+
+
+  <!--<SubCategory_Columns.label>열</SubCategory_Columns.label>-->
+  <!--<SubCategory_Columns.description>기둥 - 건축 구조의 일부, 원통형 기둥, 나무, 돌 또는 금속으로 지붕을 고정합니다.</SubCategory_Columns.description>-->
+
+</LanguageData>

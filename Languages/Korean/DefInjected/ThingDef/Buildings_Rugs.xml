@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DragonCarpet.label>피닉스의 러그</DragonCarpet.label>
+  <DragonCarpet.description>피닉스 가죽으로 만든 카펫은 촉감이 따뜻하고 어둠 속에서도 약간 빛이 납니다!</DragonCarpet.description>
+
+  <KirinCarpet.label>기린의 카펫</KirinCarpet.label>
+  <KirinCarpet.description>기린의 두꺼운 모피는 방을 완벽하게 장식할 것입니다. 이 모피를 추출하는 과정에서 얼마나 많은 사람이 죽었는지 기억나지 않는다면!</KirinCarpet.description>
+
+  <GrindragonCarpet.label>와이번 카펫</GrindragonCarpet.label>
+  <GrindragonCarpet.description>유럽의 용을 연상시키는 신화 속 생물이지만 다리가 한 쌍뿐이어서 종종 구불구불한 꼬리로 묘사되며 네발 달린 용과 달리 불을 뿜는 경우는 거의 없습니다. 용은 와이번과 가장 유사합니다.</GrindragonCarpet.description>
+
+  <BehirCarpet.label>베키르의 카펫</BehirCarpet.label>
+  <BehirCarpet.description>무서운 괴물의 가죽으로 만든 카펫!</BehirCarpet.description>
+
+  <BagestCarpet.label>Bagest의 카펫</BagestCarpet.label>
+  <BagestCarpet.description>소름 끼치는 생물이 잘못된 식민지에 도착했습니다. 이제 그녀는 식민지의 장식입니다</BagestCarpet.description>
+
+  <TrumbCarpet.label>Trumbo의 카펫</TrumbCarpet.label>
+  <TrumbCarpet.description>엉뚱한 콜로니에 살게 된 거대 생명체, 이제 그 털로 콜로니를 장식하다</TrumbCarpet.description>
+
+  <InsectCarpet.label>곤충의 카펫</InsectCarpet.label>
+  <InsectCarpet.description>이 러그는 한쪽은 예술 작품이고 다른 쪽은 유전 공학의 조합입니다... 집의 편안함을 결합하고 벽난로의 따뜻함을 좋아하며 따뜻함에 저울을 열고 이름이 지정된 현관문을 보호합니다. 초인종이나 알람시계 대신 다른 소리를 내기도 하고, 때로는 냉장고로 옮겨가는 것 같기도 하고.. 때로는 고양이를 안아주기도 합니다.</InsectCarpet.description>
+
+
+</LanguageData>

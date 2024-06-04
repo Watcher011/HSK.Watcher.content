@@ -1,0 +1,85 @@
+﻿<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs</xpath>
+		<value>
+	<ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_Lights</defName>
+		<label>fueled lights</label>
+		<description>Fueled lights that need fuel for work.</description>
+		<defNames>
+			<li>TorchLamp</li>
+			<li>BowlLamp</li>
+			<li>WallTorch</li>
+			<li>Candle</li>
+			<li>GlowstoneLamp</li>
+			<li>KristalWallLamp</li>
+			<li>CeilingKristal</li>
+			<li>OutdoorGroundLamp</li>
+			<li>Lighting_PathLamp</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">Brazier</li>
+		</defNames>
+		<designationCategory>Accessories</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+	
+	<ArchitectSense.DesignationSubCategoryDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>SubCategory_DarkLamps</defName>
+		<label>dark lamps</label>
+		<description>Lamp that lights an area with dark light.</description>
+		<defNames>
+		<li>KristalWallLampDark</li>
+		<li>CeilingKristalDark</li>
+		
+			<li>Darktorch</li>
+			<li>DarktorchFungus</li>
+			<li>Darktorch</li>
+			<li>DarklightBrazier</li>
+		</defNames>
+		<designationCategory>Accessories</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+	
+	<ArchitectSense.DesignationSubCategoryDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>SubCategory_Columns</defName>
+		<label>columns</label>
+		<description>A column capable of supporting a roof with a glowstone crystal. Doesn't block view or movement and looks pretty nice</description>
+		<defNames>
+		<li>Column</li>
+		<li>ColumnKristal</li>
+		<li>ColumnKristalDark</li>
+		</defNames>
+		<designationCategory>Accessories</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs</xpath>
+		<value>
+			<ArchitectSense.DesignationSubCategoryDef>
+				<defName>SubCategory_JadeHSK</defName>
+				<label>Пол из Нефрита</label>
+				<description>Пол сделаный из нефрита.</description>
+				<defNames>
+					<li>FloorStoneStaggeredNefrBrick</li>
+					<li>FloorStoneMosaicNEF</li>
+					<li>FloorStoneMosaicNEFt</li>
+				</defNames>
+				<designationCategory>NaturalFloors</designationCategory>
+				<debug>false</debug>
+			</ArchitectSense.DesignationSubCategoryDef>
+			
+				<ArchitectSense.DesignationSubCategoryDef>
+				<defName>SubCategory_Amber</defName>
+				<label>Пол из Янтаря</label>
+				<description>Пол сделаный из Янтаря.</description>
+				<defNames>
+					<li>FloorAmber</li>
+				</defNames>
+				<designationCategory>NaturalFloors</designationCategory>
+				<debug>false</debug>
+			</ArchitectSense.DesignationSubCategoryDef>
+		</value>
+	</Operation>
+</Patch>

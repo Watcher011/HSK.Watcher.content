@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GoodYzvar.label>Energia uzvar</GoodYzvar.label>
+  <GoodYzvar.description>Uzvar confere o poder da natureza.</GoodYzvar.description>
+  <GoodYzvar.stages.0.label>Carga de energia.</GoodYzvar.stages.0.label>
+  <GoodYzvar.stages.1.label>Carga de energia.</GoodYzvar.stages.1.label>
+
+  <Goodchips.label>O poder dos chips</Goodchips.label>
+  <Goodchips.description>Os chips aumentam a concentração.</Goodchips.description>
+  <Goodchips.stages.0.label>Carga de energia.</Goodchips.stages.0.label>
+
+
+</LanguageData>

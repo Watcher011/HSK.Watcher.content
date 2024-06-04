@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MinceHemogenPack.label>Sangramento</MinceHemogenPack.label>
+  <MinceHemogenPack.description>Bombeamento de sangue.</MinceHemogenPack.description>
+  <MinceHemogenPack.jobString>Açougue.</MinceHemogenPack.jobString>
+
+  <CookMealFishAndBeer.label>Faça cerveja com peixe</CookMealFishAndBeer.label>
+  <CookMealFishAndBeer.description>Comida de homem de verdade.</CookMealFishAndBeer.description>
+  <CookMealFishAndBeer.jobString>Trens.</CookMealFishAndBeer.jobString>
+
+  <CookMealFishinplastic.label>Sele o peixe em plástico</CookMealFishinplastic.label>
+  <CookMealFishinplastic.description>Rações embaladas para tempos difíceis.</CookMealFishinplastic.description>
+  <CookMealFishinplastic.jobString>Trens.</CookMealFishinplastic.jobString>
+
+  <MakeYzvar.label>Cozinhe o uzvar</MakeYzvar.label>
+  <MakeYzvar.description>Cozinhe o uzvar com frutas secas.</MakeYzvar.description>
+  <MakeYzvar.jobString>Cozinhando Uzvar.</MakeYzvar.jobString>
+
+
+</LanguageData>

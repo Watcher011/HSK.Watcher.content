@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SubCategory_AncientRugsGG.label>Pele de criaturas relíquias</SubCategory_AncientRugsGG.label>
+  <SubCategory_AncientRugsGG.description>Pele de criaturas relíquias.</SubCategory_AncientRugsGG.description>
+
+  <SubCategory_AncientRugsHH.label>Cabeças de criaturas relíquias</SubCategory_AncientRugsHH.label>
+  <SubCategory_AncientRugsHH.description>Cabeças de criaturas relíquias.</SubCategory_AncientRugsHH.description>
+
+  <SubCategory_heart.label>coração</SubCategory_heart.label>
+  <SubCategory_heart.description>coração.</SubCategory_heart.description>
+
+
+  <!--<SubCategory_Columns.label>Coluna</SubCategory_Columns.label>-->
+  <!--<SubCategory_Columns.description>Coluna - parte de uma estrutura arquitetônica, um pilar cilíndrico, de madeira, pedra ou metal, que sustenta a cobertura.</SubCategory_Columns.description>-->
+
+</LanguageData>

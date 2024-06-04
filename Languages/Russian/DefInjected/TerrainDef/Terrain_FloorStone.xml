@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FloorStoneStaggeredNefrBrick.label>Нефритовая плитка</FloorStoneStaggeredNefrBrick.label>
+  <FloorStoneStaggeredNefrBrick.description>Каменный пол из аккуратных квадратных плит нефрита
+Beauty: 8.</FloorStoneStaggeredNefrBrick.description>
+
+
+  <FloorStoneMosaicNEF.label>Нефритовая мозайка</FloorStoneMosaicNEF.label>
+  <FloorStoneMosaicNEF.description>Каменный пол из аккуратной мозаики из нефрита 
+Beauty: 7.</FloorStoneMosaicNEF.description>
+
+  <FloorStoneMosaicNEFt.label>Нефритовые пластины</FloorStoneMosaicNEFt.label>
+  <FloorStoneMosaicNEFt.description>Каменный пол  из нефрита 
+Beauty: 9.</FloorStoneMosaicNEFt.description>
+
+  <FloorAmber.label>Янтарные пластины</FloorAmber.label>
+  <FloorAmber.description>Каменный пол  из янтаря 
+Beauty: 8.</FloorAmber.description>
+
+
+</LanguageData>

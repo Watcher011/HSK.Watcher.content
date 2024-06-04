@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- WallLights -->
+
+  <KristalWallLamp.label>Настенная светокаменная лампа</KristalWallLamp.label>
+  <KristalWallLamp.description>Эта потрясающая настенная лампа сделана из ограненного светящегося камня, имеющего форму  кристалла и излучающего яркий свет.</KristalWallLamp.description>
+
+  <KristalWallLampDark.label>Настенная тусклая светокаменная лампа</KristalWallLampDark.label>
+  <KristalWallLampDark.description>Эта потрясающая настенная  лампа сделана из ограненного светящегося камня, имеющего форму  кристалла будучи покрытым медью излучает тусклый свет.</KristalWallLampDark.description>
+
+  <CeilingKristal.label>Потолочная светокаменная лампа</CeilingKristal.label>
+  <CeilingKristal.description>Эта потрясающая потолочная лампа сделана из ограненного светящегося камня, имеющего форму  кристалла и излучающего яркий свет.</CeilingKristal.description>
+
+  <CeilingKristalDark.label>Потолочная тусклая светокаменная лампа</CeilingKristalDark.label>
+  <CeilingKristalDark.description>та потрясающая потолочная лампа сделана из ограненного светящегося камня, имеющего форму  кристалла будучи покрытым медью излучает тусклый свет.</CeilingKristalDark.description>
+
+  <ColumnKristal.label>Светокаменная колонна</ColumnKristal.label>
+  <ColumnKristal.description>Колонна способная держать крышу с кристалом светокамня. Не закрывает обзор и движение и выглядит довольно красиво.</ColumnKristal.description>
+
+  <ColumnKristalDark.label>Светокаменная тусклая колонна</ColumnKristalDark.label>
+  <ColumnKristalDark.description>Колонна способная держать крышу с тусклым кристалом светокамня. Не закрывает обзор и движение и выглядит довольно красиво</ColumnKristalDark.description>
+
+  <HeadBarghestWall.label>Трофейная голова Баргеста</HeadBarghestWall.label>
+  <HeadBarghestWall.description>Трофейная голова побежденного монстра</HeadBarghestWall.description>
+
+  <HeadBehirtWall.label>Трофейная голова Бехира</HeadBehirtWall.label>
+  <HeadBehirtWall.description>Трофейная голова побежденного монстра</HeadBehirtWall.description>
+
+  <HeadKirinWall.label>Трофейная голова Кирина</HeadKirinWall.label>
+  <HeadKirinWall.description>Трофейная голова побежденного монстра</HeadKirinWall.description>
+
+  <WyvernHeadWall.label>Трофейная голова Виверны</WyvernHeadWall.label>
+  <WyvernHeadWall.description>Трофейная голова побежденного монстра</WyvernHeadWall.description>
+
+  <ThrumboHeadWall.label>Трофейная голова Трумбо</ThrumboHeadWall.label>
+  <ThrumboHeadWall.description>Трофейная голова побежденного монстра</ThrumboHeadWall.description>
+
+  <FeenixHeadWall.label>Трофейная голова Финикса</FeenixHeadWall.label>
+  <FeenixHeadWall.description>Трофейная голова побежденного монстра</FeenixHeadWall.description>
+
+  <icecreamBasin.label>Автомат с мороженым</icecreamBasin.label>
+  <icecreamBasin.description>Морозильный автомат.</icecreamBasin.description>
+
+
+</LanguageData>

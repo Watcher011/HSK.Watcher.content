@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Make_DriedMushrooms.label>высушить грибы</Make_DriedMushrooms.label>
+  <Make_DriedMushrooms.description>Высушить свежие грибы. Процесс занимает 2 дня.</Make_DriedMushrooms.description>
+
+  <Make_DriedMushrooms_x5.label>высушить грибы x5</Make_DriedMushrooms_x5.label>
+  <Make_DriedMushrooms_x5.description>Высушить свежие грибы. Процесс занимает 2 дня.</Make_DriedMushrooms_x5.description>
+
+  <Make_DriedFish.label>высушить рыбу</Make_DriedFish.label>
+  <Make_DriedFish.description>Высушить рыбу. Процесс занимает 2 дня.</Make_DriedFish.description>
+
+  <Make_Driedchips.label>высушить чипсы</Make_Driedchips.label>
+  <Make_Driedchips.description>Высушить чипсы. Процесс занимает 3 дня.</Make_Driedchips.description>
+
+  <Make_icecream.label>Создать простое мороженое</Make_icecream.label>
+  <Make_icecream.description>Создать мороженое такое как в детстве</Make_icecream.description>
+
+  <Make_DriedNori.label>высушить водоросли</Make_DriedNori.label>
+  <Make_DriedNori.description>Высушить свежие водоросли. Процесс занимает 2 дня.</Make_DriedNori.description>
+
+  <Make_DriedNori_x5.label>высушить водоросли x5</Make_DriedNori_x5.label>
+  <Make_DriedNori_x5.description>Высушить свежие водоросли. Процесс занимает 2 дня.</Make_DriedNori_x5.description>
+
+
+</LanguageData>

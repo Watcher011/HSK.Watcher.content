@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Make_DriedMushrooms.label>dry the mushrooms</Make_DriedMushrooms.label>
+  <Make_DriedMushrooms.description>Dry fresh mushrooms. The process takes 2 days.</Make_DriedMushrooms.description>
+
+  <Make_DriedMushrooms_x5.label>dry mushrooms x5</Make_DriedMushrooms_x5.label>
+  <Make_DriedMushrooms_x5.description>Dry fresh mushrooms. The process takes 2 days.</Make_DriedMushrooms_x5.description>
+
+  <Make_DriedFish.label>dry the fish</Make_DriedFish.label>
+  <Make_DriedFish.description>Dry the fish. The process takes 2 days.</Make_DriedFish.description>
+
+  <Make_Driedchips.label>dry the chips</Make_Driedchips.label>
+  <Make_Driedchips.description>Dry the chips. The process takes 3 days.</Make_Driedchips.description>
+
+  <Make_icecream.label>Create a simple ice cream</Make_icecream.label>
+  <Make_icecream.description>Create ice cream just like in childhood</Make_icecream.description>
+
+  <Make_DriedNori.label>dry the seaweed</Make_DriedNori.label>
+  <Make_DriedNori.description>Dry fresh seaweed. The process takes 2 days.</Make_DriedNori.description>
+
+  <Make_DriedNori_x5.label>dry seaweed x5</Make_DriedNori_x5.label>
+  <Make_DriedNori_x5.description>Dry fresh seaweed. The process takes 2 days.</Make_DriedNori_x5.description>
+
+
+</LanguageData>

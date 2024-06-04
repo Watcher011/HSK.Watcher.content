@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+	
+	<!-- ADVANCED HYDROPONICS -->
+	<ThingDef ParentName="StandartBuilding">
+		<defName>AquoponicsBasin</defName>
+		<label>Аквапоника</label>
+		<thingClass>SK.Building_PlantGrowerLinked</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Production/Hydrophonic/Aquaponics</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkType>Basic</linkType>
+			<linkFlags>
+				<li>Custom1</li>
+			</linkFlags>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<uiIconPath>Things/Building/Production/Hydrophonic/Aquaponic_MenuIcon</uiIconPath>
+		<altitudeLayer>LowPlant</altitudeLayer>
+		<statBases>
+			<WorkToBuild>1500</WorkToBuild>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Cleanliness>-1</Cleanliness>
+		</statBases>
+		<description>Аквапоника — высокотехнологичный способ ведения сельского хозяйства, сочетающий аквакультуру и гидропонику. Аквапоника представляет собой искусственную экосистему, в которой ключевыми являются три типа живых организмов: водные животные, растения и бактерии. Такая технология экологически безопасна.</description>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+			<li>Plastic</li>
+		</stuffCategories>
+		<costStuffCount>20</costStuffCount>
+		<costList>
+			<Fertilizer>10</Fertilizer>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<Glass>3</Glass>
+			<ElectronicComponents>2</ElectronicComponents>
+		</costList>
+		<surfaceType>Item</surfaceType>
+		<fertility>2.1</fertility>
+		<building>
+			<defaultPlantToGrow>Plant_RawAlgae</defaultPlantToGrow>
+			<sowTag>Aquaponic</sowTag>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
+		</building>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<tickerType>Rare</tickerType>
+		<rotatable>false</rotatable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<comps>
+			<li Class="CompProperties_Forbiddable" />
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<transmitsPower>true</transmitsPower>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<soundPowerOn>Power_OnSmall</soundPowerOn>
+				<soundPowerOff>Power_OffSmall</soundPowerOff>
+				<basePowerConsumption>45</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Glower">
+				<overlightRadius>7.0</overlightRadius>
+				<glowRadius>2</glowRadius>
+				<glowColor>(370,370,370,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Flickable" />
+		</comps>
+		<researchPrerequisites>
+			<li>Cultivation_C3</li>
+		</researchPrerequisites>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationCategory>Production</designationCategory>
+		<staticSunShadowHeight>0.03</staticSunShadowHeight>
+		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+	</ThingDef>
+	
+
+	
+</Defs>

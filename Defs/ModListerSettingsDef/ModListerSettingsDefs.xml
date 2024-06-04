@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--  -->
+	<ModIndicator.ModListerSettingsDef>
+		<defName>ModListerSettingsDef</defName>
+		<modIndicators>
+
+			<NativeAddon>
+				<li>
+					<id>HSK.WatcherContent</id>
+				</li>
+				
+			</NativeAddon>
+	
+
+		</modIndicators>
+	</ModIndicator.ModListerSettingsDef>
+</Defs>

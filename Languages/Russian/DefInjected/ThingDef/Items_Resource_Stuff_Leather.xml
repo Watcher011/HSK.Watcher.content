@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Super leathers -->
+
+  <Leather_Thrumbo.label>Волшебный мех</Leather_Thrumbo.label>
+  <Leather_Thrumbo.description>Роскошный и необычайно прочный. Используется для изготовления поделок высочайшего качества благодаря своей изоляции и прочности..</Leather_Thrumbo.description>
+
+  <Leather_GRenLeather.label>Чешуя зеленой виверны</Leather_GRenLeather.label>
+  <Leather_GRenLeather.description>Чешуя зеленой виверны, чрезвычайно прочная на вид.</Leather_GRenLeather.description>
+
+  <Leather_BarghestFur.label>Шкура баргеста</Leather_BarghestFur.label>
+  <Leather_BarghestFur.description>Роскошный и необычайно прочный. Используется для поделок высочайшего качества благодаря своей изоляции и прочности.</Leather_BarghestFur.description>
+
+  <Leather_Behir.label>Шкура Бехира</Leather_Behir.label>
+  <Leather_Behir.description>Шкура древнего монстра.</Leather_Behir.description>
+
+
+</LanguageData>
