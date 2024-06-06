@@ -5,19 +5,19 @@
 
   <FloorStoneStaggeredNefrBrick_Blueprint.label>Нефритовая плитка (blueprint)</FloorStoneStaggeredNefrBrick_Blueprint.label>
   <FloorStoneStaggeredNefrBrick_Frame.label>Нефритовая плитка (building)</FloorStoneStaggeredNefrBrick_Frame.label>
-  <FloorStoneStaggeredNefrBrick_Frame.description>Terrain building in progress.</FloorStoneStaggeredNefrBrick_Frame.description>
+  <FloorStoneStaggeredNefrBrick_Frame.description>Идет строительство ландшафта.</FloorStoneStaggeredNefrBrick_Frame.description>
 
   <FloorStoneMosaicNEF_Blueprint.label>Нефритовая мозайка (blueprint)</FloorStoneMosaicNEF_Blueprint.label>
   <FloorStoneMosaicNEF_Frame.label>Нефритовая мозайка (building)</FloorStoneMosaicNEF_Frame.label>
-  <FloorStoneMosaicNEF_Frame.description>Terrain building in progress.</FloorStoneMosaicNEF_Frame.description>
+  <FloorStoneMosaicNEF_Frame.description>Идет строительство ландшафта.</FloorStoneMosaicNEF_Frame.description>
 
   <FloorStoneMosaicNEFt_Blueprint.label>Нефритовые пластины (blueprint)</FloorStoneMosaicNEFt_Blueprint.label>
   <FloorStoneMosaicNEFt_Frame.label>Нефритовые пластины (building)</FloorStoneMosaicNEFt_Frame.label>
-  <FloorStoneMosaicNEFt_Frame.description>Terrain building in progress.</FloorStoneMosaicNEFt_Frame.description>
+  <FloorStoneMosaicNEFt_Frame.description>Идет строительство ландшафта.</FloorStoneMosaicNEFt_Frame.description>
 
   <FloorAmber_Blueprint.label>Янтарные пластины (blueprint)</FloorAmber_Blueprint.label>
   <FloorAmber_Frame.label>Янтарные пластины (building)</FloorAmber_Frame.label>
-  <FloorAmber_Frame.description>Terrain building in progress.</FloorAmber_Frame.description>
+  <FloorAmber_Frame.description>Идет строительство ландшафта.</FloorAmber_Frame.description>
 
 
 </LanguageData>
