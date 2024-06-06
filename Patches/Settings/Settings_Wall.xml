@@ -1,7 +1,15 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<Defs>
-<!--
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
 
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>Watcher.Content.Settings</modId>
+    <key>AddWalltextile</key>
+    <defaultValue>true</defaultValue>
+    <caseTrue>		
+	 <Operation Class="PatchOperationAdd">
+        <xpath>Defs</xpath>
+          <value>
+	 
 	<ThingDef ParentName="WallBase">
 		<defName>Walltextile</defName>
 		<label>Стена</label>
@@ -71,5 +79,40 @@
 		</modExtensions>
 	</ThingDef>
 
--->
-</Defs>
+         </value>
+    </Operation>
+	
+	
+	
+	<Operation Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Vent"]/comps/li[@Class="SK.CompProperties_RestrictedPlacement"]/thingDefs</xpath>
+				<value>
+						<li>Walltextile</li>
+				</value>
+			 </Operation>
+			 
+	 <Operation Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="RH_SmallCooler"]/comps/li[@Class="SK.CompProperties_RestrictedPlacement"]/thingDefs</xpath>
+				<value>
+						<li>Walltextile</li>
+				</value>
+			 </Operation>
+			 
+  <Operation Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Cooler"]/comps/li[@Class="SK.CompProperties_RestrictedPlacement"]/thingDefs</xpath>
+				<value>
+						<li>Walltextile</li>
+				</value>
+			 </Operation>
+			 
+			  <Operation Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="RH_MediumHeater"]/comps/li[@Class="SK.CompProperties_RestrictedPlacement"]/thingDefs</xpath>
+				<value>
+						<li>Walltextile</li>
+				</value>
+			 </Operation>
+    </caseTrue>
+</Operation>
+
+</Patch>
+

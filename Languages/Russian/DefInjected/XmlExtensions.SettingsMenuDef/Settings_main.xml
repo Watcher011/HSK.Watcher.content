@@ -7,10 +7,11 @@
   <Watcher_Content_Settings.settings.3.label>Добавляем извлечение гемогена  из трупов?</Watcher_Content_Settings.settings.3.label>
   <Watcher_Content_Settings.settings.4.label>Добавить постройку взрывной двери?</Watcher_Content_Settings.settings.4.label>
   <Watcher_Content_Settings.settings.5.label>Сортируем мины по коробкам или пусть так валяются ?</Watcher_Content_Settings.settings.5.label>
-  <Watcher_Content_Settings.settings.9.text>Для применения всех параметров требуется перезагрузка</Watcher_Content_Settings.settings.9.text>
+  <Watcher_Content_Settings.settings.6.label>Добавляем мягкие стены ?</Watcher_Content_Settings.settings.6.label>
+  <Watcher_Content_Settings.settings.7.label>Светокаменная колонна с девушкой или котом (Выбор текстуры)</Watcher_Content_Settings.settings.7.label>
+  <Watcher_Content_Settings.settings.11.text>All options require restart to apply</Watcher_Content_Settings.settings.11.text>
 
 
-  <!--<Watcher_Content_Settings.settings.8.text>Для применения всех параметров требуется перезагрузка</Watcher_Content_Settings.settings.8.text>-->
-  <!--<Watcher_Content_Settings.settings.7.text>Для применения всех параметров требуется перезагрузка</Watcher_Content_Settings.settings.7.text>-->
+  <!--<Watcher_Content_Settings.settings.10.text>Для применения всех параметров требуется перезагрузка</Watcher_Content_Settings.settings.10.text>-->
 
 </LanguageData>

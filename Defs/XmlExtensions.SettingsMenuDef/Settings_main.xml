@@ -45,6 +45,23 @@
                 <tooltip>Blowing up raiders is fun!</tooltip>
             </li>
 			
+			<li Class="XmlExtensions.Setting.Checkbox">
+                <key>AddWalltextile</key>
+                <label>adding soft walls?</label>
+				<tKey>AddWalltextile</tKey>
+                <defaultValue>true</defaultValue>
+                <tooltip>adding soft walls?</tooltip>
+            </li>
+		
+			<li Class="XmlExtensions.Setting.Checkbox">
+                <key>TextureSelection</key>
+                <label>Column with a girl and or cat (Texture selection)</label>
+				<tKey>TextureSelection</tKey>
+                <defaultValue>true</defaultValue>
+                <tooltip>Column with a girl and or cat (Texture selection)?</tooltip>
+            </li>
+		
+		
             <li Class="XmlExtensions.Setting.GapLine"/>
             <li Class="XmlExtensions.Setting.ResetSettings"/>
             <li Class="XmlExtensions.Setting.GapLine"/>

@@ -1,9 +1,16 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<Defs>
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
 
-<!--
 
-<RecipeDef ParentName="GrenadeRecipeBase">
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>Watcher.Content.Settings</modId>
+    <key>AddMinebox</key>
+    <defaultValue>false</defaultValue>
+    <caseTrue>		
+	<Operation Class="PatchOperationAdd">
+        <xpath>Defs</xpath>
+        <value>	
+        <RecipeDef ParentName="GrenadeRecipeBase">
 		<defName>MakeTrapExplosive</defName>
 		<label>Create a box 6 min</label>
 		<description>Creating a box with 6 mines.</description>
@@ -55,8 +62,13 @@
 		</researchPrerequisites>
 	</RecipeDef>
 	
+	</value>
+       </Operation>
 	
-<RecipeDef ParentName="GrenadeRecipeBase">
+	<Operation Class="PatchOperationAdd">
+        <xpath>Defs</xpath>
+        <value>	
+	<RecipeDef ParentName="GrenadeRecipeBase">
 		<defName>MakeTrapTox</defName>
 		<label>Crafting a Box of 6 Toxic Mines</label>
 		<description>Create a box with 6 toxic mines.</description>
@@ -107,10 +119,13 @@
 			<li>IED_C1</li>
 		</researchPrerequisites>
 	</RecipeDef>
-
+       </value>
+       </Operation>
 	
 	
-	
+	<Operation Class="PatchOperationAdd">
+        <xpath>Defs</xpath>
+        <value>	
 	<RecipeDef ParentName="GrenadeRecipeBase">
 		<defName>MakeTrapIncendiary</defName>
 		<label>Crafting a box of 6 incendiary mines</label>
@@ -169,9 +184,12 @@
 			<li>IED_C1</li>
 		</researchPrerequisites>
 	</RecipeDef>
+	</value>
+       </Operation>
 	
-	
-	
+	<Operation Class="PatchOperationAdd">
+        <xpath>Defs</xpath>
+        <value>	
 <RecipeDef ParentName="GrenadeRecipeBase">
 		<defName>MakeTrapEMP</defName>
 		<label>Create a box 6 EMP min</label>
@@ -221,9 +239,12 @@
 			<li>IED_C1</li>
 		</researchPrerequisites>
 	</RecipeDef>	
+	</value>
+       </Operation>
 	
-	
-	
+	<Operation Class="PatchOperationAdd">
+        <xpath>Defs</xpath>
+        <value>	
 	<RecipeDef ParentName="GrenadeRecipeBase">
 		<defName>MakeTrapAE</defName>
 		<label>Crafting a Box of 6 Granular Mines</label>
@@ -282,10 +303,13 @@
 			<li>IED_C1</li>
 		</researchPrerequisites>
 	</RecipeDef>	
+</value>
+       </Operation>
 
 
-
-
+<Operation Class="PatchOperationAdd">
+        <xpath>Defs</xpath>
+        <value>	
  <RecipeDef>
 		<defName>MakeTrapKapk</defName>
 		<label>Creating a box with 10 traps</label>
@@ -327,5 +351,10 @@
 			<TrapKapk>10</TrapKapk>    
 		</products>
 	</RecipeDef>
-	-->
-</Defs>
+		</value>
+       </Operation>
+    </caseTrue>
+</Operation>
+
+</Patch>
+

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-
+<!--
 	<Operation Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="Vent"]/comps/li[@Class="SK.CompProperties_RestrictedPlacement"]/thingDefs</xpath>
 				<value>
@@ -29,5 +29,5 @@
 						<li>Walltextile</li>
 				</value>
 			 </Operation>
-
+-->
 </Patch>

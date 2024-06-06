@@ -7,9 +7,13 @@
   <Watcher_Content_Settings.settings.3.label>add Bleeding of Corpses?</Watcher_Content_Settings.settings.3.label>
   <Watcher_Content_Settings.settings.4.label>add Building a blast door?</Watcher_Content_Settings.settings.4.label>
   <Watcher_Content_Settings.settings.5.label>Do we sort the mines into boxes or just let them lie around?</Watcher_Content_Settings.settings.5.label>
-  <Watcher_Content_Settings.settings.9.text>All options require restart to apply</Watcher_Content_Settings.settings.9.text>
+  <Watcher_Content_Settings.settings.6.label>adding soft walls?</Watcher_Content_Settings.settings.6.label>
+  <Watcher_Content_Settings.settings.7.label>Column with a girl and or cat (Texture selection)</Watcher_Content_Settings.settings.7.label>
+  <Watcher_Content_Settings.settings.11.text>All options require restart to apply</Watcher_Content_Settings.settings.11.text>
 
 
+  <!--<Watcher_Content_Settings.settings.10.text>All options require restart to apply</Watcher_Content_Settings.settings.10.text>-->
+  <!--<Watcher_Content_Settings.settings.9.text>All options require restart to apply</Watcher_Content_Settings.settings.9.text>-->
   <!--<Watcher_Content_Settings.settings.8.text>All options require restart to apply</Watcher_Content_Settings.settings.8.text>-->
   <!--<Watcher_Content_Settings.settings.7.text>All options require restart to apply</Watcher_Content_Settings.settings.7.text>-->
 
