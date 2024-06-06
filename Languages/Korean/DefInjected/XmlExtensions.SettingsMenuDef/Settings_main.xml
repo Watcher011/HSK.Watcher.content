@@ -6,9 +6,11 @@
   <Watcher_Content_Settings.settings.2.label>Add alcohol to recipes?</Watcher_Content_Settings.settings.2.label>
   <Watcher_Content_Settings.settings.3.label>add Bleeding of Corpses?</Watcher_Content_Settings.settings.3.label>
   <Watcher_Content_Settings.settings.4.label>add Building a blast door?</Watcher_Content_Settings.settings.4.label>
-  <Watcher_Content_Settings.settings.8.text>All options require restart to apply</Watcher_Content_Settings.settings.8.text>
+  <Watcher_Content_Settings.settings.5.label>Do we sort the mines into boxes or just let them lie around?</Watcher_Content_Settings.settings.5.label>
+  <Watcher_Content_Settings.settings.9.text>All options require restart to apply</Watcher_Content_Settings.settings.9.text>
 
 
+  <!--<Watcher_Content_Settings.settings.8.text>All options require restart to apply</Watcher_Content_Settings.settings.8.text>-->
   <!--<Watcher_Content_Settings.settings.7.text>All options require restart to apply</Watcher_Content_Settings.settings.7.text>-->
 
 </LanguageData>

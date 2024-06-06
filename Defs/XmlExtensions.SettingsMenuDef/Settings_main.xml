@@ -37,6 +37,14 @@
                 <tooltip>Blowing up raiders is fun!</tooltip>
             </li>
 			
+			 <li Class="XmlExtensions.Setting.Checkbox">
+                <key>AddMinebox</key>
+                <label>Do we sort the mines into boxes or just let them lie around?</label>
+				<tKey>AddMinebox</tKey>
+                <defaultValue>false</defaultValue>
+                <tooltip>Blowing up raiders is fun!</tooltip>
+            </li>
+			
             <li Class="XmlExtensions.Setting.GapLine"/>
             <li Class="XmlExtensions.Setting.ResetSettings"/>
             <li Class="XmlExtensions.Setting.GapLine"/>
