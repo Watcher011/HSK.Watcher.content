@@ -22,5 +22,8 @@
   <Make_DriedNori_x5.label>высушить водоросли x5</Make_DriedNori_x5.label>
   <Make_DriedNori_x5.description>Высушить свежие водоросли. Процесс занимает 2 дня.</Make_DriedNori_x5.description>
 
+  <Make_Ethanol.label>Сделать брагу</Make_Ethanol.label>
+  <Make_Ethanol.description>Произвести примитивный продукт с низким содержанием Этанола. Займёт 2х дней</Make_Ethanol.description>
+
 
 </LanguageData>

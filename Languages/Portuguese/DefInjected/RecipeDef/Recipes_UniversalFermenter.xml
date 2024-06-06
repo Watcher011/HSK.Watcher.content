@@ -22,7 +22,8 @@
   <Make_DriedNori_x5.label>secar as algas x5</Make_DriedNori_x5.label>
   <Make_DriedNori_x5.description>Algas frescas secas. O processo demora 2 dias.</Make_DriedNori_x5.description>
 
-
   <Make_Ethanol.label>Faça luar</Make_Ethanol.label>
   <Make_Ethanol.description>Produza etanol primitivo. Demorará 2 dias</Make_Ethanol.description>
+
+
 </LanguageData>

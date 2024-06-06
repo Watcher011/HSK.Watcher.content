@@ -294,7 +294,7 @@
 		<techLevel>Industrial</techLevel>
 		<healthAffectsPrice>false</healthAffectsPrice>
 		<intricate>true</intricate>
-		<!-- Not returned to player when product made of this is smelted. -->
+		
 		<statBases>
 			<MaxHitPoints>5</MaxHitPoints>
 			<MarketValue>6</MarketValue>

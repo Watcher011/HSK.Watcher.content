@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Watcher_Content_Settings.label>Watcher Content</Watcher_Content_Settings.label>
+  <Watcher_Content_Settings.settings.1.text>Сложность</Watcher_Content_Settings.settings.1.text>
+  <Watcher_Content_Settings.settings.2.label>Добавляем алкоголь в рецепты крафта медикаментов?</Watcher_Content_Settings.settings.2.label>
+  <Watcher_Content_Settings.settings.3.label>Добавляем извлечение гемогена  из трупов?</Watcher_Content_Settings.settings.3.label>
+  <Watcher_Content_Settings.settings.4.label>Добавить постройку взрывной двери?</Watcher_Content_Settings.settings.4.label>
+  <Watcher_Content_Settings.settings.8.text>Для применения всех параметров требуется перезагрузка</Watcher_Content_Settings.settings.8.text>
+
+
+  <!--<Watcher_Content_Settings.settings.7.text>Для применения всех параметров требуется перезагрузка</Watcher_Content_Settings.settings.7.text>-->
+
+</LanguageData>

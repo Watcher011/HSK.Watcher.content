@@ -22,6 +22,8 @@
   <Make_DriedNori_x5.label>dry seaweed x5</Make_DriedNori_x5.label>
   <Make_DriedNori_x5.description>Dry fresh seaweed. The process takes 2 days.</Make_DriedNori_x5.description>
 
- <Make_Ethanol.label>Make moonshine</Make_Ethanol.label>
+  <Make_Ethanol.label>Make moonshine</Make_Ethanol.label>
   <Make_Ethanol.description>Produce primitive Ethanol. Will take 2 days</Make_Ethanol.description>
+
+
 </LanguageData>

@@ -10,5 +10,8 @@
   <SubCategory_heart.label>heart</SubCategory_heart.label>
   <SubCategory_heart.description>heart.</SubCategory_heart.description>
 
+  <SubCategory_Traps.label>traps</SubCategory_Traps.label>
+  <SubCategory_Traps.description>Special traps for defend.</SubCategory_Traps.description>
+
 
 </LanguageData>

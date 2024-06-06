@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <XmlExtensions.SettingsMenuDef>
+        <defName>Watcher_Content_Settings</defName>
+        <modId>Watcher.Content.Settings</modId>
+        <tKey>Watcher_MainTitle</tKey>
+        <label>Watcher Content Settings</label>
+        <settings>
+            <li Class="XmlExtensions.Setting.Gap"/>
+            <li Class="XmlExtensions.Setting.Text">
+                <text>Difficulty</text>
+                <tKey>Difficulty_Title</tKey>
+                <font>Medium</font>
+                <anchor>Middle</anchor>
+            </li>
+            <li Class="XmlExtensions.Setting.Checkbox">
+                <key>AddAlcohol</key>
+                <label>Add alcohol to recipes?</label>
+				<tKey>AddAlcohol</tKey>
+                <defaultValue>false</defaultValue>
+                <tooltip>Making crafting medicine more difficult!</tooltip>
+            </li>
+			
+			 <li Class="XmlExtensions.Setting.Checkbox">
+                <key>AddBleeding</key>
+                <label>add Bleeding of Corpses?</label>
+				<tKey>AddBleeding</tKey>
+                <defaultValue>false</defaultValue>
+                <tooltip>add Bleeding of Corpses!</tooltip>
+            </li>
+
+              <li Class="XmlExtensions.Setting.Checkbox">
+                <key>AddDorBomb</key>
+                <label>add Building a blast door?</label>
+				<tKey>AddDorBomb</tKey>
+                <defaultValue>false</defaultValue>
+                <tooltip>Blowing up raiders is fun!</tooltip>
+            </li>
+			
+            <li Class="XmlExtensions.Setting.GapLine"/>
+            <li Class="XmlExtensions.Setting.ResetSettings"/>
+            <li Class="XmlExtensions.Setting.GapLine"/>
+            <li Class="XmlExtensions.Setting.Text">
+                <text>All options require restart to apply</text>
+            </li>
+        </settings>
+    </XmlExtensions.SettingsMenuDef>
+</Defs>

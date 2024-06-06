@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Fluids etc -->
+
+  <Napalm_Fuel.label>napalm puddle</Napalm_Fuel.label>
+  <Napalm_Fuel.description>Burns on the ground.</Napalm_Fuel.description>
+
+
+</LanguageData>

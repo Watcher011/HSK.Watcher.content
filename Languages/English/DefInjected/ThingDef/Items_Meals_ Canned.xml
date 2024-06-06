@@ -20,7 +20,8 @@
 
   <Druchips.label>Dried chips</Druchips.label>
   <Druchips.description>Dried chips - a snack consisting of thin slices of potatoes.</Druchips.description>
- <DirtyEthanol.label>moonshine</DirtyEthanol.label>
+
+  <DirtyEthanol.label>moonshine</DirtyEthanol.label>
   <DirtyEthanol.description>Dirty Ethanol is an organic compound with many side effects.</DirtyEthanol.description>
   <DirtyEthanol.ingestible.ingestCommandString>drink {0}</DirtyEthanol.ingestible.ingestCommandString>
   <DirtyEthanol.ingestible.ingestReportString>drinking {0}.</DirtyEthanol.ingestible.ingestReportString>
@@ -31,5 +32,6 @@
   <Ethanol.ingestible.ingestCommandString>drink {0}</Ethanol.ingestible.ingestCommandString>
   <Ethanol.ingestible.ingestReportString>drinking {0}.</Ethanol.ingestible.ingestReportString>
   <Ethanol.stuffProps.stuffAdjective>fuel</Ethanol.stuffProps.stuffAdjective>
+
 
 </LanguageData>

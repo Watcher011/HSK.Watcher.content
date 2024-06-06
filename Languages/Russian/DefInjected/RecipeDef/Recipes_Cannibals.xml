@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <MinceHemogenPack.label>Обескровливание</MinceHemogenPack.label>
-  <MinceHemogenPack.description>Откачка крови.</MinceHemogenPack.description>
-  <MinceHemogenPack.jobString>Butchering.</MinceHemogenPack.jobString>
-
   <CookMealFishAndBeer.label>Приготовить пиво с рыбкой</CookMealFishAndBeer.label>
   <CookMealFishAndBeer.description>Настоящая еда мужиков.</CookMealFishAndBeer.description>
   <CookMealFishAndBeer.jobString>Готовит.</CookMealFishAndBeer.jobString>
@@ -17,5 +13,9 @@
   <MakeYzvar.description>Сварить узвар из сухофруктов.</MakeYzvar.description>
   <MakeYzvar.jobString>Варит узвар.</MakeYzvar.jobString>
 
+
+  <!--<MinceHemogenPack.label>Обескровливание</MinceHemogenPack.label>-->
+  <!--<MinceHemogenPack.description>Откачка крови.</MinceHemogenPack.description>-->
+  <!--<MinceHemogenPack.jobString>Butchering.</MinceHemogenPack.jobString>-->
 
 </LanguageData>

@@ -10,8 +10,10 @@
   <SubCategory_heart.label>Колбы с сердцами</SubCategory_heart.label>
   <SubCategory_heart.description>Сердца легендарных монстров.</SubCategory_heart.description>
 
-<SubCategory_Traps.label>Ловушки</SubCategory_Traps.label>
+  <SubCategory_Traps.label>Ловушки</SubCategory_Traps.label>
   <SubCategory_Traps.description>Специальные ловушки для защиты.</SubCategory_Traps.description>
+
+
   <!--<SubCategory_Columns.label>Колонна</SubCategory_Columns.label>-->
   <!--<SubCategory_Columns.description>Коло́нна — часть архитектурной конструкции, столб цилиндрической формы, деревянный, каменный или металлический.Удерживает крышу.</SubCategory_Columns.description>-->
 

@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Patch>
+<!-- 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="makemedicine"]/ingredients</xpath>
 		<value>
@@ -330,4 +331,6 @@
 			</categories>
 		</value>
 	</Operation>
+	
+	-->
 </Patch>

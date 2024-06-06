@@ -21,7 +21,6 @@
   <Druchips.label>건조칩</Druchips.label>
   <Druchips.description>말린 칩 - 얇은 감자 조각으로 구성된 스낵.</Druchips.description>
 
-
   <DirtyEthanol.label>달빛</DirtyEthanol.label>
   <DirtyEthanol.description>더티 에탄올(Dirty Ethanol) - 부작용이 많은 유기 화합물.</DirtyEthanol.description>
   <DirtyEthanol.ingestible.ingestCommandString>마시다 {0}</DirtyEthanol.ingestible.ingestCommandString>
@@ -33,4 +32,6 @@
   <Ethanol.ingestible.ingestCommandString>마시다 {0}</Ethanol.ingestible.ingestCommandString>
   <Ethanol.ingestible.ingestReportString>음료수 {0}.</Ethanol.ingestible.ingestReportString>
   <Ethanol.stuffProps.stuffAdjective>fuel</Ethanol.stuffProps.stuffAdjective>
+
+
 </LanguageData>

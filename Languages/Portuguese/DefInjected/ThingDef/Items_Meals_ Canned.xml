@@ -21,7 +21,7 @@
   <Druchips.label>Batatas fritas secas</Druchips.label>
   <Druchips.description>Batatas fritas secas são um lanche feito com fatias finas de batata.</Druchips.description>
 
-<DirtyEthanol.label>luar</DirtyEthanol.label>
+  <DirtyEthanol.label>luar</DirtyEthanol.label>
   <DirtyEthanol.description>O etanol sujo é um composto orgânico com muitos efeitos colaterais.</DirtyEthanol.description>
   <DirtyEthanol.ingestible.ingestCommandString>Bebida {0}</DirtyEthanol.ingestible.ingestCommandString>
   <DirtyEthanol.ingestible.ingestReportString>Bebidas {0}.</DirtyEthanol.ingestible.ingestReportString>
@@ -32,4 +32,6 @@
   <Ethanol.ingestible.ingestCommandString>bebida {0}</Ethanol.ingestible.ingestCommandString>
   <Ethanol.ingestible.ingestReportString>Bebidas {0}.</Ethanol.ingestible.ingestReportString>
   <Ethanol.stuffProps.stuffAdjective>fuel</Ethanol.stuffProps.stuffAdjective>
+
+
 </LanguageData>

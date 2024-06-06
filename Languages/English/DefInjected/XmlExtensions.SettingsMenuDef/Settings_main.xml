@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Watcher_Content_Settings.label>Watcher Content Settings</Watcher_Content_Settings.label>
+  <Watcher_Content_Settings.settings.1.text>Difficulty</Watcher_Content_Settings.settings.1.text>
+  <Watcher_Content_Settings.settings.2.label>Add alcohol to recipes?</Watcher_Content_Settings.settings.2.label>
+  <Watcher_Content_Settings.settings.3.label>add Bleeding of Corpses?</Watcher_Content_Settings.settings.3.label>
+  <Watcher_Content_Settings.settings.4.label>add Building a blast door?</Watcher_Content_Settings.settings.4.label>
+  <Watcher_Content_Settings.settings.8.text>All options require restart to apply</Watcher_Content_Settings.settings.8.text>
+
+
+  <!--<Watcher_Content_Settings.settings.7.text>All options require restart to apply</Watcher_Content_Settings.settings.7.text>-->
+
+</LanguageData>
