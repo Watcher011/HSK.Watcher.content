@@ -18,6 +18,7 @@
 		<li>WatcherXI.HSK.Mine</li>
 		<li>WatcherXI.Statues</li>
 		<li>WatcherXI.HSK.alcohol</li>
+		<li>WatcherXI.StorTox</li>
 	</incompatibleWith>
 	<modDependencies>
         <li>
@@ -47,6 +48,7 @@
   WatcherXI.HSK.Mine(переработка методики производства, и постройки мин)
   WatcherXI.Statues(добавляет статую котика)
   WatcherXI.HSK.alcohol(добавляет алкоголь в рецепты медицины)
+  WatcherXI.StorTox(добавляет хранилище мешков с токсичными отходами)
   --------------------------
  WatcherXI.GlowstoneLamp (adds glowstone lamps and columns)
  WatcherXI.HSK.TrophiesAndHearts (adds elite animal trophies and winter mats)

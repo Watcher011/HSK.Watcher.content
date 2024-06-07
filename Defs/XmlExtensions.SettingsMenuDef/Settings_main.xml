@@ -61,6 +61,13 @@
                 <tooltip>Column with a girl and or cat (Texture selection)?</tooltip>
             </li>
 		
+		<li Class="XmlExtensions.Setting.Checkbox">
+                <key>StorTox</key>
+                <label>Adding storage of toxic packages?</label>
+				<tKey>StorTox</tKey>
+                <defaultValue>true</defaultValue>
+                <tooltip>Adding storage of toxic packages?</tooltip>
+            </li>
 		
             <li Class="XmlExtensions.Setting.GapLine"/>
             <li Class="XmlExtensions.Setting.ResetSettings"/>
