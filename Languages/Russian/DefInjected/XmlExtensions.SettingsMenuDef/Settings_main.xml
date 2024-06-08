@@ -1,19 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Watcher_Content_Settings.label>Watcher Content</Watcher_Content_Settings.label>
-  <Watcher_Content_Settings.settings.1.text>Сложность</Watcher_Content_Settings.settings.1.text>
+  <Watcher_Content_Settings.label>Watcher Content Settings</Watcher_Content_Settings.label>
+  <Watcher_Content_Settings.settings.1.text>Возможности</Watcher_Content_Settings.settings.1.text>
   <Watcher_Content_Settings.settings.2.label>Добавляем алкоголь в рецепты крафта медикаментов?</Watcher_Content_Settings.settings.2.label>
   <Watcher_Content_Settings.settings.3.label>Добавляем извлечение гемогена  из трупов?</Watcher_Content_Settings.settings.3.label>
-  <Watcher_Content_Settings.settings.4.label>Добавить постройку взрывной двери?</Watcher_Content_Settings.settings.4.label>
-  <Watcher_Content_Settings.settings.5.label>Сортируем мины по коробкам или пусть так валяются ?</Watcher_Content_Settings.settings.5.label>
-  <Watcher_Content_Settings.settings.6.label>Добавляем мягкие стены ?</Watcher_Content_Settings.settings.6.label>
-  <Watcher_Content_Settings.settings.7.label>Заменить светокаменную  колонну с девушкой на колонну с котиком? (Выбор текстуры)</Watcher_Content_Settings.settings.7.label>
-  <Watcher_Content_Settings.settings.8.label>Добавляем хранилище токсичных пакетов ?</Watcher_Content_Settings.settings.8.label>
-  <Watcher_Content_Settings.settings.12.text>Для применения всех параметров требуется перезагрузка</Watcher_Content_Settings.settings.12.text>
-
-
-  <!--<Watcher_Content_Settings.settings.11.text>All options require restart to apply</Watcher_Content_Settings.settings.11.text>-->
-  <!--<Watcher_Content_Settings.settings.10.text>Для применения всех параметров требуется перезагрузка</Watcher_Content_Settings.settings.10.text>-->
+  <Watcher_Content_Settings.settings.5.label>Добавляем постройку взрывной двери?</Watcher_Content_Settings.settings.5.label>
+  <Watcher_Content_Settings.settings.6.label>Сортируем мины по коробкам или пусть так валяются(меняем крафт и постройку)?</Watcher_Content_Settings.settings.6.label>
+  <Watcher_Content_Settings.settings.8.label>Добавляем мягкие стены из текстиля и кожи?</Watcher_Content_Settings.settings.8.label>
+  <Watcher_Content_Settings.settings.9.label>Заменить светокаменную  колонну с девушкой на колонну с котиком?(Выбор текстуры)</Watcher_Content_Settings.settings.9.label>
+  <Watcher_Content_Settings.settings.11.label>Добавить положительные эффекты для ковриков?</Watcher_Content_Settings.settings.11.label>
+  <Watcher_Content_Settings.settings.12.label>Добавляем хранилища токсичных пакетов?</Watcher_Content_Settings.settings.12.label>
+  <Watcher_Content_Settings.settings.14.label>Использовать спирт в лампе целителя?</Watcher_Content_Settings.settings.14.label>
+  <Watcher_Content_Settings.settings.15.label>Отключить баг с лампой целителя?</Watcher_Content_Settings.settings.15.label>
+  <Watcher_Content_Settings.settings.19.text>Для применения всех параметров требуется перезагрузка</Watcher_Content_Settings.settings.19.text>
 
 </LanguageData>

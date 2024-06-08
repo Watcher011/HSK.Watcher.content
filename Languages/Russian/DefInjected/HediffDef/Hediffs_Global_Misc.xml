@@ -5,5 +5,27 @@
   <EthanolBlindness.description>Одним из краткосрочных последствий чрезмерного употребления алкоголя является потеря зрения.</EthanolBlindness.description>
   <EthanolBlindness.labelNoun>Временная слепота</EthanolBlindness.labelNoun>
 
+  <PhoenixRugAura.label>Тепло от коврика Феникса</PhoenixRugAura.label>
+  <PhoenixRugAura.description>Одним из краткосрочных последствий нахождения рядом с шкурой феникса является повышене устойчивости к холоду</PhoenixRugAura.description>
+  <PhoenixRugAura.labelNoun>Тепло от коврика</PhoenixRugAura.labelNoun>
+
+  <KirinRugAura.label>Прохлада от коврика кирина</KirinRugAura.label>
+  <KirinRugAura.description>Одним из краткосрочных последствий нахождения рядом с шкурой кирина является повышене устойчивости к жаре</KirinRugAura.description>
+  <KirinRugAura.labelNoun>Прохлада от коврика</KirinRugAura.labelNoun>
+
+  <WyvernRugAura.label>Свежесть от коврика виверны</WyvernRugAura.label>
+  <WyvernRugAura.description>Одним из краткосрочных последствий нахождения рядом с шкурой виверны является повышене устойчивости к токсинам</WyvernRugAura.description>
+  <WyvernRugAura.labelNoun>Свежесть от коврика</WyvernRugAura.labelNoun>
+
+  <BehirRugAura.label>Концентрация от коврика бехира</BehirRugAura.label>
+  <BehirRugAura.description>Одним из краткосрочных последствий нахождения рядом с шкурой бехира является повышене умственных способностей
+	.</BehirRugAura.description>
+  <BehirRugAura.labelNoun>Концентрация от коврика</BehirRugAura.labelNoun>
+
+  <BagestRugAura.label>Темновидиние от коврика багеста</BagestRugAura.label>
+  <BagestRugAura.description>Одним из краткосрочных последствий нахождения рядом с шкурой багеста является повышене восприятия света
+	.</BagestRugAura.description>
+  <BagestRugAura.labelNoun>Темновидиние от коврика</BagestRugAura.labelNoun>
+
 
 </LanguageData>

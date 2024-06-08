@@ -20,23 +20,25 @@
                 <defaultValue>false</defaultValue>
                 <tooltip>Making crafting medicine more difficult!</tooltip>
             </li>
-			
+			   
 			 <li Class="XmlExtensions.Setting.Checkbox">
                 <key>AddBleeding</key>
-                <label>add Bleeding of Corpses?</label>
+                <label>Add Bleeding of Corpses?</label>
 				<tKey>AddBleeding</tKey>
                 <defaultValue>false</defaultValue>
                 <tooltip>add Bleeding of Corpses!</tooltip>
             </li>
-
+              
+			  <li Class="XmlExtensions.Setting.GapLine"/> 
+			  
               <li Class="XmlExtensions.Setting.Checkbox">
                 <key>AddDorBomb</key>
-                <label>add Building a blast door?</label>
+                <label>Add Building a blast door?</label>
 				<tKey>AddDorBomb</tKey>
                 <defaultValue>false</defaultValue>
                 <tooltip>Blowing up raiders is fun!</tooltip>
             </li>
-			
+		    
 			 <li Class="XmlExtensions.Setting.Checkbox">
                 <key>AddMinebox</key>
                 <label>Do we sort the mines into boxes or just let them lie around?</label>
@@ -44,21 +46,33 @@
                 <defaultValue>false</defaultValue>
                 <tooltip>Blowing up raiders is fun!</tooltip>
             </li>
-			
+		
+		<li Class="XmlExtensions.Setting.GapLine"/>
+		
 			<li Class="XmlExtensions.Setting.Checkbox">
                 <key>AddWalltextile</key>
-                <label>adding soft walls?</label>
+                <label>Adding soft walls?</label>
 				<tKey>AddWalltextile</tKey>
                 <defaultValue>true</defaultValue>
                 <tooltip>adding soft walls?</tooltip>
             </li>
-		
+		    
 			<li Class="XmlExtensions.Setting.Checkbox">
                 <key>TextureSelection</key>
                 <label>Column with a girl and or cat (Texture selection)</label>
 				<tKey>TextureSelection</tKey>
                 <defaultValue>true</defaultValue>
                 <tooltip>Column with a girl and or cat (Texture selection)?</tooltip>
+            </li>
+		
+		 <li Class="XmlExtensions.Setting.GapLine"/>
+		 
+		<li Class="XmlExtensions.Setting.Checkbox">
+                <key>AuraOfTrophyMat</key>
+                <label>Add positive effects for rugs?</label>
+				<tKey>AuraOfTrophyMat</tKey>
+                <defaultValue>true</defaultValue>
+                <tooltip>Add positive effects for rugs?</tooltip>
             </li>
 		
 		<li Class="XmlExtensions.Setting.Checkbox">
@@ -68,6 +82,25 @@
                 <defaultValue>true</defaultValue>
                 <tooltip>Adding storage of toxic packages?</tooltip>
             </li>
+			
+	 <li Class="XmlExtensions.Setting.GapLine"/>
+	 
+		<li Class="XmlExtensions.Setting.Checkbox">
+                <key>UseAlcoholinLamp</key>
+                <label>Use alcohol in a healer's lamp?</label>
+				<tKey>UseAlcoholinLamp</tKey>
+                <defaultValue>true</defaultValue>
+                <tooltip>Use alcohol in a healer's lamp??</tooltip>
+            </li>
+		
+			<li Class="XmlExtensions.Setting.Checkbox">
+                <key>UseAlcoholinLampbag</key>
+                <label>Disable the bug with the healer's lamp?</label>
+				<tKey>UseAlcoholinLampbag</tKey>
+                <defaultValue>false</defaultValue>
+                <tooltip>my little bug user??</tooltip>
+            </li>
+		
 		
             <li Class="XmlExtensions.Setting.GapLine"/>
             <li Class="XmlExtensions.Setting.ResetSettings"/>

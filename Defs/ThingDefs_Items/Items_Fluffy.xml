@@ -300,9 +300,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<texPath>Things/Item/BagestHeart</texPath>
 		</graphicData>
-		<researchPrerequisites>
-			<li>TheHybridization</li>
-		</researchPrerequisites>
+	
 	</ThingDef>
 
 	<ThingDef>
@@ -355,9 +353,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<texPath>Things/Item/BechirHart</texPath>
 		</graphicData>
-		<researchPrerequisites>
-			<li>TheHybridization</li>
-		</researchPrerequisites>
+		
 	</ThingDef>
 	
 	
@@ -411,9 +407,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<texPath>Things/Item/WivernaHeart</texPath>
 		</graphicData>
-		<researchPrerequisites>
-			<li>TheHybridization</li>
-		</researchPrerequisites>
+		
 	</ThingDef>
 
 </Defs>

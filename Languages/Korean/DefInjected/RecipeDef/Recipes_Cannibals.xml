@@ -14,8 +14,8 @@
   <MakeYzvar.jobString>우즈바르 요리.</MakeYzvar.jobString>
 
 
-  <!--<MinceHemogenPack.label>출혈</MinceHemogenPack.label>-->
-  <!--<MinceHemogenPack.description>혈액 펌핑.</MinceHemogenPack.description>-->
-  <!--<MinceHemogenPack.jobString>도살.</MinceHemogenPack.jobString>-->
+ <MinceHemogenPack.label>출혈</MinceHemogenPack.label>
+  <MinceHemogenPack.description>혈액 펌핑.</MinceHemogenPack.description>
+  <MinceHemogenPack.jobString>도살.</MinceHemogenPack.jobString>
 
 </LanguageData>

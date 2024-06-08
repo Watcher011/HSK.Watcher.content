@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <ShelfTox.label>Контейнер для токсичных отходов</ShelfTox.label>
-  <ShelfTox.description>Контейнер, который может безопасно хранить большое количество токсичных отходов и из-за чего они разлагаются довольно медленно ... Нет ... Хранить внутри все равно небезопасно если вы не обращались с ними хорошо, он легко превратится в гигантскую токсичную бомбу.</ShelfTox.description>
+  <ShelfTox.label>Toxic waste container</ShelfTox.label>
+  <ShelfTox.description>A container that can safely store a large amount of toxic waste and causing it to decompose rather slowly... No... It's still not safe to store inside if you haven't treated it well, it will easily turn into a giant toxic bomb.</ShelfTox.description>
 
 
 </LanguageData>

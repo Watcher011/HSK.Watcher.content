@@ -340,5 +340,42 @@
 	
     </caseTrue>
 </Operation>
+
+
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>Watcher.Content.Settings</modId>
+    <key>UseAlcoholinLamp</key>
+    <defaultValue>true</defaultValue>
+    <caseTrue>		
+	  <Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="medieval_surg_lamp"]/comps/li[@Class="SK.CompFueled_Properties"]/fuelFilter/thingDefs</xpath>
+				<value>
+				<thingDefs>
+						<li>Ethanol</li>
+						<li>DirtyEthanol</li>
+				</thingDefs>
+				</value>
+		</Operation>
+	    </caseTrue>
+</Operation>
+
+
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>Watcher.Content.Settings</modId>
+    <key>UseAlcoholinLampbag</key>
+    <defaultValue>false</defaultValue>
+    <caseTrue>		
+	  <Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="medieval_surg_lamp"]/comps/li[@Class="CompProperties_Glower"]</xpath>
+				<value>
+				<li Class="CompProperties_Glower">
+				<glowRadius>6</glowRadius>
+				<glowColor>(252,187,113,0)</glowColor>
+			</li>
+				</value>
+		</Operation>
+	    </caseTrue>
+</Operation>
+
 </Patch>
 

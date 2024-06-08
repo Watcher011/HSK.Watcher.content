@@ -14,8 +14,8 @@
   <MakeYzvar.jobString>Варит узвар.</MakeYzvar.jobString>
 
 
-  <!--<MinceHemogenPack.label>Обескровливание</MinceHemogenPack.label>-->
-  <!--<MinceHemogenPack.description>Откачка крови.</MinceHemogenPack.description>-->
-  <!--<MinceHemogenPack.jobString>Butchering.</MinceHemogenPack.jobString>-->
+ <MinceHemogenPack.label>Обескровливание</MinceHemogenPack.label>
+<MinceHemogenPack.description>Откачка крови.</MinceHemogenPack.description>
+<MinceHemogenPack.jobString>Обескровливание.</MinceHemogenPack.jobString>
 
 </LanguageData>

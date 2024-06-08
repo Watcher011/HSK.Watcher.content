@@ -14,7 +14,7 @@
   <SubCategory_Traps.description>armadilhas especiais para defender.</SubCategory_Traps.description>
 
 
-  <!--<SubCategory_Columns.label>Coluna</SubCategory_Columns.label>-->
-  <!--<SubCategory_Columns.description>Coluna - parte de uma estrutura arquitetônica, um pilar cilíndrico, de madeira, pedra ou metal, que sustenta a cobertura.</SubCategory_Columns.description>-->
+ <SubCategory_Columns.label>Coluna</SubCategory_Columns.label>
+  <SubCategory_Columns.description>Coluna - parte de uma estrutura arquitetônica, um pilar cilíndrico, de madeira, pedra ou metal, que sustenta a cobertura.</SubCategory_Columns.description>
 
 </LanguageData>

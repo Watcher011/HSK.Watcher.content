@@ -25,13 +25,13 @@
   <DirtyEthanol.description>Брага - спиртосодержащий получаемый в результате сбраживания сахара или других сахаристых веществ и предназначенный для последующей перегонки через самодельные аппараты.Соединение с множеством побочных эффектов.</DirtyEthanol.description>
   <DirtyEthanol.ingestible.ingestCommandString>Выпить {0}</DirtyEthanol.ingestible.ingestCommandString>
   <DirtyEthanol.ingestible.ingestReportString>Выпивает {0}.</DirtyEthanol.ingestible.ingestReportString>
-  <DirtyEthanol.stuffProps.stuffAdjective>fuel</DirtyEthanol.stuffProps.stuffAdjective>
+  <DirtyEthanol.stuffProps.stuffAdjective>Топливо</DirtyEthanol.stuffProps.stuffAdjective>
 
   <Ethanol.label>Этанол</Ethanol.label>
   <Ethanol.description>Этанол — органическое соединение, относящееся к классу одноатомных спиртов. При стандартных условиях, этанол — это летучая, горючая, бесцветная прозрачная жидкость с характерным запахом и жгучим вкусом. Действующий компонент алкогольных напитков.</Ethanol.description>
   <Ethanol.ingestible.ingestCommandString>Выпить {0}</Ethanol.ingestible.ingestCommandString>
   <Ethanol.ingestible.ingestReportString>Выпивает {0}.</Ethanol.ingestible.ingestReportString>
-  <Ethanol.stuffProps.stuffAdjective>fuel</Ethanol.stuffProps.stuffAdjective>
+  <Ethanol.stuffProps.stuffAdjective>Топливо</Ethanol.stuffProps.stuffAdjective>
 
 
 </LanguageData>

@@ -2,21 +2,19 @@
 <LanguageData>
 
   <Watcher_Content_Settings.label>Watcher Content Settings</Watcher_Content_Settings.label>
-  <Watcher_Content_Settings.settings.1.text>Difficulty</Watcher_Content_Settings.settings.1.text>
-  <Watcher_Content_Settings.settings.2.label>Add alcohol to recipes?</Watcher_Content_Settings.settings.2.label>
-  <Watcher_Content_Settings.settings.3.label>add Bleeding of Corpses?</Watcher_Content_Settings.settings.3.label>
-  <Watcher_Content_Settings.settings.4.label>add Building a blast door?</Watcher_Content_Settings.settings.4.label>
-  <Watcher_Content_Settings.settings.5.label>Do we sort the mines into boxes or just let them lie around?</Watcher_Content_Settings.settings.5.label>
-  <Watcher_Content_Settings.settings.6.label>adding soft walls?</Watcher_Content_Settings.settings.6.label>
-  <Watcher_Content_Settings.settings.7.label>Column with a girl and or cat (Texture selection)</Watcher_Content_Settings.settings.7.label>
-  <Watcher_Content_Settings.settings.8.label>Adding storage of toxic packages?</Watcher_Content_Settings.settings.8.label>
-  <Watcher_Content_Settings.settings.12.text>All options require restart to apply</Watcher_Content_Settings.settings.12.text>
+  <Watcher_Content_Settings.settings.1.text>Opções</Watcher_Content_Settings.settings.1.text>
+  <Watcher_Content_Settings.settings.2.label>Adicionar álcool a uma receita de fabricação de remédios?</Watcher_Content_Settings.settings.2.label>
+  <Watcher_Content_Settings.settings.3.label>Adicionar extração de hematogênio de cadáveres?</Watcher_Content_Settings.settings.3.label>
+  <Watcher_Content_Settings.settings.4.label>Adicionar Construindo uma porta de segurança?</Watcher_Content_Settings.settings.4.label>
+  <Watcher_Content_Settings.settings.5.label>Classificamos as minas em caixas ou apenas as deixamos espalhadas (mudando a receita de fabricação e configurando as minas)?</Watcher_Content_Settings.settings.5.label>
+  <Watcher_Content_Settings.settings.6.label>Adicionar paredes feitas de tecido ou couro?</Watcher_Content_Settings.settings.6.label>
+  <Watcher_Content_Settings.settings.7.label>Alterar a textura da coluna Glowstone (seleção de textura)</Watcher_Content_Settings.settings.7.label>
+  <Watcher_Content_Settings.settings.8.label>Adicionar efeitos positivos para tapetes?</Watcher_Content_Settings.settings.8.label>
+  <Watcher_Content_Settings.settings.9.label>Adicionando armazenamento de embalagens tóxicas?</Watcher_Content_Settings.settings.9.label>
+  <Watcher_Content_Settings.settings.10.label>Usar álcool na lâmpada de um curandeiro?</Watcher_Content_Settings.settings.10.label>
+  <Watcher_Content_Settings.settings.11.label>Desativar o bug com a lâmpada do curandeiro?</Watcher_Content_Settings.settings.11.label>
+  <Watcher_Content_Settings.settings.15.text>Todas as opções exigem reinicialização para serem aplicadas</Watcher_Content_Settings.settings.15.text>
 
 
-  <!--<Watcher_Content_Settings.settings.11.text>All options require restart to apply</Watcher_Content_Settings.settings.11.text>-->
-  <!--<Watcher_Content_Settings.settings.10.text>All options require restart to apply</Watcher_Content_Settings.settings.10.text>-->
-  <!--<Watcher_Content_Settings.settings.9.text>All options require restart to apply</Watcher_Content_Settings.settings.9.text>-->
-  <!--<Watcher_Content_Settings.settings.8.text>All options require restart to apply</Watcher_Content_Settings.settings.8.text>-->
-  <!--<Watcher_Content_Settings.settings.7.text>All options require restart to apply</Watcher_Content_Settings.settings.7.text>-->
 
 </LanguageData>

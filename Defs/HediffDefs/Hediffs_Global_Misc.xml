@@ -27,5 +27,156 @@
     </comps>
   </HediffDef>
   
+  
+  
+   <HediffDef>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defName>PhoenixRugAura</defName>
+    <label>Тепло от коврика Феникса</label>
+    <description>Одним из краткосрочных последствий нахождения рядом с шкурой феникса является повышене устойчивости к холоду</description>
+    <labelNoun>Тепло от коврика</labelNoun>
+    <maxSeverity>1</maxSeverity>
+     <stages>
+			<li>
+				<capMods>
+					<li>
+						 <capacity>Moving</capacity>
+                         <postFactor>1</postFactor>
+					</li>
+				</capMods>
+				 <statOffsets>
+                <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+                </statOffsets>
+			</li>
+		</stages>
+     
+    <comps>
+      <li Class="HediffCompProperties_SelfHeal">
+        <healAmount>0.04</healAmount>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  
+   <HediffDef>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defName>KirinRugAura</defName>
+    <label>Прохлада от коврика кирина</label>
+    <description>Одним из краткосрочных последствий нахождения рядом с шкурой кирина является повышене устойчивости к жаре</description>
+    <labelNoun>Прохлада от коврика</labelNoun>
+    <maxSeverity>1</maxSeverity>
+     <stages>
+			<li>
+				<capMods>
+					<li>
+						 <capacity>Moving</capacity>
+                         <postFactor>1</postFactor>
+					</li>
+				</capMods>
+				 <statOffsets>
+                <ComfyTemperatureMax>20</ComfyTemperatureMax>
+                </statOffsets>
+			</li>
+		</stages>
+     
+    <comps>
+      <li Class="HediffCompProperties_SelfHeal">
+        <healAmount>0.04</healAmount>
+      </li>
+    </comps>
+  </HediffDef>
 
+
+
+
+ <HediffDef>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defName>WyvernRugAura</defName>
+    <label>Свежесть от коврика виверны</label>
+    <description>Одним из краткосрочных последствий нахождения рядом с шкурой виверны является повышене устойчивости к токсинам</description>
+    <labelNoun>Свежесть от коврика</labelNoun>
+    <maxSeverity>1</maxSeverity>
+     <stages>
+			<li>
+				<capMods>
+					<li>
+						 <capacity>Moving</capacity>
+                         <postFactor>1</postFactor>
+					</li>
+				</capMods>
+				 <statOffsets>
+                 <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+				  <ToxicResistance>1</ToxicResistance>
+                </statOffsets>
+			</li>
+		</stages>
+     
+    <comps>
+      <li Class="HediffCompProperties_SelfHeal">
+        <healAmount>0.04</healAmount>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  
+  <HediffDef>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defName>BehirRugAura</defName>
+    <label>Концентрация от коврика бехира</label>
+    <description>Одним из краткосрочных последствий нахождения рядом с шкурой бехира является повышене умственных способностей
+	.</description>
+    <labelNoun>Концентрация от коврика</labelNoun>
+    <maxSeverity>1</maxSeverity>
+     <stages>
+			<li>
+				<capMods>
+					<li>
+						 <capacity>Moving</capacity>
+                         <postFactor>1</postFactor>
+					</li>
+				</capMods>
+				 <statOffsets>
+                  <GlobalLearningFactor>0.25</GlobalLearningFactor>
+				  <MentalBreakThreshold>-0.33</MentalBreakThreshold>
+                </statOffsets>
+			</li>
+		</stages>
+     
+    <comps>
+      <li Class="HediffCompProperties_SelfHeal">
+        <healAmount>0.04</healAmount>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  
+   
+  <HediffDef>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defName>BagestRugAura</defName>
+    <label>Темновидиние от коврика багеста</label>
+    <description>Одним из краткосрочных последствий нахождения рядом с шкурой багеста является повышене восприятия света
+	.</description>
+    <labelNoun>Темновидиние от коврика</labelNoun>
+    <maxSeverity>1</maxSeverity>
+     <stages>
+			<li>
+				<capMods>
+					<li>
+						 <capacity>Moving</capacity>
+                         <postFactor>1</postFactor>
+					</li>
+				</capMods>
+				 <statOffsets>
+                  <NightVisionEfficiency>1</NightVisionEfficiency>
+                </statOffsets>
+			</li>
+		</stages>
+     
+    <comps>
+      <li Class="HediffCompProperties_SelfHeal">
+        <healAmount>0.04</healAmount>
+      </li>
+    </comps>
+  </HediffDef>
 </Defs>

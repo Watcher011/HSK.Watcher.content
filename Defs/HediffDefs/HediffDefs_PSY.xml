@@ -6,16 +6,15 @@
 		<labelNoun>Psi resonance</labelNoun>
 		<description>Harmonic vibrations of psi waves that the heart emits accelerates the restoration of your energy</description>
 		<initialSeverity>1</initialSeverity>
+		<maxSeverity>1</maxSeverity>
+    <minSeverity>0</minSeverity>
 		<hediffClass>HediffWithComps</hediffClass>
 		 <scenarioCanAdd>false</scenarioCanAdd>
-		<comps>
-			 <li Class="HediffCompProperties_Disappears">
-        <disappearsAfterTicks>
-          <min>8000</min>
-          <max>8100</max>
-        </disappearsAfterTicks>
-		</li>
-		</comps>
+		   <comps>
+      <li Class="HediffCompProperties_SelfHeal">
+        <healAmount>0.04</healAmount>
+      </li>
+    </comps>
 		<defaultLabelColor>(1, 0.0, 0.6)</defaultLabelColor>
 		<isBad>false</isBad>
 		<stages>

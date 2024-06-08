@@ -33,6 +33,7 @@
       <WorkToBuild>800</WorkToBuild>
       <CleaningTimeFactor>2</CleaningTimeFactor>
 		</statBases>
+		<tickerType>Normal</tickerType>
 		<size>(2,2)</size>
 		<description>Carpet made from Phoenix skin is warm to the touch and glows a little in the dark!</description>
 		<rotatable>true</rotatable>
@@ -64,6 +65,7 @@
       <WorkToBuild>800</WorkToBuild>
       <CleaningTimeFactor>2</CleaningTimeFactor>
 		</statBases>
+		<tickerType>Normal</tickerType>
 		<size>(2,2)</size>
 		<description>Kirin’s thick fur will perfectly decorate a room, if you don’t remember how many people died in the process of extracting this fur!</description>
 		<rotatable>true</rotatable>
@@ -96,6 +98,7 @@
       <CleaningTimeFactor>2</CleaningTimeFactor>
 		</statBases>
 		<size>(2,2)</size>
+		<tickerType>Normal</tickerType>
 		<description>A mythical creature reminiscent of a European dragon but with only one pair of legs, it is often depicted with a serpentine tail and is rarely fire-breathing, unlike four-legged dragons. The dragon has the greatest resemblance to a wyvern.</description>
 		<rotatable>true</rotatable>
 	</ThingDef>
@@ -125,6 +128,7 @@
       <WorkToBuild>800</WorkToBuild>
       <CleaningTimeFactor>2</CleaningTimeFactor>
 		</statBases>
+		<tickerType>Normal</tickerType>
 		<size>(2,2)</size>
 		<description>A carpet made from the skin of a terrifying monster!</description>
 		<rotatable>true</rotatable>
@@ -163,6 +167,7 @@
       <WorkToBuild>800</WorkToBuild>
       <CleaningTimeFactor>2</CleaningTimeFactor>
 		</statBases>
+		<tickerType>Normal</tickerType>
 		<size>(2,2)</size>
 		<description>A creepy creature ended up in the wrong colony, now she is the decoration of the colony</description>
 		<rotatable>true</rotatable>
@@ -195,6 +200,7 @@
       <WorkToBuild>800</WorkToBuild>
       <CleaningTimeFactor>2</CleaningTimeFactor>
 		</statBases>
+		<tickerType>Normal</tickerType>
 		<size>(2,2)</size>
 		<description>A great creature that ended up in the wrong colony, now its fur adorns the colony</description>
 		<rotatable>true</rotatable>

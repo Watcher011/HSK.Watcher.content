@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Trap2_Explosive.label>Box with mines</Trap2_Explosive.label>
-  <Trap2_Explosive.description>Box min.Explosive</Trap2_Explosive.description>
+  <Trap2_Explosive.label>광산이 있는 상자</Trap2_Explosive.label>
+  <Trap2_Explosive.description>상자 최소.폭발성</Trap2_Explosive.description>
 
-  <Trap2_Incendiary.label>Box of Incendiary Mines</Trap2_Incendiary.label>
-  <Trap2_Incendiary.description>Box of incendiary mines. Explosive</Trap2_Incendiary.description>
+  <Trap2_Incendiary.label>소이 지뢰 상자</Trap2_Incendiary.label>
+  <Trap2_Incendiary.description>소이 광산 상자. 폭발물</Trap2_Incendiary.description>
 
-  <Trap2_EMP.label>Box with EMP mines</Trap2_EMP.label>
-  <Trap2_EMP.description>Box EMP min.Explosive</Trap2_EMP.description>
+  <Trap2_EMP.label>EMP 광산이 있는 상자</Trap2_EMP.label>
+  <Trap2_EMP.description>상자 EMP 최소 폭발성</Trap2_EMP.description>
 
-  <Trap2_AE.label>Box of mine pellets</Trap2_AE.label>
-  <Trap2_AE.description>Box of granular min.Explosive</Trap2_AE.description>
+  <Trap2_AE.label>광산 알갱이 상자</Trap2_AE.label>
+  <Trap2_AE.description>세분화 된 min.Explosive의 상자</Trap2_AE.description>
 
-  <Trap2_Tox.label>Box with toxic mines</Trap2_Tox.label>
-  <Trap2_Tox.description>Box of toxic min. Explosive</Trap2_Tox.description>
+  <Trap2_Tox.label>독성 광산이 있는 상자</Trap2_Tox.label>
+  <Trap2_Tox.description>분의 상자. 폭발물</Trap2_Tox.description>
 
-  <TrapKapk.label>Box with traps</TrapKapk.label>
-  <TrapKapk.description>Box of traps</TrapKapk.description>
+  <TrapKapk.label>함정이 있는 상자</TrapKapk.label>
+  <TrapKapk.description>함정 상자</TrapKapk.description>
 
 
 </LanguageData>

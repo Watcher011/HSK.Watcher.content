@@ -14,8 +14,8 @@
   <MakeYzvar.jobString>Cozinhando Uzvar.</MakeYzvar.jobString>
 
 
-  <!--<MinceHemogenPack.label>Sangramento</MinceHemogenPack.label>-->
-  <!--<MinceHemogenPack.description>Bombeamento de sangue.</MinceHemogenPack.description>-->
-  <!--<MinceHemogenPack.jobString>Açougue.</MinceHemogenPack.jobString>-->
+ <MinceHemogenPack.label>Sangramento</MinceHemogenPack.label>
+ <MinceHemogenPack.description>Bombeamento de sangue.</MinceHemogenPack.description>
+ <MinceHemogenPack.jobString>Açougue.</MinceHemogenPack.jobString>
 
 </LanguageData>

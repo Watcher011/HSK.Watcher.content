@@ -25,13 +25,13 @@
   <DirtyEthanol.description>더티 에탄올(Dirty Ethanol) - 부작용이 많은 유기 화합물.</DirtyEthanol.description>
   <DirtyEthanol.ingestible.ingestCommandString>마시다 {0}</DirtyEthanol.ingestible.ingestCommandString>
   <DirtyEthanol.ingestible.ingestReportString>음료수 {0}.</DirtyEthanol.ingestible.ingestReportString>
-  <DirtyEthanol.stuffProps.stuffAdjective>fuel</DirtyEthanol.stuffProps.stuffAdjective>
+  <DirtyEthanol.stuffProps.stuffAdjective>연료</DirtyEthanol.stuffProps.stuffAdjective>
 
   <Ethanol.label>에탄올</Ethanol.label>
   <Ethanol.description>에탄올은 1가 알코올 부류에 속하는 유기 화합물입니다. 표준 조건에서 에탄올은 독특한 냄새와 매운 맛을 지닌 휘발성, 가연성, 무색 투명한 액체입니다. 알코올 음료의 활성 성분.</Ethanol.description>
   <Ethanol.ingestible.ingestCommandString>마시다 {0}</Ethanol.ingestible.ingestCommandString>
   <Ethanol.ingestible.ingestReportString>음료수 {0}.</Ethanol.ingestible.ingestReportString>
-  <Ethanol.stuffProps.stuffAdjective>fuel</Ethanol.stuffProps.stuffAdjective>
+  <Ethanol.stuffProps.stuffAdjective>연료</Ethanol.stuffProps.stuffAdjective>
 
 
 </LanguageData>

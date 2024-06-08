@@ -2,21 +2,19 @@
 <LanguageData>
 
   <Watcher_Content_Settings.label>Watcher Content Settings</Watcher_Content_Settings.label>
-  <Watcher_Content_Settings.settings.1.text>Difficulty</Watcher_Content_Settings.settings.1.text>
-  <Watcher_Content_Settings.settings.2.label>Add alcohol to recipes?</Watcher_Content_Settings.settings.2.label>
-  <Watcher_Content_Settings.settings.3.label>add Bleeding of Corpses?</Watcher_Content_Settings.settings.3.label>
-  <Watcher_Content_Settings.settings.4.label>add Building a blast door?</Watcher_Content_Settings.settings.4.label>
-  <Watcher_Content_Settings.settings.5.label>Do we sort the mines into boxes or just let them lie around?</Watcher_Content_Settings.settings.5.label>
-  <Watcher_Content_Settings.settings.6.label>adding soft walls?</Watcher_Content_Settings.settings.6.label>
-  <Watcher_Content_Settings.settings.7.label>Column with a girl and or cat (Texture selection)</Watcher_Content_Settings.settings.7.label>
-  <Watcher_Content_Settings.settings.8.label>Adding storage of toxic packages?</Watcher_Content_Settings.settings.8.label>
-  <Watcher_Content_Settings.settings.12.text>All options require restart to apply</Watcher_Content_Settings.settings.12.text>
+  <Watcher_Content_Settings.settings.1.text>어려움</Watcher_Content_Settings.settings.1.text>
+  <Watcher_Content_Settings.settings.2.label>레시피에 알코올을 추가하시겠습니까?</Watcher_Content_Settings.settings.2.label>
+  <Watcher_Content_Settings.settings.3.label>시체 출혈 추가?</Watcher_Content_Settings.settings.3.label>
+  <Watcher_Content_Settings.settings.4.label>add 방폭문을 건설하시겠습니까?</Watcher_Content_Settings.settings.4.label>
+  <Watcher_Content_Settings.settings.5.label>광산을 상자에 분류할 것인가, 아니면 그냥 놓아둘 것인가?</Watcher_Content_Settings.settings.5.label>
+  <Watcher_Content_Settings.settings.6.label>부드러운 벽을 추가 하시겠습니까?</Watcher_Content_Settings.settings.6.label>
+  <Watcher_Content_Settings.settings.7.label>발광석 기둥의 질감 변경(질감 선택)</Watcher_Content_Settings.settings.7.label>
+  <Watcher_Content_Settings.settings.8.label>러그에 긍정적인 효과 추가?</Watcher_Content_Settings.settings.8.label>
+  <Watcher_Content_Settings.settings.9.label>독성 패키지 보관을 추가하시겠습니까?</Watcher_Content_Settings.settings.9.label>
+  <Watcher_Content_Settings.settings.10.label>치료사의 램프에 알코올을 사용하십시오?</Watcher_Content_Settings.settings.10.label>
+  <Watcher_Content_Settings.settings.11.label>치료사의 램프로 버그를 비활성화하시겠습니까?</Watcher_Content_Settings.settings.11.label>
+  <Watcher_Content_Settings.settings.15.text>모든 옵션을 적용하려면 다시 시작해야 합니다.</Watcher_Content_Settings.settings.15.text>
 
 
-  <!--<Watcher_Content_Settings.settings.11.text>All options require restart to apply</Watcher_Content_Settings.settings.11.text>-->
-  <!--<Watcher_Content_Settings.settings.10.text>All options require restart to apply</Watcher_Content_Settings.settings.10.text>-->
-  <!--<Watcher_Content_Settings.settings.9.text>All options require restart to apply</Watcher_Content_Settings.settings.9.text>-->
-  <!--<Watcher_Content_Settings.settings.8.text>All options require restart to apply</Watcher_Content_Settings.settings.8.text>-->
-  <!--<Watcher_Content_Settings.settings.7.text>All options require restart to apply</Watcher_Content_Settings.settings.7.text>-->
 
 </LanguageData>

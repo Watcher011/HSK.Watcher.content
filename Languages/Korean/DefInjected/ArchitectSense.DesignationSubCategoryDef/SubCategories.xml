@@ -10,11 +10,11 @@
   <SubCategory_heart.label>마음</SubCategory_heart.label>
   <SubCategory_heart.description>마음.</SubCategory_heart.description>
 
-  <SubCategory_Traps.label>traps</SubCategory_Traps.label>
-  <SubCategory_Traps.description>Special traps for defend.</SubCategory_Traps.description>
+  <SubCategory_Traps.label>트랩</SubCategory_Traps.label>
+  <SubCategory_Traps.description>방어용 특수 함정.</SubCategory_Traps.description>
 
 
-  <!--<SubCategory_Columns.label>열</SubCategory_Columns.label>-->
-  <!--<SubCategory_Columns.description>기둥 - 건축 구조의 일부, 원통형 기둥, 나무, 돌 또는 금속으로 지붕을 고정합니다.</SubCategory_Columns.description>-->
+ <SubCategory_Columns.label>열</SubCategory_Columns.label>
+ <SubCategory_Columns.description>기둥 - 건축 구조의 일부, 원통형 기둥, 나무, 돌 또는 금속으로 지붕을 고정합니다.</SubCategory_Columns.description>
 
 </LanguageData>
