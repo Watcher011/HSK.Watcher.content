@@ -5,18 +5,22 @@
   <Watcher_Content_Settings.settings.1.text>Options</Watcher_Content_Settings.settings.1.text>
   <Watcher_Content_Settings.settings.2.label>Add alcohol to a medicine crafting recipe?</Watcher_Content_Settings.settings.2.label>
   <Watcher_Content_Settings.settings.3.label>Add hematogen extraction from corpses?</Watcher_Content_Settings.settings.3.label>
-  <Watcher_Content_Settings.settings.4.label>Add Building a blast door?</Watcher_Content_Settings.settings.4.label>
   <Watcher_Content_Settings.settings.5.label>Do we sort the mines into boxes or just let them lie around(changing the crafting recipe and setting mines)?</Watcher_Content_Settings.settings.5.label>
   <Watcher_Content_Settings.settings.6.label>Add walls made of fabric or leather?</Watcher_Content_Settings.settings.6.label>
-  <Watcher_Content_Settings.settings.7.label>Change the texture for the glowstone column (Texture selection)</Watcher_Content_Settings.settings.7.label>
   <Watcher_Content_Settings.settings.8.label>Add positive effects for rugs?</Watcher_Content_Settings.settings.8.label>
   <Watcher_Content_Settings.settings.9.label>Adding storage of toxic packages?</Watcher_Content_Settings.settings.9.label>
   <Watcher_Content_Settings.settings.10.label>Use alcohol in a healer's lamp?</Watcher_Content_Settings.settings.10.label>
-  <Watcher_Content_Settings.settings.11.label>Disable the bug with the healer's lamp?</Watcher_Content_Settings.settings.11.label>
-  
-  <Watcher_Content_Settings.settings.15.text>All options require restart to apply</Watcher_Content_Settings.settings.15.text>
+  <Watcher_Content_Settings.settings.12.label>Add positive effects for rugs?</Watcher_Content_Settings.settings.12.label>
+  <Watcher_Content_Settings.settings.13.label>Adding storage of toxic packages?</Watcher_Content_Settings.settings.13.label>
+  <Watcher_Content_Settings.settings.15.label>Use alcohol in a healer's lamp?</Watcher_Content_Settings.settings.15.label>
+  <Watcher_Content_Settings.settings.16.label>Disable the bug with the healer's lamp?</Watcher_Content_Settings.settings.16.label>
+  <Watcher_Content_Settings.settings.20.text>All options require restart to apply</Watcher_Content_Settings.settings.20.text>
 
 
+  <!--<Watcher_Content_Settings.settings.4.label>Add Building a blast door?</Watcher_Content_Settings.settings.4.label>-->
+  <!--<Watcher_Content_Settings.settings.7.label>Change the texture for the glowstone column (Texture selection)</Watcher_Content_Settings.settings.7.label>-->
+  <!--<Watcher_Content_Settings.settings.11.label>Disable the bug with the healer's lamp?</Watcher_Content_Settings.settings.11.label>-->
+  <!--<Watcher_Content_Settings.settings.15.text>All options require restart to apply</Watcher_Content_Settings.settings.15.text>-->
   <!--<Watcher_Content_Settings.settings.14.text>All options require restart to apply</Watcher_Content_Settings.settings.14.text>-->
   <!--<Watcher_Content_Settings.settings.12.text>All options require restart to apply</Watcher_Content_Settings.settings.12.text>-->
   <!--<Watcher_Content_Settings.settings.11.text>All options require restart to apply</Watcher_Content_Settings.settings.11.text>-->

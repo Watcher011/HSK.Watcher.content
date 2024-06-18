@@ -1,0 +1,21 @@
+﻿
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+	 <operations>
+         <li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="VanometricPowerCell"]/comps/li[@Class="CompProperties_Power"]</xpath>
+				<value>
+				 <powerUpgrades>
+				  <li>
+					<researchProject>AdvancedPowerKult</researchProject>
+					<factor>1.5</factor>
+				  </li>
+				</powerUpgrades>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

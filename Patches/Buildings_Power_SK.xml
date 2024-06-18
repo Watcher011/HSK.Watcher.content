@@ -1,0 +1,72 @@
+﻿<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+	 <operations>
+         <li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="WindTurbine"]/comps/li[@Class="CompProperties_Power"]</xpath>
+				<value>
+				 <powerUpgrades>
+				  <li>
+					<researchProject>AdvancedPowerKult</researchProject>
+					<factor>1.2</factor>
+				  </li>
+				</powerUpgrades>
+				</value>
+			</li>
+
+         <li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="AdvancedWindTurbine"]/comps/li[@Class="CompProperties_Power"]</xpath>
+				<value>
+				 <powerUpgrades>
+				  <li>
+					<researchProject>AdvancedPowerKult</researchProject>
+					<factor>1.5</factor>
+				  </li>
+				</powerUpgrades>
+				</value>
+			</li>
+
+        <li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="WoodFiredGenerator"]/comps/li[@Class="CompProperties_Power"]</xpath>
+				<value>
+				 <powerUpgrades>
+				  <li>
+					<researchProject>AdvancedPowerKult</researchProject>
+					<factor>1.5</factor>
+				  </li>
+				</powerUpgrades>
+				</value>
+			</li>
+
+      
+
+       <li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CoalPowerPlant"]/comps/li[@Class="CompProperties_Power"]</xpath>
+				<value>
+				 <powerUpgrades>
+				  <li>
+					<researchProject>AdvancedPowerKult</researchProject>
+					<factor>1.5</factor>
+				  </li>
+				</powerUpgrades>
+				</value>
+			</li>
+
+ 
+       <li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="ChemfuelPoweredGenerator"]/comps/li[@Class="CompProperties_Power"]</xpath>
+				<value>
+				 <powerUpgrades>
+				  <li>
+					<researchProject>AdvancedPowerKult</researchProject>
+					<factor>1.5</factor>
+				  </li>
+				</powerUpgrades>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>
+

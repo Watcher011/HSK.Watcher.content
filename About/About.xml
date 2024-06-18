@@ -19,6 +19,7 @@
 		<li>WatcherXI.Statues</li>
 		<li>WatcherXI.HSK.alcohol</li>
 		<li>WatcherXI.StorTox</li>
+		<li>WatcherXI.AdvancedPower</li>
 	</incompatibleWith>
 	<modDependencies>
         <li>

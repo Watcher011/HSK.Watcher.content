@@ -1,29 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-<MakeTrapExplosive.label>Create a box 6 min</MakeTrapExplosive.label>
- <MakeTrapExplosive.description>Creating a box with 6 mines.</MakeTrapExplosive.description>
- <MakeTrapExplosive.jobString>Creates a set of mines.</MakeTrapExplosive.jobString>
+  <!--<MakeTrapExplosive.label>Create a box 6 min</MakeTrapExplosive.label>-->
+  <!--<MakeTrapExplosive.description>Creating a box with 6 mines.</MakeTrapExplosive.description>-->
+  <!--<MakeTrapExplosive.jobString>Creates a set of mines.</MakeTrapExplosive.jobString>-->
 
- <MakeTrapTox.label>Crafting a Box of 6 Toxic Mines</MakeTrapTox.label>
-<MakeTrapTox.description>Create a box with 6 toxic mines.</MakeTrapTox.description>
- <MakeTrapTox.jobString>Creates a set of mines.</MakeTrapTox.jobString>
+  <!--<MakeTrapTox.label>Crafting a Box of 6 Toxic Mines</MakeTrapTox.label>-->
+  <!--<MakeTrapTox.description>Create a box with 6 toxic mines.</MakeTrapTox.description>-->
+  <!--<MakeTrapTox.jobString>Creates a set of mines.</MakeTrapTox.jobString>-->
 
- <MakeTrapIncendiary.label>Crafting a box of 6 incendiary mines</MakeTrapIncendiary.label>
-<MakeTrapIncendiary.description>Crafting a box containing 6 incendiary mines.</MakeTrapIncendiary.description>
- <MakeTrapIncendiary.jobString>Creates a set of incendiary mines.</MakeTrapIncendiary.jobString>
+  <!--<MakeTrapIncendiary.label>Crafting a box of 6 incendiary mines</MakeTrapIncendiary.label>-->
+  <!--<MakeTrapIncendiary.description>Crafting a box containing 6 incendiary mines.</MakeTrapIncendiary.description>-->
+  <!--<MakeTrapIncendiary.jobString>Creates a set of incendiary mines.</MakeTrapIncendiary.jobString>-->
 
- <MakeTrapEMP.label>Create a box 6 EMP min</MakeTrapEMP.label>
- <MakeTrapEMP.description>Crafting a box with 6 EMP mines.</MakeTrapEMP.description>
-<MakeTrapEMP.jobString>Creates a set of EMP min.</MakeTrapEMP.jobString>
+  <!--<MakeTrapEMP.label>Create a box 6 EMP min</MakeTrapEMP.label>-->
+  <!--<MakeTrapEMP.description>Crafting a box with 6 EMP mines.</MakeTrapEMP.description>-->
+  <!--<MakeTrapEMP.jobString>Creates a set of EMP min.</MakeTrapEMP.jobString>-->
 
-<MakeTrapAE.label>Crafting a Box of 6 Granular Mines</MakeTrapAE.label>
-<MakeTrapAE.description>Create a box with 6 Granule Mines.</MakeTrapAE.description>
-<MakeTrapAE.jobString>Creates a set of Granular Mines.</MakeTrapAE.jobString>
+  <!--<MakeTrapAE.label>Crafting a Box of 6 Granular Mines</MakeTrapAE.label>-->
+  <!--<MakeTrapAE.description>Create a box with 6 Granule Mines.</MakeTrapAE.description>-->
+  <!--<MakeTrapAE.jobString>Creates a set of Granular Mines.</MakeTrapAE.jobString>-->
 
-<MakeTrapKapk.label>Creating a box with 10 traps</MakeTrapKapk.label>
-<MakeTrapKapk.description>Creating a box with 10 traps.</MakeTrapKapk.description>
-<MakeTrapKapk.jobString>Creates a set of traps.</MakeTrapKapk.jobString>
+  <!--<MakeTrapKapk.label>Creating a box with 10 traps</MakeTrapKapk.label>-->
+  <!--<MakeTrapKapk.description>Creating a box with 10 traps.</MakeTrapKapk.description>-->
+  <!--<MakeTrapKapk.jobString>Creates a set of traps.</MakeTrapKapk.jobString>-->
 
 
 </LanguageData>

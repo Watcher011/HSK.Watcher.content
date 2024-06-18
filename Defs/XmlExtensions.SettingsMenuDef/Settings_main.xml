@@ -56,6 +56,18 @@
                 <defaultValue>true</defaultValue>
                 <tooltip>adding soft walls?</tooltip>
             </li>
+			
+			
+			
+			<li Class="XmlExtensions.Setting.Checkbox">
+                <key>AddWallKristal</key>
+                <label>Adding glowestone walls?</label>
+				<tKey>AddWallKristal</tKey>
+                <defaultValue>false</defaultValue>
+                <tooltip>adding soft walls?</tooltip>
+            </li>
+			
+			
 		    
 			<li Class="XmlExtensions.Setting.Checkbox">
                 <key>TextureSelection</key>

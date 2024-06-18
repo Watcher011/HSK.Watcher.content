@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ 
+  <ResearchProjectDef ParentName="MedievalBase">
+    <defName>AdvancedPowerKult</defName>
+    <label>Optimizing energy production</label>
+    <description>Optimize energy production by changing work processes, parts and circuits.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+    <hiddenPrerequisites>
+      <li>Machining</li>
+    </hiddenPrerequisites>
+    <techprintCount>1</techprintCount>
+    <techprintCommonality>2</techprintCommonality>
+    <techprintMarketValue>1000</techprintMarketValue>
+    <heldByFactionCategoryTags>
+      <li>Empire</li>
+      <li>Outlander</li>
+    </heldByFactionCategoryTags>
+   <researchViewX>7.00</researchViewX>
+	<researchViewY>16.00</researchViewY>
+	<tab>Buildings_SK</tab>
+  </ResearchProjectDef>
+
+
+</Defs>
