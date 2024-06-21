@@ -14,8 +14,9 @@
 		<label>Стена с светокамнем</label>
 		<description>Простая стена украшенная светокамнем, что способна поддерживать крышу и с установленной проводкой.</description>
 		<graphicData>
-			<texPath>Things/Building/Walls/UWallB</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/Walls/UWallB1</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+	         <shaderType>CutoutComplex</shaderType>
 			<linkType>CornerFiller</linkType>
 			<linkFlags>
 				<li>Wall</li>
@@ -33,7 +34,6 @@
 			</damageData>
 		</graphicData>
 		<building>
-			<paintable>true</paintable>
 			<canPlaceOverWall>true</canPlaceOverWall>
 			<blueprintGraphicData>
 				<texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
@@ -67,9 +67,6 @@
 			<Flammability>0.6</Flammability>
 		</statBases>
 		<stuffCategories>
-			<li>Stony</li>
-			<li>Bricks</li>
-			<li>WoodLogs</li>
 			<li>Metallic</li>
 		</stuffCategories>
 		<costStuffCount>6</costStuffCount>
@@ -88,6 +85,9 @@
 				<immunityToDamage>true</immunityToDamage>
 			</li>
 		</modExtensions>
+		 <researchPrerequisites>
+            <li>Light_C1</li>
+         </researchPrerequisites>
 	</ThingDef>
 
          </value>
