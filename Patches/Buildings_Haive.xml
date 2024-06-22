@@ -1,0 +1,21 @@
+﻿
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+	 <operations>
+         <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Hive"]/comps/li[@Class="CompProperties_SpawnerPawn"]/spawnablePawnKinds</xpath>
+				<value>
+				 <spawnablePawnKinds>
+				  <li>Megascarab</li>
+                  <li>Spelopede</li>
+                  <li>Megaspider</li>
+                  <li>Bombardier</li>
+                 </spawnablePawnKinds>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

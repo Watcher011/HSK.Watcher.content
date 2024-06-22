@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ====================================================== -->
+	<ThingDef ParentName="InstectoidBase">
+		<defName>Bombardier</defName>
+		<label>Bombardier</label>
+		<description>Bombardiers are not particularly dangerous when alone, but they can be very dangerous when in packs. It is a social creature that cannot reproduce individually.</description>
+		<tickerType>Normal</tickerType>
+		<statBases>
+			<Mass>90</Mass>
+			<MoveSpeed>3.4</MoveSpeed>
+			<ArmorRating_Sharp>2.2</ArmorRating_Sharp>
+			<ArmorRating_Blunt>3</ArmorRating_Blunt>
+			<Flammability>1</Flammability>
+			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+			<ComfyTemperatureMax>90</ComfyTemperatureMax>
+			<MarketValue>7000</MarketValue>
+			<LeatherAmount>0</LeatherAmount>
+			<ImmunityGainSpeed>3</ImmunityGainSpeed>
+			<MeleeDodgeChance>0.1</MeleeDodgeChance>
+			<MeleeCritChance>0</MeleeCritChance>
+			<MeleeParryChance>0.08</MeleeParryChance>
+		</statBases>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<recoilAmount>0.95</recoilAmount>
+				<verbClass>Verb_Shoot</verbClass>
+				<accuracyTouch>1</accuracyTouch>
+				<accuracyShort>1</accuracyShort>
+				<accuracyMedium>1</accuracyMedium>
+				<accuracyLong>1</accuracyLong>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>DragonAcid</defaultProjectile>
+				<warmupTime>4</warmupTime>
+				<burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+				<minRange>1</minRange>
+				<range>25</range>
+				<soundCast>FlameThrower</soundCast>
+				<muzzleFlashScale>0</muzzleFlashScale>
+				<!--Commanility determines how frequent this range verb is chosen.-->
+				<commonality>1</commonality>
+			</li>
+		</verbs>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>Left foreleg</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>AntisLeftForeleg</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+				<armorPenetrationSharp>2.65</armorPenetrationSharp>
+				<armorPenetrationBlunt>4.6</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>Right foreleg</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>AntisRightForeleg</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+				<armorPenetrationSharp>2.65</armorPenetrationSharp>
+				<armorPenetrationBlunt>4.6</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<capacities>
+					<li>ToxicBite</li>
+				</capacities>
+				<power>17</power>
+				<cooldownTime>3.4</cooldownTime>
+				<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+				<armorPenetrationSharp>3.85</armorPenetrationSharp>
+				<armorPenetrationBlunt>4.8</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>5.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<chanceFactor>0.2</chanceFactor>
+				<armorPenetrationBlunt>6</armorPenetrationBlunt>
+			</li>
+		</tools>
+		<butcherProducts>
+			<Chitin>25</Chitin>
+			<PoisonGland>1</PoisonGland>
+		</butcherProducts>
+		<race>
+			<body>Antis</body>
+			<deathActionWorkerClass>DeathActionWorker_ToxCloud</deathActionWorkerClass>
+			<baseBodySize>1.3</baseBodySize>
+			<baseHungerRate>0.7</baseHungerRate>
+			<baseHealthScale>2.9</baseHealthScale>
+			<fleshType>Insectoid</fleshType>
+			<bloodDef>Filth_BloodInsect</bloodDef>
+			<maxPreyBodySize>2.2</maxPreyBodySize>
+			<hediffGiverSets>
+				<li>OrganicStandard</li>
+				<li>UnstoppablePassiveSet</li>
+			</hediffGiverSets>
+			<herdAnimal>true</herdAnimal>
+			<predator>true</predator>
+			<petness>0</petness>
+			<foodType>Corpse, CarnivoreAnimal, CarnivoreAnimalStrict</foodType>
+			<gestationPeriodDays>12</gestationPeriodDays>
+			<trainability>Advanced</trainability>
+			<useMeatFrom>Megaspider</useMeatFrom>
+			<wildness>0.9</wildness>
+			<manhunterOnTameFailChance>0.4</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.3</manhunterOnDamageChance>
+			<lifeExpectancy>12</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>EusocialInsectLarva</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>EusocialInsectJuvenile</def>
+					<minAge>0.03</minAge>
+				</li>
+				<li>
+					<def>EusocialInsectAdult</def>
+					<minAge>0.4</minAge>
+					<soundWounded>Pawn_Insectoid_Cry3</soundWounded>
+					<soundDeath>Pawn_Insectoid_Die</soundDeath>
+					<soundCall>Pawn_Insectoid_Cry3</soundCall>
+					<soundAngry>Pawn_Insectoid_Cry2</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<modExtensions>
+			<li Class="CombatExtended.RacePropertiesExtensionCE">
+				<bodyShape>Quadruped</bodyShape>
+			</li>
+			<li Class="SK.InsectoidExtension"/>
+		</modExtensions>
+	</ThingDef>
+
+	<PawnKindDef>
+		<defName>Bombardier</defName>
+		<label>Bombardier</label>
+		<race>Bombardier</race>
+		<defaultFactionType>Insectoid</defaultFactionType>
+		<aiAvoidCover>true</aiAvoidCover>
+		<combatPower>240</combatPower>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Trauler/Trauler</texPath>
+					<drawSize>1.1</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+					<drawSize>1.4</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Trauler/Trauler</texPath>
+					<drawSize>1.5</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+					<drawSize>1.9</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Trauler/Trauler</texPath>
+					<drawSize>1.9</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+					<drawSize>2.3</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+		
+	</PawnKindDef>
+
+</Defs>
