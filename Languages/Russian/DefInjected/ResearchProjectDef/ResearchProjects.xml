@@ -4,5 +4,6 @@
   <AdvancedPowerKult.label>Оптимизация производства энергии</AdvancedPowerKult.label>
   <AdvancedPowerKult.description>Оптимизируйте производство энергии путем изменения рабочих процессов, деталей и цепей.</AdvancedPowerKult.description>
 
-
+ <OptimizingSunLamp.label>Оптимизация потребления энергии Солнечной лампы</OptimizingSunLamp.label>
+  <OptimizingSunLamp.description>Глубокое изучение процессов помогло уменьшить требуемую мощность Солнечной лампы на 45% без потери яркости.</OptimizingSunLamp.description>
 </LanguageData>
