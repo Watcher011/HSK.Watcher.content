@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bombardier.label>Bombardier</Bombardier.label>
+  <Bombardier.description>Bombardiers are not particularly dangerous when alone, but they can be very dangerous when in packs. It is a social creature that cannot reproduce individually.</Bombardier.description>
+  <Bombardier.tools.0.label>Left foreleg</Bombardier.tools.0.label>
+  <Bombardier.tools.1.label>Right foreleg</Bombardier.tools.1.label>
+  <Bombardier.tools.3.label>head</Bombardier.tools.3.label>
+
+
+</LanguageData>

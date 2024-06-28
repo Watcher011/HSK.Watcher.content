@@ -82,4 +82,24 @@
 			</ArchitectSense.DesignationSubCategoryDef>
 		</value>
 	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs</xpath>
+		<value>
+			<ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_DryingRack</defName>
+		<label>drying racks</label>
+		<description>Drying rack used for drying meat or leaves.</description>
+		<defNames>
+		    <li>JerkyRack</li>
+			<li>DryingRack</li>
+			<li>industrialDryingRack</li>
+			<li>CheeseBasin</li>
+			<li>CheeseVat</li>
+		</defNames>
+		<designationCategory>Production</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+		</value>
+	</Operation>
 </Patch>
