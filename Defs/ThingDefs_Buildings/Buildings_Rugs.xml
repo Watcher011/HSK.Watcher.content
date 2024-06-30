@@ -205,8 +205,7 @@
 		<description>A great creature that ended up in the wrong colony, now its fur adorns the colony</description>
 		<rotatable>true</rotatable>
 	</ThingDef>
-	
-
+	<!---
 	
 	<ThingDef ParentName="AncientRugBase">
 		<defName>InsectCarpet</defName>
@@ -244,6 +243,6 @@
 		<description>A great creature that ended up in the wrong colony, now its fur adorns the colony</description>
 		<rotatable>true</rotatable>
 	</ThingDef>
-	
+	-->
 	
 </Defs>
