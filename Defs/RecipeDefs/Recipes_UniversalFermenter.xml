@@ -287,6 +287,7 @@
 	</RecipeDef>
 	
 	<RecipeDef ParentName="Make_icecreamBase" Class="UniversalFermenterSK.RecipeDef_UF">
+	
 		<defName>Make_icecream</defName>
 		<label>Создать простое мороженое</label>
 		<description>Создать мороженое такое как в детстве</description>
@@ -391,49 +392,35 @@
 	
 	
 	
-	
-	
-	<RecipeDef Name="Make_industrialBase" Abstract="True">
+<RecipeDef Name="Make_DriedMushroomsindustrialBase" Abstract="True">
 		<fixedIngredientFilter>
 			<categories>
 				<li>FungusPlantRaw</li>
-					<li>MeatRaw</li>
-					<li>FruitFoodRaw</li>
 			</categories>
-			 <thingDefs>
-			<li>RawAlgae</li>
-			<li>Corpse_ThingDefFishSduiggles</li>
-			<li>Corpse_ThingDefFishSeasnake</li>
-			<li>Corpse_ThingDefFishMashgon</li>
-			<li>Corpse_ThingDefFishBlueblade</li>
-			<li>Corpse_ThingDefFishTailteeth</li>
-			<li>Corpse_ThingDefCuda</li>
-			<li>Corpse_ThingDefIceFlounder</li>
-			<li>Corpse_ThingDefFishSterlingPerch</li>
-			<li>Corpse_ThingDefFishPinstripeBass</li>
-			<li>Salt</li>
-			</thingDefs>
 		</fixedIngredientFilter>
 		<recipeUsers>
 			<li>industrialDryingRack</li>
 		</recipeUsers>
 
 		<!-- RecipeDef_UF fields -->
-		
 		<temperatureSafe>
 			<min>-50</min>
-			<max>90</max>
+			<max>80</max>
 		</temperatureSafe>
 		<temperatureIdeal>
-			<min>-50</min>
-			<max>90</max>
+			<min>-10</min>
+			<max>50</max>
 		</temperatureIdeal>
 		<processDays>1.5</processDays>
-		<speedBelowSafe>0.7</speedBelowSafe>
+		<speedBelowSafe>0.05</speedBelowSafe>
 		<speedAboveSafe>0.8</speedAboveSafe>
+		<sunFactor>
+			<min>1.1</min>
+			<max>1.2</max>
+		</sunFactor>
 	</RecipeDef>
 	
-	<RecipeDef ParentName="Make_industrialBase" Class="UniversalFermenterSK.RecipeDef_UF">
+	<RecipeDef ParentName="Make_DriedMushroomsindustrialBase" Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>Make_DriedMushrooms5x</defName>
 		<label>Высушить грибы х5</label>
 		<description>Высушить свежие грибы. Процесс занимает 1.5 дня.</description>
@@ -453,7 +440,7 @@
 		<graphicSuffix>_Mushrooms</graphicSuffix>
 	</RecipeDef>
 	
-	<RecipeDef ParentName="Make_industrialBase" Class="UniversalFermenterSK.RecipeDef_UF">
+	<RecipeDef ParentName="Make_DriedMushroomsindustrialBase" Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>Make_DriedMushrooms10x</defName>
 		<label>Высушить грибы х10</label>
 		<description>Высушить свежие грибы. Процесс занимает 1.5 дня.</description>
@@ -473,7 +460,33 @@
 		<graphicSuffix>_Mushrooms</graphicSuffix>
 	</RecipeDef>
 
-<RecipeDef ParentName="Make_industrialBase" Class="UniversalFermenterSK.RecipeDef_UF">
+
+
+<RecipeDef Name="Make_FishindustrialBase" Abstract="True">
+		<recipeUsers>
+			<li>industrialDryingRack</li>
+		</recipeUsers>
+
+		<!-- RecipeDef_UF fields -->
+		<temperatureSafe>
+			<min>-50</min>
+			<max>80</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>-10</min>
+			<max>50</max>
+		</temperatureIdeal>
+		<processDays>1.5</processDays>
+		<speedBelowSafe>0.05</speedBelowSafe>
+		<speedAboveSafe>0.8</speedAboveSafe>
+		<sunFactor>
+			<min>1.1</min>
+			<max>1.2</max>
+		</sunFactor>
+	</RecipeDef>
+	
+
+<RecipeDef ParentName="Make_FishindustrialBase" Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>Make_DriedFish5x</defName>
 		<label>Высушить рыбу х3</label>
 		<description>Высушить рыбу. Процесс занимает 2 дня.</description>
@@ -526,7 +539,7 @@
 	<graphicSuffix>_Fish</graphicSuffix>
 	</RecipeDef>
 
-<RecipeDef ParentName="Make_industrialBase" Class="UniversalFermenterSK.RecipeDef_UF">
+<RecipeDef ParentName="Make_FishindustrialBase" Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>Make_DriedFish10x</defName>
 		<label>Высушить рыбу х9</label>
 		<description>Высушить рыбу. Процесс занимает 2 дня.</description>
@@ -579,7 +592,9 @@
 	<graphicSuffix>_Fish</graphicSuffix>
 	</RecipeDef>
 	
-	<RecipeDef ParentName="Make_industrialBase" Class="UniversalFermenterSK.RecipeDef_UF">
+	
+	
+	<RecipeDef ParentName="Make_DriedMushroomsindustrialBase" Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>Make_DriedNori_x05</defName>
 		<label>высушить водоросли x5</label>
 		<description>Высушить свежие водоросли. Процесс занимает 2 дня.</description>
@@ -602,7 +617,7 @@
 	</RecipeDef>
 	
 	
-	<RecipeDef ParentName="Make_industrialBase" Class="UniversalFermenterSK.RecipeDef_UF">
+	<RecipeDef ParentName="Make_DriedMushroomsindustrialBase" Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>Make_DriedNori_x10</defName>
 		<label>высушить водоросли x10</label>
 		<description>Высушить свежие водоросли. Процесс занимает 2 дня.</description>
@@ -624,7 +639,38 @@
 		<slotsRequired>26</slotsRequired>
 	</RecipeDef>
 	
-		<RecipeDef ParentName="Make_industrialBase" Class="UniversalFermenterSK.RecipeDef_UF">
+	
+	<RecipeDef ParentName="GlitterpediaModExtBase" Name="Make_JerkyindustrialBase" Abstract="True">
+		<fixedIngredientFilter>
+			<categories>
+				<li>MeatRaw</li>
+			</categories>
+			<disallowedThingDefs>
+				<li>SaltedMeat</li>
+				<li>Tofu</li>
+				<li>soylentgreen</li>
+			</disallowedThingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>industrialDryingRack</li>
+		</recipeUsers>
+
+		<!-- RecipeDef_UF fields -->
+		<temperatureSafe>
+			<min>-50</min>
+			<max>80</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>-10</min>
+			<max>50</max>
+		</temperatureIdeal>
+		<processDays>1.5</processDays>
+		<speedBelowSafe>0.6</speedBelowSafe>
+		<speedAboveSafe>1</speedAboveSafe>
+		
+	</RecipeDef>
+	
+		<RecipeDef ParentName="Make_JerkyindustrialBase" Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>Make_Jerkyx10</defName>
 		<label>make jerky x10</label>
 		<description>Make jerky meat. Takes 2 days to make</description>
@@ -644,7 +690,7 @@
 		  <graphicSuffix>_Meat</graphicSuffix>
 	</RecipeDef>
 	
-	<RecipeDef ParentName="Make_industrialBase" Class="UniversalFermenterSK.RecipeDef_UF">
+	<RecipeDef ParentName="Make_JerkyindustrialBase" Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>Make_Jerkyx30</defName>
 		<label>make jerky x30</label>
 		<description>Make jerky meat. Takes 2 days to make</description>
@@ -665,7 +711,33 @@
 	</RecipeDef>
 	
 	
-	<RecipeDef ParentName="Make_industrialBase" Class="UniversalFermenterSK.RecipeDef_UF">
+	<RecipeDef ParentName="GlitterpediaModExtBase" Name="Make_DriedFruitindustrialBase" Abstract="True">
+		<fixedIngredientFilter>
+			<categories>
+				<li>FruitFoodRaw</li>
+			</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+				<li>industrialDryingRack</li>
+		</recipeUsers>
+
+		<!-- RecipeDef_UF fields -->
+		<temperatureSafe>
+			<min>-50</min>
+			<max>80</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>-10</min>
+			<max>50</max>
+		</temperatureIdeal>
+		<processDays>1.5</processDays>
+		<speedBelowSafe>0.6</speedBelowSafe>
+		<speedAboveSafe>1</speedAboveSafe>
+	</RecipeDef>
+	
+	
+	
+	<RecipeDef ParentName="Make_DriedFruitindustrialBase" Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>Make_DriedFruit_x05</defName>
 		<label>make dried fruit x5</label>
 		<description>Make dried fruit x5. Takes 2 days to make</description>
@@ -687,7 +759,7 @@
 		<slotsRequired>5</slotsRequired>
 	</RecipeDef>
 	
-	<RecipeDef ParentName="Make_industrialBase" Class="UniversalFermenterSK.RecipeDef_UF">
+	<RecipeDef ParentName="Make_DriedFruitindustrialBase" Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>Make_DriedFruit_x10</defName>
 		<label>make dried fruit x10</label>
 		<description>Make dried fruit x5. Takes 2 days to make</description>

@@ -10,7 +10,7 @@
 			<texPath>Things/Building/Production/industrialDryingRack</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(2,2)</drawSize>
+			<drawSize>(2,1)</drawSize>
 			<shadowData>
 				<volume>(1.7, 0.5, 0.7)</volume>
 				<offset>(0,0,0)</offset>
@@ -46,7 +46,7 @@
 			<Mechanism>5</Mechanism>
 			<Glass>25</Glass>
 		</costList>
-		<size>(2,2)</size>
+		<size>(2,1)</size>
 		<building>
 			<uninstallWork>650</uninstallWork>
 		</building>
@@ -60,15 +60,20 @@
 			<li Class="CompProperties_Breakdownable"/>
 		</comps>
 		<tickerType>Rare</tickerType>
-		<rotatable>false</rotatable>
+		<rotatable>true</rotatable>
 		<designationCategory>Production</designationCategory>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 
 		<!-- ThingDef_UF fields -->
 		<showProductIcon>false</showProductIcon>
-		<barOffset>(0.0, -0.75)</barOffset>
+		<barOffset>(0.0, -0.35)</barOffset>
 		<barScale>(1.0, 1.0)</barScale>
 		<slotsCount>60</slotsCount>
+		
+		<researchPrerequisites>
+			<li>Food_C1</li>
+		</researchPrerequisites>
+		
 	</ThingDef>
 
 </Defs>
