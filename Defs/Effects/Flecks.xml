@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<FleckDef ParentName="FleckBase" Name="CE_CasingFleckBase" Abstract="True">
+		<fleckSystemClass>CombatExtended.FleckSystem_Casing</fleckSystemClass>
+		<acceleration>(0,0,-5)</acceleration>
+	</FleckDef>
+
+	<!--=============== Thrown Bullet Casings ==============-->
+
+	
+	
+
+	<FleckDef ParentName="FleckBase_Thrown">
+		<defName>Fleck_CEAcideTrail</defName>
+		<graphicData>
+			<texPath>Things/Mote/FireGlow</texPath>
+			<shaderType>MoteGlow</shaderType>
+			<color>(0.5, 1, 0.6)</color>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<fadeInTime>0</fadeInTime>
+		<solidTime>0.03</solidTime>
+		<fadeOutTime>0.25</fadeOutTime>
+		<growthRate>0</growthRate>
+	</FleckDef>
+
+	
+
+</Defs>
