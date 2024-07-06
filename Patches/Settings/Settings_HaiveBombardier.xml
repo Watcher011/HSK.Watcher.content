@@ -1,26 +1,15 @@
 ﻿
 <Patch>
-<!--
-	<Operation Class="PatchOperationSequence">
-		<success>Normal</success>
-	 <operations>
-         <li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="Hive"]/comps/li[@Class="CompProperties_SpawnerPawn"]/spawnablePawnKinds</xpath>
-				<value>
-				 <spawnablePawnKinds>
-				  <li>Megascarab</li>
-                  <li>Spelopede</li>
-                  <li>Megaspider</li>
-                  <li>Bombardier</li>
-                 </spawnablePawnKinds>
-				</value>
-			</li>
-		</operations>
-		-->
-		<Operation Class="PatchOperationSequence">
-		<success>Normal</success>
-	 <operations>
-		 <li Class="PatchOperationReplace">
+
+	
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>Watcher.Content.Settings</modId>
+     <key>AddBombardiercocoons</key>
+   
+    <defaultValue>false</defaultValue>
+	
+    <caseTrue>
+	 <Operation Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Hive"]/comps</xpath>
 				<value>
 				  <comps>
@@ -83,8 +72,9 @@
                   </li>
           </comps>
 				</value>
-			</li>
-		</operations>
 	</Operation>
+	
+    </caseTrue>
+</Operation>
 
 </Patch>

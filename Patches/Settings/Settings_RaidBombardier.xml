@@ -1,0 +1,34 @@
+﻿
+<Patch>
+
+	
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>Watcher.Content.Settings</modId>
+     <key>AddBombardierRaid</key>
+   
+    <defaultValue>true</defaultValue>
+	
+    <caseTrue>
+	 <Operation Class="PatchOperationReplace">
+				<xpath>Defs/FactionDef[defName="Insectoid"]/pawnGroupMakers</xpath>
+				<value>
+				 <pawnGroupMakers>
+			<li>
+				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>ImmediateAttackSappers</li>	
+				</disallowedStrategies>
+				<options>
+					<Antis>90</Antis>
+					<Bombardier>50</Bombardier>
+					<Gnawler>35</Gnawler>
+				</options>
+			</li>
+		       </pawnGroupMakers>
+				</value>
+	</Operation>
+	
+    </caseTrue>
+</Operation>
+
+</Patch>

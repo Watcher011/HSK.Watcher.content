@@ -9,9 +9,9 @@
 		<statBases>
 			<Mass>90</Mass>
 			<MoveSpeed>3.4</MoveSpeed>
-			<ArmorRating_Sharp>2.2</ArmorRating_Sharp>
-			<ArmorRating_Blunt>3</ArmorRating_Blunt>
-			<Flammability>0.1</Flammability>
+			<ArmorRating_Sharp>1.5</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.5</ArmorRating_Blunt>
+			<Flammability>0.4</Flammability>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
 			<ComfyTemperatureMax>90</ComfyTemperatureMax>
 			<MarketValue>7000</MarketValue>
@@ -22,7 +22,6 @@
 			<MeleeParryChance>0.08</MeleeParryChance>
 		</statBases>
 		<verbs>
-			
 			<li Class="CombatExtended.VerbPropertiesCE">
 					<recoilAmount>0.35</recoilAmount>
 					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -40,6 +39,7 @@
 					<soundCast>AcidSpray_Resolve</soundCast>
 					<muzzleFlashScale>9</muzzleFlashScale>
 				</li>
+					
 		</verbs>
 		<tools>
 			<li Class="CombatExtended.ToolCE">
@@ -112,7 +112,7 @@
 			<baseHungerRate>0.7</baseHungerRate>
 			<baseHealthScale>2.9</baseHealthScale>
 			<fleshType>Insectoid</fleshType>
-			<bloodDef>Filth_BloodInsect</bloodDef>
+			<bloodDef>Filth_SpentAcid</bloodDef>
 			<maxPreyBodySize>2.2</maxPreyBodySize>
 			<hediffGiverSets>
 				<li>OrganicStandard</li>
@@ -198,7 +198,6 @@
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
-		
 	</PawnKindDef>
 
 </Defs>

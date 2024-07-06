@@ -14,7 +14,9 @@
   <Watcher_Content_Settings.settings.13.label>Добавляем хранилище токсичных отходов?</Watcher_Content_Settings.settings.13.label>
   <Watcher_Content_Settings.settings.15.label>Меняем тип топлива на алкоголь в лампе лекаря?</Watcher_Content_Settings.settings.15.label>
   <Watcher_Content_Settings.settings.16.label>Отключаем рост растений вокруг лампы лекаря?</Watcher_Content_Settings.settings.16.label>
-  <Watcher_Content_Settings.settings.20.text>Для применения всех параметров требуется перезагрузка</Watcher_Content_Settings.settings.20.text>
+  <Watcher_Content_Settings.settings.18.label>Добавляем жуков бомбардиров в коконы жуков?</Watcher_Content_Settings.settings.18.label>
+  <Watcher_Content_Settings.settings.19.label>Добавляем жуков бомбардиров в рейды жуков?</Watcher_Content_Settings.settings.19.label>
+  <Watcher_Content_Settings.settings.23.text>Для применения всех параметров требуется перезагрузка</Watcher_Content_Settings.settings.23.text>
 
 
 </LanguageData>

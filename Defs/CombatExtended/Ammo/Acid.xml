@@ -79,6 +79,13 @@
 					
 				</FleckDatas>
 			</li>
+			<!--
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+					<Fragment_Cocon>1</Fragment_Cocon>
+				</fragments>
+			    </li>
+			-->	
 		</comps>
 	</ThingDef>
 

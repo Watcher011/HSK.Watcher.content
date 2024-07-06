@@ -196,8 +196,8 @@
 		<costStuffCount>220</costStuffCount>
 		<comps>
 			<li Class="CompProperties_Glower">
-				 <overlightRadius>9.0</overlightRadius>
-                 <glowRadius>14</glowRadius>
+				 <overlightRadius>6.0</overlightRadius>
+                 <glowRadius>9</glowRadius>
                  <glowColor>(370,370,370,0)</glowColor>
 			</li>
 			 <li Class="CompProperties_SpawnerFilth">
@@ -225,7 +225,7 @@
 		<researchPrerequisites>
 			<li>TheHybridization</li>
 		</researchPrerequisites>
-		 <specialDisplayRadius>7</specialDisplayRadius>
+		 <specialDisplayRadius>6</specialDisplayRadius>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 	</ThingDef>
 

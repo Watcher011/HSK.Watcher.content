@@ -114,6 +114,26 @@
             </li>
 		
 		
+		
+		 <li Class="XmlExtensions.Setting.GapLine"/>
+	 
+		<li Class="XmlExtensions.Setting.Checkbox">
+                <key>AddBombardiercocoons</key>
+                <label>Add Bombardier to cocoons</label>
+				<tKey>AddBombardiercocoons</tKey>
+                <defaultValue>false</defaultValue>
+                <tooltip>Add Bombardier to beetle cocoons?</tooltip>
+            </li>
+		
+		<li Class="XmlExtensions.Setting.Checkbox">
+                <key>AddBombardierRaid</key>
+                <label>Add Bombardier to Raid</label>
+				<tKey>AddBombardierRaid</tKey>
+                <defaultValue>true</defaultValue>
+                <tooltip>Add Bombardier to  Raid?</tooltip>
+            </li>
+		
+		
             <li Class="XmlExtensions.Setting.GapLine"/>
             <li Class="XmlExtensions.Setting.ResetSettings"/>
             <li Class="XmlExtensions.Setting.GapLine"/>
