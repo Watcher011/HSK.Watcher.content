@@ -22,6 +22,7 @@
 					<Antis>90</Antis>
 					<Bombardier>50</Bombardier>
 					<Gnawler>35</Gnawler>
+					<QueenBug>5</QueenBug>
 				</options>
 			</li>
 		       </pawnGroupMakers>

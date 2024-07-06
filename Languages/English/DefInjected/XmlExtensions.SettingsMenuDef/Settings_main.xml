@@ -14,19 +14,11 @@
   <Watcher_Content_Settings.settings.13.label>Adding storage of toxic packages?</Watcher_Content_Settings.settings.13.label>
   <Watcher_Content_Settings.settings.15.label>Use alcohol in a healer's lamp?</Watcher_Content_Settings.settings.15.label>
   <Watcher_Content_Settings.settings.16.label>Disable the bug with the healer's lamp?</Watcher_Content_Settings.settings.16.label>
-  <Watcher_Content_Settings.settings.20.text>All options require restart to apply</Watcher_Content_Settings.settings.20.text>
+  <Watcher_Content_Settings.settings.18.label>Add Bombardier to cocoons</Watcher_Content_Settings.settings.18.label>
+  <Watcher_Content_Settings.settings.19.label>Add Bombardier and Queen Bug to Raid</Watcher_Content_Settings.settings.19.label>
+  <Watcher_Content_Settings.settings.23.text>All options require restart to apply</Watcher_Content_Settings.settings.23.text>
 
 
-  <!--<Watcher_Content_Settings.settings.4.label>Add Building a blast door?</Watcher_Content_Settings.settings.4.label>-->
-  <!--<Watcher_Content_Settings.settings.7.label>Change the texture for the glowstone column (Texture selection)</Watcher_Content_Settings.settings.7.label>-->
-  <!--<Watcher_Content_Settings.settings.11.label>Disable the bug with the healer's lamp?</Watcher_Content_Settings.settings.11.label>-->
-  <!--<Watcher_Content_Settings.settings.15.text>All options require restart to apply</Watcher_Content_Settings.settings.15.text>-->
-  <!--<Watcher_Content_Settings.settings.14.text>All options require restart to apply</Watcher_Content_Settings.settings.14.text>-->
-  <!--<Watcher_Content_Settings.settings.12.text>All options require restart to apply</Watcher_Content_Settings.settings.12.text>-->
-  <!--<Watcher_Content_Settings.settings.11.text>All options require restart to apply</Watcher_Content_Settings.settings.11.text>-->
-  <!--<Watcher_Content_Settings.settings.10.text>All options require restart to apply</Watcher_Content_Settings.settings.10.text>-->
-  <!--<Watcher_Content_Settings.settings.9.text>All options require restart to apply</Watcher_Content_Settings.settings.9.text>-->
-  <!--<Watcher_Content_Settings.settings.8.text>All options require restart to apply</Watcher_Content_Settings.settings.8.text>-->
-  <!--<Watcher_Content_Settings.settings.7.text>All options require restart to apply</Watcher_Content_Settings.settings.7.text>-->
+ 
 
 </LanguageData>

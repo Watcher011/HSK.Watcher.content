@@ -15,10 +15,10 @@
   <CeilingKristalDark.label>Glowstone сeiling lamp dark</CeilingKristalDark.label>
   <CeilingKristalDark.description>Ceiling glowstone dark lamp.</CeilingKristalDark.description>
 
-  <ColumnKristal.label>columnKristal</ColumnKristal.label>
+  <ColumnKristal.label>Column Kristal</ColumnKristal.label>
   <ColumnKristal.description>A column capable of holding a roof com Kristal. Does not block sight or movement and looks quite nice.</ColumnKristal.description>
 
-  <ColumnKristalDark.label>columnKristalDark</ColumnKristalDark.label>
+  <ColumnKristalDark.label>Column Kristal Dark</ColumnKristalDark.label>
   <ColumnKristalDark.description>A column capable of holding a roof com Dark Kristal. Does not block sight or movement and looks quite nice.</ColumnKristalDark.description>
 
   <HeadBarghestWall.label>Trophy Head of Barghest</HeadBarghestWall.label>

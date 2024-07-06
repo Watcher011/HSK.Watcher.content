@@ -25,5 +25,9 @@
   <BagestRugAura.description>One of the short-term effects of being near a baguette hide is an increased perception of light.</BagestRugAura.description>
   <BagestRugAura.labelNoun>Darkvision from the rug</BagestRugAura.labelNoun>
 
+  <Carpet_Bite.label>Strange bite</Carpet_Bite.label>
+  <Carpet_Bite.description>What was the carpet bite me? No, but it is better to accelerate.</Carpet_Bite.description>
+  <Carpet_Bite.labelNoun>Strange bite</Carpet_Bite.labelNoun>
+
 
 </LanguageData>

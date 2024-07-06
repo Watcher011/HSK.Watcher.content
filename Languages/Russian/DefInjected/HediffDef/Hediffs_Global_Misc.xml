@@ -27,5 +27,9 @@
 	.</BagestRugAura.description>
   <BagestRugAura.labelNoun>Темновидиние от коврика</BagestRugAura.labelNoun>
 
+  <Carpet_Bite.label>Странный укус</Carpet_Bite.label>
+  <Carpet_Bite.description>Меня что, укусил ковер? Нет, но лучше ускориться.</Carpet_Bite.description>
+  <Carpet_Bite.labelNoun>Странный укус</Carpet_Bite.labelNoun>
+
 
 </LanguageData>

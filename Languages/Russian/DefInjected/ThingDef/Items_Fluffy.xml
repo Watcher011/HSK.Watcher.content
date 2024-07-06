@@ -19,6 +19,9 @@
   <FeenixHead.label>Голова Феникса</FeenixHead.label>
   <FeenixHead.description>Невероятный трофей в виде отрубленной головы огненного дракона. Прикосновение к весам вызывает мысли о лавовых реках. Стеклянные глаза вызывают жуткость даже после смерти великана.</FeenixHead.description>
 
+  <InsectHead.label>Голова Королевы жуков</InsectHead.label>
+  <InsectHead.description>Жуткий трофей в виде отрубленной головы страшного монстра. Стеклянные глаза вызывают жуткость даже после смерти великана.</InsectHead.description>
+
   <LivingSun.label>Сердце Багеста</LivingSun.label>
   <LivingSun.description>Живое сердце порождения тьмы, содержащее искры света.</LivingSun.description>
 

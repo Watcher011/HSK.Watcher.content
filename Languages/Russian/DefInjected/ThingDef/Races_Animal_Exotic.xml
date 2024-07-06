@@ -7,5 +7,11 @@
   <Bombardier.tools.1.label>Правая передняя нога</Bombardier.tools.1.label>
   <Bombardier.tools.3.label>Жвалы</Bombardier.tools.3.label>
 
+  <QueenBug.label>Королева Жуков</QueenBug.label>
+  <QueenBug.description>Редкий представитель инсектоидов, ходят легенды, что разрушенные поселения, полные жуков, — дело лап Мясной Зины.</QueenBug.description>
+  <QueenBug.tools.0.label>Левая передняя нога</QueenBug.tools.0.label>
+  <QueenBug.tools.1.label>Правая передняя нога</QueenBug.tools.1.label>
+  <QueenBug.tools.3.label>Жвалы</QueenBug.tools.3.label>
+
 
 </LanguageData>

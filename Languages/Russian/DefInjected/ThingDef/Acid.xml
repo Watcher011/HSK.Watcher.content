@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_Acid.label>Кислота</Ammo_Acid.label>
+  <Ammo_Acid.description>Кислота производимая особыми видами жуков.</Ammo_Acid.description>
+
+  <Ammo_Cocon.label>Почти созревший кокон</Ammo_Cocon.label>
+  <Ammo_Cocon.description>кокон.</Ammo_Cocon.description>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_Acid.label>кислотный снаряд</Bullet_Acid.label>
+  <Bullet_Cocon.label>кокон</Bullet_Cocon.label>
+
+
+</LanguageData>

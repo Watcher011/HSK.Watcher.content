@@ -250,6 +250,47 @@
 	</ThingDef>
 	
 	
+	
+	<ThingDef>
+		<defName>InsectHead</defName>
+		<label>Queen bug head</label>
+		<description>A creepy trophy in the form of the severed head of a scary monster. The glassy eyes are creepy even after the death of the giant.</description>
+		<thingClass>ThingWithComps</thingClass>
+		<comps>
+			<li Class="CompProperties_Lifespan">
+				<lifespanTicks>1000000</lifespanTicks>
+			</li>
+		</comps>
+		<tickerType>Normal</tickerType>
+		<category>Item</category>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+		<thingCategories>
+			<li>BodyParts</li>
+		</thingCategories>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<altitudeLayer>Item</altitudeLayer>
+		<stackLimit>1</stackLimit>
+		<alwaysHaulable>true</alwaysHaulable>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<rotatable>false</rotatable>
+		<pathCost>15</pathCost>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<DeteriorationRate>1</DeteriorationRate>
+			<MarketValue>1500</MarketValue>
+			<Bulk>7</Bulk>
+			<Mass>4</Mass>
+		</statBases>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/Head/InsectHead</texPath>
+		</graphicData>
+	</ThingDef>
 	<ThingDef>
 		<defName>LivingSun</defName>
 		<label>Heart of baguest</label>

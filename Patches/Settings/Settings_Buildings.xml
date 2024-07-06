@@ -45,7 +45,7 @@
 		<costStuffCount>10</costStuffCount>
 		<costList>
 			<ComponentMedieval>1</ComponentMedieval>
-			<Powder>5</Powder>
+			<Weapon_GrenadeStickBomb>1</Weapon_GrenadeStickBomb>
 		</costList>
 		<comps>
 		<li Class="CompProperties_Glower">

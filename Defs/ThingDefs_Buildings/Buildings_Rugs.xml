@@ -205,23 +205,24 @@
 		<description>A great creature that ended up in the wrong colony, now its fur adorns the colony</description>
 		<rotatable>true</rotatable>
 	</ThingDef>
-	<!---
+
 	
 	<ThingDef ParentName="AncientRugBase">
 		<defName>InsectCarpet</defName>
 		<label>Carpet from Insect</label>
 		<thingClass>Building</thingClass>
 		<graphicData>
-			<texPath>Things/Building/Furniture/ThrumboCarpet</texPath>
+			<texPath>Things/Building/Furniture/InsectCarpet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(1,1)</drawSize>
+			<drawSize>(2,2)</drawSize>
 			<damageData>
 				<rect>(0.2,0.2,0.6,0.6)</rect>
 			</damageData>
 		</graphicData>
 		<costList>
-			<Chitin>20</Chitin>
+		<InsectHead>1</InsectHead>
+			<Chitin>80</Chitin>
 		</costList>
 		<statBases>
 		<Bulk>4</Bulk>
@@ -239,10 +240,10 @@
 				<severityToAdd>1</severityToAdd>
 			</li>
 		</comps>
-		<size>(1,1)</size>
+		<size>(2,2)</size>
 		<description>A great creature that ended up in the wrong colony, now its fur adorns the colony</description>
 		<rotatable>true</rotatable>
 	</ThingDef>
-	-->
+
 	
 </Defs>

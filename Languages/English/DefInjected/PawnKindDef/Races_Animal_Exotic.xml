@@ -26,5 +26,30 @@
   <Bombardier.labelFemale>female Bombardier</Bombardier.labelFemale>
   <Bombardier.labelFemalePlural>female Bombardiers</Bombardier.labelFemalePlural>
 
+  <QueenBug.label>Queen Bug</QueenBug.label>
+  <QueenBug.labelPlural>Queen Bugs</QueenBug.labelPlural>
+  <QueenBug.lifeStages.0.label>Queen Bug</QueenBug.lifeStages.0.label>
+  <QueenBug.lifeStages.0.labelPlural>Queen Bug</QueenBug.lifeStages.0.labelPlural>
+  <QueenBug.lifeStages.0.labelMale>male Queen Bug</QueenBug.lifeStages.0.labelMale>
+  <QueenBug.lifeStages.0.labelMalePlural>male Queen Bugs</QueenBug.lifeStages.0.labelMalePlural>
+  <QueenBug.lifeStages.0.labelFemale>female Queen Bug</QueenBug.lifeStages.0.labelFemale>
+  <QueenBug.lifeStages.0.labelFemalePlural>female Queen Bugs</QueenBug.lifeStages.0.labelFemalePlural>
+  <QueenBug.lifeStages.1.label>Queen Bug</QueenBug.lifeStages.1.label>
+  <QueenBug.lifeStages.1.labelPlural>Queen Bug</QueenBug.lifeStages.1.labelPlural>
+  <QueenBug.lifeStages.1.labelMale>male Queen Bug</QueenBug.lifeStages.1.labelMale>
+  <QueenBug.lifeStages.1.labelMalePlural>male Queen Bugs</QueenBug.lifeStages.1.labelMalePlural>
+  <QueenBug.lifeStages.1.labelFemale>female Queen Bug</QueenBug.lifeStages.1.labelFemale>
+  <QueenBug.lifeStages.1.labelFemalePlural>female Queen Bugs</QueenBug.lifeStages.1.labelFemalePlural>
+  <QueenBug.lifeStages.2.label>Queen Bug</QueenBug.lifeStages.2.label>
+  <QueenBug.lifeStages.2.labelPlural>Queen Bug</QueenBug.lifeStages.2.labelPlural>
+  <QueenBug.lifeStages.2.labelMale>male Queen Bug</QueenBug.lifeStages.2.labelMale>
+  <QueenBug.lifeStages.2.labelMalePlural>male Queen Bugs</QueenBug.lifeStages.2.labelMalePlural>
+  <QueenBug.lifeStages.2.labelFemale>female Queen Bug</QueenBug.lifeStages.2.labelFemale>
+  <QueenBug.lifeStages.2.labelFemalePlural>female Queen Bugs</QueenBug.lifeStages.2.labelFemalePlural>
+  <QueenBug.labelMale>male Queen Bug</QueenBug.labelMale>
+  <QueenBug.labelMalePlural>male Queen Bugs</QueenBug.labelMalePlural>
+  <QueenBug.labelFemale>female Queen Bug</QueenBug.labelFemale>
+  <QueenBug.labelFemalePlural>female Queen Bugs</QueenBug.labelFemalePlural>
+
 
 </LanguageData>

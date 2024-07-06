@@ -2,9 +2,11 @@
 <LanguageData>
 
   <Fragment_Icon.label>Ограждение</Fragment_Icon.label>
-  <Fragment_Crater_Smal.label>---</Fragment_Crater_Smal.label>
-  <Fragment_Crater_medium.label>---</Fragment_Crater_medium.label>
-  <Fragment_Crater_grande.label>---</Fragment_Crater_grande.label>
+  <Fragment_Cocon.label>Кокон</Fragment_Cocon.label>
 
+
+  <!--<Fragment_Crater_Smal.label>- - -</Fragment_Crater_Smal.label>-->
+  <!--<Fragment_Crater_medium.label>- - -</Fragment_Crater_medium.label>-->
+  <!--<Fragment_Crater_grande.label>- - -</Fragment_Crater_grande.label>-->
 
 </LanguageData>

@@ -7,5 +7,11 @@
   <Bombardier.tools.1.label>Right foreleg</Bombardier.tools.1.label>
   <Bombardier.tools.3.label>head</Bombardier.tools.3.label>
 
+  <QueenBug.label>Queen Bug</QueenBug.label>
+  <QueenBug.description>A rare representative of insectoids, there are legends that the destroyed settlements full of beetles are the work of the paws of Myasnaya Zina.</QueenBug.description>
+  <QueenBug.tools.0.label>Left foreleg</QueenBug.tools.0.label>
+  <QueenBug.tools.1.label>Right foreleg</QueenBug.tools.1.label>
+  <QueenBug.tools.3.label>head</QueenBug.tools.3.label>
+
 
 </LanguageData>

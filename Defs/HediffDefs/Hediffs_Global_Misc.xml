@@ -179,4 +179,34 @@
       </li>
     </comps>
   </HediffDef>
+
+	 
+  <HediffDef>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defName>Carpet_Bite</defName>
+    <label>Strange bite</label>
+    <description>What was the carpet bite me? No, but it is better to accelerate.</description>
+    <labelNoun>Strange bite</labelNoun>
+    <maxSeverity>1</maxSeverity>
+	<defaultLabelColor>(1, 1, 1)</defaultLabelColor>
+     <stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.05</offset>
+					</li>
+				</capMods>
+				 <statOffsets>
+                  <NightVisionEfficiency>1</NightVisionEfficiency>
+                </statOffsets>
+			</li>
+		</stages>
+     
+    <comps>
+      <li Class="HediffCompProperties_SelfHeal">
+        <healAmount>0.04</healAmount>
+      </li>
+    </comps>
+  </HediffDef>
 </Defs>

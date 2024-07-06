@@ -26,5 +26,30 @@
   <Bombardier.labelFemale>Самка Бомбардира</Bombardier.labelFemale>
   <Bombardier.labelFemalePlural>Самки Бомбардира</Bombardier.labelFemalePlural>
 
+  <QueenBug.label>Матка жуков</QueenBug.label>
+  <QueenBug.labelPlural>Матка жуков</QueenBug.labelPlural>
+  <QueenBug.lifeStages.0.label>Матка жуков</QueenBug.lifeStages.0.label>
+  <QueenBug.lifeStages.0.labelPlural>Матка жуков</QueenBug.lifeStages.0.labelPlural>
+  <QueenBug.lifeStages.0.labelMale>Король жуков</QueenBug.lifeStages.0.labelMale>
+  <QueenBug.lifeStages.0.labelMalePlural>Король жуков</QueenBug.lifeStages.0.labelMalePlural>
+  <QueenBug.lifeStages.0.labelFemale>Матка жуков</QueenBug.lifeStages.0.labelFemale>
+  <QueenBug.lifeStages.0.labelFemalePlural>Матка жуков</QueenBug.lifeStages.0.labelFemalePlural>
+  <QueenBug.lifeStages.1.label>Матка жуков</QueenBug.lifeStages.1.label>
+  <QueenBug.lifeStages.1.labelPlural>Матка жуков</QueenBug.lifeStages.1.labelPlural>
+  <QueenBug.lifeStages.1.labelMale>Король жуков</QueenBug.lifeStages.1.labelMale>
+  <QueenBug.lifeStages.1.labelMalePlural>Король жуков</QueenBug.lifeStages.1.labelMalePlural>
+  <QueenBug.lifeStages.1.labelFemale>Матка жуков</QueenBug.lifeStages.1.labelFemale>
+  <QueenBug.lifeStages.1.labelFemalePlural>Матка жуков</QueenBug.lifeStages.1.labelFemalePlural>
+  <QueenBug.lifeStages.2.label>Матка жуков</QueenBug.lifeStages.2.label>
+  <QueenBug.lifeStages.2.labelPlural>Матка жуков</QueenBug.lifeStages.2.labelPlural>
+  <QueenBug.lifeStages.2.labelMale>Король жуков</QueenBug.lifeStages.2.labelMale>
+  <QueenBug.lifeStages.2.labelMalePlural>Король жуков</QueenBug.lifeStages.2.labelMalePlural>
+  <QueenBug.lifeStages.2.labelFemale>Матка жуков</QueenBug.lifeStages.2.labelFemale>
+  <QueenBug.lifeStages.2.labelFemalePlural>Матка жуков</QueenBug.lifeStages.2.labelFemalePlural>
+  <QueenBug.labelMale>Король жуков</QueenBug.labelMale>
+  <QueenBug.labelMalePlural>Король жуков</QueenBug.labelMalePlural>
+  <QueenBug.labelFemale>Матка жуков</QueenBug.labelFemale>
+  <QueenBug.labelFemalePlural>Матка жуков</QueenBug.labelFemalePlural>
+
 
 </LanguageData>
