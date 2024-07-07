@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <CombatExtended.AmmoCategoryDef>
+    <defName>Crio</defName>
+    <label>Crio</label>
+    <description>Supercooled helium.</description>
+  </CombatExtended.AmmoCategoryDef>
+  
+</Defs>

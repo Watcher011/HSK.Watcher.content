@@ -25,6 +25,18 @@
 		<growthRate>0</growthRate>
 	</FleckDef>
 
-	
+	<FleckDef ParentName="FleckBase_Thrown">
+		<defName>Fleck_CECrioTrail</defName>
+		<graphicData>
+			<texPath>Things/Mote/FireGlow</texPath>
+			<shaderType>MoteGlow</shaderType>
+			<color>(0.3, 0.3 , 1)</color>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<fadeInTime>0</fadeInTime>
+		<solidTime>0.03</solidTime>
+		<fadeOutTime>0.25</fadeOutTime>
+		<growthRate>0</growthRate>
+	</FleckDef>
 
 </Defs>
