@@ -132,7 +132,16 @@
                 <defaultValue>true</defaultValue>
                 <tooltip>Add Bombardier to  Raid?</tooltip>
             </li>
-		
+			
+		 <li Class="XmlExtensions.Setting.GapLine"/>
+	 
+		<li Class="XmlExtensions.Setting.Checkbox">
+                <key>AddTearsOfTheSun</key>
+                <label>Replacing the Ashbringer's ammunition with an enhanced version of napalm ?</label>
+				<tKey>AddTearsOfTheSun</tKey>
+                <defaultValue>true</defaultValue>
+                <tooltip>Add napalm - tears of the sun?</tooltip>
+            </li>
 		
             <li Class="XmlExtensions.Setting.GapLine"/>
             <li Class="XmlExtensions.Setting.ResetSettings"/>
