@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SunFlame.label>Магма</SunFlame.label>
+  <SunFlame.deathMessage>{0} has been killed.</SunFlame.deathMessage>
+
+  <VaporizePlasma.label>испрён</VaporizePlasma.label>
+  <VaporizePlasma.deathMessage>{0} был испарён.</VaporizePlasma.deathMessage>
+
+  <Xray.label>Радиоактивное излучение</Xray.label>
+  <Xray.deathMessage>{0} has been killed.</Xray.deathMessage>
+
+  <NeirotoxGas.label>Нейротоксин</NeirotoxGas.label>
+  <NeirotoxGas.deathMessage>{0} has been killed.</NeirotoxGas.deathMessage>
+
+
+</LanguageData>

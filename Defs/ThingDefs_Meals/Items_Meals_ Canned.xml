@@ -15,7 +15,7 @@
 		</thingCategories>
 		<statBases>
 			<DeteriorationRate>12</DeteriorationRate>
-			<MarketValue>8</MarketValue>
+			<MarketValue>3</MarketValue>
 			<Bulk>0.25</Bulk>
 			<Mass>0.12</Mass>
 			<WorkToMake>1500</WorkToMake>
@@ -50,7 +50,7 @@
 		</thingCategories>
 		<statBases>
 			<DeteriorationRate>8</DeteriorationRate>
-			<MarketValue>8</MarketValue>
+			<MarketValue>5</MarketValue>
 			<Bulk>0.25</Bulk>
 			<Mass>0.12</Mass>
 			<WorkToMake>1500</WorkToMake>
@@ -127,7 +127,7 @@
       <li>Foods</li>
     </thingCategories>
     <statBases>
-      <MarketValue>15</MarketValue>
+      <MarketValue>10</MarketValue>
       <WorkToMake>300</WorkToMake>
 	   <Mass>0.3</Mass>
       <Flammability>0.5</Flammability>

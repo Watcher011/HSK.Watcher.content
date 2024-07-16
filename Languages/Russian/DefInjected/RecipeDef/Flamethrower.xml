@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_Flamethrower_sun.label>Сделать Слёзы солнца x100</MakeAmmo_Flamethrower_sun.label>
+  <MakeAmmo_Flamethrower_sun.description>Сделать 100 Слёз солнца.</MakeAmmo_Flamethrower_sun.description>
+  <MakeAmmo_Flamethrower_sun.jobString>Создаёт Слёзы солнца.</MakeAmmo_Flamethrower_sun.jobString>
+
+
+</LanguageData>

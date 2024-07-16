@@ -285,9 +285,11 @@
 			 <li Class="CompProperties_MeditationFocus">
         <statDef>MeditationFocusStrength</statDef>
         <focusTypes>
-          <li>Natural</li>
+           <li>Natural</li>
 		   <li>Artistic</li>
-		      <li>Morbid</li>
+		   <li>Morbid</li>
+		   <li>Flame</li>
+		   <li>Minimal</li>
         </focusTypes>
       </li>
 			<li Class="SK.CompProperties_ApplyHediffAround">
