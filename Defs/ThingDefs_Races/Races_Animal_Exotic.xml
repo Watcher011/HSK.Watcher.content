@@ -32,12 +32,12 @@
 					</targetParams>
                      <warmupTime>1.1</warmupTime>
                      <range>15</range>
-					<minRange>1.9</minRange>
+					<minRange>2.9</minRange>
 					<ai_AvoidFriendlyFireRadius>2</ai_AvoidFriendlyFireRadius>
 					<burstShotCount>3</burstShotCount>
-					<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+					<ticksBetweenBurstShots>50</ticksBetweenBurstShots>
 					<soundCast>AcidSpray_Resolve</soundCast>
-					<muzzleFlashScale>9</muzzleFlashScale>
+					<muzzleFlashScale>3</muzzleFlashScale>
 				</li>
 					
 		</verbs>
