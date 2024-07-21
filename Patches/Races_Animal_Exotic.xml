@@ -93,4 +93,15 @@
      </butcherProducts>
     </value>
   </Operation>
+  
+  
+   <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Pig" or defName="WildBoar" or defName="Ibex" or defName="Deer"]</xpath>
+    <value>
+     <butcherProducts>
+    	<Tallow>10</Tallow>
+     </butcherProducts>
+    </value>
+  </Operation>
+  
 </Patch>
