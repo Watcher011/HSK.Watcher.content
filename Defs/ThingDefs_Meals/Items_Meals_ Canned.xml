@@ -16,8 +16,8 @@
 		<statBases>
 			<DeteriorationRate>12</DeteriorationRate>
 			<MarketValue>3</MarketValue>
-			<Bulk>0.25</Bulk>
-			<Mass>0.12</Mass>
+			<Bulk>0.05</Bulk>
+			<Mass>0.02</Mass>
 			<WorkToMake>1500</WorkToMake>
 			<Nutrition>0.18</Nutrition>
 		</statBases>
