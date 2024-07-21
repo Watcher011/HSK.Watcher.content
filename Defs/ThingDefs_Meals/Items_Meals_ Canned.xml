@@ -51,8 +51,8 @@
 		<statBases>
 			<DeteriorationRate>8</DeteriorationRate>
 			<MarketValue>5</MarketValue>
-			<Bulk>0.25</Bulk>
-			<Mass>0.12</Mass>
+			<Bulk>0.05</Bulk>
+			<Mass>0.02</Mass>
 			<WorkToMake>1500</WorkToMake>
 			<Nutrition>0.18</Nutrition>
 		</statBases>
@@ -87,8 +87,8 @@
 		<statBases>
 			<DeteriorationRate>0.1</DeteriorationRate>
 			<MarketValue>12</MarketValue>
-			<Bulk>0.25</Bulk>
-			<Mass>0.12</Mass>
+			<Bulk>0.05</Bulk>
+			<Mass>0.02</Mass>
 			<WorkToMake>1500</WorkToMake>
 			<Nutrition>0.48</Nutrition>
 		</statBases>
