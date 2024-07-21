@@ -15,18 +15,6 @@
 				</powerUpgrades>
 				</value>
 			</li>
-			
-			 <li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="SunLamp"]/comps/li[@Class="CompProperties_Power"]</xpath>
-				<value>
-				 <powerUpgrades>
-				  <li>
-					<researchProject>AdvancedPowerKult</researchProject>
-					<factor>0.60</factor>
-				  </li>
-				</powerUpgrades>
-				</value>
-			</li>
 		</operations>
 	</Operation>
 

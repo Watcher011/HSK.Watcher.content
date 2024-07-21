@@ -25,35 +25,5 @@
   <Make_Ethanol.label>Make moonshine</Make_Ethanol.label>
   <Make_Ethanol.description>Produce primitive Ethanol. Will take 2 days</Make_Ethanol.description>
 
-  <Make_DriedMushrooms5x.label>Dry the mushrooms х5</Make_DriedMushrooms5x.label>
-  <Make_DriedMushrooms5x.description>Dry fresh mushrooms. The process takes 1.5 days.</Make_DriedMushrooms5x.description>
-
-  <Make_DriedMushrooms10x.label>Dry mushrooms x10</Make_DriedMushrooms10x.label>
-  <Make_DriedMushrooms10x.description>Dry fresh mushrooms. The process takes 1.5 days.</Make_DriedMushrooms10x.description>
-
-  <Make_DriedFish5x.label>Dry fish x3</Make_DriedFish5x.label>
-  <Make_DriedFish5x.description>Dry the fish. The process takes 2 days.</Make_DriedFish5x.description>
-
-  <Make_DriedFish10x.label>Dry the fish x9</Make_DriedFish10x.label>
-  <Make_DriedFish10x.description>Dry the fish. The process takes 2 days.</Make_DriedFish10x.description>
-
-  <Make_DriedNori_x05.label>dry seaweed x5</Make_DriedNori_x05.label>
-  <Make_DriedNori_x05.description>Dry fresh seaweed. The process takes 2 days.</Make_DriedNori_x05.description>
-
-  <Make_DriedNori_x10.label>dry seaweed x10</Make_DriedNori_x10.label>
-  <Make_DriedNori_x10.description>Dry fresh seaweed. The process takes 2 days.</Make_DriedNori_x10.description>
-
-  <Make_Jerkyx10.label>make jerky x10</Make_Jerkyx10.label>
-  <Make_Jerkyx10.description>Make jerky meat. Takes 2 days to make</Make_Jerkyx10.description>
-
-  <Make_Jerkyx30.label>make jerky x30</Make_Jerkyx30.label>
-  <Make_Jerkyx30.description>Make jerky meat. Takes 2 days to make</Make_Jerkyx30.description>
-
-  <Make_DriedFruit_x05.label>make dried fruit x5</Make_DriedFruit_x05.label>
-  <Make_DriedFruit_x05.description>Make dried fruit x5. Takes 2 days to make</Make_DriedFruit_x05.description>
-
-  <Make_DriedFruit_x10.label>make dried fruit x10</Make_DriedFruit_x10.label>
-  <Make_DriedFruit_x10.description>Make dried fruit x5. Takes 2 days to make</Make_DriedFruit_x10.description>
-
 
 </LanguageData>

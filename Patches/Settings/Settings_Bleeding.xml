@@ -30,7 +30,7 @@
 		 <li>
         <filter>
           <categories>
-            	<li>CorpsesHumanlike</li>
+            <li>Corpses</li>
           </categories>
         </filter>
         <count>1</count>
@@ -38,7 +38,7 @@
 		</ingredients>
 		  <fixedIngredientFilter>
       <categories>
-       	<li>CorpsesHumanlike</li>
+        <li>Corpses</li>
       </categories>
       <disallowedCategories>
         <li>CorpsesMechanoid</li>

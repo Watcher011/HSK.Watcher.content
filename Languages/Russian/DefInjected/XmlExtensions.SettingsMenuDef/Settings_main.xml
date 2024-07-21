@@ -3,18 +3,31 @@
 
   <Watcher_Content_Settings.label>Watcher Content Settings</Watcher_Content_Settings.label>
   <Watcher_Content_Settings.settings.1.text>Возможности</Watcher_Content_Settings.settings.1.text>
+  
   <Watcher_Content_Settings.settings.2.label>Добавляем алкоголь в рецепты крафта медикаментов?</Watcher_Content_Settings.settings.2.label>
+  
   <Watcher_Content_Settings.settings.3.label>Добавляем извлечение гемогена  из трупов?</Watcher_Content_Settings.settings.3.label>
+  
+  
   <Watcher_Content_Settings.settings.5.label>Добавляем постройку взрывной двери?</Watcher_Content_Settings.settings.5.label>
+  
+  
   <Watcher_Content_Settings.settings.6.label>Сортируем мины по коробкам или пусть так валяются(меняем крафт и постройку)?</Watcher_Content_Settings.settings.6.label>
+  
+  
   <Watcher_Content_Settings.settings.8.label>Добавляем мягкие стены из текстиля и кожи?</Watcher_Content_Settings.settings.8.label>
+  
+  
   <Watcher_Content_Settings.settings.9.label>Добавляем стены из светокамня ?</Watcher_Content_Settings.settings.9.label>
+  
   <Watcher_Content_Settings.settings.10.label>Выбираем текстуру для светокамменых колон(котик или девушка)</Watcher_Content_Settings.settings.10.label>
+  
   <Watcher_Content_Settings.settings.12.label>Добавляем ауру для ковриков(добавляет позитивные эффекты шкурам редких животных в малом радиусе)?</Watcher_Content_Settings.settings.12.label>
+  
   <Watcher_Content_Settings.settings.13.label>Добавляем хранилище токсичных отходов?</Watcher_Content_Settings.settings.13.label>
+  
   <Watcher_Content_Settings.settings.15.label>Меняем тип топлива на алкоголь в лампе лекаря?</Watcher_Content_Settings.settings.15.label>
   <Watcher_Content_Settings.settings.16.label>Отключаем рост растений вокруг лампы лекаря?</Watcher_Content_Settings.settings.16.label>
   <Watcher_Content_Settings.settings.20.text>Для применения всех параметров требуется перезагрузка</Watcher_Content_Settings.settings.20.text>
-
 
 </LanguageData>
