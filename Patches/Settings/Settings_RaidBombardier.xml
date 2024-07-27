@@ -19,6 +19,7 @@
 					<li>ImmediateAttackSappers</li>	
 				</disallowedStrategies>
 				<options>
+				    <Huntercarab>90</Huntercarab>
 					<Antis>90</Antis>
 					<Bombardier>50</Bombardier>
 					<Gnawler>35</Gnawler>

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Crio.label>Crio</Crio.label>
-  <Crio.description>Supercooled helium.</Crio.description>
+  <Crio.label>Крио</Crio.label>
+  <Crio.description>Хладогент.</Crio.description>
 
-  <HellF.label>Tears of the sun</HellF.label>
+  <HellF.label>Слёзы солнца</HellF.label>
   <HellF.labelShort>CC</HellF.labelShort>
-  <HellF.description>A wild mixture of chemicals that burns like plasma.</HellF.description>
+  <HellF.description>Дикая смесь химикатов, которая горит как плазма.</HellF.description>
 
 
 </LanguageData>

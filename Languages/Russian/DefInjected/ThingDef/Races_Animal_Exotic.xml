@@ -3,12 +3,19 @@
 
   <Bombardier.label>Бомбардир</Bombardier.label>
   <Bombardier.description>Бомбардиры не особенно опасны, когда они одни, но могут быть очень опасны, когда собираются в стаи. Это социальное существо, которое не может размножаться индивидуально.</Bombardier.description>
+  <Bombardier.verbs.0.label>Кислотное брюшко</Bombardier.verbs.0.label>
   <Bombardier.tools.0.label>Левая передняя нога</Bombardier.tools.0.label>
   <Bombardier.tools.1.label>Правая передняя нога</Bombardier.tools.1.label>
   <Bombardier.tools.3.label>Жвалы</Bombardier.tools.3.label>
 
+  <Huntercarab.label>Клещ</Huntercarab.label>
+  <Huntercarab.description>Довольно мелкий представитель инсектоидов.Иследования показали что данные сушества крайне опасны в ближнем бою.</Huntercarab.description>
+  <Huntercarab.tools.0.label>Жвалы</Huntercarab.tools.0.label>
+  <Huntercarab.tools.1.label>Голова</Huntercarab.tools.1.label>
+
   <QueenBug.label>Королева Жуков</QueenBug.label>
   <QueenBug.description>Редкий представитель инсектоидов, ходят легенды, что разрушенные поселения, полные жуков, — дело лап Мясной Зины.</QueenBug.description>
+  <QueenBug.verbs.0.label>launch Cocon</QueenBug.verbs.0.label>
   <QueenBug.tools.0.label>Левая передняя нога</QueenBug.tools.0.label>
   <QueenBug.tools.1.label>Правая передняя нога</QueenBug.tools.1.label>
   <QueenBug.tools.3.label>Жвалы</QueenBug.tools.3.label>

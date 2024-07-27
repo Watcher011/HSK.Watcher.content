@@ -26,30 +26,55 @@
   <Bombardier.labelFemale>Самка Бомбардира</Bombardier.labelFemale>
   <Bombardier.labelFemalePlural>Самки Бомбардира</Bombardier.labelFemalePlural>
 
-  <QueenBug.label>Матка жуков</QueenBug.label>
-  <QueenBug.labelPlural>Матка жуков</QueenBug.labelPlural>
-  <QueenBug.lifeStages.0.label>Матка жуков</QueenBug.lifeStages.0.label>
-  <QueenBug.lifeStages.0.labelPlural>Матка жуков</QueenBug.lifeStages.0.labelPlural>
-  <QueenBug.lifeStages.0.labelMale>Король жуков</QueenBug.lifeStages.0.labelMale>
-  <QueenBug.lifeStages.0.labelMalePlural>Король жуков</QueenBug.lifeStages.0.labelMalePlural>
-  <QueenBug.lifeStages.0.labelFemale>Матка жуков</QueenBug.lifeStages.0.labelFemale>
-  <QueenBug.lifeStages.0.labelFemalePlural>Матка жуков</QueenBug.lifeStages.0.labelFemalePlural>
-  <QueenBug.lifeStages.1.label>Матка жуков</QueenBug.lifeStages.1.label>
-  <QueenBug.lifeStages.1.labelPlural>Матка жуков</QueenBug.lifeStages.1.labelPlural>
-  <QueenBug.lifeStages.1.labelMale>Король жуков</QueenBug.lifeStages.1.labelMale>
-  <QueenBug.lifeStages.1.labelMalePlural>Король жуков</QueenBug.lifeStages.1.labelMalePlural>
-  <QueenBug.lifeStages.1.labelFemale>Матка жуков</QueenBug.lifeStages.1.labelFemale>
-  <QueenBug.lifeStages.1.labelFemalePlural>Матка жуков</QueenBug.lifeStages.1.labelFemalePlural>
-  <QueenBug.lifeStages.2.label>Матка жуков</QueenBug.lifeStages.2.label>
-  <QueenBug.lifeStages.2.labelPlural>Матка жуков</QueenBug.lifeStages.2.labelPlural>
-  <QueenBug.lifeStages.2.labelMale>Король жуков</QueenBug.lifeStages.2.labelMale>
-  <QueenBug.lifeStages.2.labelMalePlural>Король жуков</QueenBug.lifeStages.2.labelMalePlural>
-  <QueenBug.lifeStages.2.labelFemale>Матка жуков</QueenBug.lifeStages.2.labelFemale>
-  <QueenBug.lifeStages.2.labelFemalePlural>Матка жуков</QueenBug.lifeStages.2.labelFemalePlural>
-  <QueenBug.labelMale>Король жуков</QueenBug.labelMale>
-  <QueenBug.labelMalePlural>Король жуков</QueenBug.labelMalePlural>
-  <QueenBug.labelFemale>Матка жуков</QueenBug.labelFemale>
-  <QueenBug.labelFemalePlural>Матка жуков</QueenBug.labelFemalePlural>
+  <Huntercarab.label>Клещ</Huntercarab.label>
+  <Huntercarab.labelPlural>Клещи</Huntercarab.labelPlural>
+  <Huntercarab.lifeStages.0.label>Клещ</Huntercarab.lifeStages.0.label>
+  <Huntercarab.lifeStages.0.labelPlural>Клещ</Huntercarab.lifeStages.0.labelPlural>
+  <Huntercarab.lifeStages.0.labelMale>Самец клеща</Huntercarab.lifeStages.0.labelMale>
+  <Huntercarab.lifeStages.0.labelMalePlural>Самцы клещей</Huntercarab.lifeStages.0.labelMalePlural>
+  <Huntercarab.lifeStages.0.labelFemale>Самка клеща</Huntercarab.lifeStages.0.labelFemale>
+  <Huntercarab.lifeStages.0.labelFemalePlural>Самки клещей</Huntercarab.lifeStages.0.labelFemalePlural>
+  <Huntercarab.lifeStages.1.label>Клещ</Huntercarab.lifeStages.1.label>
+  <Huntercarab.lifeStages.1.labelPlural>Клещ</Huntercarab.lifeStages.1.labelPlural>
+  <Huntercarab.lifeStages.1.labelMale>Самец Клеща</Huntercarab.lifeStages.1.labelMale>
+  <Huntercarab.lifeStages.1.labelMalePlural>Самцы Клещей</Huntercarab.lifeStages.1.labelMalePlural>
+  <Huntercarab.lifeStages.1.labelFemale>Самка Клеща</Huntercarab.lifeStages.1.labelFemale>
+  <Huntercarab.lifeStages.1.labelFemalePlural>Самки Клещей</Huntercarab.lifeStages.1.labelFemalePlural>
+  <Huntercarab.lifeStages.2.label>Клещ</Huntercarab.lifeStages.2.label>
+  <Huntercarab.lifeStages.2.labelPlural>Клещ</Huntercarab.lifeStages.2.labelPlural>
+  <Huntercarab.lifeStages.2.labelMale>Самец клеща</Huntercarab.lifeStages.2.labelMale>
+  <Huntercarab.lifeStages.2.labelMalePlural>Самцы Клещей</Huntercarab.lifeStages.2.labelMalePlural>
+  <Huntercarab.lifeStages.2.labelFemale>Самка Клеща</Huntercarab.lifeStages.2.labelFemale>
+  <Huntercarab.lifeStages.2.labelFemalePlural>Самки Клещей</Huntercarab.lifeStages.2.labelFemalePlural>
+  <Huntercarab.labelMale>Самец клеща</Huntercarab.labelMale>
+  <Huntercarab.labelMalePlural>Самцы Клещей</Huntercarab.labelMalePlural>
+  <Huntercarab.labelFemale>Самка Клеща</Huntercarab.labelFemale>
+  <Huntercarab.labelFemalePlural>Самки Клещей</Huntercarab.labelFemalePlural>
+
+  <QueenBug.label>Матка Инсектоидов</QueenBug.label>
+  <QueenBug.labelPlural>Матка Инсектоидов</QueenBug.labelPlural>
+  <QueenBug.lifeStages.0.label>Матка Инсектоидов</QueenBug.lifeStages.0.label>
+  <QueenBug.lifeStages.0.labelPlural>Матка Инсектоидов</QueenBug.lifeStages.0.labelPlural>
+  <QueenBug.lifeStages.0.labelMale>Король Инсектоидов</QueenBug.lifeStages.0.labelMale>
+  <QueenBug.lifeStages.0.labelMalePlural>Король Инсектоидов</QueenBug.lifeStages.0.labelMalePlural>
+  <QueenBug.lifeStages.0.labelFemale>Матка Инсектоидов</QueenBug.lifeStages.0.labelFemale>
+  <QueenBug.lifeStages.0.labelFemalePlural>Матка Инсектоидов</QueenBug.lifeStages.0.labelFemalePlural>
+  <QueenBug.lifeStages.1.label>Матка Инсектоидов</QueenBug.lifeStages.1.label>
+  <QueenBug.lifeStages.1.labelPlural>Матка Инсектоидов</QueenBug.lifeStages.1.labelPlural>
+  <QueenBug.lifeStages.1.labelMale>Король Инсектоидов</QueenBug.lifeStages.1.labelMale>
+  <QueenBug.lifeStages.1.labelMalePlural>Король Инсектоидов</QueenBug.lifeStages.1.labelMalePlural>
+  <QueenBug.lifeStages.1.labelFemale>Матка Инсектоидов</QueenBug.lifeStages.1.labelFemale>
+  <QueenBug.lifeStages.1.labelFemalePlural>Матка Инсектоидов</QueenBug.lifeStages.1.labelFemalePlural>
+  <QueenBug.lifeStages.2.label>Матка Инсектоидов</QueenBug.lifeStages.2.label>
+  <QueenBug.lifeStages.2.labelPlural>Матка Инсектоидов</QueenBug.lifeStages.2.labelPlural>
+  <QueenBug.lifeStages.2.labelMale>Король Инсектоидов</QueenBug.lifeStages.2.labelMale>
+  <QueenBug.lifeStages.2.labelMalePlural>Король Инсектоидов</QueenBug.lifeStages.2.labelMalePlural>
+  <QueenBug.lifeStages.2.labelFemale>Матка Инсектоидов</QueenBug.lifeStages.2.labelFemale>
+  <QueenBug.lifeStages.2.labelFemalePlural>Матка Инсектоидов</QueenBug.lifeStages.2.labelFemalePlural>
+  <QueenBug.labelMale>Король Инсектоидов</QueenBug.labelMale>
+  <QueenBug.labelMalePlural>Король Инсектоидов</QueenBug.labelMalePlural>
+  <QueenBug.labelFemale>Матка Инсектоидов</QueenBug.labelFemale>
+  <QueenBug.labelFemalePlural>Матка Инсектоидов</QueenBug.labelFemalePlural>
 
 
 </LanguageData>

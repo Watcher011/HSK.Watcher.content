@@ -26,8 +26,10 @@
 		</graphicData>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<applyDamageToExplosionCellsNeighbors>false</applyDamageToExplosionCellsNeighbors>
-			<preExplosionSpawnChance>0.3</preExplosionSpawnChance>
+			<preExplosionSpawnChance>1</preExplosionSpawnChance>
 			<preExplosionSpawnThingDef>HiveAntis</preExplosionSpawnThingDef>
+            <speed>3</speed>			
+			<gravityFactor>1</gravityFactor>
 		</projectile>
 	</ThingDef>
 	

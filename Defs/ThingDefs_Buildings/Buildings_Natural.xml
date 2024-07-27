@@ -35,7 +35,7 @@
       <li Class="CompProperties_WakeUpDormant" />
       <li Class="CompProperties_SpawnerPawn">
         <spawnablePawnKinds>
-          <li>Antis</li>
+          <li>Huntercarab</li>
         </spawnablePawnKinds>
         <lordJob>LordJob_AssaultColony</lordJob>
         <spawnSound>Hive_Spawn</spawnSound>
