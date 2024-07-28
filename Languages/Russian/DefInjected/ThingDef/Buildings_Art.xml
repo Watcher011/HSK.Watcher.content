@@ -4,5 +4,8 @@
   <KatXArt.label>Скульптура котейки</KatXArt.label>
   <KatXArt.description>Скульптура котейки для колонии. Дарит тепло и уют.</KatXArt.description>
 
+  <WatcherArt.label>Скульптура наблюдателя</WatcherArt.label>
+  <WatcherArt.description>Скульптура Наблюдателя для наблюдения за колонией, снижает количество ошибок на 3%,+1 TPS(не суммируется).</WatcherArt.description>
+
 
 </LanguageData>

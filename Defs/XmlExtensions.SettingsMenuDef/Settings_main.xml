@@ -150,6 +150,14 @@
                 <defaultValue>false</defaultValue>
                 <tooltip>Adding organ transplants for androids</tooltip>
             </li>
+			
+			<li Class="XmlExtensions.Setting.Checkbox">
+                <key>AddingRimatomicsRTGRadiation</key>
+                <label>Adding Rimatomics RTG Radiation ?</label>
+				<tKey>AddingRimatomicsRTGRadiation</tKey>
+                <defaultValue>false</defaultValue>
+                <tooltip>Adding Rimatomics RTG Radiation</tooltip>
+            </li>
 		
             <li Class="XmlExtensions.Setting.GapLine"/>
             <li Class="XmlExtensions.Setting.ResetSettings"/>

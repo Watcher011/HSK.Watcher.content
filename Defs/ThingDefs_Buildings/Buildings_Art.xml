@@ -45,6 +45,44 @@
 		</recipeMaker>
 	</ThingDef>
 	
-	
+	<ThingDef ParentName="SK_SculptureBase">
+		<defName>WatcherArt</defName>
+		<label>Watcher sculpture</label>
+		<description>Watcher sculpture for watching over the colony, reduces the number of errors by 3%.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/Art/W</texPath>
+			<drawSize>(1.8,1.8)</drawSize>
+		</graphicData>
+		<fillPercent>0.3</fillPercent>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>170</MaxHitPoints>
+			<Beauty>70</Beauty>
+			<WorkToMake>36000</WorkToMake>
+			<Bulk>80</Bulk>
+			<Mass>50</Mass>
+			 <TerrorSource>25</TerrorSource>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">48</StyleDominance>
+		</statBases>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+			<li>Precious</li>
+			<li>Woody</li>
+			<li>Stony</li>
+			<li>Ceramic</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>1</glowRadius>
+				<glowColor>(180,197,215,0)</glowColor>
+			</li>
+		</comps>
+		<recipeMaker>
+			<researchPrerequisite>Art_B2</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
 
 </Defs>

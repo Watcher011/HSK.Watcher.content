@@ -102,4 +102,28 @@
 	</ArchitectSense.DesignationSubCategoryDef>
 		</value>
 	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs</xpath>
+		<value>
+		<ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_Refinery</defName>
+		<label>refineries</label>
+		<description>Processes chemfuel to another products.</description>
+		<defNames>
+			<li>PolymerRefiner</li>
+			<li>PaintRefiner</li>
+			<li>NapalmRefiner</li>
+			<li>SynthreadRefiner</li>
+			<li>HyperweaveRefiner</li>
+			<li>NeutroamineRefiner</li>
+			<li>ParaffinRefiner</li>
+			<li>SulphateRefiner</li>
+			<li>SyntheticAmmoniaRefiner</li>
+		</defNames>
+		<designationCategory>Rimefeller</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+		</value>
+	</Operation>
 </Patch>
