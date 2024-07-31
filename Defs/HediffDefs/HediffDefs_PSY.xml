@@ -62,9 +62,9 @@
 					</li>
 				</capMods>
 				 <statOffsets>
-               <PsychicSensitivity>-2</PsychicSensitivity>
-               <MeditationFocusGain>-1.9</MeditationFocusGain>
-               <PsychicEntropyRecoveryRate>-0.1</PsychicEntropyRecoveryRate>
+               <PsychicSensitivity>-12</PsychicSensitivity>
+               <MeditationFocusGain>-10.9</MeditationFocusGain>
+               <PsychicEntropyRecoveryRate>-12.1</PsychicEntropyRecoveryRate>
                 </statOffsets>
 			</li>
 		</stages>
