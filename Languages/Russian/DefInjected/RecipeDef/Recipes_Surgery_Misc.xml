@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TreatmentOfInfection.label>Лечение заражения</TreatmentOfInfection.label>
+  <TreatmentOfInfection.description>Проведение широкого спектра мероприятий по борьбе с инфекцией.</TreatmentOfInfection.description>
+  <TreatmentOfInfection.jobString>Лечит инфекцию TargetA.</TreatmentOfInfection.jobString>
+  <TreatmentOfInfection.successfullyRemovedHediffMessage>{0} успешно вылечил инфекцию у {1}.</TreatmentOfInfection.successfullyRemovedHediffMessage>
+
+
+</LanguageData>
