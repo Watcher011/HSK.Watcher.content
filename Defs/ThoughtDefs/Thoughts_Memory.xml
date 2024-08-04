@@ -55,4 +55,45 @@
 		</stages>
 	</ThoughtDef>
 	
+	
+	
+	<ThoughtDef>
+		<defName>HadGTea</defName>
+		<durationDays>0.8</durationDays>
+		<stackLimit>2</stackLimit>
+		<stages>
+			<li>
+				<label>Выпит чай с мятой</label>
+				<description>Этот чай дарит спокойствие</description>
+				<baseMoodEffect>12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>HadGreenTea</defName>
+		<durationDays>0.6</durationDays>
+		<stackLimit>2</stackLimit>
+		<stages>
+			<li>
+				<label>Выпит зелёный чай</label>
+				<description>Я чувствую прилив энергии</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>HadPuerT</defName>
+		<durationDays>0.9</durationDays>
+		<stackLimit>2</stackLimit>
+		<stages>
+			<li>
+				<label>Выпит чай Пуэр</label>
+				<description>Я чувствую как тело очищается</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
 </Defs>

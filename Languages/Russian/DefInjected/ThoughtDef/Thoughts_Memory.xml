@@ -13,5 +13,14 @@
   <Hadchips.stages.0.label>Умм чипсы.</Hadchips.stages.0.label>
   <Hadchips.stages.0.description>Хочется чего то чтоб запить</Hadchips.stages.0.description>
 
+  <HadGTea.stages.0.label>Выпит чай с мятой</HadGTea.stages.0.label>
+  <HadGTea.stages.0.description>Этот чай дарит спокойствие</HadGTea.stages.0.description>
+
+  <HadGreenTea.stages.0.label>Выпит зелёный чай</HadGreenTea.stages.0.label>
+  <HadGreenTea.stages.0.description>Я чувствую прилив энергии</HadGreenTea.stages.0.description>
+
+  <HadPuerT.stages.0.label>Выпит чай Пуэр</HadPuerT.stages.0.label>
+  <HadPuerT.stages.0.description>Я чувствую как тело очищается</HadPuerT.stages.0.description>
+
 
 </LanguageData>

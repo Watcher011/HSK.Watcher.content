@@ -158,6 +158,14 @@
                 <defaultValue>false</defaultValue>
                 <tooltip>Adding Rimatomics RTG Radiation</tooltip>
             </li>
+			
+			<li Class="XmlExtensions.Setting.Checkbox">
+                <key>AddingVarietyToTeaProducts</key>
+                <label>Adding variety to tea products?</label>
+				<tKey>AddingVarietyToTeaProducts</tKey>
+                <defaultValue>false</defaultValue>
+                <tooltip>Adding variety to tea products?</tooltip>
+            </li>
 		
             <li Class="XmlExtensions.Setting.GapLine"/>
             <li Class="XmlExtensions.Setting.ResetSettings"/>

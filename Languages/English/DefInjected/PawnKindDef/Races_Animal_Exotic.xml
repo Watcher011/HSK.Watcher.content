@@ -26,6 +26,31 @@
   <Bombardier.labelFemale>female Bombardier</Bombardier.labelFemale>
   <Bombardier.labelFemalePlural>female Bombardiers</Bombardier.labelFemalePlural>
 
+  <Huntercarab.label>Huntercarab</Huntercarab.label>
+  <Huntercarab.labelPlural>Huntercarabs</Huntercarab.labelPlural>
+  <Huntercarab.lifeStages.0.label>Huntercarab</Huntercarab.lifeStages.0.label>
+  <Huntercarab.lifeStages.0.labelPlural>Huntercarab</Huntercarab.lifeStages.0.labelPlural>
+  <Huntercarab.lifeStages.0.labelMale>male Huntercarab</Huntercarab.lifeStages.0.labelMale>
+  <Huntercarab.lifeStages.0.labelMalePlural>male Huntercarabs</Huntercarab.lifeStages.0.labelMalePlural>
+  <Huntercarab.lifeStages.0.labelFemale>female Huntercarab</Huntercarab.lifeStages.0.labelFemale>
+  <Huntercarab.lifeStages.0.labelFemalePlural>female Huntercarabs</Huntercarab.lifeStages.0.labelFemalePlural>
+  <Huntercarab.lifeStages.1.label>Huntercarab</Huntercarab.lifeStages.1.label>
+  <Huntercarab.lifeStages.1.labelPlural>Huntercarab</Huntercarab.lifeStages.1.labelPlural>
+  <Huntercarab.lifeStages.1.labelMale>male Huntercarab</Huntercarab.lifeStages.1.labelMale>
+  <Huntercarab.lifeStages.1.labelMalePlural>male Huntercarabs</Huntercarab.lifeStages.1.labelMalePlural>
+  <Huntercarab.lifeStages.1.labelFemale>female Huntercarab</Huntercarab.lifeStages.1.labelFemale>
+  <Huntercarab.lifeStages.1.labelFemalePlural>female Huntercarabs</Huntercarab.lifeStages.1.labelFemalePlural>
+  <Huntercarab.lifeStages.2.label>Huntercarab</Huntercarab.lifeStages.2.label>
+  <Huntercarab.lifeStages.2.labelPlural>Huntercarab</Huntercarab.lifeStages.2.labelPlural>
+  <Huntercarab.lifeStages.2.labelMale>male Huntercarab</Huntercarab.lifeStages.2.labelMale>
+  <Huntercarab.lifeStages.2.labelMalePlural>male Huntercarabs</Huntercarab.lifeStages.2.labelMalePlural>
+  <Huntercarab.lifeStages.2.labelFemale>female Huntercarab</Huntercarab.lifeStages.2.labelFemale>
+  <Huntercarab.lifeStages.2.labelFemalePlural>female Huntercarabs</Huntercarab.lifeStages.2.labelFemalePlural>
+  <Huntercarab.labelMale>male Huntercarab</Huntercarab.labelMale>
+  <Huntercarab.labelMalePlural>male Huntercarabs</Huntercarab.labelMalePlural>
+  <Huntercarab.labelFemale>female Huntercarab</Huntercarab.labelFemale>
+  <Huntercarab.labelFemalePlural>female Huntercarabs</Huntercarab.labelFemalePlural>
+
   <QueenBug.label>Queen Bug</QueenBug.label>
   <QueenBug.labelPlural>Queen Bugs</QueenBug.labelPlural>
   <QueenBug.lifeStages.0.label>Queen Bug</QueenBug.lifeStages.0.label>

@@ -16,9 +16,14 @@
   <Watcher_Content_Settings.settings.16.label>Disable the bug with the healer's lamp?</Watcher_Content_Settings.settings.16.label>
   <Watcher_Content_Settings.settings.18.label>Add Bombardier to cocoons</Watcher_Content_Settings.settings.18.label>
   <Watcher_Content_Settings.settings.19.label>Add Bombardier and Queen Bug to Raid</Watcher_Content_Settings.settings.19.label>
-  <Watcher_Content_Settings.settings.23.text>All options require restart to apply</Watcher_Content_Settings.settings.23.text>
+  <Watcher_Content_Settings.settings.21.label>Replacing the Ashbringer's ammunition with an enhanced version of napalm ?</Watcher_Content_Settings.settings.21.label>
+  <Watcher_Content_Settings.settings.22.label>Adding organ transplants for androids ?</Watcher_Content_Settings.settings.22.label>
+  <Watcher_Content_Settings.settings.23.label>Adding Rimatomics RTG Radiation ?</Watcher_Content_Settings.settings.23.label>
+  <Watcher_Content_Settings.settings.24.label>Adding variety to tea products?</Watcher_Content_Settings.settings.24.label>
+  <Watcher_Content_Settings.settings.28.text>All options require restart to apply</Watcher_Content_Settings.settings.28.text>
 
 
- 
+  <!--<Watcher_Content_Settings.settings.27.text>All options require restart to apply</Watcher_Content_Settings.settings.27.text>-->
+  <!--<Watcher_Content_Settings.settings.23.text>All options require restart to apply</Watcher_Content_Settings.settings.23.text>-->
 
 </LanguageData>

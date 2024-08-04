@@ -4,5 +4,8 @@
   <KatXArt.label>Сat sculpture</KatXArt.label>
   <KatXArt.description>Sculpture of a cat for the colony. Gives warmth and comfort.</KatXArt.description>
 
+  <WatcherArt.label>Watcher sculpture</WatcherArt.label>
+  <WatcherArt.description>Watcher sculpture for watching over the colony, reduces the number of errors by 3%.</WatcherArt.description>
+
 
 </LanguageData>

@@ -13,5 +13,14 @@
   <Hadchips.stages.0.label>Umm chips.</Hadchips.stages.0.label>
   <Hadchips.stages.0.description>I want something to drink</Hadchips.stages.0.description>
 
+  <HadGTea.stages.0.label>Mint tea was drunk</HadGTea.stages.0.label>
+  <HadGTea.stages.0.description>This tea gives you peace of mind</HadGTea.stages.0.description>
+
+  <HadGreenTea.stages.0.label>Green tea is drunk</HadGreenTea.stages.0.label>
+  <HadGreenTea.stages.0.description>I feel a surge of energy</HadGreenTea.stages.0.description>
+
+  <HadPuerT.stages.0.label>Puer tea has been drunk</HadPuerT.stages.0.label>
+  <HadPuerT.stages.0.description>I feel like my body is being cleansed.</HadPuerT.stages.0.description>
+
 
 </LanguageData>

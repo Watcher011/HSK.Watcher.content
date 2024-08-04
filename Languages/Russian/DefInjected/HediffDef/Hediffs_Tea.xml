@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Chipfir.label>Чифир</Chipfir.label>
+  <Chipfir.description>Чифир согревает тело и бодрит.</Chipfir.description>
+  <Chipfir.stages.0.label>Приятная теплота Чифирчика</Chipfir.stages.0.label>
+  <Chipfir.stages.1.label>На весели от Чифира</Chipfir.stages.1.label>
+  <Chipfir.stages.2.label>Нирвана</Chipfir.stages.2.label>
+  <Chipfir.labelNoun>Чифирчик</Chipfir.labelNoun>
+
+  <ChipfirTolerance.label>Тяга к Чифиру</ChipfirTolerance.label>
+  <ChipfirTolerance.description>Возникла тяга к чифиру, так и к зависимости не далеко</ChipfirTolerance.description>
+
+  <ChipfirAddiction.label>Зависимость от чифира</ChipfirAddiction.label>
+  <ChipfirAddiction.description>Развилась сильная чифирная зависимость.</ChipfirAddiction.description>
+  <ChipfirAddiction.stages.1.label>Чифирная ломка</ChipfirAddiction.stages.1.label>
+  <ChipfirAddiction.labelNoun>Чифирный наркоман</ChipfirAddiction.labelNoun>
+
+  <HedCupgreentea.label>Выпит успокоительный чай</HedCupgreentea.label>
+  <HedCupgreentea.description>Спокойствие и только спокойствие</HedCupgreentea.description>
+  <HedCupgreentea.stages.0.label>Очистка организма</HedCupgreentea.stages.0.label>
+
+  <HadPuer.label>Выпит чай Пуэр</HadPuer.label>
+  <HadPuer.description>Сила чаю и спокойствие</HadPuer.description>
+  <HadPuer.stages.0.label>Очистка организма</HadPuer.stages.0.label>
+
+  <HadGreenTea.label>Выпит зелёный чай</HadGreenTea.label>
+  <HadGreenTea.description>Спокойствие и покой</HadGreenTea.description>
+  <HadGreenTea.stages.0.label>Зелёный чай</HadGreenTea.stages.0.label>
+
+
+</LanguageData>

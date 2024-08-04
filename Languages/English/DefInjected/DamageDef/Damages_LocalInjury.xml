@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SunFlame.label>Magma</SunFlame.label>
+  <SunFlame.deathMessage>{0} has been killed.</SunFlame.deathMessage>
+
+  <VaporizePlasma.label>Vaporize</VaporizePlasma.label>
+  <VaporizePlasma.deathMessage>{0} was evaporated.</VaporizePlasma.deathMessage>
+
+  <Xray.label>Radioactive radiation</Xray.label>
+  <Xray.deathMessage>{0} has been killed.</Xray.deathMessage>
+
+  <NeirotoxGas.label>Neurotoxin</NeirotoxGas.label>
+  <NeirotoxGas.deathMessage>{0} has been killed.</NeirotoxGas.deathMessage>
+
+
+</LanguageData>

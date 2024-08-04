@@ -5,9 +5,13 @@
   <PSY_Bright.description>Harmonic vibrations of psi waves that the heart emits accelerates the restoration of your energy</PSY_Bright.description>
   <PSY_Bright.labelNoun>Psi resonance</PSY_Bright.labelNoun>
 
+  <PSY_noise.label>Psi noise</PSY_noise.label>
+  <PSY_noise.description>The disgusting buzzing noise prevents me from concentrating.</PSY_noise.description>
+  <PSY_noise.labelNoun>Psi noise</PSY_noise.labelNoun>
+
 
   <Carpet_Bite.label>Strange bite</Carpet_Bite.label>
-  <Carpet_Bite.description>What was the carpet bite me? No, but it is better to accelerate.</Carpet_Bite.description>
+<Carpet_Bite.description>What was the carpet bite me? No, but it is better to accelerate.</Carpet_Bite.description>
   <Carpet_Bite.labelNoun>Strange bite</Carpet_Bite.labelNoun>
 
 </LanguageData>

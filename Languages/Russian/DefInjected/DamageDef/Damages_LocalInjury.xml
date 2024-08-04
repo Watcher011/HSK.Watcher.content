@@ -2,16 +2,16 @@
 <LanguageData>
 
   <SunFlame.label>Магма</SunFlame.label>
-  <SunFlame.deathMessage>{0} has been killed.</SunFlame.deathMessage>
+  <SunFlame.deathMessage>{0} был испепелён.</SunFlame.deathMessage>
 
   <VaporizePlasma.label>испрён</VaporizePlasma.label>
   <VaporizePlasma.deathMessage>{0} был испарён.</VaporizePlasma.deathMessage>
 
   <Xray.label>Радиоактивное излучение</Xray.label>
-  <Xray.deathMessage>{0} has been killed.</Xray.deathMessage>
+  <Xray.deathMessage>{0} был облучён.</Xray.deathMessage>
 
   <NeirotoxGas.label>Нейротоксин</NeirotoxGas.label>
-  <NeirotoxGas.deathMessage>{0} has been killed.</NeirotoxGas.deathMessage>
+  <NeirotoxGas.deathMessage>{0} был отравлен.</NeirotoxGas.deathMessage>
 
 
 </LanguageData>

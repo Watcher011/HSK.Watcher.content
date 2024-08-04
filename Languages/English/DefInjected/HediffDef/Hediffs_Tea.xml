@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Chipfir.label>Chifir</Chipfir.label>
+  <Chipfir.description>Chifir warms the body and invigorates.</Chipfir.description>
+  <Chipfir.stages.0.label>Pleasant warmth of Chifirchik</Chipfir.stages.0.label>
+  <Chipfir.stages.1.label>Having fun from Chifir</Chipfir.stages.1.label>
+  <Chipfir.stages.2.label>Nirvana</Chipfir.stages.2.label>
+  <Chipfir.labelNoun>Chifirchik</Chipfir.labelNoun>
+
+  <ChipfirTolerance.label>Craving for Chifir</ChipfirTolerance.label>
+  <ChipfirTolerance.description>A craving for chifir arose, and addiction is not far away</ChipfirTolerance.description>
+
+  <ChipfirAddiction.label>Addiction to chifir</ChipfirAddiction.label>
+  <ChipfirAddiction.description>A strong addiction to chifir developed.</ChipfirAddiction.description>
+  <ChipfirAddiction.stages.1.label>Chifir withdrawal</ChipfirAddiction.stages.1.label>
+  <ChipfirAddiction.labelNoun>Chifir addict</ChipfirAddiction.labelNoun>
+
+  <HedCupgreentea.label>Drink some calming tea</HedCupgreentea.label>
+  <HedCupgreentea.description>Calm and only calm</HedCupgreentea.description>
+  <HedCupgreentea.stages.0.label>Cleansing the body</HedCupgreentea.stages.0.label>
+
+  <HadPuer.label>Puer tea has been drunk</HadPuer.label>
+  <HadPuer.description>Calm and only calm</HadPuer.description>
+  <HadPuer.stages.0.label>Cleansing the body</HadPuer.stages.0.label>
+
+  <HadGreenTea.label>Green tea is drunk</HadGreenTea.label>
+  <HadGreenTea.description>Peace and quiet</HadGreenTea.description>
+  <HadGreenTea.stages.0.label>Green tea</HadGreenTea.stages.0.label>
+
+
+</LanguageData>
