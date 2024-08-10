@@ -15,7 +15,7 @@
 
 
   <MinceHemogenPack.label>Bleeding</MinceHemogenPack.label>
-<MinceHemogenPack.description>Blood pumping.</MinceHemogenPack.description>
- <MinceHemogenPack.jobString>Butchering.</MinceHemogenPack.jobString>
+  <MinceHemogenPack.description>Blood pumping.</MinceHemogenPack.description>
+  <MinceHemogenPack.jobString>Butchering.</MinceHemogenPack.jobString>
 
 </LanguageData>

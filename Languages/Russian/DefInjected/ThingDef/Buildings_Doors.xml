@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<DoorBomb.label>Защитные двери</DoorBomb.label>
-<DoorBomb.description>Дверь с противопехотной миной.</DoorBomb.description>
+  <DoorBomb.label>Защитные двери</DoorBomb.label>
+  <DoorBomb.description>Дверь с противопехотной миной.</DoorBomb.description>
 
 
 </LanguageData>

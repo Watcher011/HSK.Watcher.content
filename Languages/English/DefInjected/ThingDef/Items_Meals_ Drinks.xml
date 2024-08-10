@@ -1,31 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <CupChipfir.label>Chifir mug</CupChipfir.label>-->
-  <CupChipfir.description>Chifir is a drink obtained by boiling highly concentrated tea leaves. It has a psychostimulating effect and is in some ways a narcotic that causes addiction.</CupChipfir.description>
-  <CupChipfir.ingestible.ingestCommandString>Drink {0}</CupChipfir.ingestible.ingestCommandString>
-  <CupChipfir.ingestible.ingestReportString>Drinks{0}.</CupChipfir.ingestible.ingestReportString>
+ <CupChipfir.label>Chifir mug</CupChipfir.label> 
+ <CupChipfir.description>Chifir is a drink obtained by boiling highly concentrated tea leaves. It has a psychostimulating effect and is in some ways a narcotic that causes addiction.</CupChipfir.description>
+ <CupChipfir.ingestible.ingestCommandString>Drink {0}</CupChipfir.ingestible.ingestCommandString>
+ <CupChipfir.ingestible.ingestReportString>Drinks{0}.</CupChipfir.ingestible.ingestReportString>
 
-  <Cupwithminttea.label>A cup of tea with mint</Cupwithminttea.label>
-  <Cupwithminttea.description>Tea with mint calms the nerves, can cause drowsiness.</Cupwithminttea.description>
-  <Cupwithminttea.ingestible.ingestCommandString>Drink {0}</Cupwithminttea.ingestible.ingestCommandString>
-  <Cupwithminttea.ingestible.ingestReportString>Drinks {0}.</Cupwithminttea.ingestible.ingestReportString>
+ <Cupwithminttea.label>A cup of tea with mint</Cupwithminttea.label>
+ <Cupwithminttea.description>Tea with mint calms the nerves, can cause drowsiness.</Cupwithminttea.description>
+ <Cupwithminttea.ingestible.ingestCommandString>Drink {0}</Cupwithminttea.ingestible.ingestCommandString>
+ <Cupwithminttea.ingestible.ingestReportString>Drinks {0}.</Cupwithminttea.ingestible.ingestReportString>
 
-  <CupGreentea.label>A mug of green tea</CupGreentea.label>
-  <CupGreentea.description>Green tea is a drink made from the leaves of the tea camellia. Actually, like black tea. The main difference is that for green tea the fermentation process is minimal, which makes it closer to a living tea leaf. And the more the tea is fermented, the darker its infusion and the brighter its taste..</CupGreentea.description>
-  <CupGreentea.ingestible.ingestCommandString>Drink {0}</CupGreentea.ingestible.ingestCommandString>
-  <CupGreentea.ingestible.ingestReportString>Drinks {0}.</CupGreentea.ingestible.ingestReportString>
+ <CupGreentea.label>A mug of green tea</CupGreentea.label>
+ <CupGreentea.description>Green tea is a drink made from the leaves of the tea camellia. Actually, like black tea. The main difference is that for green tea the fermentation process is minimal, which makes it closer to a living tea leaf. And the more the tea is fermented, the darker its infusion and the brighter its taste..</CupGreentea.description>
+ <CupGreentea.ingestible.ingestCommandString>Drink {0}</CupGreentea.ingestible.ingestCommandString>
+ <CupGreentea.ingestible.ingestReportString>Drinks {0}.</CupGreentea.ingestible.ingestReportString>
 
-  <RawPuer.label>Puer</RawPuer.label>
-  <RawPuer.description>The main distinguishing feature of pu-erhs is the fermentation stage, which can take different amounts of time. The microorganisms involved in it significantly change the chemical composition and taste of the tea..</RawPuer.description>
+ <RawPuer.label>Puer</RawPuer.label>
+ <RawPuer.description>The main distinguishing feature of pu-erhs is the fermentation stage, which can take different amounts of time. The microorganisms involved in it significantly change the chemical composition and taste of the tea..</RawPuer.description>
 
-  <RawGreen.label>Green tea</RawGreen.label>
-  <RawGreen.description>Green tea is a drink made from the leaves of the tea camellia. Actually, like black tea. The main difference is that for green tea the fermentation process is minimal, which makes it closer to a living tea leaf. And the more the tea is fermented, the darker its infusion and the brighter its taste.</RawGreen.description>
+ <RawGreen.label>Green tea</RawGreen.label>
+ <RawGreen.description>Green tea is a drink made from the leaves of the tea camellia. Actually, like black tea. The main difference is that for green tea the fermentation process is minimal, which makes it closer to a living tea leaf. And the more the tea is fermented, the darker its infusion and the brighter its taste.</RawGreen.description>
 
-  <CupPuer.label>A cup of Puer</CupPuer.label>
-  <CupPuer.description>A cup of healing drink.</CupPuer.description>
-  <CupPuer.ingestible.ingestCommandString>Drink {0}</CupPuer.ingestible.ingestCommandString>
-  <CupPuer.ingestible.ingestReportString>Drinks {0}.</CupPuer.ingestible.ingestReportString>
+ <CupPuer.label>A cup of Puer</CupPuer.label>
+ <CupPuer.description>A cup of healing drink.</CupPuer.description>
+ <CupPuer.ingestible.ingestCommandString>Drink {0}</CupPuer.ingestible.ingestCommandString>
+ <CupPuer.ingestible.ingestReportString>Drinks {0}.</CupPuer.ingestible.ingestReportString>
 
 
 </LanguageData>
