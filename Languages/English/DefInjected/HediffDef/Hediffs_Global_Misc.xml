@@ -29,5 +29,9 @@
   <Carpet_Bite.description>What was the carpet bite me? No, but it is better to accelerate.</Carpet_Bite.description>
   <Carpet_Bite.labelNoun>Strange bite</Carpet_Bite.labelNoun>
 
+  <BeeBite.label>Bee bite</BeeBite.label>
+  <BeeBite.description>What was the bite me? It is better to accelerate.</BeeBite.description>
+  <BeeBite.labelNoun>Bee bite</BeeBite.labelNoun>
+
 
 </LanguageData>

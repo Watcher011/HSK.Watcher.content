@@ -167,6 +167,14 @@
                 <tooltip>Adding variety to tea products?</tooltip>
             </li>
 			
+			<li Class="XmlExtensions.Setting.Checkbox">
+                <key>AddingAHoneyTree</key>
+                <label>Adding a honey tree?</label>
+				<tKey>AddingAHoneyTree</tKey>
+                <defaultValue>true</defaultValue>
+                <tooltip>Adding a honey tree?</tooltip>
+            </li>
+			
 			 <li Class="XmlExtensions.Setting.GapLine"/>
 			   <li Class="XmlExtensions.Setting.Text">
                 <text>Test functions that may be removed from the build</text>

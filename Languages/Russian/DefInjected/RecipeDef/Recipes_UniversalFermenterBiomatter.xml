@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ExtractBiomatterSeaweed.label>Извлечь биоматерию из водорослей x20</ExtractBiomatterSeaweed.label>
+  <ExtractBiomatterSeaweed.description>Извлечь биоматерию из водорослей, количество получаемой биоматерии зависит от вида водорослей. Процесс занимает 1.5 дня.</ExtractBiomatterSeaweed.description>
+
+
+</LanguageData>

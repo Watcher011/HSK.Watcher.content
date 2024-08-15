@@ -37,7 +37,7 @@
 			<ElectronicComponents>2</ElectronicComponents>
 		</costList>
 		<surfaceType>Item</surfaceType>
-		<fertility>4.1</fertility>
+		<fertility>3.2</fertility>
 		<building>
 			<defaultPlantToGrow>Plant_RawAlgae</defaultPlantToGrow>
 			<sowTag>Aquaponic</sowTag>
@@ -73,7 +73,7 @@
 						<drawFuelGaugeInMap>false</drawFuelGaugeInMap>
 						<fuelLabel>Water</fuelLabel>
 						<fuelCapacity>1.0</fuelCapacity>
-						<fuelConsumptionRate>0.001</fuelConsumptionRate>
+						<fuelConsumptionRate>0.0015</fuelConsumptionRate>
 						<fuelFilter/>
 					</li>
 			<li Class="CompProperties_Flickable" />

@@ -34,6 +34,16 @@
 					</sowTags>
 				</value>
 			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="PlantTomato"]/plant/sowTags</xpath>
+				<value>
+					<sowTags>
+						 <li>Ground</li>
+                         <li>Hydroponic</li>
+						 <li>Aquaponic</li>
+					</sowTags>
+				</value>
+			</li>
 		</operations>
 	</Operation>
 
