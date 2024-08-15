@@ -31,13 +31,13 @@
 		</stuffCategories>
 		<costStuffCount>20</costStuffCount>
 		<costList>
-			<Fertilizer>10</Fertilizer>
-			<ComponentIndustrial>2</ComponentIndustrial>
-			<Glass>3</Glass>
+			<Fertilizer>6</Fertilizer>
+			<ComponentIndustrial>1</ComponentIndustrial>
+			<Glass>8</Glass>
 			<ElectronicComponents>2</ElectronicComponents>
 		</costList>
 		<surfaceType>Item</surfaceType>
-		<fertility>2.1</fertility>
+		<fertility>4.1</fertility>
 		<building>
 			<defaultPlantToGrow>Plant_RawAlgae</defaultPlantToGrow>
 			<sowTag>Aquaponic</sowTag>
@@ -46,7 +46,7 @@
 			</blueprintGraphicData>
 		</building>
 		<placingDraggableDimensions>1</placingDraggableDimensions>
-		<tickerType>Rare</tickerType>
+		<tickerType>Normal</tickerType>
 		<rotatable>false</rotatable>
 		<neverMultiSelect>true</neverMultiSelect>
 		<comps>
@@ -64,15 +64,32 @@
 				<glowRadius>2</glowRadius>
 				<glowColor>(370,370,370,0)</glowColor>
 			</li>
+			<li Class="DubsBadHygiene.CompProperties_Pipe">
+						<mode>Sewage</mode>
+					</li>
+					<li Class="CompProperties_Refuelable">
+						<consumeFuelOnlyWhenPowered>true</consumeFuelOnlyWhenPowered>
+						<drawOutOfFuelOverlay>false</drawOutOfFuelOverlay>
+						<drawFuelGaugeInMap>false</drawFuelGaugeInMap>
+						<fuelLabel>Water</fuelLabel>
+						<fuelCapacity>1.0</fuelCapacity>
+						<fuelConsumptionRate>0.001</fuelConsumptionRate>
+						<fuelFilter/>
+					</li>
 			<li Class="CompProperties_Flickable" />
 		</comps>
+		 <modExtensions>
+            <li Class="SK.Events.EarthquakeExtension">
+                <immunityToDamage>true</immunityToDamage>
+            </li>
+        </modExtensions>
 		<researchPrerequisites>
 			<li>Cultivation_C3</li>
 		</researchPrerequisites>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<designationCategory>Production</designationCategory>
 		<staticSunShadowHeight>0.03</staticSunShadowHeight>
-		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
 	</ThingDef>
 	
 

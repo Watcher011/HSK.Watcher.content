@@ -65,4 +65,7 @@
   <Make_GreenTea_x5.label>Высушить зелёный чай x5</Make_GreenTea_x5.label>
   <Make_GreenTea_x5.description>Зеленый чай — это напиток из листьев чайной камелии. Собственно, как и черный чай. Основное их различие в том, что для зеленого чая процесс ферментации минимален, отчего он становится ближе к живому чайному листу. И чем сильнее чай ферментирован, тем темнее его настой и ярче вкус.</Make_GreenTea_x5.description>
 
+
+<ExtractBiomatterSeaweed.label>Извлечь биоматерию из водорослей x20</ExtractBiomatterSeaweed.label>
+  <ExtractBiomatterSeaweed.description>Извлечь биоматерию из водорослей, количество получаемой биоматерии зависит от вида водорослей. Процесс занимает 1.5 дня.</ExtractBiomatterSeaweed.description>
 </LanguageData>

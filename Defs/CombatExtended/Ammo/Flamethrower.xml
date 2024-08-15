@@ -35,15 +35,6 @@
 			<MarketValue>10.7</MarketValue>
 		</statBases>
 		<ammoClass>HellF</ammoClass>
-		<comps>
-			<li Class="CombatExtended.CompProperties_ExplosiveCE">
-				<damageAmountBase>15</damageAmountBase>
-				<explosiveDamageType>PrometheumFlame</explosiveDamageType>
-				<explosiveRadius>1.2</explosiveRadius>
-				<preExplosionSpawnThingDef>Tearsofthesun</preExplosionSpawnThingDef>
-				<preExplosionSpawnChance>1</preExplosionSpawnChance>
-			</li>
-		</comps>
 	</ThingDef>
 
 	<!-- ================== Projectiles ================== -->
@@ -57,7 +48,7 @@
 			<shaderType>TransparentPostLight</shaderType>
 		</graphicData>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
-			<speed>30</speed>
+			<speed>10</speed>
 			<flyOverhead>false</flyOverhead>
 		</projectile>
 		<comps>
@@ -93,15 +84,21 @@
 			<explosionRadius>1</explosionRadius>
 			<ai_IsIncendiary>true</ai_IsIncendiary>
 			<pelletCount>10</pelletCount>
-			<spreadMult>30</spreadMult>
+			<spreadMult>60</spreadMult>
 			<screenShakeFactor>0</screenShakeFactor>
 			<bulletChanceToStartFire>1</bulletChanceToStartFire>
 		</projectile>
 		<comps>
 			<li Class="CombatExtended.CompProperties_Fragments">
 				<fragments>
-					<Napalm_Fuel>5</Napalm_Fuel>
+					<Napalm_Fuel>1</Napalm_Fuel>
 				</fragments>
+			</li>
+			<li Class="CombatExtended.CompProperties_ExplosiveCE">
+				<damageAmountBase>15</damageAmountBase>
+				<explosiveDamageType>PrometheumFlame</explosiveDamageType>
+				<preExplosionSpawnThingDef>Tearsofthesun</preExplosionSpawnThingDef>
+				<preExplosionSpawnChance>0.6</preExplosionSpawnChance>
 			</li>
 		</comps>
 	</ThingDef>
