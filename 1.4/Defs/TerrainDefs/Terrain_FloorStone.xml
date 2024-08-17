@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	
+
+	<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneStaggeredNefrBrick</defName>
+		<label>Нефритовая плитка</label>
+		 <color>(85,118,69)</color>
+		<renderPrecedence>270</renderPrecedence>
+		<description>Каменный пол из аккуратных квадратных плит нефрита
+Beauty: 8.</description>
+		<texturePath>Terrain/Surfaces/SpikecoreTile</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B4</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>820</WorkToBuild>
+			<Beauty>8</Beauty>
+		</statBases>
+		<costList>
+			<Jade>4</Jade>
+		</costList>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+<!--
+
+<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneStaggeredTESTBrick</defName>
+		<label>TEST плитка</label>
+		<renderPrecedence>270</renderPrecedence>
+		<description>Каменный пол из аккуратных квадратных плит нефрита
+Beauty: 8.</description>
+		<texturePath>Things/FlorTest</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B4</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>820</WorkToBuild>
+			<Beauty>8</Beauty>
+		</statBases>
+		<costList>
+			<Jade>4</Jade>
+		</costList>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+
+<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneStaggeredTEST2Brick</defName>
+		<label>TEST 2 плитка</label>
+		<renderPrecedence>270</renderPrecedence>
+		<description>Каменный пол из аккуратных квадратных плит нефрита
+Beauty: 8.</description>
+		<texturePath>Things/FlorTest2</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B4</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>820</WorkToBuild>
+			<Beauty>8</Beauty>
+		</statBases>
+		<costList>
+			<Jade>4</Jade>
+		</costList>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneStaggeredTEST3Brick</defName>
+		<label>TEST 3 плитка</label>
+		<renderPrecedence>270</renderPrecedence>
+		<description>Каменный пол из аккуратных квадратных плит нефрита
+Beauty: 8.</description>
+		<texturePath>Things/FlorTest3</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B4</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>820</WorkToBuild>
+			<Beauty>8</Beauty>
+		</statBases>
+		<costList>
+			<Jade>4</Jade>
+		</costList>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+
+<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneStaggeredTEST4Brick</defName>
+		<label>TEST 4 плитка</label>
+		<renderPrecedence>270</renderPrecedence>
+		<description>Каменный пол из аккуратных квадратных плит нефрита
+Beauty: 8.</description>
+		<texturePath>Things/FlorTest4</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B4</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>820</WorkToBuild>
+			<Beauty>8</Beauty>
+		</statBases>
+		<costList>
+			<Jade>4</Jade>
+		</costList>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+
+-->
+<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneMosaicNEF</defName>
+		<label>Нефритовая мозайка</label>
+		 <color>(85,118,69)</color>
+		<renderPrecedence>268</renderPrecedence>
+		<description>Каменный пол из аккуратной мозаики из нефрита 
+Beauty: 7.</description>
+		<texturePath>Terrain/Surfaces/StoneMosaic</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B4</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>760</WorkToBuild>
+			<Beauty>7</Beauty>
+		</statBases>
+		<costList>
+			<Jade>4</Jade>
+		</costList>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+	
+	
+		<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneMosaicNEFt</defName>
+		<label>Нефритовые пластины</label>
+		 <color>(85,118,69)</color>
+		<renderPrecedence>268</renderPrecedence>
+		<description>Каменный пол  из нефрита 
+Beauty: 9.</description>
+		<texturePath>Things/jadarTile</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B4</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>960</WorkToBuild>
+			<Beauty>9</Beauty>
+			 <StyleDominance>1</StyleDominance>
+		</statBases>
+		<tags>
+      <li>FineFloor</li>
+       </tags>
+		<costList>
+			<Jade>8</Jade>
+		</costList>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+	
+	
+	
+	
+		<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorAmber</defName>
+		<label>Янтарные пластины</label>
+		 <color>(255,171,0)</color>
+		<renderPrecedence>268</renderPrecedence>
+		<description>Каменный пол  из янтаря 
+Beauty: 8.</description>
+		<texturePath>Things/AmberFlor</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B4</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>1060</WorkToBuild>
+			<Beauty>8</Beauty>
+			 <StyleDominance>1</StyleDominance>
+		</statBases>
+		<tags>
+      <li>FineFloor</li>
+       </tags>
+		<costList>
+			<Amber>8</Amber>
+		</costList>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+	
+</Defs>

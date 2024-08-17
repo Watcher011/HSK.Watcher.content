@@ -1,0 +1,783 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<RecipeDef Name="Make_DriedMushroomsBase" Abstract="True">
+		<fixedIngredientFilter>
+			<categories>
+				<li>FungusPlantRaw</li>
+			</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>DryingRack</li>
+		</recipeUsers>
+
+		<!-- RecipeDef_UF fields -->
+		<temperatureSafe>
+			<min>5</min>
+			<max>80</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>18</min>
+			<max>50</max>
+		</temperatureIdeal>
+		<processDays>2</processDays>
+		<speedBelowSafe>0.05</speedBelowSafe>
+		<speedAboveSafe>0.8</speedAboveSafe>
+		<sunFactor>
+			<min>0.75</min>
+			<max>1.2</max>
+		</sunFactor>
+		<rainFactor>
+			<min>1</min>
+			<max>0</max>
+		</rainFactor>
+		<snowFactor>
+			<min>1</min>
+			<max>0</max>
+		</snowFactor>
+		<windFactor>
+			<min>1</min>
+			<max>1.2</max>
+		</windFactor>
+	</RecipeDef>
+	<RecipeDef ParentName="Make_DriedMushroomsBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_DriedMushrooms</defName>
+		<label>высушить грибы</label>
+		<description>Высушить свежие грибы. Процесс занимает 2 дня.</description>
+		<ingredients>
+		<li>
+				<filter>
+					<categories>
+						<li>FungusPlantRaw</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<products>
+			<DruFungus>5</DruFungus>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_DriedMushroomsBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_DriedMushrooms_x5</defName>
+		<label>высушить грибы x5</label>
+		<description>Высушить свежие грибы. Процесс занимает 2 дня.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>FungusPlantRaw</li>
+					</categories>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<products>
+			<DruFungus>25</DruFungus>
+		</products>
+
+		<!-- RecipeDef_UF fields -->
+		<slotsRequired>5</slotsRequired>
+	</RecipeDef>
+
+
+
+<RecipeDef Name="Make_FishBase" Abstract="True">
+		<recipeUsers>
+			<li>JerkyRack</li>
+		</recipeUsers>
+
+		<!-- RecipeDef_UF fields -->
+		<temperatureSafe>
+			<min>12</min>
+			<max>80</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>23</min>
+			<max>50</max>
+		</temperatureIdeal>
+		<processDays>2</processDays>
+		<speedBelowSafe>0.05</speedBelowSafe>
+		<speedAboveSafe>0.8</speedAboveSafe>
+		<sunFactor>
+			<min>0.75</min>
+			<max>1.2</max>
+		</sunFactor>
+		<rainFactor>
+			<min>1</min>
+			<max>0</max>
+		</rainFactor>
+		<snowFactor>
+			<min>1</min>
+			<max>0</max>
+		</snowFactor>
+		<windFactor>
+			<min>1</min>
+			<max>1.2</max>
+		</windFactor>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_FishBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_DriedFish</defName>
+		<label>высушить рыбу</label>
+		<description>Высушить рыбу. Процесс занимает 2 дня.</description>
+		 <ingredients>
+      <li>
+        <filter>
+		  <thingDefs>
+			<li>Corpse_ThingDefFishSduiggles</li>
+			<li>Corpse_ThingDefFishSeasnake</li>
+			<li>Corpse_ThingDefFishMashgon</li>
+			<li>Corpse_ThingDefFishBlueblade</li>
+			<li>Corpse_ThingDefFishTailteeth</li>
+			<li>Corpse_ThingDefCuda</li>
+			<li>Corpse_ThingDefIceFlounder</li>
+			<li>Corpse_ThingDefFishSterlingPerch</li>
+			<li>Corpse_ThingDefFishPinstripeBass</li>
+		  </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+	   <li>
+        <filter>
+		  <thingDefs>
+			<li>Salt</li>
+		  </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+		<products>
+			<DruFish>3</DruFish>
+		</products>
+		  <fixedIngredientFilter>
+      <thingDefs>
+        <li>Corpse_ThingDefFishSduiggles</li>
+		<li>Corpse_ThingDefFishSeasnake</li>
+		<li>Corpse_ThingDefFishMashgon</li>
+		<li>Corpse_ThingDefFishBlueblade</li>
+        <li>Corpse_ThingDefFishTailteeth</li>
+		<li>Corpse_ThingDefCuda</li>
+		<li>Corpse_ThingDefIceFlounder</li>
+		<li>Corpse_ThingDefFishSterlingPerch</li>
+		<li>Corpse_ThingDefFishPinstripeBass</li>
+		<li>Salt</li>
+      </thingDefs>
+      <specialFiltersToDisallow>
+        <li>AllowRotten</li>
+      </specialFiltersToDisallow>
+    </fixedIngredientFilter>
+	</RecipeDef>
+
+
+
+
+<RecipeDef Name="Make_chipsBase" Abstract="True">
+		<recipeUsers>
+			<li>DryingRack</li>
+		</recipeUsers>
+
+		<!-- RecipeDef_UF fields -->
+		<temperatureSafe>
+			<min>12</min>
+			<max>80</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>23</min>
+			<max>50</max>
+		</temperatureIdeal>
+		<processDays>3</processDays>
+		<speedBelowSafe>0.05</speedBelowSafe>
+		<speedAboveSafe>0.8</speedAboveSafe>
+		<sunFactor>
+			<min>0.75</min>
+			<max>1.2</max>
+		</sunFactor>
+		<rainFactor>
+			<min>1</min>
+			<max>0</max>
+		</rainFactor>
+		<snowFactor>
+			<min>1</min>
+			<max>0</max>
+		</snowFactor>
+		<windFactor>
+			<min>1</min>
+			<max>1.2</max>
+		</windFactor>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_chipsBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_Driedchips</defName>
+		<label>высушить чипсы</label>
+		<description>Высушить чипсы. Процесс занимает 3 дня.</description>
+		 <ingredients>
+      <li>
+        <filter>
+		  <thingDefs>
+			<li>RawPotatoes</li>
+		  </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+	   <li>
+        <filter>
+		  <thingDefs>
+			<li>Salt</li>
+		  </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+		<products>
+			<Druchips>3</Druchips>
+		</products>
+		  <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawPotatoes</li>
+		<li>Salt</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+	</RecipeDef>
+
+
+
+
+
+
+	<RecipeDef Name="Make_icecreamBase" Abstract="True">
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Milk</li>
+				<li>SoyMilk</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>icecreamBasin</li>
+		</recipeUsers>
+		
+		<!-- RecipeDef_UF fields -->
+		<temperatureSafe>
+			<min>-30</min>
+			<max>30</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>-25</min>
+			<max>20</max>
+		</temperatureIdeal>
+		<processDays>2</processDays>
+		<speedBelowSafe>0.05</speedBelowSafe>
+		<speedAboveSafe>0.5</speedAboveSafe>
+		<sunFactor>
+			<min>1</min>
+			<max>1</max>
+		</sunFactor>
+		<rainFactor>
+			<min>1</min>
+			<max>1</max>
+		</rainFactor>
+		<snowFactor>
+			<min>1</min>
+			<max>1</max>
+		</snowFactor>
+		<windFactor>
+			<min>1</min>
+			<max>1</max>
+		</windFactor>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_icecreamBase" Class="UniversalFermenterSK.RecipeDef_UF">
+	
+		<defName>Make_icecream</defName>
+		<label>Создать простое мороженое</label>
+		<description>Создать мороженое такое как в детстве</description>
+		<ingredients>
+			<li>
+				<filter>
+				  <thingDefs>
+               <li>Milk</li>
+               </thingDefs>
+				</filter>
+				<count>9</count>
+			</li>
+		</ingredients>
+		<products>
+			<IceCream>3</IceCream>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_DriedMushroomsBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_DriedNori</defName>
+		<label>высушить водоросли</label>
+		<description>Высушить свежие водоросли. Процесс занимает 2 дня.</description>
+		<ingredients>
+		<li>
+				<filter>
+					 <thingDefs>
+						<li>RawAlgae</li>
+					 </thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<products>
+			<Nori>5</Nori>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_DriedMushroomsBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_DriedNori_x5</defName>
+		<label>высушить водоросли x5</label>
+		<description>Высушить свежие водоросли. Процесс занимает 2 дня.</description>
+		<ingredients>
+			<li>
+				<filter>
+					 <thingDefs>
+						<li>RawAlgae</li>
+					 </thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<products>
+			<Nori>13</Nori>
+		</products>
+
+		<!-- RecipeDef_UF fields -->
+		<slotsRequired>5</slotsRequired>
+	</RecipeDef>
+
+
+
+<RecipeDef ParentName="GlitterpediaModExtBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_Ethanol</defName>
+		<label>Сделать брагу</label>
+		<description>Произвести примитивный продукт с низким содержанием Этанола. Займёт 2х дней</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawBerries</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<products>
+			<DirtyEthanol>10</DirtyEthanol>
+		</products>
+		<recipeUsers>
+			<li>UniversalFermenter</li>
+		</recipeUsers>
+
+		<!-- RecipeDef_UF fields -->
+		<usesTemperature>true</usesTemperature>
+		<temperatureSafe>-1.0~32.0</temperatureSafe>
+		<temperatureIdeal>7.0~32.0</temperatureIdeal>
+		<ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour>
+		<!-- percent per degree per hour -->
+		<speedBelowSafe>0.1</speedBelowSafe>
+		<speedAboveSafe>1.0</speedAboveSafe>
+		<processDays>2</processDays>
+		<!-- in days, 60000 ticks is a day -->
+		<sunFactor>1.0~1.0</sunFactor>
+		<rainFactor>1.0~1.0</rainFactor>
+		<snowFactor>1.0~1.0</snowFactor>
+		<windFactor>1.0~1.0</windFactor>
+		<qualityDays>(4, 5, 6, 7, 8, 9, 10)</qualityDays>
+		<graphicSuffix/>
+	</RecipeDef>
+	
+	
+	
+	
+	
+<RecipeDef Name="Make_DriedMushroomsindustrialBase" Abstract="True">
+		<fixedIngredientFilter>
+			<categories>
+				<li>FungusPlantRaw</li>
+			</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>industrialDryingRack</li>
+		</recipeUsers>
+
+		<!-- RecipeDef_UF fields -->
+		<temperatureSafe>
+			<min>-50</min>
+			<max>80</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>-10</min>
+			<max>50</max>
+		</temperatureIdeal>
+		<processDays>1.5</processDays>
+		<speedBelowSafe>0.05</speedBelowSafe>
+		<speedAboveSafe>0.8</speedAboveSafe>
+		<sunFactor>
+			<min>1.1</min>
+			<max>1.2</max>
+		</sunFactor>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_DriedMushroomsindustrialBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_DriedMushrooms5x</defName>
+		<label>Высушить грибы х5</label>
+		<description>Высушить свежие грибы. Процесс занимает 1.5 дня.</description>
+		<ingredients>
+		<li>
+				<filter>
+					<categories>
+						<li>FungusPlantRaw</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<products>
+			<DruFungus>5</DruFungus>
+		</products>
+		<graphicSuffix>_Mushrooms</graphicSuffix>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_DriedMushroomsindustrialBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_DriedMushrooms10x</defName>
+		<label>Высушить грибы х10</label>
+		<description>Высушить свежие грибы. Процесс занимает 1.5 дня.</description>
+		<ingredients>
+		<li>
+				<filter>
+					<categories>
+						<li>FungusPlantRaw</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<products>
+			<DruFungus>10</DruFungus>
+		</products>
+		<graphicSuffix>_Mushrooms</graphicSuffix>
+	</RecipeDef>
+
+
+
+<RecipeDef Name="Make_FishindustrialBase" Abstract="True">
+		<recipeUsers>
+			<li>industrialDryingRack</li>
+		</recipeUsers>
+
+		<!-- RecipeDef_UF fields -->
+		<temperatureSafe>
+			<min>-50</min>
+			<max>80</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>-10</min>
+			<max>50</max>
+		</temperatureIdeal>
+		<processDays>1.5</processDays>
+		<speedBelowSafe>0.05</speedBelowSafe>
+		<speedAboveSafe>0.8</speedAboveSafe>
+		<sunFactor>
+			<min>1.1</min>
+			<max>1.2</max>
+		</sunFactor>
+	</RecipeDef>
+	
+
+<RecipeDef ParentName="Make_FishindustrialBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_DriedFish5x</defName>
+		<label>Высушить рыбу х3</label>
+		<description>Высушить рыбу. Процесс занимает 2 дня.</description>
+		 <ingredients>
+      <li>
+        <filter>
+		  <thingDefs>
+			<li>Corpse_ThingDefFishSduiggles</li>
+			<li>Corpse_ThingDefFishSeasnake</li>
+			<li>Corpse_ThingDefFishMashgon</li>
+			<li>Corpse_ThingDefFishBlueblade</li>
+			<li>Corpse_ThingDefFishTailteeth</li>
+			<li>Corpse_ThingDefCuda</li>
+			<li>Corpse_ThingDefIceFlounder</li>
+			<li>Corpse_ThingDefFishSterlingPerch</li>
+			<li>Corpse_ThingDefFishPinstripeBass</li>
+		  </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+	   <li>
+        <filter>
+		  <thingDefs>
+			<li>Salt</li>
+		  </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+		<products>
+			<DruFish>3</DruFish>
+		</products>
+		  <fixedIngredientFilter>
+      <thingDefs>
+        <li>Corpse_ThingDefFishSduiggles</li>
+		<li>Corpse_ThingDefFishSeasnake</li>
+		<li>Corpse_ThingDefFishMashgon</li>
+		<li>Corpse_ThingDefFishBlueblade</li>
+        <li>Corpse_ThingDefFishTailteeth</li>
+		<li>Corpse_ThingDefCuda</li>
+		<li>Corpse_ThingDefIceFlounder</li>
+		<li>Corpse_ThingDefFishSterlingPerch</li>
+		<li>Corpse_ThingDefFishPinstripeBass</li>
+		<li>Salt</li>
+      </thingDefs>
+      <specialFiltersToDisallow>
+        <li>AllowRotten</li>
+      </specialFiltersToDisallow>
+    </fixedIngredientFilter>
+	<graphicSuffix>_Fish</graphicSuffix>
+	</RecipeDef>
+
+<RecipeDef ParentName="Make_FishindustrialBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_DriedFish10x</defName>
+		<label>Высушить рыбу х9</label>
+		<description>Высушить рыбу. Процесс занимает 2 дня.</description>
+		 <ingredients>
+      <li>
+        <filter>
+		  <thingDefs>
+			<li>Corpse_ThingDefFishSduiggles</li>
+			<li>Corpse_ThingDefFishSeasnake</li>
+			<li>Corpse_ThingDefFishMashgon</li>
+			<li>Corpse_ThingDefFishBlueblade</li>
+			<li>Corpse_ThingDefFishTailteeth</li>
+			<li>Corpse_ThingDefCuda</li>
+			<li>Corpse_ThingDefIceFlounder</li>
+			<li>Corpse_ThingDefFishSterlingPerch</li>
+			<li>Corpse_ThingDefFishPinstripeBass</li>
+		  </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+	   <li>
+        <filter>
+		  <thingDefs>
+			<li>Salt</li>
+		  </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+    </ingredients>
+		<products>
+			<DruFish>9</DruFish>
+		</products>
+		  <fixedIngredientFilter>
+      <thingDefs>
+        <li>Corpse_ThingDefFishSduiggles</li>
+		<li>Corpse_ThingDefFishSeasnake</li>
+		<li>Corpse_ThingDefFishMashgon</li>
+		<li>Corpse_ThingDefFishBlueblade</li>
+        <li>Corpse_ThingDefFishTailteeth</li>
+		<li>Corpse_ThingDefCuda</li>
+		<li>Corpse_ThingDefIceFlounder</li>
+		<li>Corpse_ThingDefFishSterlingPerch</li>
+		<li>Corpse_ThingDefFishPinstripeBass</li>
+		<li>Salt</li>
+      </thingDefs>
+      <specialFiltersToDisallow>
+        <li>AllowRotten</li>
+      </specialFiltersToDisallow>
+    </fixedIngredientFilter>
+	<graphicSuffix>_Fish</graphicSuffix>
+	</RecipeDef>
+	
+	
+	
+	<RecipeDef ParentName="Make_DriedMushroomsindustrialBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_DriedNori_x05</defName>
+		<label>высушить водоросли x5</label>
+		<description>Высушить свежие водоросли. Процесс занимает 2 дня.</description>
+		<ingredients>
+			<li>
+				<filter>
+					 <thingDefs>
+						<li>RawAlgae</li>
+					 </thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<products>
+			<Nori>13</Nori>
+		</products>
+       <graphicSuffix>_Nori</graphicSuffix>
+		<!-- RecipeDef_UF fields -->
+		<slotsRequired>5</slotsRequired>
+	</RecipeDef>
+	
+	
+	<RecipeDef ParentName="Make_DriedMushroomsindustrialBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_DriedNori_x10</defName>
+		<label>высушить водоросли x10</label>
+		<description>Высушить свежие водоросли. Процесс занимает 2 дня.</description>
+		<ingredients>
+			<li>
+				<filter>
+					 <thingDefs>
+						<li>RawAlgae</li>
+					 </thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<products>
+			<Nori>26</Nori>
+		</products>
+       <graphicSuffix>_Nori</graphicSuffix>
+		<!-- RecipeDef_UF fields -->
+		<slotsRequired>26</slotsRequired>
+	</RecipeDef>
+	
+	
+	<RecipeDef ParentName="GlitterpediaModExtBase" Name="Make_JerkyindustrialBase" Abstract="True">
+		<fixedIngredientFilter>
+			<categories>
+				<li>MeatRaw</li>
+			</categories>
+			<disallowedThingDefs>
+				<li>SaltedMeat</li>
+				<li>Tofu</li>
+				<li>soylentgreen</li>
+			</disallowedThingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>industrialDryingRack</li>
+		</recipeUsers>
+
+		<!-- RecipeDef_UF fields -->
+		<temperatureSafe>
+			<min>-50</min>
+			<max>80</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>-10</min>
+			<max>50</max>
+		</temperatureIdeal>
+		<processDays>1.5</processDays>
+		<speedBelowSafe>0.6</speedBelowSafe>
+		<speedAboveSafe>1</speedAboveSafe>
+		
+	</RecipeDef>
+	
+		<RecipeDef ParentName="Make_JerkyindustrialBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_Jerkyx10</defName>
+		<label>make jerky x10</label>
+		<description>Make jerky meat. Takes 2 days to make</description>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<products>
+			<MealJerky>10</MealJerky>
+		</products>
+		  <graphicSuffix>_Meat</graphicSuffix>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_JerkyindustrialBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_Jerkyx30</defName>
+		<label>make jerky x30</label>
+		<description>Make jerky meat. Takes 2 days to make</description>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+					</categories>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+		<products>
+			<MealJerky>30</MealJerky>
+		</products>
+		 <graphicSuffix>_Meat</graphicSuffix>
+	</RecipeDef>
+	
+	
+	<RecipeDef ParentName="GlitterpediaModExtBase" Name="Make_DriedFruitindustrialBase" Abstract="True">
+		<fixedIngredientFilter>
+			<categories>
+				<li>FruitFoodRaw</li>
+			</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+				<li>industrialDryingRack</li>
+		</recipeUsers>
+
+		<!-- RecipeDef_UF fields -->
+		<temperatureSafe>
+			<min>-50</min>
+			<max>80</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>-10</min>
+			<max>50</max>
+		</temperatureIdeal>
+		<processDays>1.5</processDays>
+		<speedBelowSafe>0.6</speedBelowSafe>
+		<speedAboveSafe>1</speedAboveSafe>
+	</RecipeDef>
+	
+	
+	
+	<RecipeDef ParentName="Make_DriedFruitindustrialBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_DriedFruit_x05</defName>
+		<label>make dried fruit x5</label>
+		<description>Make dried fruit x5. Takes 2 days to make</description>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>FruitFoodRaw</li>
+					</categories>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<products>
+			<driedfruit>25</driedfruit>
+		</products>
+      <graphicSuffix>_Fruit</graphicSuffix>
+		<!-- RecipeDef_UF fields -->
+		<slotsRequired>5</slotsRequired>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_DriedFruitindustrialBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_DriedFruit_x10</defName>
+		<label>make dried fruit x10</label>
+		<description>Make dried fruit x5. Takes 2 days to make</description>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>FruitFoodRaw</li>
+					</categories>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<products>
+			<driedfruit>50</driedfruit>
+		</products>
+      <graphicSuffix>_Fruit</graphicSuffix>
+		<!-- RecipeDef_UF fields -->
+		<slotsRequired>10</slotsRequired>
+	</RecipeDef>
+</Defs>

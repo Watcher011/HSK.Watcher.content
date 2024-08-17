@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Abstract="True" Name="SK_LeatherBase" ParentName="SK_ResourceBase">
+		<description>Tanned, dried, scraped skin. A good traditional material for making clothes and bags.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Leather</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Mass>0.03</Mass>
+			<Flammability>1</Flammability>
+			<MarketValue>2.1</MarketValue>
+			<StuffPower_Armor_Sharp>0.81</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.24</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.15</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>16</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>16</StuffPower_Insulation_Heat>
+		</statBases>
+		<thingCategories>
+			<li>Leathers</li>
+		</thingCategories>
+		<stuffProps>
+			<categories>
+				<li>Leathery</li>
+			</categories>
+			<commonality>0.025</commonality>
+			<statFactors>
+				<MaxHitPoints>1.3</MaxHitPoints>
+			</statFactors>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+		</stuffProps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+	</ThingDef>
+
+
+	<!--========== Super leathers ============-->
+
+	<ThingDef ParentName="SK_LeatherBase">
+		<defName>Leather_Thrumbo</defName>
+		<label>magic fur</label>
+		<description>Luxurious and extraordinarily durable. Used for the highest-quality crafts for its insulation and strength.</description>
+		<graphicData>
+			<color>(223,203,231)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>8</MarketValue>
+			<StuffPower_Armor_Sharp>1.4</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>1.3</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.145</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>18</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>9</StuffPower_Insulation_Heat>
+			<Mass>0.01</Mass>
+			<Bulk>0.01</Bulk>
+		</statBases>
+		<stuffProps>
+			<color>(223,203,231)</color>
+			<commonality>0.0075</commonality>
+			<statFactors>
+				<MaxHitPoints>2</MaxHitPoints>
+				<Beauty>6</Beauty>
+				<MoveSpeed>1</MoveSpeed>
+				<MarketValue>0.8</MarketValue>
+				<WorkToMake>1.9</WorkToMake>
+				<WorkToBuild>1.9</WorkToBuild>
+				<BedRestEffectiveness>0.8</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.24</ImmunityGainSpeedFactor>
+				<Mass>0.5</Mass>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+	
+
+	<ThingDef ParentName="SK_LeatherBase">
+		<defName>Leather_GRenLeather</defName>
+		<label>Green Wyvern Scale</label>
+		<description>Scales from a green wyvern, extremely strong in appearance.</description>
+		<graphicData>
+			<color>(82,109,99)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>5</MarketValue>
+			<StuffPower_Armor_Sharp>1.35</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>1.85</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.142</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>18</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>8</StuffPower_Insulation_Heat>
+			<Mass>0.01</Mass>
+			<Bulk>0.01</Bulk>
+		</statBases>
+		<stuffProps>
+			<color>(82,109,99)</color>
+			<commonality>0.0075</commonality>
+			<statFactors>
+				<MaxHitPoints>3</MaxHitPoints>
+				<Beauty>6</Beauty>
+				<MoveSpeed>1</MoveSpeed>
+				<MarketValue>0.8</MarketValue>
+				<WorkToMake>1.8</WorkToMake>
+				<WorkToBuild>1.8</WorkToBuild>
+				<BedRestEffectiveness>1.05</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.17</ImmunityGainSpeedFactor>
+				<Mass>0.5</Mass>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="SK_LeatherBase">
+		<defName>Leather_BarghestFur</defName>
+		<label>barghest fur pelt</label>
+		<description>Luxurious and extraordinarily durable. Used for the highest-quality crafts for its insulation and strength.</description>
+		<graphicData>
+			<color>(61,68,76)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>14</MarketValue>
+			<StuffPower_Armor_Sharp>1.35</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>1.3</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.075</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>31</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>-10</StuffPower_Insulation_Heat>
+			<Mass>0.01</Mass>
+			<Bulk>0.01</Bulk>
+		</statBases>
+		<stuffProps>
+			<color>(61,68,76)</color>
+			<commonality>0.0075</commonality>
+			<statFactors>
+				<MaxHitPoints>2</MaxHitPoints>
+				<Beauty>5</Beauty>
+				<MoveSpeed>1</MoveSpeed>
+				<MarketValue>0.8</MarketValue>
+				<WorkToMake>1.7</WorkToMake>
+				<WorkToBuild>1.7</WorkToBuild>
+				<BedRestEffectiveness>1.2</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.12</ImmunityGainSpeedFactor>
+				<Mass>0.5</Mass>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+
+<ThingDef ParentName="SK_LeatherBase">
+		<defName>Leather_Behir</defName>
+		<label>Behir skin</label>
+		<description>Skin of an Ancient Monster.</description>
+		<graphicData>
+			<color>(139,0,255)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>14</MarketValue>
+			<StuffPower_Armor_Sharp>1.35</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>1.3</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.075</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>31</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>-10</StuffPower_Insulation_Heat>
+			<Mass>0.01</Mass>
+			<Bulk>0.01</Bulk>
+		</statBases>
+		<stuffProps>
+			<color>(139,0,255)</color>
+			<commonality>0.0075</commonality>
+			<statFactors>
+				<MaxHitPoints>2</MaxHitPoints>
+				<Beauty>7</Beauty>
+				<MoveSpeed>1</MoveSpeed>
+				<MarketValue>0.8</MarketValue>
+				<WorkToMake>1.7</WorkToMake>
+				<WorkToBuild>0.9</WorkToBuild>
+				<BedRestEffectiveness>1.3</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.12</ImmunityGainSpeedFactor>
+				<Mass>0.5</Mass>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	
+</Defs>

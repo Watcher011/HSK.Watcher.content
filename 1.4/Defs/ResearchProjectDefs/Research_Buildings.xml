@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ResearchProjectDef ParentName="MedievalBase">
+        <defName>TheHybridization</defName>
+        <label>Hybridization</label>
+        <description>Igniting the heart of darkness to create light.</description>
+        <baseCost>1800</baseCost>
+		<techLevel>Medieval</techLevel>
+        <researchViewX>6.00</researchViewX>
+        <researchViewY>66.00</researchViewY>
+        <tab>Medicine_SK</tab>
+		<prerequisites>
+			<li>Prosthetics</li>
+			<li>Prosthesis_making_B1</li>
+		</prerequisites>
+    </ResearchProjectDef>
+    
+</Defs>

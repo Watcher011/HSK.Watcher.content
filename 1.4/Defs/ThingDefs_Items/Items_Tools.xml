@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="BaseTool">
+		<defName>TFJ_Tool_Carr</defName>
+		<label>Тележка</label>
+		<description>Ручная тележка — приспособление для ручной перевозки грузов. Состоит из колёс (их количество зависит от модификации и назначения тележки), рамы в разных вариантах и ручек для удобного хвата.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/cart</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<statBases>
+			<WorkToMake>4000</WorkToMake>
+			<Mass>9.5</Mass>
+			<Bulk>3.5</Bulk>
+			<MeleeCounterParryBonus>0.06</MeleeCounterParryBonus>
+		</statBases>
+		<weaponTags>
+			<li>Broom</li>
+		</weaponTags>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<!--<id>shaftblunt</id>-->
+				<label>shaft</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1.35</cooldownTime>
+				<chanceFactor>0.25</chanceFactor>
+				<armorPenetrationBlunt>3</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Shaft</linkedBodyPartsGroup>
+			</li>
+		</tools>
+		<equippedStatOffsets>
+		    <CarryWeight>125</CarryWeight>
+			<CarryBulk>90</CarryBulk>
+			<MoveSpeed>-0.25</MoveSpeed>
+			<WorkSpeedGlobal>-0.4</WorkSpeedGlobal>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>SurvivalToolsNeolithic</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>CraftingSpot</li>
+				<li>ElectricSmithy</li>
+				<li>FueledSmithy</li>
+			</recipeUsers>
+			<researchPrerequisite>Craft_0</researchPrerequisite>
+		</recipeMaker>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>35</costStuffCount>
+		<costList>
+			<ComponentMedieval>2</ComponentMedieval>
+		</costList>
+	</ThingDef>
+</Defs>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<RecipeDef ParentName="GlitterpediaModExtBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>ExtractBiomatterSeaweed</defName>
+		<label>extract biomatter from Seaweed</label>
+		<description>Extracts BioMatter from a Seaweed. Takes 1.5 days to make</description>
+		<ingredients>
+			<li>
+				<filter>
+						<thingDefs>
+						<li>RawAlgae</li>
+					   </thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<products>
+			<Biomatter>20</Biomatter>
+		</products>
+		<recipeUsers>
+			<li>TableOrganvat</li>
+		</recipeUsers>
+		<ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>1</ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>
+		<usesTemperature>false</usesTemperature>
+		<scaleToMeatAmount>true</scaleToMeatAmount>
+		<scaleToMeatAmountBase>127</scaleToMeatAmountBase>
+		<processDays>1.5</processDays>
+		</RecipeDef>
+
+</Defs>

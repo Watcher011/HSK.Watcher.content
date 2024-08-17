@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef>
+    <defName>Make_EthanolFromAlcohol</defName>
+    <label>Дистилляция спирта из алкогольных напитков</label>
+    <description>Дистилляция - это процесс в ходе, которого летучие компоненты (пары) испаряются из перебродившей смеси и конденсируются, превращаясь в спирт.</description>
+    <jobString>перегонка</jobString>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>2500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Alcohol</li>
+          </categories>
+		    <disallowedThingDefs>
+          <li>cider_Crate</li>
+		  <li>rum_Crate</li>
+		  <li>Wine_Crate</li>
+		  <li>strawberrywine_Crate</li>
+		  <li>saki_Crate</li>
+		  <li>vodka_Crate</li>
+		  <li>tequila_Crate</li>
+		  <li>Whiskey_Crate</li>
+		  <li>Moonshine_Crate</li>
+		  <li>Gin_Crate</li>
+		  <li>Brandy_Crate</li>
+		  <li>Cognac_Crate</li>
+		  <li>Kahlua_Crate</li>
+		  <li>Arak_Crate</li>
+		  <li>Applejack_Crate</li>
+		  <li>Patreonbrew_Crate</li>
+		   <li>Ethanol</li>
+          </disallowedThingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+       <li>Alcohol</li>
+      </categories>
+     <disallowedThingDefs>
+        <li>cider_Crate</li>
+		  <li>rum_Crate</li>
+		  <li>Wine_Crate</li>
+		  <li>strawberrywine_Crate</li>
+		  <li>saki_Crate</li>
+		  <li>vodka_Crate</li>
+		  <li>tequila_Crate</li>
+		  <li>Whiskey_Crate</li>
+		  <li>Moonshine_Crate</li>
+		  <li>Gin_Crate</li>
+		  <li>Brandy_Crate</li>
+		  <li>Cognac_Crate</li>
+		  <li>Kahlua_Crate</li>
+		  <li>Arak_Crate</li>
+		  <li>Applejack_Crate</li>
+		  <li>Patreonbrew_Crate</li>
+		   <li>Ethanol</li>
+      </disallowedThingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>Alcohol</li>
+      </categories>
+    </defaultIngredientFilter>
+    <products>
+      <Ethanol>5</Ethanol>
+    </products>
+	 <recipeUsers>
+      <li>meditable</li>
+	<li>DrugLab</li>
+    </recipeUsers>
+  </RecipeDef>
+
+
+</Defs>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <CombatExtended.AmmoCategoryDef>
+    <defName>Crio</defName>
+    <label>Crio</label>
+    <description>Supercooled helium.</description>
+  </CombatExtended.AmmoCategoryDef>
+  
+   <CombatExtended.AmmoCategoryDef>
+    <defName>HellF</defName>
+    <label>Tears of the sun</label>
+    <labelShort>CC</labelShort>
+    <description>A wild mixture of chemicals that burns like plasma.</description>
+  </CombatExtended.AmmoCategoryDef>
+  
+</Defs>

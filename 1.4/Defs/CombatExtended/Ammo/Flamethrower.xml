@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingCategoryDef>
+		<defName>AmmoFlamethrower</defName>
+		<label>flamethrower fuel</label>
+		<parent>AmmoAdvanced</parent>
+		<iconPath>UI/Icons/ThingCategories/CaliberFuel</iconPath>
+	</ThingCategoryDef>
+
+	<!-- ==================== AmmoSet ========================== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_Flamethrower</defName>
+		<label>flamethrower fuel</label>
+		<ammoTypes>
+			<Ammo_Flamethrower_Napalm>Bullet_Flamethrower_Napalm</Ammo_Flamethrower_Napalm>
+			<Ammo_Flamethrower_Prometheum>Bullet_Flamethrower_Prometheum</Ammo_Flamethrower_Prometheum>
+			<Ammo_Flamethrower_sun>Bullet_Flamethrower_sun</Ammo_Flamethrower_sun>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+
+	<!-- ==================== Ammo ========================== -->
+
+
+		
+		<ThingDef Class="CombatExtended.AmmoDef" ParentName="FlamethrowerBase">
+		<defName>Ammo_Flamethrower_sun</defName>
+		<label>Слёзы солнца</label>
+		<graphicData>
+			<texPath>Things/Ammo/FuelTank/Sun</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>10.7</MarketValue>
+		</statBases>
+		<ammoClass>HellF</ammoClass>
+	</ThingDef>
+
+	<!-- ================== Projectiles ================== -->
+
+
+
+<ThingDef Name="BaseSunBullet" ParentName="BaseExplosiveBullet" Abstract="true">
+		<graphicData>
+			<texPath>Things/Projectile/Flame_WA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>10</speed>
+			<flyOverhead>false</flyOverhead>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_ProjectileFleck">
+				<FleckDatas>
+					<li>
+						<fleck>Fleck_CEFlamethrowerTrail</fleck>
+						<emissionsPerTick>2</emissionsPerTick>
+						<flecksPerEmission>2</flecksPerEmission>
+						<scale>1</scale>
+					</li>
+					<li>
+						<fleck>Fleck_CEFlamethrowerSmokeTrail</fleck>
+						<emissionsPerTick>2</emissionsPerTick>
+						<flecksPerEmission>1</flecksPerEmission>
+						<scale>1</scale>
+					</li>
+				</FleckDatas>
+			</li>
+		</comps>
+	</ThingDef> 
+	
+<ThingDef ParentName="BaseSunBullet">
+		<defName>Bullet_Flamethrower_sun</defName>
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<label>Слёзы солнца</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>SunFlame</damageDef>
+			<damageAmountBase>0</damageAmountBase>
+			<preExplosionSpawnThingDef>Tearsofthesun</preExplosionSpawnThingDef>
+			<preExplosionSpawnChance>1</preExplosionSpawnChance>
+			<soundExplode>CE_FlamethrowerExplosion</soundExplode>
+			<explosionRadius>1</explosionRadius>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+			<pelletCount>10</pelletCount>
+			<spreadMult>60</spreadMult>
+			<screenShakeFactor>0</screenShakeFactor>
+			<bulletChanceToStartFire>1</bulletChanceToStartFire>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+					<Napalm_Fuel>1</Napalm_Fuel>
+				</fragments>
+			</li>
+			<li Class="CombatExtended.CompProperties_ExplosiveCE">
+				<damageAmountBase>15</damageAmountBase>
+				<explosiveDamageType>PrometheumFlame</explosiveDamageType>
+				<preExplosionSpawnThingDef>Tearsofthesun</preExplosionSpawnThingDef>
+				<preExplosionSpawnChance>0.6</preExplosionSpawnChance>
+			</li>
+		</comps>
+	</ThingDef>
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef Name="FlamethrowerAmmoRecipeBase" ParentName="AmmoRecipeBase" Abstract="true">
+		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workSkill>Intellectual</workSkill>
+	</RecipeDef>
+
+	
+
+	<RecipeDef ParentName="FlamethrowerAmmoRecipeBase">
+		<defName>MakeAmmo_Flamethrower_sun</defName>
+		<label>Сделать Слёзы солнца x100</label>
+		<description>Сделать 100 Слёз солнца.</description>
+		<jobString>Создаёт Слёзы солнца.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						 <li>Wastepack</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+                <filter>
+                    <thingDefs>
+                        <li>Nitre</li>
+                    </thingDefs>
+                </filter>
+                <count>20</count>
+            </li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Sulfur</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<products>
+			<Ammo_Flamethrower_sun>100</Ammo_Flamethrower_sun>
+		</products>
+		<skillRequirements>
+			<Crafting>18</Crafting>
+		</skillRequirements>
+	</RecipeDef>
+</Defs>

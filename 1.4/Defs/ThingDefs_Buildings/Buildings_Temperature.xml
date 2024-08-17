@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	
+	<ThingDef ParentName="SK_BuildingBase">
+		<defName>Bio_Heater</defName>
+		<label>BIO-Heater</label>
+			<thingClass>Building_Heater</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Heater</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			 <drawOffset>(0,0,0.2)</drawOffset>
+			<damageData>
+				<rect>(0.2,0,0.6,0.1)</rect>
+			</damageData>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<uiIconPath>Things/Building/Hot</uiIconPath>	
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>40</pathCost>
+		<rotatable>false</rotatable>
+		<fillPercent>0.4</fillPercent>
+		<canOverlapZones>false</canOverlapZones>
+			<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsTemperature</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>310</MaxHitPoints>
+			<WorkToBuild>1500</WorkToBuild>
+			<Flammability>0</Flammability>
+			 <Mass>50</Mass>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<description>Phoenix's heart, which is connected to a life support system, requires frequent replacement of the hematogen due to the difference in the amount of nutrients in the blood.</description>
+		<size>(1,1)</size>
+		<costList>
+		    <Glass>8</Glass>
+			<LivingFire>1</LivingFire>
+			<Mechanism>4</Mechanism>
+		</costList>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>120</costStuffCount>
+		<comps>
+			<li Class="SK.CompProperties_HeatPusherAdvanced">
+				<compClass>SK.CompHeatPusherAdvanced</compClass>
+				<heatPerSecond>40</heatPerSecond>
+				<heatPushMaxTemperature>28</heatPushMaxTemperature>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>1</glowRadius>
+				<glowColor>(217,112,33,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>0.3</fuelConsumptionRate>
+				<fuelCapacity>10.0</fuelCapacity>
+				<autoRefuelPercent>0.1</autoRefuelPercent>
+				<fuelFilter>
+					<thingDefs>
+						<li>HemogenPack</li>
+					</thingDefs>
+				</fuelFilter>
+				<destroyOnNoFuel>false</destroyOnNoFuel>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+		</comps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<designationCategory>Temperature</designationCategory>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<researchPrerequisites>
+			<li>Temperature_control_B1</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	</ThingDef>
+
+	
+<ThingDef ParentName="SK_BuildingBase">
+		<defName>Bio_coller</defName>
+		<label>BIO-Cooler</label>
+		<graphicData>
+			<texPath>Things/Building/Cooler</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			 <drawOffset>(0,0,0.2)</drawOffset>
+			<damageData>
+				<rect>(0.2,0,0.6,0.1)</rect>
+			</damageData>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<uiIconPath>Things/Building/Cold</uiIconPath>	
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<fillPercent>0.6</fillPercent>
+		<castEdgeShadows>true</castEdgeShadows>
+			<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsTemperature</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>310</MaxHitPoints>
+			<WorkToBuild>1500</WorkToBuild>
+			<Flammability>0</Flammability>
+			 <Mass>50</Mass>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<description>Kirin's heart, which is connected to a life support system, due to the difference in the amount of nutrients in the blood, requires frequent replacement of the hematogen.</description>
+		<size>(1,1)</size>
+		<costList>
+		     <Glass>8</Glass>
+			<LivingFrost>1</LivingFrost>
+			<Mechanism>4</Mechanism>
+		</costList>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>120</costStuffCount>
+		<comps>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusherPowered</compClass>
+				<heatPerSecond>-13</heatPerSecond>
+				<heatPushMinTemperature>-15</heatPushMinTemperature>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>1</glowRadius>
+				<glowColor>(217,112,33,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>0.3</fuelConsumptionRate>
+				<fuelCapacity>10.0</fuelCapacity>
+				<autoRefuelPercent>0.1</autoRefuelPercent>
+				<fuelFilter>
+					<thingDefs>
+						<li>HemogenPack</li>
+					</thingDefs>
+				</fuelFilter>
+				<destroyOnNoFuel>false</destroyOnNoFuel>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+		</comps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<designationCategory>Temperature</designationCategory>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<researchPrerequisites>
+			<li>Temperature_control_B1</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	</ThingDef>
+
+
+<ThingDef ParentName="SK_BuildingBase">
+		<defName>Bio_Sun</defName>
+		<label>BIO-Sun</label>
+		<graphicData>
+			<texPath>Things/Building/Sun</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			 <drawOffset>(0,0,0.2)</drawOffset>
+			<damageData>
+				<rect>(0.2,0,0.6,0.1)</rect>
+			</damageData>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<uiIconPath>Things/Building/Sun</uiIconPath>	
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<fillPercent>0.6</fillPercent>
+		<castEdgeShadows>true</castEdgeShadows>
+			<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsTemperature</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>310</MaxHitPoints>
+			<WorkToBuild>3500</WorkToBuild>
+			<Flammability>0</Flammability>
+			 <Mass>50</Mass>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<description>The hybridization procedure made it possible to create a light source from the Hearts of Kirin and Phoenix. It is necessary to be connected to a life support system; due to the difference in the amount of nutrients in the blood, it requires frequent replacement of the hematogen.</description>
+		<size>(1,1)</size>
+		<costList>
+		     <Glass>20</Glass>
+			<LivingSun>1</LivingSun>
+			<Mechanism>8</Mechanism>
+		</costList>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>220</costStuffCount>
+		<comps>
+			<li Class="CompProperties_Glower">
+				 <overlightRadius>6.0</overlightRadius>
+                 <glowRadius>9</glowRadius>
+                 <glowColor>(370,370,370,0)</glowColor>
+			</li>
+			 <li Class="CompProperties_SpawnerFilth">
+        <filthDef>Filth_SpentAcid</filthDef>
+        <spawnCountOnSpawn>3</spawnCountOnSpawn>
+        <spawnMtbHours>40</spawnMtbHours>
+        <spawnRadius>3</spawnRadius>
+      </li>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>0.6</fuelConsumptionRate>
+				<fuelCapacity>10.0</fuelCapacity>
+				<autoRefuelPercent>0.1</autoRefuelPercent>
+				<fuelFilter>
+					<thingDefs>
+						<li>HemogenPack</li>
+					</thingDefs>
+				</fuelFilter>
+				<destroyOnNoFuel>false</destroyOnNoFuel>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+		</comps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<designationCategory>Temperature</designationCategory>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<researchPrerequisites>
+			<li>TheHybridization</li>
+		</researchPrerequisites>
+		 <specialDisplayRadius>6</specialDisplayRadius>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	</ThingDef>
+
+
+
+
+<ThingDef ParentName="SK_BuildingBase">
+		<defName>Bio_PSY</defName>
+		<label>BIO-PSY</label>
+		<graphicData>
+			<texPath>Things/Building/PSY</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			 <drawOffset>(0,0,0.2)</drawOffset>
+			<damageData>
+				<rect>(0.2,0,0.6,0.1)</rect>
+			</damageData>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<uiIconPath>Things/Building/PSY</uiIconPath>	
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<fillPercent>0.6</fillPercent>
+		<castEdgeShadows>true</castEdgeShadows>
+			<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsTemperature</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>310</MaxHitPoints>
+			<WorkToBuild>3500</WorkToBuild>
+			<Flammability>0</Flammability>
+			 <Mass>50</Mass>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<description>Behir's heart that creates psionic resonance.</description>
+		<size>(1,1)</size>
+		<costList>
+		     <Glass>20</Glass>
+			<PsyHeart>1</PsyHeart>
+			<Mechanism>8</Mechanism>
+		</costList>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>220</costStuffCount>
+		<comps>
+			<li Class="CompProperties_Glower">
+                 <glowRadius>4</glowRadius>
+                 <glowColor>(139,0,255,0)</glowColor>
+			</li>
+			<li Class="CompProperties_MoteEmitter">
+            <mote>Mote_PsychicEmanatorEffect</mote>
+             <emissionInterval>350</emissionInterval>
+            </li>
+			 <li Class="CompProperties_MeditationFocus">
+        <statDef>MeditationFocusStrength</statDef>
+        <focusTypes>
+           <li>Natural</li>
+		   <li>Artistic</li>
+		   <li>Morbid</li>
+		   <li>Flame</li>
+		   <li>Minimal</li>
+        </focusTypes>
+      </li>
+			<li Class="SK.CompProperties_ApplyHediffAround">
+				<hediff>PSY_Bright</hediff>
+				<radius>3</radius>
+				<severityToAdd>1</severityToAdd>
+			</li>
+		 <li Class="CompProperties_ToggleDrawAffectedMeditationFoci" />
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>0.6</fuelConsumptionRate>
+				<fuelCapacity>10.0</fuelCapacity>
+				<autoRefuelPercent>0.1</autoRefuelPercent>
+				<fuelFilter>
+					<thingDefs>
+						<li>HemogenPack</li>
+					</thingDefs>
+				</fuelFilter>
+				<destroyOnNoFuel>false</destroyOnNoFuel>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+		</comps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<designationCategory>Temperature</designationCategory>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<researchPrerequisites>
+			<li>TheHybridization</li>
+		</researchPrerequisites>
+		 <specialDisplayRadius>3</specialDisplayRadius>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	</ThingDef>
+
+
+
+<ThingDef ParentName="SK_BuildingBase">
+		<defName>Bio_cleaning</defName>
+		<label>BIO-cleaning</label>
+		<graphicData>
+			<texPath>Things/Building/Clener</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			 <drawOffset>(0,0,0.2)</drawOffset>
+			<damageData>
+				<rect>(0.2,0,0.6,0.1)</rect>
+			</damageData>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<uiIconPath>Things/Building/Clener</uiIconPath>	
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<fillPercent>0.6</fillPercent>
+		<castEdgeShadows>true</castEdgeShadows>
+			<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsTemperature</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>310</MaxHitPoints>
+			<WorkToBuild>1500</WorkToBuild>
+			<Flammability>0</Flammability>
+			 <Mass>50</Mass>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<description>The Wyvern's heart can absorb toxins over a huge radius.</description>
+		<size>(1,1)</size>
+		<costList>
+		     <Glass>8</Glass>
+			<ToxHeart>1</ToxHeart>
+			<Mechanism>4</Mechanism>
+		</costList>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>120</costStuffCount>
+		<comps>
+			<li Class="CompProperties_PollutionPump">
+               <radius>30.9</radius>
+              <pumpEffecterDef>PollutionPumped</pumpEffecterDef>
+              <intervalTicks>25000</intervalTicks>
+             </li>
+			 <li Class="CompProperties_Glower">
+                 <glowRadius>4</glowRadius>
+                 <glowColor>0,255,0,0)</glowColor>
+			</li>
+			
+			
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>0.3</fuelConsumptionRate>
+				<fuelCapacity>10.0</fuelCapacity>
+				<autoRefuelPercent>0.1</autoRefuelPercent>
+				<fuelFilter>
+					<thingDefs>
+						<li>HemogenPack</li>
+					</thingDefs>
+				</fuelFilter>
+				<destroyOnNoFuel>false</destroyOnNoFuel>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+		</comps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<designationCategory>Temperature</designationCategory>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<researchPrerequisites>
+			<li>Temperature_control_B1</li>
+		</researchPrerequisites>
+		<specialDisplayRadius>30</specialDisplayRadius>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	</ThingDef>
+
+</Defs>

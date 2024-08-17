@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+
+	<ThingDef ParentName="SK_PlantFoodRawBase">
+		<defName>Nori</defName>
+		<label>Нори</label>
+		<description>Нори – водоросли для формирования суши, онигири, роллов, моти и других угощений. Высушенные  листы также используются для украшения лапши и первых блюд; вакаме – нежная растительность с приятным вкусом. Перед употреблением ее сушат или засаливают.</description>
+		<graphicData>
+			<texPath>Things/Fruits/Nori</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>4.5</MarketValue>
+			<Nutrition>0.07</Nutrition>
+		</statBases>
+		<tickerType>Rare</tickerType>   
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>16</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<ingestible>
+			<foodType>VegetableOrFruit</foodType>
+		</ingestible>
+		<thingCategories>
+			<li>BasicPlantFoodRaw</li>
+		</thingCategories>
+	</ThingDef>
+
+</Defs>

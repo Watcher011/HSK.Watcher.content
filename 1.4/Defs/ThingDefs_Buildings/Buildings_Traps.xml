@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--==================== Traps ======================== -->
+
+
+
+
+	<ThingDef Name="SK_TrapIEDBase" ParentName="SK_BuildingBase" Abstract="True">
+		<thingClass>Building_TrapExplosive</thingClass>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<damageData>
+				<rect>(0.1,0,0.8,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<uiIconOffset>(0,-0.14)</uiIconOffset>
+		<altitudeLayer>Building</altitudeLayer>
+		<drawerType>RealtimeOnly</drawerType>
+		<rotatable>false</rotatable>
+		<tickerType>Normal</tickerType>
+		<stealable>false</stealable>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<statBases>
+			<MaxHitPoints>40</MaxHitPoints>
+			<WorkToBuild>1</WorkToBuild>
+			<Beauty>-4</Beauty>
+			<Flammability>1</Flammability>
+			<TrapSpringChance>0.8</TrapSpringChance>
+			<Mass>1</Mass>
+		</statBases>
+		<designationCategory>Security</designationCategory>
+		<building>
+			<isTrap>true</isTrap>
+			<trapPeacefulWildAnimalsSpringChanceFactor>0.25</trapPeacefulWildAnimalsSpringChanceFactor>
+			<expandHomeArea>false</expandHomeArea>
+			<ai_chillDestination>false</ai_chillDestination>
+			<uninstallWork>950</uninstallWork>
+		</building>
+		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
+		<placeWorkers>
+			<li>PlaceWorker_NeverAdjacentTrap</li>
+		</placeWorkers>
+	</ThingDef>
+
+
+
+
+<ThingDef ParentName="TrapMechanicBase">
+	<defName>MinSign</defName>
+		<label>Sign Caution mines</label>
+		<description>Warning sign.</description>
+		<graphicData>
+			<texPath>Things/Building/MineAten</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,2)</drawSize>
+			<shadowData>
+				<volume>(0.76,0.3,0.15)</volume>
+				<offset>(0,0,-0.39)</offset>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+		</statBases>
+		<fillPercent>0.25</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>100</pathCost>
+		<blockWind>true</blockWind>
+		<tickerType>Normal</tickerType>
+		<rotatable>false</rotatable>
+		<costList>
+			<Plasteel>12</Plasteel>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>3</glowRadius>
+				<glowColor>(71,128,70,0)</glowColor>
+			</li>
+			<li Class="SK.CompProperties_ApplyHediffAround">
+				<hediff>PsychicBurden</hediff>
+				<radius>15</radius>
+				<severityToAdd>0.35</severityToAdd>
+			</li>
+		</comps>
+		<building>
+			<isInert>true</isInert>
+			<ai_chillDestination>false</ai_chillDestination>
+		</building>
+	</ThingDef>
+</Defs>
