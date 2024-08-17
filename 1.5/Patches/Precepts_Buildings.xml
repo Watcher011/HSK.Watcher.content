@@ -1,0 +1,53 @@
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<!-- Production specialist patches -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/PreceptDef[defName="IdeoBuilding"]/buildingDefChances</xpath>
+				<value>
+	              <KatXArt>1</KatXArt>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<!-- Production specialist patches -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PreceptDef[defName="IdeoBuilding"]/buildingRoomRequirements</xpath>
+				<value>
+				 <buildingRoomRequirements>
+				  <li Class="RoomRequirement_ThingAnyOf">
+        <things>
+          <li>Column</li>
+		 <li>ColumnKristal</li>
+		<li>ColumnKristalDark</li>
+        </things>
+      </li>
+				 
+      <li Class="RoomRequirement_Area">
+        <area>25</area>
+      </li>
+      <li Class="RoomRequirement_TerrainWithTags">
+        <labelKey>RoomRequirementAllFloored</labelKey>
+        <tags>
+          <li>Floor</li>
+          <li>FineFloor</li>
+        </tags>
+      </li>
+      <li Class="RoomRequirement_Impressiveness">
+        <impressiveness>60</impressiveness>
+      </li>
+    
+    </buildingRoomRequirements>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>
+

@@ -64,7 +64,6 @@
 			<max>50</max>
 		</deepLumpSizeRange>
 		<stuffProps>
-			<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 			<color>(224,147,4)</color>

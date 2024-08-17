@@ -1,0 +1,50 @@
+<Patch>
+ 
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Plant_Rice"]/plant/sowTags</xpath>
+				<value>
+					<sowTags>
+						 <li>Ground</li>
+                         <li>Hydroponic</li>
+						 <li>Aquaponic</li>
+					</sowTags>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Plant_Mint"]/plant/sowTags</xpath>
+				<value>
+					<sowTags>
+						 <li>Ground</li>
+                         <li>Hydroponic</li>
+						 <li>Aquaponic</li>
+					</sowTags>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Plant_TreeBamboo"]/plant/sowTags</xpath>
+				<value>
+					<sowTags>
+						 <li>Ground</li>
+                         <li>Hydroponic</li>
+						 <li>Aquaponic</li>
+					</sowTags>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="PlantTomato"]/plant/sowTags</xpath>
+				<value>
+					<sowTags>
+						 <li>Ground</li>
+                         <li>Hydroponic</li>
+						 <li>Aquaponic</li>
+					</sowTags>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

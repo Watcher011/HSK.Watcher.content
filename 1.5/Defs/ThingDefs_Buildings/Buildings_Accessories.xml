@@ -854,13 +854,6 @@
 				<soundPowerOn>Power_OnSmall</soundPowerOn>
 				<soundPowerOff>Power_OffSmall</soundPowerOff>
 			</li>
-			 <li Class="CompProperties_Spawner">
-        <thingToSpawn>SnowBlocks</thingToSpawn>
-        <spawnCount>3</spawnCount>
-        <spawnIntervalRange>26000~30000</spawnIntervalRange>
-        <spawnMaxAdjacent>40</spawnMaxAdjacent>
-        <spawnForbidden>true</spawnForbidden>
-      </li>
 		</comps>
 		<tickerType>Rare</tickerType>
 		<rotatable>true</rotatable>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>Watcher.Content.Settings</modId>
+    <key>AddDorBomb</key>
+   
+    <defaultValue>false</defaultValue>
+	
+    <caseTrue>
+	 <Operation Class="PatchOperationAdd">
+        <xpath>Defs</xpath>
+        <value>
+	<ThingDef ParentName="SK_DoorBase">
+		<defName>DoorBomb</defName>
+		<label>Security door</label>
+		<description>Door with anti-personnel mine.</description>
+		<statBases>
+			<MaxHitPoints>180</MaxHitPoints>
+			<WorkToBuild>400</WorkToBuild>
+			<TrapSpringChance>0.8</TrapSpringChance>
+		</statBases>
+		<building>
+			<isTrap>true</isTrap>
+			<trapPeacefulWildAnimalsSpringChanceFactor>0.0</trapPeacefulWildAnimalsSpringChanceFactor>
+			<expandHomeArea>true</expandHomeArea>
+			<ai_chillDestination>false</ai_chillDestination>
+			<uninstallWork>950</uninstallWork>
+		</building>
+		<graphicData>
+			<texPath>Things/Building/Doors/Autodoor_MoverB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<damageData>
+				<!--  no damage marks because they don't move with the door
+        <rect>(0,0.12,1,0.76)</rect>-->
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Doors/AutodoorB_MenuIcon</uiIconPath>
+		<stuffCategories>
+			<li>RuggedMetallic</li>
+		</stuffCategories>
+		<costStuffCount>10</costStuffCount>
+		<costList>
+			<ComponentMedieval>1</ComponentMedieval>
+			<Weapon_GrenadeStickBomb>1</Weapon_GrenadeStickBomb>
+		</costList>
+		<comps>
+		<li Class="CompProperties_Glower">
+				<glowRadius>3</glowRadius>
+				<glowColor>(255,255,255,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>3</explosiveRadius>
+				<damageAmountBase>270</damageAmountBase>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<startWickHitPointsPercent>0.2</startWickHitPointsPercent>
+				<wickTicks>15</wickTicks>
+			</li>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+					<Fragment_Small>16</Fragment_Small>
+				</fragments>
+				
+			</li>
+			
+		</comps>
+	</ThingDef>
+
+
+         </value>
+    </Operation>
+    </caseTrue>
+</Operation>
+
+</Patch>
+

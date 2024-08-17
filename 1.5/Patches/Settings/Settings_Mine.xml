@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>Watcher.Content.Settings</modId>
+    <key>AddMinebox</key>
+    <defaultValue>false</defaultValue>
+    <caseTrue>
+	  <Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="TrapIED_HighExplosive"]/costList</xpath>
+				<value>
+					<costList>
+						<Trap2_Explosive>1</Trap2_Explosive>
+					</costList>
+				</value>
+		</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="TrapIED_EMP"]/costList</xpath>
+				<value>
+					<costList>
+						 <Trap2_EMP>1</Trap2_EMP>
+					</costList>
+				</value>
+			</Operation>
+			
+			
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="TrapIED_Incendiary"]/costList</xpath>
+				<value>
+					<costList>
+					   
+						<Trap2_Incendiary>1</Trap2_Incendiary>
+					</costList>
+				</value>
+			</Operation>
+			
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="TrapIED_AntigrainWarhead"]/costList</xpath>
+				<value>
+					<costList>
+					    <Trap2_AE>1</Trap2_AE>
+					</costList>
+				</value>
+			</Operation>
+			
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="TrapIED_ToxGas"]/costList</xpath>
+				<value>
+					<costList>
+					    <Trap2_Tox>1</Trap2_Tox>
+					</costList>
+				</value>
+				</Operation>
+			
+				<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="TrapSpike"]/costList</xpath>
+				<value>
+					<costList>
+					    <TrapKapk>1</TrapKapk>
+					</costList>
+				</value>
+			</Operation>
+			
+    </caseTrue>
+</Operation>
+
+</Patch>
+

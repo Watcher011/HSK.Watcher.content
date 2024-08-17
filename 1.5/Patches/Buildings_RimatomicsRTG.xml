@@ -1,0 +1,29 @@
+﻿
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+	 <operations>
+         <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="RimatomicsRTG"]/thingSetMakerTags</xpath>
+				<value>
+				  <thingSetMakerTags>
+                  <li>RewardSpecial</li>
+				  <li>RewardStandardCore</li>
+                  </thingSetMakerTags>
+				</value>
+			</li>
+			    <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="RimatomicsRTG"]/tradeTags</xpath>
+				<value>
+				   <tradeTags>
+                  <li>Rimatomics</li>
+				  <li>ExoticBuilding</li>
+                   </tradeTags>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+
+</Patch>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>SeedsPlease</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<SeedsPlease.SeedDef ParentName="SeedBase">
+							<defName>Algae_seeds</defName>
+							<label>Отростки водорослей</label>
+							<sources>
+								<li>Plant_RawAlgae</li>
+							</sources>
+							<graphicData>
+								<texPath>Things/Item/Seed/Algae</texPath>
+							</graphicData>
+							 <statBases>
+                                <MarketValue>9</MarketValue>
+                             </statBases>
+						</SeedsPlease.SeedDef>
+					</value>
+				</li>	
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<RecipeDef ParentName="ExtractSeed">
+							<defName>ExtractAlgaeseeds</defName>
+							<label>Извлечение отростков водорослей</label>
+							<description>Культивация водорослей</description>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>RawAlgae</li>
+										</thingDefs>
+									</filter>
+									<count>4</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>RawAlgae</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<products>
+								<Algae_seeds>3</Algae_seeds>
+							</products>
+						</RecipeDef>
+					</value>
+				</li>
+									
+			</operations>
+		</match>
+	</Operation>
+</Patch>

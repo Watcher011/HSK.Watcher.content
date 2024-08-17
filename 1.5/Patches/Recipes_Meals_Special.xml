@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="MakeMakiRolls"]/ingredients</xpath>
+    <value>
+      <ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Meat_ThingDefFishSduiggles</li>
+					</thingDefs>
+				</filter>
+				<count>0.5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Nori</li>
+					</thingDefs>
+				</filter>
+				<count>0.2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawRice</li>
+					</thingDefs>
+				</filter>
+				<count>0.5</count>
+			</li>
+		</ingredients>
+    </value>
+  </Operation>
+ 
+ 
+ <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="MakeMakiRollsBulk"]/ingredients</xpath>
+    <value>
+      <ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Meat_ThingDefFishSduiggles</li>
+					</thingDefs>
+				</filter>
+				<count>0.5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Nori</li>
+					</thingDefs>
+				</filter>
+				<count>0.2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawRice</li>
+					</thingDefs>
+				</filter>
+				<count>0.5</count>
+			</li>
+		</ingredients>
+    </value>
+  </Operation>
+  
+  
+ <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="MakeMakiRollsBulk"]/ingredients</xpath>
+    <value>
+      <ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Meat_ThingDefFishSduiggles</li>
+					</thingDefs>
+				</filter>
+				<count>2.5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Nori</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawRice</li>
+					</thingDefs>
+				</filter>
+				<count>2.5</count>
+			</li>
+		</ingredients>
+    </value>
+  </Operation>
+  
+   
+ <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="MakeMisoSoup"]/ingredients</xpath>
+    <value>
+      <ingredients>
+		<li>
+				<filter>
+					<thingDefs>
+						<li>Tofu</li>
+					</thingDefs>
+				</filter>
+				<count>0.5</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>FungusPlantRaw</li>
+					</categories>
+				</filter>
+				<count>0.4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Rawonion</li>
+					</thingDefs>
+				</filter>
+				<count>0.03</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Nori</li>
+					</thingDefs>
+				</filter>
+				<count>0.25</count>
+			</li>
+		</ingredients>
+    </value>
+  </Operation>
+</Patch>
+
+  

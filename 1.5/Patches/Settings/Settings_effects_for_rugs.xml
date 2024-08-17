@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>Watcher.Content.Settings</modId>
+    <key>AuraOfTrophyMat</key>
+    <defaultValue>true</defaultValue>
+    <caseTrue>		
+			  <Operation Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="DragonCarpet"]/comps</xpath>
+				<value>
+					<li Class="SK.CompProperties_ApplyHediffAround">
+				<hediff>PhoenixRugAura</hediff>
+				<radius>3</radius>
+				<severityToAdd>1</severityToAdd>
+			    </li>
+				</value>
+			 </Operation>
+			 
+			 <Operation Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="KirinCarpet"]</xpath>
+				<value>
+				<comps>
+					<li Class="SK.CompProperties_ApplyHediffAround">
+				<hediff>KirinRugAura</hediff>
+				<radius>3</radius>
+				<severityToAdd>1</severityToAdd>
+			    </li>
+				</comps>
+				</value>
+			 </Operation>
+			 
+			 
+			 			 <Operation Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="GrindragonCarpet"]</xpath>
+				<value>
+				<comps>
+					<li Class="SK.CompProperties_ApplyHediffAround">
+				<hediff>WyvernRugAura</hediff>
+				<radius>3</radius>
+				<severityToAdd>1</severityToAdd>
+			    </li>
+				</comps>
+				</value>
+			 </Operation>
+			 
+			 
+			 			 <Operation Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="BehirCarpet"]</xpath>
+				<value>
+				<comps>
+					<li Class="SK.CompProperties_ApplyHediffAround">
+				<hediff>BehirRugAura</hediff>
+				<radius>3</radius>
+				<severityToAdd>1</severityToAdd>
+			    </li>
+				</comps>
+				</value>
+			 </Operation>
+			 
+			 
+			 			 <Operation Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="BagestCarpet"]</xpath>
+				<value>
+				<comps>
+					<li Class="SK.CompProperties_ApplyHediffAround">
+				<hediff>BagestRugAura</hediff>
+				<radius>3</radius>
+				<severityToAdd>1</severityToAdd>
+			    </li>
+				</comps>
+				</value>
+			 </Operation>
+    </caseTrue>
+</Operation>
+
+</Patch>
+

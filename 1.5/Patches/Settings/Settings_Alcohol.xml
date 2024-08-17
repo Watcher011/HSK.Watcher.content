@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>Watcher.Content.Settings</modId>
+    <key>AddAlcohol</key>
+    <!--By default, apply the patch-->
+    <defaultValue>false</defaultValue>
+    <caseTrue>
+       <Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="makemedicine"]/ingredients</xpath>
+		<value>
+			<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Ethanol</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineHerbal</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroamine</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Bandagekit</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>		
+		</ingredients>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="makeadvmedicine"]/ingredients</xpath>
+		<value>
+			<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Microchips</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicalDrink</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroamine</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BiosyntheticMaterial</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Ethanol</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Synthread</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>			
+		</ingredients>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="MakeHerbmedicine"]/ingredients</xpath>
+		<value>
+			<ingredients>
+			<li>
+				<filter>
+				<categories>
+				<li>Alcohol_Bottles</li>
+			    </categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>aloe</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Bandagekit</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="MakeHerbmedicine"]/fixedIngredientFilter</xpath>
+		<value>
+			<categories>
+				<li>Alcohol_Bottles</li>
+			</categories>
+		</value>
+	</Operation>
+	
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="makeadvmedicine"]/ingredients</xpath>
+		<value>
+			<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Microchips</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicalDrink</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroamine</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BiosyntheticMaterial</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Ethanol</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Synthread</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>			
+		</ingredients>
+		</value>
+	</Operation>
+	
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="MakeTincture"]/ingredients</xpath>
+		<value>
+			<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GleamcapStem</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+				<li>Alcohol_Bottles</li>
+			      </categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="MakeTincture"]/fixedIngredientFilter</xpath>
+		<value>
+			<categories>
+				<li>Alcohol_Bottles</li>
+			</categories>
+		</value>
+	</Operation>
+<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="MakeTinctureBulk"]/ingredients</xpath>
+		<value>
+			<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GleamcapStem</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+			<categories>
+				<li>Alcohol_Bottles</li>
+			</categories>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="MakeTinctureBulk"]/fixedIngredientFilter</xpath>
+		<value>
+			<categories>
+				<li>Alcohol_Bottles</li>
+			</categories>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="MakeTinctureHealroot"]/ingredients</xpath>
+		<value>
+			<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineHerbal</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Ash</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Alcohol_Bottles</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="MakeTinctureHealroot"]/fixedIngredientFilter</xpath>
+		<value>
+			<categories>
+				<li>Alcohol_Bottles</li>
+			</categories>
+		</value>
+	</Operation>
+
+	
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="MakeAntidoteSimple"]/ingredients</xpath>
+		<value>
+			<ingredients Inherit="False">
+				<li>
+				<filter>
+					<thingDefs>
+						<li>PoisonGland</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+				<li>
+				<filter>
+					<categories>
+						<li>Alcohol_Bottles</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			</ingredients>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="MakeAntidoteSimple"]/fixedIngredientFilter</xpath>
+		<value>
+			<categories>
+				<li>Alcohol_Bottles</li>
+			</categories>
+		</value>
+	</Operation>
+	
+	
+    </caseTrue>
+</Operation>
+
+
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>Watcher.Content.Settings</modId>
+    <key>UseAlcoholinLamp</key>
+    <defaultValue>true</defaultValue>
+    <caseTrue>		
+	  <Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="medieval_surg_lamp"]/comps/li[@Class="SK.CompFueled_Properties"]/fuelFilter/thingDefs</xpath>
+				<value>
+				<thingDefs>
+						<li>Ethanol</li>
+						<li>DirtyEthanol</li>
+				</thingDefs>
+				</value>
+		</Operation>
+	    </caseTrue>
+</Operation>
+
+
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>Watcher.Content.Settings</modId>
+    <key>UseAlcoholinLampbag</key>
+    <defaultValue>false</defaultValue>
+    <caseTrue>		
+	  <Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="medieval_surg_lamp"]/comps/li[@Class="CompProperties_Glower"]</xpath>
+				<value>
+				<li Class="CompProperties_Glower">
+				<glowRadius>6</glowRadius>
+				<glowColor>(252,187,113,0)</glowColor>
+			</li>
+				</value>
+		</Operation>
+	    </caseTrue>
+</Operation>
+
+</Patch>
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>Watcher.Content.Settings</modId>
+    <key>TextureSelection</key>
+    <defaultValue>true</defaultValue>
+    <caseTrue>	
+	
+	  <Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ColumnKristal"]/graphicData/texPath</xpath>
+				<value>
+				<texPath>Things/Building/Furniture/Outro/ColumnKristal</texPath>
+				</value>
+		</Operation>
+       
+	  <Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ColumnKristalDark"]/graphicData/texPath</xpath>
+				<value>
+				<texPath>Things/Building/Furniture/Outro/ColumnKristal</texPath>
+				</value>
+		</Operation>
+    </caseTrue>
+</Operation>
+
+</Patch>
+

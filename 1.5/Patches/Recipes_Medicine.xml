@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationAdd"> 
+		<xpath>Defs/ThingDef[@Name = "AnimalThingBase" or defName = "Human" or @Name = "BaseHumanlikePawn"]/recipes</xpath>
+		<value>
+			<li>TreatmentOfInfection</li>
+		</value>
+	</Operation>
+<Operation Class="PatchOperationAdd"> 
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="ChjAndroid"]/recipes</xpath>
+		<value>
+			<li>TreatmentOfInfection</li>
+		</value>
+	</Operation>
+</Patch>

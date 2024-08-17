@@ -182,7 +182,7 @@
                 <font>Medium</font>
                 <anchor>Middle</anchor>
             </li>
-			
+			<!--
 			<li Class="XmlExtensions.Setting.Checkbox">
                 <key>CyberImplant</key>
                 <label>Adding cyber implant failure and treatment ?</label>
@@ -190,6 +190,7 @@
                 <defaultValue>true</defaultValue>
                 <tooltip>This is a test function, not recommended for play.</tooltip>
             </li>
+			-->
 		
             <li Class="XmlExtensions.Setting.GapLine"/>
             <li Class="XmlExtensions.Setting.ResetSettings"/>

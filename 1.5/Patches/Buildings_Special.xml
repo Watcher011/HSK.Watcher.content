@@ -1,0 +1,76 @@
+﻿
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+	 <operations>
+         <li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="VanometricPowerCell"]/comps/li[@Class="CompProperties_Power"]</xpath>
+				<value>
+				 <powerUpgrades>
+				  <li>
+					<researchProject>AdvancedPowerKult</researchProject>
+					<factor>1.5</factor>
+				  </li>
+				</powerUpgrades>
+				</value>
+			</li>
+			
+			 <li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="SunLamp"]/comps/li[@Class="CompProperties_Power"]</xpath>
+				<value>
+				 <powerUpgrades>
+				  <li>
+					<researchProject>AdvancedPowerKult</researchProject>
+					<factor>0.60</factor>
+				  </li>
+				</powerUpgrades>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+
+ <Operation Class="PatchOperationAdd">
+        <xpath>Defs</xpath>
+        <value>
+	<ThingDef ParentName="RefineryBase">
+		<defName>PaintRefiner</defName>
+		<label>Paint Refiner</label>
+		<description>Processes chemfuel into Paint</description>
+		<graphicData>
+			<texPath>Rimefeller/Things/Building/ThreadMachine</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<stuffCategories>
+			<li>RuggedMetallic</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<costList>
+			<ComponentSpacer>5</ComponentSpacer>
+			<Rubber>30</Rubber>
+			<Electronics>5</Electronics>
+			<AdvMechanism>3</AdvMechanism>
+		</costList>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>3000</basePowerConsumption>
+			</li>
+			<li Class="Rimefeller.CompProperties_Refinery">
+				<compClass>Rimefeller.CompRefineryThreader</compClass>
+				<Product>Dye</Product>
+				<StackSize>2</StackSize>
+				<BufferSize>120</BufferSize>
+				<ConsumeRate>1.5</ConsumeRate>
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>Apparel_D1</li>
+		</researchPrerequisites>
+	</ThingDef>
+         </value>
+    </Operation>
+</Patch>

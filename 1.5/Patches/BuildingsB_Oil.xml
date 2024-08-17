@@ -1,0 +1,33 @@
+﻿<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+	 <operations>
+         <li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="FuelPowerplant"]/comps/li[@Class="Rimefeller.CompProperties_PowerPlant"]</xpath>
+				<value>
+				 <powerUpgrades>
+				  <li>
+					<researchProject>AdvancedPowerKult</researchProject>
+					<factor>1.3</factor>
+				  </li>
+				</powerUpgrades>
+				</value>
+			</li>
+
+         <li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="LargeFuelPowerplant"]/comps/li[@Class="Rimefeller.CompProperties_PowerPlant"]</xpath>
+				<value>
+				 <powerUpgrades>
+				  <li>
+					<researchProject>AdvancedPowerKult</researchProject>
+					<factor>1.2</factor>
+				  </li>
+				</powerUpgrades>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+
+</Patch>
