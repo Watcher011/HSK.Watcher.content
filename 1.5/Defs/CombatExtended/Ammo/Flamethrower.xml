@@ -81,7 +81,7 @@
 			<preExplosionSpawnThingDef>Tearsofthesun</preExplosionSpawnThingDef>
 			<preExplosionSpawnChance>1</preExplosionSpawnChance>
 			<soundExplode>CE_FlamethrowerExplosion</soundExplode>
-			<explosionRadius>1</explosionRadius>
+			<explosionRadius>0.1</explosionRadius>
 			<ai_IsIncendiary>true</ai_IsIncendiary>
 			<pelletCount>10</pelletCount>
 			<spreadMult>60</spreadMult>
