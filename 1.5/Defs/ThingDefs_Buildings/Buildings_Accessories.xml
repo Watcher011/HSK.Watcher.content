@@ -870,6 +870,59 @@
 	</ThingDef>
 	
 	
+<ThingDef  ParentName="SK_LampBase">
+		<defName>YadaritLamp2A</defName>
+		<label>Кристальная Лампа</label>
+		<description>Светяшийся кристал в резной оболочке.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/GlArt</texPath>
+				 <graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1,1)</drawSize>
+			<shadowData>
+				<volume>(0.2, 0.1, 0.2)</volume>
+			</shadowData>
+		</graphicData>
+		<fillPercent>0.5</fillPercent>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<rotatable>false</rotatable>
+		<pathCost>50</pathCost>
+		<tickerType>Normal</tickerType>
+		<stuffCategories>
+			<li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<yadaritRaW>20</yadaritRaW>
+		</costList>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<statBases>
+			<Beauty>12</Beauty>
+			<WorkToBuild>610</WorkToBuild>
+			<Bulk>12</Bulk>
+			<Mass>4</Mass>
+			<Cleanliness>3</Cleanliness>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">6</StyleDominance>
+		</statBases>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			 <li Class="CompProperties_Glower">
+        <overlightRadius>8.0</overlightRadius>
+        <glowRadius>8.0</glowRadius>
+       <glowColor>(155,155,233,0)</glowColor>
+      </li>
+		</comps>
+		<building>
+			<uninstallWork>300</uninstallWork>
+		</building>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+		<designationCategory>Accessories</designationCategory>
+	</ThingDef>
+
 
 </Defs>
 

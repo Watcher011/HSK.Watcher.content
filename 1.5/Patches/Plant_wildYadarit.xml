@@ -1,0 +1,19 @@
+<Patch>
+ 
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="TemperateForest" or defName="TemperateSwamp" or defName="AridShrubland" or defName="BorealForest"]/wildPlants</xpath>
+		<value>
+			<YadaritPlant>1</YadaritPlant>
+		</value>
+   </Operation>
+<!--
+ <Operation Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="TemperateForest" or defName="TemperateSwamp" or defName="AridShrubland" or defName="BorealForest" or defName="BorealArchipelago"  or defName="TundraArchipelago"  or defName="ColdBogArchipelago"  or defName="DesertArchipelago"  or defName="TemperateArchipelago" or defName="TemperateSwampArchipelago" or defName="TropicalArchipelago"  or defName="TropicalSwampArchipelago" or defName="TropicalRainforest" or defName="TropicalSwamp"]/wildPlants</xpath>
+    <value>
+      <recipeMaker>
+        	<YadaritPlant>1</YadaritPlant>
+      </recipeMaker>
+    </value>
+  </Operation>
+	-->
+</Patch>

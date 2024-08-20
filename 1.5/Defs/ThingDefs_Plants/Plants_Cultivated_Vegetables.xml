@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+
+<ThingDef ParentName="PollutionPlantBase">
+ <defName>YadaritPlant</defName>
+		<label>Ядарит грибница</label>
+		<description>Ядарит грибница, наследие древних, что извлекает полезные вещества из подземных залежей и кристаллизует их на поверхности.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.65</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Trees/TreeY</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.2, 0.3, 0.13)</volume>
+        <offset>(-0.03,0,-0.44)</offset>
+      </shadowData>
+    </graphicData>
+	<tickerType>Normal</tickerType>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <ingestible />
+    <plant>
+      <fertilityMin>0.3</fertilityMin>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>yadaritRaW</harvestedThingDef>
+      <harvestYield>11</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <fertilitySensitivity>0</fertilitySensitivity>
+      <topWindExposure>0</topWindExposure>
+      <growDays>6</growDays>
+      <cavePlantWeight>0.1</cavePlantWeight>
+      <visualSizeRange>0.5~0.95</visualSizeRange>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+      <maxMeshCount>9</maxMeshCount>
+    </plant>
+	 <comps>
+	  <li Class="CompProperties_SelfhealHitpoints">
+        <ticksPerHeal>2000</ticksPerHeal> <!-- 30 hp per day, must be a multiple of 2000, since plants have Long ticker -->
+      </li>
+      <li Class="CompProperties_PollutionPump">
+        <radius>3.9</radius>
+        <pumpsPerWastepack>0</pumpsPerWastepack>
+        <intervalTicks>45000</intervalTicks>
+        <disabledByArtificialBuildings>false</disabledByArtificialBuildings>
+        <pumpEffecterDef>PollutionExtractedPoluxTree</pumpEffecterDef>
+      </li>
+        	<li Class="CompProperties_Glower">
+				<glowRadius>4</glowRadius>
+				<glowColor>(155,79,0,0)</glowColor>
+				
+			</li>
+    </comps>
+  </ThingDef>
+
+</Defs>

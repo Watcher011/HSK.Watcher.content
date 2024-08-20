@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+<Defs>
+
+
+<ThingDef ParentName="SK_ResourceBase">
+		 <defName>yadarit</defName>
+        <label>Обработанный ядарит</label>
+		  <description>Ядарит что очищен от сторонних примесей(крайне взрывоопасен).</description>
+        <graphicData>
+            <texPath>Things/Item/yadarit</texPath>
+		    <graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(0.8)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<fillPercent>0.35</fillPercent>
+		<stackLimit>150</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<techLevel>Spacer</techLevel>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>3</MarketValue>
+			<DeteriorationRate>0.02</DeteriorationRate>
+			<Flammability>5</Flammability>
+			<Mass>3.1</Mass>
+			<Bulk>0.1</Bulk>
+		</statBases>
+			
+		<tickerType>Normal</tickerType>
+		<comps>
+			 <li Class="CompProperties_Glower">
+				<glowRadius>2</glowRadius>
+				<glowColor>(255,135,160,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>0.2</explosiveRadius>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.05</explosiveExpandPerStackcount>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<wickTicks>
+					<min>215</min>
+					<max>440</max>
+				</wickTicks>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+	</ThingDef>
+	
+	
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		 <defName>yadaritRaW</defName>
+        <label>Сырой ядарит</label>
+		<thingClass>SK.Item_PL</thingClass>
+		  <description>Сырой ядарит что недавно был отделён от грибницы, без должной обработки распадётся на мало полезные ингредиенты (Хранить в дали от людей , крайне токсичен).</description>
+        <graphicData>
+            <texPath>Things/Item/yadaritRaW</texPath>
+		    <graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,0.8)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<fillPercent>0.35</fillPercent>
+		<stackLimit>100</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<techLevel>Spacer</techLevel>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>0.2</MarketValue>
+			<DeteriorationRate>0.02</DeteriorationRate>
+			<Flammability>3</Flammability>
+			<MaxBurningTempCelsius>1300</MaxBurningTempCelsius>
+			<BurnDurationHours>3.4</BurnDurationHours>
+			<Mass>3.1</Mass>
+			<Bulk>0.1</Bulk>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<comps>
+		<li Class="SK.CompProperties_ColdPusher">
+				<ConstantPush>true</ConstantPush>
+				<ColdPerSecond>-5</ColdPerSecond>
+				<ColdPushMinTemperature>20</ColdPushMinTemperature>
+			</li>
+			 <li Class="CompProperties_Glower">
+				<glowRadius>2</glowRadius>
+				<glowColor>(255,135,160,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Lifespan">
+				<lifespanTicks>1260000</lifespanTicks>
+			</li>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>1.2</explosiveRadius>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.05</explosiveExpandPerStackcount>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<wickTicks>
+					<min>215</min>
+					<max>440</max>
+				</wickTicks>
+			</li>
+		</comps>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+		<deepCommonality>1</deepCommonality>
+		<deepCountPerCell>1000</deepCountPerCell>
+		<deepCountPerPortion>15</deepCountPerPortion>
+		<deepLumpSizeRange>
+			<min>5</min>
+			<max>35</max>
+		</deepLumpSizeRange>
+		<thingCategories>
+			<li>Coal</li>
+		</thingCategories>
+	</ThingDef>
+	
+	
+ 
+</Defs>

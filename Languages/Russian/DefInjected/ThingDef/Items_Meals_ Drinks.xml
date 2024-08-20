@@ -1,31 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
- <CupChipfir.label>Кружка Чифира</CupChipfir.label> 
- <CupChipfir.description>Чифи́рь это напиток, получаемый вывариванием высококонцентрированной заварки чая. Обладает психостимулирующим действием, в некотором роде является наркотическим средством, вызывающим зависимость.</CupChipfir.description> 
- <CupChipfir.ingestible.ingestCommandString>Выпить {0}</CupChipfir.ingestible.ingestCommandString> 
- <CupChipfir.ingestible.ingestReportString>Выпивает{0}.</CupChipfir.ingestible.ingestReportString> 
+  <!--<CupChipfir.label>Кружка Чифира</CupChipfir.label>-->
+  <!--<CupChipfir.description>Чифи́рь это напиток, получаемый вывариванием высококонцентрированной заварки чая. Обладает психостимулирующим действием, в некотором роде является наркотическим средством, вызывающим зависимость.</CupChipfir.description>-->
+  <!--<CupChipfir.ingestible.ingestCommandString>Выпить {0}</CupChipfir.ingestible.ingestCommandString>-->
+  <!--<CupChipfir.ingestible.ingestReportString>Выпивает{0}.</CupChipfir.ingestible.ingestReportString>-->
 
- <Cupwithminttea.label>Кружка чаю с мятой</Cupwithminttea.label> 
- <Cupwithminttea.description>Чай с мятой успокаивает нервы, может вызывать сонливость.</Cupwithminttea.description> 
- <Cupwithminttea.ingestible.ingestCommandString>Выпить {0}</Cupwithminttea.ingestible.ingestCommandString> 
- <Cupwithminttea.ingestible.ingestReportString>Выпивает {0}.</Cupwithminttea.ingestible.ingestReportString> 
+  <!--<Cupwithminttea.label>Кружка чаю с мятой</Cupwithminttea.label>-->
+  <!--<Cupwithminttea.description>Чай с мятой успокаивает нервы, может вызывать сонливость.</Cupwithminttea.description>-->
+  <!--<Cupwithminttea.ingestible.ingestCommandString>Выпить {0}</Cupwithminttea.ingestible.ingestCommandString>-->
+  <!--<Cupwithminttea.ingestible.ingestReportString>Выпивает {0}.</Cupwithminttea.ingestible.ingestReportString>-->
 
- <CupGreentea.label>Кружка зелёного чаю</CupGreentea.label> 
- <CupGreentea.description>Зеленый чай — это напиток из листьев чайной камелии. Собственно, как и черный чай. Основное их различие в том, что для зеленого чая процесс ферментации минимален, отчего он становится ближе к живому чайному листу. И чем сильнее чай ферментирован, тем темнее его настой и ярче вкус.</CupGreentea.description> 
- <CupGreentea.ingestible.ingestCommandString>Выпить {0}</CupGreentea.ingestible.ingestCommandString> 
- <CupGreentea.ingestible.ingestReportString>Выпивает {0}.</CupGreentea.ingestible.ingestReportString> 
+  <!--<CupGreentea.label>Кружка зелёного чаю</CupGreentea.label>-->
+  <!--<CupGreentea.description>Зеленый чай — это напиток из листьев чайной камелии. Собственно, как и черный чай. Основное их различие в том, что для зеленого чая процесс ферментации минимален, отчего он становится ближе к живому чайному листу. И чем сильнее чай ферментирован, тем темнее его настой и ярче вкус.</CupGreentea.description>-->
+  <!--<CupGreentea.ingestible.ingestCommandString>Выпить {0}</CupGreentea.ingestible.ingestCommandString>-->
+  <!--<CupGreentea.ingestible.ingestReportString>Выпивает {0}.</CupGreentea.ingestible.ingestReportString>-->
 
- <RawPuer.label>Пуэр</RawPuer.label> 
- <RawPuer.description>Главной отличительной чертой пуэров является стадия ферментации, которая может занимать различное время. Участвующие в ней микроорганизмы заметно меняют химический состав и вкусовые качества чая.</RawPuer.description> 
+  <!--<RawPuer.label>Пуэр</RawPuer.label>-->
+  <!--<RawPuer.description>Главной отличительной чертой пуэров является стадия ферментации, которая может занимать различное время. Участвующие в ней микроорганизмы заметно меняют химический состав и вкусовые качества чая.</RawPuer.description>-->
 
- <RawGreen.label>Зелёный чай</RawGreen.label> 
- <RawGreen.description>Зеленый чай — это напиток из листьев чайной камелии. Собственно, как и черный чай. Основное их различие в том, что для зеленого чая процесс ферментации минимален, отчего он становится ближе к живому чайному листу. И чем сильнее чай ферментирован, тем темнее его настой и ярче вкус.</RawGreen.description> 
+  <!--<RawGreen.label>Зелёный чай</RawGreen.label>-->
+  <!--<RawGreen.description>Зеленый чай — это напиток из листьев чайной камелии. Собственно, как и черный чай. Основное их различие в том, что для зеленого чая процесс ферментации минимален, отчего он становится ближе к живому чайному листу. И чем сильнее чай ферментирован, тем темнее его настой и ярче вкус.</RawGreen.description>-->
 
- <CupPuer.label>Чашка Пуэра</CupPuer.label> 
- <CupPuer.description>Чашка целебного напитка.</CupPuer.description> 
- <CupPuer.ingestible.ingestCommandString>Выпить {0}</CupPuer.ingestible.ingestCommandString> 
- <CupPuer.ingestible.ingestReportString>Выпивает{0}.</CupPuer.ingestible.ingestReportString> 
+  <!--<CupPuer.label>Чашка Пуэра</CupPuer.label>-->
+  <!--<CupPuer.description>Чашка целебного напитка.</CupPuer.description>-->
+  <!--<CupPuer.ingestible.ingestCommandString>Выпить {0}</CupPuer.ingestible.ingestCommandString>-->
+  <!--<CupPuer.ingestible.ingestReportString>Выпивает{0}.</CupPuer.ingestible.ingestReportString>-->
 
 
 </LanguageData>

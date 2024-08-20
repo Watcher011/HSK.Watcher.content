@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- M249 LMG SAW MG -->
+
+  <BuildGunSimp.label>Custom PCB Assembly</BuildGunSimp.label>
+  <BuildGunSimp.description>Assembly of a custom machine gun \nCaliber:7.62x51mm NATO</BuildGunSimp.description>
+  <BuildGunSimp.jobString>Assembling Simp Gun.</BuildGunSimp.jobString>
+
+
+</LanguageData>

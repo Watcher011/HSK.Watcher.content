@@ -3,28 +3,30 @@
 
   <Watcher_Content_Settings.label>Watcher Content Настройки</Watcher_Content_Settings.label>
   <Watcher_Content_Settings.settings.1.text>Возможности</Watcher_Content_Settings.settings.1.text>
-  <Watcher_Content_Settings.settings.2.label>Добавляем алкоголь в рецепты крафта медикаментов?</Watcher_Content_Settings.settings.2.label>
-  <Watcher_Content_Settings.settings.3.label>Добавляем извлечение гемогена  из трупов?</Watcher_Content_Settings.settings.3.label>
-  <Watcher_Content_Settings.settings.5.label>Добавляем постройку взрывной двери?</Watcher_Content_Settings.settings.5.label>
+  <Watcher_Content_Settings.settings.2.label>Добавляем алкоголь в рецепты крафта медикаментов?(Сложность:☠)</Watcher_Content_Settings.settings.2.label>
+  <Watcher_Content_Settings.settings.3.label>Добавляем извлечение гемогена  из трупов?(Упрощенность:♛)</Watcher_Content_Settings.settings.3.label>
+  <Watcher_Content_Settings.settings.5.label>Добавляем постройку взрывной двери?(Упрощенность:♛♛♛)</Watcher_Content_Settings.settings.5.label>
   <Watcher_Content_Settings.settings.6.label>Сортируем мины по коробкам или пусть так валяются(меняем крафт и постройку)?</Watcher_Content_Settings.settings.6.label>
   <Watcher_Content_Settings.settings.8.label>Добавляем мягкие стены из текстиля и кожи?</Watcher_Content_Settings.settings.8.label>
   <Watcher_Content_Settings.settings.9.label>Добавляем стены из светокамня ?</Watcher_Content_Settings.settings.9.label>
   <Watcher_Content_Settings.settings.10.label>Выбираем текстуру для светокамменых колон(котик или девушка)</Watcher_Content_Settings.settings.10.label>
-  <Watcher_Content_Settings.settings.12.label>Добавляем ауру для ковриков(добавляет позитивные эффекты шкурам редких животных в малом радиусе)?</Watcher_Content_Settings.settings.12.label>
-  <Watcher_Content_Settings.settings.13.label>Добавляем хранилище токсичных отходов?</Watcher_Content_Settings.settings.13.label>
+  <Watcher_Content_Settings.settings.12.label>Добавляем ауру для ковриков(добавляет позитивные эффекты шкурам редких животных в малом радиусе)(Упрощенность:♛)?</Watcher_Content_Settings.settings.12.label>
+  <Watcher_Content_Settings.settings.13.label>Добавляем хранилище токсичных отходов?(Упрощенность:♛♛)</Watcher_Content_Settings.settings.13.label>
   <Watcher_Content_Settings.settings.15.label>Меняем тип топлива на алкоголь в лампе лекаря?</Watcher_Content_Settings.settings.15.label>
   <Watcher_Content_Settings.settings.16.label>Отключаем рост растений вокруг лампы лекаря?</Watcher_Content_Settings.settings.16.label>
-  <Watcher_Content_Settings.settings.18.label>Добавляем жуков бомбардиров в коконы жуков?</Watcher_Content_Settings.settings.18.label>
-  <Watcher_Content_Settings.settings.19.label>Добавляем жуков бомбардиров и королеву в рейды жуков?</Watcher_Content_Settings.settings.19.label>
-  <Watcher_Content_Settings.settings.21.label>Заменяем вооружение механоида "Испепелителя" на усиленный огнемёт?</Watcher_Content_Settings.settings.21.label>
-  <Watcher_Content_Settings.settings.22.label>Добавляем пересадку органов и импланты для андроидов?</Watcher_Content_Settings.settings.22.label>
+  <Watcher_Content_Settings.settings.18.label>Добавляем жуков бомбардиров в коконы жуков?(Сложность:☠)</Watcher_Content_Settings.settings.18.label>
+  <Watcher_Content_Settings.settings.19.label>Изменяем рейд инсектоидов,добавляем :Клещей, бомбардиров и королеву(Мясную Зину)?(Сложность:☠☠)</Watcher_Content_Settings.settings.19.label>
+  <Watcher_Content_Settings.settings.21.label>Заменяем вооружение механоида "Испепелителя" на усиленный огнемёт?(Сложность:☠☠☠)</Watcher_Content_Settings.settings.21.label>
+  <Watcher_Content_Settings.settings.22.label>Добавляем пересадку органов и импланты для андроидов?(Упрощенность:♛♛♛)</Watcher_Content_Settings.settings.22.label>
   <Watcher_Content_Settings.settings.23.label>Добавление радиоактивного излучения вокруг РИТЭГа?</Watcher_Content_Settings.settings.23.label>
   <Watcher_Content_Settings.settings.24.label>Добавляет разнообразие в чайную продукцию(По рецептам Деда)?</Watcher_Content_Settings.settings.24.label>
   <Watcher_Content_Settings.settings.25.label>Добавляем медоносное дерево?</Watcher_Content_Settings.settings.25.label>
-  <Watcher_Content_Settings.settings.27.text>!☠!Тестовые функции, которые могут быть удалены из сборки!☠!</Watcher_Content_Settings.settings.27.text>
-  <Watcher_Content_Settings.settings.28.label>Добавить отказ киберимплантатов и их лечение?</Watcher_Content_Settings.settings.28.label>
+  <Watcher_Content_Settings.settings.26.label>Добавьте рецепты переработки ядарита в металл или светящийся камень?(Упрощенность:♛)</Watcher_Content_Settings.settings.26.label>
+  <Watcher_Content_Settings.settings.28.text>!☠!Тестовые функции, которые могут быть удалены из сборки!☠!</Watcher_Content_Settings.settings.28.text>
   <Watcher_Content_Settings.settings.32.text>Для применения всех параметров требуется перезагрузка</Watcher_Content_Settings.settings.32.text>
 
 
+  <!--<Watcher_Content_Settings.settings.27.text>!☠!Тестовые функции, которые могут быть удалены из сборки!☠!</Watcher_Content_Settings.settings.27.text>-->
+  <!--<Watcher_Content_Settings.settings.28.label>Добавить отказ киберимплантатов и их лечение?</Watcher_Content_Settings.settings.28.label>-->
 
 </LanguageData>

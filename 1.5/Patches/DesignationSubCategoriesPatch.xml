@@ -8,6 +8,7 @@
 		<description>Fueled lights that need fuel for work.</description>
 		<defNames>
 			<li>TorchLamp</li>
+			<li>YadaritLamp2A</li>
 			<li>BowlLamp</li>
 			<li>WallTorch</li>
 			<li>Candle</li>

@@ -175,6 +175,14 @@
                 <tooltip>Adding a honey tree?</tooltip>
             </li>
 			
+			<li Class="XmlExtensions.Setting.Checkbox">
+                <key>AddingRecipesForProcessingYadarite</key>
+                <label>Add recipes for processing yadarite into metal or glowstone?</label>
+				<tKey>AddingRecipesForProcessingYadarite</tKey>
+                <defaultValue>false</defaultValue>
+                <tooltip>Add recipes for processing yadarite into metal or glowstone?</tooltip>
+            </li>
+			
 			 <li Class="XmlExtensions.Setting.GapLine"/>
 			   <li Class="XmlExtensions.Setting.Text">
                 <text>Test functions that may be removed from the build</text>

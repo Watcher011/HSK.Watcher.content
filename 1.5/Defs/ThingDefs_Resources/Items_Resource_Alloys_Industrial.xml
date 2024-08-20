@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>YadaritBar</defName>
+		<label>Ядарит сплав</label>
+		<description>Сплав из очищенного ядарита</description>
+		<graphicData>
+			<texPath>Things/Item/Ingot</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		<color>(125,50,100)</color>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>12</MarketValue>
+			<StuffPower_Armor_Blunt>1.8</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.9</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.08</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>0.9</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>-12</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>0.9</SharpDamageMultiplier>
+			<BluntDamageMultiplier>1.9</BluntDamageMultiplier>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Mass>0.4</Mass>
+			<Bulk>0.4</Bulk>
+		</statBases>
+		<useHitPoints>true</useHitPoints>
+		<thingCategories>
+			<li>SLDBar</li>
+		</thingCategories>
+		<stackLimit>400</stackLimit>
+		<smeltable>true</smeltable>
+		<stuffProps>
+			<stuffAdjective>Yadarit</stuffAdjective>
+			<appearance>Metal</appearance>
+			<categories>
+				<li>Metallic</li>
+				<li>StrongMetallic</li>
+				<li>RuggedMetallic</li>
+			</categories>
+			<constructEffect>ConstructMetal</constructEffect>
+			<color>(125,50,83)</color>
+			<commonality>1.9</commonality>			
+			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+			<statOffsets>
+				<Beauty>3.7</Beauty>
+			</statOffsets>
+			<statFactors>
+				<MaxHitPoints>2.35</MaxHitPoints>
+				<Flammability>0.1</Flammability>
+				<Beauty>3.7</Beauty>
+				<WorkToMake>1.7</WorkToMake>
+				<WorkToBuild>1.7</WorkToBuild>
+				<MeleeWeapon_CooldownMultiplier>1.5</MeleeWeapon_CooldownMultiplier>
+				<MoveSpeed>0.8</MoveSpeed>
+				<MarketValue>0.7</MarketValue>
+				<BedRestEffectiveness>0.4</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>0.25</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>0.8</WorkTableWorkSpeedFactor>
+				<DoorOpenSpeed>0.6</DoorOpenSpeed>
+				<MeleePenetrationFactor>0.45</MeleePenetrationFactor>
+				<Mass>1.7</Mass>
+			</statFactors>
+		</stuffProps>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+	</ThingDef>
+
+
+</Defs>

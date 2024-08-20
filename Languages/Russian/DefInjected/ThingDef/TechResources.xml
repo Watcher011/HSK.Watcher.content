@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <yadarit.label>Обработанный ядарит</yadarit.label>
+  <yadarit.description>Ядарит что очищен от сторонних примесей(крайне взрывоопасен).</yadarit.description>
+
+  <yadaritRaW.label>Сырой ядарит</yadaritRaW.label>
+  <yadaritRaW.description>Сырой ядарит что недавно был отделён от грибницы, без должной обработки распадётся на мало полезные ингредиенты (Хранить в дали от людей , крайне токсичен).</yadaritRaW.description>
+
+
+</LanguageData>
