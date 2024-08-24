@@ -910,11 +910,14 @@
 			<li>
 				<compClass>CompQuality</compClass>
 			</li>
+			
 			 <li Class="CompProperties_Glower">
         <overlightRadius>8.0</overlightRadius>
         <glowRadius>8.0</glowRadius>
        <glowColor>(155,155,233,0)</glowColor>
       </li>
+	  
+
 		</comps>
 		<building>
 			<uninstallWork>300</uninstallWork>

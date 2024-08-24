@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<!-- =====AI manned turrets===== -->
+
+	<ThingDef ParentName="TurretBase">
+		<defName>Turret_AlienTurret</defName>
+		<label>UA 571-C Дистанционный Часовой</label>
+		<graphicData>
+			<texPath>Things/Building/Security/AlienTurret</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(0.27,0.25,0.27)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/AlienTurret_Icon</uiIconPath>
+		<statBases>
+			<Beauty>12</Beauty>
+			<WorkToBuild>610</WorkToBuild>
+			<Bulk>12</Bulk>
+			<Mass>14</Mass>
+		</statBases>
+		 
+		<comps>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Stunnable">
+				<affectedDamageDefs>
+					<li>Stun</li>
+					<li>EMP</li>
+				</affectedDamageDefs>
+			</li>
+			 <li Class="CompProperties_Refuelable">
+			<fuelLabel>Заряды батареи</fuelLabel>
+			<fuelGizmoLabel>Уровень заряда</fuelGizmoLabel>
+			<outOfFuelMessage>Не может стрелять : нужны заряды</outOfFuelMessage>
+			<fuelFilter><thingDefs><li>Hexcell</li></thingDefs></fuelFilter>
+			<fuelCapacity>3</fuelCapacity>       <!-- 140 shoots -->
+			<fuelMultiplier>1</fuelMultiplier> <!-- 140 human meat per full rearm -->
+			<initialFuelPercent>1</initialFuelPercent>
+			<autoRefuelPercent>0.25</autoRefuelPercent>
+			<showFuelGizmo>true</showFuelGizmo>
+			<minimumFueledThreshold>1</minimumFueledThreshold>
+			<factorByDifficulty>false</factorByDifficulty>
+			<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+			<fuelIconPath>Things/Item/HexCell</fuelIconPath>
+		  </li>
+		</comps>
+		<description>Автоматическая охранная система, предназначенная для секторной обороны объектов и защиты периметра охраняемой зоны. Часто применяется силами USCMC и устанавливается в узловых точках на потенциально опасных направлениях. Представляет собой автоматическую турель для крепления импульсных пулеметов, обеспечивающую с помощью специальных систем и силовых приводов их наводку в горизонтальной и вертикальной плоскостях, а также секторный обстрел. Установка защищена от попадания влаги и отличается малой отдачей и большим запасом патронов.\nCaliber: 5.56x45mm NATO</description>
+		<stuffCategories>
+			<li>RuggedMetallic</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
+		<costList>
+			<SentryTurret_Crate>1</SentryTurret_Crate>
+			<Hexcell>3</Hexcell>
+		</costList>
+		<specialDisplayRadius>3</specialDisplayRadius>
+		<designationCategory>Security</designationCategory>
+		<building>
+			<ai_combatDangerous>false</ai_combatDangerous>
+			<turretGunDef>Gun_AlienTurret</turretGunDef>
+			<turretTopDrawSize>2</turretTopDrawSize>
+		</building>
+		<designationHotKey>Misc1</designationHotKey>
+		<tradeTags>
+			<li>CE_Turret</li>
+		</tradeTags>
+		<minifiedDef>MinifiedTurretGun</minifiedDef>
+		<researchPrerequisites>
+			<li>GunTurrets</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+	</ThingDef>
+
+
+ <ThingDef ParentName="BaseAutoTurretGun">
+		<defName>Gun_AlienTurret</defName>
+		<label>UA 571-C</label>
+		<graphicData>
+			<texPath>Things/Building/Security/AlienTurret_Top</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- <menuHidden>True</menuHidden> -->
+		<description>Jury-rigged automatic gun attached to a turret.</description>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<tradeability>None</tradeability>
+		<statBases>
+			<SightsEfficiency>1.45</SightsEfficiency>
+			<ShotSpread>0.02</ShotSpread>
+			<SwayFactor>0.80</SwayFactor>
+			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+			<DeteriorationRate>0</DeteriorationRate>
+		</statBases>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+
+				<recoilAmount>2.96</recoilAmount>
+				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_556x45mmNATO_FMJ</defaultProjectile>
+				<warmupTime>0.90</warmupTime>
+				<range>30</range>
+				<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+				<burstShotCount>6</burstShotCount>
+				<soundCast>GunShotA</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<recoilPattern>Mounted</recoilPattern>
+				<consumeFuelPerShot>0.01</consumeFuelPerShot>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>500</magazineSize>
+				<reloadTime>10.00</reloadTime>
+				<ammoSet>AmmoSet_556x45mmNATO</ammoSet>
+			</li>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<aimedBurstShotCount>6</aimedBurstShotCount>
+				<aiUseBurstMode>FALSE</aiUseBurstMode>
+				<aiAimMode>Snapshot</aiAimMode>
+				<noSnapshot>true</noSnapshot>
+				<noSingleShot>true</noSingleShot>
+			</li>
+		</comps>
+	</ThingDef>
+  
+</Defs>

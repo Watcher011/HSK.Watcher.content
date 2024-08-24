@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+
+
+  <ThingDef ParentName="TreeBase">
+    <defName>Plant_TreeBioHarbinger</defName>
+    <label>Терник</label>
+    <description>Терник - кровожадное растение что медленно преобразует тела в биоматерию.</description>
+    <thingClass>HarbingerTree</thingClass>
+    <graphicData>
+      <graphicClass>Graphic_Indexed</graphicClass>
+      <texPath>Things/Plant/TreeBioHarbinger</texPath>
+      <shadowData>
+        <volume>(0.4, 0.3, 0.1)</volume>
+        <offset>(0,0,-0.3)</offset>
+      </shadowData>
+    </graphicData>
+    <minifiedDef IsNull="True" />
+    <statBases>
+      <Beauty>-12</Beauty>
+      <BeautyOutdoors>-12</BeautyOutdoors>
+      <Flammability>0</Flammability>
+      <MaxHitPoints>230</MaxHitPoints>
+    </statBases>
+    <ingestible />
+    <neverMultiSelect>false</neverMultiSelect>
+    <preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
+    <canScatterOver>false</canScatterOver>
+    <plant>
+      <pollution>Any</pollution>
+      <growDays>10</growDays>
+      <visualSizeRange>1.5~2.1</visualSizeRange>
+      <sowMinSkill>0</sowMinSkill>
+      <sowTags Inherit="False"/>
+      <lifespanDaysPerGrowDays>0</lifespanDaysPerGrowDays>
+      <fertilityMin>0.5</fertilityMin>
+      <fertilitySensitivity>0.5</fertilitySensitivity>
+      <wildClusterWeight>0</wildClusterWeight>
+      <sowWork>400</sowWork>
+      <harvestYield>15</harvestYield>
+      <harvestedThingDef>Biomatter</harvestedThingDef>
+      <treeCategory>Super</treeCategory>
+      <dieIfNoSunlight>false</dieIfNoSunlight>
+      <growMinGlow>0</growMinGlow>
+      <sowResearchPrerequisites Inherit="False" />
+      <dieFromToxicFallout>False</dieFromToxicFallout>
+      <showGrowthInInspectPane>true</showGrowthInInspectPane>
+      <minSpacingBetweenSamePlant>4.9</minSpacingBetweenSamePlant>
+      <harvestWork>1000</harvestWork>
+      <choppedThingDef>ChoppedStump_BioHarbinger</choppedThingDef>
+      <smashedThingDef>SmashedStump_BioHarbinger</smashedThingDef>
+    </plant>
+    <comps>
+      <li Class="CompProperties_SelfhealHitpoints">
+        <ticksPerHeal>2000</ticksPerHeal> <!-- 30 hp per day, must be a multiple of 2000, since plants have Long ticker -->
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="StumpChoppedBase">
+    <defName>ChoppedStump_BioHarbinger</defName>
+    <label>рубленый пень терника</label>
+    <description>Пень, оставшийся после того, как срубили куст терника. Пень можно извлечь, но он дает очень мало пригодного материала. Оставленный на открытом воздухе, пень со временем испортится.</description>
+    <graphicData>
+      <texPath>Things/Plant/Stumps/StumpChopped_HarbingerTree</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="StumpSmashedBase">
+    <defName>SmashedStump_BioHarbinger</defName>
+    <label>раздробленный пень терника</label>
+    <description>Остатки куста терника, уничтоженного повреждением. Это уродливо. Пень можно вытащить, но он дает очень мало полезного материала. Оставленный на улице, пень со временем испортится.</description>
+    <graphicData>
+      <texPath>Things/Plant/Stumps/StumpSmashed_HarbingerTree</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+  
+  
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>BioHarbingeSeed</defName>
+    <label>Семя терника</label>
+    <description>Семя куста терника. Его можно посадить, чтобы вырастить новое дерево-предвестник, которое будет есть любые трупы или мясо, размещенные поблизости..</description>
+    <descriptionHyperlinks>
+      <ThingDef>Plant_TreeBioHarbinger</ThingDef>
+    </descriptionHyperlinks>
+    <stackLimit>5</stackLimit>
+    <statBases>
+      <MaxHitPoints>40</MaxHitPoints>
+      <Mass>0.5</Mass>
+      <Beauty>0</Beauty>
+      <MarketValue>600</MarketValue>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Item/BioHarbingeSeed</texPath>
+       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1, 1)</drawSize>
+    </graphicData>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Plantable">
+        <plantDefToSpawn>Plant_TreeBioHarbinger</plantDefToSpawn>
+      </li>
+    </comps>
+  </ThingDef>
+  
+</Defs>

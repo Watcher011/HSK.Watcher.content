@@ -127,4 +127,27 @@
 	</ArchitectSense.DesignationSubCategoryDef>
 		</value>
 	</Operation>
+	
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs</xpath>
+		<value>
+		<ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_SentryTurrets</defName>
+		<label>sentry turrets</label>
+		<description>An AI-controlled turret that automatically fires at nearby enemies.</description>
+		<defNames>
+	     	<li>Turret_AlienTurret</li>
+			<li>Turret_MiniTurret</li>
+			<li>Turret_Autocannon</li>
+			<li>Turret_Blaster</li>
+			<li>Turret_Sniper</li>
+			<li>NavalGunTurretGun</li>
+			<li>Turret_SentryRocketLauncher</li>
+		</defNames>
+		<designationCategory>Security</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+		</value>
+	</Operation>
 </Patch>
