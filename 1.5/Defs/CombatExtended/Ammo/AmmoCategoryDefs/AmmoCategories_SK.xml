@@ -7,11 +7,5 @@
     <description>Supercooled helium.</description>
   </CombatExtended.AmmoCategoryDef>
   
-   <CombatExtended.AmmoCategoryDef>
-    <defName>HellF</defName>
-    <label>Tears of the sun</label>
-    <labelShort>CC</labelShort>
-    <description>A wild mixture of chemicals that burns like plasma.</description>
-  </CombatExtended.AmmoCategoryDef>
   
 </Defs>

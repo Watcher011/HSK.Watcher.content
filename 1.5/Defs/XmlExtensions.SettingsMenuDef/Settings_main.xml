@@ -135,13 +135,7 @@
 			
 		 <li Class="XmlExtensions.Setting.GapLine"/>
 	 
-		<li Class="XmlExtensions.Setting.Checkbox">
-                <key>AddTearsOfTheSun</key>
-                <label>Replacing the Ashbringer's ammunition with an enhanced version of napalm ?</label>
-				<tKey>AddTearsOfTheSun</tKey>
-                <defaultValue>true</defaultValue>
-                <tooltip>Add napalm - tears of the sun?</tooltip>
-            </li>
+		
 			
 			<li Class="XmlExtensions.Setting.Checkbox">
                 <key>AddingOrganTransplantsForAndroids</key>
@@ -190,15 +184,7 @@
                 <font>Medium</font>
                 <anchor>Middle</anchor>
             </li>
-			<!--
-			<li Class="XmlExtensions.Setting.Checkbox">
-                <key>CyberImplant</key>
-                <label>Adding cyber implant failure and treatment ?</label>
-				<tKey>CyberImplant</tKey>
-                <defaultValue>true</defaultValue>
-                <tooltip>This is a test function, not recommended for play.</tooltip>
-            </li>
-			-->
+			
 		
             <li Class="XmlExtensions.Setting.GapLine"/>
             <li Class="XmlExtensions.Setting.ResetSettings"/>

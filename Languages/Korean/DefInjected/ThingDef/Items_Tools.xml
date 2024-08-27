@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TFJ_Tool_Carr.label>Тележка</TFJ_Tool_Carr.label>
+  <TFJ_Tool_Carr.description>Ручная тележка — приспособление для ручной перевозки грузов. Состоит из колёс (их количество зависит от модификации и назначения тележки), рамы в разных вариантах и ручек для удобного хвата.</TFJ_Tool_Carr.description>
+  <TFJ_Tool_Carr.tools.0.label>shaft</TFJ_Tool_Carr.tools.0.label>
+
+
+</LanguageData>

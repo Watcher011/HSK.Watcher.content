@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Watcher_Content_Settings.label>Watcher Content Settings</Watcher_Content_Settings.label>
+  <Watcher_Content_Settings.settings.1.text>Difficulty</Watcher_Content_Settings.settings.1.text>
+  <Watcher_Content_Settings.settings.2.label>Add alcohol to recipes?</Watcher_Content_Settings.settings.2.label>
+  <Watcher_Content_Settings.settings.3.label>Add Bleeding of Corpses?</Watcher_Content_Settings.settings.3.label>
+  <Watcher_Content_Settings.settings.5.label>Add Building a blast door?</Watcher_Content_Settings.settings.5.label>
+  <Watcher_Content_Settings.settings.6.label>Do we sort the mines into boxes or just let them lie around?</Watcher_Content_Settings.settings.6.label>
+  <Watcher_Content_Settings.settings.8.label>Adding soft walls?</Watcher_Content_Settings.settings.8.label>
+  <Watcher_Content_Settings.settings.9.label>Adding glowestone walls?</Watcher_Content_Settings.settings.9.label>
+  <Watcher_Content_Settings.settings.10.label>Column with a girl and or cat (Texture selection)</Watcher_Content_Settings.settings.10.label>
+  <Watcher_Content_Settings.settings.12.label>Add positive effects for rugs?</Watcher_Content_Settings.settings.12.label>
+  <Watcher_Content_Settings.settings.13.label>Adding storage of toxic packages?</Watcher_Content_Settings.settings.13.label>
+  <Watcher_Content_Settings.settings.15.label>Use alcohol in a healer's lamp?</Watcher_Content_Settings.settings.15.label>
+  <Watcher_Content_Settings.settings.16.label>Disable the bug with the healer's lamp?</Watcher_Content_Settings.settings.16.label>
+  <Watcher_Content_Settings.settings.18.label>Add Bombardier to cocoons</Watcher_Content_Settings.settings.18.label>
+  <Watcher_Content_Settings.settings.19.label>Add Bombardier to Raid</Watcher_Content_Settings.settings.19.label>
+  <Watcher_Content_Settings.settings.21.label>Adding organ transplants for androids ?</Watcher_Content_Settings.settings.21.label>
+  <Watcher_Content_Settings.settings.22.label>Adding Rimatomics RTG Radiation ?</Watcher_Content_Settings.settings.22.label>
+  <Watcher_Content_Settings.settings.23.label>Adding variety to tea products?</Watcher_Content_Settings.settings.23.label>
+  <Watcher_Content_Settings.settings.24.label>Adding a honey tree?</Watcher_Content_Settings.settings.24.label>
+  <Watcher_Content_Settings.settings.25.label>Add recipes for processing yadarite into metal or glowstone?</Watcher_Content_Settings.settings.25.label>
+  <Watcher_Content_Settings.settings.27.text>Test functions that may be removed from the build</Watcher_Content_Settings.settings.27.text>
+  <Watcher_Content_Settings.settings.31.text>All options require restart to apply</Watcher_Content_Settings.settings.31.text>
+
+
+</LanguageData>

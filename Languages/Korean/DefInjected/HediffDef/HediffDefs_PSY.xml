@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PSY_Bright.label>Psi resonance</PSY_Bright.label>
+  <PSY_Bright.description>Harmonic vibrations of psi waves that the heart emits accelerates the restoration of your energy</PSY_Bright.description>
+  <PSY_Bright.labelNoun>Psi resonance</PSY_Bright.labelNoun>
+
+  <PSY_noise.label>Psi noise</PSY_noise.label>
+  <PSY_noise.description>The disgusting buzzing noise prevents me from concentrating.</PSY_noise.description>
+  <PSY_noise.labelNoun>Psi noise</PSY_noise.labelNoun>
+
+
+</LanguageData>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BargestHead.label>Head of Bagest</BargestHead.label>
+  <BargestHead.description>A creepy trophy in the form of the severed head of a scary monster. The glassy eyes are creepy even after the death of the giant.</BargestHead.description>
+
+  <BehirHead.label>Behir's head</BehirHead.label>
+  <BehirHead.description>An incredible trophy in the form of the severed head of a purple dracoen, does this really happen? Is he really real? The glassy eyes are creepy even after the death of the giant.</BehirHead.description>
+
+  <KirinHead.label>Kirin's head</KirinHead.label>
+  <KirinHead.description>An incredible trophy in the form of Kirin’s severed head. Touching the fluffy fur leaves a slight frost. The glassy eyes are creepy even after the death of the giant.</KirinHead.description>
+
+  <WyvernHead.label>Wyvern Head</WyvernHead.label>
+  <WyvernHead.description>An incredible trophy in the form of the severed head of a green dragon. Touching the scales is mesmerizing. The glassy eyes are terrifying even after the death of the giant.</WyvernHead.description>
+
+  <ThrumboHead.label>Trumbo head</ThrumboHead.label>
+  <ThrumboHead.description>An incredible trophy in the form of the severed head of a furry giant. Touching the snow-white fur gives rise to thoughts of snowy plains. Glassy eyes are creepy even after the death of the giant.</ThrumboHead.description>
+
+  <FeenixHead.label>Phoenix head</FeenixHead.label>
+  <FeenixHead.description>An incredible trophy in the form of the severed head of a fiery dragon. Touching the scales gives rise to thoughts of lava rivers. The glassy eyes are creepy even after the death of the giant.</FeenixHead.description>
+
+  <InsectHead.label>Queen bug head</InsectHead.label>
+  <InsectHead.description>A creepy trophy in the form of the severed head of a scary monster. The glassy eyes are creepy even after the death of the giant.</InsectHead.description>
+
+  <LivingSun.label>Heart of baguest</LivingSun.label>
+  <LivingSun.description>The living heart of the creature of darkness that contains sparks of light.</LivingSun.description>
+
+  <PsyHeart.label>Behir's heart</PsyHeart.label>
+  <PsyHeart.description>The living heart of a behir, from time to time releases a psi impulse, this can probably be used.</PsyHeart.description>
+
+  <ToxHeart.label>Wyvern's heart</ToxHeart.label>
+  <ToxHeart.description>The living heart of a Wyvern, cleanses the area of ​​toxins, this can probably be used.</ToxHeart.description>
+
+
+</LanguageData>

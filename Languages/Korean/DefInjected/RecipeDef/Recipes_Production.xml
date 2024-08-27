@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Make_EthanolFromAlcohol.label>Дистилляция спирта из алкогольных напитков</Make_EthanolFromAlcohol.label>
+  <Make_EthanolFromAlcohol.description>Дистилляция - это процесс в ходе, которого летучие компоненты (пары) испаряются из перебродившей смеси и конденсируются, превращаясь в спирт.</Make_EthanolFromAlcohol.description>
+  <Make_EthanolFromAlcohol.jobString>перегонка</Make_EthanolFromAlcohol.jobString>
+
+
+</LanguageData>

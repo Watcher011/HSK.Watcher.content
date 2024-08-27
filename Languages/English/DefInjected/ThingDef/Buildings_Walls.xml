@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<Walltextile.label>Wall</Walltextile.label>
-<Walltextile.description>A simple wall that can support a roof is made of fabric.</Walltextile.description>
+  <!--<Walltextile.label>Wall</Walltextile.label>-->
+  <!--<Walltextile.description>A simple wall that can support a roof is made of fabric.</Walltextile.description>-->
 
-<WallcomKristal.label>Wall with glowstone</WallcomKristal.label>
-<WallcomKristal.description>A simple wall decorated with glowstone that can support a roof.</WallcomKristal.description>
+  <!--<WallcomKristal.label>Wall with glowstone</WallcomKristal.label>-->
+  <!--<WallcomKristal.description>A simple wall decorated with glowstone that can support a roof.</WallcomKristal.description>-->
 
 
-<WallcomKristalReinforced.label>Reinforced wall with glowstone</WallcomKristalReinforced.label>
-<WallcomKristalReinforced.description>Reinforced wall decorated with glowstone that can support the roof.</WallcomKristalReinforced.description>
+  <!--<WallcomKristalReinforced.label>Reinforced wall with glowstone</WallcomKristalReinforced.label>-->
+  <!--<WallcomKristalReinforced.description>Reinforced wall decorated with glowstone that can support the roof.</WallcomKristalReinforced.description>-->
 
 </LanguageData>

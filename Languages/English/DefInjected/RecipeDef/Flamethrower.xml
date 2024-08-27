@@ -3,9 +3,9 @@
 
   <!-- Recipes -->
 
-  <MakeAmmo_Flamethrower_sun.label>Make Tears of the Sun x100</MakeAmmo_Flamethrower_sun.label>
-  <MakeAmmo_Flamethrower_sun.description>Make 100 Tears of the Sun.</MakeAmmo_Flamethrower_sun.description>
-  <MakeAmmo_Flamethrower_sun.jobString>Creates Tears of the Sun.</MakeAmmo_Flamethrower_sun.jobString>
+  <!--<MakeAmmo_Flamethrower_sun.label>Make Tears of the Sun x100</MakeAmmo_Flamethrower_sun.label>-->
+  <!--<MakeAmmo_Flamethrower_sun.description>Make 100 Tears of the Sun.</MakeAmmo_Flamethrower_sun.description>-->
+  <!--<MakeAmmo_Flamethrower_sun.jobString>Creates Tears of the Sun.</MakeAmmo_Flamethrower_sun.jobString>-->
 
 
 </LanguageData>

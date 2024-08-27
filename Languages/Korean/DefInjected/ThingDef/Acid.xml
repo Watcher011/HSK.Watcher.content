@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_Acid.label>Acid chemfuel</Ammo_Acid.label>
+  <Ammo_Acid.description>Acid.</Ammo_Acid.description>
+
+  <Ammo_Cocon.label>Cocon chemfuel</Ammo_Cocon.label>
+  <Ammo_Cocon.description>Acid.</Ammo_Cocon.description>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_Acid.label>jellied chemfuel stream</Bullet_Acid.label>
+  <Bullet_Cocon.label>Cocon</Bullet_Cocon.label>
+
+
+</LanguageData>

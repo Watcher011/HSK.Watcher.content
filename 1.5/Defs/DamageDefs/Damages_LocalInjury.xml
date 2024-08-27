@@ -3,43 +3,6 @@
 
 	
 
-	<DamageDef ParentName="Flame">
-		<defName>SunFlame</defName>
-		<label>Магма</label>
-		<additionalHediffs>
-			<li>
-				<hediff>SunSoaked</hediff>
-				<severityPerDamageDealt>0.15</severityPerDamageDealt>
-			</li>
-		</additionalHediffs>
-	</DamageDef>
-
-	 <DamageDef>
-    <defName>VaporizePlasma</defName>
-    <label>испрён</label>
-    <workerClass>DamageWorker_Vaporize</workerClass>
-    <externalViolence>true</externalViolence>
-    <deathMessage>{0} был испарён.</deathMessage>
-    <hediff>Burn</hediff>
-    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
-    <defaultDamage>1800</defaultDamage>
-    <defaultStoppingPower>15.5</defaultStoppingPower>
-    <defaultArmorPenetration>50</defaultArmorPenetration>
-    <buildingDamageFactorImpassable>9</buildingDamageFactorImpassable>
-    <buildingDamageFactorPassable>6</buildingDamageFactorPassable>
-    <plantDamageFactor>8</plantDamageFactor>
-    <explosionHeatEnergyPerCell>20</explosionHeatEnergyPerCell>
-    <explosionCellFleck>Fleck_Vaporize</explosionCellFleck>
-    <armorCategory>Heat</armorCategory>
-    <minDamageToFragment>15</minDamageToFragment>
-    <makesAnimalsFlee>true</makesAnimalsFlee>
-    <explosionColorCenter>(1, 1, 1)</explosionColorCenter>
-    <explosionColorEdge>(0.4, 0.3, 0.9)</explosionColorEdge>
-    <soundExplosion>Explosion_Vaporize</soundExplosion>
-    <expolosionPropagationSpeed>0.3</expolosionPropagationSpeed>
-    <hasForcefulImpact>true</hasForcefulImpact>
-    <corpseDamageFactor>0.1</corpseDamageFactor>
-  </DamageDef>
 
 <DamageDef ParentName="Flame">
     <defName>Xray</defName>

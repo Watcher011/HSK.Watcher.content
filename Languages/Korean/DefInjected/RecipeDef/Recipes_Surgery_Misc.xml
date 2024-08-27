@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TreatmentOfInfection.label>Treatment of infection</TreatmentOfInfection.label>
+  <TreatmentOfInfection.description>Carrying out a wide range of procedures to combat infection.</TreatmentOfInfection.description>
+  <TreatmentOfInfection.jobString>Treats infection TargetA.</TreatmentOfInfection.jobString>
+  <TreatmentOfInfection.successfullyRemovedHediffMessage>{0} has successfully cured the infection on {1}.</TreatmentOfInfection.successfullyRemovedHediffMessage>
+
+
+</LanguageData>

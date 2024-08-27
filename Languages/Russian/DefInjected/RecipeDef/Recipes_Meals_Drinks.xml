@@ -1,25 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!--<BrewChipfir.label>Заварить Чифир</BrewChipfir.label>-->
-  <!--<BrewChipfir.description>Заварить 3 порции чифира.</BrewChipfir.description>-->
-  <!--<BrewChipfir.jobString>Варит чифир</BrewChipfir.jobString>-->
+ <BrewChipfir.label>Заварить Чифир</BrewChipfir.label>
+ <BrewChipfir.description>Заварить 3 порции чифира.</BrewChipfir.description>
+ <BrewChipfir.jobString>Варит чифир</BrewChipfir.jobString>
 
-  <!--<BrewChipfirBulk.label>Заварить тазик чифира</BrewChipfirBulk.label>-->
-  <!--<BrewChipfirBulk.description>Заварить тазик чифира на всю камеру. 12 порций.</BrewChipfirBulk.description>-->
-  <!--<BrewChipfirBulk.jobString>Варит чифир</BrewChipfirBulk.jobString>-->
+ <BrewChipfirBulk.label>Заварить тазик чифира</BrewChipfirBulk.label>
+ <BrewChipfirBulk.description>Заварить тазик чифира на всю камеру. 12 порций.</BrewChipfirBulk.description>
+ <BrewChipfirBulk.jobString>Варит чифир</BrewChipfirBulk.jobString>
 
-  <!--<BrewMintLeaves.label>Заварить успокаивающий чай с мятой</BrewMintLeaves.label>-->
-  <!--<BrewMintLeaves.description>Заварить 3 порции чаю с мятой.</BrewMintLeaves.description>-->
-  <!--<BrewMintLeaves.jobString>Заваривает чай</BrewMintLeaves.jobString>-->
+ <BrewMintLeaves.label>Заварить успокаивающий чай с мятой</BrewMintLeaves.label>
+ <BrewMintLeaves.description>Заварить 3 порции чаю с мятой.</BrewMintLeaves.description>
+ <BrewMintLeaves.jobString>Заваривает чай</BrewMintLeaves.jobString>
 
-  <!--<BrewRawPuer.label>Заварить чай Пуэр</BrewRawPuer.label>-->
-  <!--<BrewRawPuer.description>Заварить 3 порции чаю.</BrewRawPuer.description>-->
-  <!--<BrewRawPuer.jobString>Заваривает чай</BrewRawPuer.jobString>-->
+ <BrewRawPuer.label>Заварить чай Пуэр</BrewRawPuer.label>
+ <BrewRawPuer.description>Заварить 3 порции чаю.</BrewRawPuer.description>
+ <BrewRawPuer.jobString>Заваривает чай</BrewRawPuer.jobString>
 
-  <!--<BrewRawGreen.label>Заварить зелёный чай</BrewRawGreen.label>-->
-  <!--<BrewRawGreen.description>Заварить 3 порции чаю.Ходят слухи что помагает от паразитов.</BrewRawGreen.description>-->
-  <!--<BrewRawGreen.jobString>Заваривает чай</BrewRawGreen.jobString>-->
+ <BrewRawGreen.label>Заварить зелёный чай</BrewRawGreen.label>
+ <BrewRawGreen.description>Заварить 3 порции чаю.Ходят слухи что помагает от паразитов.</BrewRawGreen.description>
+ <BrewRawGreen.jobString>Заваривает чай</BrewRawGreen.jobString>
 
 
 </LanguageData>

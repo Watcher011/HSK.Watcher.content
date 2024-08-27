@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bio_Heater.label>BIO-Heater</Bio_Heater.label>
+  <Bio_Heater.description>Phoenix's heart, which is connected to a life support system, requires frequent replacement of the hematogen due to the difference in the amount of nutrients in the blood.</Bio_Heater.description>
+
+  <Bio_coller.label>BIO-Cooler</Bio_coller.label>
+  <Bio_coller.description>Kirin's heart, which is connected to a life support system, due to the difference in the amount of nutrients in the blood, requires frequent replacement of the hematogen.</Bio_coller.description>
+
+  <Bio_Sun.label>BIO-Sun</Bio_Sun.label>
+  <Bio_Sun.description>The hybridization procedure made it possible to create a light source from the Hearts of Kirin and Phoenix. It is necessary to be connected to a life support system; due to the difference in the amount of nutrients in the blood, it requires frequent replacement of the hematogen.</Bio_Sun.description>
+
+  <Bio_PSY.label>BIO-PSY</Bio_PSY.label>
+  <Bio_PSY.description>Behir's heart that creates psionic resonance.</Bio_PSY.description>
+
+  <Bio_cleaning.label>BIO-cleaning</Bio_cleaning.label>
+  <Bio_cleaning.description>The Wyvern's heart can absorb toxins over a huge radius.</Bio_cleaning.description>
+
+
+</LanguageData>
