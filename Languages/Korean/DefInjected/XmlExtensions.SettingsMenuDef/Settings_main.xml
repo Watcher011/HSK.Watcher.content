@@ -1,28 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Watcher_Content_Settings.label>Watcher Content Settings</Watcher_Content_Settings.label>
-  <Watcher_Content_Settings.settings.1.text>Difficulty</Watcher_Content_Settings.settings.1.text>
-  <Watcher_Content_Settings.settings.2.label>Add alcohol to recipes?</Watcher_Content_Settings.settings.2.label>
-  <Watcher_Content_Settings.settings.3.label>Add Bleeding of Corpses?</Watcher_Content_Settings.settings.3.label>
-  <Watcher_Content_Settings.settings.5.label>Add Building a blast door?</Watcher_Content_Settings.settings.5.label>
-  <Watcher_Content_Settings.settings.6.label>Do we sort the mines into boxes or just let them lie around?</Watcher_Content_Settings.settings.6.label>
-  <Watcher_Content_Settings.settings.8.label>Adding soft walls?</Watcher_Content_Settings.settings.8.label>
-  <Watcher_Content_Settings.settings.9.label>Adding glowestone walls?</Watcher_Content_Settings.settings.9.label>
-  <Watcher_Content_Settings.settings.10.label>Column with a girl and or cat (Texture selection)</Watcher_Content_Settings.settings.10.label>
-  <Watcher_Content_Settings.settings.12.label>Add positive effects for rugs?</Watcher_Content_Settings.settings.12.label>
-  <Watcher_Content_Settings.settings.13.label>Adding storage of toxic packages?</Watcher_Content_Settings.settings.13.label>
-  <Watcher_Content_Settings.settings.15.label>Use alcohol in a healer's lamp?</Watcher_Content_Settings.settings.15.label>
-  <Watcher_Content_Settings.settings.16.label>Disable the bug with the healer's lamp?</Watcher_Content_Settings.settings.16.label>
-  <Watcher_Content_Settings.settings.18.label>Add Bombardier to cocoons</Watcher_Content_Settings.settings.18.label>
-  <Watcher_Content_Settings.settings.19.label>Add Bombardier to Raid</Watcher_Content_Settings.settings.19.label>
-  <Watcher_Content_Settings.settings.21.label>Adding organ transplants for androids ?</Watcher_Content_Settings.settings.21.label>
-  <Watcher_Content_Settings.settings.22.label>Adding Rimatomics RTG Radiation ?</Watcher_Content_Settings.settings.22.label>
-  <Watcher_Content_Settings.settings.23.label>Adding variety to tea products?</Watcher_Content_Settings.settings.23.label>
-  <Watcher_Content_Settings.settings.24.label>Adding a honey tree?</Watcher_Content_Settings.settings.24.label>
-  <Watcher_Content_Settings.settings.25.label>Add recipes for processing yadarite into metal or glowstone?</Watcher_Content_Settings.settings.25.label>
-  <Watcher_Content_Settings.settings.27.text>Test functions that may be removed from the build</Watcher_Content_Settings.settings.27.text>
-  <Watcher_Content_Settings.settings.31.text>All options require restart to apply</Watcher_Content_Settings.settings.31.text>
-
+<Watcher_Content_Settings.label>Watcher 콘텐츠 설정</Watcher_Content_Settings.label>
+<Watcher_Content_Settings.settings.1.text>난이도</Watcher_Content_Settings.settings.1.text>
+<Watcher_Content_Settings.settings.2.label>레시피에 알코올을 추가할까요?</Watcher_Content_Settings.settings.2.label>
+<Watcher_Content_Settings.settings.3.label>시체 출혈을 추가할까요?</Watcher_Content_Settings.settings.3.label>
+<Watcher_Content_Settings.settings.5.label>폭파문 건설을 추가할까요?</Watcher_Content_Settings.settings.5.label>
+<Watcher_Content_Settings.settings.6.label>광산을 상자에 분류할까요? 아니면 그냥 주변에 놓아두는 게 어때요?</Watcher_Content_Settings.settings.6.label>
+<Watcher_Content_Settings.settings.8.label>부드러운 벽을 추가할까요?</Watcher_Content_Settings.settings.8.label>
+<Watcher_Content_Settings.settings.9.label>빛나는 돌 벽을 추가할까요?</Watcher_Content_Settings.settings.9.label>
+<Watcher_Content_Settings.settings.10.label>소녀 또는 고양이가 있는 기둥(텍스처 선택)</Watcher_Content_Settings.settings.10.label>
+<Watcher_Content_Settings.settings.12.label>러그에 긍정적인 효과를 추가할까요?</Watcher_Content_Settings.settings.12.label>
+<Watcher_Content_Settings.settings.13.label>저장소 추가 독성 패키지?</Watcher_Content_Settings.settings.13.label>
+<Watcher_Content_Settings.settings.15.label>힐러 램프에 알코올을 사용하시겠습니까?</Watcher_Content_Settings.settings.15.label>
+<Watcher_Content_Settings.settings.16.label>힐러 램프로 벌레를 비활성화하시겠습니까?</Watcher_Content_Settings.settings.16.label>
+<Watcher_Content_Settings.settings.18.label>고치에 폭격기를 추가하세요</Watcher_Content_Settings.settings.18.label>
+<Watcher_Content_Settings.settings.19.label>공격대에 폭격기를 추가하세요</Watcher_Content_Settings.settings.19.label>
+<Watcher_Content_Settings.settings.21.label>안드로이드에 장기 이식을 추가하시겠습니까?</Watcher_Content_Settings.settings.21.label>
+<Watcher_Content_Settings.settings.22.label>Rimatomics RTG 방사선을 추가하시겠습니까?</Watcher_Content_Settings.settings.22.label>
+<Watcher_Content_Settings.settings.23.label>차 제품에 다양성을 더하시겠습니까?</Watcher_Content_Settings.settings.23.label>
+<Watcher_Content_Settings.settings.24.label>꿀나무를 추가하시겠습니까?</Watcher_Content_Settings.settings.24.label>
+<Watcher_Content_Settings.settings.25.label>야다라이트를 금속으로 가공하는 레시피를 추가하거나 glowstone?</Watcher_Content_Settings.settings.25.label>
+<Watcher_Content_Settings.settings.27.text>빌드에서 제거될 수 있는 테스트 함수</Watcher_Content_Settings.settings.27.text>
+<Watcher_Content_Settings.settings.31.text>모든 옵션은 적용하려면 재시작이 필요합니다</Watcher_Content_Settings.settings.31.text>
 
 </LanguageData>

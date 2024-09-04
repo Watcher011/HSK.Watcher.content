@@ -3,11 +3,9 @@
 
   <!-- AI manned turrets -->
 
-  <Turret_AlienTurret.label>UA 571-C Дистанционный Часовой</Turret_AlienTurret.label>
-  <Turret_AlienTurret.description>Автоматическая охранная система, предназначенная для секторной обороны объектов и защиты периметра охраняемой зоны. Часто применяется силами USCMC и устанавливается в узловых точках на потенциально опасных направлениях. Представляет собой автоматическую турель для крепления импульсных пулеметов, обеспечивающую с помощью специальных систем и силовых приводов их наводку в горизонтальной и вертикальной плоскостях, а также секторный обстрел. Установка защищена от попадания влаги и отличается малой отдачей и большим запасом патронов.\nCaliber: 5.56x45mm NATO</Turret_AlienTurret.description>
+<Turret_AlienTurret.label>UA 571-C 원격 센티넬</Turret_AlienTurret.label>
+ <Turret_AlienTurret.description>물체의 구역 방어 및 보호 구역 주변 보호를 위해 설계된 자동 보안 시스템입니다. USCMC 부대에서 자주 사용하며 잠재적으로 위험한 방향의 주요 지점에 설치됩니다. 특수 시스템과 파워 드라이브를 사용하여 수평 및 수직 평면에서의 조준과 구역 사격을 보장하는 펄스 기관총 부착용 자동 포탑입니다. 이 유닛은 습기로부터 보호되며 반동이 낮고 탄약 공급량이 많습니다.\n구경: 5.56x45mm NATO</Turret_AlienTurret.description>
 
-  <Gun_AlienTurret.label>UA 571-C</Gun_AlienTurret.label>
-  <Gun_AlienTurret.description>Jury-rigged automatic gun attached to a turret.</Gun_AlienTurret.description>
-
-
+ <Gun_AlienTurret.label>UA 571-C</Gun_AlienTurret.label>
+ <Gun_AlienTurret.description>포탑에 부착된 심판원이 장착한 자동 총입니다.</Gun_AlienTurret.description>
 </LanguageData>

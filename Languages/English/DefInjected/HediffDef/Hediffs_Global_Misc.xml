@@ -2,27 +2,29 @@
 <LanguageData>
 
   <EthanolBlindness.label>Temporary blindness</EthanolBlindness.label>
-  <EthanolBlindness.description>Drinking dirty alcohol led to loss of vision</EthanolBlindness.description>
+  <EthanolBlindness.description>One of the short-term consequences of excessive alcohol consumption is vision loss.</EthanolBlindness.description>
   <EthanolBlindness.labelNoun>Temporary blindness</EthanolBlindness.labelNoun>
 
   <PhoenixRugAura.label>Warmth from the Phoenix Mat</PhoenixRugAura.label>
-  <PhoenixRugAura.description>One of the short-term effects of being near a phoenix skin is increased resistance to cold.</PhoenixRugAura.description>
+  <PhoenixRugAura.description>One of the short-term effects of being near a phoenix's skin is increased resistance to cold.</PhoenixRugAura.description>
   <PhoenixRugAura.labelNoun>Warmth from the rug</PhoenixRugAura.labelNoun>
 
-  <KirinRugAura.label>The coolness of the kirin mat</KirinRugAura.label>
-  <KirinRugAura.description>One of the short-term effects of being near a kirin skin is increased resistance to heat.</KirinRugAura.description>
+  <KirinRugAura.label>Coolness from the Kirin rug</KirinRugAura.label>
+  <KirinRugAura.description>One of the short-term effects of being near a kirin's skin is increased heat tolerance.</KirinRugAura.description>
   <KirinRugAura.labelNoun>Coolness from the rug</KirinRugAura.labelNoun>
 
-  <WyvernRugAura.label>Freshness from a wyvern rug</WyvernRugAura.label>
-  <WyvernRugAura.description>One of the short-term effects of being around a wyvern skin is an increased resistance to toxins.</WyvernRugAura.description>
-  <WyvernRugAura.labelNoun>Freshness from the mat</WyvernRugAura.labelNoun>
+  <WyvernRugAura.label>Freshness from the wyvern rug</WyvernRugAura.label>
+  <WyvernRugAura.description>One of the short-term effects of being near a wyvern hide is increased resistance to toxins.</WyvernRugAura.description>
+  <WyvernRugAura.labelNoun>Freshness from the rug</WyvernRugAura.labelNoun>
 
-  <BehirRugAura.label>Freshness from the mat</BehirRugAura.label>
-  <BehirRugAura.description>One of the short-term effects of being near the skin of a behir is increased mental abilities.</BehirRugAura.description>
+  <BehirRugAura.label>Concentration from the Behira mat</BehirRugAura.label>
+  <BehirRugAura.description>One of the short-term effects of being near a behir's skin is increased intelligence.
+	.</BehirRugAura.description>
   <BehirRugAura.labelNoun>Concentration from the mat</BehirRugAura.labelNoun>
 
-  <BagestRugAura.label>Darkvision from the baguette rug</BagestRugAura.label>
-  <BagestRugAura.description>One of the short-term effects of being near a baguette hide is an increased perception of light.</BagestRugAura.description>
+  <BagestRugAura.label>Darkness from the baguette rug</BagestRugAura.label>
+  <BagestRugAura.description>One of the short-term effects of being near a bagest skin is an increase in light perception.
+	.</BagestRugAura.description>
   <BagestRugAura.labelNoun>Darkvision from the rug</BagestRugAura.labelNoun>
 
   <Carpet_Bite.label>Strange bite</Carpet_Bite.label>

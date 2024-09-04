@@ -2,48 +2,46 @@
 <LanguageData>
 
   <!-- WallLights -->
+<KristalWallLamp.label>발광석 벽 램프</KristalWallLamp.label>
+ <KristalWallLamp.description>발광석으로 만든 벽 램프는 비싸고 풍부합니다.</KristalWallLamp.description>
 
-  <KristalWallLamp.label>Glowstone wall lamp</KristalWallLamp.label>
-  <KristalWallLamp.description>Wall lamp made of glowstone, expensive and rich.</KristalWallLamp.description>
+ <KristalWallLampDark.label>어두운 발광석 벽 램프</KristalWallLampDark.label>
+ <KristalWallLampDark.description>"어두운" 발광석으로 만든 벽 램프는 비싸고 풍부합니다.</KristalWallLampDark.description>
 
-  <KristalWallLampDark.label>Glowstone wall lamp dark</KristalWallLampDark.label>
-  <KristalWallLampDark.description>Wall lamp made of glowstone"dark", expensive and rich.</KristalWallLampDark.description>
+ <CeilingKristal.label>발광석 천장 램프</CeilingKristal.label>
+ <CeilingKristal.description>천장 발광석 램프</CeilingKristal.description>
 
-  <CeilingKristal.label>Glowstone сeiling lamp</CeilingKristal.label>
-  <CeilingKristal.description>Ceiling glowstone lamp.</CeilingKristal.description>
+ <CeilingKristalDark.label>발광석 천장 램프가 어두움</CeilingKristalDark.label>
+ <CeilingKristalDark.description>천장 야광석 어두운 램프</CeilingKristalDark.description>
 
-  <CeilingKristalDark.label>Glowstone сeiling lamp dark</CeilingKristalDark.label>
-  <CeilingKristalDark.description>Ceiling glowstone dark lamp.</CeilingKristalDark.description>
+ <ColumnKristal.label>columnKristal</ColumnKristal.label>
+ <ColumnKristal.description>Kristal 지붕을 지탱할 수 있는 기둥입니다. 시야나 움직임을 가리지 않으며 꽤 보기 좋습니다.</ColumnKristal.description>
 
-  <ColumnKristal.label>columnKristal</ColumnKristal.label>
-  <ColumnKristal.description>A column capable of holding a roof com Kristal. Does not block sight or movement and looks quite nice.</ColumnKristal.description>
+ <ColumnKristalDark.label>columnKristalDark</ColumnKristalDark.label>
+ <ColumnKristalDark.description>루프콤 다크 크리스탈을 담을 수 있는 기둥입니다. 시야나 움직임을 가리지 않으며 꽤 괜찮아 보입니다.</ColumnKristalDark.description>
 
-  <ColumnKristalDark.label>columnKristalDark</ColumnKristalDark.label>
-  <ColumnKristalDark.description>A column capable of holding a roof com Dark Kristal. Does not block sight or movement and looks quite nice.</ColumnKristalDark.description>
+ <HeadBarghestWall.label>바르게스트 트로피 헤드</HeadBarghestWall.label>
+ <HeadBarghestWall.description>패배한 몬스터의 트로피 머리</HeadBarghestWall.description>
 
-  <HeadBarghestWall.label>Trophy Head of Barghest</HeadBarghestWall.label>
-  <HeadBarghestWall.description>Trophy head of a defeated monster</HeadBarghestWall.description>
+ <HeadBehirtWall.label>베키르 트로피 헤드</HeadBehirtWall.label>
+ <HeadBehirtWall.description>패배한 몬스터의 트로피 머리</HeadBehirtWall.description>
 
-  <HeadBehirtWall.label>Trophy Head of Bekhir</HeadBehirtWall.label>
-  <HeadBehirtWall.description>Trophy head of a defeated monster</HeadBehirtWall.description>
+ <HeadKirinWall.label>기린 트로피 머리</HeadKirinWall.label>
+ <HeadKirinWall.description>패배한 몬스터의 트로피 머리</HeadKirinWall.description>
 
-  <HeadKirinWall.label>Trophy Head of Kirin</HeadKirinWall.label>
-  <HeadKirinWall.description>Trophy head of a defeated monster</HeadKirinWall.description>
+ <WyvernHeadWall.label>트로피 와이번 머리</WyvernHeadWall.label>
+ <WyvernHeadWall.description>패배한 몬스터의 트로피 머리</WyvernHeadWall.description>
 
-  <WyvernHeadWall.label>Trophy Wyvern Head</WyvernHeadWall.label>
-  <WyvernHeadWall.description>Trophy head of a defeated monster</WyvernHeadWall.description>
+ <ThrumboHeadWall.label>트로피 헤드 트럼보</ThrumboHeadWall.label>
+ <ThrumboHeadWall.description>패배한 몬스터의 트로피 머리</ThrumboHeadWall.description>
 
-  <ThrumboHeadWall.label>Trophy Head Trumbo</ThrumboHeadWall.label>
-  <ThrumboHeadWall.description>Trophy head of a defeated monster</ThrumboHeadWall.description>
+ <FeenixHeadWall.label>트로피 헤드 Feenix</FeenixHeadWall.label>
+ <FeenixHeadWall.description>죽인 몬스터의 트로피 머리</FeenixHeadWall.description>
 
-  <FeenixHeadWall.label>Trophy Head Feenix</FeenixHeadWall.label>
-  <FeenixHeadWall.description>Trophy head of a defeated monster</FeenixHeadWall.description>
+ <icecreamBasin.label>아이스크림 기계</icecreamBasin.label>
+ <icecreamBasin.description>냉동고 기계.</icecreamBasin.description>
 
-  <icecreamBasin.label>Автомат с мороженым</icecreamBasin.label>
-  <icecreamBasin.description>Морозильный автомат.</icecreamBasin.description>
-
-  <YadaritLamp2A.label>Кристальная Лампа</YadaritLamp2A.label>
-  <YadaritLamp2A.description>Светяшийся кристал в резной оболочке.</YadaritLamp2A.description>
-
+ <YadaritLamp2A.label>크리스탈 램프</YadaritLamp2A.label>
+ <YadaritLamp2A.description>조각된 껍질에 빛나는 크리스탈.</YadaritLamp2A.description>
 
 </LanguageData>

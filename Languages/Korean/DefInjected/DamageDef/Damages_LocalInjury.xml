@@ -1,17 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <SunFlame.label>Магма</SunFlame.label>
-  <SunFlame.deathMessage>{0} has been killed.</SunFlame.deathMessage>
+<Xray.label>방사선</Xray.label>
+ <Xray.deathMessage>{0}이(가) 사망했습니다.</Xray.deathMessage>
 
-  <VaporizePlasma.label>испрён</VaporizePlasma.label>
-  <VaporizePlasma.deathMessage>{0} был испарён.</VaporizePlasma.deathMessage>
-
-  <Xray.label>Радиоактивное излучение</Xray.label>
-  <Xray.deathMessage>{0} has been killed.</Xray.deathMessage>
-
-  <NeirotoxGas.label>Нейротоксин</NeirotoxGas.label>
-  <NeirotoxGas.deathMessage>{0} has been killed.</NeirotoxGas.deathMessage>
-
+ <NeirotoxGas.label>신경독소</NeirotoxGas.label>
+ <NeirotoxGas.deathMessage>{0}이(가) 사망했습니다.</NeirotoxGas.deathMessage>
 
 </LanguageData>

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <ShelfTox.label>Toxic waste container</ShelfTox.label>
-  <ShelfTox.description>A container that can safely store a large amount of toxic waste and causing it to decompose rather slowly... No... It's still not safe to store inside if you haven't treated it well, it will easily turn into a giant toxic bomb.</ShelfTox.description>
+  <ShelfTox.label>Container for toxic waste</ShelfTox.label>
+  <ShelfTox.description>A container that can safely store a large amount of toxic waste and because of which it decomposes quite slowly... No... It is still not safe to store inside if you have not handled it well, it will easily turn into a giant toxic bomb.</ShelfTox.description>
 
 
 </LanguageData>

@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <HiveAntis.label>Antis hive</HiveAntis.label>
-  <HiveAntis.description>A hive of Antis. If activated, it will spawn additional insects and hives over time, as well as valuable insect jelly.</HiveAntis.description>
-
-
+<HiveAntis.label>Antis 벌집</HiveAntis.label>
+<HiveAntis.description>Antis의 벌집입니다. 활성화되면 시간이 지남에 따라 추가 곤충과 벌집이 생성되고 귀중한 곤충 젤리도 생성됩니다.</HiveAntis.description>
 </LanguageData>

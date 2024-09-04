@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <SunFlame.label>Магма</SunFlame.label>
+<SunFlame.label>Магма</SunFlame.label>
   <SunFlame.deathMessage>{0} был испепелён.</SunFlame.deathMessage>
 
-  <VaporizePlasma.label>испрён</VaporizePlasma.label>
+  <VaporizePlasma.label>испарён</VaporizePlasma.label>
   <VaporizePlasma.deathMessage>{0} был испарён.</VaporizePlasma.deathMessage>
 
   <Xray.label>Радиоактивное излучение</Xray.label>
@@ -12,6 +12,5 @@
 
   <NeirotoxGas.label>Нейротоксин</NeirotoxGas.label>
   <NeirotoxGas.deathMessage>{0} был отравлен.</NeirotoxGas.deathMessage>
-
 
 </LanguageData>

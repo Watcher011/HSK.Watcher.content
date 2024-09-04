@@ -2,20 +2,16 @@
 <LanguageData>
 
   <CookMealFishAndBeer.label>Make beer with fish</CookMealFishAndBeer.label>
-  <CookMealFishAndBeer.description>Real food for men.</CookMealFishAndBeer.description>
-  <CookMealFishAndBeer.jobString>Trains.</CookMealFishAndBeer.jobString>
+  <CookMealFishAndBeer.description>Real man food.</CookMealFishAndBeer.description>
+  <CookMealFishAndBeer.jobString>Cooking.</CookMealFishAndBeer.jobString>
 
   <CookMealFishinplastic.label>Seal the fish in plastic</CookMealFishinplastic.label>
-  <CookMealFishinplastic.description>Seal the fish in plastic.</CookMealFishinplastic.description>
-  <CookMealFishinplastic.jobString>Trains.</CookMealFishinplastic.jobString>
+  <CookMealFishinplastic.description>Dry rations for hard times.</CookMealFishinplastic.description>
+  <CookMealFishinplastic.jobString>Cooking.</CookMealFishinplastic.jobString>
 
   <MakeYzvar.label>Cook the uzvar</MakeYzvar.label>
-  <MakeYzvar.description>Cook uzvar from dried fruits.</MakeYzvar.description>
+  <MakeYzvar.description>Cook dried fruit uzvar.</MakeYzvar.description>
   <MakeYzvar.jobString>Cooking uzvar.</MakeYzvar.jobString>
 
-
-  <!--<MinceHemogenPack.label>Bleeding</MinceHemogenPack.label>-->
-  <!--<MinceHemogenPack.description>Blood pumping.</MinceHemogenPack.description>-->
-  <!--<MinceHemogenPack.jobString>Butchering.</MinceHemogenPack.jobString>-->
 
 </LanguageData>

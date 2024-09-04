@@ -1,35 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <BargestHead.label>Head of Bagest</BargestHead.label>
-  <BargestHead.description>A creepy trophy in the form of the severed head of a scary monster. The glassy eyes are creepy even after the death of the giant.</BargestHead.description>
+<BargestHead.label>바게스트의 머리</BargestHead.label>
+<BargestHead.description>무서운 괴물의 잘린 머리 모양의 소름 돋는 트로피. 유리 같은 눈은 거인이 죽은 후에도 소름 돋습니다.</BargestHead.description>
 
-  <BehirHead.label>Behir's head</BehirHead.label>
-  <BehirHead.description>An incredible trophy in the form of the severed head of a purple dracoen, does this really happen? Is he really real? The glassy eyes are creepy even after the death of the giant.</BehirHead.description>
+<BehirHead.label>베히르의 머리</BehirHead.label>
+<BehirHead.description>보라색 드라코엔의 잘린 머리 모양의 놀라운 트로피, 이런 일이 정말 일어날까? 그는 정말 실존하는 걸까? 유리 같은 눈은 거인이 죽은 후에도 소름 돋습니다.</BehirHead.description>
 
-  <KirinHead.label>Kirin's head</KirinHead.label>
-  <KirinHead.description>An incredible trophy in the form of Kirin’s severed head. Touching the fluffy fur leaves a slight frost. The glassy eyes are creepy even after the death of the giant.</KirinHead.description>
+<KirinHead.label>키린의 머리</KirinHead.label>
+<KirinHead.description>키린의 잘린 머리 모양의 놀라운 트로피. 솜털 같은 털을 만지면 약간의 서리가 내립니다. 유리 같은 눈은 거인이 죽은 후에도 소름 돋습니다.</KirinHead.description>
 
-  <WyvernHead.label>Wyvern Head</WyvernHead.label>
-  <WyvernHead.description>An incredible trophy in the form of the severed head of a green dragon. Touching the scales is mesmerizing. The glassy eyes are terrifying even after the death of the giant.</WyvernHead.description>
+<WyvernHead.label>와이번 머리</WyvernHead.label>
+<WyvernHead.description>녹색 용의 잘린 머리 모양의 놀라운 트로피입니다. 비늘을 만지면 매혹적입니다. 유리 같은 눈은 거인이 죽은 후에도 무섭습니다.</WyvernHead.description>
 
-  <ThrumboHead.label>Trumbo head</ThrumboHead.label>
-  <ThrumboHead.description>An incredible trophy in the form of the severed head of a furry giant. Touching the snow-white fur gives rise to thoughts of snowy plains. Glassy eyes are creepy even after the death of the giant.</ThrumboHead.description>
+<ThrumboHead.label>트럼보 머리</ThrumboHead.label>
+<ThrumboHead.description>털이 많은 거인의 잘린 머리 모양의 놀라운 트로피입니다. 눈처럼 하얀 털을 만지면 눈 덮인 평야에 대한 생각이 떠오릅니다. 유리 같은 눈은 거인이 죽은 후에도 소름 돋습니다.</ThrumboHead.description>
 
-  <FeenixHead.label>Phoenix head</FeenixHead.label>
-  <FeenixHead.description>An incredible trophy in the form of the severed head of a fiery dragon. Touching the scales gives rise to thoughts of lava rivers. The glassy eyes are creepy even after the death of the giant.</FeenixHead.description>
+<FeenixHead.label>피닉스 머리</FeenixHead.label>
+<FeenixHead.description>불사조 머리 모양의 놀라운 트로피입니다. 비늘을 만지면 용암 강에 대한 생각이 떠오릅니다. 유리 같은 눈은 거인이 죽은 후에도 소름 돋습니다.</FeenixHead.description>
 
-  <InsectHead.label>Queen bug head</InsectHead.label>
-  <InsectHead.description>A creepy trophy in the form of the severed head of a scary monster. The glassy eyes are creepy even after the death of the giant.</InsectHead.description>
+<InsectHead.label>여왕 벌레 머리</InsectHead.label>
+<InsectHead.description>무서운 괴물의 머리 모양의 소름 돋는 트로피입니다. 유리 같은 눈은 거인이 죽은 후에도 소름 돋습니다.</InsectHead.description>
 
-  <LivingSun.label>Heart of baguest</LivingSun.label>
-  <LivingSun.description>The living heart of the creature of darkness that contains sparks of light.</LivingSun.description>
+<LivingSun.label>바게스트의 심장</LivingSun.label>
+<LivingSun.description>빛의 불꽃을 담고 있는 어둠의 생물의 살아있는 심장입니다.</LivingSun.description>
 
-  <PsyHeart.label>Behir's heart</PsyHeart.label>
-  <PsyHeart.description>The living heart of a behir, from time to time releases a psi impulse, this can probably be used.</PsyHeart.description>
+<PsyHeart.label>베히르의 심장</PsyHeart.label>
+<PsyHeart.description>베히르의 살아있는 심장은 때때로 사이오닉 임펄스를 방출하는데, 아마도 이것을 사용할 수 있을 것입니다.</PsyHeart.description>
 
-  <ToxHeart.label>Wyvern's heart</ToxHeart.label>
-  <ToxHeart.description>The living heart of a Wyvern, cleanses the area of ​​toxins, this can probably be used.</ToxHeart.description>
-
+<ToxHeart.label>와이번의 심장</ToxHeart.label>
+<ToxHeart.description>와이번의 살아있는 심장은 독소를 정화하는데, 아마도 이것을 사용할 수 있을 것입니다.</ToxHeart.description>
 
 </LanguageData>

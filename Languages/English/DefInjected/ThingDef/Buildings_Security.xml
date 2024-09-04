@@ -4,7 +4,7 @@
   <!-- AI manned turrets -->
 
   <Turret_AlienTurret.label>UA 571-C Remote Sentry</Turret_AlienTurret.label>
-  <Turret_AlienTurret.description>An automatic security system designed for sector defense of objects and protection of the perimeter of a protected area. Often used by USCMC forces and installed at key points in potentially dangerous directions. It is an automatic turret for mounting pulse machine guns, providing their aiming in the horizontal and vertical planes, as well as sector fire, using special systems and power drives. The installation is protected from moisture and has low recoil and a large supply of ammunition..\nCaliber: 5.56x45mm NATO</Turret_AlienTurret.description>
+  <Turret_AlienTurret.description>An automatic security system designed for sector defense of objects and protection of the perimeter of a protected area. Often used by USCMC forces and installed at key points in potentially dangerous areas. It is an automatic turret for mounting pulse machine guns, providing their aiming in the horizontal and vertical planes, as well as sector fire, using special systems and power drives. The installation is protected from moisture and has low recoil and a large supply of cartridges.\nCaliber: 5.56x45mm NATO</Turret_AlienTurret.description>
 
   <Gun_AlienTurret.label>UA 571-C</Gun_AlienTurret.label>
   <Gun_AlienTurret.description>Jury-rigged automatic gun attached to a turret.</Gun_AlienTurret.description>

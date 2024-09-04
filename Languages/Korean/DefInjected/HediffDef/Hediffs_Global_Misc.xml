@@ -1,39 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <EthanolBlindness.label>Временная слепота</EthanolBlindness.label>
-  <EthanolBlindness.description>Одним из краткосрочных последствий чрезмерного употребления алкоголя является потеря зрения.</EthanolBlindness.description>
-  <EthanolBlindness.labelNoun>Временная слепота</EthanolBlindness.labelNoun>
+ <EthanolBlindness.label>일시적 실명</EthanolBlindness.label>
+ <EthanolBlindness.description>과도한 음주로 인한 단기적인 결과 중 하나는 시력 상실입니다.</EthanolBlindness.description>
+ <EthanolBlindness.labelNoun>일시적 실명</EthanolBlindness.labelNoun>
 
-  <PhoenixRugAura.label>Тепло от коврика Феникса</PhoenixRugAura.label>
-  <PhoenixRugAura.description>Одним из краткосрочных последствий нахождения рядом с шкурой феникса является повышене устойчивости к холоду</PhoenixRugAura.description>
-  <PhoenixRugAura.labelNoun>Тепло от коврика</PhoenixRugAura.labelNoun>
+ <PhoenixRugAura.label>피닉스 러그의 따뜻함</PhoenixRugAura.label>
+ <PhoenixRugAura.description>피닉스 피부 근처에 있으면 단기적으로 나타나는 효과 중 하나는 추위에 대한 저항력이 증가하는 것입니다.</PhoenixRugAura.description>
+ <PhoenixRugAura.labelNoun>러그의 따뜻함</PhoenixRugAura.labelNoun>
 
-  <KirinRugAura.label>Прохлада от коврика кирина</KirinRugAura.label>
-  <KirinRugAura.description>Одним из краткосрочных последствий нахождения рядом с шкурой кирина является повышене устойчивости к жаре</KirinRugAura.description>
-  <KirinRugAura.labelNoun>Прохлада от коврика</KirinRugAura.labelNoun>
+ <KirinRugAura.label>기린 러그의 시원함</KirinRugAura.label>
+ <KirinRugAura.description>키린 피부 근처에 있으면 단기적으로 나타나는 효과 중 하나는 열에 대한 저항력이 증가하는 것입니다.</KirinRugAura.description>
+ <KirinRugAura.labelNoun>러그의 시원함</KirinRugAura.labelNoun>
 
-  <WyvernRugAura.label>Свежесть от коврика виверны</WyvernRugAura.label>
-  <WyvernRugAura.description>Одним из краткосрочных последствий нахождения рядом с шкурой виверны является повышене устойчивости к токсинам</WyvernRugAura.description>
-  <WyvernRugAura.labelNoun>Свежесть от коврика</WyvernRugAura.labelNoun>
+ <WyvernRugAura.label>와이번 러그의 신선함</WyvernRugAura.label>
+ <WyvernRugAura.description>와이번 피부 근처에 있으면 단기적으로 나타나는 효과 중 하나는 독소에 대한 저항력이 증가한다는 것입니다.</WyvernRugAura.description>
+ <WyvernRugAura.labelNoun>러그의 신선함</WyvernRugAura.labelNoun>
 
-  <BehirRugAura.label>Концентрация от коврика бехира</BehirRugAura.label>
-  <BehirRugAura.description>Одним из краткосрочных последствий нахождения рядом с шкурой бехира является повышене умственных способностей
-	.</BehirRugAura.description>
-  <BehirRugAura.labelNoun>Концентрация от коврика</BehirRugAura.labelNoun>
+ <BehirRugAura.label>베히르 러그의 집중력</BehirRugAura.label>
+ <BehirRugAura.description>베히르의 피부 근처에 있을 때 나타나는 단기 효과 중 하나는 정신 능력이 향상되는 것입니다.
+  .</BehirRugAura.description>
+ <BehirRugAura.labelNoun>매트의 농도</BehirRugAura.labelNoun>
 
-  <BagestRugAura.label>Темновидиние от коврика багеста</BagestRugAura.label>
-  <BagestRugAura.description>Одним из краткосрочных последствий нахождения рядом с шкурой багеста является повышене восприятия света
-	.</BagestRugAura.description>
-  <BagestRugAura.labelNoun>Темновидиние от коврика</BagestRugAura.labelNoun>
+ <BagestRugAura.label>바게스트 러그의 Darkvision</BagestRugAura.label>
+ <BagestRugAura.description>바게스트 가죽 근처에 있을 때 나타나는 단기 효과 중 하나는 빛에 대한 인식이 증가한다는 것입니다.
+  .</BagestRugAura.description>
+ <BagestRugAura.labelNoun>러그에서 나온 다크비전</BagestRugAura.labelNoun>
 
-  <Carpet_Bite.label>Strange bite</Carpet_Bite.label>
-  <Carpet_Bite.description>What was the carpet bite me? No, but it is better to accelerate.</Carpet_Bite.description>
-  <Carpet_Bite.labelNoun>Strange bite</Carpet_Bite.labelNoun>
+ <Carpet_Bite.label>이상한 물기</Carpet_Bite.label>
+ <Carpet_Bite.description>카펫이 나를 물린 이유는 무엇입니까? 아니요, 하지만 속도를 높이는 것이 더 좋습니다.</Carpet_Bite.description>
+ <Carpet_Bite.labelNoun>이상한 물기</Carpet_Bite.labelNoun>
 
-  <BeeBite.label>Bee bite</BeeBite.label>
-  <BeeBite.description>What was the bite me? It is better to accelerate.</BeeBite.description>
-  <BeeBite.labelNoun>Bee bite</BeeBite.labelNoun>
-
+ <BeeBite.label>벌 물림</BeeBite.label>
+ <BeeBite.description>나에게 물린 것은 무엇이었나요? 속도를 높이는 것이 좋습니다.</BeeBite.description>
+ <BeeBite.labelNoun>벌 물림</BeeBite.labelNoun>
 
 </LanguageData>

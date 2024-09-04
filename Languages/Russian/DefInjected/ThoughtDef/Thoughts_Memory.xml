@@ -2,16 +2,16 @@
 <LanguageData>
 
   <HadGFish.stages.0.label>Рыба, солёная, чего-то не хватает.</HadGFish.stages.0.label>
-  <HadGFish.stages.0.description>Хочется чего то к рыбе</HadGFish.stages.0.description>
+  <HadGFish.stages.0.description>Хочется чего-то к рыбе</HadGFish.stages.0.description>
 
   <HadGFishAndBear.stages.0.label>Рыбка с пивом</HadGFishAndBear.stages.0.label>
-  <HadGFishAndBear.stages.0.description>Я чувствую прилив энергии,я могу свернуть горы,а где тут туалет ?</HadGFishAndBear.stages.0.description>
+  <HadGFishAndBear.stages.0.description>Я чувствую прилив энергии, я могу свернуть горы, а где тут туалет ?</HadGFishAndBear.stages.0.description>
 
   <HadYzvar.stages.0.label>Натуральный продукт</HadYzvar.stages.0.label>
-  <HadYzvar.stages.0.description>Это что жук плавает ? так даже вкуснее.</HadYzvar.stages.0.description>
+  <HadYzvar.stages.0.description>Это что жук плавает ? Так даже вкуснее.</HadYzvar.stages.0.description>
 
-  <Hadchips.stages.0.label>Умм чипсы.</Hadchips.stages.0.label>
-  <Hadchips.stages.0.description>Хочется чего то чтоб запить</Hadchips.stages.0.description>
+  <Hadchips.stages.0.label>Мм чипсы.</Hadchips.stages.0.label>
+  <Hadchips.stages.0.description>Хочется чего-то, чтоб запить</Hadchips.stages.0.description>
 
   <HadGTea.stages.0.label>Выпит чай с мятой</HadGTea.stages.0.label>
   <HadGTea.stages.0.description>Этот чай дарит спокойствие</HadGTea.stages.0.description>
@@ -21,6 +21,5 @@
 
   <HadPuerT.stages.0.label>Выпит чай Пуэр</HadPuerT.stages.0.label>
   <HadPuerT.stages.0.description>Я чувствую как тело очищается</HadPuerT.stages.0.description>
-
 
 </LanguageData>

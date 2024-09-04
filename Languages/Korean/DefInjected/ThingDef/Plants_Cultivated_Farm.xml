@@ -2,9 +2,6 @@
 <LanguageData>
 
   <!-- Food crops -->
-
-  <Plant_RawAlgae.label>Водоросли</Plant_RawAlgae.label>
-  <Plant_RawAlgae.description>Нори — японское название различных съедобных видов красных водорослей из рода Порфира</Plant_RawAlgae.description>
-
-
+<Plant_RawAlgae.label>조류</Plant_RawAlgae.label>
+ <Plant_RawAlgae.description>Nori는 Porphyra 속의 다양한 식용 홍조류 종에 대한 일본식 이름입니다.</Plant_RawAlgae.description>
 </LanguageData>

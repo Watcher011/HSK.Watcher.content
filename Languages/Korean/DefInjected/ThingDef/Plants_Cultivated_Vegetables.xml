@@ -1,17 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Plant_TreeBioHarbinger.label>Терник</Plant_TreeBioHarbinger.label>
-  <Plant_TreeBioHarbinger.description>Терник - кровожадное растение что медленно преобразует тела в биоматерию.</Plant_TreeBioHarbinger.description>
+<Plant_TreeBioHarbinger.label>가시</Plant_TreeBioHarbinger.label>
+ <Plant_TreeBioHarbinger.description>가시는 피에 굶주린 식물로 신체를 천천히 생체물질로 변화시킵니다.</Plant_TreeBioHarbinger.description>
 
-  <ChoppedStump_BioHarbinger.label>рубленый пень терника</ChoppedStump_BioHarbinger.label>
-  <ChoppedStump_BioHarbinger.description>Пень, оставшийся после того, как срубили куст терника. Пень можно извлечь, но он дает очень мало пригодного материала. Оставленный на открытом воздухе, пень со временем испортится.</ChoppedStump_BioHarbinger.description>
+ <ChoppedStump_BioHarbinger.label>잘게 썬 가시 그루터기</ChoppedStump_BioHarbinger.label>
+ <ChoppedStump_BioHarbinger.description>가시나무를 자르고 남은 그루터기입니다. 그루터기는 제거할 수 있지만 사용 가능한 재료가 거의 생성되지 않습니다. 야외에 놔두면 시간이 지나면서 그루터기가 악화됩니다.</ChoppedStump_BioHarbinger.description>
 
-  <SmashedStump_BioHarbinger.label>раздробленный пень терника</SmashedStump_BioHarbinger.label>
-  <SmashedStump_BioHarbinger.description>Остатки куста терника, уничтоженного повреждением. Это уродливо. Пень можно вытащить, но он дает очень мало полезного материала. Оставленный на улице, пень со временем испортится.</SmashedStump_BioHarbinger.description>
+ <SmashedStump_BioHarbinger.label>으깬 가시 그루터기</SmashedStump_BioHarbinger.label>
+ <SmashedStump_BioHarbinger.description>피해로 파괴된 가시덤불의 잔해입니다. 추악하다. 그루터기는 뽑아낼 수 있지만 유용한 재료가 거의 제공되지 않습니다. 밖에 방치하면 시간이 지나면서 그루터기가 악화됩니다.</SmashedStump_BioHarbinger.description>
 
-  <BioHarbingeSeed.label>Семя терника</BioHarbingeSeed.label>
-  <BioHarbingeSeed.description>Семя куста терника. Его можно посадить, чтобы вырастить новое дерево-предвестник, которое будет есть любые трупы или мясо, размещенные поблизости..</BioHarbingeSeed.description>
-
+ <BioHarbingeSeed.label>가시 씨앗</BioHarbingeSeed.label>
+ <BioHarbingeSeed.description>가시나무 씨앗입니다. 근처에 있는 시체나 고기를 먹는 새로운 선구자 나무를 심기 위해 심을 수 있습니다.</BioHarbingeSeed.description>
 
 </LanguageData>

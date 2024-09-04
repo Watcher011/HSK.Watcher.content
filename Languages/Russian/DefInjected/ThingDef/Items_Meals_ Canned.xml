@@ -8,7 +8,7 @@
   <DruFish.description>Процесс состоит из двух этапов: засолка и сушка. Засолка обязательна для продукта без термической обработки: соль уничтожит паразитов, если они есть в рыбе, и затормозит процессы разложения.</DruFish.description>
 
   <DruFishPlastic.label>Сушеная солёная рыба в упаковке</DruFishPlastic.label>
-  <DruFishPlastic.description>Процесс состоит из трёх этапов: засолка , сушка и упаковка. Засолка обязательна для продукта без термической обработки: соль уничтожит паразитов, если они есть в рыбе, и затормозит процессы разложения.После упаковки в пластик можно хранить почти вечно.</DruFishPlastic.description>
+  <DruFishPlastic.description>Процесс состоит из трёх этапов: засолка, сушка и упаковка. Засолка обязательна для продукта без термической обработки: соль уничтожит паразитов, если они есть в рыбе, и затормозит процессы разложения. После упаковки в пластик можно хранить почти вечно.</DruFishPlastic.description>
 
   <MealFishAndBeer.label>Пиво с сушеной рыбкой</MealFishAndBeer.label>
   <MealFishAndBeer.description>Пиво и рыба словно созданы друг для друга.</MealFishAndBeer.description>
@@ -22,7 +22,7 @@
   <Druchips.description>Сушеные чипсы - закуска, представляющая собой тонкие ломтики картофеля.</Druchips.description>
 
   <DirtyEthanol.label>Брага</DirtyEthanol.label>
-  <DirtyEthanol.description>Брага - спиртосодержащий получаемый в результате сбраживания сахара или других сахаристых веществ и предназначенный для последующей перегонки через самодельные аппараты.Соединение с множеством побочных эффектов.</DirtyEthanol.description>
+  <DirtyEthanol.description>Брага - спиртосодержащий получаемый в результате сбраживания сахара или других сахаристых веществ и предназначенный для последующей перегонки через самодельные аппараты. Соединение с множеством побочных эффектов.</DirtyEthanol.description>
   <DirtyEthanol.ingestible.ingestCommandString>Выпить {0}</DirtyEthanol.ingestible.ingestCommandString>
   <DirtyEthanol.ingestible.ingestReportString>Выпивает {0}.</DirtyEthanol.ingestible.ingestReportString>
 
@@ -30,7 +30,6 @@
   <Ethanol.description>Этанол — органическое соединение, относящееся к классу одноатомных спиртов. При стандартных условиях, этанол — это летучая, горючая, бесцветная прозрачная жидкость с характерным запахом и жгучим вкусом. Действующий компонент алкогольных напитков.</Ethanol.description>
   <Ethanol.ingestible.ingestCommandString>Выпить {0}</Ethanol.ingestible.ingestCommandString>
   <Ethanol.ingestible.ingestReportString>Выпивает {0}.</Ethanol.ingestible.ingestReportString>
-
 
   <!--<DirtyEthanol.stuffProps.stuffAdjective>Топливо</DirtyEthanol.stuffProps.stuffAdjective>-->
   <!--<Ethanol.stuffProps.stuffAdjective>Топливо</Ethanol.stuffProps.stuffAdjective>-->

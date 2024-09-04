@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <BombAntigrav.deathMessage>{0} has been killed.</BombAntigrav.deathMessage>
-
+ <BombAntigrav.deathMessage>{0}이(가) 사망했습니다.</BombAntigrav.deathMessage>
 
 </LanguageData>

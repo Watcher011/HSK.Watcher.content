@@ -15,10 +15,10 @@
   <CeilingKristalDark.label>Glowstone сeiling lamp dark</CeilingKristalDark.label>
   <CeilingKristalDark.description>Ceiling glowstone dark lamp.</CeilingKristalDark.description>
 
-  <ColumnKristal.label>Column Kristal</ColumnKristal.label>
+  <ColumnKristal.label>columnKristal</ColumnKristal.label>
   <ColumnKristal.description>A column capable of holding a roof com Kristal. Does not block sight or movement and looks quite nice.</ColumnKristal.description>
 
-  <ColumnKristalDark.label>Column Kristal Dark</ColumnKristalDark.label>
+  <ColumnKristalDark.label>columnKristalDark</ColumnKristalDark.label>
   <ColumnKristalDark.description>A column capable of holding a roof com Dark Kristal. Does not block sight or movement and looks quite nice.</ColumnKristalDark.description>
 
   <HeadBarghestWall.label>Trophy Head of Barghest</HeadBarghestWall.label>
@@ -42,8 +42,8 @@
   <icecreamBasin.label>Ice cream machine</icecreamBasin.label>
   <icecreamBasin.description>Freezer machine.</icecreamBasin.description>
 
-  <YadaritLamp2A.label>Кристальная Лампа</YadaritLamp2A.label>
-  <YadaritLamp2A.description>Светяшийся кристал в резной оболочке.</YadaritLamp2A.description>
+  <YadaritLamp2A.label>Crystal Lamp</YadaritLamp2A.label>
+  <YadaritLamp2A.description>Glowing crystal in a black shell.</YadaritLamp2A.description>
 
 
 </LanguageData>

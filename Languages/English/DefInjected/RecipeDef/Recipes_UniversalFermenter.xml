@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Make_DriedMushrooms.label>dry the mushrooms</Make_DriedMushrooms.label>
+  <Make_DriedMushrooms.label>dry mushrooms</Make_DriedMushrooms.label>
   <Make_DriedMushrooms.description>Dry fresh mushrooms. The process takes 2 days.</Make_DriedMushrooms.description>
 
   <Make_DriedMushrooms_x5.label>dry mushrooms x5</Make_DriedMushrooms_x5.label>
@@ -13,8 +13,8 @@
   <Make_Driedchips.label>dry the chips</Make_Driedchips.label>
   <Make_Driedchips.description>Dry the chips. The process takes 3 days.</Make_Driedchips.description>
 
-  <Make_icecream.label>Create a simple ice cream</Make_icecream.label>
-  <Make_icecream.description>Create ice cream just like in childhood</Make_icecream.description>
+  <Make_icecream.label>Make Simple Ice Cream</Make_icecream.label>
+  <Make_icecream.description>Create ice cream like you did in childhood</Make_icecream.description>
 
   <Make_DriedNori.label>dry the seaweed</Make_DriedNori.label>
   <Make_DriedNori.description>Dry fresh seaweed. The process takes 2 days.</Make_DriedNori.description>
@@ -22,19 +22,19 @@
   <Make_DriedNori_x5.label>dry seaweed x5</Make_DriedNori_x5.label>
   <Make_DriedNori_x5.description>Dry fresh seaweed. The process takes 2 days.</Make_DriedNori_x5.description>
 
-  <Make_Ethanol.label>Make moonshine</Make_Ethanol.label>
-  <Make_Ethanol.description>Produce primitive Ethanol. Will take 2 days</Make_Ethanol.description>
+  <Make_Ethanol.label>Make mash</Make_Ethanol.label>
+  <Make_Ethanol.description>Produce a primitive product with low Ethanol content. Will take 2 days</Make_Ethanol.description>
 
   <Make_DriedMushrooms5x.label>Dry the mushrooms х5</Make_DriedMushrooms5x.label>
   <Make_DriedMushrooms5x.description>Dry fresh mushrooms. The process takes 1.5 days.</Make_DriedMushrooms5x.description>
 
-  <Make_DriedMushrooms10x.label>Dry mushrooms x10</Make_DriedMushrooms10x.label>
+  <Make_DriedMushrooms10x.label>Dry the mushrooms х10</Make_DriedMushrooms10x.label>
   <Make_DriedMushrooms10x.description>Dry fresh mushrooms. The process takes 1.5 days.</Make_DriedMushrooms10x.description>
 
-  <Make_DriedFish5x.label>Dry fish x3</Make_DriedFish5x.label>
+  <Make_DriedFish5x.label>Dry the fish х3</Make_DriedFish5x.label>
   <Make_DriedFish5x.description>Dry the fish. The process takes 2 days.</Make_DriedFish5x.description>
 
-  <Make_DriedFish10x.label>Dry the fish x9</Make_DriedFish10x.label>
+  <Make_DriedFish10x.label>Dry fish x9</Make_DriedFish10x.label>
   <Make_DriedFish10x.description>Dry the fish. The process takes 2 days.</Make_DriedFish10x.description>
 
   <Make_DriedNori_x05.label>dry seaweed x5</Make_DriedNori_x05.label>
@@ -55,14 +55,5 @@
   <Make_DriedFruit_x10.label>make dried fruit x10</Make_DriedFruit_x10.label>
   <Make_DriedFruit_x10.description>Make dried fruit x5. Takes 2 days to make</Make_DriedFruit_x10.description>
 
-
-  <!--<Make_Puer.label>Dry Puer tea</Make_Puer.label>-->
-  <!--<Make_Puer.description>The main distinguishing feature of pu-erhs is the fermentation stage, which can take different amounts of time. The microorganisms involved in it significantly change the chemical composition and taste of the tea.</Make_Puer.description>-->
-  <!--<Make_Puer_x5.label>Dry Puer tea x5</Make_Puer_x5.label>-->
-  <!--<Make_Puer_x5.description>The main distinguishing feature of pu-erhs is the fermentation stage, which can take different amounts of time. The microorganisms involved in it significantly change the chemical composition and taste of the tea..</Make_Puer_x5.description>-->
-  <!--<Make_GreenTea.label>Dry green tea</Make_GreenTea.label>-->
-  <!--<Make_GreenTea.description>Green tea is a drink made from the leaves of the tea camellia. Actually, like black tea. The main difference is that for green tea the fermentation process is minimal, which makes it closer to a living tea leaf. And the more the tea is fermented, the darker its infusion and the brighter its taste.</Make_GreenTea.description>-->
-  <!--<Make_GreenTea_x5.label>Dry green tea x5</Make_GreenTea_x5.label>-->
-  <!--<Make_GreenTea_x5.description>Green tea is a drink made from the leaves of the tea camellia. Actually, like black tea. The main difference is that for green tea the fermentation process is minimal, which makes it closer to a living tea leaf. And the more the tea is fermented, the darker its infusion and the brighter its taste.</Make_GreenTea_x5.description>-->
 
 </LanguageData>

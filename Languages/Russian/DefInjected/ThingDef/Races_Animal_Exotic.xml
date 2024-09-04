@@ -9,7 +9,7 @@
   <Bombardier.tools.3.label>Жвалы</Bombardier.tools.3.label>
 
   <Huntercarab.label>Клещ</Huntercarab.label>
-  <Huntercarab.description>Довольно мелкий представитель инсектоидов.Иследования показали что данные сушества крайне опасны в ближнем бою.</Huntercarab.description>
+  <Huntercarab.description>Довольно мелкий представитель инсектоидов.Иследования показали что данные существа крайне опасны в ближнем бою.</Huntercarab.description>
   <Huntercarab.tools.0.label>Жвалы</Huntercarab.tools.0.label>
   <Huntercarab.tools.1.label>Голова</Huntercarab.tools.1.label>
 
@@ -19,6 +19,5 @@
   <QueenBug.tools.0.label>Левая передняя нога</QueenBug.tools.0.label>
   <QueenBug.tools.1.label>Правая передняя нога</QueenBug.tools.1.label>
   <QueenBug.tools.3.label>Жвалы</QueenBug.tools.3.label>
-
 
 </LanguageData>

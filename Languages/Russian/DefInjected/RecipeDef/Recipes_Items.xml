@@ -14,7 +14,7 @@
 <MakeTrapIncendiary.jobString>Создает набор зажигательных мин.</MakeTrapIncendiary.jobString>
 
 <MakeTrapEMP.label>Изготовление  ящика - 6 ЭМИ мин</MakeTrapEMP.label>
-<MakeTrapEMP.description>Создание ящика с 6 ЭМИ-минами.</MakeTrapEMP.description>
+<MakeTrapEMP.description>Создание ящика с 6 ЭМИ - минами.</MakeTrapEMP.description>
 <MakeTrapEMP.jobString>Создает комплект ЭМИ мин.</MakeTrapEMP.jobString>
 
 <MakeTrapAE.label>Изготовление  ящика - 6 гранулированных мин</MakeTrapAE.label>
@@ -24,6 +24,5 @@
 <MakeTrapKapk.label>Изготовление  ящика - 10 капканов</MakeTrapKapk.label>
 <MakeTrapKapk.description>Создание ящика с 10 капканами.</MakeTrapKapk.description>
 <MakeTrapKapk.jobString>Создает набор капканов.</MakeTrapKapk.jobString>
-
 
 </LanguageData>

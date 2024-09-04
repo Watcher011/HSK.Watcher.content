@@ -2,9 +2,6 @@
 <LanguageData>
 
   <!-- M249 LMG SAW MG -->
-
-  <Gun_Simp.label>ПКМ-Заказной</Gun_Simp.label>
-  <Gun_Simp.description>ПКМ — пулемёт Калашникова модернизированный. Собранный по спецзаказу. Ствол и часть деталей заменена под натовский патрон (762x51mmNATO). Также имеет гравировку на прикладе"Simpay не должен страдать"</Gun_Simp.description>
-
-
+<Gun_Simp.label>PCM-사용자 정의</Gun_Simp.label>
+ <Gun_Simp.description>PKM은 현대화된 Kalashnikov 기관총입니다. 특별 주문으로 조립되었습니다. NATO 카트리지(762x51mmNATO)의 경우 배럴 및 일부 부품이 교체되었습니다. 또한 개머리판에 "Simpay must not pain"이라는 문구가 새겨져 있습니다.</Gun_Simp.description>
 </LanguageData>

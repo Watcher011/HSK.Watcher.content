@@ -2,10 +2,7 @@
 <LanguageData>
 
   <!-- M249 LMG SAW MG -->
-
-  <BuildGunSimp.label>Сборка Заказного ПКМа</BuildGunSimp.label>
-  <BuildGunSimp.description>Сборка заказного пулемёта \nCaliber:7.62x51mm NATO</BuildGunSimp.description>
-  <BuildGunSimp.jobString>Сборка Симп Гана.</BuildGunSimp.jobString>
-
-
+<BuildGunSimp.label>사용자 정의 PCM 조립</BuildGunSimp.label>
+ <BuildGunSimp.description>맞춤형 기관총 조립 \n구경:7.62x51mm NATO</BuildGunSimp.description>
+ <BuildGunSimp.jobString>심프 건을 만드는 중입니다.</BuildGunSimp.jobString>
 </LanguageData>

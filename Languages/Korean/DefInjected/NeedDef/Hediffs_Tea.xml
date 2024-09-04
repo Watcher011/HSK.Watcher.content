@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <Chemical_Chipfir.label>Чифир</Chemical_Chipfir.label>
-  <Chemical_Chipfir.description>В следствии употребления Чифира возникла зависимость.</Chemical_Chipfir.description>
-
+<Chemical_Chipfir.label>칩퍼</Chemical_Chipfir.label>
+ <Chemical_Chipfir.description>치피르 사용으로 인해 중독이 발생했습니다.</Chemical_Chipfir.description>
 
 </LanguageData>

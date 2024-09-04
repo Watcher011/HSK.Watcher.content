@@ -2,18 +2,15 @@
 <LanguageData>
 
   <!-- Ammo -->
+<Ammo_Acid.label>산성 화학연료</Ammo_Acid.label>
+<Ammo_Acid.description>산.</Ammo_Acid.description>
 
-  <Ammo_Acid.label>Acid chemfuel</Ammo_Acid.label>
-  <Ammo_Acid.description>Acid.</Ammo_Acid.description>
+<Ammo_Cocon.label>코콘 화학연료</Ammo_Cocon.label>
+<Ammo_Cocon.description>산.</Ammo_Cocon.description>
 
-  <Ammo_Cocon.label>Cocon chemfuel</Ammo_Cocon.label>
-  <Ammo_Cocon.description>Acid.</Ammo_Cocon.description>
+<!-- 투사체 -->
 
-
-  <!-- Projectiles -->
-
-  <Bullet_Acid.label>jellied chemfuel stream</Bullet_Acid.label>
-  <Bullet_Cocon.label>Cocon</Bullet_Cocon.label>
-
+<Bullet_Acid.label>젤리 화학연료 흐름</Bullet_Acid.label>
+<Bullet_Cocon.label>코콘</Bullet_Cocon.label>
 
 </LanguageData>

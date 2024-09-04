@@ -2,37 +2,34 @@
 <LanguageData>
 
   <DruFungus.label>Dried mushrooms</DruFungus.label>
-  <DruFungus.description>Dried mushrooms are a food product with a specific aroma and taste, obtained by drying fresh edible mushrooms. Dried mushrooms after pre-soaking can be widely used in cooking, for example in soups, stews, solyanka, sauces, pie fillings, and mushroom caviar.</DruFungus.description>
+  <DruFungus.description>Dried mushrooms are a food product with a specific aroma and taste, obtained by drying fresh edible mushrooms. Dried mushrooms after preliminary soaking can be widely used in cooking, for example in soups, stews, solyanka, sauces, pie fillings, mushroom caviar.</DruFungus.description>
 
   <DruFish.label>Dried salted fish</DruFish.label>
-  <DruFish.description>The process consists of two stages: salting and drying. Salting is mandatory for a product without heat treatment: salt will destroy parasites if they are in the fish and slow down the decomposition processes.</DruFish.description>
+  <DruFish.description>The process consists of two stages: salting and drying. Salting is mandatory for a product without heat treatment: salt will destroy parasites, if there are any in the fish, and slow down the decomposition processes.</DruFish.description>
 
   <DruFishPlastic.label>Dried salted fish in packaging</DruFishPlastic.label>
-  <DruFishPlastic.description>The process consists of three stages: salting, drying and packaging. Salting is mandatory for a product without heat treatment: salt will destroy parasites if they are in the fish and slow down the decomposition processes. Once packaged in plastic, it can be stored almost forever.</DruFishPlastic.description>
+  <DruFishPlastic.description>The process consists of three stages: salting, drying and packaging. Salting is mandatory for a product without heat treatment: salt will destroy parasites, if there are any in the fish, and slow down the decomposition processes. After packaging in plastic, it can be stored almost forever.</DruFishPlastic.description>
 
   <MealFishAndBeer.label>Beer with dried fish</MealFishAndBeer.label>
-  <MealFishAndBeer.description>Beer and fish seem made for each other.</MealFishAndBeer.description>
+  <MealFishAndBeer.description>Beer and fish seem to be made for each other.</MealFishAndBeer.description>
 
-  <Yzvae.label>Uzvar</Yzvae.label>
-  <Yzvae.description>Uzvar-Compote based on dry fruits, dry berries or dried fruits.</Yzvae.description>
-  <Yzvae.ingestible.ingestCommandString>Drink uzvara {0}</Yzvae.ingestible.ingestCommandString>
+  <Yzvae.label>Yzvae</Yzvae.label>
+  <Yzvae.description>Uzvar - Compote based on dried fruits, dried berries and dried fruits.</Yzvae.description>
+  <Yzvae.ingestible.ingestCommandString>Drink some uzvara{0}</Yzvae.ingestible.ingestCommandString>
   <Yzvae.ingestible.ingestReportString>Drinks {0}.</Yzvae.ingestible.ingestReportString>
 
   <Druchips.label>Dried chips</Druchips.label>
-  <Druchips.description>Dried chips - a snack consisting of thin slices of potatoes.</Druchips.description>
+  <Druchips.description>Dried chips are a snack food consisting of thin slices of potato.</Druchips.description>
 
-  <DirtyEthanol.label>moonshine</DirtyEthanol.label>
-  <DirtyEthanol.description>Dirty Ethanol is an organic compound with many side effects.</DirtyEthanol.description>
-  <DirtyEthanol.ingestible.ingestCommandString>drink {0}</DirtyEthanol.ingestible.ingestCommandString>
-  <DirtyEthanol.ingestible.ingestReportString>drinking {0}.</DirtyEthanol.ingestible.ingestReportString>
+  <DirtyEthanol.label>Dirty Ethanol</DirtyEthanol.label>
+  <DirtyEthanol.description>Braga is an alcohol-containing drink obtained as a result of fermentation of sugar or other sugary substances and intended for subsequent distillation through homemade devices. A compound with many side effects.</DirtyEthanol.description>
+  <DirtyEthanol.ingestible.ingestCommandString>Drink {0}</DirtyEthanol.ingestible.ingestCommandString>
+  <DirtyEthanol.ingestible.ingestReportString>Drinking {0}.</DirtyEthanol.ingestible.ingestReportString>
 
   <Ethanol.label>Ethanol</Ethanol.label>
-  <Ethanol.description>Ethanol is an organic compound belonging to the class of monohydric alcohols. Under standard conditions, ethanol is a volatile, flammable, colorless, transparent liquid with a characteristic odor and pungent taste. Active ingredient in alcoholic beverages.</Ethanol.description>
-  <Ethanol.ingestible.ingestCommandString>drink {0}</Ethanol.ingestible.ingestCommandString>
-  <Ethanol.ingestible.ingestReportString>drinking {0}.</Ethanol.ingestible.ingestReportString>
+  <Ethanol.description>Ethanol is an organic compound belonging to the class of monohydric alcohols. Under standard conditions, ethanol is a volatile, flammable, colorless, transparent liquid with a characteristic odor and a burning taste. Active ingredient in alcoholic beverages.</Ethanol.description>
+  <Ethanol.ingestible.ingestCommandString>Drink {0}</Ethanol.ingestible.ingestCommandString>
+  <Ethanol.ingestible.ingestReportString>Drinking {0}.</Ethanol.ingestible.ingestReportString>
 
-
-  <!--<DirtyEthanol.stuffProps.stuffAdjective>fuel</DirtyEthanol.stuffProps.stuffAdjective>-->
-  <!--<Ethanol.stuffProps.stuffAdjective>fuel</Ethanol.stuffProps.stuffAdjective>-->
 
 </LanguageData>

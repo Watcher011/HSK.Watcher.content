@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <SubCategory_AncientRugsGG.label>Шкуры реликтовых существ</SubCategory_AncientRugsGG.label>
   <SubCategory_AncientRugsGG.description>Шкуры реликтов</SubCategory_AncientRugsGG.description>
 
@@ -15,6 +14,6 @@
 
 
   <SubCategory_Columns.label>Колонна</SubCategory_Columns.label>
-  <SubCategory_Columns.description>Коло́нна — часть архитектурной конструкции, столб цилиндрической формы, деревянный, каменный или металлический.Удерживает крышу.</SubCategory_Columns.description>
+  <SubCategory_Columns.description>Коло́нна — часть архитектурной конструкции, столб цилиндрической формы, деревянный, каменный или металлический. Удерживает крышу.</SubCategory_Columns.description>
 
 </LanguageData>

@@ -1,14 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+<GoodYzvar.label>우즈바르 에너지</GoodYzvar.label>
+ <GoodYzvar.description>우즈바르는 자연의 힘을 선사합니다.</GoodYzvar.description>
+ <GoodYzvar.stages.0.label>에너지 부스트.</GoodYzvar.stages.0.label>
+ <GoodYzvar.stages.1.label>에너지 부스트.</GoodYzvar.stages.1.label>
 
-  <GoodYzvar.label>Энергия узвара</GoodYzvar.label>
-  <GoodYzvar.description>Узвар дарует силу природы.</GoodYzvar.description>
-  <GoodYzvar.stages.0.label>Заряд энергии.</GoodYzvar.stages.0.label>
-  <GoodYzvar.stages.1.label>Заряд энергии.</GoodYzvar.stages.1.label>
-
-  <Goodchips.label>Сила чипсов</Goodchips.label>
-  <Goodchips.description>Чипсы повышают концентрацию.</Goodchips.description>
-  <Goodchips.stages.0.label>Заряд энергии.</Goodchips.stages.0.label>
-
+ <Goodchips.label>칩의 힘</Goodchips.label>
+ <Goodchips.description>칩은 집중력을 높여줍니다.</Goodchips.description>
+ <Goodchips.stages.0.label>에너지 부스트.</Goodchips.stages.0.label>
 
 </LanguageData>

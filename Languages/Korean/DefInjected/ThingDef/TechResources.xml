@@ -1,11 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+<yadarit.label>가공된 야다라이트</yadarit.label>
+ <yadarit.description>야다릿은 외부 불순물(극도로 폭발성)로부터 정제됩니다.</yadarit.description>
 
-  <yadarit.label>Обработанный ядарит</yadarit.label>
-  <yadarit.description>Ядарит что очищен от сторонних примесей(крайне взрывоопасен).</yadarit.description>
-
-  <yadaritRaW.label>Сырой ядарит</yadaritRaW.label>
-  <yadaritRaW.description>Сырой ядарит что недавно был отделён от грибницы, без должной обработки распадётся на мало полезные ингредиенты (Хранить в дали от людей , крайне токсичен).</yadaritRaW.description>
-
+ <yadaritRaW.label>원시 야다라이트</yadaritRaW.label>
+ <yadaritRaW.description>적절한 가공 없이 최근 균사체에서 분리된 원시 야다라이트는 덜 유용한 성분으로 분해됩니다. (사람에게 접근하지 마십시오. 독성이 매우 강합니다.)</yadaritRaW.description>
 
 </LanguageData>

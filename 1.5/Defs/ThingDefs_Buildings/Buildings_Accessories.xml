@@ -23,6 +23,7 @@
 		<drawerType>RealtimeOnly</drawerType>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<statBases>
+		    <MarketValue>1600</MarketValue>
 			<WorkToBuild>80</WorkToBuild>
 			<MaxHitPoints>150</MaxHitPoints>
 			<Flammability>0</Flammability>
@@ -56,7 +57,9 @@
 		</building>
 		<clearBuildingArea>false</clearBuildingArea>
 		<comps>
-			
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>6</glowRadius>
 				<glowColor>(200,200,240,0)</glowColor>
@@ -92,6 +95,7 @@
 		<drawerType>RealtimeOnly</drawerType>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<statBases>
+		   <MarketValue>1600</MarketValue>
 			<WorkToBuild>80</WorkToBuild>
 			<MaxHitPoints>150</MaxHitPoints>
 			<Flammability>0</Flammability>
@@ -126,7 +130,9 @@
 		</building>
 		<clearBuildingArea>false</clearBuildingArea>
 		<comps>
-			
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>6</glowRadius>
 				 <glowColor>(78, 226, 229, 0)</glowColor>
@@ -159,6 +165,7 @@
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<statBases>
 			<MaxHitPoints>35</MaxHitPoints>
+			<MarketValue>1800</MarketValue>
 			<WorkToBuild>320</WorkToBuild>
 			<Beauty>10</Beauty>
 			<Bulk>8</Bulk>
@@ -186,7 +193,9 @@
 		</building>
 		<clearBuildingArea>false</clearBuildingArea>
 		<comps>
-			
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>9</glowRadius>
 				<glowColor>(200,200,240,0)</glowColor>
@@ -225,6 +234,7 @@
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<statBases>
 			<MaxHitPoints>35</MaxHitPoints>
+			<MarketValue>1800</MarketValue>
 			<WorkToBuild>320</WorkToBuild>
 			<Beauty>10</Beauty>
 			<Bulk>8</Bulk>
@@ -253,7 +263,9 @@
 		</building>
 		<clearBuildingArea>false</clearBuildingArea>
 		<comps>
-			
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>9</glowRadius>
 				 <glowColor>(78, 226, 229, 0)</glowColor>
@@ -288,6 +300,7 @@
     <pathCost>0</pathCost>
     <statBases>
       <MaxHitPoints>160</MaxHitPoints>
+	 <MarketValue>1600</MarketValue>
       <WorkToBuild>750</WorkToBuild>
       <Mass>50</Mass>
       <Flammability>1.0</Flammability>
@@ -320,8 +333,8 @@
       <drawSize>(1.5,1.8)</drawSize>
       <drawOffset>(0,0,0.4)</drawOffset>
       <texPath>Things/Building/Furniture/ColumnKristal</texPath>
- <graphicClass>Graphic_Single</graphicClass>
-			<shaderType>CutoutComplex</shaderType>	
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>	
       <shadowData>
         <volume>(0.3, 0.5, 0.3)</volume>
         <offset>(0,0,-0.23)</offset>
@@ -363,6 +376,7 @@
     <pathCost>0</pathCost>
     <statBases>
       <MaxHitPoints>160</MaxHitPoints>
+	 <MarketValue>1600</MarketValue>
       <WorkToBuild>750</WorkToBuild>
       <Mass>50</Mass>
       <Flammability>1.0</Flammability>

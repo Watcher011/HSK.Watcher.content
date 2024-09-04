@@ -16,10 +16,10 @@
   <CeilingKristalDark.description>та потрясающая потолочная лампа сделана из ограненного светящегося камня, имеющего форму  кристалла будучи покрытым медью излучает тусклый свет.</CeilingKristalDark.description>
 
   <ColumnKristal.label>Светокаменная колонна</ColumnKristal.label>
-  <ColumnKristal.description>Колонна способная держать крышу с кристалом светокамня. Не закрывает обзор и движение и выглядит довольно красиво.</ColumnKristal.description>
+  <ColumnKristal.description>Колонна способная держать крышу с Кристалом светокамня. Не закрывает обзор и движение и выглядит довольно красиво.</ColumnKristal.description>
 
   <ColumnKristalDark.label>Светокаменная тусклая колонна</ColumnKristalDark.label>
-  <ColumnKristalDark.description>Колонна способная держать крышу с тусклым кристалом светокамня. Не закрывает обзор и движение и выглядит довольно красиво</ColumnKristalDark.description>
+  <ColumnKristalDark.description>Колонна способная держать крышу с тусклым Кристалом светокамня. Не закрывает обзор и движение и выглядит довольно красиво</ColumnKristalDark.description>
 
   <HeadBarghestWall.label>Трофейная голова Баргеста</HeadBarghestWall.label>
   <HeadBarghestWall.description>Трофейная голова побежденного монстра</HeadBarghestWall.description>
@@ -43,7 +43,6 @@
   <icecreamBasin.description>Морозильный автомат.</icecreamBasin.description>
 
   <YadaritLamp2A.label>Кристальная Лампа</YadaritLamp2A.label>
-  <YadaritLamp2A.description>Светяшийся кристал в резной оболочке.</YadaritLamp2A.description>
-
+  <YadaritLamp2A.description>Светяшийся Кристал в резной оболочке.</YadaritLamp2A.description>
 
 </LanguageData>

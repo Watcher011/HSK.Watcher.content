@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+
   <PSY_Bright.label>Пси Резонанс</PSY_Bright.label>
   <PSY_Bright.description>Гармонические вибрации пси-волн, которые излучает сердце, ускоряют восстановление вашей энергии.</PSY_Bright.description>
   <PSY_Bright.labelNoun>Пси Резонанс</PSY_Bright.labelNoun>
 
   <PSY_noise.label>Пси Гул</PSY_noise.label>
-  <PSY_noise.description>Отвратительный жужжащий шум что мешает сосредоточиться.В голове пульсирует мысль - Мы идём - мы голодны.</PSY_noise.description>
+  <PSY_noise.description>Отвратительный жужжащий шум, что мешает сосредоточиться. В голове пульсирует мысль - Мы идём - мы голодны.</PSY_noise.description>
   <PSY_noise.labelNoun>Пси Гул</PSY_noise.labelNoun>
 
 

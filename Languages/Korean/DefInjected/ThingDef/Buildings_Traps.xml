@@ -2,9 +2,7 @@
 <LanguageData>
 
   <!-- Traps -->
-
-  <MinSign.label>Sign Caution mines</MinSign.label>
-  <MinSign.description>Warning sign.</MinSign.description>
-
+<MinSign.label>주의 지뢰 표지판</MinSign.label>
+<MinSign.description>경고 표지판.</MinSign.description>
 
 </LanguageData>

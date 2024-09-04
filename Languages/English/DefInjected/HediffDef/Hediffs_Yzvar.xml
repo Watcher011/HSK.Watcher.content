@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <GoodYzvar.label>Uzvar energy</GoodYzvar.label>
-  <GoodYzvar.description>Uzvar bestows the power of nature.</GoodYzvar.description>
-  <GoodYzvar.stages.0.label>Energy boost.</GoodYzvar.stages.0.label>
-  <GoodYzvar.stages.1.label>Energy boost.</GoodYzvar.stages.1.label>
+  <GoodYzvar.label>Energy of Uzvar</GoodYzvar.label>
+  <GoodYzvar.description>Uzvar gives the power of nature.</GoodYzvar.description>
+  <GoodYzvar.stages.0.label>Charge of energy.</GoodYzvar.stages.0.label>
+  <GoodYzvar.stages.1.label>Charge of energy.</GoodYzvar.stages.1.label>
 
-  <Goodchips.label>The power of chips</Goodchips.label>
-  <Goodchips.description>Chips increase concentration.</Goodchips.description>
-  <Goodchips.stages.0.label>Energy boost.</Goodchips.stages.0.label>
+  <Goodchips.label>The Power of Chips</Goodchips.label>
+  <Goodchips.description>Chips improve concentration.</Goodchips.description>
+  <Goodchips.stages.0.label>Charge of energy.</Goodchips.stages.0.label>
 
 
 </LanguageData>

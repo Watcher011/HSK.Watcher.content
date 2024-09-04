@@ -1,11 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <AdvancedPowerKult.label>Optimizing energy production</AdvancedPowerKult.label>
-  <AdvancedPowerKult.description>Optimize energy production by changing work processes, parts and circuits.</AdvancedPowerKult.description>
+  <AdvancedPowerKult.label>에너지 생산 최적화</AdvancedPowerKult.label>
+<AdvancedPowerKult.description>작업 프로세스, 부품 및 회로를 변경하여 에너지 생산을 최적화합니다.</AdvancedPowerKult.description>
 
-  <OptimizingSunLamp.label>Optimizing Sun Lamp I</OptimizingSunLamp.label>
-  <OptimizingSunLamp.description>Optimization of Sun Lamp energy consumption</OptimizingSunLamp.description>
-
+<OptimizingSunLamp.label>태양등 I 최적화</OptimizingSunLamp.label>
+<OptimizingSunLamp.description>태양등 에너지 소비 최적화</OptimizingSunLamp.description>
 
 </LanguageData>

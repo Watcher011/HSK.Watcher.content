@@ -1,9 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <TFJ_Tool_Carr.label>Тележка</TFJ_Tool_Carr.label>
-  <TFJ_Tool_Carr.description>Ручная тележка — приспособление для ручной перевозки грузов. Состоит из колёс (их количество зависит от модификации и назначения тележки), рамы в разных вариантах и ручек для удобного хвата.</TFJ_Tool_Carr.description>
-  <TFJ_Tool_Carr.tools.0.label>shaft</TFJ_Tool_Carr.tools.0.label>
-
-
+<TFJ_Tool_Carr.label>카트</TFJ_Tool_Carr.label>
+ <TFJ_Tool_Carr.description>손수레는 수동으로 물품을 운반하는 장치입니다. 바퀴(개수는 카트의 개조 및 목적에 따라 다름), 다양한 버전의 프레임, 편안한 그립을 위한 핸들로 구성됩니다.</TFJ_Tool_Carr.description>
+ <TFJ_Tool_Carr.tools.0.label>샤프트</TFJ_Tool_Carr.tools.0.label>
 </LanguageData>

@@ -7,8 +7,8 @@
   <FloorStoneStaggeredNefrBrick_Frame.label>Нефритовая плитка (building)</FloorStoneStaggeredNefrBrick_Frame.label>
   <FloorStoneStaggeredNefrBrick_Frame.description>Идет строительство ландшафта.</FloorStoneStaggeredNefrBrick_Frame.description>
 
-  <FloorStoneMosaicNEF_Blueprint.label>Нефритовая мозайка (blueprint)</FloorStoneMosaicNEF_Blueprint.label>
-  <FloorStoneMosaicNEF_Frame.label>Нефритовая мозайка (building)</FloorStoneMosaicNEF_Frame.label>
+  <FloorStoneMosaicNEF_Blueprint.label>Нефритовая мозаика (blueprint)</FloorStoneMosaicNEF_Blueprint.label>
+  <FloorStoneMosaicNEF_Frame.label>Нефритовая мозаика (building)</FloorStoneMosaicNEF_Frame.label>
   <FloorStoneMosaicNEF_Frame.description>Идет строительство ландшафта.</FloorStoneMosaicNEF_Frame.description>
 
   <FloorStoneMosaicNEFt_Blueprint.label>Нефритовые пластины (blueprint)</FloorStoneMosaicNEFt_Blueprint.label>
@@ -18,6 +18,5 @@
   <FloorAmber_Blueprint.label>Янтарные пластины (blueprint)</FloorAmber_Blueprint.label>
   <FloorAmber_Frame.label>Янтарные пластины (building)</FloorAmber_Frame.label>
   <FloorAmber_Frame.description>Идет строительство ландшафта.</FloorAmber_Frame.description>
-
 
 </LanguageData>

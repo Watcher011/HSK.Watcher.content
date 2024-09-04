@@ -1,35 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <DruFungus.label>Сушеные грибы</DruFungus.label>
-  <DruFungus.description>Сушёные грибы — продукт питания со специфическим ароматом и вкусом, получаемый путём сушки свежих съедобных грибов. Сушёные грибы после предварительного замачивания могут широко использоваться в кулинарии, например в супах, рагу, солянке, соусах, начинках для пирогов, грибной икре..</DruFungus.description>
+<DruFungus.label>말린 버섯</DruFungus.label>
+ <DruFungus.description>건조버섯은 신선한 식용버섯을 건조시켜 특유의 향과 맛을 지닌 식품입니다. 미리 불린 후 말린 버섯은 수프, 스튜, 솔얀카, 소스, 파이 필링, 버섯 캐비어 등 요리에 널리 사용할 수 있습니다.</DruFungus.description>
 
-  <DruFish.label>Сушеная солёная рыба</DruFish.label>
-  <DruFish.description>Процесс состоит из двух этапов: засолка и сушка. Засолка обязательна для продукта без термической обработки: соль уничтожит паразитов, если они есть в рыбе, и затормозит процессы разложения.</DruFish.description>
+ <DruFish.label>말린 소금에 절인 생선</DruFish.label>
+ <DruFish.description>이 과정은 염장과 건조의 두 단계로 구성됩니다. 열처리를 하지 않은 제품의 경우 소금에 절이는 것이 필수입니다. 소금은 생선에 있는 기생충을 파괴하고 분해 과정을 늦춥니다.</DruFish.description>
 
-  <DruFishPlastic.label>Сушеная солёная рыба в упаковке</DruFishPlastic.label>
-  <DruFishPlastic.description>Процесс состоит из трёх этапов: засолка , сушка и упаковка. Засолка обязательна для продукта без термической обработки: соль уничтожит паразитов, если они есть в рыбе, и затормозит процессы разложения.После упаковки в пластик можно хранить почти вечно.</DruFishPlastic.description>
+ <DruFishPlastic.label>포장에 담긴 말린 소금에 절인 생선</DruFishPlastic.label>
+ <DruFishPlastic.description>이 과정은 염장, 건조, 포장의 세 단계로 구성됩니다. 열처리를 하지 않은 제품의 경우 소금에 절이는 것이 필수입니다. 소금은 생선에 기생충이 있으면 파괴하고 분해 과정을 늦춥니다. 한번 플라스틱에 포장하면 거의 영원히 보관할 수 있습니다.</DruFishPlastic.description>
 
-  <MealFishAndBeer.label>Пиво с сушеной рыбкой</MealFishAndBeer.label>
-  <MealFishAndBeer.description>Пиво и рыба словно созданы друг для друга.</MealFishAndBeer.description>
+ <MealFishAndBeer.label>건어물을 곁들인 맥주</MealFishAndBeer.label>
+ <MealFishAndBeer.description>맥주와 생선은 서로를 위해 만들어진 것 같습니다.</MealFishAndBeer.description>
 
-  <Yzvae.label>Узвар</Yzvae.label>
-  <Yzvae.description>Узвар-Компот на основе сухих плодов, сухих ягод или сухофруктов.</Yzvae.description>
-  <Yzvae.ingestible.ingestCommandString>Выпить узвару {0}</Yzvae.ingestible.ingestCommandString>
-  <Yzvae.ingestible.ingestReportString>Выпивает {0}.</Yzvae.ingestible.ingestReportString>
+ <Yzvae.label>우즈바르</Yzvae.label>
+ <Yzvae.description>건조 과일, 건조 베리 또는 말린 과일을 기본으로 한 우즈바르 콩포트.</Yzvae.description>
+ <Yzvae.ingestible.ingestCommandString>우즈바라 {0} 마시기</Yzvae.ingestible.ingestCommandString>
+ <Yzvae.ingestible.ingestReportString>{0} 음료.</Yzvae.ingestible.ingestReportString>
 
-  <Druchips.label>Сушеные чипсы</Druchips.label>
-  <Druchips.description>Сушеные чипсы - закуска, представляющая собой тонкие ломтики картофеля.</Druchips.description>
+ <Druchips.label>건조된 칩</Druchips.label>
+ <Druchips.description>건조 칩은 얇은 감자 조각으로 구성된 스낵입니다.</Druchips.description>
 
-  <DirtyEthanol.label>Брага</DirtyEthanol.label>
-  <DirtyEthanol.description>Брага - спиртосодержащий получаемый в результате сбраживания сахара или других сахаристых веществ и предназначенный для последующей перегонки через самодельные аппараты.Соединение с множеством побочных эффектов.</DirtyEthanol.description>
-  <DirtyEthanol.ingestible.ingestCommandString>Drink {0}</DirtyEthanol.ingestible.ingestCommandString>
-  <DirtyEthanol.ingestible.ingestReportString>Drinking {0}.</DirtyEthanol.ingestible.ingestReportString>
+ <DirtyEthanol.label>브라가</DirtyEthanol.label>
+ <DirtyEthanol.description>매시는 설탕이나 기타 설탕 물질의 발효 결과로 얻은 알코올 함유 제품으로, 집에서 만든 장치를 통해 후속 증류에 사용됩니다.</DirtyEthanol.description>
+ <DirtyEthanol.ingestible.ingestCommandString>{0} 음료</DirtyEthanol.ingestible.ingestCommandString>
+ <DirtyEthanol.ingestible.ingestReportString>{0}을(를) 마시고 있습니다.</DirtyEthanol.ingestible.ingestReportString>
 
-  <Ethanol.label>Этанол</Ethanol.label>
-  <Ethanol.description>Этанол — органическое соединение, относящееся к классу одноатомных спиртов. При стандартных условиях, этанол — это летучая, горючая, бесцветная прозрачная жидкость с характерным запахом и жгучим вкусом. Действующий компонент алкогольных напитков.</Ethanol.description>
-  <Ethanol.ingestible.ingestCommandString>Drink {0}</Ethanol.ingestible.ingestCommandString>
-  <Ethanol.ingestible.ingestReportString>Drinking {0}.</Ethanol.ingestible.ingestReportString>
-
-
+ <Ethanol.label>에탄올</Ethanol.label>
+ <Ethanol.description>에탄올은 1가알코올류에 속하는 유기화합물이다. 표준 조건에서 에탄올은 독특한 냄새와 매운 맛을 지닌 휘발성, 가연성, 무색 투명한 액체입니다. 알코올 음료의 활성 성분.</Ethanol.description>
+ <Ethanol.ingestible.ingestCommandString>{0} 음료</Ethanol.ingestible.ingestCommandString>
+ <Ethanol.ingestible.ingestReportString>{0}을(를) 마시고 있습니다.</Ethanol.ingestible.ingestReportString>
 </LanguageData>
