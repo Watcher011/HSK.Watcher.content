@@ -409,8 +409,8 @@
       <drawSize>(1.5,1.8)</drawSize>
       <drawOffset>(0,0,0.4)</drawOffset>
       <texPath>Things/Building/Furniture/ColumnKristalDark</texPath>
- <graphicClass>Graphic_Single</graphicClass>
-			<shaderType>CutoutComplex</shaderType>	
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>	
       <shadowData>
         <volume>(0.3, 0.5, 0.3)</volume>
         <offset>(0,0,-0.23)</offset>

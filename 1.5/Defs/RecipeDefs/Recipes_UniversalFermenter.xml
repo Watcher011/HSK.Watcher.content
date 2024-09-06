@@ -780,4 +780,85 @@
 		<!-- RecipeDef_UF fields -->
 		<slotsRequired>10</slotsRequired>
 	</RecipeDef>
+	
+	
+	
+	
+	<RecipeDef ParentName="GlitterpediaModExtBase" Name="Make_CoffeeBeansBase" Abstract="True">
+		<recipeUsers>
+			<li>industrialDryingRack</li>
+		</recipeUsers>
+
+		<!-- RecipeDef_UF fields -->
+		<slotsRequired>2</slotsRequired>
+		<temperatureSafe>
+			<min>-50</min>
+			<max>80</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>-10</min>
+			<max>50</max>
+		</temperatureIdeal>
+		<processDays>3</processDays>
+		<speedBelowSafe>0.05</speedBelowSafe>
+		<speedAboveSafe>0.8</speedAboveSafe>
+		<sunFactor>
+			<min>0.75</min>
+			<max>1.2</max>
+		</sunFactor>
+		<rainFactor>
+			<min>1</min>
+			<max>0</max>
+		</rainFactor>
+		<snowFactor>
+			<min>1</min>
+			<max>0</max>
+		</snowFactor>
+		<windFactor>
+			<min>1</min>
+			<max>1.2</max>
+		</windFactor>
+		<graphicSuffix>_Coffee</graphicSuffix>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_CoffeeBeansBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_CoffeeBeans</defName>
+		<label>process coffee beans</label>
+		<description>process coffee beans from berries. Pulp, ferment and dry. Takes 5 days to make</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawCoffee</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<products>
+			<CoffeeBeans>5</CoffeeBeans>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_CoffeeBeansBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_CoffeeBeans_x5</defName>
+		<label>process coffee beans x5</label>
+		<description>process coffee beans x5 from berries. Pulp, ferment and dry. Takes 5 days to make</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawCoffee</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<products>
+			<CoffeeBeans>25</CoffeeBeans>
+		</products>
+
+		<!-- RecipeDef_UF fields -->
+		<slotsRequired>5</slotsRequired>
+	</RecipeDef>
 </Defs>

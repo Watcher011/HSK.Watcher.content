@@ -17,7 +17,7 @@
 	  <Operation Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="ColumnKristalDark"]/graphicData/texPath</xpath>
 				<value>
-				<texPath>Things/Building/Furniture/Outro/ColumnKristal</texPath>
+				<texPath>Things/Building/Furniture/Outro/ColumnKristalDark</texPath>
 				</value>
 		</Operation>
     </caseTrue>

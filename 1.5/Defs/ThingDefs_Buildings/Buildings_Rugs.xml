@@ -21,7 +21,7 @@
 		</costList>
 		<comps>
 			<li Class="CompProperties_Glower">
-				<glowRadius>1</glowRadius>
+				<glowRadius>4</glowRadius>
 				<glowColor>(217,80,80,0)</glowColor>
 			</li>
 		</comps>
