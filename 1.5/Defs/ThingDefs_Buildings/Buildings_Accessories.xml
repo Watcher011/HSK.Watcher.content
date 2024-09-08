@@ -916,7 +916,7 @@
 			<Beauty>12</Beauty>
 			<WorkToBuild>610</WorkToBuild>
 			<Bulk>12</Bulk>
-			<Mass>4</Mass>
+			<Mass>12</Mass>
 			<Cleanliness>3</Cleanliness>
 			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">6</StyleDominance>
 		</statBases>
