@@ -15,6 +15,72 @@
 			<Plant_TreeHoney>0.015</Plant_TreeHoney>
 		</value>
    </Operation>
+   
+    
+<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>SeedsPlease</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<SeedsPlease.SeedDef ParentName="SeedBase">
+							<defName>TreeHoney_seeds</defName>
+							<label>Росток медового дерева</label>
+							<sources>
+								<li>Plant_TreeHoney</li>
+							</sources>
+							<graphicData>
+								<texPath>Things/Item/Seed/TreePersimmon</texPath>
+							</graphicData>
+							 <statBases>
+                                <MarketValue>9</MarketValue>
+                             </statBases>
+						</SeedsPlease.SeedDef>
+					</value>
+				</li>	
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<RecipeDef ParentName="ExtractSeed">
+							<defName>ExtractTreeHoneyseeds</defName>
+							<label>Извлечение отростка медового дерева</label>
+							<description>Извлечение отростка медового дерева</description>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>Honey</li>
+										</thingDefs>
+									</filter>
+									<count>4</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>WoodLog</li>
+										</thingDefs>
+									</filter>
+									<count>4</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>Honey</li>
+									<li>WoodLog</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<products>
+								<TreeHoney_seeds>3</TreeHoney_seeds>
+							</products>
+						</RecipeDef>
+					</value>
+				</li>			
+			</operations>
+		</match>
+	</Operation>
     </caseTrue>
 </Operation>
 

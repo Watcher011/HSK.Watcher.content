@@ -6,14 +6,60 @@
 			<YadaritPlant>1</YadaritPlant>
 		</value>
    </Operation>
- <!--
- <Operation Class="PatchOperationAdd">
-    <xpath>Defs/BiomeDef[defName="TemperateForest" or defName="TemperateSwamp" or defName="AridShrubland" or defName="BorealForest" or defName="BorealArchipelago"  or defName="TundraArchipelago"  or defName="ColdBogArchipelago"  or defName="DesertArchipelago"  or defName="TemperateArchipelago" or defName="TemperateSwampArchipelago" or defName="TropicalArchipelago"  or defName="TropicalSwampArchipelago" or defName="TropicalRainforest" or defName="TropicalSwamp"]/wildPlants</xpath>
-    <value>
-      <recipeMaker>
-        	<YadaritPlant>1</YadaritPlant>
-      </recipeMaker>
-    </value>
-  </Operation>
-	-->
+   
+<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>SeedsPlease</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<SeedsPlease.SeedDef ParentName="SeedBase">
+							<defName>Yadarit_seeds</defName>
+							<label>Споры ядарита</label>
+							<sources>
+								<li>YadaritPlant</li>
+							</sources>
+							<graphicData>
+								<texPath>Things/Item/Seed/Yadarit1</texPath>
+							</graphicData>
+							 <statBases>
+                                <MarketValue>9</MarketValue>
+                             </statBases>
+						</SeedsPlease.SeedDef>
+					</value>
+				</li>	
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<RecipeDef ParentName="ExtractSeed">
+							<defName>ExtractYadaritseeds</defName>
+							<label>Извлечение ядарит спор</label>
+							<description>Извлечение спор ядарита</description>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>yadaritRaW</li>
+										</thingDefs>
+									</filter>
+									<count>4</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>yadaritRaW</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<products>
+								<Yadarit_seeds>3</Yadarit_seeds>
+							</products>
+						</RecipeDef>
+					</value>
+				</li>			
+			</operations>
+		</match>
+	</Operation>
 </Patch>
