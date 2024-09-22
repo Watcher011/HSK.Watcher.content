@@ -23,13 +23,12 @@
 		<drawerType>RealtimeOnly</drawerType>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<statBases>
-		    <MarketValue>1600</MarketValue>
-			<WorkToBuild>80</WorkToBuild>
-			<MaxHitPoints>150</MaxHitPoints>
-			<Flammability>0</Flammability>
-			<Bulk>4</Bulk>
-			<Mass>2</Mass>
-			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">3</StyleDominance>
+		  <Beauty>9</Beauty>
+			<WorkToBuild>310</WorkToBuild>
+			<Bulk>12</Bulk>
+			<Mass>4</Mass>
+			<Cleanliness>0</Cleanliness>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">6</StyleDominance>
 		</statBases>
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
@@ -95,13 +94,12 @@
 		<drawerType>RealtimeOnly</drawerType>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<statBases>
-		   <MarketValue>1600</MarketValue>
-			<WorkToBuild>80</WorkToBuild>
-			<MaxHitPoints>150</MaxHitPoints>
-			<Flammability>0</Flammability>
-			<Bulk>4</Bulk>
-			<Mass>2</Mass>
-			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">3</StyleDominance>
+		  <Beauty>9</Beauty>
+			<WorkToBuild>310</WorkToBuild>
+			<Bulk>12</Bulk>
+			<Mass>4</Mass>
+			<Cleanliness>0</Cleanliness>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">6</StyleDominance>
 		</statBases>
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
@@ -164,13 +162,12 @@
 		</graphicData>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<statBases>
-			<MaxHitPoints>35</MaxHitPoints>
-			<MarketValue>1800</MarketValue>
-			<WorkToBuild>320</WorkToBuild>
-			<Beauty>10</Beauty>
-			<Bulk>8</Bulk>
-			<Mass>2</Mass>
-			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">3</StyleDominance>
+			<Beauty>9</Beauty>
+			<WorkToBuild>310</WorkToBuild>
+			<Bulk>12</Bulk>
+			<Mass>4</Mass>
+			<Cleanliness>0</Cleanliness>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">6</StyleDominance>
 		</statBases>
 		<tickerType>Rare</tickerType>
 		<description>Ceiling glowstone lamp.</description>
@@ -233,13 +230,12 @@
 		</graphicData>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<statBases>
-			<MaxHitPoints>35</MaxHitPoints>
-			<MarketValue>1800</MarketValue>
-			<WorkToBuild>320</WorkToBuild>
-			<Beauty>10</Beauty>
-			<Bulk>8</Bulk>
-			<Mass>2</Mass>
-			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">3</StyleDominance>
+			<Beauty>9</Beauty>
+			<WorkToBuild>310</WorkToBuild>
+			<Bulk>12</Bulk>
+			<Mass>4</Mass>
+			<Cleanliness>0</Cleanliness>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">6</StyleDominance>
 		</statBases>
 		<tickerType>Rare</tickerType>
 		<description>Ceiling glowstone dark lamp.</description>
