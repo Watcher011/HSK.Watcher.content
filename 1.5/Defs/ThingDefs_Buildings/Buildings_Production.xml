@@ -4,7 +4,7 @@
 	<!-- Drying Rack -->
 	<ThingDef ParentName="UniversalFermenterBase" Class="UniversalFermenterSK.ThingDef_UF">
 		<defName>industrialDryingRack</defName>
-		<label> industrial drying rack</label>
+		<label>industrial drying rack</label>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
 			<texPath>Things/Building/Production/industrialDryingRack</texPath>
