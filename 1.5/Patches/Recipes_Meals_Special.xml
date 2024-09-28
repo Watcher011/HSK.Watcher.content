@@ -138,6 +138,14 @@
 		</ingredients>
     </value>
   </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="TableButcher" or defName="TableKitchen"]/recipes</xpath>
+				<value>
+						<li>CookMealBera</li>
+						<li>CookMeal4Bera</li>
+				</value>
+ </Operation>
 </Patch>
 
   

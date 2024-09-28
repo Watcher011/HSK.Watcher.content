@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ 
+  <ThingDef ParentName="MealFineBase">
+    <defName>MealFine_Bera</defName>
+    <label>Салат"Бэра"</label>
+    <description>Простой и вкусный салат,готовится из минимума ингредиентов.Пара помидоров и соль,что ещё нужно для счастья?</description>
+    <possessionCount>2</possessionCount>
+	 <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Item/Meal/TomatoA</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+	 <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <tasteThought>AteBera</tasteThought>
+      <optimalityOffsetHumanlikes>-30</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>15</optimalityOffsetFeedingAnimals>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>RawVegetable_Eat</ingestSound>
+	  <outcomeDoers>
+       <li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>BeraA</hediffDef>
+					<severity>1</severity>
+	 </li>
+      </outcomeDoers>
+    </ingestible>
+	
+    <comps>
+      <li Class="CompProperties_Ingredients">
+        <noIngredientsFoodKind>NonMeat</noIngredientsFoodKind>
+      </li>
+	 
+    </comps>
+  </ThingDef>
+
+</Defs>

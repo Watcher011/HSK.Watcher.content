@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Defs>
-<!--
-	<RecipeDef ParentName="CookMealSpecialBase_SK">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- <RecipeDef ParentName="CookMealSpecialBase_SK">
 		<defName>MakeMakiRolls</defName>
 		<label>make maki rolls</label>
 		<description>Make maki rolls from rice, algae and fish meat. Produces 2.</description>
@@ -216,80 +216,15 @@
 			<li>ElectricStove_Pro</li>
 		</recipeUsers>
 		<researchPrerequisite>Food_C6</researchPrerequisite>
-	</RecipeDef>
-	-->
-	
-	
+	</RecipeDef> -->
 
-  <RecipeDef ParentName="CookMealBase">
-    <defName>CookMealBera</defName>
-    <label>Приготовить салат "Бэра"</label>
-    <description>Простой вкусный салат.</description>
-    <jobString>Готовит салат из томатов.</jobString>
-    <workSpeedStat>CookSpeed</workSpeedStat>
-    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
-    <effectWorking>Cook</effectWorking>
-    <soundWorking>Recipe_CookMeal</soundWorking>
-    <allowMixingIngredients>true</allowMixingIngredients>
-    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
-    <ingredients>
-      <li>
-        <filter>
-         <thingDefs>
-			  <li>RawTomatoes</li>
-		</thingDefs>
-        </filter>
-        <count>0.3</count>
-      </li>
-	  <li>
-        <filter>
-         <thingDefs>
-			  <li>Salt</li>
-		</thingDefs>
-        </filter>
-        <count>0.01</count>
-      </li>
-    </ingredients>
-    <products>
-      <MealFine_Bera>1</MealFine_Bera>
-    </products>
-    <workSkill>Cooking</workSkill>
-    <displayPriority>100</displayPriority>
-  </RecipeDef>
+ <CookMealBera.label>베라 샐러드 준비</CookMealBera.label>
+ <CookMealBera.description>간단하고 맛있는 샐러드</CookMealBera.description>
+ <CookMealBera.jobString>토마토 샐러드를 요리합니다.</CookMealBera.jobString>
 
-<RecipeDef ParentName="CookMealBase">
-    <defName>CookMeal4Bera</defName>
-    <label>Приготовить 4 салата "Бэра"</label>
-    <description>Простой вкусный салат 4 порции.</description>
-    <jobString>Готовит салат из томатов.</jobString>
-    <workSpeedStat>CookSpeed</workSpeedStat>
-    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
-    <effectWorking>Cook</effectWorking>
-    <soundWorking>Recipe_CookMeal</soundWorking>
-    <allowMixingIngredients>true</allowMixingIngredients>
-    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
-    <ingredients>
-      <li>
-        <filter>
-         <thingDefs>
-			  <li>RawTomatoes</li>
-		</thingDefs>
-        </filter>
-        <count>1.2</count>
-      </li>
-	  <li>
-        <filter>
-         <thingDefs>
-			  <li>Salt</li>
-		</thingDefs>
-        </filter>
-        <count>0.03</count>
-      </li>
-    </ingredients>
-    <products>
-      <MealFine_Bera>4</MealFine_Bera>
-    </products>
-    <workSkill>Cooking</workSkill>
-    <displayPriority>400</displayPriority>
-  </RecipeDef>
-</Defs>
+ <CookMeal4Bera.label>베라 샐러드 4개 요리</CookMeal4Bera.label>
+ <CookMeal4Bera.description>간단하고 맛있는 샐러드 4인분</CookMeal4Bera.description>
+ <CookMeal4Bera.jobString>토마토 샐러드를 준비하세요.</CookMeal4Bera.jobString>
+
+
+</LanguageData>

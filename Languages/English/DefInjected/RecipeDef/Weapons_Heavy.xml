@@ -12,8 +12,8 @@
   <BuildFlamethrowerCrio.jobString>Build Cryolator.</BuildFlamethrowerCrio.jobString>
 
   <MakeGrenadeCryo.label>make cryogenic grenades x5</MakeGrenadeCryo.label>
-<MakeGrenadeCryo.description>Crafts 5 cryogenic grenades.</MakeGrenadeCryo.description>
-<MakeGrenadeCryo.jobString>creates grenades.</MakeGrenadeCryo.jobString>
+  <MakeGrenadeCryo.description>Crafts 5 cryogenic grenades.</MakeGrenadeCryo.description>
+  <MakeGrenadeCryo.jobString>creates grenades.</MakeGrenadeCryo.jobString>
 
 
 </LanguageData>
