@@ -55,11 +55,11 @@
   <Make_DriedFruit_x10.label>말린 과일 10개 만들기</Make_DriedFruit_x10.label>
   <Make_DriedFruit_x10.description>말린 과일 5개를 만드세요. 만드는 데 2일이 걸립니다</Make_DriedFruit_x10.description>
 
- <Make_CoffeeBeans.label>커피콩 가공</Make_CoffeeBeans.label>
-<Make_CoffeeBeans.description>베리에서 커피콩 가공. 펄프, 발효 및 건조. 만드는 데 5일 걸림</Make_CoffeeBeans.description>
+  <Make_CoffeeBeans.label>커피콩 가공</Make_CoffeeBeans.label>
+  <Make_CoffeeBeans.description>베리에서 커피콩 가공. 펄프, 발효 및 건조. 만드는 데 5일 걸림</Make_CoffeeBeans.description>
 
   <Make_CoffeeBeans_x5.label>커피콩을 5개 가공</Make_CoffeeBeans_x5.label>
-<Make_CoffeeBeans_x5.description>베리에서 커피콩을 5개 가공합니다. 펄프, 발효 및 건조. 만드는 데 5일이 걸립니다.</Make_CoffeeBeans_x5.description>
+  <Make_CoffeeBeans_x5.description>베리에서 커피콩을 5개 가공합니다. 펄프, 발효 및 건조. 만드는 데 5일이 걸립니다.</Make_CoffeeBeans_x5.description>
 
 
 </LanguageData>

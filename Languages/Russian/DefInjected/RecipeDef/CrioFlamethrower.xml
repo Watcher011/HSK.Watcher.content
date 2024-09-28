@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeAmmo_Flamethrower_Crio.label>сделать азотный боеприпас x100</MakeAmmo_Flamethrower_Crio.label>
+  <MakeAmmo_Flamethrower_Crio.description>Фасовка азота.</MakeAmmo_Flamethrower_Crio.description>
+  <MakeAmmo_Flamethrower_Crio.jobString>создание боеприпаса из азота.</MakeAmmo_Flamethrower_Crio.jobString>
+
+
+</LanguageData>

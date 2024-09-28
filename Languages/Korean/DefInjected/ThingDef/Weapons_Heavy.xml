@@ -6,5 +6,13 @@
   <Gun_Simp.label>PCM-사용자 정의</Gun_Simp.label>
   <Gun_Simp.description>PKM은 현대화된 Kalashnikov 기관총입니다. 특별 주문으로 조립되었습니다. NATO 카트리지(762x51mmNATO)의 경우 배럴 및 일부 부품이 교체되었습니다. 또한 개머리판에 "Simpay must not pain"이라는 문구가 새겨져 있습니다.</Gun_Simp.description>
 
+  <FlamethrowerCrio.label>냉동 장치</FlamethrowerCrio.label>
+  <FlamethrowerCrio.description>Cryolator는 적을 얼릴 수 있는 강력한 실험용 무기입니다.</FlamethrowerCrio.description>
+<Proj_GrenadeCryo.label>냉동 수류탄</Proj_GrenadeCryo.label>
+
+ <Weapon_Grenade_Cryo.label>냉동 수류탄</Weapon_Grenade_Cryo.label>
+ <Weapon_Grenade_Cryo.description>폭발 시 영향을 받은 반경의 온도를 심각한 수준으로 낮추는 첨단 수류탄입니다. 대상을 얼리거나 사지를 손상시킬 수 있습니다. 벽이나 기타 물체에 튕겨 나올 가능성이 있어 실내 사용이 어렵습니다. 하지만 상대는 거의 빗나가는 일이 없으며 플레이어의 입장에서 그들의 수류탄은 좁은 공간과 좁은 통로에서 특히 위험합니다.</Weapon_Grenade_Cryo.description>
+ <Weapon_Grenade_Cryo.verbs.0.label>냉각수류탄 투척</Weapon_Grenade_Cryo.verbs.0.label>
+
 
 </LanguageData>

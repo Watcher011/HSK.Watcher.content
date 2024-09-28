@@ -7,5 +7,13 @@
   <BuildGunSimp.description>Сборка заказного пулемёта \nCaliber:7.62x51mm NATO</BuildGunSimp.description>
   <BuildGunSimp.jobString>Сборка Симп Гана.</BuildGunSimp.jobString>
 
+  <BuildFlamethrowerCrio.label>Сборка Криолятор</BuildFlamethrowerCrio.label>
+  <BuildFlamethrowerCrio.description>Сборка Криолятора  \nCaliber:Азот</BuildFlamethrowerCrio.description>
+  <BuildFlamethrowerCrio.jobString>Сборка Криолятора.</BuildFlamethrowerCrio.jobString>
+
+  <MakeGrenadeCryo.label>сделать криогенные гранаты х5</MakeGrenadeCryo.label>
+  <MakeGrenadeCryo.description>Крафт 5 криогенных гранат.</MakeGrenadeCryo.description>
+  <MakeGrenadeCryo.jobString>создаёт гранаты.</MakeGrenadeCryo.jobString>
+
 
 </LanguageData>

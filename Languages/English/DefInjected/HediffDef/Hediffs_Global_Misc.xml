@@ -35,5 +35,10 @@
   <BeeBite.description>What was the bite me? It is better to accelerate.</BeeBite.description>
   <BeeBite.labelNoun>Bee bite</BeeBite.labelNoun>
 
+  <Icing.label>Bound in Ice</Icing.label>
+  <Icing.description>Cold restricts movement</Icing.description>
+  <Icing.stages.0.label>Icing</Icing.stages.0.label>
+  <Icing.labelNoun>Icing</Icing.labelNoun>
+
 
 </LanguageData>

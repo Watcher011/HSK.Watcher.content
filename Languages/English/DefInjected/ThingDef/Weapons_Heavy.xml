@@ -6,5 +6,13 @@
   <Gun_Simp.label>PKM-Custom</Gun_Simp.label>
   <Gun_Simp.description>PKM — Kalashnikov machine gun modernized. Assembled by special order. The barrel and some parts are replaced for NATO cartridge (762x51mmNATO). Also has an engraving on the butt "Simpay should not suffer"</Gun_Simp.description>
 
+  <FlamethrowerCrio.label>Cryolator</FlamethrowerCrio.label>
+  <FlamethrowerCrio.description>The Cryolator is a powerful experimental weapon that can freeze enemies.</FlamethrowerCrio.description>
+<Proj_GrenadeCryo.label>Cryo Grenade</Proj_GrenadeCryo.label>
+
+<Weapon_Grenade_Cryo.label>Cryo Grenade</Weapon_Grenade_Cryo.label>
+<Weapon_Grenade_Cryo.description>A high-tech grenade that lowers the temperature in the blast radius to critical values ​​when it explodes. It can freeze the target or damage their limbs. Its use indoors is difficult due to the possibility of bouncing off walls and other objects. However, opponents almost never miss, and their grenades are especially dangerous for the player in confined spaces and narrow passages.</Weapon_Grenade_Cryo.description>
+<Weapon_Grenade_Cryo.verbs.0.label>Throws a Cryo Grenade</Weapon_Grenade_Cryo.verbs.0.label>
+
 
 </LanguageData>

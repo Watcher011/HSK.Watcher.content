@@ -7,5 +7,12 @@
   <BuildGunSimp.description>맞춤형 기관총 조립 \n구경:7.62x51mm NATO</BuildGunSimp.description>
   <BuildGunSimp.jobString>심프 건을 만드는 중입니다.</BuildGunSimp.jobString>
 
+  <BuildFlamethrowerCrio.label>냉동 장치 조립</BuildFlamethrowerCrio.label>
+  <BuildFlamethrowerCrio.description>냉각 장치 조립 \n구경:질소</BuildFlamethrowerCrio.description>
+  <BuildFlamethrowerCrio.jobString>냉동 장치를 만드는 중입니다.</BuildFlamethrowerCrio.jobString>
+<MakeGrenadeCryo.label>극저온 수류탄 5개 제작</MakeGrenadeCryo.label>
+ <MakeGrenadeCryo.description>극저온 수류탄 5개를 제작하세요.</MakeGrenadeCryo.description>
+ <MakeGrenadeCryo.jobString>수류탄을 생성합니다.</MakeGrenadeCryo.jobString>
+
 
 </LanguageData>

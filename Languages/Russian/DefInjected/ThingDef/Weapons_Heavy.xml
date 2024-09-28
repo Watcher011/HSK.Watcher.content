@@ -6,5 +6,14 @@
   <Gun_Simp.label>ПКМ-Заказной</Gun_Simp.label>
   <Gun_Simp.description>ПКМ — пулемёт Калашникова модернизированный. Собранный по спецзаказу. Ствол и часть деталей заменена под натовский патрон (762x51mmNATO). Также имеет гравировку на прикладе"Simpay не должен страдать"</Gun_Simp.description>
 
+  <FlamethrowerCrio.label>Криолятор</FlamethrowerCrio.label>
+  <FlamethrowerCrio.description>Криолятор — это мощное экспериментальное оружие, которое может замораживать врагов.</FlamethrowerCrio.description>
+
+  <Proj_GrenadeCryo.label>Криограната</Proj_GrenadeCryo.label>
+
+  <Weapon_Grenade_Cryo.label>Криограната</Weapon_Grenade_Cryo.label>
+  <Weapon_Grenade_Cryo.description>Высокотехнологичная граната, при взрыве понижающая температуру в радиусе поражения до критических значений. Может заморозить цель или повредить ей конечности. Применение её в помещениях затруднено ввиду возможности отскоков от стен и других предметов. Зато противники почти никогда не промахиваются, и для игрока их гранаты особо опасны как раз в замкнутых помещениях и тесных проходах.</Weapon_Grenade_Cryo.description>
+  <Weapon_Grenade_Cryo.verbs.0.label>Бросает Криогранату</Weapon_Grenade_Cryo.verbs.0.label>
+
 
 </LanguageData>

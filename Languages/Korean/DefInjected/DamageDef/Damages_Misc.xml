@@ -3,5 +3,8 @@
 
   <BombAntigrav.deathMessage>{0}이(가) 사망했습니다.</BombAntigrav.deathMessage>
 
+  <CrioBomb.label>동상</CrioBomb.label>
+  <CrioBomb.deathMessage>{0}이(가) 죽었습니다.</CrioBomb.deathMessage>
+
 
 </LanguageData>

@@ -3,8 +3,8 @@
 
   <!-- AMBER -->
 
- <MinableAmber.label>앰버</MinableAmber.label>
-<MinableAmber.description>보존된 수액 조각이 들어 있는 바위.</MinableAmber.description>
+  <MinableAmber.label>앰버</MinableAmber.label>
+  <MinableAmber.description>보존된 수액 조각이 들어 있는 바위.</MinableAmber.description>
 
   <Amber.label>황색</Amber.label>
   <Amber.description>보존된 고대 나무 수액. 때로는 그 안에 작은 생물이 있습니다. 광택이 잘 나는 부드러운 수지입니다.</Amber.description>

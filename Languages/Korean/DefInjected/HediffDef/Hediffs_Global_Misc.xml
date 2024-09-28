@@ -35,5 +35,10 @@
   <BeeBite.description>나에게 물린 것은 무엇이었나요? 속도를 높이는 것이 좋습니다.</BeeBite.description>
   <BeeBite.labelNoun>벌 물림</BeeBite.labelNoun>
 
+  <Icing.label>얼음으로 결속</Icing.label>
+  <Icing.description>추위는 움직임을 방해합니다</Icing.description>
+  <Icing.stages.0.label>아이싱</Icing.stages.0.label>
+  <Icing.labelNoun>아이싱</Icing.labelNoun>
+
 
 </LanguageData>

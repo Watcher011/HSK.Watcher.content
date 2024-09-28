@@ -3,5 +3,8 @@
 
   <BombAntigrav.deathMessage>{0} has been killed.</BombAntigrav.deathMessage>
 
+  <CrioBomb.label>Frostbite</CrioBomb.label>
+  <CrioBomb.deathMessage>{0} has been killed.</CrioBomb.deathMessage>
+
 
 </LanguageData>

@@ -53,7 +53,7 @@
 				<compClass>SK.CompSnow</compClass>
 				<heatSuckMinTemperature>-5</heatSuckMinTemperature>
 				<ColdPerSecond>10</ColdPerSecond>
-				<snowRadius>6</snowRadius>
+				<snowRadius>2</snowRadius>
 				<snowDepth>.2</snowDepth>
 			</li>
 			<li Class="CompProperties_Glower">

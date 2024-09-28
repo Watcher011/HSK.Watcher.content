@@ -35,5 +35,10 @@
   <BeeBite.description>Что меня укусило? Это что пчёлы? Лучше ускориться.</BeeBite.description>
   <BeeBite.labelNoun>Пчелиный укус</BeeBite.labelNoun>
 
+  <Icing.label>Скован Льдом</Icing.label>
+  <Icing.description>Холод сковывает движение</Icing.description>
+  <Icing.stages.0.label>Обледенение</Icing.stages.0.label>
+  <Icing.labelNoun>Обледенение</Icing.labelNoun>
+
 
 </LanguageData>
