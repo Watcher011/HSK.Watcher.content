@@ -31,6 +31,7 @@
   <Ethanol.ingestible.ingestCommandString>Выпить {0}</Ethanol.ingestible.ingestCommandString>
   <Ethanol.ingestible.ingestReportString>Выпивает {0}.</Ethanol.ingestible.ingestReportString>
 
+
   <!--<DirtyEthanol.stuffProps.stuffAdjective>Топливо</DirtyEthanol.stuffProps.stuffAdjective>-->
   <!--<Ethanol.stuffProps.stuffAdjective>Топливо</Ethanol.stuffProps.stuffAdjective>-->
 

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef Name="BaseGas" Abstract="True">
+    <thingClass>Gas</thingClass>
+    <label>gas</label>
+    <category>Gas</category>
+    <altitudeLayer>Gas</altitudeLayer>
+    <useHitPoints>false</useHitPoints>
+    <tickerType>Normal</tickerType>
+    <graphicData>
+      <graphicClass>Graphic_Gas</graphicClass>
+      <shaderType>Transparent</shaderType>
+    </graphicData>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseGas">
+    <defName>Crio_Smoke</defName>
+    <label>Азотная взвесь</label>
+	<useHitPoints>true</useHitPoints>
+	<thingClass>ThingWithComps</thingClass>
+    <graphicData>
+		<graphicClass>Graphic_Gas</graphicClass>
+		<shaderType>Transparent</shaderType>
+		<texPath>Things/Gas/Puff</texPath>
+		<drawSize>2.2</drawSize>
+		<color>(0.5,0.5,1.0,0.5)</color>
+    </graphicData>
+	<comps>
+	     <li Class="SK.CompProperties_ApplyHediffAround">
+				<hediff>Icing</hediff>
+				<radius>3</radius>
+				<severityToAdd>1</severityToAdd>
+			    </li>
+		<li Class="SK.CompProperties_ColdPusher">
+				<ColdPerSecond>-300</ColdPerSecond>
+				<ColdPushMinTemperature>-30</ColdPushMinTemperature>
+			</li>
+		<li Class="CompProperties_Lifespan">
+			<lifespanTicks>900</lifespanTicks>
+		</li>
+	</comps>
+	<statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <Flammability>-8.0</Flammability>
+    </statBases>
+    <gas>
+      <expireSeconds>10~15</expireSeconds>
+      <rotationSpeed>10</rotationSpeed>
+    </gas>
+  </ThingDef>
+    
+</Defs>

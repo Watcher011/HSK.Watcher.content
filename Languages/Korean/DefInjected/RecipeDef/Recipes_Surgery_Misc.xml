@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
- <TreatmentOfInfection.label>감염 치료</TreatmentOfInfection.label>
-<TreatmentOfInfection.description>감염과 싸우기 위해 광범위한 시술을 수행합니다.</TreatmentOfInfection.description>
-<TreatmentOfInfection.jobString>감염 대상 A를 치료합니다.</TreatmentOfInfection.jobString>
-<TreatmentOfInfection.successfullyRemovedHediffMessage>{0}이 {1}에서 감염을 성공적으로 치료했습니다.</TreatmentOfInfection.successfullyRemovedHediffMessage>
+  <TreatmentOfInfection.label>감염 치료</TreatmentOfInfection.label>
+  <TreatmentOfInfection.description>감염과 싸우기 위해 광범위한 시술을 수행합니다.</TreatmentOfInfection.description>
+  <TreatmentOfInfection.jobString>감염 대상 A를 치료합니다.</TreatmentOfInfection.jobString>
+  <TreatmentOfInfection.successfullyRemovedHediffMessage>{0}이 {1}에서 감염을 성공적으로 치료했습니다.</TreatmentOfInfection.successfullyRemovedHediffMessage>
+
+
 </LanguageData>

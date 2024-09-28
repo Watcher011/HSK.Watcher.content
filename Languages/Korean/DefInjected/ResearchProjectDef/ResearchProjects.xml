@@ -2,9 +2,10 @@
 <LanguageData>
 
   <AdvancedPowerKult.label>에너지 생산 최적화</AdvancedPowerKult.label>
-<AdvancedPowerKult.description>작업 프로세스, 부품 및 회로를 변경하여 에너지 생산을 최적화합니다.</AdvancedPowerKult.description>
+  <AdvancedPowerKult.description>작업 프로세스, 부품 및 회로를 변경하여 에너지 생산을 최적화합니다.</AdvancedPowerKult.description>
 
-<OptimizingSunLamp.label>태양등 I 최적화</OptimizingSunLamp.label>
-<OptimizingSunLamp.description>태양등 에너지 소비 최적화</OptimizingSunLamp.description>
+  <OptimizingSunLamp.label>태양등 I 최적화</OptimizingSunLamp.label>
+  <OptimizingSunLamp.description>태양등 에너지 소비 최적화</OptimizingSunLamp.description>
+
 
 </LanguageData>

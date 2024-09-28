@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-<Fragment_Icon.label>울타리</Fragment_Icon.label>
- <Fragment_Cocon.label>코콘</Fragment_Cocon.label>
+  <Fragment_Icon.label>울타리</Fragment_Icon.label>
+  <Fragment_Cocon.label>코콘</Fragment_Cocon.label>
+
+
 </LanguageData>

@@ -177,6 +177,14 @@
                 <tooltip>Add recipes for processing yadarite into metal or glowstone?</tooltip>
             </li>
 			
+			<li Class="XmlExtensions.Setting.Checkbox">
+                <key>Cryotechnology</key>
+                <label>Adding nitrogen coolant?</label>
+				<tKey>Cryotechnology</tKey>
+                <defaultValue>false</defaultValue>
+                <tooltip>Adding nitrogen coolant?</tooltip>
+            </li>
+			
 			 <li Class="XmlExtensions.Setting.GapLine"/>
 			   <li Class="XmlExtensions.Setting.Text">
                 <text>Test functions that may be removed from the build</text>

@@ -50,8 +50,7 @@
       <showGrowthInInspectPane>true</showGrowthInInspectPane>
       <minSpacingBetweenSamePlant>4.9</minSpacingBetweenSamePlant>
       <harvestWork>1000</harvestWork>
-      <choppedThingDef>ChoppedStump_BioHarbinger</choppedThingDef>
-      <smashedThingDef>SmashedStump_BioHarbinger</smashedThingDef>
+     
     </plant>
     <comps>
       <li Class="CompProperties_SelfhealHitpoints">
@@ -60,26 +59,7 @@
     </comps>
   </ThingDef>
 
-  <ThingDef ParentName="StumpChoppedBase">
-    <defName>ChoppedStump_BioHarbinger</defName>
-    <label>рубленый пень терника</label>
-    <description>Пень, оставшийся после того, как срубили куст терника. Пень можно извлечь, но он дает очень мало пригодного материала. Оставленный на открытом воздухе, пень со временем испортится.</description>
-    <graphicData>
-      <texPath>Things/Plant/Stumps/StumpChopped_HarbingerTree</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-  </ThingDef>
-
-  <ThingDef ParentName="StumpSmashedBase">
-    <defName>SmashedStump_BioHarbinger</defName>
-    <label>раздробленный пень терника</label>
-    <description>Остатки куста терника, уничтоженного повреждением. Это уродливо. Пень можно вытащить, но он дает очень мало полезного материала. Оставленный на улице, пень со временем испортится.</description>
-    <graphicData>
-      <texPath>Things/Plant/Stumps/StumpSmashed_HarbingerTree</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-  </ThingDef>
-  
+ 
   
   
   <ThingDef ParentName="ResourceBase">

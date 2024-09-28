@@ -241,4 +241,71 @@
       </li>
     </comps>
   </HediffDef>
+  
+  
+  
+  
+  
+    <HediffDef>
+    <defName>Icing</defName>
+    <label>Скован Льдом</label>
+    <description>Холод сковывает движение</description>
+    <labelNoun>Обледенение</labelNoun>
+		<hediffClass>HediffWithComps</hediffClass>
+		<maxSeverity>1</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-10</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+			  <painOffset>0.3</painOffset>
+				<minSeverity>0</minSeverity>
+				<label>Обледенение</label>
+				<capMods>
+					<li>
+						 <capacity>Moving</capacity>
+                         <postFactor>0.2</postFactor>
+					</li>
+				</capMods>
+				<hediffGivers>
+				<li Class="HediffGiver_Random">
+					<hediff>Burn</hediff>
+					<mtbDays>0.2</mtbDays>
+					<partsToAffect>
+						<li>Lung</li>
+					</partsToAffect>
+				</li>
+				<li Class="HediffGiver_Random">
+					<hediff>Burn</hediff>
+					<mtbDays>0.2</mtbDays>
+					<partsToAffect>
+						<li>Lung</li>
+					</partsToAffect>
+				</li>
+				<li Class="HediffGiver_Random">
+					<hediff>Burn</hediff>
+					<mtbDays>0.2</mtbDays>
+					<partsToAffect>
+						 <li>Eye</li>
+					</partsToAffect>
+				</li>
+				<li Class="HediffGiver_Random">
+					<hediff>Burn</hediff>
+					<mtbDays>0.2</mtbDays>
+					<partsToAffect>
+						 <li>Eye</li>
+					</partsToAffect>
+				</li>
+			</hediffGivers>
+				 <statOffsets>
+                <ComfyTemperatureMax>-60</ComfyTemperatureMax>
+				 <MoveSpeed>-0.99</MoveSpeed>
+				  <IncomingDamageFactor>1.1</IncomingDamageFactor>
+                </statOffsets>
+			</li>
+			
+		</stages>
+	</HediffDef>
 </Defs>

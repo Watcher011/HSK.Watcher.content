@@ -3,15 +3,17 @@
 
   <!-- Super leathers -->
 
-<Leather_Thrumbo.label>매직 퍼</Leather_Thrumbo.label>
-<Leather_Thrumbo.description>고급스럽고 매우 내구성이 뛰어납니다. 단열성과 강도로 인해 최고 품질의 공예품에 사용됩니다.</Leather_Thrumbo.description>
+  <Leather_Thrumbo.label>매직 퍼</Leather_Thrumbo.label>
+  <Leather_Thrumbo.description>고급스럽고 매우 내구성이 뛰어납니다. 단열성과 강도로 인해 최고 품질의 공예품에 사용됩니다.</Leather_Thrumbo.description>
 
-<Leather_GRenLeather.label>녹색 와이번 비늘</Leather_GRenLeather.label>
-<Leather_GRenLeather.description>녹색 와이번의 비늘로, 외관이 매우 튼튼합니다.</Leather_GRenLeather.description>
+  <Leather_GRenLeather.label>녹색 와이번 비늘</Leather_GRenLeather.label>
+  <Leather_GRenLeather.description>녹색 와이번의 비늘로, 외관이 매우 튼튼합니다.</Leather_GRenLeather.description>
 
-<Leather_BarghestFur.label>바게스트 퍼 펠트</Leather_BarghestFur.label>
-<Leather_BarghestFur.description>고급스럽고 매우 내구성이 뛰어납니다. 단열성과 강도로 인해 최고 품질의 공예품에 사용됩니다.</Leather_BarghestFur.description>
+  <Leather_BarghestFur.label>바게스트 퍼 펠트</Leather_BarghestFur.label>
+  <Leather_BarghestFur.description>고급스럽고 매우 내구성이 뛰어납니다. 단열성과 강도로 인해 최고 품질의 공예품에 사용됩니다.</Leather_BarghestFur.description>
 
-<Leather_Behir.label>Behir 가죽</Leather_Behir.label>
-<Leather_Behir.description>고대 괴물의 가죽입니다.</Leather_Behir.description>
+  <Leather_Behir.label>Behir 가죽</Leather_Behir.label>
+  <Leather_Behir.description>고대 괴물의 가죽입니다.</Leather_Behir.description>
+
+
 </LanguageData>

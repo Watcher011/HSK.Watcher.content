@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-<Xray.label>방사선</Xray.label>
- <Xray.deathMessage>{0}이(가) 사망했습니다.</Xray.deathMessage>
+  <Xray.label>방사선</Xray.label>
+  <Xray.deathMessage>{0}이(가) 사망했습니다.</Xray.deathMessage>
 
- <NeirotoxGas.label>신경독소</NeirotoxGas.label>
- <NeirotoxGas.deathMessage>{0}이(가) 사망했습니다.</NeirotoxGas.deathMessage>
+  <NeirotoxGas.label>신경독소</NeirotoxGas.label>
+  <NeirotoxGas.deathMessage>{0}이(가) 사망했습니다.</NeirotoxGas.deathMessage>
+
 
 </LanguageData>

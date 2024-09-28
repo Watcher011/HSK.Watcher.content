@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-<YadaritBar.label>야다릿 합금</YadaritBar.label>
- <YadaritBar.description>정제된 야다라이트 합금</YadaritBar.description>
- <YadaritBar.stuffProps.stuffAdjective>야다리트</YadaritBar.stuffProps.stuffAdjective>
+  <YadaritBar.label>야다릿 합금</YadaritBar.label>
+  <YadaritBar.description>정제된 야다라이트 합금</YadaritBar.description>
+  <YadaritBar.stuffProps.stuffAdjective>야다리트</YadaritBar.stuffProps.stuffAdjective>
 
 
 </LanguageData>

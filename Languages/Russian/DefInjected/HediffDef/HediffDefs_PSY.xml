@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-
   <PSY_Bright.label>Пси Резонанс</PSY_Bright.label>
   <PSY_Bright.description>Гармонические вибрации пси-волн, которые излучает сердце, ускоряют восстановление вашей энергии.</PSY_Bright.description>
   <PSY_Bright.labelNoun>Пси Резонанс</PSY_Bright.labelNoun>
@@ -11,8 +10,8 @@
   <PSY_noise.labelNoun>Пси Гул</PSY_noise.labelNoun>
 
 
- <Carpet_Bite.label>Странный укус</Carpet_Bite.label>
- <Carpet_Bite.description>Меня что, укусил ковер? Нет, но лучше ускориться.</Carpet_Bite.description>
- <Carpet_Bite.labelNoun>Странный укус</Carpet_Bite.labelNoun>
+  <!--<Carpet_Bite.label>Странный укус</Carpet_Bite.label>-->
+  <!--<Carpet_Bite.description>Меня что, укусил ковер? Нет, но лучше ускориться.</Carpet_Bite.description>-->
+  <!--<Carpet_Bite.labelNoun>Странный укус</Carpet_Bite.labelNoun>-->
 
 </LanguageData>

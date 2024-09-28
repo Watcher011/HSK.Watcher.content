@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-<SunFlame.label>Магма</SunFlame.label>
-  <SunFlame.deathMessage>{0} был испепелён.</SunFlame.deathMessage>
-
-  <VaporizePlasma.label>испарён</VaporizePlasma.label>
-  <VaporizePlasma.deathMessage>{0} был испарён.</VaporizePlasma.deathMessage>
-
   <Xray.label>Радиоактивное излучение</Xray.label>
   <Xray.deathMessage>{0} был облучён.</Xray.deathMessage>
 
   <NeirotoxGas.label>Нейротоксин</NeirotoxGas.label>
   <NeirotoxGas.deathMessage>{0} был отравлен.</NeirotoxGas.deathMessage>
+
+
+  <!--<SunFlame.label>Магма</SunFlame.label>-->
+  <!--<SunFlame.deathMessage>{0} был испепелён.</SunFlame.deathMessage>-->
+  <!--<VaporizePlasma.label>испарён</VaporizePlasma.label>-->
+  <!--<VaporizePlasma.deathMessage>{0} был испарён.</VaporizePlasma.deathMessage>-->
 
 </LanguageData>

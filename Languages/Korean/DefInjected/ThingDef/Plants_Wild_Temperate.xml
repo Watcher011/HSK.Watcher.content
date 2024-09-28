@@ -2,7 +2,9 @@
 <LanguageData>
 
   <!-- Trees -->
-<Plant_TreeHoney.label>참나무</Plant_TreeHoney.label>
-<Plant_TreeHoney.description>활엽수. 참나무는 자라는 데 오랜 시간이 걸리지만, 나무가 너무 튼튼해서 '참나무'는 여러 문화권에서 강인함의 은유로 사용됩니다.</Plant_TreeHoney.description>
+
+  <Plant_TreeHoney.label>참나무</Plant_TreeHoney.label>
+  <Plant_TreeHoney.description>활엽수. 참나무는 자라는 데 오랜 시간이 걸리지만, 나무가 너무 튼튼해서 '참나무'는 여러 문화권에서 강인함의 은유로 사용됩니다.</Plant_TreeHoney.description>
+
 
 </LanguageData>

@@ -2,46 +2,48 @@
 <LanguageData>
 
   <!-- WallLights -->
-<KristalWallLamp.label>발광석 벽 램프</KristalWallLamp.label>
- <KristalWallLamp.description>발광석으로 만든 벽 램프는 비싸고 풍부합니다.</KristalWallLamp.description>
 
- <KristalWallLampDark.label>어두운 발광석 벽 램프</KristalWallLampDark.label>
- <KristalWallLampDark.description>"어두운" 발광석으로 만든 벽 램프는 비싸고 풍부합니다.</KristalWallLampDark.description>
+  <KristalWallLamp.label>발광석 벽 램프</KristalWallLamp.label>
+  <KristalWallLamp.description>발광석으로 만든 벽 램프는 비싸고 풍부합니다.</KristalWallLamp.description>
 
- <CeilingKristal.label>발광석 천장 램프</CeilingKristal.label>
- <CeilingKristal.description>천장 발광석 램프</CeilingKristal.description>
+  <KristalWallLampDark.label>어두운 발광석 벽 램프</KristalWallLampDark.label>
+  <KristalWallLampDark.description>"어두운" 발광석으로 만든 벽 램프는 비싸고 풍부합니다.</KristalWallLampDark.description>
 
- <CeilingKristalDark.label>발광석 천장 램프가 어두움</CeilingKristalDark.label>
- <CeilingKristalDark.description>천장 야광석 어두운 램프</CeilingKristalDark.description>
+  <CeilingKristal.label>발광석 천장 램프</CeilingKristal.label>
+  <CeilingKristal.description>천장 발광석 램프</CeilingKristal.description>
 
- <ColumnKristal.label>columnKristal</ColumnKristal.label>
- <ColumnKristal.description>Kristal 지붕을 지탱할 수 있는 기둥입니다. 시야나 움직임을 가리지 않으며 꽤 보기 좋습니다.</ColumnKristal.description>
+  <CeilingKristalDark.label>발광석 천장 램프가 어두움</CeilingKristalDark.label>
+  <CeilingKristalDark.description>천장 야광석 어두운 램프</CeilingKristalDark.description>
 
- <ColumnKristalDark.label>columnKristalDark</ColumnKristalDark.label>
- <ColumnKristalDark.description>루프콤 다크 크리스탈을 담을 수 있는 기둥입니다. 시야나 움직임을 가리지 않으며 꽤 괜찮아 보입니다.</ColumnKristalDark.description>
+  <ColumnKristal.label>columnKristal</ColumnKristal.label>
+  <ColumnKristal.description>Kristal 지붕을 지탱할 수 있는 기둥입니다. 시야나 움직임을 가리지 않으며 꽤 보기 좋습니다.</ColumnKristal.description>
 
- <HeadBarghestWall.label>바르게스트 트로피 헤드</HeadBarghestWall.label>
- <HeadBarghestWall.description>패배한 몬스터의 트로피 머리</HeadBarghestWall.description>
+  <ColumnKristalDark.label>columnKristalDark</ColumnKristalDark.label>
+  <ColumnKristalDark.description>루프콤 다크 크리스탈을 담을 수 있는 기둥입니다. 시야나 움직임을 가리지 않으며 꽤 괜찮아 보입니다.</ColumnKristalDark.description>
 
- <HeadBehirtWall.label>베키르 트로피 헤드</HeadBehirtWall.label>
- <HeadBehirtWall.description>패배한 몬스터의 트로피 머리</HeadBehirtWall.description>
+  <HeadBarghestWall.label>바르게스트 트로피 헤드</HeadBarghestWall.label>
+  <HeadBarghestWall.description>패배한 몬스터의 트로피 머리</HeadBarghestWall.description>
 
- <HeadKirinWall.label>기린 트로피 머리</HeadKirinWall.label>
- <HeadKirinWall.description>패배한 몬스터의 트로피 머리</HeadKirinWall.description>
+  <HeadBehirtWall.label>베키르 트로피 헤드</HeadBehirtWall.label>
+  <HeadBehirtWall.description>패배한 몬스터의 트로피 머리</HeadBehirtWall.description>
 
- <WyvernHeadWall.label>트로피 와이번 머리</WyvernHeadWall.label>
- <WyvernHeadWall.description>패배한 몬스터의 트로피 머리</WyvernHeadWall.description>
+  <HeadKirinWall.label>기린 트로피 머리</HeadKirinWall.label>
+  <HeadKirinWall.description>패배한 몬스터의 트로피 머리</HeadKirinWall.description>
 
- <ThrumboHeadWall.label>트로피 헤드 트럼보</ThrumboHeadWall.label>
- <ThrumboHeadWall.description>패배한 몬스터의 트로피 머리</ThrumboHeadWall.description>
+  <WyvernHeadWall.label>트로피 와이번 머리</WyvernHeadWall.label>
+  <WyvernHeadWall.description>패배한 몬스터의 트로피 머리</WyvernHeadWall.description>
 
- <FeenixHeadWall.label>트로피 헤드 Feenix</FeenixHeadWall.label>
- <FeenixHeadWall.description>죽인 몬스터의 트로피 머리</FeenixHeadWall.description>
+  <ThrumboHeadWall.label>트로피 헤드 트럼보</ThrumboHeadWall.label>
+  <ThrumboHeadWall.description>패배한 몬스터의 트로피 머리</ThrumboHeadWall.description>
 
- <icecreamBasin.label>아이스크림 기계</icecreamBasin.label>
- <icecreamBasin.description>냉동고 기계.</icecreamBasin.description>
+  <FeenixHeadWall.label>트로피 헤드 Feenix</FeenixHeadWall.label>
+  <FeenixHeadWall.description>죽인 몬스터의 트로피 머리</FeenixHeadWall.description>
 
- <YadaritLamp2A.label>크리스탈 램프</YadaritLamp2A.label>
- <YadaritLamp2A.description>조각된 껍질에 빛나는 크리스탈.</YadaritLamp2A.description>
+  <icecreamBasin.label>아이스크림 기계</icecreamBasin.label>
+  <icecreamBasin.description>냉동고 기계.</icecreamBasin.description>
+
+  <YadaritLamp2A.label>크리스탈 램프</YadaritLamp2A.label>
+  <YadaritLamp2A.description>조각된 껍질에 빛나는 크리스탈.</YadaritLamp2A.description>
+
 
 </LanguageData>

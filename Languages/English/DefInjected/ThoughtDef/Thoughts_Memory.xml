@@ -1,27 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
- 
+  <HadGFish.stages.0.label>Fish, salty, something is missing.</HadGFish.stages.0.label>
+  <HadGFish.stages.0.description>I want something to go with the fish</HadGFish.stages.0.description>
 
-<HadGFish.stages.0.label>Fish, salty, something is missing.</HadGFish.stages.0.label>
-<HadGFish.stages.0.description>I want something to go with the fish</HadGFish.stages.0.description>
+  <HadGFishAndBear.stages.0.label>Fish with beer</HadGFishAndBear.stages.0.label>
+  <HadGFishAndBear.stages.0.description>I feel a surge of energy, I can move mountains, but where is the toilet?</HadGFishAndBear.stages.0.description>
 
-<HadGFishAndBear.stages.0.label>Fish with beer</HadGFishAndBear.stages.0.label>
-<HadGFishAndBear.stages.0.description>I feel a surge of energy, I can move mountains, but where is the toilet?</HadGFishAndBear.stages.0.description>
+  <HadYzvar.stages.0.label>Natural product</HadYzvar.stages.0.label>
+  <HadYzvar.stages.0.description>Is that a bug floating? it's even tastier.</HadYzvar.stages.0.description>
 
-<HadYzvar.stages.0.label>Natural product</HadYzvar.stages.0.label>
-<HadYzvar.stages.0.description>Is that a bug floating? it's even tastier.</HadYzvar.stages.0.description>
+  <Hadchips.stages.0.label>Umm chips.</Hadchips.stages.0.label>
+  <Hadchips.stages.0.description>I want something to wash it down with</Hadchips.stages.0.description>
 
-<Hadchips.stages.0.label>Umm chips.</Hadchips.stages.0.label>
-<Hadchips.stages.0.description>I want something to wash it down with</Hadchips.stages.0.description>
+  <HadGTea.stages.0.label>I drank mint tea</HadGTea.stages.0.label>
+  <HadGTea.stages.0.description>This tea gives me peace</HadGTea.stages.0.description>
 
-<HadGTea.stages.0.label>I drank mint tea</HadGTea.stages.0.label>
-<HadGTea.stages.0.description>This tea gives me peace</HadGTea.stages.0.description>
+  <HadGreenTea.stages.0.label>I drank green tea</HadGreenTea.stages.0.label>
+  <HadGreenTea.stages.0.description>I feel a surge energy</HadGreenTea.stages.0.description>
 
-<HadGreenTea.stages.0.label>I drank green tea</HadGreenTea.stages.0.label>
-<HadGreenTea.stages.0.description>I feel a surge energy</HadGreenTea.stages.0.description>
+  <HadPuerT.stages.0.label>Drank Puer tea</HadPuerT.stages.0.label>
+  <HadPuerT.stages.0.description>I feel like my body is being cleansed</HadPuerT.stages.0.description>
 
-<HadPuerT.stages.0.label>Drank Puer tea</HadPuerT.stages.0.label>
-<HadPuerT.stages.0.description>I feel like my body is being cleansed</HadPuerT.stages.0.description>
 
 </LanguageData>

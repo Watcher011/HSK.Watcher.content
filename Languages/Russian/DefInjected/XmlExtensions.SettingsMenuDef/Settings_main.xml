@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-   <Watcher_Content_Settings.label>Watcher Content Настройки</Watcher_Content_Settings.label>
+
+  <Watcher_Content_Settings.label>Watcher Content Настройки</Watcher_Content_Settings.label>
   <Watcher_Content_Settings.settings.1.text>Возможности</Watcher_Content_Settings.settings.1.text>
   <Watcher_Content_Settings.settings.2.label>Добавляем алкоголь в рецепты крафта медикаментов?(Сложность:☠)</Watcher_Content_Settings.settings.2.label>
   <Watcher_Content_Settings.settings.3.label>Добавляем извлечение гемогена  из трупов?(Упрощенность:♛)</Watcher_Content_Settings.settings.3.label>
@@ -20,8 +21,11 @@
   <Watcher_Content_Settings.settings.23.label>Добавляете разнообразие в чайную продукцию?</Watcher_Content_Settings.settings.23.label>
   <Watcher_Content_Settings.settings.24.label>Добавляете медовое дерево?</Watcher_Content_Settings.settings.24.label>
   <Watcher_Content_Settings.settings.25.label>Добавьте рецепты переработки ядарита в металл или светящийся камень?(Упрощенность:♛)</Watcher_Content_Settings.settings.25.label>
-  <Watcher_Content_Settings.settings.27.text>Тестовые функции, которые могут быть удалены из сборки</Watcher_Content_Settings.settings.27.text>
-  <Watcher_Content_Settings.settings.31.text>Для применения всех параметров требуется перезапуск</Watcher_Content_Settings.settings.31.text>
+ <Watcher_Content_Settings.settings.26.label>Добавляете азотный хладагент?(Упрощенность:♛)</Watcher_Content_Settings.settings.26.label>
+<Watcher_Content_Settings.settings.28.text>Тестовые функции, которые могут быть удалены из сборки</Watcher_Content_Settings.settings.28.text>
+<Watcher_Content_Settings.settings.32.text>Для применения всех параметров требуется перезапуск</Watcher_Content_Settings.settings.32.text>
 
+  <!--<Watcher_Content_Settings.settings.27.text>Тестовые функции, которые могут быть удалены из сборки</Watcher_Content_Settings.settings.27.text>-->
+  <!--<Watcher_Content_Settings.settings.31.text>Для применения всех параметров требуется перезапуск</Watcher_Content_Settings.settings.31.text>-->
 
 </LanguageData>

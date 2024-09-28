@@ -1,11 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<PSY_Bright.label>사이공명</PSY_Bright.label>
- <PSY_Bright.description>심장에서 방출되는 사이파의 고조파 진동으로 에너지 회복이 가속화됩니다.</PSY_Bright.description>
- <PSY_Bright.labelNoun>사이 공명</PSY_Bright.labelNoun>
 
- <PSY_noise.label>Psi 소음</PSY_noise.label>
- <PSY_noise.description>역겨운 윙윙거리는 소음 때문에 집중이 안 됩니다.</PSY_noise.description>
- <PSY_noise.labelNoun>Psi 소음</PSY_noise.labelNoun>
+  <PSY_Bright.label>사이공명</PSY_Bright.label>
+  <PSY_Bright.description>심장에서 방출되는 사이파의 고조파 진동으로 에너지 회복이 가속화됩니다.</PSY_Bright.description>
+  <PSY_Bright.labelNoun>사이 공명</PSY_Bright.labelNoun>
+
+  <PSY_noise.label>Psi 소음</PSY_noise.label>
+  <PSY_noise.description>역겨운 윙윙거리는 소음 때문에 집중이 안 됩니다.</PSY_noise.description>
+  <PSY_noise.labelNoun>Psi 소음</PSY_noise.labelNoun>
+
 
 </LanguageData>

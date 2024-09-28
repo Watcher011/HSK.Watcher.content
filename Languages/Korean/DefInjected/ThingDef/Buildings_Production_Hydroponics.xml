@@ -2,6 +2,9 @@
 <LanguageData>
 
   <!-- ADVANCED HYDROPONICS -->
-<AquoponicsBasin.label>아쿠아포닉스</AquoponicsBasin.label>
- <AquoponicsBasin.description>아쿠아포닉스(Aquaponics)는 양식업과 수경재배를 결합한 첨단 농업 방식입니다. 아쿠아포닉스(Aquaponics)는 수생동물, 식물, 박테리아 등 세 가지 생물이 핵심이 되는 인공생태계이다. 이 기술은 환경 친화적입니다.</AquoponicsBasin.description>
+
+  <AquoponicsBasin.label>아쿠아포닉스</AquoponicsBasin.label>
+  <AquoponicsBasin.description>아쿠아포닉스(Aquaponics)는 양식업과 수경재배를 결합한 첨단 농업 방식입니다. 아쿠아포닉스(Aquaponics)는 수생동물, 식물, 박테리아 등 세 가지 생물이 핵심이 되는 인공생태계이다. 이 기술은 환경 친화적입니다.</AquoponicsBasin.description>
+
+
 </LanguageData>

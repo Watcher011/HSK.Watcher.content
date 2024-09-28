@@ -1,19 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-<Bio_Heater.label>BIO-Heater</Bio_Heater.label>
-<Bio_Heater.description>생명 유지 시스템에 연결된 피닉스의 심장은 혈액 내 영양소 양의 차이로 인해 헤마토겐을 자주 교체해야 합니다.</Bio_Heater.description>
+  <Bio_Heater.label>BIO-Heater</Bio_Heater.label>
+  <Bio_Heater.description>생명 유지 시스템에 연결된 피닉스의 심장은 혈액 내 영양소 양의 차이로 인해 헤마토겐을 자주 교체해야 합니다.</Bio_Heater.description>
 
-<Bio_coller.label>BIO-Cooler</Bio_coller.label>
-<Bio_coller.description>생명 유지 시스템에 연결된 키린의 심장은 혈액 내 영양소 양의 차이로 인해 헤마토겐을 자주 교체해야 합니다.</Bio_coller.description>
+  <Bio_coller.label>BIO-Cooler</Bio_coller.label>
+  <Bio_coller.description>생명 유지 시스템에 연결된 키린의 심장은 혈액 내 영양소 양의 차이로 인해 헤마토겐을 자주 교체해야 합니다.</Bio_coller.description>
 
-<Bio_Sun.label>BIO-Sun</Bio_Sun.label>
-<Bio_Sun.description>하이브리드화 과정을 통해 키린과 피닉스의 심장에서 광원을 생성할 수 있었습니다. 생명 유지 시스템에 연결해야 합니다. 혈액 내 영양소 양의 차이로 인해 혈구를 자주 교체해야 합니다.</Bio_Sun.description>
+  <Bio_Sun.label>BIO-Sun</Bio_Sun.label>
+  <Bio_Sun.description>하이브리드화 과정을 통해 키린과 피닉스의 심장에서 광원을 생성할 수 있었습니다. 생명 유지 시스템에 연결해야 합니다. 혈액 내 영양소 양의 차이로 인해 혈구를 자주 교체해야 합니다.</Bio_Sun.description>
 
-<Bio_PSY.label>BIO-PSY</Bio_PSY.label>
-<Bio_PSY.description>사이오닉 공명을 생성하는 베히르의 심장입니다.</Bio_PSY.description>
+  <Bio_PSY.label>BIO-PSY</Bio_PSY.label>
+  <Bio_PSY.description>사이오닉 공명을 생성하는 베히르의 심장입니다.</Bio_PSY.description>
 
-<Bio_cleaning.label>BIO-cleaning</Bio_cleaning.label>
-<Bio_cleaning.description>와이번의 심장은 광대한 반경에 걸쳐 독소를 흡수할 수 있습니다.</Bio_cleaning.description>
+  <Bio_cleaning.label>BIO-cleaning</Bio_cleaning.label>
+  <Bio_cleaning.description>와이번의 심장은 광대한 반경에 걸쳐 독소를 흡수할 수 있습니다.</Bio_cleaning.description>
+
 
 </LanguageData>

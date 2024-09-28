@@ -1,58 +1,65 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<Make_DriedMushrooms.label>건조 버섯</Make_DriedMushrooms.label>
- <Make_DriedMushrooms.description>신선한 버섯을 말립니다. 이 과정은 2일이 소요됩니다.</Make_DriedMushrooms.description>
 
- <Make_DriedMushrooms_x5.label>마른 버섯 x5</Make_DriedMushrooms_x5.label>
- <Make_DriedMushrooms_x5.description>신선한 버섯을 말립니다. 이 과정은 2일이 소요됩니다.</Make_DriedMushrooms_x5.description>
+  <Make_DriedMushrooms.label>건조 버섯</Make_DriedMushrooms.label>
+  <Make_DriedMushrooms.description>신선한 버섯을 말립니다. 이 과정은 2일이 소요됩니다.</Make_DriedMushrooms.description>
 
- <Make_DriedFish.label>건어물</Make_DriedFish.label>
- <Make_DriedFish.description>생선을 말립니다. 이 과정은 2일이 소요됩니다.</Make_DriedFish.description>
+  <Make_DriedMushrooms_x5.label>마른 버섯 x5</Make_DriedMushrooms_x5.label>
+  <Make_DriedMushrooms_x5.description>신선한 버섯을 말립니다. 이 과정은 2일이 소요됩니다.</Make_DriedMushrooms_x5.description>
 
- <Make_Driedchips.label>칩 건조</Make_Driedchips.label>
- <Make_Driedchips.description>칩을 건조시킵니다. 이 과정은 3일이 소요됩니다.</Make_Driedchips.description>
+  <Make_DriedFish.label>건어물</Make_DriedFish.label>
+  <Make_DriedFish.description>생선을 말립니다. 이 과정은 2일이 소요됩니다.</Make_DriedFish.description>
 
- <Make_icecream.label>간단한 아이스크림 만들기</Make_icecream.label>
- <Make_icecream.description>어린 시절처럼 아이스크림 만들기</Make_icecream.description>
+  <Make_Driedchips.label>칩 건조</Make_Driedchips.label>
+  <Make_Driedchips.description>칩을 건조시킵니다. 이 과정은 3일이 소요됩니다.</Make_Driedchips.description>
 
- <Make_DriedNori.label>마른 해초</Make_DriedNori.label>
- <Make_DriedNori.description>신선한 해초를 건조합니다. 이 과정은 2일이 소요됩니다.</Make_DriedNori.description>
+  <Make_icecream.label>간단한 아이스크림 만들기</Make_icecream.label>
+  <Make_icecream.description>어린 시절처럼 아이스크림 만들기</Make_icecream.description>
 
- <Make_DriedNori_x5.label>마른 김 5개</Make_DriedNori_x5.label>
- <Make_DriedNori_x5.description>신선한 해초를 건조합니다. 이 과정은 2일이 소요됩니다.</Make_DriedNori_x5.description>
+  <Make_DriedNori.label>마른 해초</Make_DriedNori.label>
+  <Make_DriedNori.description>신선한 해초를 건조합니다. 이 과정은 2일이 소요됩니다.</Make_DriedNori.description>
 
- <Make_Ethanol.label>매시 만들기</Make_Ethanol.label>
- <Make_Ethanol.description>에탄올 함량이 낮은 원시 제품을 생산합니다. 2일이 소요됩니다</Make_Ethanol.description>
+  <Make_DriedNori_x5.label>마른 김 5개</Make_DriedNori_x5.label>
+  <Make_DriedNori_x5.description>신선한 해초를 건조합니다. 이 과정은 2일이 소요됩니다.</Make_DriedNori_x5.description>
 
- <Make_DriedMushrooms5x.label>마른 버섯 x5</Make_DriedMushrooms5x.label>
- <Make_DriedMushrooms5x.description>신선한 버섯을 말립니다. 이 과정은 1.5일이 소요됩니다.</Make_DriedMushrooms5x.description>
+  <Make_Ethanol.label>매시 만들기</Make_Ethanol.label>
+  <Make_Ethanol.description>에탄올 함량이 낮은 원시 제품을 생산합니다. 2일이 소요됩니다</Make_Ethanol.description>
 
- <Make_DriedMushrooms10x.label>마른 버섯 10개</Make_DriedMushrooms10x.label>
- <Make_DriedMushrooms10x.description>신선한 버섯을 말립니다. 이 과정은 1.5일이 소요됩니다.</Make_DriedMushrooms10x.description>
+  <Make_DriedMushrooms5x.label>마른 버섯 x5</Make_DriedMushrooms5x.label>
+  <Make_DriedMushrooms5x.description>신선한 버섯을 말립니다. 이 과정은 1.5일이 소요됩니다.</Make_DriedMushrooms5x.description>
 
- <Make_DriedFish5x.label>건어물 3개</Make_DriedFish5x.label>
- <Make_DriedFish5x.description>생선을 말립니다. 이 과정은 2일이 소요됩니다.</Make_DriedFish5x.description>
+  <Make_DriedMushrooms10x.label>마른 버섯 10개</Make_DriedMushrooms10x.label>
+  <Make_DriedMushrooms10x.description>신선한 버섯을 말립니다. 이 과정은 1.5일이 소요됩니다.</Make_DriedMushrooms10x.description>
 
- <Make_DriedFish10x.label>건어물 9개</Make_DriedFish10x.label>
- <Make_DriedFish10x.description>생선을 말립니다. 이 과정은 2일이 소요됩니다.</Make_DriedFish10x.description>
+  <Make_DriedFish5x.label>건어물 3개</Make_DriedFish5x.label>
+  <Make_DriedFish5x.description>생선을 말립니다. 이 과정은 2일이 소요됩니다.</Make_DriedFish5x.description>
 
- <Make_DriedNori_x05.label>마른 해초 5개</Make_DriedNori_x05.label>
- <Make_DriedNori_x05.description>신선한 해초를 건조합니다. 이 과정은 2일이 소요됩니다.</Make_DriedNori_x05.description>
+  <Make_DriedFish10x.label>건어물 9개</Make_DriedFish10x.label>
+  <Make_DriedFish10x.description>생선을 말립니다. 이 과정은 2일이 소요됩니다.</Make_DriedFish10x.description>
 
- <Make_DriedNori_x10.label>마른 김 10개</Make_DriedNori_x10.label>
- <Make_DriedNori_x10.description>신선한 해초를 말립니다. 이 과정은 2일이 소요됩니다.</Make_DriedNori_x10.description>
+  <Make_DriedNori_x05.label>마른 해초 5개</Make_DriedNori_x05.label>
+  <Make_DriedNori_x05.description>신선한 해초를 건조합니다. 이 과정은 2일이 소요됩니다.</Make_DriedNori_x05.description>
 
- <Make_Jerkyx10.label>육포 10개 만들기</Make_Jerkyx10.label>
- <Make_Jerkyx10.description>육포를 만듭니다. 만드는데 2일이 걸립니다</Make_Jerkyx10.description>
+  <Make_DriedNori_x10.label>마른 김 10개</Make_DriedNori_x10.label>
+  <Make_DriedNori_x10.description>신선한 해초를 말립니다. 이 과정은 2일이 소요됩니다.</Make_DriedNori_x10.description>
 
- <Make_Jerkyx30.label>육포 30개 만들기</Make_Jerkyx30.label>
- <Make_Jerkyx30.description>육포를 만듭니다. 만드는데 2일이 걸립니다</Make_Jerkyx30.description>
+  <Make_Jerkyx10.label>육포 10개 만들기</Make_Jerkyx10.label>
+  <Make_Jerkyx10.description>육포를 만듭니다. 만드는데 2일이 걸립니다</Make_Jerkyx10.description>
 
- <Make_DriedFruit_x05.label>말린 과일 5개 만들기</Make_DriedFruit_x05.label>
- <Make_DriedFruit_x05.description>말린 과일 5개를 만드세요. 만드는 데 2일이 걸립니다</Make_DriedFruit_x05.description>
+  <Make_Jerkyx30.label>육포 30개 만들기</Make_Jerkyx30.label>
+  <Make_Jerkyx30.description>육포를 만듭니다. 만드는데 2일이 걸립니다</Make_Jerkyx30.description>
 
- <Make_DriedFruit_x10.label>말린 과일 10개 만들기</Make_DriedFruit_x10.label>
- <Make_DriedFruit_x10.description>말린 과일 5개를 만드세요. 만드는 데 2일이 걸립니다</Make_DriedFruit_x10.description>
+  <Make_DriedFruit_x05.label>말린 과일 5개 만들기</Make_DriedFruit_x05.label>
+  <Make_DriedFruit_x05.description>말린 과일 5개를 만드세요. 만드는 데 2일이 걸립니다</Make_DriedFruit_x05.description>
+
+  <Make_DriedFruit_x10.label>말린 과일 10개 만들기</Make_DriedFruit_x10.label>
+  <Make_DriedFruit_x10.description>말린 과일 5개를 만드세요. 만드는 데 2일이 걸립니다</Make_DriedFruit_x10.description>
+
+ <Make_CoffeeBeans.label>커피콩 가공</Make_CoffeeBeans.label>
+<Make_CoffeeBeans.description>베리에서 커피콩 가공. 펄프, 발효 및 건조. 만드는 데 5일 걸림</Make_CoffeeBeans.description>
+
+  <Make_CoffeeBeans_x5.label>커피콩을 5개 가공</Make_CoffeeBeans_x5.label>
+<Make_CoffeeBeans_x5.description>베리에서 커피콩을 5개 가공합니다. 펄프, 발효 및 건조. 만드는 데 5일이 걸립니다.</Make_CoffeeBeans_x5.description>
 
 
 </LanguageData>

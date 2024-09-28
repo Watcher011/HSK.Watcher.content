@@ -1,31 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
- <Chipfir.label>칩퍼</Chipfir.label>
- <Chipfir.description>칩피르는 몸을 따뜻하게 하고 활력을 줍니다.</Chipfir.description>
- <Chipfir.stages.0.label>Chipfirchik의 기분 좋은 따뜻함</Chipfir.stages.0.label>
- <Chipfir.stages.1.label>Chipfir에서 즐거운 시간 보내기</Chipfir.stages.1.label>
- <Chipfir.stages.2.label>너바나</Chipfir.stages.2.label>
- <Chipfir.labelNoun>치피르치크</Chipfir.labelNoun>
+  <Chipfir.label>칩퍼</Chipfir.label>
+  <Chipfir.description>칩피르는 몸을 따뜻하게 하고 활력을 줍니다.</Chipfir.description>
+  <Chipfir.stages.0.label>Chipfirchik의 기분 좋은 따뜻함</Chipfir.stages.0.label>
+  <Chipfir.stages.1.label>Chipfir에서 즐거운 시간 보내기</Chipfir.stages.1.label>
+  <Chipfir.stages.2.label>너바나</Chipfir.stages.2.label>
+  <Chipfir.labelNoun>치피르치크</Chipfir.labelNoun>
 
- <ChipfirTolerance.label>치피르에 대한 갈망</ChipfirTolerance.label>
- <ChipfirTolerance.description>치피어에 대한 갈망이 있고 중독도 멀지 않습니다.</ChipfirTolerance.description>
+  <ChipfirTolerance.label>치피르에 대한 갈망</ChipfirTolerance.label>
+  <ChipfirTolerance.description>치피어에 대한 갈망이 있고 중독도 멀지 않습니다.</ChipfirTolerance.description>
 
- <ChipfirAddiction.label>칩피르 중독</ChipfirAddiction.label>
- <ChipfirAddiction.description>치피르 중독이 심해졌습니다.</ChipfirAddiction.description>
- <ChipfirAddiction.stages.1.label>Chipfir </ChipfirAddiction.stages.1.label>
- <ChipfirAddiction.labelNoun>칩피르 중독</ChipfirAddiction.labelNoun>
+  <ChipfirAddiction.label>칩피르 중독</ChipfirAddiction.label>
+  <ChipfirAddiction.description>치피르 중독이 심해졌습니다.</ChipfirAddiction.description>
+  <ChipfirAddiction.stages.1.label>Chipfir </ChipfirAddiction.stages.1.label>
+  <ChipfirAddiction.labelNoun>칩피르 중독</ChipfirAddiction.labelNoun>
 
- <HedCupgreentea.label>진정 차 마시기</HedCupgreentea.label>
- <HedCupgreentea.description>고요하고 고요한</HedCupgreentea.description>
- <HedCupgreentea.stages.0.label>바디 클렌징</HedCupgreentea.stages.0.label>
+  <HedCupgreentea.label>진정 차 마시기</HedCupgreentea.label>
+  <HedCupgreentea.description>고요하고 고요한</HedCupgreentea.description>
+  <HedCupgreentea.stages.0.label>바디 클렌징</HedCupgreentea.stages.0.label>
 
- <HadPuer.label>보이어 차 마시기</HadPuer.label>
- <HadPuer.description>고요하고 오직 차분함</HadPuer.description>
- <HadPuer.stages.0.label>몸 정화</HadPuer.stages.0.label>
+  <HadPuer.label>보이어 차 마시기</HadPuer.label>
+  <HadPuer.description>고요하고 오직 차분함</HadPuer.description>
+  <HadPuer.stages.0.label>몸 정화</HadPuer.stages.0.label>
 
- <HadGreenTea.label>녹차 마시기</HadGreenTea.label>
- <HadGreenTea.description>고요함과 평화</HadGreenTea.description>
- <HadGreenTea.stages.0.label>녹차</HadGreenTea.stages.0.label>
+  <HadGreenTea.label>녹차 마시기</HadGreenTea.label>
+  <HadGreenTea.description>고요함과 평화</HadGreenTea.description>
+  <HadGreenTea.stages.0.label>녹차</HadGreenTea.stages.0.label>
+
 
 </LanguageData>

@@ -116,7 +116,7 @@
 				</li>
 			</secondaryDamage>
 			<armorPenetrationSharp>30</armorPenetrationSharp>
-			<armorPenetrationBlunt>324</armorPenetrationBlunt>
+			<armorPenetrationBlunt>100</armorPenetrationBlunt>
 			<explosionRadius>0.1</explosionRadius>
 			<preExplosionSpawnThingDef>Filth_SpentAcid</preExplosionSpawnThingDef>
 			<preExplosionSpawnChance>0.67</preExplosionSpawnChance>

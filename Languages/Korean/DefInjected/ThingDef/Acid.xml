@@ -2,15 +2,20 @@
 <LanguageData>
 
   <!-- Ammo -->
-<Ammo_Acid.label>산성 화학연료</Ammo_Acid.label>
-<Ammo_Acid.description>산.</Ammo_Acid.description>
 
-<Ammo_Cocon.label>코콘 화학연료</Ammo_Cocon.label>
-<Ammo_Cocon.description>산.</Ammo_Cocon.description>
+  <Ammo_Acid.label>산성 화학연료</Ammo_Acid.label>
+  <Ammo_Acid.description>산.</Ammo_Acid.description>
 
-<!-- 투사체 -->
+  <Ammo_Cocon.label>코콘 화학연료</Ammo_Cocon.label>
+  <Ammo_Cocon.description>산.</Ammo_Cocon.description>
 
-<Bullet_Acid.label>젤리 화학연료 흐름</Bullet_Acid.label>
-<Bullet_Cocon.label>코콘</Bullet_Cocon.label>
+
+  <!-- Projectiles -->
+
+  <Bullet_Acid.label>젤리 화학연료 흐름</Bullet_Acid.label>
+  <Bullet_Cocon.label>코콘</Bullet_Cocon.label>
+
+
+  <!-- 투사체 -->
 
 </LanguageData>

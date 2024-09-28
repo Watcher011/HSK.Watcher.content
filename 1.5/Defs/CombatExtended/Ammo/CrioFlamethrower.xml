@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-<!--
+
 	<ThingCategoryDef>
 		<defName>AmmoCrioFlamethrower</defName>
 		<label>Crio flamethrower fuel</label>
@@ -39,15 +39,38 @@
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="CrioFlamethrowerBase">
 		<defName>Ammo_Flamethrower_Crio</defName>
-		<label>Crio chemfuel</label>
+		<label>Азот</label>
 		<graphicData>
 			<texPath>Things/Ammo/FuelTank/Crio</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>0.8</MarketValue>
+			<MarketValue>140</MarketValue>
 		</statBases>
 		<ammoClass>Crio</ammoClass>
+			<comps>
+			<li Class="SK.CompPropertiesSnow">
+				<compClass>SK.CompSnow</compClass>
+				<heatSuckMinTemperature>-5</heatSuckMinTemperature>
+				<ColdPerSecond>10</ColdPerSecond>
+				<snowRadius>6</snowRadius>
+				<snowDepth>.2</snowDepth>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>2</glowRadius>
+				<glowColor>(0,96,255,0)</glowColor>
+			</li>
+				<li Class="CompProperties_Explosive">
+				<explosiveRadius>3.2</explosiveRadius>
+				<explosiveDamageType>Smoke</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.05</explosiveExpandPerStackcount>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<wickTicks>
+					<min>215</min>
+					<max>440</max>
+				</wickTicks>
+			</li>
+		</comps>
 	</ThingDef>
 
 	
@@ -59,6 +82,7 @@
 			<texPath>Things/Projectile/Crio</texPath>
 			<shaderType>MoteGlow</shaderType>
 			<graphicClass>Graphic_Single</graphicClass>
+			  <drawSize>(0.4, 0.4)</drawSize>
 		</graphicData>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<speed>20</speed>
@@ -97,12 +121,13 @@
 		<airborneSuppressionFactor>5.5</airborneSuppressionFactor>
     </projectile>
 	<comps>
-			<li Class="CombatExtended.CompProperties_ExplosiveCE">
-				<damageAmountBase>2</damageAmountBase>
+	<li Class="CombatExtended.CompProperties_ExplosiveCE">
+				<damageAmountBase>6</damageAmountBase>
 				<explosiveDamageType>CrioBomb</explosiveDamageType>
-				<explosiveRadius>0.1</explosiveRadius>
-				<preExplosionSpawnThingDef>Filth_Water</preExplosionSpawnThingDef>
+				<explosiveRadius>3</explosiveRadius>
+				<preExplosionSpawnThingDef>Crio_Smoke</preExplosionSpawnThingDef>
 				<preExplosionSpawnChance>1</preExplosionSpawnChance>
+				
 			</li>
 		</comps>
 	</ThingDef>
@@ -143,6 +168,5 @@
 		</products>
 	</RecipeDef>
 
-	-->
 
 </Defs>

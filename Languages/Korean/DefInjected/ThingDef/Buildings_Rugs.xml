@@ -1,25 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
- <DragonCarpet.label>피닉스 러그</DragonCarpet.label>
-<DragonCarpet.description>피닉스 가죽으로 만든 카펫은 만지면 따뜻하고 어둠 속에서 약간 빛납니다!</DragonCarpet.description>
+  <DragonCarpet.label>피닉스 러그</DragonCarpet.label>
+  <DragonCarpet.description>피닉스 가죽으로 만든 카펫은 만지면 따뜻하고 어둠 속에서 약간 빛납니다!</DragonCarpet.description>
 
-<KirinCarpet.label>키린 카펫</KirinCarpet.label>
-<KirinCarpet.description>키린의 두꺼운 털은 방을 완벽하게 장식할 것입니다. 이 털을 추출하는 과정에서 얼마나 많은 사람이 죽었는지 기억하지 못한다면요!</KirinCarpet.description>
+  <KirinCarpet.label>키린 카펫</KirinCarpet.label>
+  <KirinCarpet.description>키린의 두꺼운 털은 방을 완벽하게 장식할 것입니다. 이 털을 추출하는 과정에서 얼마나 많은 사람이 죽었는지 기억하지 못한다면요!</KirinCarpet.description>
 
-<GrindragonCarpet.label>와이번 카펫</GrindragonCarpet.label>
-<GrindragonCarpet.description>유럽의 용을 연상시키는 신화 속 생물이지만 다리가 한 쌍뿐이며, 종종 뱀 모양의 꼬리로 묘사되고 네 발 달린 용과는 달리 불을 뿜는 경우가 드뭅니다. 드래곤은 와이번과 가장 닮았습니다.</GrindragonCarpet.description>
+  <GrindragonCarpet.label>와이번 카펫</GrindragonCarpet.label>
+  <GrindragonCarpet.description>유럽의 용을 연상시키는 신화 속 생물이지만 다리가 한 쌍뿐이며, 종종 뱀 모양의 꼬리로 묘사되고 네 발 달린 용과는 달리 불을 뿜는 경우가 드뭅니다. 드래곤은 와이번과 가장 닮았습니다.</GrindragonCarpet.description>
 
-<BehirCarpet.label>Bekhir의 카펫</BehirCarpet.label>
-<BehirCarpet.description>무서운 괴물의 가죽으로 만든 카펫!</BehirCarpet.description>
+  <BehirCarpet.label>Bekhir의 카펫</BehirCarpet.label>
+  <BehirCarpet.description>무서운 괴물의 가죽으로 만든 카펫!</BehirCarpet.description>
 
-<BagestCarpet.label>Bagest의 카펫</BagestCarpet.label>
-<BagestCarpet.description>기괴한 생물이 잘못된 식민지에 도착했고, 이제 그녀는 식민지의 장식이 되었습니다.</BagestCarpet.description>
+  <BagestCarpet.label>Bagest의 카펫</BagestCarpet.label>
+  <BagestCarpet.description>기괴한 생물이 잘못된 식민지에 도착했고, 이제 그녀는 식민지의 장식이 되었습니다.</BagestCarpet.description>
 
-<TrumbCarpet.label>Trumbo의 카펫</TrumbCarpet.label>
-<TrumbCarpet.description>잘못된 식민지에 도착한 위대한 생물이 이제 그녀의 털이 식민지를 장식합니다.</TrumbCarpet.description>
+  <TrumbCarpet.label>Trumbo의 카펫</TrumbCarpet.label>
+  <TrumbCarpet.description>잘못된 식민지에 도착한 위대한 생물이 이제 그녀의 털이 식민지를 장식합니다.</TrumbCarpet.description>
 
-<InsectCarpet.label>곤충의 카펫</InsectCarpet.label>
-<InsectCarpet.description>잘못된 집단에 도착한 위대한 생물, 이제 그 털이 집단을 장식하고 있습니다.</InsectCarpet.description>
+  <InsectCarpet.label>곤충의 카펫</InsectCarpet.label>
+  <InsectCarpet.description>잘못된 집단에 도착한 위대한 생물, 이제 그 털이 집단을 장식하고 있습니다.</InsectCarpet.description>
+
 
 </LanguageData>

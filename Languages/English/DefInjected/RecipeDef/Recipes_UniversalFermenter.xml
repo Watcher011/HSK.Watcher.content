@@ -55,5 +55,11 @@
   <Make_DriedFruit_x10.label>make dried fruit x10</Make_DriedFruit_x10.label>
   <Make_DriedFruit_x10.description>Make dried fruit x5. Takes 2 days to make</Make_DriedFruit_x10.description>
 
+  <Make_CoffeeBeans.label>process coffee beans</Make_CoffeeBeans.label>
+  <Make_CoffeeBeans.description>process coffee beans from berries. Pulp, ferment and dry. Takes 5 days to make</Make_CoffeeBeans.description>
+
+  <Make_CoffeeBeans_x5.label>process coffee beans x5</Make_CoffeeBeans_x5.label>
+  <Make_CoffeeBeans_x5.description>process coffee beans x5 from berries. Pulp, ferment and dry. Takes 5 days to make</Make_CoffeeBeans_x5.description>
+
 
 </LanguageData>

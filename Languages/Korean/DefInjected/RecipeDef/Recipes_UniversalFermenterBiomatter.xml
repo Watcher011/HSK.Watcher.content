@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-<ExtractBiomatterSeaweed.label>해초에서 바이오매터 추출</ExtractBiomatterSeaweed.label>
-<ExtractBiomatterSeaweed.description>해초에서 바이오매터 추출. 만드는 데 1.5일 걸림</ExtractBiomatterSeaweed.description>
+  <ExtractBiomatterSeaweed.label>해초에서 바이오매터 추출</ExtractBiomatterSeaweed.label>
+  <ExtractBiomatterSeaweed.description>해초에서 바이오매터 추출. 만드는 데 1.5일 걸림</ExtractBiomatterSeaweed.description>
+
 
 </LanguageData>

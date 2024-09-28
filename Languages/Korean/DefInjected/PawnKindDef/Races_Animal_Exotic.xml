@@ -1,80 +1,81 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Bombardier.label>Bombardier</Bombardier.label>
-  <Bombardier.labelPlural>Bombardiers</Bombardier.labelPlural>
-  <Bombardier.lifeStages.0.label>Bombardier</Bombardier.lifeStages.0.label>
-  <Bombardier.lifeStages.0.labelPlural>Bombardier</Bombardier.lifeStages.0.labelPlural>
-  <Bombardier.lifeStages.0.labelMale>male Bombardier</Bombardier.lifeStages.0.labelMale>
-  <Bombardier.lifeStages.0.labelMalePlural>male Bombardiers</Bombardier.lifeStages.0.labelMalePlural>
-  <Bombardier.lifeStages.0.labelFemale>female Bombardier</Bombardier.lifeStages.0.labelFemale>
-  <Bombardier.lifeStages.0.labelFemalePlural>female Bombardiers</Bombardier.lifeStages.0.labelFemalePlural>
-  <Bombardier.lifeStages.1.label>Bombardier</Bombardier.lifeStages.1.label>
-  <Bombardier.lifeStages.1.labelPlural>Bombardier</Bombardier.lifeStages.1.labelPlural>
-  <Bombardier.lifeStages.1.labelMale>male Bombardier</Bombardier.lifeStages.1.labelMale>
-  <Bombardier.lifeStages.1.labelMalePlural>male Bombardiers</Bombardier.lifeStages.1.labelMalePlural>
-  <Bombardier.lifeStages.1.labelFemale>female Bombardier</Bombardier.lifeStages.1.labelFemale>
-  <Bombardier.lifeStages.1.labelFemalePlural>female Bombardiers</Bombardier.lifeStages.1.labelFemalePlural>
-  <Bombardier.lifeStages.2.label>Bombardier</Bombardier.lifeStages.2.label>
-  <Bombardier.lifeStages.2.labelPlural>Bombardier</Bombardier.lifeStages.2.labelPlural>
-  <Bombardier.lifeStages.2.labelMale>male Bombardier</Bombardier.lifeStages.2.labelMale>
-  <Bombardier.lifeStages.2.labelMalePlural>male Bombardiers</Bombardier.lifeStages.2.labelMalePlural>
-  <Bombardier.lifeStages.2.labelFemale>female Bombardier</Bombardier.lifeStages.2.labelFemale>
-  <Bombardier.lifeStages.2.labelFemalePlural>female Bombardiers</Bombardier.lifeStages.2.labelFemalePlural>
-  <Bombardier.labelMale>male Bombardier</Bombardier.labelMale>
-  <Bombardier.labelMalePlural>male Bombardiers</Bombardier.labelMalePlural>
-  <Bombardier.labelFemale>female Bombardier</Bombardier.labelFemale>
-  <Bombardier.labelFemalePlural>female Bombardiers</Bombardier.labelFemalePlural>
+ <Bombardier.label>봄바디어</Bombardier.label>
+<Bombardier.labelPlural>봄바디어</Bombardier.labelPlural>
+<Bombardier.lifeStages.0.label>봄바디어</Bombardier.lifeStages.0.label>
+<Bombardier.lifeStages.0.labelPlural>봄바디어</Bombardier.lifeStages.0.labelPlural>
+<Bombardier.lifeStages.0.labelMale>남성 봄바디어</Bombardier.lifeStages.0.labelMale>
+<Bombardier.lifeStages.0.labelMalePlural>남성 봄바디어</Bombardier.lifeStages.0.labelMalePlural>
+<Bombardier.lifeStages.0.labelFemale>여성 봄바디어</Bombardier.lifeStages.0.labelFemale>
+<Bombardier.lifeStages.0.labelFemalePlural>여성 봄바디어</Bombardier.lifeStages.0.labelFemalePlural>
+<Bombardier.lifeStages.1.label>봄바디어</Bombardier.lifeStages.1.label>
+<Bombardier.lifeStages.1.labelPlural>봄바디어</Bombardier.lifeStages.1.labelPlural>
+<Bombardier.lifeStages.1.labelMale>남성 봄바디어</Bombardier.lifeStages.1.labelMale>
+<Bombardier.lifeStages.1.labelMalePlural>남성 봄바디어</Bombardier.lifeStages.1.labelMalePlural>
+<Bombardier.lifeStages.1.labelFemale>여성 봄바디어</Bombardier.lifeStages.1.labelFemale>
+<Bombardier.lifeStages.1.labelFemalePlural>여성 봄바디어</Bombardier.lifeStages.1.labelFemalePlural>
+<Bombardier.lifeStages.2.label>봄바디어</Bombardier.lifeStages.2.label>
+<Bombardier.lifeStages.2.labelPlural>봄바디어</Bombardier.lifeStages.2.labelPlural>
+<Bombardier.lifeStages.2.labelMale>남성 봄바디어</Bombardier.lifeStages.2.labelMale>
+<Bombardier.lifeStages.2.labelMalePlural>남성 봄바디어</Bombardier.lifeStages.2.labelMalePlural>
+<Bombardier.lifeStages.2.labelFemale>여성 봄바디어</Bombardier.lifeStages.2.labelFemale>
+<Bombardier.lifeStages.2.labelFemalePlural>여성 봄바디어</Bombardier.lifeStages.2.labelFemalePlural>
+<Bombardier.labelMale>남성 봄바디어</Bombardier.labelMale>
+<Bombardier.labelMalePlural>남성 봄바디어</Bombardier.labelMalePlural>
+<Bombardier.labelFemale>여성 봄바디어</Bombardier.labelFemale>
+<Bombardier.labelFemalePlural>여성 봄바디어</Bombardier.labelFemalePlural>
 
-  <Huntercarab.label>Huntercarab</Huntercarab.label>
-  <Huntercarab.labelPlural>Huntercarabs</Huntercarab.labelPlural>
-  <Huntercarab.lifeStages.0.label>Huntercarab</Huntercarab.lifeStages.0.label>
-  <Huntercarab.lifeStages.0.labelPlural>Huntercarab</Huntercarab.lifeStages.0.labelPlural>
-  <Huntercarab.lifeStages.0.labelMale>male Huntercarab</Huntercarab.lifeStages.0.labelMale>
-  <Huntercarab.lifeStages.0.labelMalePlural>male Huntercarabs</Huntercarab.lifeStages.0.labelMalePlural>
-  <Huntercarab.lifeStages.0.labelFemale>female Huntercarab</Huntercarab.lifeStages.0.labelFemale>
-  <Huntercarab.lifeStages.0.labelFemalePlural>female Huntercarabs</Huntercarab.lifeStages.0.labelFemalePlural>
-  <Huntercarab.lifeStages.1.label>Huntercarab</Huntercarab.lifeStages.1.label>
-  <Huntercarab.lifeStages.1.labelPlural>Huntercarab</Huntercarab.lifeStages.1.labelPlural>
-  <Huntercarab.lifeStages.1.labelMale>male Huntercarab</Huntercarab.lifeStages.1.labelMale>
-  <Huntercarab.lifeStages.1.labelMalePlural>male Huntercarabs</Huntercarab.lifeStages.1.labelMalePlural>
-  <Huntercarab.lifeStages.1.labelFemale>female Huntercarab</Huntercarab.lifeStages.1.labelFemale>
-  <Huntercarab.lifeStages.1.labelFemalePlural>female Huntercarabs</Huntercarab.lifeStages.1.labelFemalePlural>
-  <Huntercarab.lifeStages.2.label>Huntercarab</Huntercarab.lifeStages.2.label>
-  <Huntercarab.lifeStages.2.labelPlural>Huntercarab</Huntercarab.lifeStages.2.labelPlural>
-  <Huntercarab.lifeStages.2.labelMale>male Huntercarab</Huntercarab.lifeStages.2.labelMale>
-  <Huntercarab.lifeStages.2.labelMalePlural>male Huntercarabs</Huntercarab.lifeStages.2.labelMalePlural>
-  <Huntercarab.lifeStages.2.labelFemale>female Huntercarab</Huntercarab.lifeStages.2.labelFemale>
-  <Huntercarab.lifeStages.2.labelFemalePlural>female Huntercarabs</Huntercarab.lifeStages.2.labelFemalePlural>
-  <Huntercarab.labelMale>male Huntercarab</Huntercarab.labelMale>
-  <Huntercarab.labelMalePlural>male Huntercarabs</Huntercarab.labelMalePlural>
-  <Huntercarab.labelFemale>female Huntercarab</Huntercarab.labelFemale>
-  <Huntercarab.labelFemalePlural>female Huntercarabs</Huntercarab.labelFemalePlural>
+  <Huntercarab.label>헌터캐럽</Huntercarab.label>
+<Huntercarab.labelPlural>헌터캐럽</Huntercarab.labelPlural>
+<Huntercarab.lifeStages.0.label>헌터캐럽</Huntercarab.lifeStages.0.label>
+<Huntercarab.lifeStages.0.labelPlural>헌터캐럽</Huntercarab.lifeStages.0.labelPlural>
+<Huntercarab.lifeStages.0.labelMale>남성 헌터캐럽</Huntercarab.lifeStages.0.labelMale>
+<Huntercarab.lifeStages.0.labelMalePlural>남성 헌터캐럽</Huntercarab.lifeStages.0.labelMalePlural>
+<Huntercarab.lifeStages.0.labelFemale>여성 헌터캐럽</Huntercarab.lifeStages.0.labelFemale>
+<Huntercarab.lifeStages.0.labelFemalePlural>암컷 헌터캐럽</Huntercarab.lifeStages.0.labelFemalePlural>
+<Huntercarab.lifeStages.1.label>헌터캐럽</Huntercarab.lifeStages.1.label>
+<Huntercarab.lifeStages.1.labelPlural>헌터캐럽</Huntercarab.lifeStages.1.labelPlural>
+<Huntercarab.lifeStages.1.labelMale>수컷 헌터캐럽</Huntercarab.lifeStages.1.labelMale>
+<Huntercarab.lifeStages.1.labelMalePlural>수컷 헌터캐럽</Huntercarab.lifeStages.1.labelMalePlural>
+<Huntercarab.lifeStages.1.labelFemale>암컷 헌터캐럽</Huntercarab.lifeStages.1.labelFemale>
+<Huntercarab.lifeStages.1.labelFemalePlural>암컷 헌터캐럽</Huntercarab.lifeStages.1.labelFemalePlural>
+<Huntercarab.lifeStages.2.label>헌터캐럽</Huntercarab.lifeStages.2.label>
+<Huntercarab.lifeStages.2.labelPlural>헌터캐럽</Huntercarab.lifeStages.2.labelPlural>
+<Huntercarab.lifeStages.2.labelMale>수컷 헌터캐럽</Huntercarab.lifeStages.2.labelMale>
+<Huntercarab.lifeStages.2.labelMalePlural>수컷 헌터캐럽</Huntercarab.lifeStages.2.labelMalePlural>
+<Huntercarab.lifeStages.2.labelFemale>암컷 헌터캐럽</Huntercarab.lifeStages.2.labelFemale>
+<Huntercarab.lifeStages.2.labelFemalePlural>암컷 헌터캐럽</Huntercarab.lifeStages.2.labelFemalePlural>
+<Huntercarab.labelMale>수컷 헌터캐럽</Huntercarab.labelMale>
+<Huntercarab.labelMalePlural>수컷 헌터캐럽</Huntercarab.labelMalePlural>
+<Huntercarab.labelFemale>암컷 헌터캐럽</Huntercarab.labelFemale>
+<Huntercarab.labelFemalePlural>암컷 헌터캐럽</Huntercarab.labelFemalePlural>
 
-  <QueenBug.label>Queen Bug</QueenBug.label>
-  <QueenBug.labelPlural>Queen Bugs</QueenBug.labelPlural>
-  <QueenBug.lifeStages.0.label>Queen Bug</QueenBug.lifeStages.0.label>
-  <QueenBug.lifeStages.0.labelPlural>Queen Bug</QueenBug.lifeStages.0.labelPlural>
-  <QueenBug.lifeStages.0.labelMale>male Queen Bug</QueenBug.lifeStages.0.labelMale>
-  <QueenBug.lifeStages.0.labelMalePlural>male Queen Bugs</QueenBug.lifeStages.0.labelMalePlural>
-  <QueenBug.lifeStages.0.labelFemale>female Queen Bug</QueenBug.lifeStages.0.labelFemale>
-  <QueenBug.lifeStages.0.labelFemalePlural>female Queen Bugs</QueenBug.lifeStages.0.labelFemalePlural>
-  <QueenBug.lifeStages.1.label>Queen Bug</QueenBug.lifeStages.1.label>
-  <QueenBug.lifeStages.1.labelPlural>Queen Bug</QueenBug.lifeStages.1.labelPlural>
-  <QueenBug.lifeStages.1.labelMale>male Queen Bug</QueenBug.lifeStages.1.labelMale>
-  <QueenBug.lifeStages.1.labelMalePlural>male Queen Bugs</QueenBug.lifeStages.1.labelMalePlural>
-  <QueenBug.lifeStages.1.labelFemale>female Queen Bug</QueenBug.lifeStages.1.labelFemale>
-  <QueenBug.lifeStages.1.labelFemalePlural>female Queen Bugs</QueenBug.lifeStages.1.labelFemalePlural>
-  <QueenBug.lifeStages.2.label>Queen Bug</QueenBug.lifeStages.2.label>
-  <QueenBug.lifeStages.2.labelPlural>Queen Bug</QueenBug.lifeStages.2.labelPlural>
-  <QueenBug.lifeStages.2.labelMale>male Queen Bug</QueenBug.lifeStages.2.labelMale>
-  <QueenBug.lifeStages.2.labelMalePlural>male Queen Bugs</QueenBug.lifeStages.2.labelMalePlural>
-  <QueenBug.lifeStages.2.labelFemale>female Queen Bug</QueenBug.lifeStages.2.labelFemale>
-  <QueenBug.lifeStages.2.labelFemalePlural>female Queen Bugs</QueenBug.lifeStages.2.labelFemalePlural>
-  <QueenBug.labelMale>male Queen Bug</QueenBug.labelMale>
-  <QueenBug.labelMalePlural>male Queen Bugs</QueenBug.labelMalePlural>
-  <QueenBug.labelFemale>female Queen Bug</QueenBug.labelFemale>
-  <QueenBug.labelFemalePlural>female Queen Bugs</QueenBug.labelFemalePlural>
+
+  <QueenBug.label>여왕 벌레</QueenBug.label>
+<QueenBug.labelPlural>여왕 벌레</QueenBug.labelPlural>
+<QueenBug.lifeStages.0.label>여왕 벌레</QueenBug.lifeStages.0.label>
+<QueenBug.lifeStages.0.labelPlural>여왕 벌레</QueenBug.lifeStages.0.labelPlural>
+<QueenBug.lifeStages.0.labelMale>수컷 여왕 벌레</QueenBug.lifeStages.0.labelMale>
+<QueenBug.lifeStages.0.labelMalePlural>수컷 여왕 벌레</QueenBug.lifeStages.0.labelMalePlural>
+<QueenBug.lifeStages.0.labelFemale>암컷 여왕 벌레</QueenBug.lifeStages.0.labelFemale>
+<QueenBug.lifeStages.0.labelFemalePlural>암컷 여왕 벌레</QueenBug.lifeStages.0.labelFemalePlural>
+<QueenBug.lifeStages.1.label>여왕 벌레</QueenBug.lifeStages.1.label>
+<QueenBug.lifeStages.1.labelPlural>여왕 벌레</QueenBug.lifeStages.1.labelPlural>
+<QueenBug.lifeStages.1.labelMale>수컷 여왕 벌레</QueenBug.lifeStages.1.labelMale>
+<QueenBug.lifeStages.1.labelMalePlural>수컷 여왕 벌레</QueenBug.lifeStages.1.labelMalePlural>
+<QueenBug.lifeStages.1.labelFemale>암컷 여왕 벌레</QueenBug.lifeStages.1.labelFemale>
+<QueenBug.lifeStages.1.labelFemalePlural>암컷 여왕 벌레</QueenBug.lifeStages.1.labelFemalePlural>
+<QueenBug.lifeStages.2.label>여왕 벌레</QueenBug.lifeStages.2.label>
+<QueenBug.lifeStages.2.labelPlural>여왕 벌레</QueenBug.lifeStages.2.labelPlural>
+<QueenBug.lifeStages.2.labelMale>수컷 여왕 벌레</QueenBug.lifeStages.2.labelMale>
+<QueenBug.lifeStages.2.labelMalePlural>수컷 여왕 벌레</QueenBug.lifeStages.2.labelMalePlural>
+<QueenBug.lifeStages.2.labelFemale>암컷 여왕 벌레</QueenBug.lifeStages.2.labelFemale>
+<QueenBug.lifeStages.2.labelFemalePlural>암컷 여왕 벌레</QueenBug.lifeStages.2.labelFemalePlural>
+<QueenBug.labelMale>수컷 여왕 벌레</QueenBug.labelMale>
+<QueenBug.labelMalePlural>수컷 여왕 벌레</QueenBug.labelMalePlural>
+<QueenBug.labelFemale>암컷 여왕 벌레</QueenBug.labelFemale>
+<QueenBug.labelFemalePlural>암컷 여왕 벌레</QueenBug.labelFemalePlural>
 
 
 </LanguageData>

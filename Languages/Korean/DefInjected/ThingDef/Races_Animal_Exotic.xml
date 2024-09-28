@@ -1,23 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
- <Bombardier.label>Bombardier</Bombardier.label>
-<Bombardier.description>Bombardier는 혼자 있을 때는 특별히 위험하지 않지만 무리 지어 있을 때는 매우 위험할 수 있습니다. 개별적으로 번식할 수 없는 사회적 동물입니다.</Bombardier.description>
-<Bombardier.verbs.0.label>산 발사</Bombardier.verbs.0.label>
-<Bombardier.tools.0.label>왼쪽 앞다리</Bombardier.tools.0.label>
-<Bombardier.tools.1.label>오른쪽 앞다리</Bombardier.tools.1.label>
-<Bombardier.tools.3.label>머리</Bombardier.tools.3.label>
+  <Bombardier.label>Bombardier</Bombardier.label>
+  <Bombardier.description>Bombardier는 혼자 있을 때는 특별히 위험하지 않지만 무리 지어 있을 때는 매우 위험할 수 있습니다. 개별적으로 번식할 수 없는 사회적 동물입니다.</Bombardier.description>
+  <Bombardier.verbs.0.label>산 발사</Bombardier.verbs.0.label>
+  <Bombardier.tools.0.label>왼쪽 앞다리</Bombardier.tools.0.label>
+  <Bombardier.tools.1.label>오른쪽 앞다리</Bombardier.tools.1.label>
+  <Bombardier.tools.3.label>머리</Bombardier.tools.3.label>
 
-<Huntercarab.label>Huntercarab</Huntercarab.label>
-<Huntercarab.description>유전자 조작된 대형 곤충. 한때 메카노이드 침입에 맞서 싸우기 위해 설계된 곤충형 인공 생태계의 노동자 계급이었지만, 지금은 더 치명적인 곤충형 사촌 없이 종종 보입니다. 그래도 크기와 딱딱한 껍질 때문에 공격할 때는 위험합니다. 진사회적 동물로, 개별적으로 번식할 수 없습니다.</Huntercarab.description>
-<Huntercarab.tools.0.label>턱뼈</Huntercarab.tools.0.label>
-<Huntercarab.tools.1.label>머리</Huntercarab.tools.1.label>
+  <Huntercarab.label>Huntercarab</Huntercarab.label>
+  <Huntercarab.description>유전자 조작된 대형 곤충. 한때 메카노이드 침입에 맞서 싸우기 위해 설계된 곤충형 인공 생태계의 노동자 계급이었지만, 지금은 더 치명적인 곤충형 사촌 없이 종종 보입니다. 그래도 크기와 딱딱한 껍질 때문에 공격할 때는 위험합니다. 진사회적 동물로, 개별적으로 번식할 수 없습니다.</Huntercarab.description>
+  <Huntercarab.tools.0.label>턱뼈</Huntercarab.tools.0.label>
+  <Huntercarab.tools.1.label>머리</Huntercarab.tools.1.label>
 
-<QueenBug.label>여왕 벌레</QueenBug.label>
-<QueenBug.description>곤충류의 희귀한 대표자로, 딱정벌레로 가득 찬 파괴된 정착지가 Myasnaya Zina의 발의 작품이라는 전설이 있습니다.</QueenBug.description>
-<QueenBug.verbs.0.label>코콘 발사</QueenBug.verbs.0.label>
-<QueenBug.tools.0.label>왼쪽 앞다리</QueenBug.tools.0.label>
-<QueenBug.tools.1.label>오른쪽 앞다리</QueenBug.tools.1.label>
-<QueenBug.tools.3.label>머리</QueenBug.tools.3.label>
+  <QueenBug.label>여왕 벌레</QueenBug.label>
+  <QueenBug.description>곤충류의 희귀한 대표자로, 딱정벌레로 가득 찬 파괴된 정착지가 Myasnaya Zina의 발의 작품이라는 전설이 있습니다.</QueenBug.description>
+  <QueenBug.verbs.0.label>코콘 발사</QueenBug.verbs.0.label>
+  <QueenBug.tools.0.label>왼쪽 앞다리</QueenBug.tools.0.label>
+  <QueenBug.tools.1.label>오른쪽 앞다리</QueenBug.tools.1.label>
+  <QueenBug.tools.3.label>머리</QueenBug.tools.3.label>
+
 
 </LanguageData>

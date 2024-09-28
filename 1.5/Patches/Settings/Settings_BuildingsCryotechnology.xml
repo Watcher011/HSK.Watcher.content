@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>Watcher.Content.Settings</modId>
+    <key>Cryotechnology</key>
+   
+    <defaultValue>false</defaultValue>
+	
+    <caseTrue>
+	 <Operation Class="PatchOperationAdd">
+        <xpath>Defs</xpath>
+        <value>
+	<ThingDef ParentName="SK_BuildingBase">
+		<defName>NitrogenBattery</defName>
+		<label>Азотный охладитель D.R</label>
+		<description>Резервуар, предназначенный для охлаждения помещения большого размера до сверхнизких температур, был разработан более 300 лет назад величайшей учёной известной как DesertRain
+, увы её дальнейшая деятельность неизвестна. Требует Азот для работы.</description>
+		<thingClass>SK.Building_ColdstoneBattery</thingClass>
+		<graphicData>
+			<texPath>Things/Building/NitrogenF</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>80</pathCost>
+		<canOverlapZones>false</canOverlapZones>
+		<holdsRoof>true</holdsRoof>
+		<fillPercent>0.8</fillPercent>
+		<coversFloor>true</coversFloor>
+		<blockLight>false</blockLight>
+		<castEdgeShadows>true</castEdgeShadows>
+		<statBases>
+			<Flammability>0</Flammability>
+			<WorkToBuild>1200</WorkToBuild>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Cleanliness>-10</Cleanliness>
+		</statBases>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>95</costStuffCount>
+		<costList>
+			<Ammo_Flamethrower_Crio>4</Ammo_Flamethrower_Crio>
+			<ComponentMedieval>8</ComponentMedieval>
+			<Mechanism>4</Mechanism>
+		</costList>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<tickerType>Normal</tickerType>
+		<comps>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>1.0</fuelConsumptionRate>
+				<fuelCapacity>10.0</fuelCapacity>
+				<autoRefuelPercent>0.1</autoRefuelPercent>
+				<fuelFilter>
+					<thingDefs>
+						<li>Ammo_Flamethrower_Crio</li>
+					</thingDefs>
+				</fuelFilter>
+				<destroyOnNoFuel>false</destroyOnNoFuel>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+			<li Class="SK.CompProperties_ColdPusher">
+				<ColdPerSecond>-40</ColdPerSecond>
+				<ColdPushMinTemperature>-195</ColdPushMinTemperature>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<placeWorkers>
+			<li>SK.PlaceWorker_ColdstoneBattery</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>false</drawPlaceWorkersWhileSelected>
+		<researchPrerequisites>
+			<li>Temperature_control_C2</li>
+		</researchPrerequisites>
+		<designationCategory>Temperature</designationCategory>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	</ThingDef>
+         </value>
+    </Operation>
+	
+	
+	
+	
+	
+	
+	 <Operation Class="PatchOperationAdd">
+        <xpath>Defs</xpath>
+        <value>
+	<ThingDef ParentName="RefineryBase">
+		<defName>NitrogenRefiner</defName>
+		<label>переработчик азота</label>
+		<description>Перерабатывает топливо в азот.</description>
+		<graphicData>
+			<texPath>Rimefeller/Things/Building/SynthyleneRefinery</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,4)</drawSize>
+			<color>(0,96,230)</color>
+		</graphicData>
+		<stuffCategories>
+			<li>RuggedMetallic</li>
+		</stuffCategories>
+		<costStuffCount>125</costStuffCount>
+		<costList>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<ElectronicComponents>2</ElectronicComponents>
+			<Mechanism>5</Mechanism>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>1000</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusherPowered</compClass>
+				<heatPerSecond>6</heatPerSecond>
+			</li>
+			<li Class="Rimefeller.CompProperties_Refinery">       
+				<compClass>Rimefeller.CompRefineryPolymer</compClass>
+				<Product>Ammo_Flamethrower_Crio</Product>
+				<StackSize>20</StackSize>
+				<BufferSize>50</BufferSize>
+				<ConsumeRate>1.7</ConsumeRate>
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>Oil_Industry_C3</li>
+		</researchPrerequisites>
+	</ThingDef>
+         </value>
+    </Operation>
+	
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs</xpath>
+		<value>
+		<ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_Refinery</defName>
+		<label>refineries</label>
+		<description>Processes chemfuel to another products.</description>
+		<defNames>
+			<li>PolymerRefiner</li>
+			<li>PaintRefiner</li>
+			<li>NapalmRefiner</li>
+			<li>SynthreadRefiner</li>
+			<li>HyperweaveRefiner</li>
+			<li>NeutroamineRefiner</li>
+			<li>ParaffinRefiner</li>
+			<li>SulphateRefiner</li>
+			<li>SyntheticAmmoniaRefiner</li>
+			<li>NitrogenRefiner</li>
+		</defNames>
+		<designationCategory>Rimefeller</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+		</value>
+	</Operation>
+	
+    </caseTrue>
+</Operation>
+
+</Patch>
+

@@ -4,6 +4,7 @@
   <!-- Drying Rack -->
 
   <industrialDryingRack.label> 산업용 건조대</industrialDryingRack.label>
-<industrialDryingRack.description>건조기(산업용)는 베리, 육류, 버섯, 생선을 건조하도록 설계되었습니다..</industrialDryingRack.description>
+  <industrialDryingRack.description>건조기(산업용)는 베리, 육류, 버섯, 생선을 건조하도록 설계되었습니다..</industrialDryingRack.description>
+
 
 </LanguageData>

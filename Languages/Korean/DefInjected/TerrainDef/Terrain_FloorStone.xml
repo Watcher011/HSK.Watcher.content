@@ -1,20 +1,102 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<FloorStoneStaggeredNefrBrick.label>옥 타일</FloorStoneStaggeredNefrBrick.label>
- <FloorStoneStaggeredNefrBrick.description>깔끔한 사각형 옥 석판으로 만든 돌 바닥
+
+  <FloorStoneStaggeredNefrBrick.label>옥 타일</FloorStoneStaggeredNefrBrick.label>
+  <FloorStoneStaggeredNefrBrick.description>깔끔한 사각형 옥 석판으로 만든 돌 바닥
 아름다움: 8.</FloorStoneStaggeredNefrBrick.description>
 
 
- <FloorStoneMosaicNEF.label>옥 모자이크</FloorStoneMosaicNEF.label>
- <FloorStoneMosaicNEF.description>깔끔한 옥 모자이크로 만든 돌바닥
+  <!-- <TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneStaggeredTESTBrick</defName>
+		<label>TEST плитка</label>
+		<renderPrecedence>270</renderPrecedence>
+		<description>Каменный пол из аккуратных квадратных плит нефрита
+Beauty: 8.</description>
+		<texturePath>Things/FlorTest</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B4</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>820</WorkToBuild>
+			<Beauty>8</Beauty>
+		</statBases>
+		<costList>
+			<Jade>4</Jade>
+		</costList>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+
+<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneStaggeredTEST2Brick</defName>
+		<label>TEST 2 плитка</label>
+		<renderPrecedence>270</renderPrecedence>
+		<description>Каменный пол из аккуратных квадратных плит нефрита
+Beauty: 8.</description>
+		<texturePath>Things/FlorTest2</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B4</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>820</WorkToBuild>
+			<Beauty>8</Beauty>
+		</statBases>
+		<costList>
+			<Jade>4</Jade>
+		</costList>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneStaggeredTEST3Brick</defName>
+		<label>TEST 3 плитка</label>
+		<renderPrecedence>270</renderPrecedence>
+		<description>Каменный пол из аккуратных квадратных плит нефрита
+Beauty: 8.</description>
+		<texturePath>Things/FlorTest3</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B4</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>820</WorkToBuild>
+			<Beauty>8</Beauty>
+		</statBases>
+		<costList>
+			<Jade>4</Jade>
+		</costList>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+
+<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneStaggeredTEST4Brick</defName>
+		<label>TEST 4 плитка</label>
+		<renderPrecedence>270</renderPrecedence>
+		<description>Каменный пол из аккуратных квадратных плит нефрита
+Beauty: 8.</description>
+		<texturePath>Things/FlorTest4</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B4</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>820</WorkToBuild>
+			<Beauty>8</Beauty>
+		</statBases>
+		<costList>
+			<Jade>4</Jade>
+		</costList>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef> -->
+
+  <FloorStoneMosaicNEF.label>옥 모자이크</FloorStoneMosaicNEF.label>
+  <FloorStoneMosaicNEF.description>깔끔한 옥 모자이크로 만든 돌바닥
 아름다움: 7.</FloorStoneMosaicNEF.description>
 
- <FloorStoneMosaicNEFt.label>옥 접시</FloorStoneMosaicNEFt.label>
- <FloorStoneMosaicNEFt.description>옥석 바닥
+  <FloorStoneMosaicNEFt.label>옥 접시</FloorStoneMosaicNEFt.label>
+  <FloorStoneMosaicNEFt.description>옥석 바닥
 아름다움: 9.</FloorStoneMosaicNEFt.description>
 
- <FloorAmber.label>호박판</FloorAmber.label>
- <FloorAmber.description>호박석 바닥
+  <FloorAmber.label>호박판</FloorAmber.label>
+  <FloorAmber.description>호박석 바닥
 아름다움: 8.</FloorAmber.description>
+
 
 </LanguageData>

@@ -1,11 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<ChipfirHigh.stages.0.label>혼란스러운 치피르.</ChipfirHigh.stages.0.label>
- <ChipfirHigh.stages.0.description>치피르의 따뜻함은 자유를 생각나게 합니다.</ChipfirHigh.stages.0.description>
- <ChipfirHigh.stages.1.label>치피르 두 배!</ChipfirHigh.stages.1.label>
- <ChipfirHigh.stages.1.description>치피르 머그잔으로 온 세상을 누리세요!</ChipfirHigh.stages.1.description>
 
- <ChipfirWithdrawal.stages.1.label>차 철수</ChipfirWithdrawal.stages.1.label>
- <ChipfirWithdrawal.stages.1.description>머리가 터질 것 같고, 손이 떨리고, 기분이 안 좋습니다.</ChipfirWithdrawal.stages.1.description>
+  <ChipfirHigh.stages.0.label>혼란스러운 치피르.</ChipfirHigh.stages.0.label>
+  <ChipfirHigh.stages.0.description>치피르의 따뜻함은 자유를 생각나게 합니다.</ChipfirHigh.stages.0.description>
+  <ChipfirHigh.stages.1.label>치피르 두 배!</ChipfirHigh.stages.1.label>
+  <ChipfirHigh.stages.1.description>치피르 머그잔으로 온 세상을 누리세요!</ChipfirHigh.stages.1.description>
+
+  <ChipfirWithdrawal.stages.1.label>차 철수</ChipfirWithdrawal.stages.1.label>
+  <ChipfirWithdrawal.stages.1.description>머리가 터질 것 같고, 손이 떨리고, 기분이 안 좋습니다.</ChipfirWithdrawal.stages.1.description>
+
 
 </LanguageData>

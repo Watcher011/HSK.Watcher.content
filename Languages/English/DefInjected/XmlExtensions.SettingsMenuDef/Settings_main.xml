@@ -21,8 +21,12 @@
   <Watcher_Content_Settings.settings.23.label>Adding variety to tea products?</Watcher_Content_Settings.settings.23.label>
   <Watcher_Content_Settings.settings.24.label>Adding a honey tree?</Watcher_Content_Settings.settings.24.label>
   <Watcher_Content_Settings.settings.25.label>Add recipes for processing yadarite into metal or glowstone?</Watcher_Content_Settings.settings.25.label>
-  <Watcher_Content_Settings.settings.27.text>Test functions that may be removed from the build</Watcher_Content_Settings.settings.27.text>
-  <Watcher_Content_Settings.settings.31.text>All options require restart to apply</Watcher_Content_Settings.settings.31.text>
+  <Watcher_Content_Settings.settings.26.label>Adding nitrogen coolant?</Watcher_Content_Settings.settings.26.label>
+  <Watcher_Content_Settings.settings.28.text>Test functions that may be removed from the build</Watcher_Content_Settings.settings.28.text>
+  <Watcher_Content_Settings.settings.32.text>All options require restart to apply</Watcher_Content_Settings.settings.32.text>
 
+
+  <!--<Watcher_Content_Settings.settings.27.text>Test functions that may be removed from the build</Watcher_Content_Settings.settings.27.text>-->
+  <!--<Watcher_Content_Settings.settings.31.text>All options require restart to apply</Watcher_Content_Settings.settings.31.text>-->
 
 </LanguageData>

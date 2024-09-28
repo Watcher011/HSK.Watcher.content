@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<YadaritPlant.label>야다릿 균사체</YadaritPlant.label>
- <YadaritPlant.description>야다릿 균사체는 지하 퇴적물에서 유용한 물질을 추출하여 표면에 결정화시키는 고대인의 유산입니다.</YadaritPlant.description>
+
+  <YadaritPlant.label>야다릿 균사체</YadaritPlant.label>
+  <YadaritPlant.description>야다릿 균사체는 지하 퇴적물에서 유용한 물질을 추출하여 표면에 결정화시키는 고대인의 유산입니다.</YadaritPlant.description>
+
+
 </LanguageData>
