@@ -1,10 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <BeraA.label>Съедены вкусные помидоры</BeraA.label>
-  <BeraA.description>Заряд энергии от Помидорок.</BeraA.description>
-  <BeraA.stages.0.label>О_о</BeraA.stages.0.label>
-  <BeraA.labelNoun>Заряд Помидорок</BeraA.labelNoun>
+  <BeraA.label>Delicious tomatoes eaten</BeraA.label> <BeraA.description>Energy boost from Tomatoes.</BeraA.description> <BeraA.stages.0.label>O_o</BeraA.stages.0.label> <BeraA.labelNoun>Pomodoro Charge</BeraA.labelNoun>
 
 
 </LanguageData>

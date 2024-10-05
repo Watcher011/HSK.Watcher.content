@@ -217,13 +217,14 @@
 		</recipeUsers>
 		<researchPrerequisite>Food_C6</researchPrerequisite>
 	</RecipeDef> -->
-<CookMealBera.label>Cook a Bera salad</CookMealBera.label>
-<CookMealBera.description>A simple, delicious salad.</CookMealBera.description>
-<CookMealBera.jobString>Cooks a tomato salad.</CookMealBera.jobString>
 
-<CookMeal4Bera.label>Cook x4 Bera salads</CookMeal4Bera.label>
-<CookMeal4Bera.description>A simple, delicious salad, 4 servings.</CookMeal4Bera.description>
-<CookMeal4Bera.jobString>Cooks a tomato salad.</CookMeal4Bera.jobString>
+  <CookMealBera.label>Cook a Bera salad</CookMealBera.label>
+  <CookMealBera.description>A simple, delicious salad.</CookMealBera.description>
+  <CookMealBera.jobString>Cooks a tomato salad.</CookMealBera.jobString>
+
+  <CookMeal4Bera.label>Cook x4 Bera salads</CookMeal4Bera.label>
+  <CookMeal4Bera.description>A simple, delicious salad, 4 servings.</CookMeal4Bera.description>
+  <CookMeal4Bera.jobString>Cooks a tomato salad.</CookMeal4Bera.jobString>
 
 
 </LanguageData>

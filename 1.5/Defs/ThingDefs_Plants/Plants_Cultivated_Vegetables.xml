@@ -65,7 +65,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>BioHarbingeSeed</defName>
     <label>Семя терника</label>
-    <description>Семя куста терника. Его можно посадить, чтобы вырастить новое дерево-предвестник, которое будет есть любые трупы или мясо, размещенные поблизости..</description>
+    <description>Семя куста терника. Его можно посадить, чтобы вырастить новое дерево-предвестник, которое будет есть любые трупы или мясо, размещенные поблизости.</description>
     <descriptionHyperlinks>
       <ThingDef>Plant_TreeBioHarbinger</ThingDef>
     </descriptionHyperlinks>

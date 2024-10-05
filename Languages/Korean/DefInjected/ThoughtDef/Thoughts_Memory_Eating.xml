@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-<AteBera.stages.0.label>먹은 토마토</AteBera.stages.0.label>
- <AteBera.stages.0.description>토마토가 너무 맛있어서 중독된거 아닐까?</AteBera.stages.0.description>
+  <AteBera.stages.0.label>먹은 토마토</AteBera.stages.0.label>
+  <AteBera.stages.0.description>토마토가 너무 맛있어서 중독된거 아닐까?</AteBera.stages.0.description>
+
+
 </LanguageData>

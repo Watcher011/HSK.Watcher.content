@@ -300,7 +300,7 @@
 				</li>
 			</hediffGivers>
 				 <statOffsets>
-                <ComfyTemperatureMax>-60</ComfyTemperatureMax>
+                <ComfyTemperatureMax>80</ComfyTemperatureMax>
 				 <MoveSpeed>-0.99</MoveSpeed>
 				  <IncomingDamageFactor>1.1</IncomingDamageFactor>
                 </statOffsets>
@@ -308,4 +308,8 @@
 			
 		</stages>
 	</HediffDef>
+	
+	
+	
+	
 </Defs>

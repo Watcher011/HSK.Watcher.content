@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-<MealFine_Bera.label>베라 샐러드</MealFine_Bera.label>
- <MealFine_Bera.description>최소한의 재료로 만든 간단하고 맛있는 샐러드. 행복을 위해 또 무엇이 필요합니까?</MealFine_Bera.description>
+  <MealFine_Bera.label>베라 샐러드</MealFine_Bera.label>
+  <MealFine_Bera.description>최소한의 재료로 만든 간단하고 맛있는 샐러드. 행복을 위해 또 무엇이 필요합니까?</MealFine_Bera.description>
+
+
 </LanguageData>

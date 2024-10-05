@@ -1,6 +1,59 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
+<RecipeDef>
+		<defName>MakeBlackthorn</defName>
+		<label>Создать росток терника</label>
+		<description>Терник - жуткое растение что вырабатывает биоматерию.</description>
+		<jobString>Выращивает Терник.</jobString>
+		<workAmount>1000</workAmount>
+		<targetCountAdjustment>10</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Skull</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Compost</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Meat_Twisted</li>
+						<li>Meat_Human</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+			</categories>
+			<thingDefs>
+				<li>Meat_Twisted</li>
+				<li>Meat_Human</li>
+				<li>Skull</li>
+				<li>Compost</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BioHarbingeSeed>1</BioHarbingeSeed>    
+		</products>
+		 <recipeUsers>
+         <li>TableElectronics</li>
+        </recipeUsers>
+		<researchPrerequisites>
+			<li>Fungiponics_B1</li>
+		</researchPrerequisites>
+	</RecipeDef>
 <!--
 
 <RecipeDef ParentName="GrenadeRecipeBase">
