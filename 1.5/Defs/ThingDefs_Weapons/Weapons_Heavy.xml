@@ -147,7 +147,7 @@
 	</RecipeDef>
 
 
-
+<!--
 
 	<ThingDef ParentName="BaseGun_Heavy">
 		<defName>FlamethrowerCrio</defName>
@@ -451,5 +451,5 @@
         </recipeUsers>
         <researchPrerequisite>Grenade_C2</researchPrerequisite>
     </RecipeDef>
-
+-->
 </Defs>
