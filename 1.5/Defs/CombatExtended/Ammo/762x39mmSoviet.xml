@@ -64,6 +64,7 @@
 		<label>Сделать 7.62x39mm Soviet (CR-I) картридж x500</label>
 		<description>Создать 500 7.62x39mm Soviet (CR-I) картридж.</description>
 		<jobString>Создаёт 7.62x39mm Soviet (CR-I) картридж.</jobString>
+		<researchPrerequisite>Machining</researchPrerequisite>
 		<skillRequirements>
 				<Crafting>7</Crafting>
 			</skillRequirements>

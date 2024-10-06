@@ -263,6 +263,7 @@
 				  <ComfyTemperatureMax>80</ComfyTemperatureMax>
 				   <MoveSpeed>-1.99</MoveSpeed>
 				   <IncomingDamageFactor>1.1</IncomingDamageFactor>
+				   <ShootingAccuracyPawn>-15</ShootingAccuracyPawn>
 					<MeleeHitChance>-8</MeleeHitChance>
 					<MeleeDodgeChance>-15</MeleeDodgeChance>
 					<WorkSpeedGlobal>-0.80</WorkSpeedGlobal>
