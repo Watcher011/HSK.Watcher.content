@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Plant_TreeBioHarbinger.label>Blackthorn</Plant_TreeBioHarbinger.label>
-  <Plant_TreeBioHarbinger.description>Blackthorn is a bloodthirsty plant that slowly transforms bodies into biomatter..</Plant_TreeBioHarbinger.description>
+  <!--<Plant_TreeBioHarbinger.label>Blackthorn</Plant_TreeBioHarbinger.label>-->
+  <!--<Plant_TreeBioHarbinger.description>Blackthorn is a bloodthirsty plant that slowly transforms bodies into biomatter..</Plant_TreeBioHarbinger.description>-->
 
-  <BioHarbingeSeed.label>Blackthorn seed</BioHarbingeSeed.label>
-  <BioHarbingeSeed.description>Blackthorn Bush Seed. Can be planted to grow a new Harbinger Tree that will eat any corpses or meat placed nearby.</BioHarbingeSeed.description>
+  <!--<BioHarbingeSeed.label>Blackthorn seed</BioHarbingeSeed.label>-->
+  <!--<BioHarbingeSeed.description>Blackthorn Bush Seed. Can be planted to grow a new Harbinger Tree that will eat any corpses or meat placed nearby.</BioHarbingeSeed.description>-->
 
 
   <!--<ChoppedStump_BioHarbinger.label>A felled blackthorn stump</ChoppedStump_BioHarbinger.label>-->

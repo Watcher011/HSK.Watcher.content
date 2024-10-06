@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>Ammo556x45mmNATO</defName>
+		<label>5.56x45mm NATO</label>
+		<parent>AmmoRifles</parent>
+		<iconPath>UI/Icons/ThingCategories/CaliberRifle</iconPath>
+	</ThingCategoryDef>
+
+	<!-- ==================== AmmoSet ========================== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_556x45mmNATO</defName>
+		<label>5.56x45mm NATO</label>
+		<ammoTypes>
+			<Ammo_556x45mmNATO_FMJ>Bullet_556x45mmNATO_FMJ</Ammo_556x45mmNATO_FMJ>
+			<Ammo_556x45mmNATO_AP>Bullet_556x45mmNATO_AP</Ammo_556x45mmNATO_AP>
+			<Ammo_556x45mmNATO_HP>Bullet_556x45mmNATO_HP</Ammo_556x45mmNATO_HP>
+			<Ammo_556x45mmNATO_Incendiary>Bullet_556x45mmNATO_Incendiary</Ammo_556x45mmNATO_Incendiary>
+			<Ammo_556x45mmNATO_HE>Bullet_556x45mmNATO_HE</Ammo_556x45mmNATO_HE>
+			<Ammo_556x45mmNATO_Sabot>Bullet_556x45mmNATO_Sabot</Ammo_556x45mmNATO_Sabot>
+			<Ammo_556x45mmNATO_Crio>Bullet_556x45mmNATO_Crio</Ammo_556x45mmNATO_Crio>
+		</ammoTypes>
+		<similarTo>AmmoSet_RifleIntermediate</similarTo>
+	</CombatExtended.AmmoSetDef>
+
+
+	<!-- ==================== Ammo ========================== -->
+
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="556x45mmNATOBase">
+		<defName>Ammo_556x45mmNATO_Crio</defName>
+		<label>5.56x45mm NATO (CR-I)</label>
+		<graphicData>
+			<texPath>Things/Ammo/Crio</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.09</MarketValue>
+		</statBases>
+		<ammoClass>Crio</ammoClass>
+		<cookOffProjectile>Bullet_556x45mmNATO_Crio</cookOffProjectile>
+	</ThingDef>
+
+
+	<!-- ================== Projectiles ================== -->
+
+	<ThingDef Name="Base556x45mmNATOBullet" ParentName="BaseBulletCE" Abstract="true">
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Bullet</damageDef>
+			<speed>168</speed>
+			<dropsCasings>true</dropsCasings>
+		</projectile>
+	</ThingDef>
+
+
+	<ThingDef ParentName="Base556x45mmNATOBullet">
+		<defName>Bullet_556x45mmNATO_Crio</defName>
+		<label>5.56mm NATO bullet (CR-I)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>9</damageAmountBase>
+			<armorPenetrationSharp>12</armorPenetrationSharp>
+			<armorPenetrationBlunt>34.18</armorPenetrationBlunt>
+			<secondaryDamage>
+				<li>
+					<def>CrioBomb</def>
+					<amount>5</amount>
+				</li>
+			</secondaryDamage>
+		</projectile>
+		
+	</ThingDef>
+
+	<!-- ==================== Recipes ========================== -->
+
+	
+
+	<RecipeDef ParentName="AdvancedAmmoRecipeBase">
+		<defName>MakeAmmo_556x45mmNATO_Crio</defName>
+		<label>Сделать 5.56x45mm NATO (CR-I) картридж x500</label>
+		<description>Создать 500 5.56x45mm NATO (CR-I) картридж.</description>
+		<jobString>Создаёт 5.56x45mm NATO (CR-I) картридж.</jobString>
+		<researchPrerequisite>Machining</researchPrerequisite>
+		<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+			<workSkillLearnFactor>0.8</workSkillLearnFactor>
+			<ingredients>
+				<li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+							<li>USLDBar</li>
+						</categories>
+					</filter>
+					<count>8</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>HeavyBar</li>
+						</categories>
+					</filter>
+					<count>2</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+						   <li>Ammo_Flamethrower_Crio</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+			</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Powder</li>
+				<li>Ammo_Flamethrower_Crio</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_556x45mmNATO_Crio>500</Ammo_556x45mmNATO_Crio>
+		</products>
+		<workAmount>2200</workAmount>
+	</RecipeDef>
+
+
+</Defs>

@@ -7,13 +7,166 @@
   <BuildGunSimp.description>Assembly of a custom machine gun \nCaliber:7.62x51mm NATO</BuildGunSimp.description>
   <BuildGunSimp.jobString>Assembling Simp Gun.</BuildGunSimp.jobString>
 
-  <BuildFlamethrowerCrio.label>Build Cryolator</BuildFlamethrowerCrio.label>
-  <BuildFlamethrowerCrio.description>Build Cryolator \nCaliber:Nitrogen</BuildFlamethrowerCrio.description>
-  <BuildFlamethrowerCrio.jobString>Build Cryolator.</BuildFlamethrowerCrio.jobString>
+
+  <!-- <ThingDef ParentName="BaseGun_Heavy">
+		<defName>FlamethrowerCrio</defName>
+		<label>Криолятор</label>
+		<description>Криолятор — это мощное экспериментальное оружие, которое может замораживать врагов.</description>
+		<graphicData>
+			<texPath>Things/Weapons/cryolator</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>2300</MarketValue>
+			<SightsEfficiency>1</SightsEfficiency>
+			<ShotSpread>0.17</ShotSpread>
+			<SwayFactor>1.5</SwayFactor>
+			<RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
+			<Bulk>8</Bulk>
+			<Mass>5.5</Mass>
+		</statBases>
+		<relicChance>0</relicChance>
+		<destroyOnDrop>False</destroyOnDrop>
+		<weaponTags>
+			<li>RKT1</li>
+			<li>OGR1</li>
+			<li>Glaunchers</li>
+			<li>CE_AI_Rifle</li>
+			<li>CE_AI_Launcher</li>
+			<li>EliteGun</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>ShortShots</li>
+		</weaponClasses>
+		<tradeTags>
+			<li>Exotic</li>
+			<li>ExoticMisc</li>
+			 <li>WeaponRanged</li>
+		</tradeTags>
+		<thingCategories>
+			<li>Glaunchers</li>
+		</thingCategories>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+				<recoilAmount>0.95</recoilAmount>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_Flamethrower_Crio</defaultProjectile>
+				<warmupTime>4.0</warmupTime>
+				<range>20</range>
+				<minRange>6</minRange>
+				<ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>HissFlamethrower</soundCast>
+				<muzzleFlashScale>0</muzzleFlashScale>
+				<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+				<burstShotCount>1</burstShotCount>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+			    <magazineSize>1</magazineSize>
+                <reloadTime>0.7</reloadTime>
+				<ammoSet>AmmoSet_CrioFlamethrower</ammoSet>
+			</li>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<aiUseBurstMode>false</aiUseBurstMode>
+				<aimedBurstShotCount>1</aimedBurstShotCount>
+				<aiAimMode>AimedShot</aiAimMode>
+			</li>
+		</comps>
+		<smeltProducts>
+			<Heavy_Component>1</Heavy_Component>
+			<Weapon_Parts>8</Weapon_Parts>
+			<Plastic>12</Plastic>
+		</smeltProducts>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	
+	<RecipeDef ParentName="RangedWeaponRecipeBase">
+		<defName>BuildFlamethrowerCrio</defName>
+		<label>Сборка Криолятор</label>
+		<description>Сборка Криолятора  \nCaliber:Азот</description>
+		<jobString>Сборка Криолятора.</jobString>
+		<workAmount>23000</workAmount>
+		<skillRequirements>
+			<Crafting>16</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Heavy_Component</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Metallic</li>
+					</categories>
+				</filter>
+				<count>26</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+		<products>
+			<FlamethrowerCrio>1</FlamethrowerCrio>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Heavy_Component</li>
+				<li>Weapon_Parts</li>
+				<li>ComponentIndustrial</li>
+				<li>Plastic</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>AdvWeaponCraftingWorkTable</li>
+		</recipeUsers>
+	    <researchPrerequisite>MultibarrelWeapons</researchPrerequisite>
+	</RecipeDef> -->
 
   <MakeGrenadeCryo.label>make cryogenic grenades x5</MakeGrenadeCryo.label>
   <MakeGrenadeCryo.description>Crafts 5 cryogenic grenades.</MakeGrenadeCryo.description>
   <MakeGrenadeCryo.jobString>creates grenades.</MakeGrenadeCryo.jobString>
 
+
+  <!--<BuildFlamethrowerCrio.label>Build Cryolator</BuildFlamethrowerCrio.label>-->
+  <!--<BuildFlamethrowerCrio.description>Build Cryolator \nCaliber:Nitrogen</BuildFlamethrowerCrio.description>-->
+  <!--<BuildFlamethrowerCrio.jobString>Build Cryolator.</BuildFlamethrowerCrio.jobString>-->
 
 </LanguageData>

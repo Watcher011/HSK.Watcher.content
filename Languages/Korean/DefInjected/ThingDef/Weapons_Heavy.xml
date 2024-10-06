@@ -6,8 +6,158 @@
   <Gun_Simp.label>PCM-사용자 정의</Gun_Simp.label>
   <Gun_Simp.description>PKM은 현대화된 Kalashnikov 기관총입니다. 특별 주문으로 조립되었습니다. NATO 카트리지(762x51mmNATO)의 경우 배럴 및 일부 부품이 교체되었습니다. 또한 개머리판에 "Simpay must not pain"이라는 문구가 새겨져 있습니다.</Gun_Simp.description>
 
-  <FlamethrowerCrio.label>냉동 장치</FlamethrowerCrio.label>
-  <FlamethrowerCrio.description>Cryolator는 적을 얼릴 수 있는 강력한 실험용 무기입니다.</FlamethrowerCrio.description>
+
+  <!-- <ThingDef ParentName="BaseGun_Heavy">
+		<defName>FlamethrowerCrio</defName>
+		<label>Криолятор</label>
+		<description>Криолятор — это мощное экспериментальное оружие, которое может замораживать врагов.</description>
+		<graphicData>
+			<texPath>Things/Weapons/cryolator</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>2300</MarketValue>
+			<SightsEfficiency>1</SightsEfficiency>
+			<ShotSpread>0.17</ShotSpread>
+			<SwayFactor>1.5</SwayFactor>
+			<RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
+			<Bulk>8</Bulk>
+			<Mass>5.5</Mass>
+		</statBases>
+		<relicChance>0</relicChance>
+		<destroyOnDrop>False</destroyOnDrop>
+		<weaponTags>
+			<li>RKT1</li>
+			<li>OGR1</li>
+			<li>Glaunchers</li>
+			<li>CE_AI_Rifle</li>
+			<li>CE_AI_Launcher</li>
+			<li>EliteGun</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>ShortShots</li>
+		</weaponClasses>
+		<tradeTags>
+			<li>Exotic</li>
+			<li>ExoticMisc</li>
+			 <li>WeaponRanged</li>
+		</tradeTags>
+		<thingCategories>
+			<li>Glaunchers</li>
+		</thingCategories>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+				<recoilAmount>0.95</recoilAmount>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_Flamethrower_Crio</defaultProjectile>
+				<warmupTime>4.0</warmupTime>
+				<range>20</range>
+				<minRange>6</minRange>
+				<ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>HissFlamethrower</soundCast>
+				<muzzleFlashScale>0</muzzleFlashScale>
+				<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+				<burstShotCount>1</burstShotCount>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+			    <magazineSize>1</magazineSize>
+                <reloadTime>0.7</reloadTime>
+				<ammoSet>AmmoSet_CrioFlamethrower</ammoSet>
+			</li>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<aiUseBurstMode>false</aiUseBurstMode>
+				<aimedBurstShotCount>1</aimedBurstShotCount>
+				<aiAimMode>AimedShot</aiAimMode>
+			</li>
+		</comps>
+		<smeltProducts>
+			<Heavy_Component>1</Heavy_Component>
+			<Weapon_Parts>8</Weapon_Parts>
+			<Plastic>12</Plastic>
+		</smeltProducts>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	
+	<RecipeDef ParentName="RangedWeaponRecipeBase">
+		<defName>BuildFlamethrowerCrio</defName>
+		<label>Сборка Криолятор</label>
+		<description>Сборка Криолятора  \nCaliber:Азот</description>
+		<jobString>Сборка Криолятора.</jobString>
+		<workAmount>23000</workAmount>
+		<skillRequirements>
+			<Crafting>16</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Heavy_Component</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Metallic</li>
+					</categories>
+				</filter>
+				<count>26</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+		<products>
+			<FlamethrowerCrio>1</FlamethrowerCrio>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Heavy_Component</li>
+				<li>Weapon_Parts</li>
+				<li>ComponentIndustrial</li>
+				<li>Plastic</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>AdvWeaponCraftingWorkTable</li>
+		</recipeUsers>
+	    <researchPrerequisite>MultibarrelWeapons</researchPrerequisite>
+	</RecipeDef> -->
 
   <Proj_GrenadeCryo.label>냉동 수류탄</Proj_GrenadeCryo.label>
 
@@ -15,5 +165,8 @@
   <Weapon_Grenade_Cryo.description>폭발 시 영향을 받은 반경의 온도를 심각한 수준으로 낮추는 첨단 수류탄입니다. 대상을 얼리거나 사지를 손상시킬 수 있습니다. 벽이나 기타 물체에 튕겨 나올 가능성이 있어 실내 사용이 어렵습니다. 하지만 상대는 거의 빗나가는 일이 없으며 플레이어의 입장에서 그들의 수류탄은 좁은 공간과 좁은 통로에서 특히 위험합니다.</Weapon_Grenade_Cryo.description>
   <Weapon_Grenade_Cryo.verbs.0.label>냉각수류탄 투척</Weapon_Grenade_Cryo.verbs.0.label>
 
+
+  <!--<FlamethrowerCrio.label>냉동 장치</FlamethrowerCrio.label>-->
+  <!--<FlamethrowerCrio.description>Cryolator는 적을 얼릴 수 있는 강력한 실험용 무기입니다.</FlamethrowerCrio.description>-->
 
 </LanguageData>

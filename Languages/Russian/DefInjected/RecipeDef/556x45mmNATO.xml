@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_556x45mmNATO_Crio.label>Сделать 5.56x45mm NATO (CR-I) картридж x500</MakeAmmo_556x45mmNATO_Crio.label>
+  <MakeAmmo_556x45mmNATO_Crio.description>Создать 500 5.56x45mm NATO (CR-I) картридж.</MakeAmmo_556x45mmNATO_Crio.description>
+  <MakeAmmo_556x45mmNATO_Crio.jobString>Создаёт 5.56x45mm NATO (CR-I) картридж.</MakeAmmo_556x45mmNATO_Crio.jobString>
+
+
+</LanguageData>

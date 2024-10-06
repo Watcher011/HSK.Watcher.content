@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Plant_TreeBioHarbinger.label>Терник</Plant_TreeBioHarbinger.label>
-  <Plant_TreeBioHarbinger.description>Терник - кровожадное растение что медленно преобразует тела в биоматерию.</Plant_TreeBioHarbinger.description>
+  <!--<Plant_TreeBioHarbinger.label>Терник</Plant_TreeBioHarbinger.label>-->
+  <!--<Plant_TreeBioHarbinger.description>Терник - кровожадное растение что медленно преобразует тела в биоматерию.</Plant_TreeBioHarbinger.description>-->
 
-  <BioHarbingeSeed.label>Семя терника</BioHarbingeSeed.label>
-  <BioHarbingeSeed.description>Семя куста терника. Его можно посадить, чтобы вырастить новое дерево-предвестник, которое будет есть любые трупы или мясо, размещенные поблизости..</BioHarbingeSeed.description>
+  <!--<BioHarbingeSeed.label>Семя терника</BioHarbingeSeed.label>-->
+  <!--<BioHarbingeSeed.description>Семя куста терника. Его можно посадить, чтобы вырастить новое дерево-предвестник, которое будет есть любые трупы или мясо, размещенные поблизости..</BioHarbingeSeed.description>-->
 
 
   <!--<ChoppedStump_BioHarbinger.label>рубленый пень терника</ChoppedStump_BioHarbinger.label>-->

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+<MakeAmmo_762x39mmSoviet_Crio.label>7.62x39mm 소련(CR-I) 카트리지 x500 만들기</MakeAmmo_762x39mmSoviet_Crio.label>
+ <MakeAmmo_762x39mmSoviet_Crio.description>7.62x39mm 소련(CR-I) 탄약통 500개를 만듭니다.</MakeAmmo_762x39mmSoviet_Crio.description>
+ <MakeAmmo_762x39mmSoviet_Crio.jobString>7.62x39mm 소련(CR-I) 탄약통을 생성합니다.</MakeAmmo_762x39mmSoviet_Crio.jobString>
+
+</LanguageData>

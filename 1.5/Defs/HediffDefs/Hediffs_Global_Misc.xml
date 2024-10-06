@@ -244,29 +244,37 @@
   
   
   
-  
-  
-    <HediffDef>
+	
+	<HediffDef>
     <defName>Icing</defName>
     <label>Скован Льдом</label>
     <description>Холод сковывает движение</description>
     <labelNoun>Обледенение</labelNoun>
 		<hediffClass>HediffWithComps</hediffClass>
-		<maxSeverity>1</maxSeverity>
 		<comps>
-			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>-10</severityPerDay>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>880~1840</disappearsAfterTicks>
+				<showRemainingTime>false</showRemainingTime>
 			</li>
 		</comps>
 		<stages>
 			<li>
-			  <painOffset>0.3</painOffset>
-				<minSeverity>0</minSeverity>
-				<label>Обледенение</label>
+				<statOffsets>
+				  <ComfyTemperatureMax>80</ComfyTemperatureMax>
+				   <MoveSpeed>-1.99</MoveSpeed>
+				   <IncomingDamageFactor>1.1</IncomingDamageFactor>
+					<MeleeHitChance>-8</MeleeHitChance>
+					<MeleeDodgeChance>-15</MeleeDodgeChance>
+					<WorkSpeedGlobal>-0.80</WorkSpeedGlobal>
+				</statOffsets>
 				<capMods>
 					<li>
-						 <capacity>Moving</capacity>
-                         <postFactor>0.2</postFactor>
+						<capacity>Moving</capacity>
+						<setMax>0.3</setMax>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<setMax>0.3</setMax>
 					</li>
 				</capMods>
 				<hediffGivers>
@@ -299,17 +307,8 @@
 					</partsToAffect>
 				</li>
 			</hediffGivers>
-				 <statOffsets>
-                <ComfyTemperatureMax>80</ComfyTemperatureMax>
-				 <MoveSpeed>-0.99</MoveSpeed>
-				  <IncomingDamageFactor>1.1</IncomingDamageFactor>
-                </statOffsets>
 			</li>
-			
 		</stages>
 	</HediffDef>
-	
-	
-	
 	
 </Defs>

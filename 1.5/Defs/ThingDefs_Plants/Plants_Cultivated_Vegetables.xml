@@ -4,7 +4,7 @@
 
 
 
-
+<!--
   <ThingDef ParentName="TreeBase">
     <defName>Plant_TreeBioHarbinger</defName>
     <label>Терник</label>
@@ -54,7 +54,7 @@
     </plant>
     <comps>
       <li Class="CompProperties_SelfhealHitpoints">
-        <ticksPerHeal>2000</ticksPerHeal> <!-- 30 hp per day, must be a multiple of 2000, since plants have Long ticker -->
+        <ticksPerHeal>2000</ticksPerHeal> 
       </li>
     </comps>
   </ThingDef>
@@ -90,5 +90,5 @@
       </li>
     </comps>
   </ThingDef>
-  
+  -->
 </Defs>

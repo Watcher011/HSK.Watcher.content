@@ -1,7 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <BeraA.label>Delicious tomatoes eaten</BeraA.label> <BeraA.description>Energy boost from Tomatoes.</BeraA.description> <BeraA.stages.0.label>O_o</BeraA.stages.0.label> <BeraA.labelNoun>Pomodoro Charge</BeraA.labelNoun>
+  <BeraA.label>Delicious tomatoes eaten</BeraA.label>
+  <BeraA.description>Energy boost from Tomatoes.</BeraA.description>
+  <BeraA.stages.0.label>O_o</BeraA.stages.0.label>
+  <BeraA.labelNoun>Pomodoro Charge</BeraA.labelNoun>
 
 
 </LanguageData>

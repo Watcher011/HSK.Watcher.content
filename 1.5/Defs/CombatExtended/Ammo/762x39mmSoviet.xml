@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_762x39mmSoviet</defName>
+		<label>7.62x39 Soviet</label>
+		<ammoTypes>
+			<Ammo_762x39mmSoviet_FMJ>Bullet_762x39mmSoviet_FMJ</Ammo_762x39mmSoviet_FMJ>
+			<Ammo_762x39mmSoviet_AP>Bullet_762x39mmSoviet_AP</Ammo_762x39mmSoviet_AP>
+			<Ammo_762x39mmSoviet_HP>Bullet_762x39mmSoviet_HP</Ammo_762x39mmSoviet_HP>
+			<Ammo_762x39mmSoviet_Incendiary>Bullet_762x39mmSoviet_Incendiary</Ammo_762x39mmSoviet_Incendiary>
+			<Ammo_762x39mmSoviet_HE>Bullet_762x39mmSoviet_HE</Ammo_762x39mmSoviet_HE>
+			<Ammo_762x39mmSoviet_Sabot>Bullet_762x39mmSoviet_Sabot</Ammo_762x39mmSoviet_Sabot>
+			<Ammo_762x39mmSoviet_Crio>Bullet_762x39mmSoviet_Crio</Ammo_762x39mmSoviet_Crio>
+		</ammoTypes>
+		<similarTo>AmmoSet_RifleIntermediate</similarTo>
+	</CombatExtended.AmmoSetDef>
+
+
+	<!-- ==================== Ammo ========================== -->
+
+
+	
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="762x39mmSovietBase">
+		<defName>Ammo_762x39mmSoviet_Crio</defName>
+		<label>7.62x39mm Soviet (CR-I)</label>
+		<graphicData>
+			<texPath>Things/Ammo/CHE</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.1</MarketValue>
+		</statBases>
+		<ammoClass>Crio</ammoClass>
+		<cookOffProjectile>Bullet_762x39mmSoviet_Crio</cookOffProjectile>
+	</ThingDef>
+
+	<!-- ================== Projectiles ================== -->
+
+	<ThingDef ParentName="Base762x39mmSovietBullet">
+		<defName>Bullet_762x39mmSoviet_Crio</defName>
+		<label>7.62mm Soviet bullet (AP-I)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>10</damageAmountBase>
+			<armorPenetrationSharp>11</armorPenetrationSharp>
+			<armorPenetrationBlunt>41.08</armorPenetrationBlunt>
+			<secondaryDamage>
+				<li>
+					<def>CrioBomb</def>
+					<amount>12</amount>
+				</li>
+			</secondaryDamage>
+		</projectile>
+	</ThingDef>
+
+
+	
+	<!-- ==================== Recipes ========================== -->
+
+
+	<RecipeDef ParentName="AdvancedAmmoRecipeBase">
+		<defName>MakeAmmo_762x39mmSoviet_Crio</defName>
+		<label>Сделать 7.62x39mm Soviet (CR-I) картридж x500</label>
+		<description>Создать 500 7.62x39mm Soviet (CR-I) картридж.</description>
+		<jobString>Создаёт 7.62x39mm Soviet (CR-I) картридж.</jobString>
+		<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+			<workSkillLearnFactor>0.8</workSkillLearnFactor>
+			<ingredients>
+				<li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+							<li>USLDBar</li>
+						</categories>
+					</filter>
+					<count>14</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>HeavyBar</li>
+						</categories>
+					</filter>
+					<count>4</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+						   <li>Ammo_Flamethrower_Crio</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+			</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Powder</li>
+				<li>Ammo_Flamethrower_Crio</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_762x39mmSoviet_Crio>500</Ammo_762x39mmSoviet_Crio>
+		</products>
+		<workAmount>2600</workAmount>
+	</RecipeDef>
+
+
+</Defs>

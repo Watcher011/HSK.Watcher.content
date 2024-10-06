@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+<!--
 <RecipeDef>
 		<defName>MakeBlackthorn</defName>
 		<label>Создать росток терника</label>
@@ -54,7 +55,7 @@
 			<li>Fungiponics_B1</li>
 		</researchPrerequisites>
 	</RecipeDef>
-<!--
+
 
 <RecipeDef ParentName="GrenadeRecipeBase">
 		<defName>MakeTrapExplosive</defName>

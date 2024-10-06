@@ -49,6 +49,12 @@
     </gas>
   </ThingDef>
   
-  
+  <PerformanceFish.GasDef>
+		<defName>CrioGas</defName>
+		<label>Азотная взвесь</label>
+		<dissipationRate>3</dissipationRate>
+		<diffuses>true</diffuses>
+		<color>(24,214,24)</color>
+	</PerformanceFish.GasDef>
   
 </Defs>

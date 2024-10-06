@@ -37,8 +37,9 @@
 
   <Icing.label>Bound in Ice</Icing.label>
   <Icing.description>Cold restricts movement</Icing.description>
-  <Icing.stages.0.label>Icing</Icing.stages.0.label>
   <Icing.labelNoun>Icing</Icing.labelNoun>
 
+
+  <!--<Icing.stages.0.label>Icing</Icing.stages.0.label>-->
 
 </LanguageData>
