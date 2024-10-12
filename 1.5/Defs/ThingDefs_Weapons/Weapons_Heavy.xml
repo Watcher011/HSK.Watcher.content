@@ -336,7 +336,7 @@
 			</li>
 			<li Class="CombatExtended.CompProperties_Fragments">
 				<fragments>
-					<Fragment_Crio>60</Fragment_Crio>
+					<Fragment_Crio>90</Fragment_Crio>
 				</fragments>
 			</li>
 		</comps>
@@ -435,14 +435,23 @@
                         <li>Ammo_Flamethrower_Crio</li>
                     </thingDefs>
                 </filter>
-                <count>1</count>
+                <count>2</count>
             </li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
         </ingredients>
         <fixedIngredientFilter>
             <thingDefs>
 			     <li>Weapon_Parts</li>
                 <li>ComponentIndustrial</li>
                 <li>Ammo_Flamethrower_Crio</li>
+				<li>Powder</li>
             </thingDefs>
         </fixedIngredientFilter>
         <products>

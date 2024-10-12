@@ -37,7 +37,9 @@
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>0.09</MarketValue>
+			<MarketValue>0.<damageAmountBase>18</damageAmountBase>
+			<armorPenetrationSharp>3</armorPenetrationSharp>
+			<armorPenetrationBlunt>34.18</armorPenetrationBlunt>9</MarketValue>
 		</statBases>
 		<ammoClass>Crio</ammoClass>
 		<cookOffProjectile>Bullet_556x45mmNATO_Crio</cookOffProjectile>
@@ -64,7 +66,7 @@
 		<label>5.56mm NATO bullet (CR-I)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageAmountBase>9</damageAmountBase>
-			<armorPenetrationSharp>12</armorPenetrationSharp>
+			<armorPenetrationSharp>3</armorPenetrationSharp>
 			<armorPenetrationBlunt>34.18</armorPenetrationBlunt>
 			<secondaryDamage>
 				<li>
@@ -83,9 +85,9 @@
 	<RecipeDef ParentName="AdvancedAmmoRecipeBase">
 		<defName>MakeAmmo_556x45mmNATO_Crio</defName>
 		<label>Сделать 5.56x45mm NATO (CR-I) картридж x500</label>
-		<description>Создать 500 5.56x45mm NATO (CR-I) картридж.</description>
+		<description>Создать 80 5.56x45mm NATO (CR-I) картридж.</description>
 		<jobString>Создаёт 5.56x45mm NATO (CR-I) картридж.</jobString>
-		<researchPrerequisite>Machining</researchPrerequisite>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
 		<skillRequirements>
 				<Crafting>7</Crafting>
 			</skillRequirements>
@@ -137,7 +139,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<Ammo_556x45mmNATO_Crio>500</Ammo_556x45mmNATO_Crio>
+			<Ammo_556x45mmNATO_Crio>80</Ammo_556x45mmNATO_Crio>
 		</products>
 		<workAmount>2200</workAmount>
 	</RecipeDef>

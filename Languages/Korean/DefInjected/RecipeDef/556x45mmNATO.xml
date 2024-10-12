@@ -2,7 +2,7 @@
 <LanguageData>
 
   <!-- Recipes -->
-<MakeAmmo_556x45mmNATO_Crio.label>5.56x45mm NATO(CR-I) 카트리지 x500 만들기</MakeAmmo_556x45mmNATO_Crio.label>
- <MakeAmmo_556x45mmNATO_Crio.description>5.56x45mm NATO(CR-I) 카트리지 500개를 만듭니다.</MakeAmmo_556x45mmNATO_Crio.description>
+<MakeAmmo_556x45mmNATO_Crio.label>5.56x45mm NATO(CR-I) 카트리지 x80 만들기</MakeAmmo_556x45mmNATO_Crio.label>
+ <MakeAmmo_556x45mmNATO_Crio.description>5.56x45mm NATO(CR-I) 카트리지 80개를 만듭니다.</MakeAmmo_556x45mmNATO_Crio.description>
  <MakeAmmo_556x45mmNATO_Crio.jobString>5.56x45mm NATO(CR-I) 카트리지를 생성합니다.</MakeAmmo_556x45mmNATO_Crio.jobString>
 </LanguageData>

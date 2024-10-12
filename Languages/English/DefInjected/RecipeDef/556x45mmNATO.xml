@@ -3,8 +3,8 @@
 
   <!-- Recipes -->
 
- <MakeAmmo_556x45mmNATO_Crio.label>Make 5.56x45mm NATO (CR-I) Cartridge x500</MakeAmmo_556x45mmNATO_Crio.label>
-<MakeAmmo_556x45mmNATO_Crio.description>Make 500 5.56x45mm NATO (CR-I) Cartridge.</MakeAmmo_556x45mmNATO_Crio.description>
+ <MakeAmmo_556x45mmNATO_Crio.label>Make 5.56x45mm NATO (CR-I) Cartridge x80</MakeAmmo_556x45mmNATO_Crio.label>
+<MakeAmmo_556x45mmNATO_Crio.description>Make 80 5.56x45mm NATO (CR-I) Cartridge.</MakeAmmo_556x45mmNATO_Crio.description>
 <MakeAmmo_556x45mmNATO_Crio.jobString>Make 5.56x45mm NATO (CR-I) Cartridge.</MakeAmmo_556x45mmNATO_Crio.jobString>
 
 

@@ -30,7 +30,7 @@
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>0.1</MarketValue>
+			<MarketValue>0.98</MarketValue>
 		</statBases>
 		<ammoClass>Crio</ammoClass>
 		<cookOffProjectile>Bullet_762x39mmSoviet_Crio</cookOffProjectile>
@@ -43,7 +43,7 @@
 		<label>7.62mm Soviet bullet (AP-I)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageAmountBase>10</damageAmountBase>
-			<armorPenetrationSharp>11</armorPenetrationSharp>
+			<armorPenetrationSharp>3</armorPenetrationSharp>
 			<armorPenetrationBlunt>41.08</armorPenetrationBlunt>
 			<secondaryDamage>
 				<li>
@@ -62,9 +62,9 @@
 	<RecipeDef ParentName="AdvancedAmmoRecipeBase">
 		<defName>MakeAmmo_762x39mmSoviet_Crio</defName>
 		<label>Сделать 7.62x39mm Soviet (CR-I) картридж x500</label>
-		<description>Создать 500 7.62x39mm Soviet (CR-I) картридж.</description>
+		<description>Создать 80 7.62x39mm Soviet (CR-I) картридж.</description>
 		<jobString>Создаёт 7.62x39mm Soviet (CR-I) картридж.</jobString>
-		<researchPrerequisite>Machining</researchPrerequisite>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
 		<skillRequirements>
 				<Crafting>7</Crafting>
 			</skillRequirements>
@@ -116,7 +116,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<Ammo_762x39mmSoviet_Crio>500</Ammo_762x39mmSoviet_Crio>
+			<Ammo_762x39mmSoviet_Crio>80</Ammo_762x39mmSoviet_Crio>
 		</products>
 		<workAmount>2600</workAmount>
 	</RecipeDef>

@@ -3,8 +3,8 @@
 
   <!-- Recipes -->
 
-  <MakeAmmo_762x39mmSoviet_Crio.label>Сделать 7.62x39mm Soviet (CR-I) картридж x500</MakeAmmo_762x39mmSoviet_Crio.label>
-  <MakeAmmo_762x39mmSoviet_Crio.description>Создать 500 7.62x39mm Soviet (CR-I) картридж.</MakeAmmo_762x39mmSoviet_Crio.description>
+  <MakeAmmo_762x39mmSoviet_Crio.label>Сделать 7.62x39mm Soviet (CR-I) картридж x80</MakeAmmo_762x39mmSoviet_Crio.label>
+  <MakeAmmo_762x39mmSoviet_Crio.description>Создать 80 7.62x39mm Soviet (CR-I) картридж.</MakeAmmo_762x39mmSoviet_Crio.description>
   <MakeAmmo_762x39mmSoviet_Crio.jobString>Создаёт 7.62x39mm Soviet (CR-I) картридж.</MakeAmmo_762x39mmSoviet_Crio.jobString>
 
 

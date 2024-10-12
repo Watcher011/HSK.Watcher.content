@@ -2,7 +2,7 @@
 <LanguageData>
 
   <!-- Recipes -->
-<MakeAmmo_762x39mmSoviet_Crio.label>Make 7.62x39mm Soviet (CR-I) cartridge x500</MakeAmmo_762x39mmSoviet_Crio.label>
-<MakeAmmo_762x39mmSoviet_Crio.description>Make 500 7.62x39mm Soviet (CR-I) cartridge.</MakeAmmo_762x39mmSoviet_Crio.description>
+<MakeAmmo_762x39mmSoviet_Crio.label>Make 7.62x39mm Soviet (CR-I) cartridge x80</MakeAmmo_762x39mmSoviet_Crio.label>
+<MakeAmmo_762x39mmSoviet_Crio.description>Make 80 7.62x39mm Soviet (CR-I) cartridge.</MakeAmmo_762x39mmSoviet_Crio.description>
 <MakeAmmo_762x39mmSoviet_Crio.jobString>Make 7.62x39mm Soviet (CR-I) cartridge.</MakeAmmo_762x39mmSoviet_Crio.jobString>
 </LanguageData>
