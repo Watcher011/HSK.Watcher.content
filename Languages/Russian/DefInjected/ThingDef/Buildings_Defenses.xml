@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Embrasures -->
+
+  <CE_Loophole.label>Бойница</CE_Loophole.label>
+  <CE_Loophole.description>Бойни́ца — узкое отверстие в бруствере или в оборонительных стенах, или выемка в окопе. Служит для ведения огня из укрытия по заданному направлению.</CE_Loophole.description>
+  <CE_Loophole_Blueprint.label>Бойница (blueprint)</CE_Loophole_Blueprint.label>
+  <CE_Loophole_Frame.label>Бойница (building)</CE_Loophole_Frame.label>
+  <CE_Loophole_Frame.description>Бойни́ца — узкое отверстие в бруствере или в оборонительных стенах, или выемка в окопе. Служит для ведения огня из укрытия по заданному направлению.</CE_Loophole_Frame.description>
+
+
+</LanguageData>

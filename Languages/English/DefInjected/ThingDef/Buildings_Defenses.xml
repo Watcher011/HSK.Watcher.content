@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Embrasures -->
+
+ <CE_Loophole.label>Embroidery</CE_Loophole.label>
+<CE_Loophole.description>Embroidery is a narrow opening in a breastwork or defensive walls, or a recess in a trench. It is used to fire from cover in a given direction.</CE_Loophole.description>
+<CE_Loophole_Blueprint.label>Embroidery (blueprint)</CE_Loophole_Blueprint.label>
+<CE_Loophole_Frame.label>Embroidery (building)</CE_Loophole_Frame.label>
+<CE_Loophole_Frame.description>Embroidery is a narrow opening in a breastwork or defensive walls, or a recess in a trench. It is used to fire from cover in a given direction.</CE_Loophole_Frame.description>
+
+</LanguageData>

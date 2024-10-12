@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Embrasures -->
+
+<CE_Loophole.label>허점</CE_Loophole.label>
+ <CE_Loophole.description>허점은 난간이나 방어벽에 있는 좁은 구멍 또는 참호의 움푹 들어간 곳입니다. 지정된 방향으로 엄폐물에서 발사하는 데 사용됩니다.</CE_Loophole.description>
+ <CE_Loophole_Blueprint.label>허점(청사진)</CE_Loophole_Blueprint.label>
+ <CE_Loophole_Frame.label>허점(건물)</CE_Loophole_Frame.label>
+ <CE_Loophole_Frame.description>허점은 난간이나 방어벽에 있는 좁은 구멍 또는 참호의 움푹 들어간 곳입니다. 지정된 방향으로 엄폐물에서 발사하는 데 사용됩니다.</CE_Loophole_Frame.description>
+</LanguageData>
