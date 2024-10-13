@@ -50,6 +50,7 @@
 		<equippedStatOffsets>
 			<MoveSpeed>-0.003</MoveSpeed>
 			<SocialImpact>0.22</SocialImpact>
+			<MiningSpeed>0.10</MiningSpeed>
 			<ShootingAccuracyPawn>0.06</ShootingAccuracyPawn>
 			<AimingDelayFactor>-0.05</AimingDelayFactor>
 			<GlobalLearningFactor>0.02</GlobalLearningFactor>
@@ -83,6 +84,8 @@
 		</apparel>
 		<thingCategories>
 			<li>HeaddressCat</li>
+			<li>SpecialHelmetsCat</li>
+			<li>SetMiner</li>
 		</thingCategories>
 		<recipeMaker>
 			<workSpeedStat>SmithingSpeed</workSpeedStat>
