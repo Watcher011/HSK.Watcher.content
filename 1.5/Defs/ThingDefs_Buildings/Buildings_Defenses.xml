@@ -58,6 +58,12 @@
 			<blueprintGraphicData>
 				<texPath>Things/Building/Loophole/Loophole_Blueprint_Atlas</texPath>
 			</blueprintGraphicData>
+			<relatedBuildCommands>
+				<li>Door</li>
+				<li>MDoor</li>
+				<li>Autodoor</li>
+				<li>CellDoor</li>
+			</relatedBuildCommands>
 			<buildingTags>
 					<li>ForceBuildDuringSiege</li>
 			</buildingTags>

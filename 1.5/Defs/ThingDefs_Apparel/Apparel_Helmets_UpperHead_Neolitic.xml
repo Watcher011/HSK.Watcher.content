@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="ApparelNeoliticBase">
+		<defName>Apparello_Desert_Rain</defName>
+		<label>Шахтёрская бандана</label>
+		<description>Кусок ткани с пришитым осколком светокамня. Даёт рассеянный свет на небольшое расстояние, его достаточно, чтоб найти дорогу и не расшибить лоб.(Сделано по спец заказу Desert Rain).</description>
+		<thingClass>SK.ApparelWithMiningLight</thingClass>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Apparel/Apparellonew/Desert</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<recipeMaker>
+			<workSpeedStat>SmithingSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Machining</soundWorking>
+			<recipeUsers>
+				<li>LeatherworkerTable</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>2</Crafting>
+			</skillRequirements>
+			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+		</recipeMaker>
+		<costStuffCount>30</costStuffCount>
+		<stuffCategories>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costList>
+			<Glowstone>2</Glowstone>
+			<Wire>2</Wire>
+		</costList>
+		<statBases>
+			<WorkToMake>3500</WorkToMake>
+			<MaxHitPoints>14</MaxHitPoints>
+			<Flammability>2</Flammability>
+			<Mass>0.7</Mass>
+			<Bulk>3</Bulk>
+			<WornBulk>0</WornBulk>
+			<EquipDelay>1.2</EquipDelay>			
+			<StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
+			<StuffEffectMultiplierArmor>0.16</StuffEffectMultiplierArmor>
+			<ArmorRating_Sharp>0</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0</ArmorRating_Blunt>
+			<ArmorRating_Heat>0</ArmorRating_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.003</MoveSpeed>
+			<SocialImpact>0.22</SocialImpact>
+			<ShootingAccuracyPawn>0.06</ShootingAccuracyPawn>
+			<AimingDelayFactor>-0.05</AimingDelayFactor>
+			<GlobalLearningFactor>0.02</GlobalLearningFactor>
+			<NegotiationAbility>0.1</NegotiationAbility>
+			<TradePriceImprovement>0.1</TradePriceImprovement>
+			<TrainAnimalChance>0.11</TrainAnimalChance>
+			<TameAnimalChance>0.12</TameAnimalChance>
+			<GermResistance>0.01</GermResistance>
+			<GermContainment>0.01</GermContainment>
+		</equippedStatOffsets>
+		<generateCommonality>1.1</generateCommonality>
+		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Apparellonew/Desert</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>Tribal</li>
+				<li>Tribal_TraderTag</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+				<li>Miner</li>
+			</defaultOutfitTags>
+			<parentTagDef>ApparelHead</parentTagDef>
+		</apparel>
+		<thingCategories>
+			<li>HeaddressCat</li>
+		</thingCategories>
+		<recipeMaker>
+			<workSpeedStat>SmithingSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Machining</soundWorking>
+			<recipeUsers>
+				<li>LeatherworkerTable</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>2</Crafting>
+			</skillRequirements>
+			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+			<researchPrerequisite>Apparel_A1</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+</Defs>
