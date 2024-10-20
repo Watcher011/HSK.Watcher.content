@@ -909,24 +909,25 @@
 		</costList>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<statBases>
-			<Beauty>12</Beauty>
+			<Beauty>8</Beauty>
 			<WorkToBuild>610</WorkToBuild>
 			<Bulk>12</Bulk>
 			<Mass>12</Mass>
-			<Cleanliness>3</Cleanliness>
+			<Cleanliness>1</Cleanliness>
+			<MarketValue>80</MarketValue>
 			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">6</StyleDominance>
 		</statBases>
 		<comps>
 			<li>
 				<compClass>CompQuality</compClass>
 			</li>
-			
-			 <li Class="CompProperties_Glower">
-        <overlightRadius>8.0</overlightRadius>
+	   <li Class="CompProperties_Glower">
         <glowRadius>8.0</glowRadius>
        <glowColor>(155,155,233,0)</glowColor>
       </li>
-	  
+	   <li Class="CompProperties_Lifespan">
+        <lifespanTicks>4200000</lifespanTicks>
+      </li>
 
 		</comps>
 		<building>
