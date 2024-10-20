@@ -108,15 +108,9 @@
 		<label>jellied chemfuel stream</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageDef>Acid</damageDef>
-			<damageAmountBase>16</damageAmountBase>
-			<secondaryDamage>
-				<li>
-					<def>Thermobaric</def>
-					<amount>2</amount>
-				</li>
-			</secondaryDamage>
-			<armorPenetrationSharp>30</armorPenetrationSharp>
-			<armorPenetrationBlunt>100</armorPenetrationBlunt>
+			<damageAmountBase>12</damageAmountBase>
+			<armorPenetrationSharp>14</armorPenetrationSharp>
+			<armorPenetrationBlunt>66.72</armorPenetrationBlunt>
 			<explosionRadius>0.1</explosionRadius>
 			<preExplosionSpawnThingDef>Filth_SpentAcid</preExplosionSpawnThingDef>
 			<preExplosionSpawnChance>0.67</preExplosionSpawnChance>

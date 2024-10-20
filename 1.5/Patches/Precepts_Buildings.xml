@@ -8,6 +8,7 @@
 				<xpath>Defs/PreceptDef[defName="IdeoBuilding"]/buildingDefChances</xpath>
 				<value>
 	              <KatXArt>1</KatXArt>
+				   <WatcherArt>1</WatcherArt>
 				</value>
 			</li>
 		</operations>

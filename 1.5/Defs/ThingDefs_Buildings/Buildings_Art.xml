@@ -55,7 +55,10 @@
 			<texPath>Things/Building/Art/W</texPath>
 			<drawSize>(1.8,1.8)</drawSize>
 		</graphicData>
-		<fillPercent>0.3</fillPercent>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<drawerType>RealtimeOnly</drawerType>
+		<fillPercent>0.15</fillPercent>
+		 <tickerType>Normal</tickerType>
 		<rotatable>false</rotatable>
 		<statBases>
 			<MaxHitPoints>170</MaxHitPoints>
@@ -74,11 +77,57 @@
 			<li>Ceramic</li>
 		</stuffCategories>
 		<costStuffCount>50</costStuffCount>
+		 <placeWorkers>
+      <li>PlaceWorker_Heater</li>
+      <li>PlaceWorker_MeditationOffsetBuildingsNear</li>
+    </placeWorkers>
 		<comps>
 			<li Class="CompProperties_Glower">
-				<glowRadius>1</glowRadius>
-				<glowColor>(180,197,215,0)</glowColor>
+				<glowRadius>9</glowRadius>
+				<glowColor>(217,177,113,0)</glowColor>
 			</li>
+			<li Class="SK.CompProperties_HeatPusherAdvanced">
+				<compClass>SK.CompHeatPusherAdvanced</compClass>
+				<heatPerSecond>4</heatPerSecond>
+				<heatPushMaxTemperature>23</heatPushMaxTemperature>
+			</li>
+			<li Class="CompProperties_SanguophageMeetingFire">
+            <fireSize>0.8</fireSize>
+            <finalFireSize>0.5</finalFireSize>
+            <offset>(0,0,0.42)</offset>
+           </li>
+		   
+			<li Class="CompProperties_MeditationFocus">
+				<statDef>MeditationFocusStrength</statDef>
+				<focusTypes>
+					<li>Flame</li>
+				</focusTypes>
+				<offsets>
+					<li Class="FocusStrengthOffset_Lit">
+						<offset>0.1</offset>
+					</li>
+					<li Class="FocusStrengthOffset_BuildingDefsLit">
+						<defs>
+							<li>Campfire</li>
+							<li>BowlLamp</li>
+							<li>Candle</li>
+							<li>TorchLamp</li>
+							<li>TorchWallLamp</li>
+							<li MayRequire="Ludeon.RimWorld.Royalty">Brazier</li>
+							<li MayRequire="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Ideology">DarklightBrazier</li>
+							<li MayRequire="Ludeon.RimWorld.Ideology">Darktorch</li>
+							<li MayRequire="Ludeon.RimWorld.Ideology">DarktorchFungus</li>
+						</defs>
+						<offsetPerBuilding>0.01</offsetPerBuilding>
+						<radius>9.9</radius>
+						<maxBuildings>8</maxBuildings>						
+						<explanationKey>MeditationFocusPerFlame</explanationKey>
+						<explanationKeyAbstract>MeditationFocusPerFlameAbstract</explanationKeyAbstract>
+						<drawRingRadius>false</drawRingRadius>
+					</li>
+				</offsets>
+			</li>
+	  <li Class="CompProperties_WindSource" />
 		</comps>
 		<recipeMaker>
 			<researchPrerequisite>Art_B2</researchPrerequisite>
