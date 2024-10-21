@@ -300,9 +300,9 @@
     <label>Huntercarab</label>
     <race>Huntercarab</race>
 	<defaultFactionType>Insectoid</defaultFactionType>
-    <combatPower>40</combatPower>
+    <combatPower>140</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
-    <ecoSystemWeight>0.15</ecoSystemWeight>
+    <ecoSystemWeight>0.25</ecoSystemWeight>
     <lifeStages>
       <li>
         <bodyGraphicData>
