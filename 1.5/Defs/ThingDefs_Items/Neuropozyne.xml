@@ -334,6 +334,7 @@
     <descriptionHyperlinks>
       <HediffDef>CoveredInFES</HediffDef>
     </descriptionHyperlinks>
+	<thingClass>Medicine</thingClass>
     <graphicData>
       <texPath>Things/Item/Neuropozyne</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
