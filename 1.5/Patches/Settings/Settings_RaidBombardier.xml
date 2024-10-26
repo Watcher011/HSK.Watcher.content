@@ -1,13 +1,11 @@
 ﻿
 <Patch>
 
-	
+	<!--
 <Operation Class="XmlExtensions.OptionalPatch">
     <modId>Watcher.Content.Settings</modId>
      <key>AddBombardierRaid</key>
-   
-    <defaultValue>true</defaultValue>
-	
+    <defaultValue>false</defaultValue>
     <caseTrue>
 	 <Operation Class="PatchOperationReplace">
 				<xpath>Defs/FactionDef[defName="Insectoid"]/pawnGroupMakers</xpath>
@@ -32,5 +30,53 @@
 	
     </caseTrue>
 </Operation>
+
+
+-->
+
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>Watcher.Content.Settings</modId>
+     <key>AddBombardierRaid</key>
+    <defaultValue>false</defaultValue>
+    <caseTrue>
+	 <Operation Class="PatchOperationAdd">
+	 <xpath>Defs/FactionDef[defName="Insectoid"]/pawnGroupMakers/li[1]/options</xpath>
+		<value>
+			<Bombardier>50</Bombardier>
+		</value>
+	</Operation>
+    </caseTrue>
+</Operation>
+
+
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>Watcher.Content.Settings</modId>
+     <key>AddQueenBeetleRaid</key>
+    <defaultValue>false</defaultValue>
+    <caseTrue>
+	 <Operation Class="PatchOperationAdd">
+	 <xpath>Defs/FactionDef[defName="Insectoid"]/pawnGroupMakers/li[1]/options</xpath>
+		<value>
+			<QueenBug>1</QueenBug>
+		</value>
+	</Operation>
+    </caseTrue>
+</Operation>
+
+
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>Watcher.Content.Settings</modId>
+     <key>AddMiteRaid</key>
+    <defaultValue>false</defaultValue>
+    <caseTrue>
+	 <Operation Class="PatchOperationAdd">
+	 <xpath>Defs/FactionDef[defName="Insectoid"]/pawnGroupMakers/li[1]/options</xpath>
+		<value>
+			 <Huntercarab>90</Huntercarab>
+		</value>
+	</Operation>
+    </caseTrue>
+</Operation>
+
 
 </Patch>

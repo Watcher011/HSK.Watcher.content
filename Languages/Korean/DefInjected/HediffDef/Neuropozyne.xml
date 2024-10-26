@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<Defs>
-<!--
-  <ThingDef ParentName="MakeableDrugPillBase">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- <ThingDef ParentName="MakeableDrugPillBase">
     <defName>Neuropozyne</defName>
     <label>Нейропозин</label>
     <description>Нейропозин — это наркотическое вещество производства компании Версалайф. Оно помогает предотвратить рубцевание тканей, которое блокирует электрический сигнал между имплантатами и биологическими нервными окончаниями, и в итоге ведёт к полному отторжению.Нейропозин вызывает сильную психологическую зависимость, вызванную страхом перед потерей контроля над имплантатами.</description>
@@ -324,109 +324,9 @@
         <count>1</count>
       </li>
     </ingredients>
-  </RecipeDef>
--->
+  </RecipeDef> -->
+<CoveredInFES.label> 내화성 폼으로 덮음</CoveredInFES.label>
+ <CoveredInFES.description>방화 스프레이로 코팅되어 있습니다.</CoveredInFES.description>
 
- <ThingDef ParentName="MakeableDrugPillBase">
-    <defName>FES</defName>
-    <label>Спрей Flameout</label>
-    <description>Спрей является совместной разработкой zurgoff и A.Ziemens. Признан высокоэффективным средством для борьбы с возгоранием в быту и на транспорте. Компактность и простота использования позволяют применять его даже детям, женщинам и пожилым людям. Незаменимое мобильное средство пожарной безопасности вашей 5 точки(не принимать внутрь).</description>
-    <descriptionHyperlinks>
-      <HediffDef>CoveredInFES</HediffDef>
-    </descriptionHyperlinks>
-    <graphicData>
-      <texPath>Things/Item/Neuropozyne</texPath>
-      <graphicClass>Graphic_StackCount</graphicClass>
-	  <drawSize>0.40</drawSize>
-    </graphicData>
-    <rotatable>false</rotatable>
-	 <orderedTakeGroup>Medicine</orderedTakeGroup>
-    <statBases>
-      <WorkToMake>900</WorkToMake>
-      <MarketValue>35</MarketValue>
-      <Mass>0.2</Mass>
-	  <Bulk>0.2</Bulk>
-    </statBases>
-    <techLevel>Neolithic</techLevel>
-    <ingestible>
-	  <drugCategory>Medical</drugCategory>
-	  <ingestCommandString>Нанести {0}</ingestCommandString>
-      <ingestReportString>Наносит {0}.</ingestReportString>
-      <outcomeDoers>
-        <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>CoveredInFES</hediffDef>
-          <severity>1</severity>
-        </li>
-      </outcomeDoers>
-    </ingestible>
-    <recipeMaker>
-      <recipeUsers>
-        <li>DrugLab</li>
-		<li>TableMachining</li>
-		<li>TableChemlab</li>
-      </recipeUsers>
-    </recipeMaker>
-    <costList>
-	  <Surfactant>3</Surfactant>
-      <Plasteel>10</Plasteel>
-	  <ComponentIndustrial>1</ComponentIndustrial>
-    </costList>
-	 <tickerType>Normal</tickerType>
-    <comps>
-	<!--
-	 <li Class="CompProperties_Explosive">
-        <explosiveRadius>1</explosiveRadius>
-        <explosiveDamageType>Extinguish</explosiveDamageType>
-        <startWickHitPointsPercent>-1</startWickHitPointsPercent>
-        <startWickOnDamageTaken>
-          <li>Flame</li>
-        </startWickOnDamageTaken>
-        <postExplosionSpawnThingDef>Filth_FireFoam</postExplosionSpawnThingDef>
-        <postExplosionSpawnChance>1</postExplosionSpawnChance>
-        <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
-        <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
-        <explosionEffect>ExtinguisherExplosion</explosionEffect>
-        <explosionSound>Explosion_FirefoamPopper</explosionSound>
-      </li>
-	   <li Class="CompProperties_ProximityFuse">
-        <target>Fire</target>
-        <radius>2</radius>
-      </li>
-	  -->
-       <li Class="CompProperties_Drug">
-        <listOrder>1000</listOrder>
-        <overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
-      </li>
-    </comps>
-	     <tradeTags>
-			<li>ExoticMisc</li>
-		</tradeTags>
-		<thingSetMakerTags>
-			<li>HSKhumanitarianSuppliesTierThree</li>
-			<li>RewardStandardCore</li>
-			<li>RewardStandardQualitySuper</li>
-		</thingSetMakerTags>
-  </ThingDef>
-  
-  
-   <HediffDef>
-    <defName>CoveredInFES</defName>
-    <description>Покрыт огнезащитным спреем.</description>
-    <label>покрытый огнестойкой пеной</label>
-    <hediffClass>Hediff_CoveredInFirefoam</hediffClass>
-    <stages>
-      <li>
-        <statFactors>
-          <Flammability>0</Flammability>
-        </statFactors>
-      </li>
-    </stages>
-    <comps>
-      <li Class="HediffCompProperties_Disappears">
-        <disappearsAfterTicks>3900</disappearsAfterTicks>
-		<showRemainingTime>true</showRemainingTime>
-      </li>
-    </comps>
-  </HediffDef>
-</Defs>
-  
+
+</LanguageData>

@@ -129,10 +129,25 @@
                 <key>AddBombardierRaid</key>
                 <label>Add Bombardier to Raid</label>
 				<tKey>AddBombardierRaid</tKey>
-                <defaultValue>true</defaultValue>
+                <defaultValue>false</defaultValue>
                 <tooltip>Add Bombardier to  Raid?</tooltip>
             </li>
 			
+			<li Class="XmlExtensions.Setting.Checkbox">
+                <key>AddQueenBeetleRaid</key>
+                <label>Add Queen beetle to Raid</label>
+				<tKey>AddQueenBeetleRaid</tKey>
+                <defaultValue>false</defaultValue>
+                <tooltip>Add queen beetle  Raid?</tooltip>
+            </li>
+			
+			<li Class="XmlExtensions.Setting.Checkbox">
+                <key>AddMiteRaid</key>
+                <label>Add Mite to Raid</label>
+				<tKey>AddMiteRaid</tKey>
+                <defaultValue>false</defaultValue>
+                <tooltip>Add mite to Raid?</tooltip>
+            </li>
 		 <li Class="XmlExtensions.Setting.GapLine"/>
 	 
 		
