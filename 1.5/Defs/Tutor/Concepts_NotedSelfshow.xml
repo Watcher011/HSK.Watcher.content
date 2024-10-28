@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!--===================== Concepts taught through the learning readout, with no opportunity needed ===================-->
+
+	<ConceptDef ParentName="NotedOpportunisticBase">
+		<defName>Watcher_Content_Settings</defName>
+		<label>Watcher Content Settings/Настройки контента наблюдателя</label>
+		<priority>20</priority>
+		    <needsOpportunity>true</needsOpportunity>
+    <gameMode>Entry</gameMode>
+		<helpText>Внимание ! Часть контента изначально отключена. Порой контент дисбалансный. Для активации всего контента -> Меню ->Настройки -> Настройки модов(+) -> Настройки контента Наблюдателя.(Для активации изменений нужна перезагрузка игры) -  Attention! Some content is initially disabled. Sometimes the content is unbalanced. To activate all content -> Menu -> Settings -> Mod settings (+) -> Watcher content settings. (To activate the changes, you need to restart the game)</helpText>
+	</ConceptDef>
+
+</Defs>

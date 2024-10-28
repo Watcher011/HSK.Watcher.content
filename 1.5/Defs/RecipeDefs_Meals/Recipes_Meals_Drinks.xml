@@ -214,4 +214,44 @@
 		<researchPrerequisite>Food_00</researchPrerequisite>
 	</RecipeDef>
 -->
+
+<RecipeDef>
+		<defName>MakePopcorn</defName>
+		<label>Приготовить попкорн х4</label>
+		<description>Приготовить попкорн 4 порции.</description>
+		<jobString>Готовит попкорн</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Brewing</soundWorking>
+		<workAmount>1200</workAmount>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<recipeUsers>
+			<li>Campfire</li>
+			<li>FueledStove</li>
+			<li>ElectricStove</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawCorn</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawGreen</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Popcorn>4</Popcorn>
+		</products>
+		<skillRequirements>
+			<Cooking>1</Cooking>
+		</skillRequirements>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisite>Food_00</researchPrerequisite>
+	</RecipeDef>
 </Defs>

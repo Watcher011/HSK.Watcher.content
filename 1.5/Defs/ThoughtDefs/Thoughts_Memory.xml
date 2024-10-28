@@ -96,4 +96,17 @@
 		</stages>
 	</ThoughtDef>
 	
+	
+	<ThoughtDef>
+		<defName>HadPopcornT</defName>
+		<durationDays>0.9</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>О какое зрелище</label>
+				<description>Попкорн это то что нужно</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
 </Defs>

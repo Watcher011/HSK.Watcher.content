@@ -13,5 +13,8 @@
   <MakeYzvar.description>Cook dried fruit uzvar.</MakeYzvar.description>
   <MakeYzvar.jobString>Cooking uzvar.</MakeYzvar.jobString>
 
-
+<MakePopcorn.label>Make popcorn x4</MakePopcorn.label>
+  <MakePopcorn.description>Make 4 servings of popcorn.</MakePopcorn.description>
+  <MakePopcorn.jobString>Making popcorn.</MakePopcorn.jobString>
+  
 </LanguageData>

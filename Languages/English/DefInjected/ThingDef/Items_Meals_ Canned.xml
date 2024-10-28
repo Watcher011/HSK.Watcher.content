@@ -31,5 +31,6 @@
   <Ethanol.ingestible.ingestCommandString>Drink {0}</Ethanol.ingestible.ingestCommandString>
   <Ethanol.ingestible.ingestReportString>Drinking {0}.</Ethanol.ingestible.ingestReportString>
 
-
+ <Popcorn.label>Popcorn</Popcorn.label>
+  <Popcorn.description>Popcorn is a snack food consisting of kernels of corn that have been heated and puffed up from the inside. It is usually served salted or sweetened.</Popcorn.description>
 </LanguageData>

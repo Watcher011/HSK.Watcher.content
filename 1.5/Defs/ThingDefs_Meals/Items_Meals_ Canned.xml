@@ -384,8 +384,38 @@
 		</statBases>
 	</ThingDef>
 	
-	
-	
+	<ThingDef ParentName="SK_MealBase">
+		<defName>Popcorn</defName>
+		<label>Попкорн</label>
+		<description>Попкорн  — закуска, представляющая собой зёрна кукурузы, раздувшиеся изнутри при нагревании. Обычно подаётся подсоленным или подслащенным.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/popcorn</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(0.6)</drawSize>
+		</graphicData>
+		<thingCategories>
+			<li>BasicPlantFoodRaw</li>
+		</thingCategories>
+		<statBases>
+			<DeteriorationRate>40</DeteriorationRate>
+			<MarketValue>1</MarketValue>
+			<Bulk>0.05</Bulk>
+			<Mass>0.01</Mass>
+			<WorkToMake>2500</WorkToMake>
+			<Nutrition>0.03</Nutrition>
+		</statBases>
+		<stackLimit>30</stackLimit>
+		<ingestible>
+			<chairSearchRadius>25</chairSearchRadius>
+			<preferability>RawTasty</preferability>
+			 <joyKind>Social</joyKind>
+			<joy>0.45</joy>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>RawVegetable_Eat</ingestSound>
+	    	 <tasteThought>HadPopcornT</tasteThought>
+			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+		</ingestible>
+	 </ThingDef>
 </Defs>
 
 

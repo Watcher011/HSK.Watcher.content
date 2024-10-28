@@ -27,6 +27,10 @@
 						<radius>3</radius>
 						<severityToAdd>0.001</severityToAdd>
 					</li>
+					<li Class="CompProperties_Glower">
+				    <glowRadius>3</glowRadius>
+				    <glowColor>(71,78,170,0)</glowColor>
+			       </li>
 				</comps>
 				</value>
 			</li>
