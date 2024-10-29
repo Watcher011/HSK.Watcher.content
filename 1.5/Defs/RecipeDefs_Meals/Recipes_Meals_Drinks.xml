@@ -237,12 +237,21 @@
 						<li>RawCorn</li>
 					</thingDefs>
 				</filter>
-				<count>2</count>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Salt</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>RawGreen</li>
+				<li>Salt</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
