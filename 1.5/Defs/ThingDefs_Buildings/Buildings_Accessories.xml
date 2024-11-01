@@ -880,7 +880,7 @@
 	</ThingDef>
 	
 	
-	
+	<!---
 	 <ThingDef ParentName="BuildingBase">
 		<defName>CofiBasin</defName>
 		<label>Автомат с кофе</label>
@@ -945,8 +945,8 @@
 			 <li Class="CompProperties_Spawner">
               <thingToSpawn>CupCoffee</thingToSpawn>
               <spawnCount>3</spawnCount>
-              <spawnIntervalRange>2600~3000</spawnIntervalRange>
-			  <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+              <spawnIntervalRange>26000~30000</spawnIntervalRange>
+			  <writeTimeLeftToSpawn>false</writeTimeLeftToSpawn>
            </li>
 		   
 			<li Class="CompProperties_Power">
@@ -963,9 +963,9 @@
 		<researchPrerequisites>
 			<li>Food_C1</li>
 		</researchPrerequisites>
-		<!-- ThingDef_UF fields -->
+		
 	</ThingDef>
-	
+	 -->
 	
 <ThingDef  ParentName="SK_LampBase">
 		<defName>YadaritLamp2A</defName>
