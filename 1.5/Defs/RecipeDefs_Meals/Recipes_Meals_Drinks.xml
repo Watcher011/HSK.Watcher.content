@@ -250,7 +250,7 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>RawGreen</li>
+				<li>RawCorn</li>
 				<li>Salt</li>
 			</thingDefs>
 		</fixedIngredientFilter>
