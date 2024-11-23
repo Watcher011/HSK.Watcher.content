@@ -1,201 +1,82 @@
 ﻿<Patch>
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs</xpath>
-		<value>
-	<ArchitectSense.DesignationSubCategoryDef>
-		<defName>SubCategory_Lights</defName>
-		<label>fueled lights</label>
-		<description>Fueled lights that need fuel for work.</description>
-		<defNames>
-			<li>TorchLamp</li>
-			<li>YadaritLamp2A</li>
-			<li>BowlLamp</li>
-			<li>WallTorch</li>
-			<li>Candle</li>
-			<li>GlowstoneLamp</li>
-			<li>KristalWallLamp</li>
-			<li>CeilingKristal</li>
-			<li>OutdoorGroundLamp</li>
-			<li>Lighting_PathLamp</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Brazier</li>
-		</defNames>
-		<designationCategory>Accessories</designationCategory>
-		<debug>false</debug>
-	</ArchitectSense.DesignationSubCategoryDef>
-	
-	<ArchitectSense.DesignationSubCategoryDef MayRequire="Ludeon.RimWorld.Ideology">
-		<defName>SubCategory_DarkLamps</defName>
-		<label>dark lamps</label>
-		<description>Lamp that lights an area with dark light.</description>
-		<defNames>
-		<li>KristalWallLampDark</li>
-		<li>CeilingKristalDark</li>
-		
-			<li>Darktorch</li>
-			<li>DarktorchFungus</li>
-			<li>Darktorch</li>
-			<li>DarklightBrazier</li>
-		</defNames>
-		<designationCategory>Accessories</designationCategory>
-		<debug>false</debug>
-	</ArchitectSense.DesignationSubCategoryDef>
-	
-	<ArchitectSense.DesignationSubCategoryDef MayRequire="Ludeon.RimWorld.Ideology">
-		<defName>SubCategory_Columns</defName>
-		<label>columns</label>
-		<description>A column capable of supporting a roof with a glowstone crystal. Doesn't block view or movement and looks pretty nice</description>
-		<defNames>
-		<li>Column</li>
-		<li>ColumnKristal</li>
-		<li>ColumnKristalDark</li>
-		</defNames>
-		<designationCategory>Accessories</designationCategory>
-		<debug>false</debug>
-	</ArchitectSense.DesignationSubCategoryDef>
-
-		</value>
-	</Operation>
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs</xpath>
-		<value>
-			<ArchitectSense.DesignationSubCategoryDef>
-				<defName>SubCategory_JadeHSK</defName>
-				<label>Пол из Нефрита</label>
-				<description>Пол сделаный из нефрита.</description>
-				<defNames>
-					<li>FloorStoneStaggeredNefrBrick</li>
-					<li>FloorStoneMosaicNEF</li>
-					<li>FloorStoneMosaicNEFt</li>
-				</defNames>
-				<designationCategory>NaturalFloors</designationCategory>
-				<debug>false</debug>
-			</ArchitectSense.DesignationSubCategoryDef>
-			
-				<ArchitectSense.DesignationSubCategoryDef>
-				<defName>SubCategory_Amber</defName>
-				<label>Пол из Янтаря</label>
-				<description>Пол сделаный из Янтаря.</description>
-				<defNames>
-					<li>FloorAmber</li>
-				</defNames>
-				<designationCategory>NaturalFloors</designationCategory>
-				<debug>false</debug>
-			</ArchitectSense.DesignationSubCategoryDef>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs</xpath>
-		<value>
-			<ArchitectSense.DesignationSubCategoryDef>
-		<defName>SubCategory_DryingRack</defName>
-		<label>drying racks</label>
-		<description>Drying rack used for drying meat or leaves.</description>
-		<defNames>
-		    <li>JerkyRack</li>
-			<li>DryingRack</li>
-			<li>industrialDryingRack</li>
-			<li>CheeseBasin</li>
-			<li>CheeseVat</li>
-		</defNames>
-		<designationCategory>Production</designationCategory>
-		<debug>false</debug>
-	</ArchitectSense.DesignationSubCategoryDef>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs</xpath>
-		<value>
-		<ArchitectSense.DesignationSubCategoryDef>
-		<defName>SubCategory_Refinery</defName>
-		<label>refineries</label>
-		<description>Processes chemfuel to another products.</description>
-		<defNames>
-			<li>PolymerRefiner</li>
-			<li>PaintRefiner</li>
-			<li>NapalmRefiner</li>
-			<li>SynthreadRefiner</li>
-			<li>HyperweaveRefiner</li>
-			<li>NeutroamineRefiner</li>
-			<li>ParaffinRefiner</li>
-			<li>SulphateRefiner</li>
-			<li>SyntheticAmmoniaRefiner</li>
-		</defNames>
-		<designationCategory>Rimefeller</designationCategory>
-		<debug>false</debug>
-	</ArchitectSense.DesignationSubCategoryDef>
-		</value>
-	</Operation>
-	
-	
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs</xpath>
-		<value>
-		<ArchitectSense.DesignationSubCategoryDef>
-		<defName>SubCategory_SentryTurrets</defName>
-		<label>sentry turrets</label>
-		<description>An AI-controlled turret that automatically fires at nearby enemies.</description>
-		<defNames>
-	     	<li>Turret_AlienTurret</li>
-			<li>Turret_MiniTurret</li>
-			<li>Turret_Autocannon</li>
-			<li>Turret_Blaster</li>
-			<li>Turret_Sniper</li>
-			<li>NavalGunTurretGun</li>
-			<li>Turret_SentryRocketLauncher</li>
-		</defNames>
-		<designationCategory>Security</designationCategory>
-		<debug>false</debug>
-	</ArchitectSense.DesignationSubCategoryDef>
-		</value>
-	</Operation>
-	
-	
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs</xpath>
-		<value>
-		<ArchitectSense.DesignationSubCategoryDef>
-		<defName>SubCategory_Refinery</defName>
-		<label>refineries</label>
-		<description>Processes chemfuel to another products.</description>
-		<defNames>
-			<li>PolymerRefiner</li>
-			<li>PaintRefiner</li>
-			<li>NapalmRefiner</li>
-			<li>SynthreadRefiner</li>
-			<li>HyperweaveRefiner</li>
-			<li>NeutroamineRefiner</li>
-			<li>ParaffinRefiner</li>
-			<li>SulphateRefiner</li>
-			<li>SyntheticAmmoniaRefiner</li>
-		</defNames>
-		<designationCategory>Rimefeller</designationCategory>
-		<debug>false</debug>
-	</ArchitectSense.DesignationSubCategoryDef>
-		</value>
-	</Operation>
-	
-	
-		<Operation Class="PatchOperationAdd">
-		<xpath>Defs</xpath>
-		<value>
-		<ArchitectSense.DesignationSubCategoryDef>
-		<defName>SubCategory_Fortifications</defName>
-		<label>fortifications</label>
-		<description>Manned medieval siege weapons.</description>
-		<defNames>
-			<li>chevalDeFrise</li>
-			<li>Sandbags</li>
-			<li>CE_Loophole</li>
-			<li>Barricade</li>
-			<li>CE_Embrasure</li>
-			<li>CE_BarbedWire</li>
-			<li>Moat</li>
-		</defNames>
-		<designationCategory>Security</designationCategory>
-		<debug>false</debug>
-	</ArchitectSense.DesignationSubCategoryDef>
-		</value>
-	</Operation>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Lights"]/defNames</xpath>
+                <value>
+                    <li>KristalWallLamp</li>
+                    <li>CeilingKristal</li>
+                    <li>YadaritLamp2A</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_DarkLamps"]/defNames</xpath>
+                <value>
+                    <li>KristalWallLampDark</li>
+                    <li>CeilingKristalDark</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Columns"]/defNames</xpath>
+                <value>
+                    <li>ColumnKristal</li>
+                    <li>ColumnKristalDark</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_DryingRack"]/defNames</xpath>
+                <value>
+                    <li>industrialDryingRack</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Refinery"]/defNames</xpath>
+                <value>
+                    <li>PaintRefiner</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_SentryTurrets"]/defNames</xpath>
+                <value>
+                    <li>Turret_AlienTurret</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Fortifications"]/defNames</xpath>
+                <value>
+                    <li>CE_Loophole</li>
+					<li>chevalDeFrise</li>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+    
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs</xpath>
+        <value>
+            <ArchitectSense.DesignationSubCategoryDef>
+                <defName>SubCategory_JadeHSK</defName>
+                <label>Пол из Нефрита</label>
+                <description>Пол сделаный из нефрита.</description>
+                <defNames>
+                    <li>FloorStoneStaggeredNefrBrick</li>
+                    <li>FloorStoneMosaicNEF</li>
+                    <li>FloorStoneMosaicNEFt</li>
+                </defNames>
+                <designationCategory>NaturalFloors</designationCategory>
+                <debug>false</debug>
+            </ArchitectSense.DesignationSubCategoryDef>
+            <ArchitectSense.DesignationSubCategoryDef>
+                <defName>SubCategory_Amber</defName>
+                <label>Пол из Янтаря</label>
+                <description>Пол сделаный из Янтаря.</description>
+                <defNames>
+                    <li>FloorAmber</li>
+                </defNames>
+                <designationCategory>NaturalFloors</designationCategory>
+                <debug>false</debug>
+            </ArchitectSense.DesignationSubCategoryDef>
+        </value>
+    </Operation>
 </Patch>
