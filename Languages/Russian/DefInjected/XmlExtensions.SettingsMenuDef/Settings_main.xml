@@ -1,31 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
- <Watcher_Content_Settings.label>Настройки контента Watcher</Watcher_Content_Settings.label> 
- <Watcher_Content_Settings.settings.1.text>Сложность</Watcher_Content_Settings.settings.1.text> 
- <Watcher_Content_Settings.settings.2.label>Добавить алкоголь в рецепты?</Watcher_Content_Settings.settings.2.label>
- <Watcher_Content_Settings.settings.3.label>Добавить извлечение гематогена из трупов?</Watcher_Content_Settings.settings.3.label> 
- <Watcher_Content_Settings.settings.5.label>Добавить строительство взрывоопасной двери?(Заминированная дверь)</Watcher_Content_Settings.settings.5.label>
-<Watcher_Content_Settings.settings.6.label>Сортировать ли мины по коробкам или просто оставить их лежать?</Watcher_Content_Settings.settings.6.label> 
-<Watcher_Content_Settings.settings.8.label>Добавлять мягкие стены?</Watcher_Content_Settings.settings.8.label>
- <Watcher_Content_Settings.settings.9.label>Добавить стены из светящегося камня?</Watcher_Content_Settings.settings.9.label>
- <Watcher_Content_Settings.settings.10.label>Колонна с девушкой и/или кошкой (выбор текстуры)</Watcher_Content_Settings.settings.10.label>
- <Watcher_Content_Settings.settings.12.label>Добавить положительные эффекты для ковров?</Watcher_Content_Settings.settings.12.label>
- <Watcher_Content_Settings.settings.13.label>Добавить хранилище токсичных пакетов?</Watcher_Content_Settings.settings.13.label>
- <Watcher_Content_Settings.settings.15.label>Использовать алкоголь в лампе целителя?</Watcher_Content_Settings.settings.15.label>
- <Watcher_Content_Settings.settings.16.label>Отключить баг с лампой целителя?</Watcher_Content_Settings.settings.16.label>
- <Watcher_Content_Settings.settings.18.label>Добавить Бомбардира в коконы</Watcher_Content_Settings.settings.18.label>
-<Watcher_Content_Settings.settings.19.label>Добавить Бомбардира в рейды</Watcher_Content_Settings.settings.19.label>
- <Watcher_Content_Settings.settings.20.label>Добавить Королеву жуков в рейды</Watcher_Content_Settings.settings.20.label> 
- <Watcher_Content_Settings.settings.21.label>Добавить Клещей в рейды</Watcher_Content_Settings.settings.21.label> 
- <Watcher_Content_Settings.settings.23.label>Добавляете трансплантацию органов для андроидов?</Watcher_Content_Settings.settings.23.label> 
- <Watcher_Content_Settings.settings.24.label>Добавление излучения Rimatomics RTG?</Watcher_Content_Settings.settings.24.label>
- <Watcher_Content_Settings.settings.25.label>Добавление разнообразия в чайную продукцию?</Watcher_Content_Settings.settings.25.label>
- <Watcher_Content_Settings.settings.26.label>Добавление медового дерева? </Watcher_Content_Settings.settings.26.label> 
- <Watcher_Content_Settings.settings.27.label>Добавить рецепты для переработки ядарита в металл или светокамень?</Watcher_Content_Settings.settings.27.label> 
- <Watcher_Content_Settings.settings.28.label>Добавить азотный хладагент?</Watcher_Content_Settings.settings.28.label>
-<Watcher_Content_Settings.settings.30.text>Тестовые функции, которые могут быть удалены из сборки</Watcher_Content_Settings.settings.30.text> 
-<Watcher_Content_Settings.settings.34.text>Для применения всех параметров требуется перезапуск</Watcher_Content_Settings.settings.34.text>
+  <Watcher_Content_Settings.label>Настройки контента Watcher</Watcher_Content_Settings.label>
+  <Watcher_Content_Settings.settings.1.text>Сложность</Watcher_Content_Settings.settings.1.text>
+  <Watcher_Content_Settings.settings.2.label>Добавить алкоголь в рецепты?</Watcher_Content_Settings.settings.2.label>
+  <Watcher_Content_Settings.settings.3.label>Добавить извлечение гематогена из трупов?</Watcher_Content_Settings.settings.3.label>
+  <Watcher_Content_Settings.settings.5.label>Добавить строительство взрывоопасной двери?(Заминированная дверь)</Watcher_Content_Settings.settings.5.label>
+  <Watcher_Content_Settings.settings.6.label>Сортировать ли мины по коробкам или просто оставить их лежать?</Watcher_Content_Settings.settings.6.label>
+  <Watcher_Content_Settings.settings.8.label>Добавлять мягкие стены?</Watcher_Content_Settings.settings.8.label>
+  <Watcher_Content_Settings.settings.9.label>Добавить стены из светящегося камня?</Watcher_Content_Settings.settings.9.label>
+  <Watcher_Content_Settings.settings.10.label>Колонна с девушкой и/или кошкой (выбор текстуры)</Watcher_Content_Settings.settings.10.label>
+  <Watcher_Content_Settings.settings.12.label>Добавить положительные эффекты для ковров?</Watcher_Content_Settings.settings.12.label>
+  <Watcher_Content_Settings.settings.13.label>Добавить хранилище токсичных пакетов?</Watcher_Content_Settings.settings.13.label>
+  <Watcher_Content_Settings.settings.15.label>Использовать алкоголь в лампе целителя?</Watcher_Content_Settings.settings.15.label>
+  <Watcher_Content_Settings.settings.16.label>Отключить баг с лампой целителя?</Watcher_Content_Settings.settings.16.label>
+  <Watcher_Content_Settings.settings.18.label>Добавить Бомбардира в коконы</Watcher_Content_Settings.settings.18.label>
+  <Watcher_Content_Settings.settings.19.label>Добавить Бомбардира в рейды</Watcher_Content_Settings.settings.19.label>
+  <Watcher_Content_Settings.settings.20.label>Добавить Королеву жуков в рейды</Watcher_Content_Settings.settings.20.label>
+  <Watcher_Content_Settings.settings.21.label>Добавить Клещей в рейды</Watcher_Content_Settings.settings.21.label>
+  <Watcher_Content_Settings.settings.23.label>Добавляете трансплантацию органов для андроидов?</Watcher_Content_Settings.settings.23.label>
+  <Watcher_Content_Settings.settings.24.label>Добавление излучения Rimatomics RTG?</Watcher_Content_Settings.settings.24.label>
+  <Watcher_Content_Settings.settings.25.label>Добавление разнообразия в чайную продукцию?</Watcher_Content_Settings.settings.25.label>
+  <Watcher_Content_Settings.settings.26.label>Добавление медового дерева? </Watcher_Content_Settings.settings.26.label>
+  <Watcher_Content_Settings.settings.27.label>Добавить рецепты для переработки ядарита в металл или светокамень?</Watcher_Content_Settings.settings.27.label>
+  <Watcher_Content_Settings.settings.28.label>Добавить азотный хладагент?</Watcher_Content_Settings.settings.28.label>
+  <Watcher_Content_Settings.settings.30.text>Тестовые функции, которые могут быть удалены из сборки</Watcher_Content_Settings.settings.30.text>
+  <Watcher_Content_Settings.settings.34.text>Для применения всех параметров требуется перезапуск</Watcher_Content_Settings.settings.34.text>
 
 
 </LanguageData>

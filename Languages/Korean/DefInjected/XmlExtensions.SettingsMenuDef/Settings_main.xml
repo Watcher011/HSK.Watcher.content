@@ -1,29 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<Watcher_Content_Settings.label>감시자 콘텐츠 설정</Watcher_Content_Settings.label>
- <Watcher_Content_Settings.settings.1.text>난이도</Watcher_Content_Settings.settings.1.text>
- <Watcher_Content_Settings.settings.2.label>레시피에 알코올을 추가하시겠습니까?</Watcher_Content_Settings.settings.2.label>
- <Watcher_Content_Settings.settings.3.label>시체에서 혈종 추출을 추가하시겠습니까?</Watcher_Content_Settings.settings.3.label>
- <Watcher_Content_Settings.settings.5.label>폭발성 문(부비 문) 건설을 추가하시겠습니까?</Watcher_Content_Settings.settings.5.label>
-<Watcher_Content_Settings.settings.6.label>지뢰를 상자에 분류해야 합니까, 아니면 그냥 놓아두어야 합니까?</Watcher_Content_Settings.settings.6.label>
-<Watcher_Content_Settings.settings.8.label>부드러운 벽을 추가하시겠습니까?</Watcher_Content_Settings.settings.8.label>
- <Watcher_Content_Settings.settings.9.label>발광석 벽을 추가하시겠습니까?</Watcher_Content_Settings.settings.9.label>
- <Watcher_Content_Settings.settings.10.label>소녀 및/또는 고양이가 있는 열(텍스처 선택)</Watcher_Content_Settings.settings.10.label>
- <Watcher_Content_Settings.settings.12.label>카펫에 버프를 추가하시겠습니까?</Watcher_Content_Settings.settings.12.label>
- <Watcher_Content_Settings.settings.13.label>독성 패키지 저장소를 추가하시겠습니까?</Watcher_Content_Settings.settings.13.label>
- <Watcher_Content_Settings.settings.15.label>치유사의 램프에 알코올을 사용하시겠습니까?</Watcher_Content_Settings.settings.15.label>
- <Watcher_Content_Settings.settings.16.label>치유사의 램프 버그를 비활성화하시겠습니까?</Watcher_Content_Settings.settings.16.label>
- <Watcher_Content_Settings.settings.18.label>누에고치에 Bombardier 추가</Watcher_Content_Settings.settings.18.label>
-<Watcher_Content_Settings.settings.19.label>공격대에 Bombardier 추가</Watcher_Content_Settings.settings.19.label>
- <Watcher_Content_Settings.settings.20.label>공격대에 여왕벌 추가</Watcher_Content_Settings.settings.20.label>
- <Watcher_Content_Settings.settings.21.label>레이드에 진드기 추가</Watcher_Content_Settings.settings.21.label>
- <Watcher_Content_Settings.settings.23.label>안드로이드에 장기 이식을 추가하시겠습니까?</Watcher_Content_Settings.settings.23.label>
- <Watcher_Content_Settings.settings.24.label>리마토믹스 RTG 방사선을 추가하시겠습니까?</Watcher_Content_Settings.settings.24.label>
- <Watcher_Content_Settings.settings.25.label>차 제품에 다양성을 더하고 싶으십니까?</Watcher_Content_Settings.settings.25.label>
- <Watcher_Content_Settings.settings.26.label>허니트리를 추가하시나요? </Watcher_Content_Settings.settings.26.label>
- <Watcher_Content_Settings.settings.27.label>야다라이트를 금속이나 발광석으로 가공하기 위한 레시피를 추가하시겠습니까?</Watcher_Content_Settings.settings.27.label>
- <Watcher_Content_Settings.settings.28.label>질소 냉매를 추가하시겠습니까?</Watcher_Content_Settings.settings.28.label>
-<Watcher_Content_Settings.settings.30.text>빌드에서 제거할 수 있는 테스트 함수</Watcher_Content_Settings.settings.30.text>
-<Watcher_Content_Settings.settings.34.text>모든 설정을 적용하려면 다시 시작해야 합니다</Watcher_Content_Settings.settings.34.text>
+
+  <Watcher_Content_Settings.label>감시자 콘텐츠 설정</Watcher_Content_Settings.label>
+  <Watcher_Content_Settings.settings.1.text>난이도</Watcher_Content_Settings.settings.1.text>
+  <Watcher_Content_Settings.settings.2.label>레시피에 알코올을 추가하시겠습니까?</Watcher_Content_Settings.settings.2.label>
+  <Watcher_Content_Settings.settings.3.label>시체에서 혈종 추출을 추가하시겠습니까?</Watcher_Content_Settings.settings.3.label>
+  <Watcher_Content_Settings.settings.5.label>폭발성 문(부비 문) 건설을 추가하시겠습니까?</Watcher_Content_Settings.settings.5.label>
+  <Watcher_Content_Settings.settings.6.label>지뢰를 상자에 분류해야 합니까, 아니면 그냥 놓아두어야 합니까?</Watcher_Content_Settings.settings.6.label>
+  <Watcher_Content_Settings.settings.8.label>부드러운 벽을 추가하시겠습니까?</Watcher_Content_Settings.settings.8.label>
+  <Watcher_Content_Settings.settings.9.label>발광석 벽을 추가하시겠습니까?</Watcher_Content_Settings.settings.9.label>
+  <Watcher_Content_Settings.settings.10.label>소녀 및/또는 고양이가 있는 열(텍스처 선택)</Watcher_Content_Settings.settings.10.label>
+  <Watcher_Content_Settings.settings.12.label>카펫에 버프를 추가하시겠습니까?</Watcher_Content_Settings.settings.12.label>
+  <Watcher_Content_Settings.settings.13.label>독성 패키지 저장소를 추가하시겠습니까?</Watcher_Content_Settings.settings.13.label>
+  <Watcher_Content_Settings.settings.15.label>치유사의 램프에 알코올을 사용하시겠습니까?</Watcher_Content_Settings.settings.15.label>
+  <Watcher_Content_Settings.settings.16.label>치유사의 램프 버그를 비활성화하시겠습니까?</Watcher_Content_Settings.settings.16.label>
+  <Watcher_Content_Settings.settings.18.label>누에고치에 Bombardier 추가</Watcher_Content_Settings.settings.18.label>
+  <Watcher_Content_Settings.settings.19.label>공격대에 Bombardier 추가</Watcher_Content_Settings.settings.19.label>
+  <Watcher_Content_Settings.settings.20.label>공격대에 여왕벌 추가</Watcher_Content_Settings.settings.20.label>
+  <Watcher_Content_Settings.settings.21.label>레이드에 진드기 추가</Watcher_Content_Settings.settings.21.label>
+  <Watcher_Content_Settings.settings.23.label>안드로이드에 장기 이식을 추가하시겠습니까?</Watcher_Content_Settings.settings.23.label>
+  <Watcher_Content_Settings.settings.24.label>리마토믹스 RTG 방사선을 추가하시겠습니까?</Watcher_Content_Settings.settings.24.label>
+  <Watcher_Content_Settings.settings.25.label>차 제품에 다양성을 더하고 싶으십니까?</Watcher_Content_Settings.settings.25.label>
+  <Watcher_Content_Settings.settings.26.label>허니트리를 추가하시나요? </Watcher_Content_Settings.settings.26.label>
+  <Watcher_Content_Settings.settings.27.label>야다라이트를 금속이나 발광석으로 가공하기 위한 레시피를 추가하시겠습니까?</Watcher_Content_Settings.settings.27.label>
+  <Watcher_Content_Settings.settings.28.label>질소 냉매를 추가하시겠습니까?</Watcher_Content_Settings.settings.28.label>
+  <Watcher_Content_Settings.settings.30.text>빌드에서 제거할 수 있는 테스트 함수</Watcher_Content_Settings.settings.30.text>
+  <Watcher_Content_Settings.settings.34.text>모든 설정을 적용하려면 다시 시작해야 합니다</Watcher_Content_Settings.settings.34.text>
+
 
 </LanguageData>

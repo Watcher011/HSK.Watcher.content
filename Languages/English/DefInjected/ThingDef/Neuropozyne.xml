@@ -326,10 +326,10 @@
     </ingredients>
   </RecipeDef> -->
 
- <FES.label>Flameout Spray</FES.label>
-<FES.description>The spray is a joint development of zurgoff and A.Ziemens. It is recognized as a highly effective means of fighting fires at home and in transport. Its compactness and ease of use allow it to be used even by children, women and the elderly. An indispensable mobile means of fire safety for your 5th point (do not take internally).</FES.description>
-<FES.ingestible.ingestCommandString>Apply {0}</FES.ingestible.ingestCommandString>
-<FES.ingestible.ingestReportString>Applies {0}.</FES.ingestible.ingestReportString>
+  <FES.label>Flameout Spray</FES.label>
+  <FES.description>The spray is a joint development of zurgoff and A.Ziemens. It is recognized as a highly effective means of fighting fires at home and in transport. Its compactness and ease of use allow it to be used even by children, women and the elderly. An indispensable mobile means of fire safety for your 5th point (do not take internally).</FES.description>
+  <FES.ingestible.ingestCommandString>Apply {0}</FES.ingestible.ingestCommandString>
+  <FES.ingestible.ingestReportString>Applies {0}.</FES.ingestible.ingestReportString>
 
 
 </LanguageData>

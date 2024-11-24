@@ -326,10 +326,10 @@
     </ingredients>
   </RecipeDef> -->
 
- <FES.label>Flameout 스프레이</FES.label>
- <FES.description>스프레이는 zurgoff와 A.Ziemens의 공동 개발품입니다. 집에서나 운송 중에 화재를 진압하는 데 매우 효과적인 수단으로 인식됩니다. 컴팩트하고 사용하기 쉬우므로 어린이, 여성, 노인도 사용할 수 있습니다. 5번째 항목을 위한 필수 모바일 화재 안전 장치입니다(내부적으로 가져가지 마십시오).</FES.description>
- <FES.ingestible.ingestCommandString>{0} 적용</FES.ingestible.ingestCommandString>
- <FES.ingestible.ingestReportString>거래 {0}.</FES.ingestible.ingestReportString>
+  <FES.label>Flameout 스프레이</FES.label>
+  <FES.description>스프레이는 zurgoff와 A.Ziemens의 공동 개발품입니다. 집에서나 운송 중에 화재를 진압하는 데 매우 효과적인 수단으로 인식됩니다. 컴팩트하고 사용하기 쉬우므로 어린이, 여성, 노인도 사용할 수 있습니다. 5번째 항목을 위한 필수 모바일 화재 안전 장치입니다(내부적으로 가져가지 마십시오).</FES.description>
+  <FES.ingestible.ingestCommandString>{0} 적용</FES.ingestible.ingestCommandString>
+  <FES.ingestible.ingestReportString>거래 {0}.</FES.ingestible.ingestReportString>
 
 
 </LanguageData>

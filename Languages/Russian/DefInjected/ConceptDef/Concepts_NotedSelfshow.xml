@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Concepts taught through the learning readout, with no opportunity needed -->
+
+  <Watcher_Content_Settings.label>Watcher Content Settings/Настройки контента наблюдателя</Watcher_Content_Settings.label>
+  <Watcher_Content_Settings.helpText>Внимание ! Часть контента изначально отключена. Порой контент дисбалансный. Для активации всего контента -&gt; Меню -&gt;Настройки -&gt; Настройки модов(+) -&gt; Настройки контента Наблюдателя.(Для активации изменений нужна перезагрузка игры) -  Attention! Some content is initially disabled. Sometimes the content is unbalanced. To activate all content -&gt; Menu -&gt; Settings -&gt; Mod settings (+) -&gt; Watcher content settings. (To activate the changes, you need to restart the game)</Watcher_Content_Settings.helpText>
+
+
+</LanguageData>

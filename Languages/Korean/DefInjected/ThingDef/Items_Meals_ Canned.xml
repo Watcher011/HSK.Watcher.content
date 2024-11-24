@@ -31,5 +31,8 @@
   <Ethanol.ingestible.ingestCommandString>{0} 음료</Ethanol.ingestible.ingestCommandString>
   <Ethanol.ingestible.ingestReportString>{0}을(를) 마시고 있습니다.</Ethanol.ingestible.ingestReportString>
 
+  <Popcorn.label>Попкорн</Popcorn.label>
+  <Popcorn.description>Попкорн  — закуска, представляющая собой зёрна кукурузы, раздувшиеся изнутри при нагревании. Обычно подаётся подсоленным или подслащенным.</Popcorn.description>
+
 
 </LanguageData>

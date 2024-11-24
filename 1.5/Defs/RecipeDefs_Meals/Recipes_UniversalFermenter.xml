@@ -162,6 +162,90 @@
 		<slotsRequired>5</slotsRequired>
 	</RecipeDef>
 	-->
+
+	<RecipeDef Name="Make_CoffeeBase" Abstract="True">
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GroundCoffee</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>CoffeeBasin</li>
+		</recipeUsers>
+		
+		<!-- RecipeDef_UF fields -->
+		<temperatureSafe>
+			<min>-50</min>
+			<max>60</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>-40</min>
+			<max>30</max>
+		</temperatureIdeal>
+		<processDays>1</processDays>
+		<speedBelowSafe>0.05</speedBelowSafe>
+		<speedAboveSafe>0.5</speedAboveSafe>
+		<sunFactor>
+			<min>1</min>
+			<max>1</max>
+		</sunFactor>
+		<rainFactor>
+			<min>1</min>
+			<max>1</max>
+		</rainFactor>
+		<snowFactor>
+			<min>1</min>
+			<max>1</max>
+		</snowFactor>
+		<windFactor>
+			<min>1</min>
+			<max>1</max>
+		</windFactor>
+		
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_CoffeeBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_CupDecaffeinatedCoffee</defName>
+		<label>Кофе без Кофеина</label>
+		<description>Кофе без Кофеина</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GroundCoffee</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<products>
+			<CupDecaffeinatedCoffee>2</CupDecaffeinatedCoffee>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_CoffeeBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_CupStrongCoffee</defName>
+		<label>Двойной кофе</label>
+		<description>Крепкий кофе</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GroundCoffee</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+			<li>GroundCoffee</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<CupStrongCoffee>1</CupStrongCoffee>
+		</products>
+	</RecipeDef>
 	
 	
 </Defs>

@@ -12,7 +12,7 @@
   <!--<ChoppedStump_BioHarbinger.description>Пень, оставшийся после того, как срубили куст терника. Пень можно извлечь, но он дает очень мало пригодного материала. Оставленный на открытом воздухе, пень со временем испортится.</ChoppedStump_BioHarbinger.description>-->
   <!--<SmashedStump_BioHarbinger.label>раздробленный пень терника</SmashedStump_BioHarbinger.label>-->
   <!--<SmashedStump_BioHarbinger.description>Остатки куста терника, уничтоженного повреждением. Это уродливо. Пень можно вытащить, но он дает очень мало полезного материала. Оставленный на улице, пень со временем испортится.</SmashedStump_BioHarbinger.description>-->
-<YadaritPlant.label>Ядарит грибница</YadaritPlant.label>
-  <YadaritPlant.description>Ядарит грибница, наследие древних, что извлекает вредные вещества из земли и кристаллизует их.</YadaritPlant.description>
+  <!--<YadaritPlant.label>Ядарит грибница</YadaritPlant.label>-->
+  <!--<YadaritPlant.description>Ядарит грибница, наследие древних, что извлекает вредные вещества из земли и кристаллизует их.</YadaritPlant.description>-->
 
 </LanguageData>

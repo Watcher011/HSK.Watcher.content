@@ -325,8 +325,9 @@
       </li>
     </ingredients>
   </RecipeDef> -->
-<CoveredInFES.label> 내화성 폼으로 덮음</CoveredInFES.label>
- <CoveredInFES.description>방화 스프레이로 코팅되어 있습니다.</CoveredInFES.description>
+
+  <CoveredInFES.label> 내화성 폼으로 덮음</CoveredInFES.label>
+  <CoveredInFES.description>방화 스프레이로 코팅되어 있습니다.</CoveredInFES.description>
 
 
 </LanguageData>

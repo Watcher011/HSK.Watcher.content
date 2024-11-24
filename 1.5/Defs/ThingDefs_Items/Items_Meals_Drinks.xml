@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<ThingDef ParentName="MealBeverage">
+		<defName>CupDecaffeinatedCoffee</defName>
+		<label>Decaffeinated coffee</label>
+		<description>A cup of decaffeinated coffee.</description>
+		<graphicData>
+			<texPath>Things/Item/Coffee</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<stackLimit>10</stackLimit>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>8</MarketValue>
+			<Nutrition>0.08</Nutrition>
+		</statBases>
+		<thingCategories>
+			<li>Energetics</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<joy>0.17</joy>
+			<joyKind>Gluttonous</joyKind>
+			<nurseable>true</nurseable>
+			<drugCategory>Social</drugCategory>
+			<ingestSound>Ingest_Beer</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>Drink {0}</ingestCommandString>
+			<ingestReportString>Drinking {0}.</ingestReportString>
+			<tasteThought>Hotdrink</tasteThought>
+			<chairSearchRadius>25</chairSearchRadius>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_OffsetNeed">
+					<need>Rest</need>
+					<offset>0.13</offset>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+		<li Class="CompProperties_Drug">
+				<addictiveness>0</addictiveness>
+				<listOrder>1100</listOrder>
+			</li>
+		</comps>
+	</ThingDef>
+
+
+<ThingDef ParentName="MealBeverage">
+		<defName>CupStrongCoffee</defName>
+		<label>Cup of Strong Coffee</label>
+		<description>A cup of Strong Coffee.</description>
+		<graphicData>
+			<texPath>Things/Item/StrongCoffee</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<stackLimit>10</stackLimit>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>8</MarketValue>
+			<Nutrition>0.10</Nutrition>
+		</statBases>
+		<thingCategories>
+			<li>Energetics</li>
+			<li>Drugs</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<joy>0.20</joy>
+			<joyKind>Gluttonous</joyKind>
+			<nurseable>true</nurseable>
+			<drugCategory>Social</drugCategory>
+			<ingestSound>Ingest_Beer</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>Drink {0}</ingestCommandString>
+			<ingestReportString>Drinking {0}.</ingestReportString>
+			<tasteThought>Hotdrink</tasteThought>
+			<chairSearchRadius>25</chairSearchRadius>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Caffeine</hediffDef>
+					<severity>0.1</severity>
+					<toleranceChemical>Caffeine</toleranceChemical>
+				</li>
+				<li Class="IngestionOutcomeDoer_OffsetNeed">
+					<need>Rest</need>
+					<offset>0.2</offset>
+					<toleranceChemical>Caffeine</toleranceChemical>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>CaffeineTolerance</hediffDef>
+					<severity>0.03</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<chemical>Caffeine</chemical>
+				<addictiveness>0.010</addictiveness>
+				<minToleranceToAddict>0.25</minToleranceToAddict>
+				<existingAddictionSeverityOffset>0.05</existingAddictionSeverityOffset>
+				<needLevelOffset>0.5</needLevelOffset>
+				<listOrder>1100</listOrder>
+			</li>
+		</comps>
+	</ThingDef>
+</Defs>

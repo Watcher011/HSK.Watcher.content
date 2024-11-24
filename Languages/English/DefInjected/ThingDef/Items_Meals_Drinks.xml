@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CupDecaffeinatedCoffee.label>Decaffeinated coffee</CupDecaffeinatedCoffee.label>
+  <CupDecaffeinatedCoffee.description>A cup of decaffeinated coffee.</CupDecaffeinatedCoffee.description>
+  <CupDecaffeinatedCoffee.ingestible.ingestCommandString>Drink {0}</CupDecaffeinatedCoffee.ingestible.ingestCommandString>
+  <CupDecaffeinatedCoffee.ingestible.ingestReportString>Drinking {0}.</CupDecaffeinatedCoffee.ingestible.ingestReportString>
+
+  <CupStrongCoffee.label>Cup of Strong Coffee</CupStrongCoffee.label>
+  <CupStrongCoffee.description>A cup of Strong Coffee.</CupStrongCoffee.description>
+  <CupStrongCoffee.ingestible.ingestCommandString>Drink {0}</CupStrongCoffee.ingestible.ingestCommandString>
+  <CupStrongCoffee.ingestible.ingestReportString>Drinking {0}.</CupStrongCoffee.ingestible.ingestReportString>
+
+
+</LanguageData>

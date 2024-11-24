@@ -1,28 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<Watcher_Content_Settings.label>Watcher Content Settings</Watcher_Content_Settings.label>
-<Watcher_Content_Settings.settings.1.text>Difficulty</Watcher_Content_Settings.settings.1.text>
-<Watcher_Content_Settings.settings.2.label>Add alcohol to recipes?</Watcher_Content_Settings.settings.2.label>
-<Watcher_Content_Settings.settings.3.label>Add hematogen extraction from corpses?</Watcher_Content_Settings.settings.3.label>
-<Watcher_Content_Settings.settings.5.label>Add explosive door construction? (Mine door)</Watcher_Content_Settings.settings.5.label>
-<Watcher_Content_Settings.settings.6.label>Sort mines into boxes or just leave them lying around?</Watcher_Content_Settings.settings.6.label>
-<Watcher_Content_Settings.settings.8.label>Add soft walls?</Watcher_Content_Settings.settings.8.label>
-<Watcher_Content_Settings.settings.9.label>Add glowstone walls?</Watcher_Content_Settings.settings.9.label>
-<Watcher_Content_Settings.settings.10.label>Column with a girl and/or a cat (choice textures)</Watcher_Content_Settings.settings.10.label>
-<Watcher_Content_Settings.settings.12.label>Add positive effects to carpets?</Watcher_Content_Settings.settings.12.label>
-<Watcher_Content_Settings.settings.13.label>Add toxic package storage?</Watcher_Content_Settings.settings.13.label>
-<Watcher_Content_Settings.settings.15.label>Use alcohol in the healer's lamp?</Watcher_Content_Settings.settings.15.label>
-<Watcher_Content_Settings.settings.16.label>Disable the healer's lamp bug?</Watcher_Content_Settings.settings.16.label>
-<Watcher_Content_Settings.settings.18.label>Add Bombardier to Cocoons</Watcher_Content_Settings.settings.18.label>
-<Watcher_Content_Settings.settings.19.label>Add Bombardier to Raids</Watcher_Content_Settings.settings.19.label>
-<Watcher_Content_Settings.settings.20.label>Add Beetle Queen to Raids</Watcher_Content_Settings.settings.20.label>
-<Watcher_Content_Settings.settings.21.label>Add Ticks to Raids</Watcher_Content_Settings.settings.21.label>
-<Watcher_Content_Settings.settings.23.label>Adding organ transplants for androids?</Watcher_Content_Settings.settings.23.label>
-<Watcher_Content_Settings.settings.24.label>Adding Rimatomics RTG radiation?</Watcher_Content_Settings.settings.24.label>
-<Watcher_Content_Settings.settings.25.label>Adding variety to tea products?</Watcher_Content_Settings.settings.25.label>
-<Watcher_Content_Settings.settings.26.label>Adding honey tree? </Watcher_Content_Settings.settings.26.label>
-<Watcher_Content_Settings.settings.27.label>Add recipes for processing yadarite into metal or glowstone?</Watcher_Content_Settings.settings.27.label>
-<Watcher_Content_Settings.settings.28.label>Add nitrogen coolant?</Watcher_Content_Settings.settings.28.label>
-<Watcher_Content_Settings.settings.30.text>Test functions that can be removed from the build</Watcher_Content_Settings.settings.30.text>
-<Watcher_Content_Settings.settings.34.text>Requires all settings to apply restart</Watcher_Content_Settings.settings.34.text>
+
+  <Watcher_Content_Settings.label>Watcher Content Settings</Watcher_Content_Settings.label>
+  <Watcher_Content_Settings.settings.1.text>Difficulty</Watcher_Content_Settings.settings.1.text>
+  <Watcher_Content_Settings.settings.2.label>Add alcohol to recipes?</Watcher_Content_Settings.settings.2.label>
+  <Watcher_Content_Settings.settings.3.label>Add hematogen extraction from corpses?</Watcher_Content_Settings.settings.3.label>
+  <Watcher_Content_Settings.settings.5.label>Add explosive door construction? (Mine door)</Watcher_Content_Settings.settings.5.label>
+  <Watcher_Content_Settings.settings.6.label>Sort mines into boxes or just leave them lying around?</Watcher_Content_Settings.settings.6.label>
+  <Watcher_Content_Settings.settings.8.label>Add soft walls?</Watcher_Content_Settings.settings.8.label>
+  <Watcher_Content_Settings.settings.9.label>Add glowstone walls?</Watcher_Content_Settings.settings.9.label>
+  <Watcher_Content_Settings.settings.10.label>Column with a girl and/or a cat (choice textures)</Watcher_Content_Settings.settings.10.label>
+  <Watcher_Content_Settings.settings.12.label>Add positive effects to carpets?</Watcher_Content_Settings.settings.12.label>
+  <Watcher_Content_Settings.settings.13.label>Add toxic package storage?</Watcher_Content_Settings.settings.13.label>
+  <Watcher_Content_Settings.settings.15.label>Use alcohol in the healer's lamp?</Watcher_Content_Settings.settings.15.label>
+  <Watcher_Content_Settings.settings.16.label>Disable the healer's lamp bug?</Watcher_Content_Settings.settings.16.label>
+  <Watcher_Content_Settings.settings.18.label>Add Bombardier to Cocoons</Watcher_Content_Settings.settings.18.label>
+  <Watcher_Content_Settings.settings.19.label>Add Bombardier to Raids</Watcher_Content_Settings.settings.19.label>
+  <Watcher_Content_Settings.settings.20.label>Add Beetle Queen to Raids</Watcher_Content_Settings.settings.20.label>
+  <Watcher_Content_Settings.settings.21.label>Add Ticks to Raids</Watcher_Content_Settings.settings.21.label>
+  <Watcher_Content_Settings.settings.23.label>Adding organ transplants for androids?</Watcher_Content_Settings.settings.23.label>
+  <Watcher_Content_Settings.settings.24.label>Adding Rimatomics RTG radiation?</Watcher_Content_Settings.settings.24.label>
+  <Watcher_Content_Settings.settings.25.label>Adding variety to tea products?</Watcher_Content_Settings.settings.25.label>
+  <Watcher_Content_Settings.settings.26.label>Adding honey tree? </Watcher_Content_Settings.settings.26.label>
+  <Watcher_Content_Settings.settings.27.label>Add recipes for processing yadarite into metal or glowstone?</Watcher_Content_Settings.settings.27.label>
+  <Watcher_Content_Settings.settings.28.label>Add nitrogen coolant?</Watcher_Content_Settings.settings.28.label>
+  <Watcher_Content_Settings.settings.30.text>Test functions that can be removed from the build</Watcher_Content_Settings.settings.30.text>
+  <Watcher_Content_Settings.settings.34.text>Requires all settings to apply restart</Watcher_Content_Settings.settings.34.text>
+
+
 </LanguageData>
