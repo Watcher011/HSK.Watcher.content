@@ -1033,13 +1033,14 @@
 		<designationCategory>Production</designationCategory>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<researchPrerequisites>
-			<li>Food_C1</li>
+			<li>Food_B2</li>
 		</researchPrerequisites>
 		<!-- ThingDef_UF fields -->
 		<showProductIcon>false</showProductIcon>
 		<barOffset>(0.0, -0.68)</barOffset>
 		<barScale>(1.1, 1.1)</barScale>
 		<slotsCount>3</slotsCount>
+		
 	</ThingDef>
 	
 <ThingDef  ParentName="SK_LampBase">

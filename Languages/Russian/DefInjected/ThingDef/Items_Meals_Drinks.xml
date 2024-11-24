@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <CupDecaffeinatedCoffee.label>Decaffeinated coffee</CupDecaffeinatedCoffee.label>
-  <CupDecaffeinatedCoffee.description>A cup of decaffeinated coffee.</CupDecaffeinatedCoffee.description>
-  <CupDecaffeinatedCoffee.ingestible.ingestCommandString>Drink {0}</CupDecaffeinatedCoffee.ingestible.ingestCommandString>
-  <CupDecaffeinatedCoffee.ingestible.ingestReportString>Drinking {0}.</CupDecaffeinatedCoffee.ingestible.ingestReportString>
+ <CupDecaffeinatedCoffee.label>Кофе без кофеина</CupDecaffeinatedCoffee.label>
+<CupDecaffeinatedCoffee.description>Чашка кофе без кофеина.Кофе без кофеина или Декаф (Декафинат) производится из обычных кофейных зёрен, из которых различными методами извлекается до 99,5% кофеина. Питательная ценность Декафеина точно такая же, как и у обычного кофе. Вся разница в содержании количества кофеина.</CupDecaffeinatedCoffee.description>
+<CupDecaffeinatedCoffee.ingestible.ingestCommandString>Выпить {0}</CupDecaffeinatedCoffee.ingestible.ingestCommandString>
+<CupDecaffeinatedCoffee.ingestible.ingestReportString>Пью {0}.</CupDecaffeinatedCoffee.ingestible.ingestReportString>
 
-  <CupStrongCoffee.label>Cup of Strong Coffee</CupStrongCoffee.label>
-  <CupStrongCoffee.description>A cup of Strong Coffee.</CupStrongCoffee.description>
-  <CupStrongCoffee.ingestible.ingestCommandString>Drink {0}</CupStrongCoffee.ingestible.ingestCommandString>
-  <CupStrongCoffee.ingestible.ingestReportString>Drinking {0}.</CupStrongCoffee.ingestible.ingestReportString>
+<CupStrongCoffee.label>Чашка крепкого кофе</CupStrongCoffee.label>
+<CupStrongCoffee.description>Чашка крепкого Кофе.</CupStrongCoffee.description>
+<CupStrongCoffee.ingestible.ingestCommandString>Выпить {0}</CupStrongCoffee.ingestible.ingestCommandString>
+<CupStrongCoffee.ingestible.ingestReportString>Пью {0}.</CupStrongCoffee.ingestible.ingestReportString>
 
 
 </LanguageData>

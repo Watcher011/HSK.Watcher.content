@@ -48,9 +48,16 @@
 					<li>chevalDeFrise</li>
                 </value>
             </li>
+			<li Class="PatchOperationAdd">
+                <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_CookingStuff"]/defNames</xpath>
+                <value>
+                    <li>CoffeeBasin</li>
+                </value>
+            </li>
         </operations>
     </Operation>
-    
+   
+
     
     <Operation Class="PatchOperationAdd">
         <xpath>Defs</xpath>

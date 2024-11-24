@@ -206,7 +206,7 @@
 	
 	<RecipeDef ParentName="Make_CoffeeBase" Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>Make_CupDecaffeinatedCoffee</defName>
-		<label>Кофе без Кофеина</label>
+		<label>Кофе без Кофеина х2</label>
 		<description>Кофе без Кофеина</description>
 		<ingredients>
 			<li>
