@@ -37,9 +37,7 @@
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>0.<damageAmountBase>18</damageAmountBase>
-			<armorPenetrationSharp>3</armorPenetrationSharp>
-			<armorPenetrationBlunt>34.18</armorPenetrationBlunt>9</MarketValue>
+			<MarketValue>0.9</MarketValue> 
 		</statBases>
 		<ammoClass>Crio</ammoClass>
 		<cookOffProjectile>Bullet_556x45mmNATO_Crio</cookOffProjectile>

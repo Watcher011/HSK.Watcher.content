@@ -115,6 +115,7 @@
 				<recoilPattern>Mounted</recoilPattern>
 				<consumeFuelPerShot>0.01</consumeFuelPerShot>
 			</li>
+		
 		</verbs>
 		<comps>
 			<li Class="CombatExtended.CompProperties_AmmoUser">

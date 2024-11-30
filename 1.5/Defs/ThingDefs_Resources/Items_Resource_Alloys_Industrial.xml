@@ -45,7 +45,7 @@
 			</categories>
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(125,50,83)</color>
-			<commonality>1.9</commonality>			
+			<commonality>0.01</commonality>			
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 			<statOffsets>
