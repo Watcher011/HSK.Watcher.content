@@ -340,6 +340,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(0.5)</drawSize>
 		</graphicData>
+		<stackLimit>30</stackLimit>
 		<ingestible>
 			<foodType>Fluid, Processed, Liquor</foodType>
 			<joyKind>Chemical</joyKind>

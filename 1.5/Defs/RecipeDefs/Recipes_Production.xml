@@ -38,7 +38,7 @@
 		   <li>Ethanol</li>
           </disallowedThingDefs>
         </filter>
-        <count>4</count>
+        <count>0.1</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -71,7 +71,7 @@
       </categories>
     </defaultIngredientFilter>
     <products>
-      <Ethanol>5</Ethanol>
+      <Ethanol>1</Ethanol>
     </products>
 	 <recipeUsers>
       <li>meditable</li>
