@@ -67,8 +67,8 @@
 <Make_90Carcoal.label>сделать древестный уголь x90</Make_90Carcoal.label>
 <Make_90Carcoal.description>Сделать древестный уголь. Изготовление занимает 6 дней</Make_90Carcoal.description>
 
-<Make_100Ash.label>сделать золу x100</Make_100Ash.label>
-<Make_100Ash.description>Сделать золу. Изготовление занимает 6 дней</Make_100Ash.description>
+<Make_100Ash.label>сделать пепел x100</Make_100Ash.label>
+<Make_100Ash.description>Сделать пепел. Изготовление занимает 6 дней</Make_100Ash.description>
 
 
   <!-- <RecipeDef ParentName="Make_DriedTeaBase" Class="UniversalFermenterSK.RecipeDef_UF">
