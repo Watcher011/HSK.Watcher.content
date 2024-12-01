@@ -75,5 +75,63 @@
 		</researchPrerequisites>
 		
 	</ThingDef>
+    <ThingDef ParentName="UniversalFermenterBase" Class="UniversalFermenterSK.ThingDef_UF">
+		<defName>CharcoalPit</defName>
+		<label>Charcoal Pit</label>
+		<graphicData>
+			<texPath>Things/Building/CharcoalPit/Charcoal_pit</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<shadowData>
+				<volume>(0, 0, 0)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/CharcoalPit/Charcoal_UI</uiIconPath>
+		<costList>
+			<WoodLog>25</WoodLog>
+		</costList>
+		<fillPercent>0.01</fillPercent>
+		<pathCost>60</pathCost>
+		<statBases>
+			<WorkToBuild>8200</WorkToBuild>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Flammability>0.0</Flammability>
+			<Beauty>-50</Beauty>
+			<Cleanliness>-100</Cleanliness>
+		</statBases>
+		<description>Saltpeter pit.</description>
+		<size>(3,3)</size>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>21</heatPerSecond>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
+      </li>
+	   <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(252,187,113,0)</glowColor>
+      </li>
+		</comps>
+		<tickerType>Rare</tickerType>
+		<rotatable>true</rotatable>
+		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+		<designationCategory>Production</designationCategory>
+		<researchPrerequisites>
+			<li>RecurveBow</li>
+		</researchPrerequisites>
 
+		<!-- ThingDef_UF fields -->
+		<showProductIcon>true</showProductIcon>
+		<barOffset>(0.0, 0.25)</barOffset>
+		<barScale>(1.0, 1.0)</barScale>
+		<slotsCount>10</slotsCount>
+	</ThingDef>
 </Defs>

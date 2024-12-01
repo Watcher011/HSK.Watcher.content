@@ -1,15 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <CupDecaffeinatedCoffee.label>Decaffeinated coffee</CupDecaffeinatedCoffee.label>
-  <CupDecaffeinatedCoffee.description>A cup of decaffeinated coffee.</CupDecaffeinatedCoffee.description>
-  <CupDecaffeinatedCoffee.ingestible.ingestCommandString>Drink {0}</CupDecaffeinatedCoffee.ingestible.ingestCommandString>
-  <CupDecaffeinatedCoffee.ingestible.ingestReportString>Drinking {0}.</CupDecaffeinatedCoffee.ingestible.ingestReportString>
+<CupDecaffeinatedCoffee.label>디카페인 커피</CupDecaffeinatedCoffee.label>
+ <CupDecaffeinatedCoffee.description>디카페인 커피 한 잔</CupDecaffeinatedCoffee.description>
+ <CupDecaffeinatedCoffee.ingestible.ingestCommandString>{0} 음료</CupDecaffeinatedCoffee.ingestible.ingestCommandString>
+ <CupDecaffeinatedCoffee.ingestible.ingestReportString>{0}을(를) 마시고 있습니다.</CupDecaffeinatedCoffee.ingestible.ingestReportString>
 
-  <CupStrongCoffee.label>Cup of Strong Coffee</CupStrongCoffee.label>
-  <CupStrongCoffee.description>A cup of Strong Coffee.</CupStrongCoffee.description>
-  <CupStrongCoffee.ingestible.ingestCommandString>Drink {0}</CupStrongCoffee.ingestible.ingestCommandString>
-  <CupStrongCoffee.ingestible.ingestReportString>Drinking {0}.</CupStrongCoffee.ingestible.ingestReportString>
-
-
+ <CupStrongCoffee.label>진한 커피 한잔</CupStrongCoffee.label>
+ <CupStrongCoffee.description>진한 커피 한잔.</CupStrongCoffee.description>
+ <CupStrongCoffee.ingestible.ingestCommandString>{0} 음료</CupStrongCoffee.ingestible.ingestCommandString>
+ <CupStrongCoffee.ingestible.ingestReportString>{0}을(를) 마시고 있습니다.</CupStrongCoffee.ingestible.ingestReportString>
 </LanguageData>

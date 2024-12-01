@@ -6,5 +6,8 @@
   <industrialDryingRack.label>industrial drying rack</industrialDryingRack.label>
   <industrialDryingRack.description>The dryer (industrial) is designed for drying berries, meat, mushrooms, fish..</industrialDryingRack.description>
 
+  <CharcoalPit.label>Charcoal Pit</CharcoalPit.label>
+  <CharcoalPit.description>Charcoal Pit.</CharcoalPit.description>
+
 
 </LanguageData>

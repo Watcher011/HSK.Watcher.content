@@ -3,7 +3,8 @@
 
   <!-- Concepts taught through the learning readout, with no opportunity needed -->
 
-<Watcher_Content_Settings.label>Watcher Content Settings</Watcher_Content_Settings.label>
-<Watcher_Content_Settings.helpText>Attention! Some content is initially disabled. Sometimes the content is unbalanced. To activate all content -> Menu -> Settings -> Mod settings (+) -> Watcher content settings. (To activate the changes, you need to restart the game)</Watcher_Content_Settings.helpText>
+  <Watcher_Content_Settings.label>Watcher Content Settings</Watcher_Content_Settings.label>
+  <Watcher_Content_Settings.helpText>Attention! Some content is initially disabled. Sometimes the content is unbalanced. To activate all content -&gt; Menu -&gt; Settings -&gt; Mod settings (+) -&gt; Watcher content settings. (To activate the changes, you need to restart the game)</Watcher_Content_Settings.helpText>
+
 
 </LanguageData>

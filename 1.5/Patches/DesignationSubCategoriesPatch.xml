@@ -54,6 +54,12 @@
                     <li>CoffeeBasin</li>
                 </value>
             </li>
+			<li Class="PatchOperationAdd">
+                <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Conversion"]/defNames</xpath>
+                <value>
+                    <li>CharcoalPit</li>
+                </value>
+            </li>
         </operations>
     </Operation>
    

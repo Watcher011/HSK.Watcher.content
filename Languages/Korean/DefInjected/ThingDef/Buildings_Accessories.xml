@@ -129,8 +129,8 @@
 		
 	</ThingDef> -->
 
- <CoffeeBasin.label>커피 머신</CoffeeBasin.label>
- <CoffeeBasin.description>커피 머신 또는 커피 머신은 커피 및 기타 뜨거운 음료를 판매하는 기계입니다. 사무실 센터, 교통 허브, 다양한 기관, 상점 및 진료소에 설치되는 경우가 많습니다. 이러한 기계는 일반적으로 인스턴트 농축액으로 여러 종류의 커피를 준비할 수 있습니다. 제품은 일회용 플라스틱 또는 종이컵에 분배됩니다. 준비된 커피의 종류에 따라 머신은 인스턴트 커피 머신과 원두 커피 머신의 두 가지 유형으로 구분됩니다.</CoffeeBasin.description>
+  <CoffeeBasin.label>커피 머신</CoffeeBasin.label>
+  <CoffeeBasin.description>커피 머신 또는 커피 머신은 커피 및 기타 뜨거운 음료를 판매하는 기계입니다. 사무실 센터, 교통 허브, 다양한 기관, 상점 및 진료소에 설치되는 경우가 많습니다. 이러한 기계는 일반적으로 인스턴트 농축액으로 여러 종류의 커피를 준비할 수 있습니다. 제품은 일회용 플라스틱 또는 종이컵에 분배됩니다. 준비된 커피의 종류에 따라 머신은 인스턴트 커피 머신과 원두 커피 머신의 두 가지 유형으로 구분됩니다.</CoffeeBasin.description>
 
   <YadaritLamp2A.label>크리스탈 램프</YadaritLamp2A.label>
   <YadaritLamp2A.description>조각된 껍질에 빛나는 크리스탈.</YadaritLamp2A.description>

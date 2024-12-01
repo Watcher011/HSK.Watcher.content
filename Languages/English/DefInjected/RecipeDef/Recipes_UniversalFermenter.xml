@@ -61,6 +61,15 @@
   <Make_CoffeeBeans_x5.label>process coffee beans x5</Make_CoffeeBeans_x5.label>
   <Make_CoffeeBeans_x5.description>process coffee beans x5 from berries. Pulp, ferment and dry. Takes 5 days to make</Make_CoffeeBeans_x5.description>
 
+  <Make_20Charcoal.label>make Charcoal x20</Make_20Charcoal.label>
+  <Make_20Charcoal.description>Make Charcoal. Takes 3 days to make</Make_20Charcoal.description>
+
+  <Make_90Carcoal.label>make Charcoal x90</Make_90Carcoal.label>
+  <Make_90Carcoal.description>Make Charcoal. Takes 6 days to make</Make_90Carcoal.description>
+
+  <Make_100Ash.label>make Ash x100</Make_100Ash.label>
+  <Make_100Ash.description>Make Ash. Takes 6 days to make</Make_100Ash.description>
+
 
   <!-- <RecipeDef ParentName="Make_DriedTeaBase" Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>Make_Puer</defName>
@@ -184,11 +193,11 @@
 		<slotsRequired>5</slotsRequired>
 	</RecipeDef> -->
 
- <Make_CupDecaffeinatedCoffee.label>Decaffeinated Coffee</Make_CupDecaffeinatedCoffee.label>
-<Make_CupDecaffeinatedCoffee.description>Decaffeinated Coffee</Make_CupDecaffeinatedCoffee.description>
+  <Make_CupDecaffeinatedCoffee.label>Decaffeinated Coffee</Make_CupDecaffeinatedCoffee.label>
+  <Make_CupDecaffeinatedCoffee.description>Decaffeinated Coffee</Make_CupDecaffeinatedCoffee.description>
 
-<Make_CupStrongCoffee.label>Double Coffee</Make_CupStrongCoffee.label>
-<Make_CupStrongCoffee.description>Strong Coffee</Make_CupStrongCoffee.description>
+  <Make_CupStrongCoffee.label>Double Coffee</Make_CupStrongCoffee.label>
+  <Make_CupStrongCoffee.description>Strong Coffee</Make_CupStrongCoffee.description>
 
 
 </LanguageData>

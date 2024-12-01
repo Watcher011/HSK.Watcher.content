@@ -129,8 +129,8 @@
 		
 	</ThingDef> -->
 
- <CoffeeBasin.label>Coffee machine</CoffeeBasin.label>
-<CoffeeBasin.description>A coffee machine or coffeemat is a machine for selling coffee and other hot drinks. They are often installed in office centers, transport hubs, various institutions, stores and clinics. Such a machine can usually make several types of coffee from instant concentrates. The product is dispensed into disposable plastic or paper cups. According to the types of coffee prepared, machines are divided into two types: a machine with instant coffee and a machine with grain coffee</CoffeeBasin.description>
+  <CoffeeBasin.label>Coffee machine</CoffeeBasin.label>
+  <CoffeeBasin.description>A coffee machine or coffeemat is a machine for selling coffee and other hot drinks. They are often installed in office centers, transport hubs, various institutions, stores and clinics. Such a machine can usually make several types of coffee from instant concentrates. The product is dispensed into disposable plastic or paper cups. According to the types of coffee prepared, machines are divided into two types: a machine with instant coffee and a machine with grain coffee</CoffeeBasin.description>
 
   <YadaritLamp2A.label>Crystal Lamp</YadaritLamp2A.label>
   <YadaritLamp2A.description>Glowing crystal in a black shell.</YadaritLamp2A.description>
