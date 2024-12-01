@@ -890,13 +890,18 @@
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>WoodLog</li>
-					</thingDefs>
+					<categories>
+						<li>Wooden</li>
+					</categories>
 				</filter>
 				<count>25</count>
 			</li>
 		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Wooden</li>
+			</categories>
+		</fixedIngredientFilter>
 		<products>
 			<Charcoal>20</Charcoal>
 			<Ash>5</Ash>
@@ -915,13 +920,18 @@
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>WoodLog</li>
-					</thingDefs>
+					<categories>
+						<li>Wooden</li>
+					</categories>
 				</filter>
 				<count>100</count>
 			</li>
 		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Wooden</li>
+			</categories>
+		</fixedIngredientFilter>
 		<products>
 			<Charcoal>90</Charcoal>
 			<Ash>10</Ash>
@@ -940,13 +950,18 @@
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>WoodLog</li>
-					</thingDefs>
+					<categories>
+						<li>Wooden</li>
+					</categories>
 				</filter>
 				<count>10</count>
 			</li>
 		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Wooden</li>
+			</categories>
+		</fixedIngredientFilter>
 		<products>
 			<Charcoal>1</Charcoal>
 			<Ash>100</Ash>
@@ -956,5 +971,6 @@
 		<speedAboveSafe>0.8</speedAboveSafe>
 		<graphicSuffix>_closed</graphicSuffix>
 	</RecipeDef>
+	
 	
 </Defs>
