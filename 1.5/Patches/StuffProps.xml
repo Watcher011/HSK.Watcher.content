@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Survival Tools Lite</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+		<operations>
+	
+			<li Class="PatchOperationAddModExtension">
+				<xpath>Defs/ThingDef[defName="YadaritBar"]</xpath>
+				<value>
+					<li Class="SurvivalToolsLite.StuffPropsTool">
+						<toolStatFactors>
+							<TreeFellingSpeed>0.4</TreeFellingSpeed>
+							<PlantHarvestingSpeed>0.6</PlantHarvestingSpeed>
+							<PlantWorkSpeed>0.55</PlantWorkSpeed>
+							<MiningSpeed>0.5</MiningSpeed>
+							<MiningYieldDigging>0.7</MiningYieldDigging>
+							<ConstructionSpeed>0.6</ConstructionSpeed>
+						</toolStatFactors>
+						<wearFactorMultiplier>1.3</wearFactorMultiplier>
+					</li>
+				</value>
+			</li>
+	
+			<li Class="PatchOperationAddModExtension">
+				<xpath>Defs/ThingDef[defName="Amber"]</xpath>
+				<value>
+					<li Class="SurvivalToolsLite.StuffPropsTool">
+						<toolStatFactors>
+							<TreeFellingSpeed>0.7</TreeFellingSpeed>
+							<PlantHarvestingSpeed>0.75</PlantHarvestingSpeed>
+							<PlantWorkSpeed>0.75</PlantWorkSpeed>
+							<MiningSpeed>0.6</MiningSpeed>
+							<MiningYieldDigging>0.65</MiningYieldDigging>
+							<ConstructionSpeed>0.6</ConstructionSpeed>
+						</toolStatFactors>
+						<wearFactorMultiplier>1.5</wearFactorMultiplier>
+					</li>
+				</value>
+			</li>
+		
+	
+		</operations>
+    </match>
+  </Operation>
+
+</Patch>
