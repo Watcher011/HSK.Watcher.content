@@ -4,10 +4,12 @@
   <!-- Ammo -->
 
   <Ammo_556x45mmNATO_Crio.label>5.56x45mm NATO (CR-I)</Ammo_556x45mmNATO_Crio.label>
+  <Ammo_556x45mmNATO_Deadlife.label>5.56x45mm NATO (Deadlife)</Ammo_556x45mmNATO_Deadlife.label>
 
 
   <!-- Projectiles -->
 
+  <Bullet_556x45mmNATO_Deadlife.label>5.56mm NATO bullet (Deadlife)</Bullet_556x45mmNATO_Deadlife.label>
   <Bullet_556x45mmNATO_Crio.label>5.56mm NATO bullet (CR-I)</Bullet_556x45mmNATO_Crio.label>
 
 

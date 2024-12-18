@@ -213,8 +213,8 @@
 	</RecipeDef> -->
 
   <MakePopcorn.label>팝콘 4개 만들기</MakePopcorn.label>
- <MakePopcorn.description>팝콘 4인분을 만드세요.</MakePopcorn.description>
- <MakePopcorn.jobString>팝콘 만들기</MakePopcorn.jobString>
+  <MakePopcorn.description>팝콘 4인분을 만드세요.</MakePopcorn.description>
+  <MakePopcorn.jobString>팝콘 만들기</MakePopcorn.jobString>
 
 
 </LanguageData>

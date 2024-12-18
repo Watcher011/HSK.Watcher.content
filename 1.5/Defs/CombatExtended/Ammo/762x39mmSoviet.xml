@@ -13,6 +13,7 @@
 			<Ammo_762x39mmSoviet_HE>Bullet_762x39mmSoviet_HE</Ammo_762x39mmSoviet_HE>
 			<Ammo_762x39mmSoviet_Sabot>Bullet_762x39mmSoviet_Sabot</Ammo_762x39mmSoviet_Sabot>
 			<Ammo_762x39mmSoviet_Crio>Bullet_762x39mmSoviet_Crio</Ammo_762x39mmSoviet_Crio>
+			<Ammo_762x39mmSoviet_Deadlife>Bullet_762x39mmSoviet_Deadlife</Ammo_762x39mmSoviet_Deadlife>
 		</ammoTypes>
 		<similarTo>AmmoSet_RifleIntermediate</similarTo>
 	</CombatExtended.AmmoSetDef>
@@ -35,6 +36,20 @@
 		<ammoClass>Crio</ammoClass>
 		<cookOffProjectile>Bullet_762x39mmSoviet_Crio</cookOffProjectile>
 	</ThingDef>
+	
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="762x39mmSovietBase">
+		<defName>Ammo_762x39mmSoviet_Deadlife</defName>
+		<label>7.62x39mm Soviet (Deadlife)</label>
+		<graphicData>
+			<texPath>Things/Ammo/Rifle/DeadlifeH</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.98</MarketValue>
+		</statBases>
+		<ammoClass>Deadlife</ammoClass>
+		<cookOffProjectile>Bullet_762x39mmSoviet_Deadlife</cookOffProjectile>
+	</ThingDef>
 
 	<!-- ================== Projectiles ================== -->
 
@@ -55,13 +70,30 @@
 	</ThingDef>
 
 
-	
+	<ThingDef ParentName="Base762x39mmSovietBullet">
+		<defName>Bullet_762x39mmSoviet_Deadlife</defName>
+		<label>7.62mm Soviet bullet (Deadlife)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>10</damageAmountBase>
+			<armorPenetrationSharp>3</armorPenetrationSharp>
+			<armorPenetrationBlunt>41.08</armorPenetrationBlunt>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_ExplosiveCE">
+				<damageAmountBase>1</damageAmountBase>
+				<explosiveDamageType>DeadlifeDust</explosiveDamageType>
+			    <postExplosionGasType>DeadlifeDust</postExplosionGasType>
+				<explosiveRadius>0.1</explosiveRadius>
+				<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			</li>
+		</comps>
+	</ThingDef>
 	<!-- ==================== Recipes ========================== -->
 
 
 	<RecipeDef ParentName="AdvancedAmmoRecipeBase">
 		<defName>MakeAmmo_762x39mmSoviet_Crio</defName>
-		<label>Сделать 7.62x39mm Soviet (CR-I) картридж x500</label>
+		<label>Сделать 7.62x39mm Soviet (CR-I) картридж x80</label>
 		<description>Создать 80 7.62x39mm Soviet (CR-I) картридж.</description>
 		<jobString>Создаёт 7.62x39mm Soviet (CR-I) картридж.</jobString>
 		<researchPrerequisite>Range_C2</researchPrerequisite>
@@ -121,5 +153,65 @@
 		<workAmount>2600</workAmount>
 	</RecipeDef>
 
-
+    <RecipeDef ParentName="AdvancedAmmoRecipeBase">
+		<defName>MakeAmmo_762x39mmSoviet_Deadlife</defName>
+		<label>Сделать 7.62x39mm Soviet (Deadlife) картридж x80</label>
+		<description>Создать 80 7.62x39mm Soviet (Deadlife) картридж.</description>
+		<jobString>Создаёт 7.62x39mm Soviet (Deadlife) картридж.</jobString>
+		<researchPrerequisite>Machining</researchPrerequisite>
+		<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+			<workSkillLearnFactor>0.8</workSkillLearnFactor>
+			<ingredients>
+				<li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+							<li>USLDBar</li>
+						</categories>
+					</filter>
+					<count>14</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>HeavyBar</li>
+						</categories>
+					</filter>
+					<count>4</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Shard</li>
+						</thingDefs>
+					</filter>
+					<count>1</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+			</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Powder</li>
+				<li>Shard</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_762x39mmSoviet_Deadlife>80</Ammo_762x39mmSoviet_Deadlife>
+		</products>
+		<workAmount>2600</workAmount>
+	</RecipeDef>
 </Defs>

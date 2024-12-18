@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>BatteryHim</defName>
+    <label>Wastepack battery</label>
+    <description>Stores electricity for later use. Charged Wastepack batteries not explode when exposed to rain.</description>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <thingClass>SK.Building_Battery</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Bat/W_Battery_Round</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,3)</drawSize>
+	  <shadowData>
+	      <volume>(0.8, 0.4, 1.8)</volume>
+		  <offset>(0,0,0)</offset>
+	  </shadowData>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.40</fillPercent>
+    <tickerType>Normal</tickerType>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsPower</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>800</WorkToBuild>
+      <Mass>20</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>-15</Beauty>
+    </statBases>
+    <size>(1,2)</size>
+   <building>
+	<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+	<uninstallWork>450</uninstallWork>
+	</building>
+    <costList>
+	  <Ceramics>30</Ceramics>
+      <Wastepack>70</Wastepack>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>1800</storedEnergyMax>
+        <efficiency>0.98</efficiency>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+	   <li Class="CompProperties_Explosive">
+        <explosiveRadius>4.9</explosiveRadius>
+        <explosiveDamageType>ToxGas</explosiveDamageType>
+        <startWickHitPointsPercent>0.2</startWickHitPointsPercent>
+        <postExplosionGasType>ToxGas</postExplosionGasType>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Stunnable">
+        <useLargeEMPEffecter>true</useLargeEMPEffecter>
+        <affectedDamageDefs>
+          <li>EMP</li>
+        </affectedDamageDefs>
+      </li>
+    </comps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <uiOrder>2020</uiOrder>
+    <staticSunShadowHeight>0.2</staticSunShadowHeight>
+    <constructEffect>ConstructMetal</constructEffect>
+    <designationHotKey>Misc2</designationHotKey>
+    <canOverlapZones>false</canOverlapZones>
+    <researchPrerequisites>
+      <li>Batteries</li>
+    </researchPrerequisites>
+	<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+  </ThingDef>
+
+</Defs>

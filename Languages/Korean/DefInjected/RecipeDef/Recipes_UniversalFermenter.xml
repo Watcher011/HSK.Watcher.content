@@ -61,14 +61,14 @@
   <Make_CoffeeBeans_x5.label>커피콩을 5개 가공</Make_CoffeeBeans_x5.label>
   <Make_CoffeeBeans_x5.description>베리에서 커피콩을 5개 가공합니다. 펄프, 발효 및 건조. 만드는 데 5일이 걸립니다.</Make_CoffeeBeans_x5.description>
 
- <Make_20Charcoal.label>숯 20개 만들기</Make_20Charcoal.label>
- <Make_20Charcoal.description>숯을 만드세요. 만드는 데 3일이 걸립니다</Make_20Charcoal.description>
+  <Make_20Charcoal.label>숯 20개 만들기</Make_20Charcoal.label>
+  <Make_20Charcoal.description>숯을 만드세요. 만드는 데 3일이 걸립니다</Make_20Charcoal.description>
 
- <Make_90Carcoal.label>숯 x90 만들기</Make_90Carcoal.label>
- <Make_90Carcoal.description>숯을 만드세요. 만드는 데 6일이 걸립니다</Make_90Carcoal.description>
+  <Make_90Carcoal.label>숯 x90 만들기</Make_90Carcoal.label>
+  <Make_90Carcoal.description>숯을 만드세요. 만드는 데 6일이 걸립니다</Make_90Carcoal.description>
 
- <Make_100Ash.label>애쉬를 100개 만들기</Make_100Ash.label>
- <Make_100Ash.description>애쉬를 만드세요. 만드는데 6일이 걸립니다</Make_100Ash.description>
+  <Make_100Ash.label>애쉬를 100개 만들기</Make_100Ash.label>
+  <Make_100Ash.description>애쉬를 만드세요. 만드는데 6일이 걸립니다</Make_100Ash.description>
 
 
   <!-- <RecipeDef ParentName="Make_DriedTeaBase" Class="UniversalFermenterSK.RecipeDef_UF">

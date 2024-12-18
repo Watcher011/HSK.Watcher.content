@@ -7,5 +7,9 @@
   <MakeAmmo_762x39mmSoviet_Crio.description>Создать 80 7.62x39mm Soviet (CR-I) картридж.</MakeAmmo_762x39mmSoviet_Crio.description>
   <MakeAmmo_762x39mmSoviet_Crio.jobString>Создаёт 7.62x39mm Soviet (CR-I) картридж.</MakeAmmo_762x39mmSoviet_Crio.jobString>
 
+  <MakeAmmo_762x39mmSoviet_Deadlife.label>Сделать 7.62x39mm Soviet (Мертвая жизнь) картридж x80</MakeAmmo_762x39mmSoviet_Deadlife.label>
+  <MakeAmmo_762x39mmSoviet_Deadlife.description>Создать 80 7.62x39mm Soviet (Мертвая жизнь) картридж.</MakeAmmo_762x39mmSoviet_Deadlife.description>
+  <MakeAmmo_762x39mmSoviet_Deadlife.jobString>Создаёт 7.62x39mm Soviet (Мертвая жизнь) картридж.</MakeAmmo_762x39mmSoviet_Deadlife.jobString>
+
 
 </LanguageData>

@@ -7,5 +7,9 @@
   <MakeAmmo_556x45mmNATO_Crio.description>Make 80 5.56x45mm NATO (CR-I) Cartridge.</MakeAmmo_556x45mmNATO_Crio.description>
   <MakeAmmo_556x45mmNATO_Crio.jobString>Make 5.56x45mm NATO (CR-I) Cartridge.</MakeAmmo_556x45mmNATO_Crio.jobString>
 
+  <MakeAmmo_556x45mmNATO_Deadlife.label>make 5.56x45mm NATO (Deadlife) cartridge x80</MakeAmmo_556x45mmNATO_Deadlife.label>
+  <MakeAmmo_556x45mmNATO_Deadlife.description>Craft 80 5.56x45mm NATO (Deadlife) cartridges.</MakeAmmo_556x45mmNATO_Deadlife.description>
+  <MakeAmmo_556x45mmNATO_Deadlife.jobString>Making 5.56x45mm NATO (Deadlife) cartridges.</MakeAmmo_556x45mmNATO_Deadlife.jobString>
+
 
 </LanguageData>

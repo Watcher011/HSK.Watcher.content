@@ -44,6 +44,10 @@
      <li>Storage_B2</li>
     </researchPrerequisites>
     <comps>
+	<li Class="SK.CompProperties_RotModified">
+				<compClass>SK.CompRotModified</compClass>
+				<rotmodifier>1</rotmodifier>
+			</li>
 		<li Class='LWM.DeepStorage.Properties'>
 				<minNumberStacks>2</minNumberStacks>
 				<maxNumberStacks>4</maxNumberStacks>

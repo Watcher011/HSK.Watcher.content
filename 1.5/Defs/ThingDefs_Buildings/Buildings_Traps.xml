@@ -92,4 +92,39 @@
 			<ai_chillDestination>false</ai_chillDestination>
 		</building>
 	</ThingDef>
+	
+	
+	
+	 <ThingDef ParentName="TrapIEDBase">
+    <defName>TrapIED_Flare</defName>
+    <label>Flare trap</label>
+    <description>The Flare Trap is an item which is crafted from Scrap Metal, a Flare   components and can be placed on the property of a base. This trap has a 1 m tripwire.</description>
+    <graphicData>
+      <texPath>Things/Building/IEDDisruptorFlare</texPath>
+    </graphicData>
+    <costList>
+      <Ammo_Flare>1</Ammo_Flare>
+	  <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <designationHotKey>Misc7</designationHotKey>
+    <comps>
+       <li Class="CompProperties_Explosive">
+        <explosiveRadius>0.1</explosiveRadius>
+        <explosiveDamageType>Smoke</explosiveDamageType>
+        <startWickHitPointsPercent>0.2</startWickHitPointsPercent>
+		 <postExplosionSpawnThingDef>DisruptorFlare</postExplosionSpawnThingDef>
+        <postExplosionSpawnChance>1</postExplosionSpawnChance>
+        <postExplosionSpawnThingCount>3</postExplosionSpawnThingCount>
+        <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+        <explosionEffect>ExtinguisherExplosion</explosionEffect>
+        <wickTicks>15</wickTicks>
+        <startWickOnDamageTaken>
+          <li>Bullet</li>
+          <li>Arrow</li>
+          <li>ArrowHighVelocity</li>
+        </startWickOnDamageTaken>
+      </li>
+    </comps>
+    <specialDisplayRadius>3.9</specialDisplayRadius>
+  </ThingDef>
 </Defs>

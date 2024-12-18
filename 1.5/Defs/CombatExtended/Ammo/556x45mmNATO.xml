@@ -21,6 +21,7 @@
 			<Ammo_556x45mmNATO_HE>Bullet_556x45mmNATO_HE</Ammo_556x45mmNATO_HE>
 			<Ammo_556x45mmNATO_Sabot>Bullet_556x45mmNATO_Sabot</Ammo_556x45mmNATO_Sabot>
 			<Ammo_556x45mmNATO_Crio>Bullet_556x45mmNATO_Crio</Ammo_556x45mmNATO_Crio>
+			<Ammo_556x45mmNATO_Deadlife>Bullet_556x45mmNATO_Deadlife</Ammo_556x45mmNATO_Deadlife>
 		</ammoTypes>
 		<similarTo>AmmoSet_RifleIntermediate</similarTo>
 	</CombatExtended.AmmoSetDef>
@@ -42,7 +43,20 @@
 		<ammoClass>Crio</ammoClass>
 		<cookOffProjectile>Bullet_556x45mmNATO_Crio</cookOffProjectile>
 	</ThingDef>
-
+	
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="556x45mmNATOBase">
+		<defName>Ammo_556x45mmNATO_Deadlife</defName>
+		<label>5.56x45mm NATO (Deadlife)</label>
+		<graphicData>
+			<texPath>Things/Ammo/Rifle/Deadlife</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.95</MarketValue>
+		</statBases>
+		<ammoClass>Deadlife</ammoClass>
+		<cookOffProjectile>Bullet_556x45mmNATO_Deadlife</cookOffProjectile>
+	</ThingDef>
 
 	<!-- ================== Projectiles ================== -->
 
@@ -57,7 +71,27 @@
 			<dropsCasings>true</dropsCasings>
 		</projectile>
 	</ThingDef>
-
+	
+  <ThingDef ParentName="Base556x45mmNATOBullet">
+		<defName>Bullet_556x45mmNATO_Deadlife</defName>
+		<label>5.56mm NATO bullet (Deadlife)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+		    <damageDef>Bullet</damageDef>
+			<damageAmountBase>14</damageAmountBase>
+			<armorPenetrationSharp>6</armorPenetrationSharp>
+			<armorPenetrationBlunt>34.18</armorPenetrationBlunt>
+			<!-- <postExplosionSpawnThingDef>Shell_Deadlife_Releasing</postExplosionSpawnThingDef>-->
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_ExplosiveCE">
+				<damageAmountBase>1</damageAmountBase>
+				<explosiveDamageType>DeadlifeDust</explosiveDamageType>
+			    <postExplosionGasType>DeadlifeDust</postExplosionGasType>
+				<explosiveRadius>0.1</explosiveRadius>
+				<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			</li>
+		</comps>
+	</ThingDef>
 
 	<ThingDef ParentName="Base556x45mmNATOBullet">
 		<defName>Bullet_556x45mmNATO_Crio</defName>
@@ -75,7 +109,7 @@
 		</projectile>
 		
 	</ThingDef>
-
+	
 	<!-- ==================== Recipes ========================== -->
 
 	
@@ -142,5 +176,64 @@
 		<workAmount>2200</workAmount>
 	</RecipeDef>
 
-
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_556x45mmNATO_Deadlife</defName>
+		<label>make 5.56x45mm NATO (Deadlife) cartridge x80</label>
+		<description>Craft 80 5.56x45mm NATO (Deadlife) cartridges.</description>
+		<jobString>Making 5.56x45mm NATO (Deadlife) cartridges.</jobString>
+		<ingredients>
+				<li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+							<li>HeavyBar</li>
+						</categories>
+						<thingDefs>
+							<li>Plastic</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>HeavyBar</li>
+						</categories>
+					</filter>
+					<count>5</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Shard</li>
+						</thingDefs>
+					</filter>
+					<count>1</count>
+				</li>
+			</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+			<li>Plastic</li>
+			<li>Powder</li>
+			<li>Shard</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_556x45mmNATO_Deadlife>60</Ammo_556x45mmNATO_Deadlife>
+		</products>
+	   <researchPrerequisite>Machining</researchPrerequisite>
+		<workAmount>1400</workAmount>
+	</RecipeDef>
 </Defs>

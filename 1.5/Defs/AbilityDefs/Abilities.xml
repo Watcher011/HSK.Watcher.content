@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  
+  <!-- Transmute steel -->
+
+  <AbilityDef ParentName="AbilityTouchBase">
+    <defName>ArmsBaron</defName>
+    <label>transmute Ammo</label>
+    <description>Capable of turning metal into ammunition.</description>
+    <iconPath>UI/Abilities/AP</iconPath>
+   <!-- <cooldownTicksRange>50000</cooldownTicksRange> --><!-- 20 hours -->
+   <cooldownTicksRange>50000</cooldownTicksRange>
+    <showPsycastEffects>false</showPsycastEffects>
+    <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <moteOffsetAmountTowardsTarget>0.5</moteOffsetAmountTowardsTarget>
+    <warmupMote>Mote_HoraxSmallSpellWarmup</warmupMote>
+    <warmupEffecter>HoraxianAbilityCasting</warmupEffecter>
+    <warmupSound>AnomalyAbilityWarmup</warmupSound>
+    <useAverageTargetPositionForWarmupEffecter>true</useAverageTargetPositionForWarmupEffecter>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <drawAimPie>false</drawAimPie>
+      <warmupTime>2</warmupTime>
+      <range>-1</range>
+      <targetParams>
+        <canTargetSelf>false</canTargetSelf>
+        <canTargetBuildings>true</canTargetBuildings>
+        <canTargetPawns>false</canTargetPawns>
+        <canTargetItems>true</canTargetItems>
+        <thingCategory>Item</thingCategory>
+        <mapObjectTargetsMustBeAutoAttackable>false</mapObjectTargetsMustBeAutoAttackable>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_Transmute">
+        <failedMessage>Must target steel, steel slag chunks, steel buildings, or steel items.</failedMessage>
+        <elementRatios>
+          <li>
+            <sourceStuff>Steel</sourceStuff>
+            <ratio>1</ratio>
+          </li>
+          <li>
+            <sourceStuff>ChunkSlagSteel</sourceStuff>
+            <ratio>90</ratio>
+          </li>
+        </elementRatios>
+        <outcomeStuff>
+          <li>Ammo_45ACP_FMJ</li>
+          <li>Ammo_9x19mmPara_FMJ</li>
+          <li>Ammo_762x39mmSoviet_FMJ</li>
+		  <li>Ammo_556x45mmNATO_FMJ</li>
+        </outcomeStuff>
+        <outcomeItems>
+          <li>Ammo_45ACP_FMJ</li>
+          <li>Ammo_9x19mmPara_FMJ</li>
+          <li>Ammo_762x39mmSoviet_FMJ</li>
+          <li>Ammo_556x45mmNATO_FMJ</li>
+        </outcomeItems>
+      </li>
+    </comps>
+  </AbilityDef>
+  
+ 
+
+</Defs>

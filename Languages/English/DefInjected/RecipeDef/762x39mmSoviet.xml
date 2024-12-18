@@ -7,5 +7,9 @@
   <MakeAmmo_762x39mmSoviet_Crio.description>Make 80 7.62x39mm Soviet (CR-I) cartridge.</MakeAmmo_762x39mmSoviet_Crio.description>
   <MakeAmmo_762x39mmSoviet_Crio.jobString>Make 7.62x39mm Soviet (CR-I) cartridge.</MakeAmmo_762x39mmSoviet_Crio.jobString>
 
+  <MakeAmmo_762x39mmSoviet_Deadlife.label>Make 7.62x39mm Soviet (Deadlife) Cartridge x80</MakeAmmo_762x39mmSoviet_Deadlife.label>
+<MakeAmmo_762x39mmSoviet_Deadlife.description>Creates 80 7.62x39mm Soviet (Deadlife) Cartridge.</MakeAmmo_762x39mmSoviet_Deadlife.description>
+<MakeAmmo_762x39mmSoviet_Deadlife.jobString>Creates 7.62x39mm Soviet (Deadlife) Cartridge.</MakeAmmo_762x39mmSoviet_Deadlife.jobString>
+
 
 </LanguageData>

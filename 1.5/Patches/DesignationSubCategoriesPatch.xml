@@ -60,6 +60,12 @@
                     <li>CharcoalPit</li>
                 </value>
             </li>
+			<li Class="PatchOperationAdd">
+                <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Traps"]/defNames</xpath>
+                <value>
+                    <li>TrapIED_Flare</li>
+                </value>
+            </li>
         </operations>
     </Operation>
    

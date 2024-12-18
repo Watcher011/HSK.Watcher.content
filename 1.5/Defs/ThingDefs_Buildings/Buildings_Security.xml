@@ -41,15 +41,15 @@
 			<fuelGizmoLabel>Уровень заряда</fuelGizmoLabel>
 			<outOfFuelMessage>Не может стрелять : нужны заряды</outOfFuelMessage>
 			<fuelFilter><thingDefs><li>Hexcell</li></thingDefs></fuelFilter>
-			<fuelCapacity>3</fuelCapacity>       <!-- 140 shoots -->
+			<fuelCapacity>1</fuelCapacity>       <!-- 140 shoots -->
 			<fuelMultiplier>1</fuelMultiplier> <!-- 140 human meat per full rearm -->
-			<initialFuelPercent>1</initialFuelPercent>
-			<autoRefuelPercent>0.25</autoRefuelPercent>
+			<initialFuelPercent>2</initialFuelPercent>
+			<autoRefuelPercent>0.1</autoRefuelPercent>
 			<showFuelGizmo>true</showFuelGizmo>
-			<minimumFueledThreshold>1</minimumFueledThreshold>
+			<minimumFueledThreshold>0.3</minimumFueledThreshold>
 			<factorByDifficulty>false</factorByDifficulty>
 			<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
-			<fuelIconPath>Things/Item/HexCell</fuelIconPath>
+			<fuelIconPath>Things/Building/Security/Bat</fuelIconPath>
 		  </li>
 		</comps>
 		<description>Автоматическая охранная система, предназначенная для секторной обороны объектов и защиты периметра охраняемой зоны. Часто применяется силами USCMC и устанавливается в узловых точках на потенциально опасных направлениях. Представляет собой автоматическую турель для крепления импульсных пулеметов, обеспечивающую с помощью специальных систем и силовых приводов их наводку в горизонтальной и вертикальной плоскостях, а также секторный обстрел. Установка защищена от попадания влаги и отличается малой отдачей и большим запасом патронов.\nCaliber: 5.56x45mm NATO</description>
@@ -113,7 +113,7 @@
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<recoilPattern>Mounted</recoilPattern>
-				<consumeFuelPerShot>0.01</consumeFuelPerShot>
+				<consumeFuelPerShot>0.001</consumeFuelPerShot>
 			</li>
 		
 		</verbs>
@@ -124,13 +124,16 @@
 				<ammoSet>AmmoSet_556x45mmNATO</ammoSet>
 			</li>
 			<li Class="CombatExtended.CompProperties_FireModes">
-				<aimedBurstShotCount>6</aimedBurstShotCount>
-				<aiUseBurstMode>FALSE</aiUseBurstMode>
-				<aiAimMode>Snapshot</aiAimMode>
-				<noSnapshot>true</noSnapshot>
-				<noSingleShot>true</noSingleShot>
+				<aimedBurstShotCount>5</aimedBurstShotCount>
+				<aiAimMode>SuppressFire</aiAimMode>
 			</li>
 		</comps>
+		<modExtensions>
+			<li Class="CombatExtended.GunDrawExtension">
+				<!--I'm bothered enough to go watch a video and find out KPV ejects towards front-left-->
+				<CasingAngleOffset>-110</CasingAngleOffset>
+			</li>
+		</modExtensions>
 	</ThingDef>
   
 </Defs>

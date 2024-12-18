@@ -17,6 +17,13 @@
 				<li>AquoponicsBasin</li>
 				</value>
 			 </Operation>
+			 
+    <Operation Class="PatchOperationAdd">
+				<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Battery"]/defNames</xpath>
+				<value>
+				<li>BatteryHim</li>
+				</value>
+			 </Operation>
 </Patch>
 
 

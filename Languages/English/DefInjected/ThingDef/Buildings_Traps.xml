@@ -6,5 +6,8 @@
   <MinSign.label>Sign Caution mines</MinSign.label>
   <MinSign.description>Warning sign.</MinSign.description>
 
+  <TrapIED_Flare.label>Flare trap</TrapIED_Flare.label>
+  <TrapIED_Flare.description>The Flare Trap is an item which is crafted from Scrap Metal, a Flare   components and can be placed on the property of a base. This trap has a 1 m tripwire.</TrapIED_Flare.description>
+
 
 </LanguageData>

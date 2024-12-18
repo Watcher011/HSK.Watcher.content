@@ -6,5 +6,8 @@
   <MinSign.label>Знак «Осторожно, мины»</MinSign.label>
   <MinSign.description>Предупреждающий знак.</MinSign.description>
 
+  <TrapIED_Flare.label>Мина-флаер</TrapIED_Flare.label>
+<TrapIED_Flare.description>Мина-флаер — это предмет, который изготавливается из металлолома, компонентов флаера что может быть размещен на территории базы. Эта ловушка имеет растяжку длиной 1 м.</TrapIED_Flare.description>
+
 
 </LanguageData>
