@@ -132,10 +132,10 @@
 				<compClass>CompQuality</compClass>
 			</li>
 			 <li Class="CompProperties_Glower">
-             <overlightRadius>1.0</overlightRadius>
+             <overlightRadius>3.0</overlightRadius>
              <glowRadius>2</glowRadius>
               <glowColor>(370,370,370,0)</glowColor>
-      </li>
+             </li>
 			<li Class="SK.CompProperties_RestrictedPlacement">
 				<compClass>SK.CompRestrictedPlacement</compClass>
 			</li>
@@ -146,6 +146,78 @@
 		 <specialDisplayRadius>2</specialDisplayRadius>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 	</ThingDef>
+	
+	<ThingDef ParentName="SK_LampBase">
+		<defName>CeilingPlantsKristal</defName>
+		<label>Glowstone Plants сeiling lamp</label>
+		<thingClass>SK.Building_Lamp</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Furniture/LightsSun/CeilingKristalSun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shadowData>
+				<volume>(0.2, 0.2, 0.2)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<statBases>
+			<Beauty>9</Beauty>
+			<WorkToBuild>310</WorkToBuild>
+			<Bulk>12</Bulk>
+			<Mass>4</Mass>
+			<Cleanliness>0</Cleanliness>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">6</StyleDominance>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<description>Ceiling glowstone lamp.</description>
+		<stuffCategories>
+			<li>Woody</li>
+			<li>Metallic</li>
+			<li>Precious</li>
+			<li>Ceramic</li>
+		</stuffCategories>
+		<costStuffCount>15</costStuffCount>
+		<costList>
+			<Glass>5</Glass>
+			<GoldBar>2</GoldBar>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<Glowstone>10</Glowstone>
+		</costList>
+		<building>
+			<uninstallWork>800</uninstallWork>
+			<isEdifice>false</isEdifice>
+			<canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Glower">
+             <overlightRadius>3.0</overlightRadius>
+             <glowRadius>2</glowRadius>
+              <glowColor>(370,370,370,0)</glowColor>
+             </li>
+			<li Class="SK.CompProperties_RestrictedPlacement">
+				<compClass>SK.CompRestrictedPlacement</compClass>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>SK.PlaceWorker_OnlyUnderRoof</li>
+		</placeWorkers>
+		<filthLeaving>Filth_BrokenGlass</filthLeaving>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<rotatable>false</rotatable>
+		 <researchPrerequisites>
+      <li>Cultivation_C1</li>
+    </researchPrerequisites>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		 <specialDisplayRadius>1</specialDisplayRadius>
+	</ThingDef>
+	
+	
+	
 	
 	<ThingDef ParentName="SK_LampBase">
 		<defName>KristalWallLampDark</defName>
