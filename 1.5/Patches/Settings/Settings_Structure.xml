@@ -65,7 +65,7 @@
 			</li>
 			<li Class="SK.CompProperties_RotModified">
 				<compClass>SK.CompRotModified</compClass>
-				<rotmodifier>0.99</rotmodifier>
+				<rotmodifier>0</rotmodifier>
 			</li>
     </comps>
 	<constructionSkillPrerequisite>4</constructionSkillPrerequisite>

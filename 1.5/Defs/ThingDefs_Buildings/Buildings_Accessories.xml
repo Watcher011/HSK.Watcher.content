@@ -75,6 +75,79 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="SK_LampBase">
+		<defName>KristalPlantsWallLamp</defName>
+		<label>Glowstone plants wall lamp</label>
+		<description>Wall lamp made of glowstone for plants, expensive and rich.</description>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Furniture/LightsSun/WallKristalSun</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1.0,2.0)</drawSize>
+			<drawRotated>true</drawRotated>
+			<allowFlip>true</allowFlip>
+		</graphicData>
+		<uiIconPath>Things/Building/Furniture/LightsSun/WallKristalSun_ui</uiIconPath>
+		<altitudeLayer>PawnUnused</altitudeLayer>
+		<fillPercent>0.15</fillPercent>
+		<tickerType>Normal</tickerType>
+		<drawerType>RealtimeOnly</drawerType>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<statBases>
+		    <Beauty>9</Beauty>
+			<WorkToBuild>310</WorkToBuild>
+			<Bulk>12</Bulk>
+			<Mass>4</Mass>
+			<Cleanliness>0</Cleanliness>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">6</StyleDominance>
+		</statBases>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+		<size>(1,1)</size>
+		<stuffCategories>
+			<li>Woody</li>
+			<li>Metallic</li>
+			<li>Precious</li>
+			<li>Ceramic</li>
+		</stuffCategories>
+		<costStuffCount>15</costStuffCount>
+		<costList>
+		    <GoldBar>2</GoldBar>
+			<Glowstone>20</Glowstone>
+		</costList>
+		<surfaceType>Item</surfaceType>
+		<placeWorkers>
+			<li>SK.PlaceWorker_NotOnWall</li>
+			<li>SK.PlaceWorker_WallAttachment</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<building>
+			<uninstallWork>150</uninstallWork>
+			<isEdifice>false</isEdifice>
+			<canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			 <li Class="CompProperties_Glower">
+             <overlightRadius>1.0</overlightRadius>
+             <glowRadius>2</glowRadius>
+              <glowColor>(370,370,370,0)</glowColor>
+      </li>
+			<li Class="SK.CompProperties_RestrictedPlacement">
+				<compClass>SK.CompRestrictedPlacement</compClass>
+			</li>
+		</comps>
+		 <researchPrerequisites>
+         <li>Cultivation_C1</li>
+        </researchPrerequisites>
+		 <specialDisplayRadius>2</specialDisplayRadius>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_LampBase">
 		<defName>KristalWallLampDark</defName>
 		<label>Glowstone wall lamp dark</label>
 		<description>Wall lamp made of glowstone"dark", expensive and rich.</description>

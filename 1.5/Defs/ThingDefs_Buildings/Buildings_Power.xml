@@ -74,7 +74,6 @@
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <designationCategory>Power</designationCategory>
     <uiOrder>2020</uiOrder>
-    <staticSunShadowHeight>0.2</staticSunShadowHeight>
     <constructEffect>ConstructMetal</constructEffect>
     <designationHotKey>Misc2</designationHotKey>
     <canOverlapZones>false</canOverlapZones>

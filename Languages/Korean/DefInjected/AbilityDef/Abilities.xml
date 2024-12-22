@@ -2,8 +2,9 @@
 <LanguageData>
 
   <!-- Transmute steel -->
-<ArmsBaron.label>탄약 변환</ArmsBaron.label>
-<ArmsBaron.description>금속을 탄약으로 변환할 수 있습니다.</ArmsBaron.description>
+
+  <ArmsBaron.label>탄약 변환</ArmsBaron.label>
+  <ArmsBaron.description>금속을 탄약으로 변환할 수 있습니다.</ArmsBaron.description>
 
 
 </LanguageData>

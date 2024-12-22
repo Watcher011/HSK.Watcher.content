@@ -7,7 +7,7 @@
   <MinSign.description>경고 표지판.</MinSign.description>
 
   <TrapIED_Flare.label>플레어 트랩</TrapIED_Flare.label>
-<TrapIED_Flare.description>플레어 트랩은 스크랩 메탈, 플레어 구성 요소로 제작한 아이템이며 기지 부지에 설치할 수 있습니다. 이 트랩에는 1m 트립와이어가 있습니다.</TrapIED_Flare.description>
+  <TrapIED_Flare.description>플레어 트랩은 스크랩 메탈, 플레어 구성 요소로 제작한 아이템이며 기지 부지에 설치할 수 있습니다. 이 트랩에는 1m 트립와이어가 있습니다.</TrapIED_Flare.description>
 
 
 </LanguageData>

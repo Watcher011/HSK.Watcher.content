@@ -8,8 +8,8 @@
   <MakeAmmo_762x39mmSoviet_Crio.jobString>7.62x39mm 소련(CR-I) 탄약통을 생성합니다.</MakeAmmo_762x39mmSoviet_Crio.jobString>
 
   <MakeAmmo_762x39mmSoviet_Deadlife.label>7.62x39mm 소련(Deadlife) x80 카트리지 제작</MakeAmmo_762x39mmSoviet_Deadlife.label>
- <MakeAmmo_762x39mmSoviet_Deadlife.description>7.62x39mm 소련(Deadlife) 탄약통 80개를 만듭니다.</MakeAmmo_762x39mmSoviet_Deadlife.description>
- <MakeAmmo_762x39mmSoviet_Deadlife.jobString>7.62x39mm 소련(Deadlife) 카트리지를 생성합니다.</MakeAmmo_762x39mmSoviet_Deadlife.jobString>
+  <MakeAmmo_762x39mmSoviet_Deadlife.description>7.62x39mm 소련(Deadlife) 탄약통 80개를 만듭니다.</MakeAmmo_762x39mmSoviet_Deadlife.description>
+  <MakeAmmo_762x39mmSoviet_Deadlife.jobString>7.62x39mm 소련(Deadlife) 카트리지를 생성합니다.</MakeAmmo_762x39mmSoviet_Deadlife.jobString>
 
 
 </LanguageData>

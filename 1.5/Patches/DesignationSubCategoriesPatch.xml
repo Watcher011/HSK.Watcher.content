@@ -67,6 +67,7 @@
                 </value>
             </li>
         </operations>
+		
     </Operation>
    
 
@@ -98,4 +99,47 @@
             </ArchitectSense.DesignationSubCategoryDef>
         </value>
     </Operation>
+	
+	 <Operation Class="PatchOperationAdd">
+        <xpath>Defs</xpath>
+        <value>
+            <ArchitectSense.DesignationSubCategoryDef>
+                <defName>SubCategory_Sun</defName>
+                <label>Lamps for plants</label>
+                <description>Plant growth lamps</description>
+                <defNames>
+                    <li>KristalPlantsWallLamp</li>
+                    <li>SunLamp</li>
+                    <li>Bio_Sun</li>
+                </defNames>
+                <designationCategory>Accessories</designationCategory>
+                <debug>false</debug>
+            </ArchitectSense.DesignationSubCategoryDef>
+        </value>
+    </Operation>
+	
+	
+	
+
+	<Operation Class="PatchOperationAdd">
+				<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_CookingStuff"]/defNames</xpath>
+				<value>
+				<li>icecreamBasin</li>
+				</value>
+	</Operation>
+			 
+			 
+	<Operation Class="PatchOperationAdd">
+				<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Hydroponics"]/defNames</xpath>
+				<value>
+				<li>AquoponicsBasin</li>
+				</value>
+	</Operation>
+			 
+    <Operation Class="PatchOperationAdd">
+				<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Battery"]/defNames</xpath>
+				<value>
+				<li>BatteryHim</li>
+				</value>
+	</Operation>
 </Patch>
