@@ -21,8 +21,8 @@
       <li>Empire</li>
       <li>Outlander</li>
     </heldByFactionCategoryTags>
-   <researchViewX>8.00</researchViewX>
-	<researchViewY>18.00</researchViewY>
+   <researchViewX>10.00</researchViewX>
+	<researchViewY>17.00</researchViewY>
 	<tab>Buildings_SK</tab>
   </ResearchProjectDef>
 
@@ -38,7 +38,7 @@
     </prerequisites>
 		<techLevel>Industrial</techLevel>
 		<researchViewX>9.00</researchViewX>
-		<researchViewY>51.00</researchViewY>
+		<researchViewY>53.00</researchViewY>
 		<tab>Buildings_SK</tab>
 	</ResearchProjectDef>
 </Defs>
