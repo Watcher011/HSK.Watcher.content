@@ -371,8 +371,8 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<onlyManualCast>True</onlyManualCast>
 				<warmupTime>10.5</warmupTime>
-				<range>400</range>
-				<minRange>5</minRange>
+				<range>800</range>
+				<minRange>50</minRange>
 				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
 				<soundCast>PiercingSpine_Launch</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
@@ -382,7 +382,7 @@
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
 				<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
-				<defaultProjectile>Bullet_Acid</defaultProjectile>
+				<defaultProjectile>Bullet_Cocon</defaultProjectile>
 				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
 			</li>
 		</verbs>

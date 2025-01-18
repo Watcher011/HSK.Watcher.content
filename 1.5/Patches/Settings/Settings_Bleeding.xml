@@ -65,6 +65,65 @@
 
          </value>
     </Operation>
+	
+	
+	 <Operation Class="PatchOperationAdd">
+        <xpath>Defs</xpath>
+        <value>
+           
+	<RecipeDef>
+		<defName>MinceYeastPack</defName>
+		<label>Получить дрожжи</label>
+		<description>Извлечь дрожжи из трупов. Производит 15.</description>
+		<jobString>Извлекает дрожжи.</jobString>
+		<workAmount>150</workAmount>
+		<recipeUsers>
+			  <li>TableButcher</li>
+			  <li>TableKitchen</li>
+		</recipeUsers>
+		<workSpeedStat>ButcheryFleshSpeed</workSpeedStat>
+		<workSkill>Cooking</workSkill>
+		<effectWorking>ButcherFlesh</effectWorking>
+		<soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+		<ingredients>
+		 <li>
+        <filter>
+          <categories>
+            	<li>CorpsesHumanlike</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+		</ingredients>
+		  <fixedIngredientFilter>
+      <categories>
+       	<li>CorpsesHumanlike</li>
+      </categories>
+      <disallowedCategories>
+        <li>CorpsesMechanoid</li>
+      </disallowedCategories>
+      <specialFiltersToDisallow>
+        <li>AllowRotten</li>
+      </specialFiltersToDisallow>
+    </fixedIngredientFilter>
+		<defaultIngredientFilter>
+      <thingDefs>
+        <li>Corpse_Human</li>
+      </thingDefs>
+      <specialFiltersToAllow>
+        <li>AllowCorpsesColonist</li>
+        <li MayRequire="Ludeon.RimWorld.Ideology">AllowCorpsesSlave</li>
+        <li>AllowCorpsesStranger</li>
+      </specialFiltersToAllow>
+    </defaultIngredientFilter>
+		<products>
+			<Yeast>15</Yeast>
+		</products>
+		<researchPrerequisite>Food_0</researchPrerequisite>
+	</RecipeDef>
+
+         </value>
+    </Operation>
     </caseTrue>
 </Operation>
 
