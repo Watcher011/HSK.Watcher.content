@@ -537,7 +537,7 @@
 	</ThingDef>
 
 
-	<RecipeDef ParentName="Make_DriedTeaBase" Class="UniversalFermenterSK.RecipeDef_UF">
+	<RecipeDef ParentName="Make_DriedGreenTeaBase" Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>Make_Puer</defName>
 		<label>Высушить чай Пуэр</label>
 		<description>Главной отличительной чертой пуэров является стадия ферментации, которая может занимать различное время. Участвующие в ней микроорганизмы заметно меняют химический состав и вкусовые качества чая.</description>
@@ -556,7 +556,7 @@
 		</products>
 	</RecipeDef>
 
-	<RecipeDef ParentName="Make_DriedTeaBase" Class="UniversalFermenterSK.RecipeDef_UF">
+	<RecipeDef ParentName="Make_DriedGreenTeaBase" Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>Make_Puer_x5</defName>
 		<label>Высушить чай Пуэр x5</label>
 		<description>Главной отличительной чертой пуэров является стадия ферментации, которая может занимать различное время. Участвующие в ней микроорганизмы заметно меняют химический состав и вкусовые качества чая.</description>
@@ -588,6 +588,7 @@
 		</fixedIngredientFilter>
 		<recipeUsers>
 			<li>DryingRack</li>
+			<li>industrialDryingRack</li>
 		</recipeUsers>
 
 		<!-- RecipeDef_UF fields -->
