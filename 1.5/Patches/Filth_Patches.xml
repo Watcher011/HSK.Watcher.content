@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+<!-- floor drawings don't impact room cleanliness -->
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="Filth_Floordrawing"]/statBases/Cleanliness</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Filth_Floordrawing"]/statBases</xpath>
+			<value>
+				<Cleanliness>0</Cleanliness>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Filth_Floordrawing"]/statBases/Cleanliness</xpath>
+			<value>
+				<Cleanliness>0</Cleanliness>
+			</value>
+		</match>
+	</Operation>
+
+
+</Patch>

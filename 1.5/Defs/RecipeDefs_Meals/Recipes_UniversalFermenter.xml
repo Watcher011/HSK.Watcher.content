@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<RecipeDef Name="Make_DriedTeaBase" Abstract="True">
+<RecipeDef Name="Make_DriedTeaBase" Abstract="True">
 		<fixedIngredientFilter>
 			<categories>
 				<li>FungusPlantRaw</li>
@@ -8,9 +8,8 @@
 		</fixedIngredientFilter>
 		<recipeUsers>
 			<li>DryingRack</li>
+			<!--<li>industrialDryingRack</li>-->
 		</recipeUsers>
-
-		<!-- RecipeDef_UF fields -->
 		<temperatureSafe>
 			<min>5</min>
 			<max>80</max>
@@ -19,7 +18,7 @@
 			<min>18</min>
 			<max>50</max>
 		</temperatureIdeal>
-		<processDays>30</processDays>
+		<processDays>6</processDays>
 		<speedBelowSafe>0.05</speedBelowSafe>
 		<speedAboveSafe>0.8</speedAboveSafe>
 		<sunFactor>
@@ -39,7 +38,46 @@
 			<max>1.2</max>
 		</windFactor>
 	</RecipeDef>
-	<!--
+	
+	
+	<RecipeDef Name="Make_industrialDriedTeaBase" Abstract="True">
+		<fixedIngredientFilter>
+			<categories>
+				<li>FungusPlantRaw</li>
+			</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>industrialDryingRack</li>
+		</recipeUsers>
+		<temperatureSafe>
+			<min>5</min>
+			<max>80</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>18</min>
+			<max>50</max>
+		</temperatureIdeal>
+		<processDays>6</processDays>
+		<speedBelowSafe>0.05</speedBelowSafe>
+		<speedAboveSafe>0.8</speedAboveSafe>
+		<sunFactor>
+			<min>0.75</min>
+			<max>1.2</max>
+		</sunFactor>
+		<rainFactor>
+			<min>1</min>
+			<max>0</max>
+		</rainFactor>
+		<snowFactor>
+			<min>1</min>
+			<max>0</max>
+		</snowFactor>
+		<windFactor>
+			<min>1</min>
+			<max>1.2</max>
+		</windFactor>
+	</RecipeDef>
+	
 	<RecipeDef ParentName="Make_DriedTeaBase" Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>Make_Puer</defName>
 		<label>Высушить чай Пуэр</label>
@@ -57,6 +95,7 @@
 		<products>
 			<RawPuer>5</RawPuer>
 		</products>
+		<slotsRequired>1</slotsRequired>
 	</RecipeDef>
 
 	<RecipeDef ParentName="Make_DriedTeaBase" Class="UniversalFermenterSK.RecipeDef_UF">
@@ -77,52 +116,14 @@
 			<RawPuer>25</RawPuer>
 		</products>
 
+		<!-- RecipeDef_UF fields -->
 		<slotsRequired>5</slotsRequired>
 	</RecipeDef>
 
 
 
-<RecipeDef Name="Make_DriedGreenTeaBase" Abstract="True">
-		<fixedIngredientFilter>
-			<categories>
-				<li>FungusPlantRaw</li>
-			</categories>
-		</fixedIngredientFilter>
-		<recipeUsers>
-			<li>DryingRack</li>
-		</recipeUsers>
-
 	
-		<temperatureSafe>
-			<min>5</min>
-			<max>80</max>
-		</temperatureSafe>
-		<temperatureIdeal>
-			<min>18</min>
-			<max>50</max>
-		</temperatureIdeal>
-		<processDays>12</processDays>
-		<speedBelowSafe>0.05</speedBelowSafe>
-		<speedAboveSafe>0.8</speedAboveSafe>
-		<sunFactor>
-			<min>0.75</min>
-			<max>1.2</max>
-		</sunFactor>
-		<rainFactor>
-			<min>1</min>
-			<max>0</max>
-		</rainFactor>
-		<snowFactor>
-			<min>1</min>
-			<max>0</max>
-		</snowFactor>
-		<windFactor>
-			<min>1</min>
-			<max>1.2</max>
-		</windFactor>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="Make_DriedGreenTeaBase" Class="UniversalFermenterSK.RecipeDef_UF">
+	<RecipeDef ParentName="Make_DriedTeaBase" Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>Make_GreenTea</defName>
 		<label>Высушить зелёный чай</label>
 		<description>Зеленый чай — это напиток из листьев чайной камелии. Собственно, как и черный чай. Основное их различие в том, что для зеленого чая процесс ферментации минимален, отчего он становится ближе к живому чайному листу. И чем сильнее чай ферментирован, тем темнее его настой и ярче вкус.</description>
@@ -141,7 +142,7 @@
 		</products>
 	</RecipeDef>
 
-	<RecipeDef ParentName="Make_DriedGreenTeaBase" Class="UniversalFermenterSK.RecipeDef_UF">
+	<RecipeDef ParentName="Make_DriedTeaBase" Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>Make_GreenTea_x5</defName>
 		<label>Высушить зелёный чай x5</label>
 		<description>Зеленый чай — это напиток из листьев чайной камелии. Собственно, как и черный чай. Основное их различие в том, что для зеленого чая процесс ферментации минимален, отчего он становится ближе к живому чайному листу. И чем сильнее чай ферментирован, тем темнее его настой и ярче вкус.</description>
@@ -159,9 +160,319 @@
 			<RawGreen>25</RawGreen>
 		</products>
 
+		<!-- RecipeDef_UF fields -->
 		<slotsRequired>5</slotsRequired>
 	</RecipeDef>
-	-->
+	
+	
+	
+		<RecipeDef ParentName="Make_industrialDriedTeaBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_Puerindustrial</defName>
+		<label>Высушить чай Пуэр</label>
+		<description>Главной отличительной чертой пуэров является стадия ферментации, которая может занимать различное время. Участвующие в ней микроорганизмы заметно меняют химический состав и вкусовые качества чая.</description>
+		<ingredients>
+		<li>
+				<filter>
+					<thingDefs>
+						<li>RawTea</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<products>
+			<RawPuer>5</RawPuer>
+		</products>
+		<slotsRequired>1</slotsRequired>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_industrialDriedTeaBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_Puer_x5industrial</defName>
+		<label>Высушить чай Пуэр x5</label>
+		<description>Главной отличительной чертой пуэров является стадия ферментации, которая может занимать различное время. Участвующие в ней микроорганизмы заметно меняют химический состав и вкусовые качества чая.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawTea</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<products>
+			<RawPuer>25</RawPuer>
+		</products>
+
+		<!-- RecipeDef_UF fields -->
+		<slotsRequired>5</slotsRequired>
+	</RecipeDef>
+
+
+
+	
+	<RecipeDef ParentName="Make_industrialDriedTeaBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_GreenTeaindustrial</defName>
+		<label>Высушить зелёный чай</label>
+		<description>Зеленый чай — это напиток из листьев чайной камелии. Собственно, как и черный чай. Основное их различие в том, что для зеленого чая процесс ферментации минимален, отчего он становится ближе к живому чайному листу. И чем сильнее чай ферментирован, тем темнее его настой и ярче вкус.</description>
+		<ingredients>
+		<li>
+				<filter>
+					<thingDefs>
+						<li>RawTea</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<products>
+			<RawGreen>5</RawGreen>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_industrialDriedTeaBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_GreenTea_x5industrial</defName>
+		<label>Высушить зелёный чай x5</label>
+		<description>Зеленый чай — это напиток из листьев чайной камелии. Собственно, как и черный чай. Основное их различие в том, что для зеленого чая процесс ферментации минимален, отчего он становится ближе к живому чайному листу. И чем сильнее чай ферментирован, тем темнее его настой и ярче вкус.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawTea</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<products>
+			<RawGreen>25</RawGreen>
+		</products>
+
+		<!-- RecipeDef_UF fields -->
+		<slotsRequired>5</slotsRequired>
+	</RecipeDef>
+	
+	
+	
+	<RecipeDef>
+		<defName>BrewChipfir</defName>
+		<label>Заварить Чифир</label>
+		<description>Заварить 3 порции чифира.</description>
+		<jobString>Варит чифир</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Brewing</soundWorking>
+		<workAmount>1200</workAmount>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<recipeUsers>
+			<li>Campfire</li>
+			<li>FueledStove</li>
+			<li>ElectricStove</li>
+			<li>TableCoffee</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawTea</li>
+					</thingDefs>
+				</filter>
+				<count>45</count>
+			</li>
+			
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawTea</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<CupChipfir>3</CupChipfir>
+		</products>
+		<skillRequirements>
+			<Cooking>2</Cooking>
+		</skillRequirements>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisite>Food_00</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>BrewChipfirBulk</defName>
+		<label>Заварить тазик чифира</label>
+		<description>Заварить тазик чифира на всю камеру. 12 порций.</description>
+		<jobString>Варит чифир</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Brewing</soundWorking>
+		<workAmount>2400</workAmount>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<recipeUsers>
+			<li>Campfire</li>
+			<li>FueledStove</li>
+			<li>ElectricStove</li>
+			<li>TableCoffee</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawTea</li>
+					</thingDefs>
+				</filter>
+				<count>240</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawTea</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<CupChipfir>12</CupChipfir>
+		</products>
+		<skillRequirements>
+			<Cooking>4</Cooking>
+		</skillRequirements>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisite>Food_C3</researchPrerequisite>
+	</RecipeDef>
+
+
+
+	<RecipeDef>
+		<defName>BrewMintLeaves</defName>
+		<label>Заварить успокаивающий чай с мятой</label>
+		<description>Заварить 3 порции чаю с мятой.</description>
+		<jobString>Заваривает чай</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Brewing</soundWorking>
+		<workAmount>1200</workAmount>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<recipeUsers>
+			<li>Campfire</li>
+			<li>FueledStove</li>
+			<li>ElectricStove</li>
+			<li>TableCoffee</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawTea</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MintLeaves</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawTea</li>
+				<li>MintLeaves</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Cupwithminttea>3</Cupwithminttea>
+		</products>
+		<skillRequirements>
+			<Cooking>5</Cooking>
+		</skillRequirements>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisite>Food_00</researchPrerequisite>
+	</RecipeDef>
+	
+	
+	<RecipeDef>
+		<defName>BrewRawPuer</defName>
+		<label>Заварить чай Пуэр</label>
+		<description>Заварить 3 порции чаю.</description>
+		<jobString>Заваривает чай</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Brewing</soundWorking>
+		<workAmount>1200</workAmount>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<recipeUsers>
+			<li>Campfire</li>
+			<li>FueledStove</li>
+			<li>ElectricStove</li>
+			<li>TableCoffee</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawPuer</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawPuer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<CupPuer>3</CupPuer>
+		</products>
+		<skillRequirements>
+			<Cooking>5</Cooking>
+		</skillRequirements>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisite>Food_00</researchPrerequisite>
+	</RecipeDef>
+
+<RecipeDef>
+		<defName>BrewRawGreen</defName>
+		<label>Заварить зелёный чай</label>
+		<description>Заварить 3 порции чаю.Ходят слухи что помагает от паразитов.</description>
+		<jobString>Заваривает чай</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Brewing</soundWorking>
+		<workAmount>1200</workAmount>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<recipeUsers>
+			<li>Campfire</li>
+			<li>FueledStove</li>
+			<li>ElectricStove</li>
+			<li>TableCoffee</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawGreen</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawGreen</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<CupGreentea>3</CupGreentea>
+		</products>
+		<skillRequirements>
+			<Cooking>5</Cooking>
+		</skillRequirements>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisite>Food_00</researchPrerequisite>
+	</RecipeDef>
+
+
 
 	<RecipeDef Name="Make_CoffeeBase" Abstract="True">
 		<fixedIngredientFilter>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>Watcher.Content.Settings</modId>
+    <key>AddingNuclearEventRatkinov</key>
+    <defaultValue>false</defaultValue>
+    <caseTrue>
+     <Operation Class="PatchOperationAdd">
+       <xpath>Defs/ThingDef[defName="RK_EmpBomb"]/comps</xpath>
+				<value>
+			   <li Class="CompProperties_Explosive">
+			 <!--<wickTicks>50</wickTicks>-->
+              <extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
+               <explodeOnKilled>true</explodeOnKilled>
+				<explosiveRadius>8</explosiveRadius>
+				<explosiveDamageType>NuclearB</explosiveDamageType>
+				<damageAmountBase>18000</damageAmountBase>
+				<postExplosionSpawnThingDef>NFRAD</postExplosionSpawnThingDef>
+				<explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
+				<postExplosionSpawnChance>0.11</postExplosionSpawnChance>
+                <startWickHitPointsPercent>0.99</startWickHitPointsPercent>
+                <startWickOnInternalDamageTaken>
+               <li>Deterioration</li>
+              </startWickOnInternalDamageTaken>
+			   </li>
+	         <li Class="CompProperties_DamageOnInterval">
+             <damageDef>Deterioration</damageDef>
+             <damage>1</damage>
+             <ticksBetweenDamage>60</ticksBetweenDamage>
+            <effectStages>
+          <li>
+            <minHitPointsPercent>9999</minHitPointsPercent>
+            <effecterDef>Power_Cell_Burning</effecterDef>
+          </li>
+          <li>
+            <minHitPointsPercent>0.1666</minHitPointsPercent>
+            <effecterDef>Power_Cell_Sparks</effecterDef>
+          </li>
+        </effectStages>
+      </li>
+		    </value>
+    </Operation>
+
+
+<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="RK_EmpBomb"]/graphicData/texPath</xpath>
+		<value>
+			<texPath>Things/Item/NuclearWasteBomb</texPath>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="RK_EmpBomb"]/label</xpath>
+		<value>
+			<label>Грязная Бомба</label>
+		</value>
+	</Operation>
+
+    </caseTrue>
+</Operation>
+
+</Patch>
+
