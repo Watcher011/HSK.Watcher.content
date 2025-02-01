@@ -3,92 +3,45 @@
 
 
 
+	<ThingDef ParentName="SK_DeciduousPlantDef">
+		<defName>Plant_Pickles</defName>
+		<label>Pickles Plant</label>
+		<description>The cucumber plant is a creeping vine that takes root in the ground and grows up trellises or other support structures, twining around the supports with thin, spiral-shaped tendrils. Vegetables can even be grown in a soilless environment using hydroponics.</description>
+		<graphicData>
+			<texPath>Things/Plant/Pickles</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<statBases>
+			<Beauty>2</Beauty>
+			<BeautyOutdoors>2</BeautyOutdoors>
+			<Nutrition>0.4</Nutrition>
+		</statBases>
+		<plant>
+			<maxMeshCount>4</maxMeshCount>
+			<sowMinSkill>6</sowMinSkill>
+			<sowResearchPrerequisites>
+				<li>Food_Plants_A1</li>
+			</sowResearchPrerequisites>
+			<sowTags>
+				<li>Ground</li>
+				<li>Hydroponic</li>
+			</sowTags>
+			<immatureGraphicPath>Things/Plant/Pickles_Immature</immatureGraphicPath>
+			<harvestedThingDef>RawPickles</harvestedThingDef>
+			<harvestYield>12</harvestYield>
+			<topWindExposure>0.1</topWindExposure>
+			<growDays>3.3</growDays>
+			<fertilitySensitivity>1</fertilitySensitivity>
+			<fertilityMin>0.4</fertilityMin>
+			<visualSizeRange>
+				<min>0.2</min>
+				<max>0.9</max>
+			</visualSizeRange>
+			<wildOrder>2</wildOrder>
+			<purpose>Food</purpose>
+			<humanFoodPlant>true</humanFoodPlant>
+		</plant>
+	</ThingDef>
 
-<!--
-  <ThingDef ParentName="TreeBase">
-    <defName>Plant_TreeBioHarbinger</defName>
-    <label>Терник</label>
-    <description>Терник - кровожадное растение что медленно преобразует тела в биоматерию.</description>
-    <thingClass>HarbingerTree</thingClass>
-    <graphicData>
-      <graphicClass>Graphic_Indexed</graphicClass>
-      <texPath>Things/Plant/TreeBioHarbinger</texPath>
-      <shadowData>
-        <volume>(0.4, 0.3, 0.1)</volume>
-        <offset>(0,0,-0.3)</offset>
-      </shadowData>
-    </graphicData>
-    <minifiedDef IsNull="True" />
-    <statBases>
-      <Beauty>-12</Beauty>
-      <BeautyOutdoors>-12</BeautyOutdoors>
-      <Flammability>0</Flammability>
-      <MaxHitPoints>230</MaxHitPoints>
-    </statBases>
-    <ingestible />
-    <neverMultiSelect>false</neverMultiSelect>
-    <preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
-    <canScatterOver>false</canScatterOver>
-    <plant>
-      <pollution>Any</pollution>
-      <growDays>10</growDays>
-      <visualSizeRange>1.5~2.1</visualSizeRange>
-      <sowMinSkill>0</sowMinSkill>
-      <sowTags Inherit="False"/>
-      <lifespanDaysPerGrowDays>0</lifespanDaysPerGrowDays>
-      <fertilityMin>0.5</fertilityMin>
-      <fertilitySensitivity>0.5</fertilitySensitivity>
-      <wildClusterWeight>0</wildClusterWeight>
-      <sowWork>400</sowWork>
-      <harvestYield>15</harvestYield>
-      <harvestedThingDef>Biomatter</harvestedThingDef>
-      <treeCategory>Super</treeCategory>
-      <dieIfNoSunlight>false</dieIfNoSunlight>
-      <growMinGlow>0</growMinGlow>
-      <sowResearchPrerequisites Inherit="False" />
-      <dieFromToxicFallout>False</dieFromToxicFallout>
-      <showGrowthInInspectPane>true</showGrowthInInspectPane>
-      <minSpacingBetweenSamePlant>4.9</minSpacingBetweenSamePlant>
-      <harvestWork>1000</harvestWork>
-     
-    </plant>
-    <comps>
-      <li Class="CompProperties_SelfhealHitpoints">
-        <ticksPerHeal>2000</ticksPerHeal> 
-      </li>
-    </comps>
-  </ThingDef>
 
- 
-  
-  
-  <ThingDef ParentName="ResourceBase">
-    <defName>BioHarbingeSeed</defName>
-    <label>Семя терника</label>
-    <description>Семя куста терника. Его можно посадить, чтобы вырастить новое дерево-предвестник, которое будет есть любые трупы или мясо, размещенные поблизости.</description>
-    <descriptionHyperlinks>
-      <ThingDef>Plant_TreeBioHarbinger</ThingDef>
-    </descriptionHyperlinks>
-    <stackLimit>5</stackLimit>
-    <statBases>
-      <MaxHitPoints>40</MaxHitPoints>
-      <Mass>0.5</Mass>
-      <Beauty>0</Beauty>
-      <MarketValue>600</MarketValue>
-    </statBases>
-    <graphicData>
-      <texPath>Things/Item/BioHarbingeSeed</texPath>
-       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(1, 1)</drawSize>
-    </graphicData>
-    <thingCategories>
-      <li>ItemsMisc</li>
-    </thingCategories>
-    <comps>
-      <li Class="CompProperties_Plantable">
-        <plantDefToSpawn>Plant_TreeBioHarbinger</plantDefToSpawn>
-      </li>
-    </comps>
-  </ThingDef>
-  -->
 </Defs>

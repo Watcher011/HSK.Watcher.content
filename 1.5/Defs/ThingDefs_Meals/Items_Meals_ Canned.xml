@@ -1,6 +1,92 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<ThingDef ParentName="CannedNonMeatBase">
+		<defName>PicklesV</defName>
+		<label>Pickled cucumbers</label>
+		<description>Pickles that have been preserved in a salty brine.</description>
+		<possessionCount>2</possessionCount>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Item/Meal/Pickles</texPath>
+			<drawSize>(0.7,0.7)</drawSize>
+		</graphicData>
+		<thingCategories>
+			<li>Preserves</li>
+			<li>ExtraPlantFoodRaw</li>
+		</thingCategories>
+		<statBases>
+			<MarketValue>9</MarketValue>
+			<Nutrition>0.15</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>RawTasty</preferability>
+			<tasteThought>HadPickles</tasteThought>
+			<foodType>VegetableOrFruit</foodType>
+			<maxNumToIngestAtOnce>2</maxNumToIngestAtOnce>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">  
+				<daysToRotStart>150</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<stackLimit>75</stackLimit>
+	</ThingDef>
+	
+<ThoughtDef>
+		<defName>HadPickles</defName>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>I'm Pickle Rick</label>
+				<description>I ate a delicious pickled cucumber... Maybe the whole jar.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+ <ThingDef ParentName="MealCooked">
+    <defName>SaladSimple</defName>
+    <label>simple salad</label>
+    <description>A simple Salad quickly cooked from simple ingredients.</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Item/Meal/Salad</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>15</MarketValue>
+      <WorkToMake>300</WorkToMake>
+      <Nutrition>0.93</Nutrition>
+    </statBases>
+    <ingestible>
+	  <tasteThought>HadSalad</tasteThought>
+      <preferability>MealSimple</preferability>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+	 <comps>
+      <li Class="CompProperties_Ingredients">
+        <performMergeCompatibilityChecks>false</performMergeCompatibilityChecks>
+        <noIngredientsFoodKind>NonMeat</noIngredientsFoodKind>
+      </li>
+    </comps>
+  </ThingDef>
+<ThoughtDef>
+		<defName>HadSalad</defName>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>I feel the power of the earth</label>
+				<description>I ate a delicious salad and felt a surge of energy.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 
 	<ThingDef ParentName="SK_MealBase">
 		<defName>DruFungus</defName>

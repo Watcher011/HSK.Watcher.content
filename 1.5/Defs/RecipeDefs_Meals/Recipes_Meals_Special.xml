@@ -1,8 +1,146 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+		<RecipeDef>
+		<defName>Make_Pickles</defName>
+		<label>Make Pickled cucumbers</label>
+		<description>Salt the cucumbers and roll them into jars. Produces 3.</description>
+		<jobString>Brewing batch of wort.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<workAmount>1000</workAmount>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>          
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawPickles</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Salt</li>
+					</thingDefs>
+				</filter>
+				<count>0.02</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Emptyjar</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawPickles</li>
+				<li>Salt</li>
+				<li>Emptyjar</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<PicklesV>15</PicklesV>
+		</products>
+		<workSkill>Cooking</workSkill>
+		<recipeUsers>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+			<li>ElectricStove_Pro</li>
+		</recipeUsers>
+		<researchPrerequisite>Food_B1</researchPrerequisite>
+	</RecipeDef>
 	
-
+	
+	
+	<RecipeDef ParentName="CookMealBase">
+    <defName>CookSaladSimple</defName>
+    <label>cook simple Salad</label>
+    <description>Cook a Salad from simple ingredient.</description>
+    <jobString>Cooking simple Salad.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawPickles</li>
+          </thingDefs>
+        </filter>
+        <count>0.5</count>
+      </li>
+	   <li>
+        <filter>
+          <thingDefs>
+            <li>RawTomatoes</li>
+          </thingDefs>
+        </filter>
+        <count>0.5</count>
+      </li>
+    </ingredients>
+    <products>
+      <SaladSimple>1</SaladSimple>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <displayPriority>100</displayPriority>
+	<recipeUsers>
+			<li>TableButcher</li>
+			<li>TableKitchen</li>
+	</recipeUsers>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="CookMealBase">
+    <defName>CookSaladSimpleBulk</defName>
+    <label>cook simple Salad x4</label>
+    <description>Cook 4 simple Salads from simple ingredients.</description>
+    <jobString>Cooking 4 simple meals.</jobString>
+    <workAmount>1200</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+   <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawPickles</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+	   <li>
+        <filter>
+          <thingDefs>
+            <li>RawTomatoes</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <products>
+      <SaladSimple>4</SaladSimple>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <displayPriority>110</displayPriority>
+	<recipeUsers>
+			<li>TableButcher</li>
+			<li>TableKitchen</li>
+	</recipeUsers>
+  </RecipeDef>
+<!--
   <RecipeDef ParentName="CookMealBase">
     <defName>CookMealBera</defName>
     <label>Приготовить салат "Бэра"</label>
@@ -73,5 +211,5 @@
     </products>
     <workSkill>Cooking</workSkill>
     <displayPriority>400</displayPriority>
-  </RecipeDef>
+  </RecipeDef>-->
 </Defs>

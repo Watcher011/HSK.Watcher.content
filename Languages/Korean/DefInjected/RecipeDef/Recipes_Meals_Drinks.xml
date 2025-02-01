@@ -1,6 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+ <Makejar.label>야채 통조림용 병 3개 만들기</Makejar.label>
+<Makejar.description>간단한 유리 통조림 병으로, 통조림을 사실상 영원히 보관할 수 있습니다.</Makejar.description>
+<Makejar.jobString>병 만들기</Makejar.jobString>
+
+<MakeSmeltjar.label>야채 통조림용 병 3개 제련</MakeSmeltjar.label>
+<MakeSmeltjar.description>제련 간단한 유리 통조림 병으로, 통조림을 사실상 영원히 보관할 수 있습니다.</MakeSmeltjar.description>
+<MakeSmeltjar.jobString>병 제련</MakeSmeltjar.jobString>
+
+  <MakePopcorn.label>팝콘 4개 만들기</MakePopcorn.label>
+  <MakePopcorn.description>팝콘 4인분을 만드세요.</MakePopcorn.description>
+  <MakePopcorn.jobString>팝콘 만들기</MakePopcorn.jobString>
+
+
   <!-- <RecipeDef>
 		<defName>BrewChipfir</defName>
 		<label>Заварить Чифир</label>
@@ -211,10 +224,5 @@
 		<workSkill>Cooking</workSkill>
 		<researchPrerequisite>Food_00</researchPrerequisite>
 	</RecipeDef> -->
-
-  <MakePopcorn.label>팝콘 4개 만들기</MakePopcorn.label>
-  <MakePopcorn.description>팝콘 4인분을 만드세요.</MakePopcorn.description>
-  <MakePopcorn.jobString>팝콘 만들기</MakePopcorn.jobString>
-
 
 </LanguageData>

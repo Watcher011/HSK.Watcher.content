@@ -1,6 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+ <Make_Pickles.label>절인 오이 만들기</Make_Pickles.label>
+<Make_Pickles.description>오이에 소금을 뿌리고 병에 담습니다. 3개를 생산합니다.</Make_Pickles.description>
+<Make_Pickles.jobString>맥아즙 양조.</Make_Pickles.jobString>
+
+<CookSaladSimple.label>간단한 샐러드 요리</CookSaladSimple.label>
+<CookSaladSimple.description>간단한 재료로 샐러드 요리</CookSaladSimple.description>
+<CookSaladSimple.jobString>간단한 샐러드 요리</CookSaladSimple.jobString>
+
+<CookSaladSimpleBulk.label>간단한 샐러드 x4 요리</CookSaladSimpleBulk.label>
+<CookSaladSimpleBulk.description>간단한 재료로 간단한 샐러드 4개 요리</CookSaladSimpleBulk.description>
+<CookSaladSimpleBulk.jobString>간단한 요리 4개 식사.</CookSaladSimpleBulk.jobString>
+
+
   <!-- <RecipeDef ParentName="CookMealSpecialBase_SK">
 		<defName>MakeMakiRolls</defName>
 		<label>make maki rolls</label>
@@ -217,14 +230,11 @@
 		</recipeUsers>
 		<researchPrerequisite>Food_C6</researchPrerequisite>
 	</RecipeDef> -->
-
-  <CookMealBera.label>베라 샐러드 준비</CookMealBera.label>
-  <CookMealBera.description>간단하고 맛있는 샐러드</CookMealBera.description>
-  <CookMealBera.jobString>토마토 샐러드를 요리합니다.</CookMealBera.jobString>
-
-  <CookMeal4Bera.label>베라 샐러드 4개 요리</CookMeal4Bera.label>
-  <CookMeal4Bera.description>간단하고 맛있는 샐러드 4인분</CookMeal4Bera.description>
-  <CookMeal4Bera.jobString>토마토 샐러드를 준비하세요.</CookMeal4Bera.jobString>
-
+  <!--<CookMealBera.label>베라 샐러드 준비</CookMealBera.label>-->
+  <!--<CookMealBera.description>간단하고 맛있는 샐러드</CookMealBera.description>-->
+  <!--<CookMealBera.jobString>토마토 샐러드를 요리합니다.</CookMealBera.jobString>-->
+  <!--<CookMeal4Bera.label>베라 샐러드 4개 요리</CookMeal4Bera.label>-->
+  <!--<CookMeal4Bera.description>간단하고 맛있는 샐러드 4인분</CookMeal4Bera.description>-->
+  <!--<CookMeal4Bera.jobString>토마토 샐러드를 준비하세요.</CookMeal4Bera.jobString>-->
 
 </LanguageData>

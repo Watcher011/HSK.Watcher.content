@@ -1,5 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+<CupChipfir.label>칩퍼 머그잔</CupChipfir.label>
+ <CupChipfir.description>치피르는 고농축 차잎을 끓여서 만든 음료입니다. 그것은 정신 자극 효과가 있으며 어떤 면에서는 중독을 유발하는 마취제입니다.</CupChipfir.description>
+ <CupChipfir.ingestible.ingestCommandString>음료 {0}</CupChipfir.ingestible.ingestCommandString>
+ <CupChipfir.ingestible.ingestReportString>음료 {0}.</CupChipfir.ingestible.ingestReportString>
+
+ <Cupwithminttea.label>민트가 들어간 티 한 잔</Cupwithminttea.label>
+ <Cupwithminttea.description>민트차는 신경을 진정시키고 졸음을 유발할 수 있습니다.</Cupwithminttea.description>
+ <Cupwithminttea.ingestible.ingestCommandString>음료 {0}</Cupwithminttea.ingestible.ingestCommandString>
+ <Cupwithminttea.ingestible.ingestReportString>음료 {0}.</Cupwithminttea.ingestible.ingestReportString>
+
+ <CupGreentea.label>녹차 한 잔</CupGreentea.label>
+ <CupGreentea.description>녹차는 차나무 잎으로 만든 음료입니다. 실제로는 홍차와 똑같죠. 두 차의 가장 큰 차이점은 녹차의 경우 발효 과정이 최소화되어 살아 있는 차잎에 더 가깝다는 것입니다. 그리고 차를 더 많이 발효시킬수록, 맛은 더 진해지고, 맛은 더 밝아집니다.</CupGreentea.description>
+ <CupGreentea.ingestible.ingestCommandString>음료 {0}</CupGreentea.ingestible.ingestCommandString>
+ <CupGreentea.ingestible.ingestReportString>음료 {0}.</CupGreentea.ingestible.ingestReportString>
+
+ <RawPuer.label>푸어</RawPuer.label>
+ <RawPuer.description>푸에르차의 가장 큰 특징은 발효 단계인데, 발효에는 다양한 시간이 걸릴 수 있습니다. 이에 관련된 미생물은 차의 화학적 구성과 맛을 크게 변화시킵니다.</RawPuer.description>
+
+ <RawGreen.label>녹차</RawGreen.label>
+ <RawGreen.description>녹차는 차나무 잎으로 만든 음료입니다. 실제로는 홍차와 똑같죠. 두 차의 가장 큰 차이점은 녹차의 경우 발효 과정이 최소화되어 살아 있는 차잎에 더 가깝다는 것입니다. 그리고 차가 더 많이 발효될수록, 맛은 더 진해지고, 맛은 더 밝아집니다.</RawGreen.description>
+
+ <CupPuer.label>푸에르 한 잔</CupPuer.label>
+ <CupPuer.description>치유 음료 한 잔.</CupPuer.description>
+ <CupPuer.ingestible.ingestCommandString>음료 {0}</CupPuer.ingestible.ingestCommandString>
+ <CupPuer.ingestible.ingestReportString>음료 {0}.</CupPuer.ingestible.ingestReportString>
 
   <CupDecaffeinatedCoffee.label>디카페인 커피</CupDecaffeinatedCoffee.label>
   <CupDecaffeinatedCoffee.description>디카페인 커피 한 잔</CupDecaffeinatedCoffee.description>

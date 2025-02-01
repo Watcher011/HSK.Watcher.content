@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+ <Plant_Pickles.label>식물 피클</Plant_Pickles.label>
+ <Plant_Pickles.description>오이 식물은 땅에 뿌리를 내리고 격자나 다른 지지 구조물을 따라 자라며, 얇고 나선형 모양의 덩굴손으로 지지대를 휘감는 덩굴식물입니다. 수경재배를 사용하면 토양이 없는 환경에서도 야채를 재배할 수 있습니다.</Plant_Pickles.description>
+
+
   <!-- <Plant_TreeBioHarbinger.label>가시</Plant_TreeBioHarbinger.label>
   <Plant_TreeBioHarbinger.description>가시는 피에 굶주린 식물로 신체를 천천히 생체물질로 변화시킵니다.</Plant_TreeBioHarbinger.description>
 

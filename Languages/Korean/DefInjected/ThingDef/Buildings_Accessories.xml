@@ -7,13 +7,13 @@
   <KristalWallLamp.description>발광석으로 만든 벽 램프는 비싸고 풍부합니다.</KristalWallLamp.description>
 
   <KristalPlantsWallLamp.label>글로우스톤 식물 벽등</KristalPlantsWallLamp.label>
-<KristalPlantsWallLamp.description>식물을 위한 글로스톤으로 만든 벽등, 비싸고 고급스럽습니다.</KristalPlantsWallLamp.description>
+  <KristalPlantsWallLamp.description>식물을 위한 글로스톤으로 만든 벽등, 비싸고 고급스럽습니다.</KristalPlantsWallLamp.description>
+
+  <CeilingPlantsKristal.label>식물을 위한 야광석 천장 램프</CeilingPlantsKristal.label>
+  <CeilingPlantsKristal.description>이 멋진 천장 램프는 작은 반경에서 밝은 빛을 발산하는 크리스탈 모양의 빛나는 돌로 만들어졌습니다.</CeilingPlantsKristal.description>
 
   <KristalWallLampDark.label>어두운 발광석 벽 램프</KristalWallLampDark.label>
   <KristalWallLampDark.description>"어두운" 발광석으로 만든 벽 램프는 비싸고 풍부합니다.</KristalWallLampDark.description>
-
-<CeilingPlantsKristal.label>식물을 위한 야광석 천장 램프</CeilingPlantsKristal.label>
- <CeilingPlantsKristal.description>이 멋진 천장 램프는 작은 반경에서 밝은 빛을 발산하는 크리스탈 모양의 빛나는 돌로 만들어졌습니다.</CeilingPlantsKristal.description>
 
   <CeilingKristal.label>발광석 천장 램프</CeilingKristal.label>
   <CeilingKristal.description>천장 발광석 램프</CeilingKristal.description>

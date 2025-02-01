@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="PickledVeg"]/graphicData</xpath>
+		<value>
+			<drawSize>(0.7,0.7)</drawSize>
+		</value>
+	</Operation>
+
+
+   <Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="PickleVegetable"]/ingredients</xpath>
+		<value>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Emptyjar</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</value>
+	</Operation>
+
+   
+
+ <Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="PickleVegetable"]/recipeUsers</xpath>
+		<value>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+			<li>ElectricStove_Pro</li>
+		</value>
+	</Operation>
+
+
+</Patch>

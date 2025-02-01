@@ -1,6 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+  <Makejar.label>Make 3 jars for canning vegetables</Makejar.label>
+  <Makejar.description>Simple glass canning jars, you can store canned goods in them practically forever.</Makejar.description>
+  <Makejar.jobString>Creates jars.</Makejar.jobString>
+
+  <MakeSmeltjar.label>Smelt 3 jars for canning vegetables</MakeSmeltjar.label>
+  <MakeSmeltjar.description>Smelt Simple glass canning jars, you can store canned goods in them practically forever</MakeSmeltjar.description>
+  <MakeSmeltjar.jobString>Smelt jar.</MakeSmeltjar.jobString>
+
+  <MakePopcorn.label>Make popcorn x4</MakePopcorn.label>
+  <MakePopcorn.description>Make 4 servings of popcorn.</MakePopcorn.description>
+  <MakePopcorn.jobString>Making popcorn.</MakePopcorn.jobString>
+
+
   <!-- <RecipeDef>
 		<defName>BrewChipfir</defName>
 		<label>Заварить Чифир</label>
@@ -211,10 +224,5 @@
 		<workSkill>Cooking</workSkill>
 		<researchPrerequisite>Food_00</researchPrerequisite>
 	</RecipeDef> -->
-
-  <MakePopcorn.label>Make popcorn x4</MakePopcorn.label>
-  <MakePopcorn.description>Make 4 servings of popcorn.</MakePopcorn.description>
-  <MakePopcorn.jobString>Making popcorn.</MakePopcorn.jobString>
-
 
 </LanguageData>

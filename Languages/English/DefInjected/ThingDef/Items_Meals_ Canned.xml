@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+  <PicklesV.label>Pickled cucumbers</PicklesV.label>
+  <PicklesV.description>Pickles that have been preserved in a salty brine.</PicklesV.description>
+
+  <SaladSimple.label>simple salad</SaladSimple.label>
+  <SaladSimple.description>A simple Salad quickly cooked from simple ingredients.</SaladSimple.description>
+
   <DruFungus.label>Dried mushrooms</DruFungus.label>
   <DruFungus.description>Dried mushrooms are a food product with a specific aroma and taste, obtained by drying fresh edible mushrooms. Dried mushrooms after preliminary soaking can be widely used in cooking, for example in soups, stews, solyanka, sauces, pie fillings, mushroom caviar.</DruFungus.description>
 

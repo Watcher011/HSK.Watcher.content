@@ -31,6 +31,18 @@
   <Make_DriedMushrooms10x.label>마른 버섯 10개</Make_DriedMushrooms10x.label>
   <Make_DriedMushrooms10x.description>신선한 버섯을 말립니다. 이 과정은 1.5일이 소요됩니다.</Make_DriedMushrooms10x.description>
 
+  <Make_TobaccoA.label>make dried tobacco x5</Make_TobaccoA.label>
+  <Make_TobaccoA.description>Make dried tobacco. Takes 3 days to make</Make_TobaccoA.description>
+
+  <Make_Tobacco_x25A.label>make dried tobacco x25</Make_Tobacco_x25A.label>
+  <Make_Tobacco_x25A.description>Make dried tobacco x25. Takes 3 days to make</Make_Tobacco_x25A.description>
+
+  <Make_SmokeleafA.label>make dried smokeleaf x5</Make_SmokeleafA.label>
+  <Make_SmokeleafA.description>Make dried smokeleaf. Takes 4 days to make</Make_SmokeleafA.description>
+
+  <Make_Smokeleaf_x25A.label>make dried smokeleaf x25</Make_Smokeleaf_x25A.label>
+  <Make_Smokeleaf_x25A.description>Make dried smokeleaf. Takes 4 days to make</Make_Smokeleaf_x25A.description>
+
   <Make_DriedFish5x.label>건어물 3개</Make_DriedFish5x.label>
   <Make_DriedFish5x.description>생선을 말립니다. 이 과정은 2일이 소요됩니다.</Make_DriedFish5x.description>
 
@@ -69,6 +81,55 @@
 
   <Make_100Ash.label>애쉬를 100개 만들기</Make_100Ash.label>
   <Make_100Ash.description>애쉬를 만드세요. 만드는데 6일이 걸립니다</Make_100Ash.description>
+<Make_Puer.label>건조 푸에르차</Make_Puer.label>
+ <Make_Puer.description>푸에르차의 가장 큰 특징은 발효 단계인데, 발효에는 다양한 시간이 걸립니다. 이에 관련된 미생물은 차의 화학적 구성과 맛을 크게 변화시킵니다.</Make_Puer.description>
+
+ <Make_Puer_x5.label>건조 푸에르차 x5</Make_Puer_x5.label>
+ <Make_Puer_x5.description>푸에르차의 가장 큰 특징은 발효 단계인데, 발효에는 다양한 시간이 걸립니다. 이에 관련된 미생물은 차의 화학적 구성과 맛을 크게 변화시킵니다.</Make_Puer_x5.description>
+
+ <Make_GreenTea.label>건조녹차</Make_GreenTea.label>
+ <Make_GreenTea.description>녹차는 차나무 잎으로 만든 음료입니다. 실제로는 홍차와 똑같죠. 두 차의 가장 큰 차이점은 녹차의 경우 발효 과정이 최소화되어 살아 있는 차잎에 더 가깝다는 것입니다. 그리고 차를 많이 발효시킬수록, 진한 맛이 나고, 더 밝은 맛이 납니다.</Make_GreenTea.description>
+
+ <Make_GreenTea_x5.label>건조녹차 x5</Make_GreenTea_x5.label>
+ <Make_GreenTea_x5.description>녹차는 차나무 잎으로 만든 음료입니다. 실제로는 홍차와 똑같죠. 두 차의 가장 큰 차이점은 녹차의 경우 발효 과정이 최소화되어 살아 있는 차잎에 더 가깝다는 것입니다. 그리고 차를 많이 발효시킬수록, 진한 맛이 나고, 더 밝은 맛이 납니다.</Make_GreenTea_x5.description>
+
+ <Make_Puerindustrial.label>건조 푸에르차</Make_Puerindustrial.label>
+ <Make_Puerindustrial.description>푸에르의 가장 큰 특징은 발효 단계인데, 발효에는 다양한 시간이 걸릴 수 있습니다. 이에 관련된 미생물은 차의 화학적 구성과 맛을 크게 변화시킵니다.</Make_Puerindustrial.description>
+
+ <Make_Puer_x5industrial.label>건조 푸에르차 x5</Make_Puer_x5industrial.label>
+ <Make_Puer_x5industrial.description>푸에르차의 가장 큰 특징은 발효 단계인데, 발효에는 다양한 시간이 걸린다. 이에 관련된 미생물은 차의 화학적 구성과 맛을 크게 변화시킵니다.</Make_Puer_x5industrial.description>
+
+ <Make_GreenTeaindustrial.label>건조 녹차</Make_GreenTeaindustrial.label>
+ <Make_GreenTeaindustrial.description>녹차는 차나무 잎으로 만든 음료입니다. 실제로는 홍차와 똑같죠. 두 차의 가장 큰 차이점은 녹차의 경우 발효 과정이 최소화되어 살아 있는 차잎에 더 가깝다는 것입니다. 그리고 차를 더 많이 발효시킬수록, 차의 맛은 더 진해지고, 맛은 더 밝아집니다.</Make_GreenTeaindustrial.description>
+
+ <Make_GreenTea_x5industrial.label>건조녹차 x5</Make_GreenTea_x5industrial.label>
+ <Make_GreenTea_x5industrial.description>녹차는 차나무 잎으로 만든 음료입니다. 실제로는 홍차와 똑같죠. 두 차의 가장 큰 차이점은 녹차의 경우 발효 과정이 최소화되어 살아 있는 차잎에 더 가깝다는 것입니다. 그리고 차를 많이 발효시킬수록, 진한 맛이 나고, 더 밝은 맛이 납니다.</Make_GreenTea_x5industrial.description>
+
+ <BrewChipfir.label>치피르 양조</BrewChipfir.label>
+ <BrewChipfir.description>치피르 3인분을 끓입니다.</BrewChipfir.description>
+ <BrewChipfir.jobString>치피르를 끓입니다.</BrewChipfir.jobString>
+
+ <BrewChipfirBulk.label>치피르 한 그릇을 끓이세요</BrewChipfirBulk.label>
+ <BrewChipfirBulk.description>방 전체에 치피르 한 그릇을 끓입니다. 12인분.</BrewChipfirBulk.description>
+ <BrewChipfirBulk.jobString>치피르를 끓입니다.</BrewChipfirBulk.jobString>
+
+ <BrewMintLeaves.label>진정 효과가 있는 민트차를 우려내세요</BrewMintLeaves.label>
+ <BrewMintLeaves.description>민트티 3잔을 우려냅니다.</BrewMintLeaves.description>
+ <BrewMintLeaves.jobString>차를 끓입니다.</BrewMintLeaves.jobString>
+
+ <BrewRawPuer.label>푸에르차 끓이기</BrewRawPuer.label>
+ <BrewRawPuer.description>차 3잔을 우려냅니다.</BrewRawPuer.description>
+ <BrewRawPuer.jobString>차를 끓입니다.</BrewRawPuer.jobString>
+
+ <BrewRawGreen.label>녹차 끓이기</BrewRawGreen.label>
+ <BrewRawGreen.description>차 3잔을 우려내세요. 기생충에 효과가 있다는 소문이 있습니다.</BrewRawGreen.description>
+ <BrewRawGreen.jobString>차를 끓입니다.</BrewRawGreen.jobString>
+
+  <Make_CupDecaffeinatedCoffee.label>디카페인 커피</Make_CupDecaffeinatedCoffee.label>
+  <Make_CupDecaffeinatedCoffee.description>카페인 커피</Make_CupDecaffeinatedCoffee.description>
+
+  <Make_CupStrongCoffee.label>더블 커피</Make_CupStrongCoffee.label>
+  <Make_CupStrongCoffee.description>진한 커피</Make_CupStrongCoffee.description>
 
 
   <!-- <RecipeDef ParentName="Make_DriedTeaBase" Class="UniversalFermenterSK.RecipeDef_UF">
@@ -192,12 +253,5 @@
 
 		<slotsRequired>5</slotsRequired>
 	</RecipeDef> -->
-
-  <Make_CupDecaffeinatedCoffee.label>디카페인 커피</Make_CupDecaffeinatedCoffee.label>
-  <Make_CupDecaffeinatedCoffee.description>카페인 커피</Make_CupDecaffeinatedCoffee.description>
-
-  <Make_CupStrongCoffee.label>더블 커피</Make_CupStrongCoffee.label>
-  <Make_CupStrongCoffee.description>진한 커피</Make_CupStrongCoffee.description>
-
 
 </LanguageData>

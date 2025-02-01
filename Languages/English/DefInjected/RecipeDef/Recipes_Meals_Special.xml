@@ -1,6 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+  <Make_Pickles.label>Make Pickled cucumbers</Make_Pickles.label>
+  <Make_Pickles.description>Salt the cucumbers and roll them into jars. Produces 3.</Make_Pickles.description>
+  <Make_Pickles.jobString>Brewing batch of wort.</Make_Pickles.jobString>
+
+  <CookSaladSimple.label>cook simple Salad</CookSaladSimple.label>
+  <CookSaladSimple.description>Cook a Salad from simple ingredient.</CookSaladSimple.description>
+  <CookSaladSimple.jobString>Cooking simple Salad.</CookSaladSimple.jobString>
+
+  <CookSaladSimpleBulk.label>cook simple Salad x4</CookSaladSimpleBulk.label>
+  <CookSaladSimpleBulk.description>Cook 4 simple Salads from simple ingredients.</CookSaladSimpleBulk.description>
+  <CookSaladSimpleBulk.jobString>Cooking 4 simple meals.</CookSaladSimpleBulk.jobString>
+
+
   <!-- <RecipeDef ParentName="CookMealSpecialBase_SK">
 		<defName>MakeMakiRolls</defName>
 		<label>make maki rolls</label>
@@ -217,14 +230,11 @@
 		</recipeUsers>
 		<researchPrerequisite>Food_C6</researchPrerequisite>
 	</RecipeDef> -->
-
-  <CookMealBera.label>Cook a Bera salad</CookMealBera.label>
-  <CookMealBera.description>A simple, delicious salad.</CookMealBera.description>
-  <CookMealBera.jobString>Cooks a tomato salad.</CookMealBera.jobString>
-
-  <CookMeal4Bera.label>Cook x4 Bera salads</CookMeal4Bera.label>
-  <CookMeal4Bera.description>A simple, delicious salad, 4 servings.</CookMeal4Bera.description>
-  <CookMeal4Bera.jobString>Cooks a tomato salad.</CookMeal4Bera.jobString>
-
+  <!--<CookMealBera.label>Cook a Bera salad</CookMealBera.label>-->
+  <!--<CookMealBera.description>A simple, delicious salad.</CookMealBera.description>-->
+  <!--<CookMealBera.jobString>Cooks a tomato salad.</CookMealBera.jobString>-->
+  <!--<CookMeal4Bera.label>Cook x4 Bera salads</CookMeal4Bera.label>-->
+  <!--<CookMeal4Bera.description>A simple, delicious salad, 4 servings.</CookMeal4Bera.description>-->
+  <!--<CookMeal4Bera.jobString>Cooks a tomato salad.</CookMeal4Bera.jobString>-->
 
 </LanguageData>

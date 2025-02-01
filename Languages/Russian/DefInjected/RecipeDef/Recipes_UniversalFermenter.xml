@@ -31,6 +31,18 @@
   <Make_DriedMushrooms10x.label>Высушить грибы х10</Make_DriedMushrooms10x.label>
   <Make_DriedMushrooms10x.description>Высушить свежие грибы. Процесс занимает 1.5 дня.</Make_DriedMushrooms10x.description>
 
+  <Make_TobaccoA.label>высушить табак x5</Make_TobaccoA.label>
+  <Make_TobaccoA.description>Высушить сырые табачные листья. Процесс занимает 3 дня.</Make_TobaccoA.description>
+
+  <Make_Tobacco_x25A.label>высушить табак x25</Make_Tobacco_x25A.label>
+  <Make_Tobacco_x25A.description>Высушить сырые табачные листья х25. Процесс занимает 3 дня.</Make_Tobacco_x25A.description>
+
+  <Make_SmokeleafA.label>высушить дымолист x5</Make_SmokeleafA.label>
+  <Make_SmokeleafA.description>Высушить сырые листья дымолиста. Процесс занимает 4 дня.</Make_SmokeleafA.description>
+
+  <Make_Smokeleaf_x25A.label>высушить дымолист x25</Make_Smokeleaf_x25A.label>
+  <Make_Smokeleaf_x25A.description>Высушить сырые листья дымолиста х25. Процесс занимает 4 дня.</Make_Smokeleaf_x25A.description>
+
   <Make_DriedFish5x.label>Высушить рыбу х3</Make_DriedFish5x.label>
   <Make_DriedFish5x.description>Высушить рыбу. Процесс занимает 2 дня.</Make_DriedFish5x.description>
 
@@ -70,128 +82,49 @@
   <Make_100Ash.label>сделать пепел x100</Make_100Ash.label>
   <Make_100Ash.description>Сделать пепел. Изготовление занимает 6 дней</Make_100Ash.description>
 
+  <Make_Puer.label>Высушить чай Пуэр</Make_Puer.label>
+  <Make_Puer.description>Главной отличительной чертой пуэров является стадия ферментации, которая может занимать различное время. Участвующие в ней микроорганизмы заметно меняют химический состав и вкусовые качества чая.</Make_Puer.description>
 
-  <!-- <RecipeDef ParentName="Make_DriedTeaBase" Class="UniversalFermenterSK.RecipeDef_UF">
-		<defName>Make_Puer</defName>
-		<label>Высушить чай Пуэр</label>
-		<description>Главной отличительной чертой пуэров является стадия ферментации, которая может занимать различное время. Участвующие в ней микроорганизмы заметно меняют химический состав и вкусовые качества чая.</description>
-		<ingredients>
-		<li>
-				<filter>
-					<thingDefs>
-						<li>RawTea</li>
-					</thingDefs>
-				</filter>
-				<count>5</count>
-			</li>
-		</ingredients>
-		<products>
-			<RawPuer>5</RawPuer>
-		</products>
-	</RecipeDef>
+  <Make_Puer_x5.label>Высушить чай Пуэр x5</Make_Puer_x5.label>
+  <Make_Puer_x5.description>Главной отличительной чертой пуэров является стадия ферментации, которая может занимать различное время. Участвующие в ней микроорганизмы заметно меняют химический состав и вкусовые качества чая.</Make_Puer_x5.description>
 
-	<RecipeDef ParentName="Make_DriedTeaBase" Class="UniversalFermenterSK.RecipeDef_UF">
-		<defName>Make_Puer_x5</defName>
-		<label>Высушить чай Пуэр x5</label>
-		<description>Главной отличительной чертой пуэров является стадия ферментации, которая может занимать различное время. Участвующие в ней микроорганизмы заметно меняют химический состав и вкусовые качества чая.</description>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>RawTea</li>
-					</thingDefs>
-				</filter>
-				<count>25</count>
-			</li>
-		</ingredients>
-		<products>
-			<RawPuer>25</RawPuer>
-		</products>
+  <Make_GreenTea.label>Высушить зелёный чай</Make_GreenTea.label>
+  <Make_GreenTea.description>Зеленый чай — это напиток из листьев чайной камелии. Собственно, как и черный чай. Основное их различие в том, что для зеленого чая процесс ферментации минимален, отчего он становится ближе к живому чайному листу. И чем сильнее чай ферментирован, тем темнее его настой и ярче вкус.</Make_GreenTea.description>
 
-		<slotsRequired>5</slotsRequired>
-	</RecipeDef>
+  <Make_GreenTea_x5.label>Высушить зелёный чай x5</Make_GreenTea_x5.label>
+  <Make_GreenTea_x5.description>Зеленый чай — это напиток из листьев чайной камелии. Собственно, как и черный чай. Основное их различие в том, что для зеленого чая процесс ферментации минимален, отчего он становится ближе к живому чайному листу. И чем сильнее чай ферментирован, тем темнее его настой и ярче вкус.</Make_GreenTea_x5.description>
 
+  <Make_Puerindustrial.label>Высушить чай Пуэр</Make_Puerindustrial.label>
+  <Make_Puerindustrial.description>Главной отличительной чертой пуэров является стадия ферментации, которая может занимать различное время. Участвующие в ней микроорганизмы заметно меняют химический состав и вкусовые качества чая.</Make_Puerindustrial.description>
 
+  <Make_Puer_x5industrial.label>Высушить чай Пуэр x5</Make_Puer_x5industrial.label>
+  <Make_Puer_x5industrial.description>Главной отличительной чертой пуэров является стадия ферментации, которая может занимать различное время. Участвующие в ней микроорганизмы заметно меняют химический состав и вкусовые качества чая.</Make_Puer_x5industrial.description>
 
-<RecipeDef Name="Make_DriedGreenTeaBase" Abstract="True">
-		<fixedIngredientFilter>
-			<categories>
-				<li>FungusPlantRaw</li>
-			</categories>
-		</fixedIngredientFilter>
-		<recipeUsers>
-			<li>DryingRack</li>
-		</recipeUsers>
+  <Make_GreenTeaindustrial.label>Высушить зелёный чай</Make_GreenTeaindustrial.label>
+  <Make_GreenTeaindustrial.description>Зеленый чай — это напиток из листьев чайной камелии. Собственно, как и черный чай. Основное их различие в том, что для зеленого чая процесс ферментации минимален, отчего он становится ближе к живому чайному листу. И чем сильнее чай ферментирован, тем темнее его настой и ярче вкус.</Make_GreenTeaindustrial.description>
 
-	
-		<temperatureSafe>
-			<min>5</min>
-			<max>80</max>
-		</temperatureSafe>
-		<temperatureIdeal>
-			<min>18</min>
-			<max>50</max>
-		</temperatureIdeal>
-		<processDays>12</processDays>
-		<speedBelowSafe>0.05</speedBelowSafe>
-		<speedAboveSafe>0.8</speedAboveSafe>
-		<sunFactor>
-			<min>0.75</min>
-			<max>1.2</max>
-		</sunFactor>
-		<rainFactor>
-			<min>1</min>
-			<max>0</max>
-		</rainFactor>
-		<snowFactor>
-			<min>1</min>
-			<max>0</max>
-		</snowFactor>
-		<windFactor>
-			<min>1</min>
-			<max>1.2</max>
-		</windFactor>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="Make_DriedGreenTeaBase" Class="UniversalFermenterSK.RecipeDef_UF">
-		<defName>Make_GreenTea</defName>
-		<label>Высушить зелёный чай</label>
-		<description>Зеленый чай — это напиток из листьев чайной камелии. Собственно, как и черный чай. Основное их различие в том, что для зеленого чая процесс ферментации минимален, отчего он становится ближе к живому чайному листу. И чем сильнее чай ферментирован, тем темнее его настой и ярче вкус.</description>
-		<ingredients>
-		<li>
-				<filter>
-					<thingDefs>
-						<li>RawTea</li>
-					</thingDefs>
-				</filter>
-				<count>5</count>
-			</li>
-		</ingredients>
-		<products>
-			<RawGreen>5</RawGreen>
-		</products>
-	</RecipeDef>
+  <Make_GreenTea_x5industrial.label>Высушить зелёный чай x5</Make_GreenTea_x5industrial.label>
+  <Make_GreenTea_x5industrial.description>Зеленый чай — это напиток из листьев чайной камелии. Собственно, как и черный чай. Основное их различие в том, что для зеленого чая процесс ферментации минимален, отчего он становится ближе к живому чайному листу. И чем сильнее чай ферментирован, тем темнее его настой и ярче вкус.</Make_GreenTea_x5industrial.description>
 
-	<RecipeDef ParentName="Make_DriedGreenTeaBase" Class="UniversalFermenterSK.RecipeDef_UF">
-		<defName>Make_GreenTea_x5</defName>
-		<label>Высушить зелёный чай x5</label>
-		<description>Зеленый чай — это напиток из листьев чайной камелии. Собственно, как и черный чай. Основное их различие в том, что для зеленого чая процесс ферментации минимален, отчего он становится ближе к живому чайному листу. И чем сильнее чай ферментирован, тем темнее его настой и ярче вкус.</description>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>RawTea</li>
-					</thingDefs>
-				</filter>
-				<count>25</count>
-			</li>
-		</ingredients>
-		<products>
-			<RawGreen>25</RawGreen>
-		</products>
+  <BrewChipfir.label>Заварить Чифир</BrewChipfir.label>
+  <BrewChipfir.description>Заварить 3 порции чифира.</BrewChipfir.description>
+  <BrewChipfir.jobString>Варит чифир</BrewChipfir.jobString>
 
-		<slotsRequired>5</slotsRequired>
-	</RecipeDef> -->
+  <BrewChipfirBulk.label>Заварить тазик чифира</BrewChipfirBulk.label>
+  <BrewChipfirBulk.description>Заварить тазик чифира на всю камеру. 12 порций.</BrewChipfirBulk.description>
+  <BrewChipfirBulk.jobString>Варит чифир</BrewChipfirBulk.jobString>
+
+  <BrewMintLeaves.label>Заварить успокаивающий чай с мятой</BrewMintLeaves.label>
+  <BrewMintLeaves.description>Заварить 3 порции чаю с мятой.</BrewMintLeaves.description>
+  <BrewMintLeaves.jobString>Заваривает чай</BrewMintLeaves.jobString>
+
+  <BrewRawPuer.label>Заварить чай Пуэр</BrewRawPuer.label>
+  <BrewRawPuer.description>Заварить 3 порции чаю.</BrewRawPuer.description>
+  <BrewRawPuer.jobString>Заваривает чай</BrewRawPuer.jobString>
+
+  <BrewRawGreen.label>Заварить зелёный чай</BrewRawGreen.label>
+  <BrewRawGreen.description>Заварить 3 порции чаю. Ходят слухи, что помогает от паразитов.</BrewRawGreen.description>
+  <BrewRawGreen.jobString>Заваривает чай</BrewRawGreen.jobString>
 
   <Make_CupDecaffeinatedCoffee.label>Кофе без Кофеина</Make_CupDecaffeinatedCoffee.label>
   <Make_CupDecaffeinatedCoffee.description>Кофе без Кофеина</Make_CupDecaffeinatedCoffee.description>
@@ -199,16 +132,5 @@
   <Make_CupStrongCoffee.label>Двойной кофе</Make_CupStrongCoffee.label>
   <Make_CupStrongCoffee.description>Крепкий кофе</Make_CupStrongCoffee.description>
 
-
-  <Make_Puer.label>Высушить чай Пуэр</Make_Puer.label>
-  <Make_Puer.description>Главной отличительной чертой пуэров является стадия ферментации, которая может занимать различное время. Участвующие в ней микроорганизмы заметно меняют химический состав и вкусовые качества чая.</Make_Puer.description>
-  <Make_Puer_x5.label>Высушить чай Пуэр x5</Make_Puer_x5.label>
-  <Make_Puer_x5.description>Главной отличительной чертой пуэров является стадия ферментации, которая может занимать различное время. Участвующие в ней микроорганизмы заметно меняют химический состав и вкусовые качества чая.</Make_Puer_x5.description>
-  <Make_GreenTea.label>Высушить зелёный чай</Make_GreenTea.label>
-  <Make_GreenTea.description>Зеленый чай — это напиток из листьев чайной камелии. Собственно, как и черный чай. Основное их различие в том, что для зеленого чая процесс ферментации минимален, отчего он становится ближе к живому чайному листу. И чем сильнее чай ферментирован, тем темнее его настой и ярче вкус.</Make_GreenTea.description>
-  <Make_GreenTea_x5.label>Высушить зелёный чай x5</Make_GreenTea_x5.label>
-  <Make_GreenTea_x5.description>Зеленый чай — это напиток из листьев чайной камелии. Собственно, как и черный чай. Основное их различие в том, что для зеленого чая процесс ферментации минимален, отчего он становится ближе к живому чайному листу. И чем сильнее чай ферментирован, тем темнее его настой и ярче вкус.</Make_GreenTea_x5.description>
-  <ExtractBiomatterSeaweed.label>Извлечь биоматерию из водорослей x20</ExtractBiomatterSeaweed.label>
-  <ExtractBiomatterSeaweed.description>Извлечь биоматерию из водорослей, количество получаемой биоматерии зависит от вида водорослей. Процесс занимает 1.5 дня.</ExtractBiomatterSeaweed.description>
 
 </LanguageData>

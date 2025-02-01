@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+ <PicklesV.label>절인 오이</PicklesV.label>
+<PicklesV.description>소금물에 절인 피클.</PicklesV.description>
+
+<SaladSimple.label>간단한 샐러드</SaladSimple.label>
+<SaladSimple.description>간단한 재료로 빠르게 조리한 간단한 샐러드.</SaladSimple.description>
+
   <DruFungus.label>말린 버섯</DruFungus.label>
   <DruFungus.description>건조버섯은 신선한 식용버섯을 건조시켜 특유의 향과 맛을 지닌 식품입니다. 미리 불린 후 말린 버섯은 수프, 스튜, 솔얀카, 소스, 파이 필링, 버섯 캐비어 등 요리에 널리 사용할 수 있습니다.</DruFungus.description>
 

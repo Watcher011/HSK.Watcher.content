@@ -28,5 +28,30 @@
 			<li>BasicPlantFoodRaw</li>
 		</thingCategories>
 	</ThingDef>
-
+<ThingDef ParentName="SK_PlantFoodRawBase">
+		<defName>RawPickles</defName>
+		<label>Pickles</label>
+		<description>Cucumbers are the fruits of an annual herbaceous plant of the Pumpkin family.</description>
+		<graphicData>
+			<texPath>Things/Veg/Pickles</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.9</MarketValue>
+			<Nutrition>0.08</Nutrition>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<ingestible>
+			<foodType>VegetableOrFruit</foodType>
+			<ingestEffect>EatVegetarian</ingestEffect>
+		</ingestible>
+		<thingCategories>
+			<li>ExtraPlantFoodRaw</li>
+		</thingCategories>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>21</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
 </Defs>

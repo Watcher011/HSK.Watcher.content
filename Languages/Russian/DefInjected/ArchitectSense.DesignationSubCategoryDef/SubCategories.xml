@@ -10,6 +10,9 @@
   <SubCategory_heart.label>Колбы с сердцами</SubCategory_heart.label>
   <SubCategory_heart.description>Сердца легендарных монстров.</SubCategory_heart.description>
 
+  <SubCategory_Sun.label>Лампы для растений</SubCategory_Sun.label>
+  <SubCategory_Sun.description>Различное лампы что позволяют растениям расти.</SubCategory_Sun.description>
+
   <SubCategory_Traps.label>Ловушки</SubCategory_Traps.label>
   <SubCategory_Traps.description>Специальные ловушки для защиты.</SubCategory_Traps.description>
 

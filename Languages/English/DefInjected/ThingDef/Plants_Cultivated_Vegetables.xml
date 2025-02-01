@@ -1,13 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+  <Plant_Pickles.label>Pickles Plant</Plant_Pickles.label>
+  <Plant_Pickles.description>The cucumber plant is a creeping vine that takes root in the ground and grows up trellises or other support structures, twining around the supports with thin, spiral-shaped tendrils. Vegetables can even be grown in a soilless environment using hydroponics.</Plant_Pickles.description>
+
+
   <!--<Plant_TreeBioHarbinger.label>Blackthorn</Plant_TreeBioHarbinger.label>-->
   <!--<Plant_TreeBioHarbinger.description>Blackthorn is a bloodthirsty plant that slowly transforms bodies into biomatter..</Plant_TreeBioHarbinger.description>-->
-
   <!--<BioHarbingeSeed.label>Blackthorn seed</BioHarbingeSeed.label>-->
   <!--<BioHarbingeSeed.description>Blackthorn Bush Seed. Can be planted to grow a new Harbinger Tree that will eat any corpses or meat placed nearby.</BioHarbingeSeed.description>-->
-
-
   <!--<ChoppedStump_BioHarbinger.label>A felled blackthorn stump</ChoppedStump_BioHarbinger.label>-->
   <!--<ChoppedStump_BioHarbinger.description>The stump left after a blackthorn bush has been cut down. The stump can be extracted, but it yields very little usable material. Left in the open, the stump will deteriorate over time.</ChoppedStump_BioHarbinger.description>-->
   <!--<SmashedStump_BioHarbinger.label>crushed blackthorn stump</SmashedStump_BioHarbinger.label>-->

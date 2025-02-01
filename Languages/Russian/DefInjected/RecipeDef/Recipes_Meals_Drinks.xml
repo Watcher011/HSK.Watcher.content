@@ -1,6 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+  <Makejar.label>Сделать 3 банки для консервирования овощей</Makejar.label>
+<Makejar.description>Простые стеклянные банки для консервирования, в них можно хранить консервы практически вечно.</Makejar.description>
+<Makejar.jobString>Создает банки.</Makejar.jobString>
+
+<MakeSmeltjar.label>Переплавить 3 банки для консервирования овощей</MakeSmeltjar.label>
+<MakeSmeltjar.description>Переплавить Простые стеклянные банки для консервирования.</MakeSmeltjar.description>
+<MakeSmeltjar.jobString>Переплавляет банки.</MakeSmeltjar.jobString>
+
+  <MakePopcorn.label>Приготовить попкорн х4</MakePopcorn.label>
+  <MakePopcorn.description>Приготовить попкорн 4 порции.</MakePopcorn.description>
+  <MakePopcorn.jobString>Готовит попкорн</MakePopcorn.jobString>
+
+
   <!-- <RecipeDef>
 		<defName>BrewChipfir</defName>
 		<label>Заварить Чифир</label>
@@ -211,26 +224,20 @@
 		<workSkill>Cooking</workSkill>
 		<researchPrerequisite>Food_00</researchPrerequisite>
 	</RecipeDef> -->
-
-  <MakePopcorn.label>Приготовить попкорн х4</MakePopcorn.label>
-  <MakePopcorn.description>Приготовить попкорн 4 порции.</MakePopcorn.description>
-  <MakePopcorn.jobString>Готовит попкорн</MakePopcorn.jobString>
-
-
-  <BrewChipfir.label>Заварить Чифир</BrewChipfir.label>
-  <BrewChipfir.description>Заварить 3 порции чифира.</BrewChipfir.description>
-  <BrewChipfir.jobString>Варит чифир</BrewChipfir.jobString>
-  <BrewChipfirBulk.label>Заварить тазик чифира</BrewChipfirBulk.label>
-  <BrewChipfirBulk.description>Заварить тазик чифира на всю камеру. 12 порций.</BrewChipfirBulk.description>
-  <BrewChipfirBulk.jobString>Варит чифир</BrewChipfirBulk.jobString>
-  <BrewMintLeaves.label>Заварить успокаивающий чай с мятой</BrewMintLeaves.label>
-  <BrewMintLeaves.description>Заварить 3 порции чаю с мятой.</BrewMintLeaves.description>
-  <BrewMintLeaves.jobString>Заваривает чай</BrewMintLeaves.jobString>
-  <BrewRawPuer.label>Заварить чай Пуэр</BrewRawPuer.label>
-  <BrewRawPuer.description>Заварить 3 порции чаю.</BrewRawPuer.description>
-  <BrewRawPuer.jobString>Заваривает чай</BrewRawPuer.jobString>
-  <BrewRawGreen.label>Заварить зелёный чай</BrewRawGreen.label>
-  <BrewRawGreen.description>Заварить 3 порции чаю. Ходят слухи, что помогает от паразитов.</BrewRawGreen.description>
-  <BrewRawGreen.jobString>Заваривает чай</BrewRawGreen.jobString>
+  <!--<BrewChipfir.label>Заварить Чифир</BrewChipfir.label>-->
+  <!--<BrewChipfir.description>Заварить 3 порции чифира.</BrewChipfir.description>-->
+  <!--<BrewChipfir.jobString>Варит чифир</BrewChipfir.jobString>-->
+  <!--<BrewChipfirBulk.label>Заварить тазик чифира</BrewChipfirBulk.label>-->
+  <!--<BrewChipfirBulk.description>Заварить тазик чифира на всю камеру. 12 порций.</BrewChipfirBulk.description>-->
+  <!--<BrewChipfirBulk.jobString>Варит чифир</BrewChipfirBulk.jobString>-->
+  <!--<BrewMintLeaves.label>Заварить успокаивающий чай с мятой</BrewMintLeaves.label>-->
+  <!--<BrewMintLeaves.description>Заварить 3 порции чаю с мятой.</BrewMintLeaves.description>-->
+  <!--<BrewMintLeaves.jobString>Заваривает чай</BrewMintLeaves.jobString>-->
+  <!--<BrewRawPuer.label>Заварить чай Пуэр</BrewRawPuer.label>-->
+  <!--<BrewRawPuer.description>Заварить 3 порции чаю.</BrewRawPuer.description>-->
+  <!--<BrewRawPuer.jobString>Заваривает чай</BrewRawPuer.jobString>-->
+  <!--<BrewRawGreen.label>Заварить зелёный чай</BrewRawGreen.label>-->
+  <!--<BrewRawGreen.description>Заварить 3 порции чаю. Ходят слухи, что помогает от паразитов.</BrewRawGreen.description>-->
+  <!--<BrewRawGreen.jobString>Заваривает чай</BrewRawGreen.jobString>-->
 
 </LanguageData>

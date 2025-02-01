@@ -1,0 +1,65 @@
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="TemperateForest" or defName="TemperateSwamp" or defName="AridShrubland" or defName="BorealForest"]/wildPlants</xpath>
+		<value>
+			<Plant_Pickles>0.01</Plant_Pickles>
+		</value>
+   </Operation>
+   
+<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>SeedsPlease</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<SeedsPlease.SeedDef ParentName="SeedBase">
+							<defName>Pickles_seeds</defName>
+							<label>семена огурцов</label>
+							<sources>
+								<li>Plant_Pickles</li>
+							</sources>
+							<graphicData>
+								<texPath>Things/Item/Seed/Yadarit1</texPath>
+							</graphicData>
+							 <statBases>
+                                <MarketValue>9</MarketValue>
+                             </statBases>
+						</SeedsPlease.SeedDef>
+					</value>
+				</li>	
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<RecipeDef ParentName="ExtractSeed">
+							<defName>ExtractPicklesseeds</defName>
+							<label>Извлечение семен огурцов</label>
+							<description>Извлечение семен огурцов</description>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>RawPickles</li>
+										</thingDefs>
+									</filter>
+									<count>4</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>RawPickles</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<products>
+								<Pickles_seeds>3</Pickles_seeds>
+							</products>
+						</RecipeDef>
+					</value>
+				</li>			
+			</operations>
+		</match>
+	</Operation>
+</Patch>
