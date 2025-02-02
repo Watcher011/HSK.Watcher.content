@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-		<RecipeDef>
+	<RecipeDef>
 		<defName>Make_Pickles</defName>
 		<label>Make Pickled cucumbers</label>
 		<description>Salt the cucumbers and roll them into jars. Produces 3.</description>
 		<jobString>Brewing batch of wort.</jobString>
 		<workSpeedStat>CookSpeed</workSpeedStat>
-		<workAmount>1000</workAmount>
+		<workAmount>1800</workAmount>
 		<effectWorking>Cook</effectWorking>
-		<soundWorking>Recipe_CookMeal</soundWorking>          
-		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<soundWorking>Recipe_CookMeal</soundWorking>      
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>		
 		<allowMixingIngredients>true</allowMixingIngredients>
-		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
 		<ingredients>
 			<li>
 				<filter>
@@ -20,7 +18,7 @@
 						<li>RawPickles</li>
 					</thingDefs>
 				</filter>
-				<count>3</count>
+				<count>5</count>
 			</li>
 			<li>
 				<filter>
@@ -28,7 +26,7 @@
 						<li>Salt</li>
 					</thingDefs>
 				</filter>
-				<count>0.02</count>
+				<count>0.2</count>
 			</li>
 			<li>
 				<filter>
@@ -41,7 +39,7 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>RawPickles</li>
+			    <li>RawPickles</li>
 				<li>Salt</li>
 				<li>Emptyjar</li>
 			</thingDefs>
@@ -49,12 +47,12 @@
 		<products>
 			<PicklesV>15</PicklesV>
 		</products>
-		<workSkill>Cooking</workSkill>
 		<recipeUsers>
 			<li>ElectricStove</li>
 			<li>FueledStove</li>
 			<li>ElectricStove_Pro</li>
 		</recipeUsers>
+		<workSkill>Cooking</workSkill>
 		<researchPrerequisite>Food_B1</researchPrerequisite>
 	</RecipeDef>
 	

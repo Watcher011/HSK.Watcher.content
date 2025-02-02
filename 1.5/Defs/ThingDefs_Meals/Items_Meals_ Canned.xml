@@ -24,6 +24,13 @@
 			<tasteThought>HadPickles</tasteThought>
 			<foodType>VegetableOrFruit</foodType>
 			<maxNumToIngestAtOnce>2</maxNumToIngestAtOnce>
+			<outcomeDoers>
+				<li Class="SK.IngestionOutcomeDoer_SubtractHediffSeverity">
+					<targetHediff>Hangover</targetHediff>
+					<subtractValue>0.75</subtractValue>
+					<removeIfBelowZero>true</removeIfBelowZero>
+				</li>
+			</outcomeDoers>
 		</ingestible>
 		<comps>
 			<li Class="CompProperties_Rottable">  

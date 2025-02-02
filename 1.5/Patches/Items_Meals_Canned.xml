@@ -8,7 +8,7 @@
 		</value>
 	</Operation>
 
-
+<!--
    <Operation Class="PatchOperationAdd">
 		<xpath>Defs/RecipeDef[defName="PickleVegetable"]/ingredients</xpath>
 		<value>
@@ -22,17 +22,105 @@
 			</li>
 		</value>
 	</Operation>
-
-   
-
- <Operation Class="PatchOperationAdd">
-		<xpath>Defs/RecipeDef[defName="PickleVegetable"]/recipeUsers</xpath>
-		<value>
+-->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs</xpath>
+        <value>
+	<RecipeDef>
+		<defName>PickleVegetable</defName>
+		<label>pickle vegetable</label>
+		<description>Preserve vegetables in a salty brine to prevent spoiling.</description>
+		<jobString>Pickling vegetables.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<workAmount>1800</workAmount>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>          
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<!--<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>-->
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawPotatoes</li>
+						<li>RawCorn</li>
+						<li>Rawbean</li>
+						<li>RawTomatoes</li>
+						<li>RawCarrots</li>
+						<li>Rawmushroom</li>
+						<li>RawAlgae</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Salt</li>
+					</thingDefs>
+				</filter>
+				<count>0.02</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Emptyjar</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawPotatoes</li>
+				<li>RawCorn</li>
+				<li>Rawbean</li>
+				<li>RawTomatoes</li>
+				<li>RawCarrots</li>
+				<li>Rawmushroom</li>
+				<li>RawAlgae</li>
+				<li>Salt</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowPlantFood</li>
+				<li>AllowNonSmeltableWeapons</li>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<products>
+			<PickledVeg>15</PickledVeg>
+		</products>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>RawPotatoes</li>
+				<li>RawCorn</li>
+				<li>Rawbean</li>
+				<li>RawTomatoes</li>
+				<li>RawCarrots</li>
+				<li>Rawmushroom</li>
+				<li>RawAlgae</li>
+				<li>Salt</li>
+			</thingDefs>
+			<disallowedCategories>
+				<li>EggsFertilized</li>
+			</disallowedCategories>
+			<disallowedThingDefs>
+				<li>Meat_Human</li>
+				<li>Meat_Megaspider</li>
+				<li MayRequire="Ludeon.RimWorld.Anomaly">Meat_Twisted</li>
+			</disallowedThingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<recipeUsers>
 			<li>ElectricStove</li>
 			<li>FueledStove</li>
 			<li>ElectricStove_Pro</li>
-		</value>
-	</Operation>
+		</recipeUsers>
+		<researchPrerequisite>Food_B1</researchPrerequisite>
+	</RecipeDef>
+         </value>
+    </Operation>
+
 
 
 </Patch>
