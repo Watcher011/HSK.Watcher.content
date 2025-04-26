@@ -29,12 +29,12 @@
                     <li>industrialDryingRack</li>
                 </value>
             </li>
-            <li Class="PatchOperationAdd">
+          <!--  <li Class="PatchOperationAdd">
                 <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Refinery"]/defNames</xpath>
                 <value>
                     <li>PaintRefiner</li>
                 </value>
-            </li>
+            </li>-->
             <li Class="PatchOperationAdd">
                 <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_SentryTurrets"]/defNames</xpath>
                 <value>

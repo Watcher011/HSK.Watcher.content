@@ -30,7 +30,7 @@
 		</operations>
 	</Operation>
 
-
+<!--
  <Operation Class="PatchOperationAdd">
         <xpath>Defs</xpath>
         <value>
@@ -43,6 +43,14 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(3,3)</drawSize>
 		</graphicData>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<category>Building</category>
+		<tickerType>Normal</tickerType>
+		<canOverlapZones>false</canOverlapZones>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<blockWind>false</blockWind>
+		<castEdgeShadows>false</castEdgeShadows>
 		<stuffCategories>
 			<li>RuggedMetallic</li>
 		</stuffCategories>
@@ -70,7 +78,13 @@
 		<researchPrerequisites>
 			<li>Apparel_D1</li>
 		</researchPrerequisites>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<relatedBuildCommands>
+				<li>RefineryLoadingBay</li>
+			</relatedBuildCommands>
+		</building>
 	</ThingDef>
          </value>
-    </Operation>
+    </Operation>-->
 </Patch>
