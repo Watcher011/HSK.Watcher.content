@@ -2,9 +2,9 @@
 <Defs>
 
   <ThingDef ParentName="BuildingNaturalBase">
-    <defName>HiveAntis</defName>
-    <label>Antis hive</label>
-    <description>A hive of Antis. If activated, it will spawn additional insects and hives over time, as well as valuable insect jelly.</description>
+    <defName>HiveInstectoid</defName>
+    <label>Instectoid hive</label>
+    <description>A hive of Instectoid. If activated, it will spawn additional insects and hives over time, as well as valuable insect jelly.</description>
     <thingClass>Hive</thingClass>
     <graphicData>
       <texPath>Things/Building/Natural/AntisHive</texPath>
@@ -35,7 +35,8 @@
       <li Class="CompProperties_WakeUpDormant" />
       <li Class="CompProperties_SpawnerPawn">
         <spawnablePawnKinds>
-          <li>Huntercarab</li>
+          <li>Antis</li>
+		  <li>Gnawler</li>
         </spawnablePawnKinds>
         <lordJob>LordJob_AssaultColony</lordJob>
         <spawnSound>Hive_Spawn</spawnSound>

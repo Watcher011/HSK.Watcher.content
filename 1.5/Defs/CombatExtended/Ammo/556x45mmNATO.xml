@@ -21,7 +21,7 @@
 			<Ammo_556x45mmNATO_HE>Bullet_556x45mmNATO_HE</Ammo_556x45mmNATO_HE>
 			<Ammo_556x45mmNATO_Sabot>Bullet_556x45mmNATO_Sabot</Ammo_556x45mmNATO_Sabot>
 			<Ammo_556x45mmNATO_Crio>Bullet_556x45mmNATO_Crio</Ammo_556x45mmNATO_Crio>
-			<Ammo_556x45mmNATO_Deadlife>Bullet_556x45mmNATO_Deadlife</Ammo_556x45mmNATO_Deadlife>
+		<!--	<Ammo_556x45mmNATO_Deadlife>Bullet_556x45mmNATO_Deadlife</Ammo_556x45mmNATO_Deadlife>-->
 		</ammoTypes>
 		<similarTo>AmmoSet_RifleIntermediate</similarTo>
 	</CombatExtended.AmmoSetDef>
@@ -44,7 +44,7 @@
 		<cookOffProjectile>Bullet_556x45mmNATO_Crio</cookOffProjectile>
 	</ThingDef>
 	
-	<ThingDef Class="CombatExtended.AmmoDef" ParentName="556x45mmNATOBase">
+	<!--<ThingDef Class="CombatExtended.AmmoDef" ParentName="556x45mmNATOBase">
 		<defName>Ammo_556x45mmNATO_Deadlife</defName>
 		<label>5.56x45mm NATO (Deadlife)</label>
 		<graphicData>
@@ -56,7 +56,7 @@
 		</statBases>
 		<ammoClass>Deadlife</ammoClass>
 		<cookOffProjectile>Bullet_556x45mmNATO_Deadlife</cookOffProjectile>
-	</ThingDef>
+	</ThingDef>-->
 
 	<!-- ================== Projectiles ================== -->
 
@@ -72,7 +72,7 @@
 		</projectile>
 	</ThingDef>
 	
-  <ThingDef ParentName="Base556x45mmNATOBullet">
+  <!--<ThingDef ParentName="Base556x45mmNATOBullet">
 		<defName>Bullet_556x45mmNATO_Deadlife</defName>
 		<label>5.56mm NATO bullet (Deadlife)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
@@ -80,7 +80,7 @@
 			<damageAmountBase>14</damageAmountBase>
 			<armorPenetrationSharp>6</armorPenetrationSharp>
 			<armorPenetrationBlunt>34.18</armorPenetrationBlunt>
-			<!-- <postExplosionSpawnThingDef>Shell_Deadlife_Releasing</postExplosionSpawnThingDef>-->
+			<!{1}** <postExplosionSpawnThingDef>Shell_Deadlife_Releasing</postExplosionSpawnThingDef>**{1}>
 		</projectile>
 		<comps>
 			<li Class="CombatExtended.CompProperties_ExplosiveCE">
@@ -91,7 +91,7 @@
 				<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 			</li>
 		</comps>
-	</ThingDef>
+	</ThingDef>-->
 
 	<ThingDef ParentName="Base556x45mmNATOBullet">
 		<defName>Bullet_556x45mmNATO_Crio</defName>
@@ -176,7 +176,7 @@
 		<workAmount>2200</workAmount>
 	</RecipeDef>
 
-	<RecipeDef ParentName="AmmoRecipeBase">
+	<!--<RecipeDef ParentName="AmmoRecipeBase">
 		<defName>MakeAmmo_556x45mmNATO_Deadlife</defName>
 		<label>make 5.56x45mm NATO (Deadlife) cartridge x80</label>
 		<description>Craft 80 5.56x45mm NATO (Deadlife) cartridges.</description>
@@ -235,5 +235,5 @@
 		</products>
 	   <researchPrerequisite>Machining</researchPrerequisite>
 		<workAmount>1400</workAmount>
-	</RecipeDef>
+	</RecipeDef>-->
 </Defs>

@@ -27,7 +27,7 @@
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<applyDamageToExplosionCellsNeighbors>false</applyDamageToExplosionCellsNeighbors>
 			<preExplosionSpawnChance>1</preExplosionSpawnChance>
-			<preExplosionSpawnThingDef>HiveAntis</preExplosionSpawnThingDef>
+			<preExplosionSpawnThingDef>HiveInstectoid</preExplosionSpawnThingDef>
             <speed>3</speed>			
 			<gravityFactor>1</gravityFactor>
 		</projectile>

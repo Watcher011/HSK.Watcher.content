@@ -13,7 +13,7 @@
 			<Ammo_762x39mmSoviet_HE>Bullet_762x39mmSoviet_HE</Ammo_762x39mmSoviet_HE>
 			<Ammo_762x39mmSoviet_Sabot>Bullet_762x39mmSoviet_Sabot</Ammo_762x39mmSoviet_Sabot>
 			<Ammo_762x39mmSoviet_Crio>Bullet_762x39mmSoviet_Crio</Ammo_762x39mmSoviet_Crio>
-			<Ammo_762x39mmSoviet_Deadlife>Bullet_762x39mmSoviet_Deadlife</Ammo_762x39mmSoviet_Deadlife>
+		<!--	<Ammo_762x39mmSoviet_Deadlife>Bullet_762x39mmSoviet_Deadlife</Ammo_762x39mmSoviet_Deadlife>-->
 		</ammoTypes>
 		<similarTo>AmmoSet_RifleIntermediate</similarTo>
 	</CombatExtended.AmmoSetDef>
@@ -37,7 +37,7 @@
 		<cookOffProjectile>Bullet_762x39mmSoviet_Crio</cookOffProjectile>
 	</ThingDef>
 	
-	<ThingDef Class="CombatExtended.AmmoDef" ParentName="762x39mmSovietBase">
+	<!--<ThingDef Class="CombatExtended.AmmoDef" ParentName="762x39mmSovietBase">
 		<defName>Ammo_762x39mmSoviet_Deadlife</defName>
 		<label>7.62x39mm Soviet (Deadlife)</label>
 		<graphicData>
@@ -50,7 +50,7 @@
 		<ammoClass>Deadlife</ammoClass>
 		<cookOffProjectile>Bullet_762x39mmSoviet_Deadlife</cookOffProjectile>
 	</ThingDef>
-
+-->
 	<!-- ================== Projectiles ================== -->
 
 	<ThingDef ParentName="Base762x39mmSovietBullet">
@@ -69,7 +69,7 @@
 		</projectile>
 	</ThingDef>
 
-
+<!--
 	<ThingDef ParentName="Base762x39mmSovietBullet">
 		<defName>Bullet_762x39mmSoviet_Deadlife</defName>
 		<label>7.62mm Soviet bullet (Deadlife)</label>
@@ -87,7 +87,7 @@
 				<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 			</li>
 		</comps>
-	</ThingDef>
+	</ThingDef>-->
 	<!-- ==================== Recipes ========================== -->
 
 
@@ -153,7 +153,7 @@
 		<workAmount>2600</workAmount>
 	</RecipeDef>
 
-    <RecipeDef ParentName="AdvancedAmmoRecipeBase">
+<!--    <RecipeDef ParentName="AdvancedAmmoRecipeBase">
 		<defName>MakeAmmo_762x39mmSoviet_Deadlife</defName>
 		<label>Сделать 7.62x39mm Soviet (Deadlife) картридж x80</label>
 		<description>Создать 80 7.62x39mm Soviet (Deadlife) картридж.</description>
@@ -213,5 +213,5 @@
 			<Ammo_762x39mmSoviet_Deadlife>80</Ammo_762x39mmSoviet_Deadlife>
 		</products>
 		<workAmount>2600</workAmount>
-	</RecipeDef>
+	</RecipeDef>-->
 </Defs>

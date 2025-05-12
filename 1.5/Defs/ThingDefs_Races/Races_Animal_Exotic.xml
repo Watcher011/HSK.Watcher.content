@@ -533,7 +533,7 @@
         <explodeOnKilled>false</explodeOnKilled>
         <startWickHitPointsPercent>0.166666</startWickHitPointsPercent><!-- ~500 hitpoints -->
         <explosiveDamageType>ToxGas</explosiveDamageType>
-        <postExplosionSpawnThingDef>Hive</postExplosionSpawnThingDef>
+        <postExplosionSpawnThingDef>HiveInstectoid</postExplosionSpawnThingDef>
         <postExplosionSpawnChance>1</postExplosionSpawnChance>
         <applyDamageToExplosionCellsNeighbors>false</applyDamageToExplosionCellsNeighbors>
         <propagationSpeed>0.6</propagationSpeed>
