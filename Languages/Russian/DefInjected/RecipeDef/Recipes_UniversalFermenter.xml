@@ -127,17 +127,17 @@
   <CNCMake_GlowstoneArtCNC.label>Светокаменная Скульптура</CNCMake_GlowstoneArtCNC.label>
   <CNCMake_GlowstoneArtCNC.description>Сделать Светокаменную Скульптуру</CNCMake_GlowstoneArtCNC.description>
 
-  <CNCMake_SimpleMechanismCNC.label>Простой механизм.Производит 15.</CNCMake_SimpleMechanismCNC.label>
-<CNCMake_SimpleMechanismCNC.description>Создание простого механизма. Механизмы — это простые детали, похожие на шестерни, для использования в станках или верстаках. Довольно медленно. Производит 15.</CNCMake_SimpleMechanismCNC.description>
+  <CNCMake_SimpleMechanismCNC.label>собрать простой механизм х15</CNCMake_SimpleMechanismCNC.label>
+<CNCMake_SimpleMechanismCNC.description>собрать простой механизм. Механизмы — это простые детали, похожие на шестерни, для использования в станках или верстаках. Довольно медленно. Производит 15.</CNCMake_SimpleMechanismCNC.description>
 
-<CNCMake_ComponentIndustrialCNC.label>Промышленный Компонент.Производит 15.</CNCMake_ComponentIndustrialCNC.label>
-<CNCMake_ComponentIndustrialCNC.description>Создать Промышленный Компонент. Производит 15.</CNCMake_ComponentIndustrialCNC.description>
+<CNCMake_ComponentIndustrialCNC.label>собрать промышленный компонент х15</CNCMake_ComponentIndustrialCNC.label>
+<CNCMake_ComponentIndustrialCNC.description>собрать промышленный компонент.</CNCMake_ComponentIndustrialCNC.description>
 
-<CNCMake_ElectronicComponentsCNC.label>Электронные компоненты.Производит 15.</CNCMake_ElectronicComponentsCNC.label>
-<CNCMake_ElectronicComponentsCNC.description>Создать электронный компонент Производит 15.</CNCMake_ElectronicComponentsCNC.description>
+<CNCMake_ElectronicComponentsCNC.label>собрать электронные компоненты х15</CNCMake_ElectronicComponentsCNC.label>
+<CNCMake_ElectronicComponentsCNC.description>собрать электронный компонент.</CNCMake_ElectronicComponentsCNC.description>
 
-<CNCMake_ComponentMedievalCNC.label>Средневековый Компонент.Производит 15.</CNCMake_ComponentMedievalCNC.label>
-<CNCMake_ComponentMedievalCNC.description>Создать Средневековый Компонент.Производит 15.</CNCMake_ComponentMedievalCNC.description>
+<CNCMake_ComponentMedievalCNC.label>собрать средневековый компонент х15.</CNCMake_ComponentMedievalCNC.label>
+<CNCMake_ComponentMedievalCNC.description>собрать Средневековый Компонент.</CNCMake_ComponentMedievalCNC.description>
 
   <Make_Puer.label>Высушить чай Пуэр</Make_Puer.label>
   <Make_Puer.description>Главной отличительной чертой пуэров является стадия ферментации, которая может занимать различное время. Участвующие в ней микроорганизмы заметно меняют химический состав и вкусовые качества чая.</Make_Puer.description>
