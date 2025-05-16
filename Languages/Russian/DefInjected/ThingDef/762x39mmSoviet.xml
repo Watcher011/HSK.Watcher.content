@@ -4,13 +4,14 @@
   <!-- Ammo -->
 
   <Ammo_762x39mmSoviet_Crio.label>7.62x39mm Soviet (CR-I)</Ammo_762x39mmSoviet_Crio.label>
-  <Ammo_762x39mmSoviet_Deadlife.label>7.62x39mm Soviet (Мертвая жизнь)</Ammo_762x39mmSoviet_Deadlife.label>
 
 
   <!-- Projectiles -->
 
   <Bullet_762x39mmSoviet_Crio.label>7.62mm Soviet пуля (AP-I)</Bullet_762x39mmSoviet_Crio.label>
-  <Bullet_762x39mmSoviet_Deadlife.label>7.62mm Soviet пуля (Мертвая жизнь)</Bullet_762x39mmSoviet_Deadlife.label>
 
+
+  <!--<Ammo_762x39mmSoviet_Deadlife.label>7.62x39mm Soviet (Мертвая жизнь)</Ammo_762x39mmSoviet_Deadlife.label>-->
+  <!--<Bullet_762x39mmSoviet_Deadlife.label>7.62mm Soviet пуля (Мертвая жизнь)</Bullet_762x39mmSoviet_Deadlife.label>-->
 
 </LanguageData>

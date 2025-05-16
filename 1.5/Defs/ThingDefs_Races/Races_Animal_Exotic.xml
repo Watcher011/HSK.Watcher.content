@@ -529,7 +529,7 @@
 			</li>
 		<li Class="CompProperties_Explosive">
         <wickTicks>589</wickTicks> <!-- Enough time to get out of the way, for novice players who aren't looking when the wick starts -->
-        <explosiveRadius>2</explosiveRadius>
+        <explosiveRadius>4</explosiveRadius>
         <explodeOnKilled>false</explodeOnKilled>
         <startWickHitPointsPercent>0.166666</startWickHitPointsPercent><!-- ~500 hitpoints -->
         <explosiveDamageType>ToxGas</explosiveDamageType>

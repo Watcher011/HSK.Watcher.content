@@ -4,13 +4,34 @@
   <!-- Ammo -->
 
   <Ammo_556x45mmNATO_Crio.label>5.56x45mm NATO (CR-I)</Ammo_556x45mmNATO_Crio.label>
-  <Ammo_556x45mmNATO_Deadlife.label>5.56x45mm NATO (Мертвая жизнь)</Ammo_556x45mmNATO_Deadlife.label>
 
 
-  <!-- Projectiles -->
+  <!-- <ThingDef ParentName="Base556x45mmNATOBullet">
+		<defName>Bullet_556x45mmNATO_Deadlife</defName>
+		<label>5.56mm NATO bullet (Deadlife)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+		    <damageDef>Bullet</damageDef>
+			<damageAmountBase>14</damageAmountBase>
+			<armorPenetrationSharp>6</armorPenetrationSharp>
+			<armorPenetrationBlunt>34.18</armorPenetrationBlunt>
+			<!{1}** <postExplosionSpawnThingDef>Shell_Deadlife_Releasing</postExplosionSpawnThingDef>**{1}>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_ExplosiveCE">
+				<damageAmountBase>1</damageAmountBase>
+				<explosiveDamageType>DeadlifeDust</explosiveDamageType>
+			    <postExplosionGasType>DeadlifeDust</postExplosionGasType>
+				<explosiveRadius>0.1</explosiveRadius>
+				<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			</li>
+		</comps>
+	</ThingDef> -->
 
-  <Bullet_556x45mmNATO_Deadlife.label>5.56mm NATO пуля (Мертвая жизнь)</Bullet_556x45mmNATO_Deadlife.label>
   <Bullet_556x45mmNATO_Crio.label>5.56mm NATO пуля (CR-I)</Bullet_556x45mmNATO_Crio.label>
 
+
+  <!--<Ammo_556x45mmNATO_Deadlife.label>5.56x45mm NATO (Мертвая жизнь)</Ammo_556x45mmNATO_Deadlife.label>-->
+  <!-- Projectiles -->
+  <!--<Bullet_556x45mmNATO_Deadlife.label>5.56mm NATO пуля (Мертвая жизнь)</Bullet_556x45mmNATO_Deadlife.label>-->
 
 </LanguageData>

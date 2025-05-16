@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
- <PicklesV.label>Соленые огурцы</PicklesV.label>
-<PicklesV.description>Огурцы, консервированные в соленом рассоле.</PicklesV.description>
+  <PicklesV.label>Соленые огурцы</PicklesV.label>
+  <PicklesV.description>Огурцы, консервированные в соленом рассоле.</PicklesV.description>
 
-<SaladSimple.label>Леитний салат</SaladSimple.label>
-<SaladSimple.description>Простой салат, быстро приготовленный из простых ингредиентов.</SaladSimple.description>
+  <SaladSimple.label>Леитний салат</SaladSimple.label>
+  <SaladSimple.description>Простой салат, быстро приготовленный из простых ингредиентов.</SaladSimple.description>
 
   <DruFungus.label>Сушеные грибы</DruFungus.label>
   <DruFungus.description>Сушёные грибы — продукт питания со специфическим ароматом и вкусом, получаемый путём сушки свежих съедобных грибов. Сушёные грибы после предварительного замачивания могут широко использоваться в кулинарии, например в супах, рагу, солянке, соусах, начинках для пирогов, грибной икре..</DruFungus.description>

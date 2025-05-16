@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
- <Plant_Pickles.label>Куст Огурцов</Plant_Pickles.label>
-<Plant_Pickles.description>Куст огурцов — это ползучая лиана, которая укореняется в земле и растет по решеткам или другим опорным конструкциям, обвиваясь вокруг опор тонкими спиралевидными усиками. Овощи можно выращивать даже в беспочвенной среде с помощью гидропоники.</Plant_Pickles.description>
+  <Plant_Pickles.label>Куст Огурцов</Plant_Pickles.label>
+  <Plant_Pickles.description>Куст огурцов — это ползучая лиана, которая укореняется в земле и растет по решеткам или другим опорным конструкциям, обвиваясь вокруг опор тонкими спиралевидными усиками. Овощи можно выращивать даже в беспочвенной среде с помощью гидропоники.</Plant_Pickles.description>
 
 
-  <YadaritPlant.label>Ядарит грибница</YadaritPlant.label>
-  <YadaritPlant.description>Ядарит грибница, наследие древних, что извлекает вредные вещества из земли и кристаллизует их.</YadaritPlant.description>
+  <!--<YadaritPlant.label>Ядарит грибница</YadaritPlant.label>-->
+  <!--<YadaritPlant.description>Ядарит грибница, наследие древних, что извлекает вредные вещества из земли и кристаллизует их.</YadaritPlant.description>-->
 
 </LanguageData>

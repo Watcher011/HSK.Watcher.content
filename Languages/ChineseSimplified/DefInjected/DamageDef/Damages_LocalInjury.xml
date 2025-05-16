@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Xray.label>Радиоактивное излучение</Xray.label>
+  <Xray.deathMessage>{0} has been killed.</Xray.deathMessage>
+
+  <NeirotoxGas.label>Нейротоксин</NeirotoxGas.label>
+  <NeirotoxGas.deathMessage>{0} has been killed.</NeirotoxGas.deathMessage>
+
+
+</LanguageData>

@@ -10,7 +10,7 @@
   <CharcoalPit.description>Яма в которой можно из дерева сделать уголь</CharcoalPit.description>
 
 
-  <PaintRefiner.label>Переработчик краски</PaintRefiner.label>
-  <PaintRefiner.description>Перерабатывает химическое топливо в краску.</PaintRefiner.description>
+  <!--<PaintRefiner.label>Переработчик краски</PaintRefiner.label>-->
+  <!--<PaintRefiner.description>Перерабатывает химическое топливо в краску.</PaintRefiner.description>-->
 
 </LanguageData>

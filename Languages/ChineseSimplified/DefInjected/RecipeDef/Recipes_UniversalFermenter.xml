@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Make_DriedMushrooms.label>высушить грибы</Make_DriedMushrooms.label>
+  <Make_DriedMushrooms.description>Высушить свежие грибы. Процесс занимает 2 дня.</Make_DriedMushrooms.description>
+
+  <Make_DriedMushrooms_x5.label>высушить грибы x5</Make_DriedMushrooms_x5.label>
+  <Make_DriedMushrooms_x5.description>Высушить свежие грибы. Процесс занимает 2 дня.</Make_DriedMushrooms_x5.description>
+
+  <Make_DriedFish.label>высушить рыбу</Make_DriedFish.label>
+  <Make_DriedFish.description>Высушить рыбу. Процесс занимает 2 дня.</Make_DriedFish.description>
+
+  <Make_Driedchips.label>высушить чипсы</Make_Driedchips.label>
+  <Make_Driedchips.description>Высушить чипсы. Процесс занимает 3 дня.</Make_Driedchips.description>
+
+  <Make_icecream.label>Создать простое мороженое</Make_icecream.label>
+  <Make_icecream.description>Создать мороженое такое как в детстве</Make_icecream.description>
+
+  <Make_DriedNori.label>высушить водоросли</Make_DriedNori.label>
+  <Make_DriedNori.description>Высушить свежие водоросли. Процесс занимает 2 дня.</Make_DriedNori.description>
+
+  <Make_DriedNori_x5.label>высушить водоросли x5</Make_DriedNori_x5.label>
+  <Make_DriedNori_x5.description>Высушить свежие водоросли. Процесс занимает 2 дня.</Make_DriedNori_x5.description>
+
+  <Make_Ethanol.label>Сделать брагу</Make_Ethanol.label>
+  <Make_Ethanol.description>Произвести примитивный продукт с низким содержанием Этанола. Займёт 2х дней</Make_Ethanol.description>
+
+  <Make_DriedMushrooms5x.label>Высушить грибы х5</Make_DriedMushrooms5x.label>
+  <Make_DriedMushrooms5x.description>Высушить свежие грибы. Процесс занимает 1.5 дня.</Make_DriedMushrooms5x.description>
+
+  <Make_DriedMushrooms10x.label>Высушить грибы х10</Make_DriedMushrooms10x.label>
+  <Make_DriedMushrooms10x.description>Высушить свежие грибы. Процесс занимает 1.5 дня.</Make_DriedMushrooms10x.description>
+
+  <Make_TobaccoA.label>make dried tobacco x5</Make_TobaccoA.label>
+  <Make_TobaccoA.description>Make dried tobacco. Takes 3 days to make</Make_TobaccoA.description>
+
+  <Make_Tobacco_x25A.label>make dried tobacco x25</Make_Tobacco_x25A.label>
+  <Make_Tobacco_x25A.description>Make dried tobacco x25. Takes 3 days to make</Make_Tobacco_x25A.description>
+
+  <Make_SmokeleafA.label>make dried smokeleaf x5</Make_SmokeleafA.label>
+  <Make_SmokeleafA.description>Make dried smokeleaf. Takes 4 days to make</Make_SmokeleafA.description>
+
+  <Make_Smokeleaf_x25A.label>make dried smokeleaf x25</Make_Smokeleaf_x25A.label>
+  <Make_Smokeleaf_x25A.description>Make dried smokeleaf. Takes 4 days to make</Make_Smokeleaf_x25A.description>
+
+  <Make_DriedFish5x.label>Высушить рыбу х3</Make_DriedFish5x.label>
+  <Make_DriedFish5x.description>Высушить рыбу. Процесс занимает 2 дня.</Make_DriedFish5x.description>
+
+  <Make_DriedFish10x.label>Высушить рыбу х9</Make_DriedFish10x.label>
+  <Make_DriedFish10x.description>Высушить рыбу. Процесс занимает 2 дня.</Make_DriedFish10x.description>
+
+  <Make_DriedNori_x05.label>высушить водоросли x5</Make_DriedNori_x05.label>
+  <Make_DriedNori_x05.description>Высушить свежие водоросли. Процесс занимает 2 дня.</Make_DriedNori_x05.description>
+
+  <Make_DriedNori_x10.label>высушить водоросли x10</Make_DriedNori_x10.label>
+  <Make_DriedNori_x10.description>Высушить свежие водоросли. Процесс занимает 2 дня.</Make_DriedNori_x10.description>
+
+  <Make_Jerkyx10.label>make jerky x10</Make_Jerkyx10.label>
+  <Make_Jerkyx10.description>Make jerky meat. Takes 2 days to make</Make_Jerkyx10.description>
+
+  <Make_Jerkyx30.label>make jerky x30</Make_Jerkyx30.label>
+  <Make_Jerkyx30.description>Make jerky meat. Takes 2 days to make</Make_Jerkyx30.description>
+
+  <Make_DriedFruit_x05.label>make dried fruit x5</Make_DriedFruit_x05.label>
+  <Make_DriedFruit_x05.description>Make dried fruit x5. Takes 2 days to make</Make_DriedFruit_x05.description>
+
+  <Make_DriedFruit_x10.label>make dried fruit x10</Make_DriedFruit_x10.label>
+  <Make_DriedFruit_x10.description>Make dried fruit x5. Takes 2 days to make</Make_DriedFruit_x10.description>
+
+  <Make_CoffeeBeans.label>process coffee beans</Make_CoffeeBeans.label>
+  <Make_CoffeeBeans.description>process coffee beans from berries. Pulp, ferment and dry. Takes 5 days to make</Make_CoffeeBeans.description>
+
+  <Make_CoffeeBeans_x5.label>process coffee beans x5</Make_CoffeeBeans_x5.label>
+  <Make_CoffeeBeans_x5.description>process coffee beans x5 from berries. Pulp, ferment and dry. Takes 5 days to make</Make_CoffeeBeans_x5.description>
+
+  <Make_20Charcoal.label>make Charcoal x20</Make_20Charcoal.label>
+  <Make_20Charcoal.description>Make Charcoal. Takes 3 days to make</Make_20Charcoal.description>
+
+  <Make_90Carcoal.label>make Charcoal x90</Make_90Carcoal.label>
+  <Make_90Carcoal.description>Make Charcoal. Takes 6 days to make</Make_90Carcoal.description>
+
+  <Make_100Ash.label>make Ash x100</Make_100Ash.label>
+  <Make_100Ash.description>Make Ash. Takes 6 days to make</Make_100Ash.description>
+
+  <CNCMake_SculptureSmall.label>Sculpture Small CNC</CNCMake_SculptureSmall.label>
+  <CNCMake_SculptureSmall.description>Make Sculpture Small CNC</CNCMake_SculptureSmall.description>
+
+  <CNCMake_SculptureLargeCNC.label>Sculpture Large CNC</CNCMake_SculptureLargeCNC.label>
+  <CNCMake_SculptureLargeCNC.description>Make Sculpture Large CNC</CNCMake_SculptureLargeCNC.description>
+
+  <CNCMake_SculptureGrandCNC.label>Sculpture Grand CNC</CNCMake_SculptureGrandCNC.label>
+  <CNCMake_SculptureGrandCNC.description>Make Sculpture Grand CNC</CNCMake_SculptureGrandCNC.description>
+
+  <CNCMake_MuffaloArtCNC.label>Muffalo Art CNC</CNCMake_MuffaloArtCNC.label>
+  <CNCMake_MuffaloArtCNC.description>Make Muffalo Art CNC</CNCMake_MuffaloArtCNC.description>
+
+  <CNCMake_QueenArtCNC.label>Queen Art CNC</CNCMake_QueenArtCNC.label>
+  <CNCMake_QueenArtCNC.description>Make Queen Art CNC</CNCMake_QueenArtCNC.description>
+
+  <CNCMake_NymphArtCNC.label>Nymph Art CNC</CNCMake_NymphArtCNC.label>
+  <CNCMake_NymphArtCNC.description>Make Nymph Art CNC</CNCMake_NymphArtCNC.description>
+
+  <CNCMake_GreenyArtCNC.label>Greeny Art CNC</CNCMake_GreenyArtCNC.label>
+  <CNCMake_GreenyArtCNC.description>Make Greeny Art CNC</CNCMake_GreenyArtCNC.description>
+
+  <CNCMake_WolfArtCNC.label>Wolf Art CNC</CNCMake_WolfArtCNC.label>
+  <CNCMake_WolfArtCNC.description>Make Wolf Art CNC</CNCMake_WolfArtCNC.description>
+
+  <CNCMake_DragonArtCNC.label>Dragon Art CNC</CNCMake_DragonArtCNC.label>
+  <CNCMake_DragonArtCNC.description>Make Dragon Art CNC</CNCMake_DragonArtCNC.description>
+
+  <CNCMake_ZeonArtCNC.label>Zeon Art CNC</CNCMake_ZeonArtCNC.label>
+  <CNCMake_ZeonArtCNC.description>Make Zeon Art CNC</CNCMake_ZeonArtCNC.description>
+
+  <CNCMake_DecorativeUrnSmallCNC.label>Decorative Urn Small CNC</CNCMake_DecorativeUrnSmallCNC.label>
+  <CNCMake_DecorativeUrnSmallCNC.description>Make Decorative Urn Small CNC</CNCMake_DecorativeUrnSmallCNC.description>
+
+  <CNCMake_SmallPotteryCNC.label>Small Pottery CNC</CNCMake_SmallPotteryCNC.label>
+  <CNCMake_SmallPotteryCNC.description>Make Small Pottery CNC</CNCMake_SmallPotteryCNC.description>
+
+  <CNCMake_PotteryDisplayCNC.label>Pottery Display CNC</CNCMake_PotteryDisplayCNC.label>
+  <CNCMake_PotteryDisplayCNC.description>Make Pottery Display CNC</CNCMake_PotteryDisplayCNC.description>
+
+  <CNCMake_CatArtCNC.label>Cat Art CNC</CNCMake_CatArtCNC.label>
+  <CNCMake_CatArtCNC.description>Make Cat Art CNC</CNCMake_CatArtCNC.description>
+
+  <CNCMake_GlowstoneArtCNC.label>Glowstone Art CNC</CNCMake_GlowstoneArtCNC.label>
+  <CNCMake_GlowstoneArtCNC.description>Make Glowstone Art CNC</CNCMake_GlowstoneArtCNC.description>
+
+  <CNCMake_SimpleMechanismCNC.label>Simple Mechanism CNC.Produces 15.</CNCMake_SimpleMechanismCNC.label>
+  <CNCMake_SimpleMechanismCNC.description>Make Simple Mechanism CNC Assemble mechanisms. Mechanisms are simple gear-like parts for use in machines or workbenches. Quite slow. Produces 15.</CNCMake_SimpleMechanismCNC.description>
+
+  <CNCMake_ComponentIndustrialCNC.label>Component Industrial CNC.Produces 15.</CNCMake_ComponentIndustrialCNC.label>
+  <CNCMake_ComponentIndustrialCNC.description>Make a component CNC Produces 15.</CNCMake_ComponentIndustrialCNC.description>
+
+  <CNCMake_ElectronicComponentsCNC.label>Electronic Components CNC.Produces 15.</CNCMake_ElectronicComponentsCNC.label>
+  <CNCMake_ElectronicComponentsCNC.description>Make a Electronic Components CNC Produces 15.</CNCMake_ElectronicComponentsCNC.description>
+
+  <CNCMake_ComponentMedievalCNC.label>Component Medieval CNC.Produces 15.</CNCMake_ComponentMedievalCNC.label>
+  <CNCMake_ComponentMedievalCNC.description>Make a Component Medieval CNC Produces 15.</CNCMake_ComponentMedievalCNC.description>
+
+  <Make_Puer.label>Высушить чай Пуэр</Make_Puer.label>
+  <Make_Puer.description>Главной отличительной чертой пуэров является стадия ферментации, которая может занимать различное время. Участвующие в ней микроорганизмы заметно меняют химический состав и вкусовые качества чая.</Make_Puer.description>
+
+  <Make_Puer_x5.label>Высушить чай Пуэр x5</Make_Puer_x5.label>
+  <Make_Puer_x5.description>Главной отличительной чертой пуэров является стадия ферментации, которая может занимать различное время. Участвующие в ней микроорганизмы заметно меняют химический состав и вкусовые качества чая.</Make_Puer_x5.description>
+
+  <Make_GreenTea.label>Высушить зелёный чай</Make_GreenTea.label>
+  <Make_GreenTea.description>Зеленый чай — это напиток из листьев чайной камелии. Собственно, как и черный чай. Основное их различие в том, что для зеленого чая процесс ферментации минимален, отчего он становится ближе к живому чайному листу. И чем сильнее чай ферментирован, тем темнее его настой и ярче вкус.</Make_GreenTea.description>
+
+  <Make_GreenTea_x5.label>Высушить зелёный чай x5</Make_GreenTea_x5.label>
+  <Make_GreenTea_x5.description>Зеленый чай — это напиток из листьев чайной камелии. Собственно, как и черный чай. Основное их различие в том, что для зеленого чая процесс ферментации минимален, отчего он становится ближе к живому чайному листу. И чем сильнее чай ферментирован, тем темнее его настой и ярче вкус.</Make_GreenTea_x5.description>
+
+  <Make_Puerindustrial.label>Высушить чай Пуэр</Make_Puerindustrial.label>
+  <Make_Puerindustrial.description>Главной отличительной чертой пуэров является стадия ферментации, которая может занимать различное время. Участвующие в ней микроорганизмы заметно меняют химический состав и вкусовые качества чая.</Make_Puerindustrial.description>
+
+  <Make_Puer_x5industrial.label>Высушить чай Пуэр x5</Make_Puer_x5industrial.label>
+  <Make_Puer_x5industrial.description>Главной отличительной чертой пуэров является стадия ферментации, которая может занимать различное время. Участвующие в ней микроорганизмы заметно меняют химический состав и вкусовые качества чая.</Make_Puer_x5industrial.description>
+
+  <Make_GreenTeaindustrial.label>Высушить зелёный чай</Make_GreenTeaindustrial.label>
+  <Make_GreenTeaindustrial.description>Зеленый чай — это напиток из листьев чайной камелии. Собственно, как и черный чай. Основное их различие в том, что для зеленого чая процесс ферментации минимален, отчего он становится ближе к живому чайному листу. И чем сильнее чай ферментирован, тем темнее его настой и ярче вкус.</Make_GreenTeaindustrial.description>
+
+  <Make_GreenTea_x5industrial.label>Высушить зелёный чай x5</Make_GreenTea_x5industrial.label>
+  <Make_GreenTea_x5industrial.description>Зеленый чай — это напиток из листьев чайной камелии. Собственно, как и черный чай. Основное их различие в том, что для зеленого чая процесс ферментации минимален, отчего он становится ближе к живому чайному листу. И чем сильнее чай ферментирован, тем темнее его настой и ярче вкус.</Make_GreenTea_x5industrial.description>
+
+  <BrewChipfir.label>Заварить Чифир</BrewChipfir.label>
+  <BrewChipfir.description>Заварить 3 порции чифира.</BrewChipfir.description>
+  <BrewChipfir.jobString>Варит чифир</BrewChipfir.jobString>
+
+  <BrewChipfirBulk.label>Заварить тазик чифира</BrewChipfirBulk.label>
+  <BrewChipfirBulk.description>Заварить тазик чифира на всю камеру. 12 порций.</BrewChipfirBulk.description>
+  <BrewChipfirBulk.jobString>Варит чифир</BrewChipfirBulk.jobString>
+
+  <BrewMintLeaves.label>Заварить успокаивающий чай с мятой</BrewMintLeaves.label>
+  <BrewMintLeaves.description>Заварить 3 порции чаю с мятой.</BrewMintLeaves.description>
+  <BrewMintLeaves.jobString>Заваривает чай</BrewMintLeaves.jobString>
+
+  <BrewRawPuer.label>Заварить чай Пуэр</BrewRawPuer.label>
+  <BrewRawPuer.description>Заварить 3 порции чаю.</BrewRawPuer.description>
+  <BrewRawPuer.jobString>Заваривает чай</BrewRawPuer.jobString>
+
+  <BrewRawGreen.label>Заварить зелёный чай</BrewRawGreen.label>
+  <BrewRawGreen.description>Заварить 3 порции чаю.Ходят слухи что помагает от паразитов.</BrewRawGreen.description>
+  <BrewRawGreen.jobString>Заваривает чай</BrewRawGreen.jobString>
+
+  <Make_CupDecaffeinatedCoffee.label>Кофе без Кофеина х2</Make_CupDecaffeinatedCoffee.label>
+  <Make_CupDecaffeinatedCoffee.description>Кофе без Кофеина</Make_CupDecaffeinatedCoffee.description>
+
+  <Make_CupStrongCoffee.label>Двойной кофе</Make_CupStrongCoffee.label>
+  <Make_CupStrongCoffee.description>Крепкий кофе</Make_CupStrongCoffee.description>
+
+
+</LanguageData>

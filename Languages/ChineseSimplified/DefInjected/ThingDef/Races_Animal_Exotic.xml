@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bombardier.label>Bombardier</Bombardier.label>
+  <Bombardier.description>Bombardiers are not particularly dangerous when alone, but they can be very dangerous when in packs. It is a social creature that cannot reproduce individually.</Bombardier.description>
+  <Bombardier.verbs.0.label>launch Acid</Bombardier.verbs.0.label>
+  <Bombardier.tools.0.label>Left foreleg</Bombardier.tools.0.label>
+  <Bombardier.tools.1.label>Right foreleg</Bombardier.tools.1.label>
+  <Bombardier.tools.3.label>head</Bombardier.tools.3.label>
+
+  <Huntercarab.label>Huntercarab</Huntercarab.label>
+  <Huntercarab.description>A large, genetically-engineered Insect. Once the worker caste of an artificial ecosystem of insectoids designed to fight mechanoid invasions, it is now often seen without its deadlier insectoid cousins. Still, its size and hard shell make it dangerous when it attacks. A eusocial creature, it cannot reproduce individually.</Huntercarab.description>
+  <Huntercarab.tools.0.label>mandibles</Huntercarab.tools.0.label>
+  <Huntercarab.tools.1.label>head</Huntercarab.tools.1.label>
+
+  <QueenBug.label>Queen Bug</QueenBug.label>
+  <QueenBug.description>A rare representative of insectoids, there are legends that the destroyed settlements full of beetles are the work of the paws of Myasnaya Zina.</QueenBug.description>
+  <QueenBug.verbs.0.label>launch Cocon</QueenBug.verbs.0.label>
+  <QueenBug.tools.0.label>Left foreleg</QueenBug.tools.0.label>
+  <QueenBug.tools.1.label>Right foreleg</QueenBug.tools.1.label>
+  <QueenBug.tools.3.label>head</QueenBug.tools.3.label>
+
+
+</LanguageData>

@@ -1051,5 +1051,584 @@
 		<graphicSuffix>_closed</graphicSuffix>
 	</RecipeDef>
 	
+
+	
+	<RecipeDef ParentName="GlitterpediaModExtBase" Name="Make_CNCmachineBase" Abstract="True">
+		<recipeUsers>
+			<li>CNCmachine</li>
+		</recipeUsers>
+		<fixedIngredientFilter>
+			<categories>
+                 <li>Woody</li>
+                <li>Ceramic</li>
+         		<li>Metallic</li>
+				<li>StoneBlocks</li>	
+			</categories>
+		</fixedIngredientFilter>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_CNCmachineBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>CNCMake_SculptureSmall</defName>
+		<label>Sculpture Small CNC</label>
+		<description>Make Sculpture Small CNC</description>
+		<processDays>0.5</processDays>
+		<ingredients>
+		    <li>
+				<filter>
+				<categories>
+                <li>Woody</li>
+                <li>Ceramic</li>
+         		<li>Metallic</li>
+				<li>StoneBlocks</li>
+			     </categories>
+				</filter>
+				<count>60</count>
+			</li>
+		</ingredients>
+		<products>
+			<SculptureSmallCNC>1</SculptureSmallCNC>
+		</products>
+		<researchPrerequisite>Art_B1</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_CNCmachineBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>CNCMake_SculptureLargeCNC</defName>
+		<label>Sculpture Large CNC</label>
+		<description>Make Sculpture Large CNC</description>
+		<processDays>1.5</processDays>
+		<ingredients>
+		    <li>
+				<filter>
+				<categories>
+                <li>Woody</li>
+                <li>Ceramic</li>
+         		<li>Metallic</li>
+				<li>StoneBlocks</li>
+			     </categories>
+				</filter>
+				<count>110</count>
+			</li>
+		</ingredients>
+		<products>
+			<SculptureLargeCNC>1</SculptureLargeCNC>
+		</products>
+		<researchPrerequisite>Art_B2</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_CNCmachineBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>CNCMake_SculptureGrandCNC</defName>
+		<label>Sculpture Grand CNC</label>
+		<description>Make Sculpture Grand CNC</description>
+		<processDays>2</processDays>
+		<ingredients>
+		    <li>
+				<filter>
+				<categories>
+                <li>Woody</li>
+                <li>Ceramic</li>
+         		<li>Metallic</li>
+				<li>StoneBlocks</li>
+			     </categories>
+				</filter>
+				<count>200</count>
+			</li>
+		</ingredients>
+		<products>
+			<SculptureGrandCNC>1</SculptureGrandCNC>
+		</products>
+		<researchPrerequisite>Art_B2</researchPrerequisite>
+	</RecipeDef>
+	
+	
+		
+	<RecipeDef ParentName="Make_CNCmachineBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>CNCMake_MuffaloArtCNC</defName>
+		<label>Muffalo Art CNC</label>
+		<description>Make Muffalo Art CNC</description>
+		<processDays>2</processDays>
+		<ingredients>
+		    <li>
+				<filter>
+				<categories>
+                <li>Woody</li>
+                <li>Ceramic</li>
+         		<li>Metallic</li>
+				<li>StoneBlocks</li>
+			     </categories>
+				</filter>
+				<count>250</count>
+			</li>
+		</ingredients>
+		<products>
+			<MuffaloArtCNC>1</MuffaloArtCNC>
+		</products>
+		<researchPrerequisite>Art_C1</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_CNCmachineBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>CNCMake_QueenArtCNC</defName>
+		<label>Queen Art CNC</label>
+		<description>Make Queen Art CNC</description>
+		<processDays>2</processDays>
+		<ingredients>
+		    <li>
+				<filter>
+				<categories>
+                <li>Woody</li>
+                <li>Ceramic</li>
+         		<li>Metallic</li>
+				<li>StoneBlocks</li>
+			     </categories>
+				</filter>
+				<count>160</count>
+			</li>
+		</ingredients>
+		<products>
+			<QueenArtCNC>1</QueenArtCNC>
+		</products>
+		<researchPrerequisite>Art_C1</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_CNCmachineBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>CNCMake_NymphArtCNC</defName>
+		<label>Nymph Art CNC</label>
+		<description>Make Nymph Art CNC</description>
+		<processDays>2</processDays>
+		<ingredients>
+		    <li>
+				<filter>
+				<categories>
+                <li>Woody</li>
+                <li>Ceramic</li>
+         		<li>Metallic</li>
+				<li>StoneBlocks</li>
+			     </categories>
+				</filter>
+				<count>165</count>
+			</li>
+		</ingredients>
+		<products>
+			<NymphArtCNC>1</NymphArtCNC>
+		</products>
+		<researchPrerequisite>Art_C1</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_CNCmachineBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>CNCMake_GreenyArtCNC</defName>
+		<label>Greeny Art CNC</label>
+		<description>Make Greeny Art CNC</description>
+		<processDays>2</processDays>
+		<ingredients>
+		    <li>
+				<filter>
+				<categories>
+                <li>Woody</li>
+                <li>Ceramic</li>
+         		<li>Metallic</li>
+				<li>StoneBlocks</li>
+			     </categories>
+				</filter>
+				<count>170</count>
+			</li>
+		</ingredients>
+		<products>
+			<GreenyArtCNC>1</GreenyArtCNC>
+		</products>
+		<researchPrerequisite>Art_C1</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_CNCmachineBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>CNCMake_WolfArtCNC</defName>
+		<label>Wolf Art CNC</label>
+		<description>Make Wolf Art CNC</description>
+		<processDays>2</processDays>
+		<ingredients>
+		    <li>
+				<filter>
+				<categories>
+                <li>Woody</li>
+                <li>Ceramic</li>
+         		<li>Metallic</li>
+				<li>StoneBlocks</li>
+			     </categories>
+				</filter>
+				<count>160</count>
+			</li>
+		</ingredients>
+		<products>
+			<WolfArtCNC>1</WolfArtCNC>
+		</products>
+		<researchPrerequisite>Art_C1</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_CNCmachineBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>CNCMake_DragonArtCNC</defName>
+		<label>Dragon Art CNC</label>
+		<description>Make Dragon Art CNC</description>
+		<processDays>2</processDays>
+		<ingredients>
+		    <li>
+				<filter>
+				<categories>
+                <li>Woody</li>
+                <li>Ceramic</li>
+         		<li>Metallic</li>
+				<li>StoneBlocks</li>
+			     </categories>
+				</filter>
+				<count>175</count>
+			</li>
+		</ingredients>
+		<products>
+			<DragonArtCNC>1</DragonArtCNC>
+		</products>
+		<researchPrerequisite>Art_C1</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_CNCmachineBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>CNCMake_ZeonArtCNC</defName>
+		<label>Zeon Art CNC</label>
+		<description>Make Zeon Art CNC</description>
+		<processDays>2</processDays>
+		<ingredients>
+		    <li>
+				<filter>
+				<categories>
+                <li>Woody</li>
+                <li>Ceramic</li>
+         		<li>Metallic</li>
+				<li>StoneBlocks</li>
+			     </categories>
+				</filter>
+				<count>170</count>
+			</li>
+		</ingredients>
+		<products>
+			<ZeonArtCNC>1</ZeonArtCNC>
+		</products>
+		<researchPrerequisite>Art_C1</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_CNCmachineBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>CNCMake_DecorativeUrnSmallCNC</defName>
+		<label>Decorative Urn Small CNC</label>
+		<description>Make Decorative Urn Small CNC</description>
+		<processDays>0.5</processDays>
+		<ingredients>
+		    <li>
+				<filter>
+				<categories>
+                <li>Woody</li>
+                <li>Ceramic</li>
+         		<li>Metallic</li>
+				<li>StoneBlocks</li>
+			     </categories>
+				</filter>
+				<count>60</count>
+			</li>
+		</ingredients>
+		<products>
+			<DecorativeUrnSmallCNC>1</DecorativeUrnSmallCNC>
+		</products>
+		<researchPrerequisite>Art_B1</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_CNCmachineBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>CNCMake_SmallPotteryCNC</defName>
+		<label>Small Pottery CNC</label>
+		<description>Make Small Pottery CNC</description>
+		<processDays>0.5</processDays>
+		<ingredients>
+		    <li>
+				<filter>
+				<categories>
+                <li>Woody</li>
+                <li>Ceramic</li>
+         		<li>Metallic</li>
+				<li>StoneBlocks</li>
+			     </categories>
+				</filter>
+				<count>45</count>
+			</li>
+		</ingredients>
+		<products>
+			<SmallPotteryCNC>1</SmallPotteryCNC>
+		</products>
+		<researchPrerequisite>Art_B1</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_CNCmachineBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>CNCMake_PotteryDisplayCNC</defName>
+		<label>Pottery Display CNC</label>
+		<description>Make Pottery Display CNC</description>
+		<processDays>1</processDays>
+		<ingredients>
+		    <li>
+				<filter>
+				<categories>
+                <li>Woody</li>
+                <li>Ceramic</li>
+         		<li>Metallic</li>
+				<li>StoneBlocks</li>
+			     </categories>
+				</filter>
+				<count>150</count>
+			</li>
+		</ingredients>
+		<products>
+			<PotteryDisplayCNC>1</PotteryDisplayCNC>
+		</products>
+		<researchPrerequisite>Art_B1</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_CNCmachineBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>CNCMake_CatArtCNC</defName>
+		<label>Cat Art CNC</label>
+		<description>Make Cat Art CNC</description>
+		<processDays>1</processDays>
+		<ingredients>
+		    <li>
+				<filter>
+				<categories>
+                <li>Woody</li>
+                <li>Ceramic</li>
+         		<li>Metallic</li>
+				<li>StoneBlocks</li>
+			     </categories>
+				</filter>
+				<count>80</count>
+			</li>
+		</ingredients>
+		<products>
+			<CatArtCNC>1</CatArtCNC>
+		</products>
+		<researchPrerequisite>Art_B1</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_CNCmachineBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>CNCMake_GlowstoneArtCNC</defName>
+		<label>Glowstone Art CNC</label>
+		<description>Make Glowstone Art CNC</description>
+		<processDays>3</processDays>
+		<ingredients>
+		    <li>
+				<filter>
+				<categories>
+                <li>Woody</li>
+                <li>Ceramic</li>
+         		<li>Metallic</li>
+				<li>StoneBlocks</li>
+			     </categories>
+				</filter>
+				<count>180</count>
+			</li>
+			 <li>
+             <filter>
+             <thingDefs>
+             <li>Glowstone</li>
+             </thingDefs>
+             </filter>
+                <count>180</count>
+      </li>
+		</ingredients>
+		<products>
+			<GlowstoneArtCNC>1</GlowstoneArtCNC>
+		</products>
+		<researchPrerequisite>Art_B1</researchPrerequisite>
+	</RecipeDef>
+	
+	
+	
+	<RecipeDef ParentName="GlitterpediaModExtBase" Name="Make_CNCMechanismBase" Abstract="True">
+		<recipeUsers>
+			<li>CNCmachine</li>
+		</recipeUsers>
+		<fixedIngredientFilter>
+			<categories>
+         		<li>Metallic</li>
+			</categories>
+		</fixedIngredientFilter>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="GlitterpediaModExtBase" Name="Make_CNCComponentMedievalBase" Abstract="True">
+		<recipeUsers>
+			<li>CNCmachine</li>
+		</recipeUsers>
+		<fixedIngredientFilter>
+			<categories>
+         	   <li>Woody</li>
+			</categories>
+		</fixedIngredientFilter>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_CNCMechanismBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>CNCMake_SimpleMechanismCNC</defName>
+		<label>Simple Mechanism CNC.Produces 15.</label>
+		<description>Make Simple Mechanism CNC Assemble mechanisms. Mechanisms are simple gear-like parts for use in machines or workbenches. Quite slow. Produces 15.</description>
+		<processDays>1</processDays>
+		 <ingredients>
+      <li>
+        <filter>
+         <categories>
+         	<li>Metallic</li>
+		</categories>
+        </filter>
+        <count>60</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+         <li>Metallic</li>
+	  </categories>
+    </fixedIngredientFilter>
+	<defaultIngredientFilter>
+			<thingDefs>
+				<li>ComponentIndustrial</li>
+				<li>Bronze</li>	
+				<li>Plasteel</li>			
+			</thingDefs>
+			<disallowedThingDefs>
+				<li>FerrosiliconAlloy</li>
+				<li>CupronickelAlloy</li>
+			</disallowedThingDefs>
+		</defaultIngredientFilter>
+    <products>
+      <ComponentIndustrial>15</ComponentIndustrial>
+    </products>
+	<researchPrerequisite>Components_D1</researchPrerequisite>
+	</RecipeDef>
+	
+	
+	<RecipeDef ParentName="Make_CNCMechanismBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>CNCMake_ComponentIndustrialCNC</defName>
+		<label>Component Industrial CNC.Produces 15.</label>
+		<description>Make a component CNC Produces 15.</description>
+		<processDays>1</processDays>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+					</categories>
+				</filter>
+				<count>90</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+			</categories>
+			<thingDefs>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>			
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>ComponentIndustrial</li>
+				<li>Bronze</li>	
+				<li>Plasteel</li>			
+			</thingDefs>
+			<disallowedThingDefs>
+				<li>FerrosiliconAlloy</li>
+				<li>CupronickelAlloy</li>
+			</disallowedThingDefs>
+		</defaultIngredientFilter>
+		<products>
+			<Mechanism>15</Mechanism>
+		</products>
+		<researchPrerequisite>Components_D1</researchPrerequisite>
+	</RecipeDef>
+	
+	
+	
+		<RecipeDef ParentName="Make_CNCMechanismBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>CNCMake_ElectronicComponentsCNC</defName>
+		<label>Electronic Components CNC.Produces 15.</label>
+		<description>Make a Electronic Components CNC Produces 15.</description>
+		<processDays>1</processDays>
+		   <ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>HCMBar</li>
+					</categories>
+				</filter>
+				<count>90</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Glass</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SilverBar</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Glass</li>
+				<li>ComponentIndustrial</li>
+				<li>SilverBar</li>
+			</thingDefs>
+			<categories>
+				<li>HCMBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<ElectronicComponents>15</ElectronicComponents>
+		</products>
+		<researchPrerequisite>Components_D1</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_CNCComponentMedievalBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>CNCMake_ComponentMedievalCNC</defName>
+		<label>Component Medieval CNC.Produces 15.</label>
+		<description>Make a Component Medieval CNC Produces 15.</description>
+		<processDays>1</processDays>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Woody</li>
+					</categories>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Woody</li>
+			</categories>
+		</fixedIngredientFilter>
+	
+		<products>
+			<ComponentMedieval>15</ComponentMedieval>
+		</products>
+		<researchPrerequisite>Components_D1</researchPrerequisite>
+	</RecipeDef>
 	
 </Defs>

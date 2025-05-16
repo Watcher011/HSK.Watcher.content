@@ -7,9 +7,9 @@
   <MakeAmmo_556x45mmNATO_Crio.description>Создать 80 5.56x45mm NATO (CR-I) картридж.</MakeAmmo_556x45mmNATO_Crio.description>
   <MakeAmmo_556x45mmNATO_Crio.jobString>Создаёт 5.56x45mm NATO (CR-I) картридж.</MakeAmmo_556x45mmNATO_Crio.jobString>
 
-  <MakeAmmo_556x45mmNATO_Deadlife.label>Сделать 5.56x45mm NATO (Мертвая жизнь) картридж x80</MakeAmmo_556x45mmNATO_Deadlife.label>
-  <MakeAmmo_556x45mmNATO_Deadlife.description>Создать 80 5.56x45mm NATO (Мертвая жизнь) картридж.</MakeAmmo_556x45mmNATO_Deadlife.description>
-  <MakeAmmo_556x45mmNATO_Deadlife.jobString>Создаёт 5.56x45mm NATO (Мертвая жизнь) картридж.</MakeAmmo_556x45mmNATO_Deadlife.jobString>
 
+  <!--<MakeAmmo_556x45mmNATO_Deadlife.label>Сделать 5.56x45mm NATO (Мертвая жизнь) картридж x80</MakeAmmo_556x45mmNATO_Deadlife.label>-->
+  <!--<MakeAmmo_556x45mmNATO_Deadlife.description>Создать 80 5.56x45mm NATO (Мертвая жизнь) картридж.</MakeAmmo_556x45mmNATO_Deadlife.description>-->
+  <!--<MakeAmmo_556x45mmNATO_Deadlife.jobString>Создаёт 5.56x45mm NATO (Мертвая жизнь) картридж.</MakeAmmo_556x45mmNATO_Deadlife.jobString>-->
 
 </LanguageData>

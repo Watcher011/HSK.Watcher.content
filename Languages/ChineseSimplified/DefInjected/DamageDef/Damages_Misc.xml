@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BombAntigrav.deathMessage>{0} has been killed.</BombAntigrav.deathMessage>
+
+  <CrioBomb.label>Обморожение</CrioBomb.label>
+  <CrioBomb.deathMessage>{0} has been killed.</CrioBomb.deathMessage>
+
+
+</LanguageData>

@@ -126,4 +126,11 @@
 				<li>BatteryHim</li>
 				</value>
 	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+				<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Machining"]/defNames</xpath>
+				<value>
+				<li>CNCmachine</li>
+				</value>
+	</Operation>
 </Patch>

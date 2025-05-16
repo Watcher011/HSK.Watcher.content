@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CNCmachine.label>Станок с ЧПУ</CNCmachine.label>
+<CNCmachine.description>Требуется квалифицированный оператор для настройки и обслуживания. В умелых руках он может создавать настоящие шедевры, украшающие дворцы, храмы и площади.</CNCmachine.description>
+
+<!-- Скульптуры -->
+
+<SculptureSmallCNC.label>маленькая скульптура</SculptureSmallCNC.label>
+<SculptureSmallCNC.description>Кусок материала размером с туловище, вылепленный в художественную форму.</SculptureSmallCNC.description>
+
+<SculptureLargeCNC.label>большая скульптура</SculptureLargeCNC.label>
+<SculptureLargeCNC.description>Кусок материала размером с человека, вылепленный в художественную форму.</SculptureLargeCNC.description>
+
+<SculptureGrandCNC.label>грандиозная скульптура</SculptureGrandCNC.label>
+<SculptureGrandCNC.description>Кусок материала размером с автомобиль, вылепленный в художественной форме.</SculptureGrandCNC.description>
+
+<MuffaloArtCNC.label>скульптура муффало</MuffaloArtCNC.label>
+<MuffaloArtCNC.description>Священный муффало — это существо, которому поклоняются чеда племени индиговых песчанок на Алиоте Постериусе.</MuffaloArtCNC.description>
+
+<QueenArtCNC.label>скульптура королевы</QueenArtCNC.label>
+<QueenArtCNC.description>Эта потрясающая статуя — подобие «Анхи Изящной», матриарха племени серых людей, известной своей ослепительной и изысканной красотой.</QueenArtCNC.description>
+
+<NymphArtCNC.label>скульптура музы</NymphArtCNC.label>
+<NymphArtCNC.description>Эта потрясающая статуя — подобие «Надежды Музы», самой красивой девушки в легендах.</NymphArtCNC.description>
+
+<GreenyArtCNC.label>Зеленый бог</GreenyArtCNC.label>
+<GreenyArtCNC.description>Эта потрясающая статуя Грини.</GreenyArtCNC.description>
+
+<WolfArtCNC.label>скульптура волка</WolfArtCNC.label>
+<WolfArtCNC.description>Эта статуя изображает похожего на волка бога по имени «ЛОРДИ», которому поклонялся Фиолетовый Омар Кроука на Альдхафере XI</WolfArtCNC.description>
+
+<DragonArtCNC.label>скульптура бехира</DragonArtCNC.label>
+<DragonArtCNC.description>Эта потрясающая огромная статуя магического зверя с крокодилом голова.</DragonArtCNC.description>
+
+<ZeonArtCNC.label>скульптура Зиона</ZeonArtCNC.label>
+<ZeonArtCNC.description>Скульптура Зиона. Вы только надеетесь, что при ее создании он решит не приходить в гости.</ZeonArtCNC.description>
+
+<DecorativeUrnSmallCNC.label>декоративная урна</DecorativeUrnSmallCNC.label>
+<DecorativeUrnSmallCNC.description>Небольшой кусок декоративной керамики.</DecorativeUrnSmallCNC.description>
+
+<SmallPotteryCNC.label>декоративная керамика</SmallPotteryCNC.label>
+<SmallPotteryCNC.description>Небольшие куски керамики, украшенные различными изображениями и резьбой. Они не имеют практического применения.</SmallPotteryCNC.description>
+
+<PotteryDisplayCNC.label>стенд для демонстрации керамики</PotteryDisplayCNC.label>
+<PotteryDisplayCNC.description>Стенд для демонстрации различных предметов декоративной керамики. На многих из них есть нарисованные или вырезанные изображения.</PotteryDisplayCNC.description>
+
+<CatArtCNC.label>скульптура кошки</CatArtCNC.label>
+<CatArtCNC.description>Скульптура кошки. Мяу.</CatArtCNC.description>
+
+<GlowstoneArtCNC.label>скульптура из светящегося камня</GlowstoneArtCNC.label>
+<GlowstoneArtCNC.description>Эта потрясающая статуя сделана из прекрасно обработанного светящегося камня, она имеет идеальную кристаллическую форму и излучает яркий свет.</GlowstoneArtCNC.description>
+
+</LanguageData>

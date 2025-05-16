@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Make_Pickles.label>Make Pickled cucumbers</Make_Pickles.label>
+  <Make_Pickles.description>Salt the cucumbers and roll them into jars. Produces 3.</Make_Pickles.description>
+  <Make_Pickles.jobString>Brewing batch of wort.</Make_Pickles.jobString>
+
+  <CookSaladSimple.label>cook simple Salad</CookSaladSimple.label>
+  <CookSaladSimple.description>Cook a Salad from simple ingredient.</CookSaladSimple.description>
+  <CookSaladSimple.jobString>Cooking simple Salad.</CookSaladSimple.jobString>
+
+  <CookSaladSimpleBulk.label>cook simple Salad x4</CookSaladSimpleBulk.label>
+  <CookSaladSimpleBulk.description>Cook 4 simple Salads from simple ingredients.</CookSaladSimpleBulk.description>
+  <CookSaladSimpleBulk.jobString>Cooking 4 simple meals.</CookSaladSimpleBulk.jobString>
+
+
+</LanguageData>

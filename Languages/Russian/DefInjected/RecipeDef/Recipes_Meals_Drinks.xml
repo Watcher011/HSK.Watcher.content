@@ -2,12 +2,12 @@
 <LanguageData>
 
   <Makejar.label>Сделать 3 банки для консервирования овощей</Makejar.label>
-<Makejar.description>Простые стеклянные банки для консервирования, в них можно хранить консервы практически вечно.</Makejar.description>
-<Makejar.jobString>Создает банки.</Makejar.jobString>
+  <Makejar.description>Простые стеклянные банки для консервирования, в них можно хранить консервы практически вечно.</Makejar.description>
+  <Makejar.jobString>Создает банки.</Makejar.jobString>
 
-<MakeSmeltjar.label>Переплавить 3 банки для консервирования овощей</MakeSmeltjar.label>
-<MakeSmeltjar.description>Переплавить Простые стеклянные банки для консервирования.</MakeSmeltjar.description>
-<MakeSmeltjar.jobString>Переплавляет банки.</MakeSmeltjar.jobString>
+  <MakeSmeltjar.label>Переплавить 3 банки для консервирования овощей</MakeSmeltjar.label>
+  <MakeSmeltjar.description>Переплавить Простые стеклянные банки для консервирования.</MakeSmeltjar.description>
+  <MakeSmeltjar.jobString>Переплавляет банки.</MakeSmeltjar.jobString>
 
   <MakePopcorn.label>Приготовить попкорн х4</MakePopcorn.label>
   <MakePopcorn.description>Приготовить попкорн 4 порции.</MakePopcorn.description>

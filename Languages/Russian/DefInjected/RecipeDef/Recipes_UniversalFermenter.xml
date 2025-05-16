@@ -82,6 +82,63 @@
   <Make_100Ash.label>сделать пепел x100</Make_100Ash.label>
   <Make_100Ash.description>Сделать пепел. Изготовление занимает 6 дней</Make_100Ash.description>
 
+  <CNCMake_SculptureSmall.label>Маленькая  Скульптура</CNCMake_SculptureSmall.label>
+  <CNCMake_SculptureSmall.description>Сделать Маленькую  Скульптуру</CNCMake_SculptureSmall.description>
+
+  <CNCMake_SculptureLargeCNC.label>Большая Скульптура</CNCMake_SculptureLargeCNC.label>
+  <CNCMake_SculptureLargeCNC.description>Сделать Большую Скульптуру</CNCMake_SculptureLargeCNC.description>
+
+  <CNCMake_SculptureGrandCNC.label>Огромная Скульптура</CNCMake_SculptureGrandCNC.label>
+  <CNCMake_SculptureGrandCNC.description>Сделать Огромную Скульптуру</CNCMake_SculptureGrandCNC.description>
+
+  <CNCMake_MuffaloArtCNC.label>Скульптура Муфало</CNCMake_MuffaloArtCNC.label>
+  <CNCMake_MuffaloArtCNC.description>Сделать Скульптуру Муфало</CNCMake_MuffaloArtCNC.description>
+
+  <CNCMake_QueenArtCNC.label>Скульптура Принцессы</CNCMake_QueenArtCNC.label>
+  <CNCMake_QueenArtCNC.description>Сделать Скульптуру Принцессы</CNCMake_QueenArtCNC.description>
+
+  <CNCMake_NymphArtCNC.label>Скульптура Нимфы</CNCMake_NymphArtCNC.label>
+  <CNCMake_NymphArtCNC.description>Сделать Скульптуру Нимфы</CNCMake_NymphArtCNC.description>
+
+  <CNCMake_GreenyArtCNC.label>Скульптура Грини</CNCMake_GreenyArtCNC.label>
+  <CNCMake_GreenyArtCNC.description>Сделать Скульптуру Грини</CNCMake_GreenyArtCNC.description>
+
+  <CNCMake_WolfArtCNC.label>Скульптура Волка</CNCMake_WolfArtCNC.label>
+  <CNCMake_WolfArtCNC.description>Сделать Скульптуру Волка</CNCMake_WolfArtCNC.description>
+
+  <CNCMake_DragonArtCNC.label>Скульптура Дракона</CNCMake_DragonArtCNC.label>
+  <CNCMake_DragonArtCNC.description>Сделать Скульптуру Дракона</CNCMake_DragonArtCNC.description>
+
+  <CNCMake_ZeonArtCNC.label>Скульптура Зиона</CNCMake_ZeonArtCNC.label>
+  <CNCMake_ZeonArtCNC.description>Сделать Скульптуру Зиона</CNCMake_ZeonArtCNC.description>
+
+  <CNCMake_DecorativeUrnSmallCNC.label>Декоративная урна маленькая</CNCMake_DecorativeUrnSmallCNC.label>
+  <CNCMake_DecorativeUrnSmallCNC.description>Сделать Декоративную урну</CNCMake_DecorativeUrnSmallCNC.description>
+
+  <CNCMake_SmallPotteryCNC.label>Декоративная посуда</CNCMake_SmallPotteryCNC.label>
+  <CNCMake_SmallPotteryCNC.description>Сделать Декоративную посуду</CNCMake_SmallPotteryCNC.description>
+
+  <CNCMake_PotteryDisplayCNC.label>Набор посуды</CNCMake_PotteryDisplayCNC.label>
+  <CNCMake_PotteryDisplayCNC.description>Сделать Набор посуды</CNCMake_PotteryDisplayCNC.description>
+
+  <CNCMake_CatArtCNC.label>Скульптура Котика</CNCMake_CatArtCNC.label>
+  <CNCMake_CatArtCNC.description>Сделать Скульптуру Котика</CNCMake_CatArtCNC.description>
+
+  <CNCMake_GlowstoneArtCNC.label>Светокаменная Скульптура</CNCMake_GlowstoneArtCNC.label>
+  <CNCMake_GlowstoneArtCNC.description>Сделать Светокаменную Скульптуру</CNCMake_GlowstoneArtCNC.description>
+
+  <CNCMake_SimpleMechanismCNC.label>Простой механизм.Производит 15.</CNCMake_SimpleMechanismCNC.label>
+<CNCMake_SimpleMechanismCNC.description>Создание простого механизма. Механизмы — это простые детали, похожие на шестерни, для использования в станках или верстаках. Довольно медленно. Производит 15.</CNCMake_SimpleMechanismCNC.description>
+
+<CNCMake_ComponentIndustrialCNC.label>Промышленный Компонент.Производит 15.</CNCMake_ComponentIndustrialCNC.label>
+<CNCMake_ComponentIndustrialCNC.description>Создать Промышленный Компонент. Производит 15.</CNCMake_ComponentIndustrialCNC.description>
+
+<CNCMake_ElectronicComponentsCNC.label>Электронные компоненты.Производит 15.</CNCMake_ElectronicComponentsCNC.label>
+<CNCMake_ElectronicComponentsCNC.description>Создать электронный компонент Производит 15.</CNCMake_ElectronicComponentsCNC.description>
+
+<CNCMake_ComponentMedievalCNC.label>Средневековый Компонент.Производит 15.</CNCMake_ComponentMedievalCNC.label>
+<CNCMake_ComponentMedievalCNC.description>Создать Средневековый Компонент.Производит 15.</CNCMake_ComponentMedievalCNC.description>
+
   <Make_Puer.label>Высушить чай Пуэр</Make_Puer.label>
   <Make_Puer.description>Главной отличительной чертой пуэров является стадия ферментации, которая может занимать различное время. Участвующие в ней микроорганизмы заметно меняют химический состав и вкусовые качества чая.</Make_Puer.description>
 

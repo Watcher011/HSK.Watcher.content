@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- AMBER -->
+
+  <MinableAmber.label>amber</MinableAmber.label>
+  <MinableAmber.description>Rock containing bits of preserved sap.</MinableAmber.description>
+
+  <Amber.label>Янтарь</Amber.label>
+  <Amber.description>Древний древесный сок, который сохранился. Иногда в нем есть маленькие существа. Мягкая смола, которая прекрасно полируется.</Amber.description>
+  <Amber.stuffProps.stuffAdjective>amber</Amber.stuffProps.stuffAdjective>
+
+
+</LanguageData>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- AI manned turrets -->
+
+  <Turret_AlienTurret.label>UA 571-C Дистанционный Часовой</Turret_AlienTurret.label>
+  <Turret_AlienTurret.description>Автоматическая охранная система, предназначенная для секторной обороны объектов и защиты периметра охраняемой зоны. Часто применяется силами USCMC и устанавливается в узловых точках на потенциально опасных направлениях. Представляет собой автоматическую турель для крепления импульсных пулеметов, обеспечивающую с помощью специальных систем и силовых приводов их наводку в горизонтальной и вертикальной плоскостях, а также секторный обстрел. Установка защищена от попадания влаги и отличается малой отдачей и большим запасом патронов.\nCaliber: 5.56x45mm NATO</Turret_AlienTurret.description>
+
+  <Gun_AlienTurret.label>UA 571-C</Gun_AlienTurret.label>
+  <Gun_AlienTurret.description>Jury-rigged automatic gun attached to a turret.</Gun_AlienTurret.description>
+
+
+</LanguageData>

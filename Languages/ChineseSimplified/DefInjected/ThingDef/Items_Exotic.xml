@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Trap2_Explosive.label>Box with mines</Trap2_Explosive.label>
+  <Trap2_Explosive.description>Box min.Explosive</Trap2_Explosive.description>
+
+  <Trap2_Incendiary.label>Box of Incendiary Mines</Trap2_Incendiary.label>
+  <Trap2_Incendiary.description>Box of incendiary mines. Explosive</Trap2_Incendiary.description>
+
+  <Trap2_EMP.label>Box with EMP mines</Trap2_EMP.label>
+  <Trap2_EMP.description>Box EMP min.Explosive</Trap2_EMP.description>
+
+  <Trap2_AE.label>Box of mine pellets</Trap2_AE.label>
+  <Trap2_AE.description>Box of granular min.Explosive</Trap2_AE.description>
+
+  <Trap2_Tox.label>Box with toxic mines</Trap2_Tox.label>
+  <Trap2_Tox.description>Box of toxic min. Explosive</Trap2_Tox.description>
+
+  <TrapKapk.label>Box with traps</TrapKapk.label>
+  <TrapKapk.description>Box of traps</TrapKapk.description>
+
+
+</LanguageData>

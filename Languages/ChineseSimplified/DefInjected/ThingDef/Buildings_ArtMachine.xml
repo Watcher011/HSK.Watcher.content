@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CNCmachine.label>CNC machine</CNCmachine.label>
+  <CNCmachine.description>Requires a qualified operator for setup and maintenance. In skilled hands, it can create real masterpieces that decorate palaces, temples and squares.</CNCmachine.description>
+
+
+  <!-- Sculptures -->
+
+  <SculptureSmallCNC.label>small sculpture</SculptureSmallCNC.label>
+  <SculptureSmallCNC.description>A torso-sized piece of material sculpted into an artistic form.</SculptureSmallCNC.description>
+
+  <SculptureLargeCNC.label>large sculpture</SculptureLargeCNC.label>
+  <SculptureLargeCNC.description>A person-sized piece of material sculpted into an artistic form.</SculptureLargeCNC.description>
+
+  <SculptureGrandCNC.label>grand sculpture</SculptureGrandCNC.label>
+  <SculptureGrandCNC.description>A car-sized piece of material sculpted into an artistic form.</SculptureGrandCNC.description>
+
+  <MuffaloArtCNC.label>muffalo sculpture</MuffaloArtCNC.label>
+  <MuffaloArtCNC.description>The holy Muffalo is a creature worshiped by the Cheda of the Indigo Gerbil Tribe on Alioth Posterius.</MuffaloArtCNC.description>
+
+  <QueenArtCNC.label>queen sculpture</QueenArtCNC.label>
+  <QueenArtCNC.description>This stunning statue is a likeness of "Anha the Graceful" a matriarch of the Gray People Tribe known to be a dazzling and exquisite beauty.</QueenArtCNC.description>
+
+  <NymphArtCNC.label>Muza sculpture</NymphArtCNC.label>
+  <NymphArtCNC.description>This stunning statue is a likeness of "Nadezhda the Muse", the most beautiful girl in the legends.</NymphArtCNC.description>
+
+  <GreenyArtCNC.label>Green god</GreenyArtCNC.label>
+  <GreenyArtCNC.description>This stunning statue of Greeny.</GreenyArtCNC.description>
+
+  <WolfArtCNC.label>wolf sculpture</WolfArtCNC.label>
+  <WolfArtCNC.description>This statue depicts the wolf-like god named "LORDI", worshiped by the Purple Lobster Crouca on Aldhafera XI</WolfArtCNC.description>
+
+  <DragonArtCNC.label>behir sculpture</DragonArtCNC.label>
+  <DragonArtCNC.description>This stunning huge statue of magical beast with a crocodilian head.</DragonArtCNC.description>
+
+  <ZeonArtCNC.label>zeon sculpture</ZeonArtCNC.label>
+  <ZeonArtCNC.description>A sculpture of Zeon. You only hope in building this he decides to not come to visit.</ZeonArtCNC.description>
+
+  <DecorativeUrnSmallCNC.label>decorative urn</DecorativeUrnSmallCNC.label>
+  <DecorativeUrnSmallCNC.description>A small piece of decorative pottery.</DecorativeUrnSmallCNC.description>
+
+  <SmallPotteryCNC.label>decorative pottery</SmallPotteryCNC.label>
+  <SmallPotteryCNC.description>A small pieces of pottery decorated with various pictures and carvings. They have no practical use.</SmallPotteryCNC.description>
+
+  <PotteryDisplayCNC.label>pottery display stand</PotteryDisplayCNC.label>
+  <PotteryDisplayCNC.description>A display stand showing various pieces of decorative pottery. Many of these have painted or carved pictures on them.</PotteryDisplayCNC.description>
+
+  <CatArtCNC.label>cat sculpture</CatArtCNC.label>
+  <CatArtCNC.description>Sculpture of cat. Meow.</CatArtCNC.description>
+
+  <GlowstoneArtCNC.label>glowstone sculpture</GlowstoneArtCNC.label>
+  <GlowstoneArtCNC.description>This stunning statue is made from beautifully cut glowstone, it is perfectly crystal shaped and it emits a bright light.</GlowstoneArtCNC.description>
+
+
+</LanguageData>

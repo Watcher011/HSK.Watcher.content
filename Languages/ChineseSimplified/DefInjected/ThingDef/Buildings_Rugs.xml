@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DragonCarpet.label>Rug from Phoenix</DragonCarpet.label>
+  <DragonCarpet.description>Carpet made from Phoenix skin is warm to the touch and glows a little in the dark!</DragonCarpet.description>
+
+  <KirinCarpet.label>Carpet from Kirin</KirinCarpet.label>
+  <KirinCarpet.description>Kirin’s thick fur will perfectly decorate a room, if you don’t remember how many people died in the process of extracting this fur!</KirinCarpet.description>
+
+  <GrindragonCarpet.label>Wyvern Carpet</GrindragonCarpet.label>
+  <GrindragonCarpet.description>A mythical creature reminiscent of a European dragon but with only one pair of legs, it is often depicted with a serpentine tail and is rarely fire-breathing, unlike four-legged dragons. The dragon has the greatest resemblance to a wyvern.</GrindragonCarpet.description>
+
+  <BehirCarpet.label>Carpet from Bekhir</BehirCarpet.label>
+  <BehirCarpet.description>A carpet made from the skin of a terrifying monster!</BehirCarpet.description>
+
+  <BagestCarpet.label>Carpet from Bagest</BagestCarpet.label>
+  <BagestCarpet.description>A creepy creature ended up in the wrong colony, now she is the decoration of the colony</BagestCarpet.description>
+
+  <TrumbCarpet.label>Carpet from Trumbo</TrumbCarpet.label>
+  <TrumbCarpet.description>A great creature that ended up in the wrong colony, now its fur adorns the colony</TrumbCarpet.description>
+
+  <InsectCarpet.label>Carpet from Insect</InsectCarpet.label>
+  <InsectCarpet.description>A great creature that ended up in the wrong colony, now its fur adorns the colony</InsectCarpet.description>
+
+
+</LanguageData>

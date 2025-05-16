@@ -1,8 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <HiveAntis.label>Улей Антисов</HiveAntis.label>
-  <HiveAntis.description>Улей Антиса. Если его активировать, со временем он будет порождать дополнительных насекомых.</HiveAntis.description>
+  <HiveInstectoid.label>Instectoid hive</HiveInstectoid.label>
+  <HiveInstectoid.description>A hive of Instectoid. If activated, it will spawn additional insects and hives over time, as well as valuable insect jelly.</HiveInstectoid.description>
 
+
+  <!--<HiveAntis.label>Улей Антисов</HiveAntis.label>-->
+  <!--<HiveAntis.description>Улей Антиса. Если его активировать, со временем он будет порождать дополнительных насекомых.</HiveAntis.description>-->
 
 </LanguageData>

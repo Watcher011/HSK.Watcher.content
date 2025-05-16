@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Embrasures -->
+
+  <CE_Loophole.label>Барбакан</CE_Loophole.label>
+  <CE_Loophole.description>Барбакан — в западноевропейской средневековой архитектуре «внешнее сооружение замка или городских укреплений, обычно круглое в плане, для отражения атак на подступах к крепости».</CE_Loophole.description>
+  <CE_Loophole_Blueprint.label>Барбакан (blueprint)</CE_Loophole_Blueprint.label>
+  <CE_Loophole_Frame.label>Барбакан (building)</CE_Loophole_Frame.label>
+  <CE_Loophole_Frame.description>Барбакан — в западноевропейской средневековой архитектуре «внешнее сооружение замка или городских укреплений, обычно круглое в плане, для отражения атак на подступах к крепости».</CE_Loophole_Frame.description>
+
+
+</LanguageData>

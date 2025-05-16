@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
- <Make_Pickles.label>Приготовьте маринованные огурцы</Make_Pickles.label>
-<Make_Pickles.description>Посолите огурцы и закатайте их в банки. Производит 3.</Make_Pickles.description>
-<Make_Pickles.jobString>Закатка огурчиков.</Make_Pickles.jobString>
+  <Make_Pickles.label>Приготовьте маринованные огурцы</Make_Pickles.label>
+  <Make_Pickles.description>Посолите огурцы и закатайте их в банки. Производит 3.</Make_Pickles.description>
+  <Make_Pickles.jobString>Закатка огурчиков.</Make_Pickles.jobString>
 
-<CookSaladSimple.label>Приготовьте летний салат</CookSaladSimple.label>
-<CookSaladSimple.description>Приготовление салата из 2х простых ингредиентов.</CookSaladSimple.description>
-<CookSaladSimple.jobString>Приготовление летнего салата.</CookSaladSimple.jobString>
+  <CookSaladSimple.label>Приготовьте летний салат</CookSaladSimple.label>
+  <CookSaladSimple.description>Приготовление салата из 2х простых ингредиентов.</CookSaladSimple.description>
+  <CookSaladSimple.jobString>Приготовление летнего салата.</CookSaladSimple.jobString>
 
-<CookSaladSimpleBulk.label>Приготовьте летний салат x4</CookSaladSimpleBulk.label>
-<CookSaladSimpleBulk.description>Приготовление 4 летних салатов из простых ингредиентов.</CookSaladSimpleBulk.description>
-<CookSaladSimpleBulk.jobString>Приготовление 4 простых салата.</CookSaladSimpleBulk.jobString>
+  <CookSaladSimpleBulk.label>Приготовьте летний салат x4</CookSaladSimpleBulk.label>
+  <CookSaladSimpleBulk.description>Приготовление 4 летних салатов из простых ингредиентов.</CookSaladSimpleBulk.description>
+  <CookSaladSimpleBulk.jobString>Приготовление 4 простых салата.</CookSaladSimpleBulk.jobString>
 
 
 </LanguageData>

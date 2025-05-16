@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GoodYzvar.label>Энергия узвара</GoodYzvar.label>
+  <GoodYzvar.description>Узвар дарует силу природы.</GoodYzvar.description>
+  <GoodYzvar.stages.0.label>Заряд энергии.</GoodYzvar.stages.0.label>
+  <GoodYzvar.stages.1.label>Заряд энергии.</GoodYzvar.stages.1.label>
+
+  <Goodchips.label>Сила чипсов</Goodchips.label>
+  <Goodchips.description>Чипсы повышают концентрацию.</Goodchips.description>
+  <Goodchips.stages.0.label>Заряд энергии.</Goodchips.stages.0.label>
+
+
+</LanguageData>
