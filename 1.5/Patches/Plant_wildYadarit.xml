@@ -42,7 +42,7 @@
 								<li>
 									<filter>
 										<thingDefs>
-											<li>yadaritRaW</li>
+											<li>yadarit</li>
 										</thingDefs>
 									</filter>
 									<count>4</count>
@@ -50,7 +50,7 @@
 							</ingredients>
 							<fixedIngredientFilter>
 								<thingDefs>
-									<li>yadaritRaW</li>
+									<li>yadarit</li>
 								</thingDefs>
 							</fixedIngredientFilter>
 							<products>

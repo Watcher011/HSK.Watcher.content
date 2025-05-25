@@ -20,7 +20,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>yadaritRaW</li>
+						<li>yadarit</li>
 					</thingDefs>
 				</filter>
 				<count>25</count>
@@ -173,7 +173,7 @@
           <thingDefs>
             <li>Wastepack</li>
 			<li>RottedMush</li>
-			<li>yadaritRaW</li>
+			<li>yadarit</li>
           </thingDefs>
         </fuelFilter>
         <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>

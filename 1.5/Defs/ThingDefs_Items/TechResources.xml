@@ -51,13 +51,13 @@
 	
 	
 	
-	<ThingDef ParentName="SK_ResourceBase">
-		 <defName>yadaritRaW</defName>
+	<!--<ThingDef ParentName="SK_ResourceBase">
+		 <defName>yadarit</defName>
         <label>Сырой ядарит</label>
 		<thingClass>SK.Item_PL</thingClass>
 		  <description>Сырой ядарит что недавно был отделён от грибницы, без должной обработки распадётся на мало полезные ингредиенты (Хранить в дали от людей , крайне токсичен).</description>
         <graphicData>
-            <texPath>Things/Item/yadaritRaW</texPath>
+            <texPath>Things/Item/yadarit</texPath>
 		    <graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(1,0.8)</drawSize>
 			<shaderType>CutoutComplex</shaderType>
@@ -114,7 +114,7 @@
 		<thingCategories>
 			<li>Coal</li>
 		</thingCategories>
-	</ThingDef>
+	</ThingDef>-->
 	
 	
  

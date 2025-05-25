@@ -9,6 +9,12 @@
     <workerClass>Recipe_RemoveHediff</workerClass>
     <jobString>Treats infection TargetA.</jobString>
     <successfullyRemovedHediffMessage>{0} has successfully cured the infection on {1}.</successfullyRemovedHediffMessage>
+	 <workAmount>500</workAmount>
+        <workSkillLearnFactor>1</workSkillLearnFactor>
+        <effectWorking>Surgery</effectWorking>
+        <soundWorking>Recipe_Surgery</soundWorking>
+        <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+        <workSkill>Medicine</workSkill>
     <removesHediff>WoundInfection</removesHediff>
 	 <surgerySuccessChanceFactor>0.95</surgerySuccessChanceFactor>
 	 <deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
@@ -41,6 +47,15 @@
 			<count>1</count>
 	   </li>
     </ingredients>
+	 <fixedIngredientFilter>
+            <categories>
+                <li>Medicine</li>
+            </categories>
+            <thingDefs>
+              <li>HemogenPack</li>
+              <li>Bandagekitcrude</li>
+            </thingDefs>  
+        </fixedIngredientFilter>
   </RecipeDef>
 
 </Defs>

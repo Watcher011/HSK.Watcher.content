@@ -27,7 +27,7 @@
     <plant>
       <fertilityMin>0.3</fertilityMin>
       <harvestTag>Standard</harvestTag>
-      <harvestedThingDef>yadaritRaW</harvestedThingDef>
+      <harvestedThingDef>yadarit</harvestedThingDef>
       <harvestYield>11</harvestYield>
       <sowTags>
         <li>Ground</li>
