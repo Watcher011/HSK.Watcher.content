@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_67x29mm_AP_AAAM.label>изготовить патрон 6,7x29 мм Mag (AP) x80</MakeAmmo_67x29mm_AP_AAAM.label>
+  <MakeAmmo_67x29mm_AP_AAAM.description>Изготовить 80 патронов 6,7x29 мм Mag (AP).</MakeAmmo_67x29mm_AP_AAAM.description>
+  <MakeAmmo_67x29mm_AP_AAAM.jobString>Изготовление патронов 6,7x29 мм Mag (AP).</MakeAmmo_67x29mm_AP_AAAM.jobString>
+
+  <MakeAmmo_67x29mm_EMP_AAAM.label>изготовить патрон 6,7x29 мм Mag (EMP) x80</MakeAmmo_67x29mm_EMP_AAAM.label>
+  <MakeAmmo_67x29mm_EMP_AAAM.description>изготовить 80 патронов 6,7x29 мм Mag (EMP).</MakeAmmo_67x29mm_EMP_AAAM.description>
+  <MakeAmmo_67x29mm_EMP_AAAM.jobString>Изготовление патронов 6,7x29 мм Mag (EMP).</MakeAmmo_67x29mm_EMP_AAAM.jobString>
+
+
+</LanguageData>

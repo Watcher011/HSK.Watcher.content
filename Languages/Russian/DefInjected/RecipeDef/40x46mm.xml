@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_40x46mmGrenade_BB_AAAM.label>изготовить 40x46-мм гранаты Bean Bag x20</MakeAmmo_40x46mmGrenade_BB_AAAM.label>
+  <MakeAmmo_40x46mm_BB_Grenade.description>изготовить 20 гранат BB 40x46 мм.</MakeAmmo_40x46mm_BB_Grenade.description>
+  <MakeAmmo_40x46mm_BB_Grenade.jobString>Изготовление гранат BB  калибра 40x46 мм</MakeAmmo_40x46mm_BB_Grenade.jobString>
+
+  <MakeAmmo_40x46mmGrenade_F_AAAM.label>изготовить стрелковую гранату 40x46 мм x20</MakeAmmo_40x46mmGrenade_F_AAAM.label>
+  <MakeAmmo_40x46mmGrenade_F_AAAM.description>изготовить 20 гранат Flechette калибра 40x46 мм.</MakeAmmo_40x46mmGrenade_F_AAAM.description>
+  <MakeAmmo_40x46mmGrenade_F_AAAM.jobString>Изготовление гранат Flechette калибра 40x46 мм</MakeAmmo_40x46mmGrenade_F_AAAM.jobString>
+
+  <MakeAmmo_40x46mm_Stun_Grenade_AAAM.label>изготовить светошумовые гранаты 40x46 мм x20</MakeAmmo_40x46mm_Stun_Grenade_AAAM.label>
+  <MakeAmmo_40x46mm_Stun_AAAMGrenade.description>изготовить 20 светошумовых гранат 40x46 мм</MakeAmmo_40x46mm_Stun_AAAMGrenade.description>
+  <MakeAmmo_40x46mm_Grenade_Stun_AAAM.jobString>Изготовление светошумовых гранат калибра 40x46 мм</MakeAmmo_40x46mm_Grenade_Stun_AAAM.jobString>
+
+  <MakeAmmo_40x46mm_Foam_Grenade_AAAM.label>изготовить 40x46 мм пенных гранат x20</MakeAmmo_40x46mm_Foam_Grenade_AAAM.label>
+  <MakeAmmo_40x46mm_Foam_Grenade.description>изготовить 20 пенных гранат 40x46 мм</MakeAmmo_40x46mm_Foam_Grenade.description>
+  <MakeAmmo_40x46mm_Foam_Grenade.jobString>Изготовление пенных гранат калибра 40x46 мм</MakeAmmo_40x46mm_Foam_Grenade.jobString>
+
+
+</LanguageData>

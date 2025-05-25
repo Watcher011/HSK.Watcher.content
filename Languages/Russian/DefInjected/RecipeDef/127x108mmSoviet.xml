@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <!--[Duplicated] <MakeAmmo_127x108mm_FMJ_AAAM.label>make 12.7x108mm (FMJ) cartridge x60</MakeAmmo_127x108mm_FMJ_AAAM.label>-->
+  <!--[Duplicated] <MakeAmmo_127x108mm_FMJ_AAAM.description>Craft 60 12.7x108mm (FMJ) cartridges.</MakeAmmo_127x108mm_FMJ_AAAM.description>-->
+  <!--[Duplicated] <MakeAmmo_127x108mm_FMJ_AAAM.jobString>Making 12.7x108mm (FMJ) cartridges.</MakeAmmo_127x108mm_FMJ_AAAM.jobString>-->
+
+  <!--[Duplicated] <MakeAmmo_127x108mm_Sabot_AAAM.label>make 12.7x108mm (Sabot) cartridge x60</MakeAmmo_127x108mm_Sabot_AAAM.label>-->
+  <!--[Duplicated] <MakeAmmo_127x108mm_Sabot_AAAM.description>Craft 60 12.7x108mm (Sabot) cartridges.</MakeAmmo_127x108mm_Sabot_AAAM.description>-->
+  <!--[Duplicated] <MakeAmmo_127x108mm_Sabot_AAAM.jobString>Making 12.7x108mm (Sabot) cartridges.</MakeAmmo_127x108mm_Sabot_AAAM.jobString>-->
+
+  <!--[Duplicated] <MakeAmmo_127x108mm_HE_AAAM.label>make 12.7x108mm (HE) cartridge x60</MakeAmmo_127x108mm_HE_AAAM.label>-->
+  <!--[Duplicated] <MakeAmmo_127x108mm_HE_AAAM.description>Craft 60 12.7x108mm (HE) cartridges.</MakeAmmo_127x108mm_HE_AAAM.description>-->
+  <!--[Duplicated] <MakeAmmo_127x108mm_HE_AAAM.jobString>Making 12.7x108mm (HE) cartridges.</MakeAmmo_127x108mm_HE_AAAM.jobString>-->
+
+  <!--[Duplicated] <MakeAmmo_127x108mm_Incendiary_AAAM.label>make 12.7x108mm (AP-I) cartridge x60</MakeAmmo_127x108mm_Incendiary_AAAM.label>-->
+  <!--[Duplicated] <MakeAmmo_127x108mm_Incendiary_AAAM.description>Craft 60 12.7x108mm (AP-I) cartridges.</MakeAmmo_127x108mm_Incendiary_AAAM.description>-->
+  <!--[Duplicated] <MakeAmmo_127x108mm_Incendiary_AAAM.jobString>Making 12.7x108mm (AP-I) cartridges.</MakeAmmo_127x108mm_Incendiary_AAAM.jobString>-->
+
+  <MakeAmmo_127x108mm_FMJ_AAAM.label>изготовить патрон 12,7x108 мм (FMJ) x60</MakeAmmo_127x108mm_FMJ_AAAM.label>
+  <MakeAmmo_127x108mm_FMJ_AAAM.description>Изготовить 60 патронов 12,7x108 мм (FMJ).</MakeAmmo_127x108mm_FMJ_AAAM.description>
+  <MakeAmmo_127x108mm_FMJ_AAAM.jobString>Изготовить патроны 12,7x108 мм (FMJ).</MakeAmmo_127x108mm_FMJ_AAAM.jobString>
+
+  <MakeAmmo_127x108mm_Sabot_AAAM.label>изготовить патрон 12,7x108 мм (Sabot) x60</MakeAmmo_127x108mm_Sabot_AAAM.label>
+  <MakeAmmo_127x108mm_Sabot_AAAM.description>Изготовьте 60 патронов 12,7x108 мм (Sabot).</MakeAmmo_127x108mm_Sabot_AAAM.description>
+  <MakeAmmo_127x108mm_Sabot_AAAM.jobString>Изготовление патронов 12,7x108 мм (Sabot).</MakeAmmo_127x108mm_Sabot_AAAM.jobString>
+
+  <MakeAmmo_127x108mm_HE_AAAM.label>изготовить 12,7x108 мм (HE) патрон x60</MakeAmmo_127x108mm_HE_AAAM.label>
+  <MakeAmmo_127x108mm_HE_AAAM.description>Изготовить 60 12,7x108 мм (HE) патронов.</MakeAmmo_127x108mm_HE_AAAM.description>
+  <MakeAmmo_127x108mm_HE_AAAM.jobString>Изготовление 12,7x108 мм (HE) патронов.</MakeAmmo_127x108mm_HE_AAAM.jobString>
+
+  <MakeAmmo_127x108mm_Incendiary_AAAM.label>изготовить 12,7x108 мм (AP-I) патрон x60</MakeAmmo_127x108mm_Incendiary_AAAM.label>
+  <MakeAmmo_127x108mm_Incendiary_AAAM.description>Изготовить 60 патронов 12,7x108 мм (AP-I).</MakeAmmo_127x108mm_Incendiary_AAAM.description>
+  <MakeAmmo_127x108mm_Incendiary_AAAM.jobString>Изготовление патронов 12,7x108 мм (AP-I).</MakeAmmo_127x108mm_Incendiary_AAAM.jobString>
+
+</LanguageData>

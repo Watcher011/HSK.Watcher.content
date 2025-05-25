@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+  <MakeAmmo_GaussCharged_AAAM.label>изготовить гаусс-патрон x40</MakeAmmo_GaussCharged_AAAM.label>
+  <MakeAmmo_GaussCharged_AAAM.description>Изготовить 40 гаусс-патронов.</MakeAmmo_GaussCharged_AAAM.description>
+  <MakeAmmo_GaussCharged_AAAM.jobString>Изготовление гаусс-патронов.</MakeAmmo_GaussCharged_AAAM.jobString>
+
+
+</LanguageData>

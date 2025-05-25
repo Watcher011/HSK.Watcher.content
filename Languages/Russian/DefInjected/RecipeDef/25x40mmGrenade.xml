@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_25x40mmGrenade_HE_AAAM.label>изготовить 25x40 мм гранат HE x30</MakeAmmo_25x40mmGrenade_HE_AAAM.label>
+  <MakeAmmo_25x40mmGrenade_HE_AAAM.description>изготовить 30 25x40 мм гранат HE.</MakeAmmo_25x40mmGrenade_HE_AAAM.description>
+  <MakeAmmo_25x40mmGrenade_HE_AAAM.jobString>Изготовить 25x40 мм гранат HE.</MakeAmmo_25x40mmGrenade_HE_AAAM.jobString>
+
+  <MakeAmmo_25x40mmGrenade_Incendiary_AAAM.label>изготовить 25x40 мм зажигательные гранаты x30</MakeAmmo_25x40mmGrenade_Incendiary_AAAM.label>
+  <MakeAmmo_25x40mmGrenade_Incendiary_AAAM.description>изготовить 30 зажигательных гранат 25x40 мм.</MakeAmmo_25x40mmGrenade_Incendiary_AAAM.description>
+  <MakeAmmo_25x40mmGrenade_Incendiary_AAAM.jobString>Изготовить 25x40 мм зажигательных гранат.</MakeAmmo_25x40mmGrenade_Incendiary_AAAM.jobString>
+
+  <MakeAmmo_25x40mmGrenade_EMP_AAAM.label>изготовить ЭМИ-гранаты 25x40 мм x30</MakeAmmo_25x40mmGrenade_EMP_AAAM.label>
+  <MakeAmmo_25x40mmGrenade_EMP_AAAM.description>изготовить 30 ЭМИ-гранат 25x40 мм.</MakeAmmo_25x40mmGrenade_EMP_AAAM.description>
+  <MakeAmmo_25x40mmGrenade_EMP_AAAM.jobString>Изготовить 25x40 мм ЭМИ-гранат.</MakeAmmo_25x40mmGrenade_EMP_AAAM.jobString>
+
+
+</LanguageData>

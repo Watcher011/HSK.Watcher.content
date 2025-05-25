@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_473x33mmCaseless_FMJ_AAAM.label>изготовить патрон 4,73x33 мм безгильзовый (FMJ) x96</MakeAmmo_473x33mmCaseless_FMJ_AAAM.label>
+  <MakeAmmo_473x33mmCaseless_FMJ_AAAM.description>Изготовить 96 патронов 4,73x33 мм безгильзовый (FMJ).</MakeAmmo_473x33mmCaseless_FMJ_AAAM.description>
+  <MakeAmmo_473x33mmCaseless_FMJ_AAAM.jobString>Изготовить патроны 4,73x33 мм безгильзовый (FMJ).</MakeAmmo_473x33mmCaseless_FMJ_AAAM.jobString>
+
+  <MakeAmmo_473x33mmCaseless_AP_AAAM.label>изготовить 4,73x33 мм безгильзовый (AP) патрон x96</MakeAmmo_473x33mmCaseless_AP_AAAM.label>
+  <MakeAmmo_473x33mmCaseless_AP_AAAM.description>Изготовить 96 4,73x33 мм безгильзовых (AP) патронов.</MakeAmmo_473x33mmCaseless_AP_AAAM.description>
+  <MakeAmmo_473x33mmCaseless_AP_AAAM.jobString>Изготовить 4,73x33 мм безгильзовых (AP) патронов.</MakeAmmo_473x33mmCaseless_AP_AAAM.jobString>
+
+  <MakeAmmo_473x33mmCaseless_HP_AAAM.label>изготовить 4,73x33 мм безгильзовые (HP) патроны x96</MakeAmmo_473x33mmCaseless_HP_AAAM.label>
+  <MakeAmmo_473x33mmCaseless_HP_AAAM.description>Изготовить 96 4,73x33 мм безгильзовых (HP) патронов.</MakeAmmo_473x33mmCaseless_HP_AAAM.description>
+  <MakeAmmo_473x33mmCaseless_HP_AAAM.jobString>Изготовить 4,73x33 мм безгильзовые (HP) патроны.</MakeAmmo_473x33mmCaseless_HP_AAAM.jobString>
+
+  <MakeAmmo_473x33mmCaseless_EMP_AAAM.label>изготовить 4,73x33 мм безгильзовые (EMP) патроны x96</MakeAmmo_473x33mmCaseless_EMP_AAAM.label>
+  <MakeAmmo_473x33mmCaseless_EMP_AAAM.description>Изготовить 96 4,73x33 мм безгильзовых (EMP) патронов.</MakeAmmo_473x33mmCaseless_EMP_AAAM.description>
+  <MakeAmmo_473x33mmCaseless_EMP_AAAM.jobString>Изготовить 4,73x33 мм безгильзовые (EMP) патроны.</MakeAmmo_473x33mmCaseless_EMP_AAAM.jobString>
+
+
+</LanguageData>

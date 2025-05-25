@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_12x64mmCharged_AAAM.label>изготовить 12x64 мм заряженных патронов x60</MakeAmmo_12x64mmCharged_AAAM.label>
+  <MakeAmmo_12x64mmCharged_AAAM.description>Изготовить 60 12x64 мм заряженных патронов.</MakeAmmo_12x64mmCharged_AAAM.description>
+  <MakeAmmo_12x64mmCharged_AAAM.jobString>Изготовление 12x64 мм заряженных патронов.</MakeAmmo_12x64mmCharged_AAAM.jobString>
+
+
+</LanguageData>

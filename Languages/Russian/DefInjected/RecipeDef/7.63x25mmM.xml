@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_763x25mmM_FMJ_AAAM.label>изготовить патрон 7,63x25 мм Маузер (FMJ) x100</MakeAmmo_763x25mmM_FMJ_AAAM.label>
+  <MakeAmmo_763x25mmM_FMJ_AAAM.description>Изготовить 100 патронов 7,63x25 мм Маузер (FMJ).</MakeAmmo_763x25mmM_FMJ_AAAM.description>
+  <MakeAmmo_763x25mmM_FMJ_AAAM.jobString>Изготовить патрон 7,63x25 мм Маузер (FMJ).</MakeAmmo_763x25mmM_FMJ_AAAM.jobString>
+
+  <MakeAmmo_763x25mmM_HP_AAAM.label>изготовить патрон 7,63x25 мм Маузер(HP) x100</MakeAmmo_763x25mmM_HP_AAAM.label>
+  <MakeAmmo_763x25mmM_HP_AAAM.description>Изготовить 100 патронов 7,63x25 мм Маузер(HP).</MakeAmmo_763x25mmM_HP_AAAM.description>
+  <MakeAmmo_763x25mmM_HP_AAAM.jobString>Изготовить патрон 7,63x25 мм Маузер(HP).</MakeAmmo_763x25mmM_HP_AAAM.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeAmmo_9x19mmPara_FMJ_AAAM.label>изготовить патрон 9×19 мм Парабеллум (FMJ) x500</MakeAmmo_9x19mmPara_FMJ_AAAM.label>
+  <MakeAmmo_9x19mmPara_FMJ_AAAM.description>Изготовить 500 патронов 9×19 мм Парабеллум (FMJ).</MakeAmmo_9x19mmPara_FMJ_AAAM.description>
+  <MakeAmmo_9x19mmPara_FMJ_AAAM.jobString>Изготовление патронов 9×19 мм Парабеллум (FMJ).</MakeAmmo_9x19mmPara_FMJ_AAAM.jobString>
+
+  <MakeAmmo_9x19mmPara_AP_AAAM.label>изготовить патрон 9×19 мм Парабеллум (БЗ) x500</MakeAmmo_9x19mmPara_AP_AAAM.label>
+  <MakeAmmo_9x19mmPara_AP_AAAM.description>Изготовить 500 патронов 9×19 мм Парабеллум (БЗ).</MakeAmmo_9x19mmPara_AP_AAAM.description>
+  <MakeAmmo_9x19mmPara_AP_AAAM.jobString>Изготовление патронов 9×19 мм Парабеллум (БЗ).</MakeAmmo_9x19mmPara_AP_AAAM.jobString>
+
+  <MakeAmmo_9x19mmPara_HP_AAAM.label>изготовить патрон 9×19 мм Парабеллум (ЭП) x500</MakeAmmo_9x19mmPara_HP_AAAM.label>
+  <MakeAmmo_9x19mmPara_HP_AAAM.description>Изготовить 500 патронов 9×19 мм Парабеллум (ЭП).</MakeAmmo_9x19mmPara_HP_AAAM.description>
+  <MakeAmmo_9x19mmPara_HP_AAAM.jobString>Изготовление патронов 9×19 мм Парабеллум (ЭП).</MakeAmmo_9x19mmPara_HP_AAAM.jobString>
+
+  <MakeAmmo_45ACP_FMJ_AAAM.label>изготовить патрон .45 ACP (FMJ) x500</MakeAmmo_45ACP_FMJ_AAAM.label>
+  <MakeAmmo_45ACP_FMJ_AAAM.description>Изготовить 500 патронов .45 ACP (FMJ).</MakeAmmo_45ACP_FMJ_AAAM.description>
+  <MakeAmmo_45ACP_FMJ_AAAM.jobString>Изготовление патронов .45 ACP (FMJ).</MakeAmmo_45ACP_FMJ_AAAM.jobString>
+
+  <MakeAmmo_45ACP_AP_AAAM.label>изготовить патрон .45 ACP (БЗ) x500</MakeAmmo_45ACP_AP_AAAM.label>
+  <MakeAmmo_45ACP_AP_AAAM.description>Изготовить 500 патронов .45 ACP (БЗ).</MakeAmmo_45ACP_AP_AAAM.description>
+  <MakeAmmo_45ACP_AP_AAAM.jobString>Изготовление патронов .45 ACP (БЗ).</MakeAmmo_45ACP_AP_AAAM.jobString>
+
+  <MakeAmmo_45ACP_HP_AAAM.label>изготовить патрон .45 ACP (ЭП) x500</MakeAmmo_45ACP_HP_AAAM.label>
+  <MakeAmmo_45ACP_HP_AAAM.description>Изготовить 500 патронов .45 ACP (ЭП).</MakeAmmo_45ACP_HP_AAAM.description>
+  <MakeAmmo_45ACP_HP_AAAM.jobString>Изготовление патронов .45 ACP (ЭП).</MakeAmmo_45ACP_HP_AAAM.jobString>
+
+  <MakeAmmo_303British_FMJ_AAAM.label>изготовить патрон .303 British (FMJ) x500</MakeAmmo_303British_FMJ_AAAM.label>
+  <MakeAmmo_303British_FMJ_AAAM.description>Изготовить 500 патронов .303 British (FMJ).</MakeAmmo_303British_FMJ_AAAM.description>
+  <MakeAmmo_303British_FMJ_AAAM.jobString>Изготовление патронов .303 British (FMJ).</MakeAmmo_303British_FMJ_AAAM.jobString>
+
+  <MakeAmmo_303British_AP_AAAM.label>изготовить патрон .303 British (БЗ) x500</MakeAmmo_303British_AP_AAAM.label>
+  <MakeAmmo_303British_AP_AAAM.description>Изготовить 500 патронов .303 British (БЗ).</MakeAmmo_303British_AP_AAAM.description>
+  <MakeAmmo_303British_AP_AAAM.jobString>Изготовление патронов .303 British (БЗ).</MakeAmmo_303British_AP_AAAM.jobString>
+
+  <MakeAmmo_303British_HP_AAAM.label>изготовить патрон .303 British (ЭП) x500</MakeAmmo_303British_HP_AAAM.label>
+  <MakeAmmo_303British_HP_AAAM.description>Изготовить 500 патронов .303 British (ЭП).</MakeAmmo_303British_HP_AAAM.description>
+  <MakeAmmo_303British_HP_AAAM.jobString>Изготовление патронов .303 British (ЭП).</MakeAmmo_303British_HP_AAAM.jobString>
+
+  <MakeAmmo_556x45mmNATO_FMJ_AAAM.label>изготовить патрон 5,56×45 мм НАТО (FMJ) x500</MakeAmmo_556x45mmNATO_FMJ_AAAM.label>
+  <MakeAmmo_556x45mmNATO_FMJ_AAAM.description>Изготовить 500 патронов 5,56×45 мм НАТО (FMJ).</MakeAmmo_556x45mmNATO_FMJ_AAAM.description>
+  <MakeAmmo_556x45mmNATO_FMJ_AAAM.jobString>Изготовление патронов 5,56×45 мм НАТО (FMJ).</MakeAmmo_556x45mmNATO_FMJ_AAAM.jobString>
+
+  <MakeAmmo_556x45mmNATO_AP_AAAM.label>изготовить патрон 5,56×45 мм НАТО (БЗ) x500</MakeAmmo_556x45mmNATO_AP_AAAM.label>
+  <MakeAmmo_556x45mmNATO_AP_AAAM.description>Изготовить 500 патронов 5,56×45 мм НАТО (БЗ).</MakeAmmo_556x45mmNATO_AP_AAAM.description>
+  <MakeAmmo_556x45mmNATO_AP_AAAM.jobString>Изготовление патронов 5,56×45 мм НАТО (БЗ).</MakeAmmo_556x45mmNATO_AP_AAAM.jobString>
+
+  <MakeAmmo_556x45mmNATO_HP_AAAM.label>изготовить патрон 5,56×45 мм НАТО (ЭП) x500</MakeAmmo_556x45mmNATO_HP_AAAM.label>
+  <MakeAmmo_556x45mmNATO_HP_AAAM.description>Изготовить 500 патронов 5,56×45 мм НАТО (ЭП).</MakeAmmo_556x45mmNATO_HP_AAAM.description>
+  <MakeAmmo_556x45mmNATO_HP_AAAM.jobString>Изготовление патронов 5,56×45 мм НАТО (ЭП).</MakeAmmo_556x45mmNATO_HP_AAAM.jobString>
+
+  <MakeAmmo_762x39mmSoviet_FMJ_AAAM.label>изготовить патрон 7,62×39 мм (FMJ) x500</MakeAmmo_762x39mmSoviet_FMJ_AAAM.label>
+  <MakeAmmo_762x39mmSoviet_FMJ_AAAM.description>Изготовить 500 патронов 7,62×39 мм (FMJ).</MakeAmmo_762x39mmSoviet_FMJ_AAAM.description>
+  <MakeAmmo_762x39mmSoviet_FMJ_AAAM.jobString>Изготовление патронов 7,62×39 мм (FMJ).</MakeAmmo_762x39mmSoviet_FMJ_AAAM.jobString>
+
+  <MakeAmmo_762x39mmSoviet_AP_AAAM.label>изготовить патрон 7,62×39 мм (БЗ) x500</MakeAmmo_762x39mmSoviet_AP_AAAM.label>
+  <MakeAmmo_762x39mmSoviet_AP_AAAM.description>Изготовить 500 патронов 7,62×39 мм (БЗ).</MakeAmmo_762x39mmSoviet_AP_AAAM.description>
+  <MakeAmmo_762x39mmSoviet_AP_AAAM.jobString>Изготовление патронов 7,62×39 мм (БЗ).</MakeAmmo_762x39mmSoviet_AP_AAAM.jobString>
+
+  <MakeAmmo_762x39mmSoviet_HP_AAAM.label>изготовить патрон 7,62×39 мм (ЭП) x500</MakeAmmo_762x39mmSoviet_HP_AAAM.label>
+  <MakeAmmo_762x39mmSoviet_HP_AAAM.description>Изготовить 500 патронов 7,62×39 мм (ЭП).</MakeAmmo_762x39mmSoviet_HP_AAAM.description>
+  <MakeAmmo_762x39mmSoviet_HP_AAAM.jobString>Изготовление патронов 7,62×39 мм (ЭП).</MakeAmmo_762x39mmSoviet_HP_AAAM.jobString>
+
+  <MakeAmmo_762x51mmNATO_FMJ_AAAM.label>изготовить патрон 7,62×51 мм НАТО (FMJ) x500</MakeAmmo_762x51mmNATO_FMJ_AAAM.label>
+  <MakeAmmo_762x51mmNATO_FMJ_AAAM.description>Изготовить 500 патронов 7,62×51 мм НАТО (FMJ).</MakeAmmo_762x51mmNATO_FMJ_AAAM.description>
+  <MakeAmmo_762x51mmNATO_FMJ_AAAM.jobString>Изготовление патронов 7,62×51 мм НАТО (FMJ).</MakeAmmo_762x51mmNATO_FMJ_AAAM.jobString>
+
+  <MakeAmmo_762x51mmNATO_AP_AAAM.label>изготовить патрон 7,62×51 мм НАТО (БЗ) x500</MakeAmmo_762x51mmNATO_AP_AAAM.label>
+  <MakeAmmo_762x51mmNATO_AP_AAAM.description>Изготовить 500 патронов 7,62×51 мм НАТО (БЗ).</MakeAmmo_762x51mmNATO_AP_AAAM.description>
+  <MakeAmmo_762x51mmNATO_AP_AAAM.jobString>Изготовление патронов 7,62×51 мм НАТО (БЗ).</MakeAmmo_762x51mmNATO_AP_AAAM.jobString>
+
+  <MakeAmmo_762x51mmNATO_HP_AAAM.label>изготовить патрон 7,62×51 мм НАТО (ЭП) x500</MakeAmmo_762x51mmNATO_HP_AAAM.label>
+  <MakeAmmo_762x51mmNATO_HP_AAAM.description>Изготовить 500 патронов 7,62×51 мм НАТО (ЭП).</MakeAmmo_762x51mmNATO_HP_AAAM.description>
+  <MakeAmmo_762x51mmNATO_HP_AAAM.jobString>Изготовление патронов 7,62×51 мм НАТО (ЭП).</MakeAmmo_762x51mmNATO_HP_AAAM.jobString>
+
+  <MakeAmmo_12Gauge_Buck_AAAM.label>изготовить патрон 12 калибра (картечь) x200</MakeAmmo_12Gauge_Buck_AAAM.label>
+  <MakeAmmo_12Gauge_Buck_AAAM.description>Изготовить 200 патронов 12 калибра (картечь).</MakeAmmo_12Gauge_Buck_AAAM.description>
+  <MakeAmmo_12Gauge_Buck_AAAM.jobString>Изготовление патронов 12 калибра (картечь).</MakeAmmo_12Gauge_Buck_AAAM.jobString>
+
+  <MakeAmmo_12Gauge_Slug_AAAM.label>изготовить патрон 12 калибра (пуля) x200</MakeAmmo_12Gauge_Slug_AAAM.label>
+  <MakeAmmo_12Gauge_Slug_AAAM.description>Изготовить 200 патронов 12 калибра (пуля).</MakeAmmo_12Gauge_Slug_AAAM.description>
+  <MakeAmmo_12Gauge_Slug_AAAM.jobString>Изготовление патронов 12 калибра (пуля).</MakeAmmo_12Gauge_Slug_AAAM.jobString>
+
+  <MakeAmmo_12Gauge_Beanbag_AAAM.label>изготовить патрон 12 калибра (травматический) x200</MakeAmmo_12Gauge_Beanbag_AAAM.label>
+  <MakeAmmo_12Gauge_Beanbag_AAAM.description>Изготовить 200 патронов 12 калибра (травматический).</MakeAmmo_12Gauge_Beanbag_AAAM.description>
+  <MakeAmmo_12Gauge_Beanbag_AAAM.jobString>Изготовление патронов 12 калибра (травматический).</MakeAmmo_12Gauge_Beanbag_AAAM.jobString>
+
+  <MakeAmmo_12Gauge_ElectroSlug_AAAM.label>изготовить патрон 12 калибра (ЭМИ) x200</MakeAmmo_12Gauge_ElectroSlug_AAAM.label>
+  <MakeAmmo_12Gauge_ElectroSlug_AAAM.description>Изготовить 200 патронов 12 калибра (ЭМИ).</MakeAmmo_12Gauge_ElectroSlug_AAAM.description>
+  <MakeAmmo_12Gauge_ElectroSlug_AAAM.jobString>Изготовление патронов 12 калибра (ЭМИ).</MakeAmmo_12Gauge_ElectroSlug_AAAM.jobString>
+
+  <MakeAmmo_145x114mm_FMJ_AAAM.label>изготовить патрон 14,5×114 мм (FMJ) x200</MakeAmmo_145x114mm_FMJ_AAAM.label>
+  <MakeAmmo_145x114mm_FMJ_AAAM.description>Изготовить 200 патронов 14,5×114 мм (FMJ).</MakeAmmo_145x114mm_FMJ_AAAM.description>
+  <MakeAmmo_145x114mm_FMJ_AAAM.jobString>Изготовление патронов 14,5×114 мм (FMJ).</MakeAmmo_145x114mm_FMJ_AAAM.jobString>
+
+  <MakeAmmo_145x114mm_Incendiary_AAAM.label>изготовить патрон 14,5×114 мм (БЗ-З) x200</MakeAmmo_145x114mm_Incendiary_AAAM.label>
+  <MakeAmmo_145x114mm_Incendiary_AAAM.description>Изготовить 200 патронов 14,5×114 мм (БЗ-З).</MakeAmmo_145x114mm_Incendiary_AAAM.description>
+  <MakeAmmo_145x114mm_Incendiary_AAAM.jobString>Изготовление патронов 14,5×114 мм (БЗ-З).</MakeAmmo_145x114mm_Incendiary_AAAM.jobString>
+
+  <MakeAmmo_145x114mm_HE_AAAM.label>изготовить патрон 14,5×114 мм (БЗ-ОФ) x200</MakeAmmo_145x114mm_HE_AAAM.label>
+  <MakeAmmo_145x114mm_HE_AAAM.description>Изготовить 200 патронов 14,5×114 мм (БЗ-ОФ).</MakeAmmo_145x114mm_HE_AAAM.description>
+  <MakeAmmo_145x114mm_HE_AAAM.jobString>Изготовление патронов 14,5×114 мм (БЗ-ОФ).</MakeAmmo_145x114mm_HE_AAAM.jobString>
+
+  <MakeAmmo_50BMG_FMJ_AAAM.label>изготовить патрон .50 BMG (FMJ) x200</MakeAmmo_50BMG_FMJ_AAAM.label>
+  <MakeAmmo_50BMG_FMJ_AAAM.description>Изготовить 200 патронов .50 BMG (FMJ).</MakeAmmo_50BMG_FMJ_AAAM.description>
+  <MakeAmmo_50BMG_FMJ_AAAM.jobString>Изготовление патронов .50 BMG (FMJ).</MakeAmmo_50BMG_FMJ_AAAM.jobString>
+
+  <MakeAmmo_50BMG_Incendiary_AAAM.label>изготовить патрон .50 BMG (БЗ-З) x200</MakeAmmo_50BMG_Incendiary_AAAM.label>
+  <MakeAmmo_50BMG_Incendiary_AAAM.description>Изготовить 200 патронов .50 BMG (БЗ-З).</MakeAmmo_50BMG_Incendiary_AAAM.description>
+  <MakeAmmo_50BMG_Incendiary_AAAM.jobString>Изготовление патронов .50 BMG (БЗ-З).</MakeAmmo_50BMG_Incendiary_AAAM.jobString>
+
+  <MakeAmmo_50BMG_HE_AAAM.label>изготовить патрон .50 BMG (БЗ-ОФ) x200</MakeAmmo_50BMG_HE_AAAM.label>
+  <MakeAmmo_50BMG_HE_AAAM.description>Изготовить 200 патронов .50 BMG (БЗ-ОФ).</MakeAmmo_50BMG_HE_AAAM.description>
+  <MakeAmmo_50BMG_HE_AAAM.jobString>Изготовление патронов .50 BMG (БЗ-ОФ).</MakeAmmo_50BMG_HE_AAAM.jobString>
+
+  <MakeAmmo_50BMG_Sabot_AAAM.label>изготовить патрон .50 BMG (подкалиберный) x200</MakeAmmo_50BMG_Sabot_AAAM.label>
+  <MakeAmmo_50BMG_Sabot_AAAM.description>Изготовить 200 патронов .50 BMG (подкалиберный).</MakeAmmo_50BMG_Sabot_AAAM.description>
+  <MakeAmmo_50BMG_Sabot_AAAM.jobString>Изготовление патронов .50 BMG (подкалиберный).</MakeAmmo_50BMG_Sabot_AAAM.jobString>
+
+  <MakeAmmo_20x102mm_FMJ_AAAM.label>изготовить патрон 20×102 мм (FMJ) x40</MakeAmmo_20x102mm_FMJ_AAAM.label>
+  <MakeAmmo_20x102mm_FMJ_AAAM.description>Изготовить 40 патронов 20×102 мм (FMJ).</MakeAmmo_20x102mm_FMJ_AAAM.description>
+  <MakeAmmo_20x102mm_FMJ_AAAM.jobString>Изготовление патронов 20×102 мм (FMJ).</MakeAmmo_20x102mm_FMJ_AAAM.jobString>
+
+  <MakeAmmo_20x102mm_HE_AAAM.label>изготовить патрон 20×102 мм (ОФ) x40</MakeAmmo_20x102mm_HE_AAAM.label>
+  <MakeAmmo_20x102mm_HE_AAAM.description>Изготовить 40 патронов 20×102 мм (ОФ).</MakeAmmo_20x102mm_HE_AAAM.description>
+  <MakeAmmo_20x102mm_HE_AAAM.jobString>Изготовление патронов 20×102 мм (ОФ).</MakeAmmo_20x102mm_HE_AAAM.jobString>
+
+  <MakeAmmo_20x102mm_Incendiary_AAAM.label>изготовить патрон 20×102 мм (БЗ-З) x40</MakeAmmo_20x102mm_Incendiary_AAAM.label>
+  <MakeAmmo_20x102mm_Incendiary_AAAM.description>Изготовить 40 патронов 20×102 мм (БЗ-З).</MakeAmmo_20x102mm_Incendiary_AAAM.description>
+  <MakeAmmo_20x102mm_Incendiary_AAAM.jobString>Изготовление патронов 20×102 мм (БЗ-З).</MakeAmmo_20x102mm_Incendiary_AAAM.jobString>
+
+  <MakeAmmo_30x173mm_FMJ_AAAM.label>изготовить патрон 30×173 мм (FMJ) x30</MakeAmmo_30x173mm_FMJ_AAAM.label>
+  <MakeAmmo_30x173mm_FMJ_AAAM.description>Изготовить 30 патронов 30×173 мм (FMJ).</MakeAmmo_30x173mm_FMJ_AAAM.description>
+  <MakeAmmo_30x173mm_FMJ_AAAM.jobString>Изготовление патронов 30×173 мм (FMJ).</MakeAmmo_30x173mm_FMJ_AAAM.jobString>
+
+  <MakeAmmo_30x173mm_HE_AAAM.label>изготовить патрон 30×173 мм (ОФ) x30</MakeAmmo_30x173mm_HE_AAAM.label>
+  <MakeAmmo_30x173mm_HE_AAAM.description>Изготовить 30 патронов 30×173 мм (ОФ).</MakeAmmo_30x173mm_HE_AAAM.description>
+  <MakeAmmo_30x173mm_HE_AAAM.jobString>Изготовление патронов 30×173 мм (ОФ).</MakeAmmo_30x173mm_HE_AAAM.jobString>
+
+  <MakeAmmo_30x173mm_Incendiary_AAAM.label>изготовить патрон 30×173 мм (БЗ-З) x30</MakeAmmo_30x173mm_Incendiary_AAAM.label>
+  <MakeAmmo_30x173mm_Incendiary_AAAM.description>Изготовить 30 патронов 30×173 мм (БЗ-З).</MakeAmmo_30x173mm_Incendiary_AAAM.description>
+  <MakeAmmo_30x173mm_Incendiary_AAAM.jobString>Изготовление патронов 30×173 мм (БЗ-З).</MakeAmmo_30x173mm_Incendiary_AAAM.jobString>
+
+  <MakeAmmo_30x29mmGrenade_HE_AAAM.label>изготовить гранаты 30×29 мм (ОФ) x100</MakeAmmo_30x29mmGrenade_HE_AAAM.label>
+  <MakeAmmo_30x29mmGrenade_HE_AAAM.description>Изготовить 100 гранат 30×29 мм (ОФ).</MakeAmmo_30x29mmGrenade_HE_AAAM.description>
+  <MakeAmmo_30x29mmGrenade_HE_AAAM.jobString>Изготовление гранат 30×29 мм (ОФ).</MakeAmmo_30x29mmGrenade_HE_AAAM.jobString>
+
+  <MakeAmmo_30x29mmGrenade_HE_TFuzed_AAAM.label>изготовить гранаты 30×29 мм (ОФ с таймером) x100</MakeAmmo_30x29mmGrenade_HE_TFuzed_AAAM.label>
+  <MakeAmmo_30x29mmGrenade_HE_TFuzed_AAAM.description>Изготовить 100 гранат 30×29 мм (ОФ с таймером).</MakeAmmo_30x29mmGrenade_HE_TFuzed_AAAM.description>
+  <MakeAmmo_30x29mmGrenade_HE_TFuzed_AAAM.jobString>Изготовление гранат 30×29 мм (ОФ с таймером).</MakeAmmo_30x29mmGrenade_HE_TFuzed_AAAM.jobString>
+
+  <MakeAmmo_30x29mmGrenade_EMP_AAAM.label>изготовить гранаты 30×29 мм (ЭМИ) x100</MakeAmmo_30x29mmGrenade_EMP_AAAM.label>
+  <MakeAmmo_30x29mmGrenade_EMP_AAAM.description>Изготовить 100 гранат 30×29 мм (ЭМИ).</MakeAmmo_30x29mmGrenade_EMP_AAAM.description>
+  <MakeAmmo_30x29mmGrenade_EMP_AAAM.jobString>Изготовление гранат 30×29 мм (ЭМИ).</MakeAmmo_30x29mmGrenade_EMP_AAAM.jobString>
+
+  <MakeAmmo_30x29mmGrenade_Smoke_AAAM.label>изготовить гранаты 30×29 мм (дымовые) x100</MakeAmmo_30x29mmGrenade_Smoke_AAAM.label>
+  <MakeAmmo_30x29mmGrenade_Smoke_AAAM.description>Изготовить 100 гранат 30×29 мм (дымовые).</MakeAmmo_30x29mmGrenade_Smoke_AAAM.description>
+  <MakeAmmo_30x29mmGrenade_Smoke_AAAM.jobString>Изготовление гранат 30×29 мм (дымовые).</MakeAmmo_30x29mmGrenade_Smoke_AAAM.jobString>
+
+  <MakeAmmo_40x46mmGrenade_HE_AAAM.label>изготовить гранаты 40×46 мм (ОФ) x100</MakeAmmo_40x46mmGrenade_HE_AAAM.label>
+  <MakeAmmo_40x46mmGrenade_HE_AAAM.description>Изготовить 100 гранат 40×46 мм (ОФ).</MakeAmmo_40x46mmGrenade_HE_AAAM.description>
+  <MakeAmmo_40x46mmGrenade_HE_AAAM.jobString>Изготовление гранат 40×46 мм (ОФ).</MakeAmmo_40x46mmGrenade_HE_AAAM.jobString>
+
+  <MakeAmmo_40x46mmGrenade_HE_TFuzed_AAAM.label>изготовить гранаты 40×46 мм (ОФ с таймером) x100</MakeAmmo_40x46mmGrenade_HE_TFuzed_AAAM.label>
+  <MakeAmmo_40x46mmGrenade_HE_TFuzed_AAAM.description>Изготовить 100 гранат 40×46 мм (ОФ с таймером).</MakeAmmo_40x46mmGrenade_HE_TFuzed_AAAM.description>
+  <MakeAmmo_40x46mmGrenade_HE_TFuzed_AAAM.jobString>Изготовление гранат 40×46 мм (ОФ с таймером).</MakeAmmo_40x46mmGrenade_HE_TFuzed_AAAM.jobString>
+
+  <MakeAmmo_40x46mmGrenade_HEDP_AAAM.label>изготовить гранаты 40×46 мм (ОФ-кумулятивные) x100</MakeAmmo_40x46mmGrenade_HEDP_AAAM.label>
+  <MakeAmmo_40x46mmGrenade_HEDP_AAAM.description>Изготовить 100 гранат 40×46 мм (ОФ-кумулятивные).</MakeAmmo_40x46mmGrenade_HEDP_AAAM.description>
+  <MakeAmmo_40x46mmGrenade_HEDP_AAAM.jobString>Изготовление гранат 40×46 мм (ОФ-кумулятивные).</MakeAmmo_40x46mmGrenade_HEDP_AAAM.jobString>
+
+  <MakeAmmo_40x46mmGrenade_EMP_AAAM.label>изготовить гранаты 40×46 мм (ЭМИ) x100</MakeAmmo_40x46mmGrenade_EMP_AAAM.label>
+  <MakeAmmo_40x46mmGrenade_EMP_AAAM.description>Изготовить 100 гранат 40×46 мм (ЭМИ).</MakeAmmo_40x46mmGrenade_EMP_AAAM.description>
+  <MakeAmmo_40x46mmGrenade_EMP_AAAM.jobString>Изготовление гранат 40×46 мм (ЭМИ).</MakeAmmo_40x46mmGrenade_EMP_AAAM.jobString>
+
+  <MakeAmmo_40x46mmGrenade_Smoke_AAAM.label>изготовить гранаты 40×46 мм (дымовые) x100</MakeAmmo_40x46mmGrenade_Smoke_AAAM.label>
+  <MakeAmmo_40x46mmGrenade_Smoke_AAAM.description>Изготовить 100 гранат 40×46 мм (дымовые).</MakeAmmo_40x46mmGrenade_Smoke_AAAM.description>
+  <MakeAmmo_40x46mmGrenade_Smoke_AAAM.jobString>Изготовление гранат 40×46 мм (дымовые).</MakeAmmo_40x46mmGrenade_Smoke_AAAM.jobString>
+
+  <MakeAmmo_40x46mmGrenade_Tox_AAAM.label>изготовить гранаты 40×46 мм (токсичные) x100</MakeAmmo_40x46mmGrenade_Tox_AAAM.label>
+  <MakeAmmo_40x46mmGrenade_Tox_AAAM.description>Изготовить 100 гранат 40×46 мм (токсичные).</MakeAmmo_40x46mmGrenade_Tox_AAAM.description>
+  <MakeAmmo_40x46mmGrenade_Tox_AAAM.jobString>Изготовление гранат 40×46 мм (токсичные).</MakeAmmo_40x46mmGrenade_Tox_AAAM.jobString>
+
+  <MakeAmmo_6x24mmCharged_AAAM.label>изготовить патрон 6×24 мм (заряженный) x500</MakeAmmo_6x24mmCharged_AAAM.label>
+  <MakeAmmo_6x24mmCharged_AAAM.description>Изготовить 500 патронов 6×24 мм (заряженный).</MakeAmmo_6x24mmCharged_AAAM.description>
+  <MakeAmmo_6x24mmCharged_AAAM.jobString>Изготовление патронов 6×24 мм (заряженный).</MakeAmmo_6x24mmCharged_AAAM.jobString>
+
+  <MakeAmmo_6x24mmCharged_AP_AAAM.label>изготовить патрон 6×24 мм (заряженный, кумулятивный) x500</MakeAmmo_6x24mmCharged_AP_AAAM.label>
+  <MakeAmmo_6x24mmCharged_AP_AAAM.description>Изготовить 500 патронов 6×24 мм (заряженный, кумулятивный).</MakeAmmo_6x24mmCharged_AP_AAAM.description>
+  <MakeAmmo_6x24mmCharged_AP_AAAM.jobString>Изготовление патронов 6×24 мм (заряженный, кумулятивный).</MakeAmmo_6x24mmCharged_AP_AAAM.jobString>
+
+  <MakeAmmo_6x24mmCharged_Ion_AAAM.label>изготовить патрон 6×24 мм (заряженный, ионный) x500</MakeAmmo_6x24mmCharged_Ion_AAAM.label>
+  <MakeAmmo_6x24mmCharged_Ion_AAAM.description>Изготовить 500 патронов 6×24 мм (заряженный, ионный).</MakeAmmo_6x24mmCharged_Ion_AAAM.description>
+  <MakeAmmo_6x24mmCharged_Ion_AAAM.jobString>Изготовление патронов 6×24 мм (заряженный, ионный).</MakeAmmo_6x24mmCharged_Ion_AAAM.jobString>
+
+  <MakeAmmo_5x50mmCaseless_Sabot_AAAM.label>изготовить патрон 5×50 мм (безгильзовый, подкалиберный) x500</MakeAmmo_5x50mmCaseless_Sabot_AAAM.label>
+  <MakeAmmo_5x50mmCaseless_Sabot_AAAM.description>Craft 500 5x50mm Caseless (Sabot) cartridges.</MakeAmmo_5x50mmCaseless_Sabot_AAAM.description>
+  <MakeAmmo_5x50mmCaseless_Sabot_AAAM.jobString>Making 5x50mm Caseless (Sabot) cartridges.</MakeAmmo_5x50mmCaseless_Sabot_AAAM.jobString>
+
+  <MakeAmmo_30x64mmFuel_Incendiary_AAAM.label>изготовить топливные элементы 30x64 мм (зажигательные) x50</MakeAmmo_30x64mmFuel_Incendiary_AAAM.label>
+  <MakeAmmo_30x64mmFuel_Incendiary_AAAM.description>Создать 50 зажигательных топливных элементов 30x64 мм.</MakeAmmo_30x64mmFuel_Incendiary_AAAM.description>
+  <MakeAmmo_30x64mmFuel_Incendiary_AAAM.jobString>Изготовить зажигательные топливные элементы.</MakeAmmo_30x64mmFuel_Incendiary_AAAM.jobString>
+
+  <MakeAmmo_30x64mmFuel_Thermobaric_AAAM.label>изготовить 30x64 мм топливные элементы (термобарические) x50</MakeAmmo_30x64mmFuel_Thermobaric_AAAM.label>
+  <MakeAmmo_30x64mmFuel_Thermobaric_AAAM.description>изготовить 50 30x64 мм термобарических топливных элементов.</MakeAmmo_30x64mmFuel_Thermobaric_AAAM.description>
+  <MakeAmmo_30x64mmFuel_Thermobaric_AAAM.jobString>изготовить термобарические топливные элементы.</MakeAmmo_30x64mmFuel_Thermobaric_AAAM.jobString>
+
+  <MakeAmmo_30x64mmFuel_Foam_AAAM.label>изготовить топливный элемент 30x64 мм (пена) x50</MakeAmmo_30x64mmFuel_Foam_AAAM.label>
+  <MakeAmmo_30x64mmFuel_Foam_AAAM.description>изготовить 50 пенопластовых топливных элементов размером 30x64 мм.</MakeAmmo_30x64mmFuel_Foam_AAAM.description>
+  <MakeAmmo_30x64mmFuel_Foam_AAAM.jobString>Изготовление пенопластовых топливных элементов.</MakeAmmo_30x64mmFuel_Foam_AAAM.jobString>
+
+  <MakeAmmo_RailRay_AAAM.label>изготовить картридж Заряженный рельсовый луч x20</MakeAmmo_RailRay_AAAM.label>
+  <MakeAmmo_RailRay_AAAM.description>изготовить 20 заряженных патронов Rail Ray.</MakeAmmo_RailRay_AAAM.description>
+  <MakeAmmo_RailRay_AAAM.jobString>изготовить заряженных патронов Rail Ray.</MakeAmmo_RailRay_AAAM.jobString>
+
+  <MakeAmmo_PlasmaPelletBolt_AAAM.label>изготовить патрон с плазменным зарядом x80</MakeAmmo_PlasmaPelletBolt_AAAM.label>
+  <MakeAmmo_PlasmaPelletBolt_AAAM.description>изготовить 80 патронов с плазменным зарядом для пуль.</MakeAmmo_PlasmaPelletBolt_AAAM.description>
+  <MakeAmmo_PlasmaPelletBolt_AAAM.jobString>Изготовление плазменных патронов для болтов.</MakeAmmo_PlasmaPelletBolt_AAAM.jobString>
+
+  <MakeAmmo_PlasmaBolt_AAAM.label>изготовить плазменные болты x80</MakeAmmo_PlasmaBolt_AAAM.label>
+  <MakeAmmo_PlasmaBolt_AAAM.description>изготовить 80 плазменных патронов для болтов.</MakeAmmo_PlasmaBolt_AAAM.description>
+  <MakeAmmo_PlasmaBolt_AAAM.jobString>изготовить плазменных патронов для болтов.</MakeAmmo_PlasmaBolt_AAAM.jobString>
+
+  <MakeAmmo_BlasterBolt_AAAM.label>изготовить бластерне болты x80</MakeAmmo_BlasterBolt_AAAM.label>
+  <MakeAmmo_BlasterBolt_AAAM.description>изготовить 80 патронов Blaster с зарядом болта.</MakeAmmo_BlasterBolt_AAAM.description>
+  <MakeAmmo_BlasterBolt_AAAM.jobString>изготовить патронов Blaster с зарядом болта.</MakeAmmo_BlasterBolt_AAAM.jobString>
+
+  <MakeAmmo_ChargedLaser_AAAM.label>изготовить патрон Заряженный лазерный патрон x40</MakeAmmo_ChargedLaser_AAAM.label>
+  <MakeAmmo_ChargedLaser_AAAM.description>изготовить 40 патронов Заряженный лазерный патрон.</MakeAmmo_ChargedLaser_AAAM.description>
+  <MakeAmmo_ChargedLaser_AAAM.jobString>Изготовление заряженных лазерных патронов.</MakeAmmo_ChargedLaser_AAAM.jobString>
+
+  <MakeAmmo_ChargedLaser_Stable_AAAM.label>изготовить заряженный лазерный патрон (стабильный) x40</MakeAmmo_ChargedLaser_Stable_AAAM.label>
+  <MakeAmmo_ChargedLaser_Stable_AAAM.description>Изготовить 40 заряженных лазерных патронов (стабильных).</MakeAmmo_ChargedLaser_Stable_AAAM.description>
+  <MakeAmmo_ChargedLaser_Stable_AAAM.jobString>Изготовление заряженных лазерных патронов (стабильных).</MakeAmmo_ChargedLaser_Stable_AAAM.jobString>
+
+  <MakeAmmo_BlasterPelletBolt_AAAM.label>изготовить патрон бластера x80</MakeAmmo_BlasterPelletBolt_AAAM.label>
+  <MakeAmmo_BlasterPelletBolt_AAAM.description>изготовить 80 патронов бластера.</MakeAmmo_BlasterPelletBolt_AAAM.description>
+  <MakeAmmo_BlasterPelletBolt_AAAM.jobString>изготовить патроны Blaster Charged для дробовых болтов.</MakeAmmo_BlasterPelletBolt_AAAM.jobString>
+
+
+</LanguageData>

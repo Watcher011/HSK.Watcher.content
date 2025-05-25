@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_12Gauge_DB_AAAM.label>изготовить патрон 12 калибра (дыхание дракона) снарядов x40</MakeAmmo_12Gauge_DB_AAAM.label>
+  <MakeAmmo_12Gauge_DB_AAAM.description>Изготовить 40 патронов 12 калибра (дыхание дракона).</MakeAmmo_12Gauge_DB_AAAM.description>
+  <MakeAmmo_12Gauge_DB_AAAM.jobString>Изготовление снарядов 12 калибра (дыхание дракона).</MakeAmmo_12Gauge_DB_AAAM.jobString>
+
+  <MakeAmmo_12Gauge_F_AAAM.label>изготовить патрон 12 калибра (Flechette) снарядов x40</MakeAmmo_12Gauge_F_AAAM.label>
+  <MakeAmmo_12Gauge_F_AAAM.description>Изготовить 40 патронов 12 калибра (Flechette).</MakeAmmo_12Gauge_F_AAAM.description>
+  <MakeAmmo_12Gauge_F_AAAM.jobString>Изготовление снарядов 12 калибра (Flechette).</MakeAmmo_12Gauge_F_AAAM.jobString>
+
+  <MakeAmmo_12Gauge_S_AAAM.label>изготовить патрон 12 калибра (шрапнель) x40</MakeAmmo_12Gauge_S_AAAM.label>
+  <MakeAmmo_12Gauge_S_AAAM.description>Изготовить 40 патронов 12 калибра (шрапнель).</MakeAmmo_12Gauge_S_AAAM.description>
+  <MakeAmmo_12Gauge_S_AAAM.jobString>Изготовление снарядов 12 калибра (шрапнельных).</MakeAmmo_12Gauge_S_AAAM.jobString>
+
+
+</LanguageData>

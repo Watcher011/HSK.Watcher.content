@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <!--[Duplicated] <MakeAmmo_762x54mmR_FMJ_AAAM.label>make 7.62x54mmR (FMJ) cartridge x60</MakeAmmo_762x54mmR_FMJ_AAAM.label>-->
+  <!--[Duplicated] <MakeAmmo_762x54mmR_FMJ_AAAM.description>Craft 60 7.62x54mmR (FMJ) cartridges.</MakeAmmo_762x54mmR_FMJ_AAAM.description>-->
+  <!--[Duplicated] <MakeAmmo_762x54mmR_FMJ_AAAM.jobString>Making 7.62x54mmR (FMJ) cartridges.</MakeAmmo_762x54mmR_FMJ_AAAM.jobString>-->
+
+  <!--[Duplicated] <MakeAmmo_762x54mmR_AP_AAAM.label>make 7.62x54mmR (AP) cartridge x60</MakeAmmo_762x54mmR_AP_AAAM.label>-->
+  <!--[Duplicated] <MakeAmmo_762x54mmR_AP_AAAM.description>Craft 60 7.62x54mmR (AP) cartridges.</MakeAmmo_762x54mmR_AP_AAAM.description>-->
+  <!--[Duplicated] <MakeAmmo_762x54mmR_AP_AAAM.jobString>Making 7.62x54mmR (AP) cartridges.</MakeAmmo_762x54mmR_AP_AAAM.jobString>-->
+
+  <!--[Duplicated] <MakeAmmo_762x54mmR_HP_AAAM.label>make 7.62x54mmR (HP) cartridge x60</MakeAmmo_762x54mmR_HP_AAAM.label>-->
+  <!--[Duplicated] <MakeAmmo_762x54mmR_HP_AAAM.description>Craft 60 7.62x54mmR (HP) cartridges.</MakeAmmo_762x54mmR_HP_AAAM.description>-->
+  <!--[Duplicated] <MakeAmmo_762x54mmR_HP_AAAM.jobString>Making 7.62x54mmR (HP) cartridges.</MakeAmmo_762x54mmR_HP_AAAM.jobString>-->
+
+  <MakeAmmo_762x54mmR_FMJ_AAAM.label>изготовить патрон 7.62x54 мм R (FMJ) x60</MakeAmmo_762x54mmR_FMJ_AAAM.label>
+  <MakeAmmo_762x54mmR_FMJ_AAAM.description>Изготовить 60 патронов 7.62x54 мм R (FMJ).</MakeAmmo_762x54mmR_FMJ_AAAM.description>
+  <MakeAmmo_762x54mmR_FMJ_AAAM.jobString>Изготовление патронов 7.62x54 мм R (FMJ).</MakeAmmo_762x54mmR_FMJ_AAAM.jobString>
+
+  <MakeAmmo_762x54mmR_AP_AAAM.label>изготовить патрон 7.62x54 мм R (БЗ) x60</MakeAmmo_762x54mmR_AP_AAAM.label>
+  <MakeAmmo_762x54mmR_AP_AAAM.description>Изготовить 60 патронов 7.62x54 мм R (БЗ).</MakeAmmo_762x54mmR_AP_AAAM.description>
+  <MakeAmmo_762x54mmR_AP_AAAM.jobString>Изготовление патронов 7.62x54 мм R (БЗ).</MakeAmmo_762x54mmR_AP_AAAM.jobString>
+
+  <MakeAmmo_762x54mmR_HP_AAAM.label>изготовить патрон 7.62x54 мм R (ЭП) x60</MakeAmmo_762x54mmR_HP_AAAM.label>
+  <MakeAmmo_762x54mmR_HP_AAAM.description>Изготовить 60 патронов 7.62x54 мм R (ЭП).</MakeAmmo_762x54mmR_HP_AAAM.description>
+  <MakeAmmo_762x54mmR_HP_AAAM.jobString>Изготовление патронов 7.62x54 мм R (ЭП).</MakeAmmo_762x54mmR_HP_AAAM.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_12Mag_Buck_AAAM.label>изготовить 40 патронов .12 mag (Buck)</MakeAmmo_12Mag_Buck_AAAM.label>
+  <MakeAmmo_12Mag_Buck_AAAM.description>изготовить 40 патронов .12 mag (Buck).</MakeAmmo_12Mag_Buck_AAAM.description>
+  <MakeAmmo_12Mag_Buck_AAAM.jobString>Изготовление патронов .12 mag (Buck).</MakeAmmo_12Mag_Buck_AAAM.jobString>
+
+  <MakeAmmo_12Mag_ElectroSlug_AAAM.label>изготовить 40 патронов .12 mag (EMP) x40</MakeAmmo_12Mag_ElectroSlug_AAAM.label>
+  <MakeAmmo_12Mag_ElectroSlug_AAAM.description>изготовить 40 патронов .12 mag (EMP).</MakeAmmo_12Mag_ElectroSlug_AAAM.description>
+  <MakeAmmo_12Mag_ElectroSlug_AAAM.jobString>Изготовление патронов .12 mag (EMP).</MakeAmmo_12Mag_ElectroSlug_AAAM.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+  <MakeAmmo_TuF_AP_AAAM.label>изготовить патрон 13,2x92 мм SR TuF(AP) x50</MakeAmmo_TuF_AP_AAAM.label>
+  <MakeAmmo_TuF_AP_AAAM.description>изготовить 50 патронов SR TuF(AP) калибра 13,2x92 мм</MakeAmmo_TuF_AP_AAAM.description>
+  <MakeAmmo_TuF_AP_AAAM.jobString>Изготовление патронов SR TuF(AP) калибра 13,2x92 мм</MakeAmmo_TuF_AP_AAAM.jobString>
+
+  <MakeAmmo_TuF_APHE_AAAM.label>изготовить патрон SR TuF(APHE) 13,2x92 мм x50</MakeAmmo_TuF_APHE_AAAM.label>
+  <MakeAmmo_TuF_APHE_AAAM.description>изготовить 50 патронов SR TuF(APHE) калибра 13,2x92 мм</MakeAmmo_TuF_APHE_AAAM.description>
+  <MakeAmmo_TuF_APHE_AAAM.jobString>Изготовление патронов SR TuF(APHE) 13,2x92 мм</MakeAmmo_TuF_APHE_AAAM.jobString>
+
+  <MakeAmmo_MG131_HET_AAAM.label>изготовить патрон 13x64 ммB(HE-T) x50</MakeAmmo_MG131_HET_AAAM.label>
+  <MakeAmmo_MG131_HET_AAAM.description>изготовить 50 патронов 13x64mmB(HE-T)</MakeAmmo_MG131_HET_AAAM.description>
+  <MakeAmmo_MG131_HET_AAAM.jobString>Изготовление патронов 13x64mmB(HE-T)</MakeAmmo_MG131_HET_AAAM.jobString>
+
+
+</LanguageData>

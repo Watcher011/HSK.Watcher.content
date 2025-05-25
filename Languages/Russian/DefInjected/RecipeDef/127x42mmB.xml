@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+  <MakeAmmo_127x42mmB_FMJ_AAAM.label>изготовить патрон .50 Beowulf (FMJ) x80</MakeAmmo_127x42mmB_FMJ_AAAM.label>
+  <MakeAmmo_127x42mmB_FMJ_AAAM.description>изготовить 80 патронов .50 Beowulf(FMJ)</MakeAmmo_127x42mmB_FMJ_AAAM.description>
+  <MakeAmmo_127x42mmB_FMJ_AAAM.jobString>Изготовление патронов .50 Beowulf (FMJ)</MakeAmmo_127x42mmB_FMJ_AAAM.jobString>
+
+  <MakeAmmo_127x42mmB_API_AAAM.label>изготовить патрон .50 Beowulf (AP-I) x80</MakeAmmo_127x42mmB_API_AAAM.label>
+  <MakeAmmo_127x42mmB_API_AAAM.description>изготовить патрон 80 .50 Beowulf (AP-I)</MakeAmmo_127x42mmB_API_AAAM.description>
+  <MakeAmmo_127x42mmB_API_AAAM.jobString>Изготовление патронов .50 Beowulf (AP-I)</MakeAmmo_127x42mmB_API_AAAM.jobString>
+
+  <MakeAmmo_127x42mmB_HP_AAAM.label>изготовить патрон .50 Beowulf (HP) x80</MakeAmmo_127x42mmB_HP_AAAM.label>
+  <MakeAmmo_127x42mmB_HP_AAAM.description>изготовить патрон 80 .50 Beowulf (HP)</MakeAmmo_127x42mmB_HP_AAAM.description>
+  <MakeAmmo_127x42mmB_HP_AAAM.jobString>Изготовление патронов .50 Beowulf (HP)</MakeAmmo_127x42mmB_HP_AAAM.jobString>
+
+  <MakeAmmo_127x42mmB_EMP_AAAM.label>изготовить патрон .50 Beowulf (EMP) x80</MakeAmmo_127x42mmB_EMP_AAAM.label>
+  <MakeAmmo_127x42mmB_EMP_AAAM.description>изготовить патрон 80 .50 Beowulf (EMP)</MakeAmmo_127x42mmB_EMP_AAAM.description>
+  <MakeAmmo_127x42mmB_EMP_AAAM.jobString>Изготовление патронов .50 Beowulf (EMP)</MakeAmmo_127x42mmB_EMP_AAAM.jobString>
+
+
+</LanguageData>

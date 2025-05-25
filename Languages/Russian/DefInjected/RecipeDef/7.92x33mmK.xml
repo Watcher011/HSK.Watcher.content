@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_792x33mmK_FMJ_AAAM.label>изготовить патрон 7,92x33 мм K(FMJ) x100</MakeAmmo_792x33mmK_FMJ_AAAM.label>
+  <MakeAmmo_792x33mmK_FMJ_AAAM.description>Изготовить 100 патронов 7,92x33 мм K(FMJ).</MakeAmmo_792x33mmK_FMJ_AAAM.description>
+  <MakeAmmo_792x33mmK_FMJ_AAAM.jobString>Изготовить патроны 7,92x33 мм K(FMJ).</MakeAmmo_792x33mmK_FMJ_AAAM.jobString>
+
+  <MakeAmmo_792x33mmK_AP_AAAM.label>изготовить патрон 7,92x33 мм K(AP) x100</MakeAmmo_792x33mmK_AP_AAAM.label>
+  <MakeAmmo_792x33mmK_AP_AAAM.description>Изготовить 100 патронов 7,92x33 мм K(AP).</MakeAmmo_792x33mmK_AP_AAAM.description>
+  <MakeAmmo_792x33mmK_AP_AAAM.jobString>Изготовить патроны 7,92x33 мм K(AP).</MakeAmmo_792x33mmK_AP_AAAM.jobString>
+
+  <MakeAmmo_792x33mmK_J_AAAM.label>изготовить патрон 7,92x33 мм Патрон K(J) x100</MakeAmmo_792x33mmK_J_AAAM.label>
+  <MakeAmmo_792x33mmK_J_AAAM.description>Изготовить 100 патронов 7,92x33 мм K(J).</MakeAmmo_792x33mmK_J_AAAM.description>
+  <MakeAmmo_792x33mmK_J_AAAM.jobString>Изготовление патронов 7,92x33 мм K(J).</MakeAmmo_792x33mmK_J_AAAM.jobString>
+
+
+</LanguageData>

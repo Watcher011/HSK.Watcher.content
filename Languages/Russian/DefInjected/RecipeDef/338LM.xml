@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_338LM_FMJ_AAAM.label>изготовить патрон .338 Lapua Magnum (FMJ) x50</MakeAmmo_338LM_FMJ_AAAM.label>
+  <MakeAmmo_338LM_FMJ_AAAM.description>изготовить 50 патронов .338 Lapua Magnum (FMJ)</MakeAmmo_338LM_FMJ_AAAM.description>
+  <MakeAmmo_338LM_FMJ_AAAM.jobString>Изготовление патронов .338 Lapua Magnum (FMJ)</MakeAmmo_338LM_FMJ_AAAM.jobString>
+
+  <MakeAmmo_338LM_AP_AAAM.label>изготовить патрон .338 Lapua Magnum (AP) x50</MakeAmmo_338LM_AP_AAAM.label>
+  <MakeAmmo_338LM_AP_AAAM.description>изготовить 50 патронов .338 Lapua Magnum (AP)</MakeAmmo_338LM_AP_AAAM.description>
+  <MakeAmmo_338LM_AP_AAAM.jobString>Изготовление патронов .338 Lapua Magnum (AP)</MakeAmmo_338LM_AP_AAAM.jobString>
+
+  <MakeAmmo_338LM_HP_AAAM.label>изготовить патрон .338 Lapua Magnum (HP) X50</MakeAmmo_338LM_HP_AAAM.label>
+  <MakeAmmo_338LM_HP_AAAM.description>изготовить 50 патронов .338 Lapua Magnum (HP)</MakeAmmo_338LM_HP_AAAM.description>
+  <MakeAmmo_338LM_HP_AAAM.jobString>Изготовление патронов .338 Lapua Magnum (HP)</MakeAmmo_338LM_HP_AAAM.jobString>
+
+  <MakeAmmo_338LM_EMP_AAAM.label>изготовить патрон .338 Lapua Magnum (EMP) x50</MakeAmmo_338LM_EMP_AAAM.label>
+  <MakeAmmo_338LM_EMP_AAAM.description>изготовить 50 патронов .338 Lapua Magnum (EMP)</MakeAmmo_338LM_EMP_AAAM.description>
+  <MakeAmmo_338LM_EMP_AAAM.jobString>Изготовление патронов .338 Lapua Magnum (EMP)</MakeAmmo_338LM_EMP_AAAM.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_127x55mmAR_FMJ_AAAM.label>изготовить патрон 12,7x55 мм (FMJ) x60</MakeAmmo_127x55mmAR_FMJ_AAAM.label>
+  <MakeAmmo_127x55mmAR_FMJ_AAAM.description>Изготовить 60 патронов 12,7x55 мм (FMJ).</MakeAmmo_127x55mmAR_FMJ_AAAM.description>
+  <MakeAmmo_127x55mmAR_FMJ_AAAM.jobString>Изготовить патроны 12,7x55 мм (FMJ).</MakeAmmo_127x55mmAR_FMJ_AAAM.jobString>
+
+  <MakeAmmo_127x55mmAR_API_AAAM.label>изготовить патрон 12,7x55 мм (AP-I) патрон x60</MakeAmmo_127x55mmAR_API_AAAM.label>
+  <MakeAmmo_127x55mmAR_API_AAAM.description>Изготовить 60 патронов 12,7x55 мм (AP-I).</MakeAmmo_127x55mmAR_API_AAAM.description>
+  <MakeAmmo_127x55mmAR_API_AAAM.jobString>Изготовить патроны 12,7x55 мм (AP-I).</MakeAmmo_127x55mmAR_API_AAAM.jobString>
+
+  <MakeAmmo_127x55mmAR_Sabot_AAAM.label>изготовить 12,7x55 мм патрон (подкалиберный) патрон x60</MakeAmmo_127x55mmAR_Sabot_AAAM.label>
+  <MakeAmmo_127x55mmAR_Sabot_AAAM.description>изготовить 60 патронов 12,7x55 мм патрон (подкалиберный).</MakeAmmo_127x55mmAR_Sabot_AAAM.description>
+  <MakeAmmo_127x55mmAR_Sabot_AAAM.jobString>Изготовление патронов 12,7x55 мм патрон (подкалиберный).</MakeAmmo_127x55mmAR_Sabot_AAAM.jobString>
+
+  <MakeAmmo_127x55mmAR_HE_AAAM.label>изготовить патрон 12,7x55 мм патрон (осколочно-фугасный) патрон x60</MakeAmmo_127x55mmAR_HE_AAAM.label>
+  <MakeAmmo_127x55mmAR_HE_AAAM.description>изготовить 60 патронов 12,7x55 мм (HE).</MakeAmmo_127x55mmAR_HE_AAAM.description>
+  <MakeAmmo_127x55mmAR_HE_AAAM.jobString>Изготовление патронов 12,7x55 мм (HE).</MakeAmmo_127x55mmAR_HE_AAAM.jobString>
+
+
+</LanguageData>

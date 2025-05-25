@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_10Gauge_Buck_AAAM.label>изготовить 10 калибр (Buck) патрон x40</MakeAmmo_10Gauge_Buck_AAAM.label>
+  <MakeAmmo_10Gauge_Buck_AAAM.description>изготовить 40 10 калибра (Buck) патронов.</MakeAmmo_10Gauge_Buck_AAAM.description>
+  <MakeAmmo_10Gauge_Buck_AAAM.jobString>изготовить 100 10 калибра (Buck) патронов.</MakeAmmo_10Gauge_Buck_AAAM.jobString>
+
+  <MakeAmmo_Gauge_Salt_AAAM.label>изготовить патрон с солью x100</MakeAmmo_Gauge_Salt_AAAM.label>
+  <MakeAmmo_Gauge_Salt_AAAM.description>изготовить 100 патронов для дробовика (соль).</MakeAmmo_Gauge_Salt_AAAM.description>
+  <MakeAmmo_Gauge_Salt_AAAM.jobString>Изготовление патронов для дробовика (соль).</MakeAmmo_Gauge_Salt_AAAM.jobString>
+
+  <MakeAmmo_12Gauge_Magnum_AAAM.label>изготовить 40 патронов 12 калибра (000 Magnum).</MakeAmmo_12Gauge_Magnum_AAAM.label>
+  <MakeAmmo_12Gauge_Magnum_AAAM.description>изготовить 40 патронов 12 калибра (000 Magnum).</MakeAmmo_12Gauge_Magnum_AAAM.description>
+  <MakeAmmo_12Gauge_Magnum_AAAM.jobString>Изготовление гильз 12 калибра (000 Magnum).</MakeAmmo_12Gauge_Magnum_AAAM.jobString>
+
+</LanguageData>

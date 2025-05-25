@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_9x39mmSoviet_FMJ_AAAM.label>изготовить патрон 9x39 мм советский (FMJ) x90</MakeAmmo_9x39mmSoviet_FMJ_AAAM.label>
+  <MakeAmmo_9x39mmSoviet_FMJ_AAAM.description>Изготовить 90 патронов 9x39 мм советский (FMJ).</MakeAmmo_9x39mmSoviet_FMJ_AAAM.description>
+  <MakeAmmo_9x39mmSoviet_FMJ_AAAM.jobString>Изготовить патроны 9x39 мм советский (FMJ).</MakeAmmo_9x39mmSoviet_FMJ_AAAM.jobString>
+
+  <MakeAmmo_9x39mmSoviet_AP_AAAM.label>изготовить патрон 9x39 мм советский (AP) x90</MakeAmmo_9x39mmSoviet_AP_AAAM.label>
+  <MakeAmmo_9x39mmSoviet_AP_AAAM.description>Изготовить 90 патронов 9x39 мм советских (AP) патронов.</MakeAmmo_9x39mmSoviet_AP_AAAM.description>
+  <MakeAmmo_9x39mmSoviet_AP_AAAM.jobString>Изготовление 9x39 мм советских (AP) патронов.</MakeAmmo_9x39mmSoviet_AP_AAAM.jobString>
+
+  <MakeAmmo_9x39mmSoviet_SH_AAAM.label>изготовить патрон 9x39 мм советский (SH) x90</MakeAmmo_9x39mmSoviet_SH_AAAM.label>
+  <MakeAmmo_9x39mmSoviet_SH_AAAM.description>Изготовить 90 патронов 9x39 мм советские (Ш).</MakeAmmo_9x39mmSoviet_SH_AAAM.description>
+  <MakeAmmo_9x39mmSoviet_SH_AAAM.jobString>Создание патронов 9x39 мм советские (Ш).</MakeAmmo_9x39mmSoviet_SH_AAAM.jobString>
+
+  <MakeAmmo_9x39mmSoviet_EMP_AAAM.label>изготовить патрон 9x39 мм советские (ЭМП) x90</MakeAmmo_9x39mmSoviet_EMP_AAAM.label>
+  <MakeAmmo_9x39mmSoviet_EMP_AAAM.description>Изготовить 90 патронов 9x39 мм советские (ЭМП) патроны.</MakeAmmo_9x39mmSoviet_EMP_AAAM.description>
+  <MakeAmmo_9x39mmSoviet_EMP_AAAM.jobString>Создать 90 патронов 9x39 мм советских (ЭМП).</MakeAmmo_9x39mmSoviet_EMP_AAAM.jobString>
+
+
+</LanguageData>

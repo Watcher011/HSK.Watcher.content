@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+  <MakeAmmo_700NE_HP_AAAM.label>изготовить патрон .700 Nitro Express (HP) x50</MakeAmmo_700NE_HP_AAAM.label>
+  <MakeAmmo_700NE_HP_AAAM.description>Изготовить 50 патронов .700 Nitro Express (HP).</MakeAmmo_700NE_HP_AAAM.description>
+  <MakeAmmo_700NE_HP_AAAM.jobString>Изготовление патронов .700 Nitro Express (HP).</MakeAmmo_700NE_HP_AAAM.jobString>
+
+  <MakeAmmo_700NE_S_AAAM.label>изготовить патрон .700 Nitro Express (S) x50</MakeAmmo_700NE_S_AAAM.label>
+  <MakeAmmo_700NE_S_AAAM.description>Изготовить 50 патронов .700 Nitro Express (S).</MakeAmmo_700NE_S_AAAM.description>
+  <MakeAmmo_700NE_S_AAAM.jobString>Изготовление патронов .700 Nitro Express (S).</MakeAmmo_700NE_S_AAAM.jobString>
+
+</LanguageData>

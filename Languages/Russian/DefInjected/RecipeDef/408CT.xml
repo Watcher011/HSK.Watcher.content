@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+  <MakeAmmo_408CT_FMJ_AAAM.label>изготовить патрон .408 Chey Tac (FMJ) x50</MakeAmmo_408CT_FMJ_AAAM.label>
+  <MakeAmmo_408CT_FMJ_AAAM.description>Изготовить 50 патронов .408 Chey Tac (FMJ).</MakeAmmo_408CT_FMJ_AAAM.description>
+  <MakeAmmo_408CT_FMJ_AAAM.jobString>Изготовление патронов .408 Chey Tac (FMJ).</MakeAmmo_408CT_FMJ_AAAM.jobString>
+
+  <MakeAmmo_408CT_AP_AAAM.label>изготовить патрон .408 Chey Tac (AP) x50</MakeAmmo_408CT_AP_AAAM.label>
+  <MakeAmmo_408CT_AP_AAAM.description>Изготовить 50 патронов .408 Chey Tac (AP).</MakeAmmo_408CT_AP_AAAM.description>
+  <MakeAmmo_408CT_AP_AAAM.jobString>Изготовление патронов .408 Chey Tac (AP).</MakeAmmo_408CT_AP_AAAM.jobString>
+
+  <MakeAmmo_408CT_HP_AAAM.label>изготовить патрон .408 Chey Tac (HP) x50</MakeAmmo_408CT_HP_AAAM.label>
+  <MakeAmmo_408CT_HP_AAAM.description>Изготовить 50 патронов .408 Chey Tac (HP).</MakeAmmo_408CT_HP_AAAM.description>
+  <MakeAmmo_408CT_HP_AAAM.jobString>Изготовление патронов .408 Chey Tac (HP).</MakeAmmo_408CT_HP_AAAM.jobString>
+
+  <MakeAmmo_408CT_EMP_AAAM.label>изготовить патрон .408 Chey Tac (EMP) x50</MakeAmmo_408CT_EMP_AAAM.label>
+  <MakeAmmo_408CT_EMP_AAAM.description>Изготовить 50 патронов .408 Chey Tac (EMP).</MakeAmmo_408CT_EMP_AAAM.description>
+  <MakeAmmo_408CT_EMP_AAAM.jobString>Изготовление патронов .408 Chey Tac (EMP).</MakeAmmo_408CT_EMP_AAAM.jobString>
+
+
+</LanguageData>

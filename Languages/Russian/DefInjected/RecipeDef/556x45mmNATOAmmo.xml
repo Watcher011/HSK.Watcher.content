@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+ <MakeAmmo_556x45mmNATO_Crio_AAAM.label>изготовить патрон 5,56x45 мм NATO (CR-I)x500</MakeAmmo_556x45mmNATO_Crio_AAAM.label>
+<MakeAmmo_556x45mmNATO_Crio_AAAM.description>изготовить 80 патронов 5,56x45 мм НАТО (CR-I).</MakeAmmo_556x45mmNATO_Crio_AAAM.description>
+<MakeAmmo_556x45mmNATO_Crio_AAAM.jobString>Изготовление патронов 5,56x45 мм НАТО (CR-I).</MakeAmmo_556x45mmNATO_Crio_AAAM.jobString>
+
+
+  <MakeAmmo_556x45mmNATO_HE_HMC_AAAM.label>изготовить патрон 5.56x45 мм НАТО (ОФ) x80</MakeAmmo_556x45mmNATO_HE_HMC_AAAM.label>
+  <MakeAmmo_556x45mmNATO_HE_HMC_AAAM.description>Изготовить 80 патронов 5.56x45 мм НАТО (ОФ).</MakeAmmo_556x45mmNATO_HE_HMC_AAAM.description>
+  <MakeAmmo_556x45mmNATO_HE_HMC_AAAM.jobString>Изготовление патронов 5.56x45 мм НАТО (ОФ).</MakeAmmo_556x45mmNATO_HE_HMC_AAAM.jobString>
+
+</LanguageData>

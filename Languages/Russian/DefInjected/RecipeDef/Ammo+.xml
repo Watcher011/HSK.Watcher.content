@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Pistol Ammo -->
+
+  <MakeAmmo_9x19mmPara_JHP_AAAM.label>изготовить патрон 9×19 мм Парабеллум (+P+) x100</MakeAmmo_9x19mmPara_JHP_AAAM.label>
+  <MakeAmmo_9x19mmPara_JHP_AAAM.description>Изготовить 100 патронов 9×19 мм Парабеллум (+P+).</MakeAmmo_9x19mmPara_JHP_AAAM.description>
+  <MakeAmmo_9x19mmPara_JHP_AAAM.jobString>Изготовление патронов 9×19 мм Парабеллум (+P+).</MakeAmmo_9x19mmPara_JHP_AAAM.jobString>
+
+
+  <!-- .45 ACP -->
+
+  <MakeAmmo_45ACP_Super_AAAM.label>изготовить патрон .45 ACP (Super) x80</MakeAmmo_45ACP_Super_AAAM.label>
+  <MakeAmmo_45ACP_Super_AAAM.description>Изготовить 80 патронов .45 ACP (Super).</MakeAmmo_45ACP_Super_AAAM.description>
+  <MakeAmmo_45ACP_Super_AAAM.jobString>Изготовление патронов .45 ACP (Super).</MakeAmmo_45ACP_Super_AAAM.jobString>
+
+
+  <!-- Rifle Ammo -->
+  <MakeAmmo_556x45mmNATO_D_AAAM.label>изготовить патрон 5,56×45 мм (дуплекс) x80</MakeAmmo_556x45mmNATO_D_AAAM.label>
+  <MakeAmmo_556x45mmNATO_D_AAAM.description>Изготовить 80 патронов 5,56×45 мм (дуплекс).</MakeAmmo_556x45mmNATO_D_AAAM.description>
+  <MakeAmmo_556x45mmNATO_D_AAAM.jobString>Изготовление патронов 5,56×45 мм (дуплекс).</MakeAmmo_556x45mmNATO_D_AAAM.jobString>
+
+   7.62x39mm Soviet 
+  <MakeAmmo_762x39mmSoviet_I_AAAM.label>изготовить патрон 7,62×39 мм (зажигательный) x80</MakeAmmo_762x39mmSoviet_I_AAAM.label>
+  <MakeAmmo_762x39mmSoviet_I_AAAM.description>Изготовить 80 патронов 7,62×39 мм (зажигательный).</MakeAmmo_762x39mmSoviet_I_AAAM.description>
+  <MakeAmmo_762x39mmSoviet_I_AAAM.jobString>Изготовление патронов 7,62×39 мм (зажигательный).</MakeAmmo_762x39mmSoviet_I_AAAM.jobString>
+
+
+  <!-- 7.62x51mm NATO -->
+  <MakeAmmo_303British_I_AAAM.label>изготовить патрон .303 British (зажигательный) x80</MakeAmmo_303British_I_AAAM.label>
+  <MakeAmmo_303British_I_AAAM.description>Изготовить 80 патронов .303 British (зажигательный).</MakeAmmo_303British_I_AAAM.description>
+  <MakeAmmo_303British_I_AAAM.jobString>Изготовление патронов .303 British (зажигательный).</MakeAmmo_303British_I_AAAM.jobString>
+
+  <MakeAmmo_762x51mmNATO_T_AAAM.label>изготовить патрон 7,62×51 мм (триплекс) x80</MakeAmmo_762x51mmNATO_T_AAAM.label>
+  <MakeAmmo_762x51mmNATO_T_AAAM.description>Изготовить 80 патронов 7,62×51 мм (триплекс).</MakeAmmo_762x51mmNATO_T_AAAM.description>
+  <MakeAmmo_762x51mmNATO_T_AAAM.jobString>Изготовление патронов 7,62×51 мм (триплекс).</MakeAmmo_762x51mmNATO_T_AAAM.jobString>
+
+
+</LanguageData>
