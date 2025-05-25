@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	
+	<ThingDef ParentName="UniversalFermenterBase" Class="UniversalFermenterSK.ThingDef_UF">
+		<defName>AAAM</defName>
+		<label>Automated ammunition assembly machine</label>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>Things/Building/Production/AAAM</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1,1)</drawSize>
+			<shadowData>
+				<volume>(0.7, 0.5, 0.7)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<fillPercent>0.45</fillPercent>
+		<pathCost>60</pathCost>
+		<statBases>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>20</Mass>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Cleanliness>-3</Cleanliness>
+		</statBases>
+		<description>"Somewhere in the depths of the workshop, between the stacks of shells and barrels of gunpowder, this mechanical sadist lurks. He doesn't just collect cartridges - he does it with cold, calculating cruelty, as if enjoying how your hopes for a peaceful life are transformed into neat stacks of deadly cylinders.This machine can now not only stamp out standard cartridges, but also ingeniously combine the filling, creating ammunition that not only kills, but kills with style. Forget about boring FMJ - here you have armor-piercing with a core made of depression, and explosive, filled with pure hatred for this cruel world.It works on three components: metal, gunpowder and your moral principles. The latter, however, is not necessary - the colonists have long forgotten what it is."(Note: If used incorrectly, spontaneous realization of the futility of war is possible, but usually it just ends in an explosion.)</description>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>60</costStuffCount>
+		<costList>
+			<ComponentIndustrial>7</ComponentIndustrial>
+			<ElectronicComponents>4</ElectronicComponents>
+			<Mechanism>5</Mechanism>
+			<Glass>25</Glass>
+		</costList>
+		<size>(1,1)</size>
+		<building>
+			<uninstallWork>650</uninstallWork>
+		</building>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>800</basePowerConsumption>
+				<shortCircuitInRain>true</shortCircuitInRain>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<tickerType>Rare</tickerType>
+		<rotatable>true</rotatable>
+		<designationCategory>Production</designationCategory>
+		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+
+		<!-- ThingDef_UF fields -->
+		<showProductIcon>false</showProductIcon>
+		<barOffset>(0.0, -0.45)</barOffset>
+		<barScale>(1, 1)</barScale>
+		<slotsCount>3</slotsCount>
+		
+		<researchPrerequisites>
+			<li>Range_C2</li>
+		</researchPrerequisites>
+		
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_338LM_FMJ_AAAM</defName>
+		<label>make .338 Lapua Magnum (FMJ) cartridge x50</label>
+		<description>Craft 50 .338 Lapua Magnum (FMJ) cartridges.</description>
+		<jobString>Making .338 Lapua Magnum (FMJ) cartridges.</jobString>
+		<targetCountAdjustment>50</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>14</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_338LM_FMJ>50</Ammo_338LM_FMJ>
+		</products>
+
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_338LM_AP_AAAM</defName>
+		<label>make .338 Lapua Magnum (AP) cartridge x50</label>
+		<description>Craft 50 .338 Lapua Magnum (AP) cartridges.</description>
+		<jobString>Making .338 Lapua Magnum (AP) cartridges.</jobString>
+		<targetCountAdjustment>50</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>14</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDHBar</li>
+						<li>Ceramic</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>USLDHBar</li>
+				<li>Ceramic</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_338LM_AP>50</Ammo_338LM_AP>
+		</products>
+	
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_338LM_HP_AAAM</defName>
+		<label>make .338 Lapua Magnum (HP) cartridge x50</label>
+		<description>Craft 50 .338 Lapua Magnum (HP) cartridges.</description>
+		<jobString>Making .338 Lapua Magnum (HP) cartridges.</jobString>
+		<targetCountAdjustment>50</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>HeavyBar</li>
+					</categories>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>			
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Plastic</li>
+				<li>Powder</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_338LM_HP>50</Ammo_338LM_HP>
+		</products>
+
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_338LM_EMP_AAAM</defName>
+		<label>make .338 Lapua Magnum (EMP) cartridge x50</label>
+		<description>Craft 50 .338 Lapua Magnum (EMP) cartridges.</description>
+		<jobString>Making .338 Lapua Magnum (EMP) cartridges.</jobString>
+		<targetCountAdjustment>50</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>14</count>
+			</li>			
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ElectronicComponents</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<thingDefs>
+				<li>ElectronicComponents</li>
+				<li>Powder</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_338LM_EMP>50</Ammo_338LM_EMP>
+		</products>
+		
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

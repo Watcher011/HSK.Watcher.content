@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_10Gauge_Buck_AAAM</defName>
+		<label>make 10 gauge (Buck) shell x40</label>
+		<description>Craft 40 10 gauge (Buck) shells.</description>
+		<jobString>Making 10 gauge (Buck) shells.</jobString>
+		<workAmount>1200</workAmount>
+		<targetCountAdjustment>40</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>FSX</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_10Gauge_Buck>40</Ammo_10Gauge_Buck>
+		</products>
+		<researchPrerequisite>Parabellum_Alpha</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_Gauge_Salt_AAAM</defName>
+		<label>make shotgun (Salt) shell x100</label>
+		<description>Craft 100 shotgun (Salt) shells.</description>
+		<jobString>Making shotgun (Salt) shells.</jobString>
+		<workAmount>1000</workAmount>
+		<targetCountAdjustment>100</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Salt</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<thingDefs>
+				<li>Salt</li>
+				<li>Powder</li>
+				<li>FSX</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_Gauge_Salt>100</Ammo_Gauge_Salt>
+		</products>
+		<researchPrerequisite>Parabellum_Alpha</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_12Gauge_Magnum_AAAM</defName>
+		<label>make 12 gauge (000 Magnum) shell x40</label>
+		<description>Craft 40 12 gauge (000 Magnum) shells.</description>
+		<jobString>Making 12 gauge (000 Magnum) shells.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>FSX</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_12Gauge_Magnum>40</Ammo_12Gauge_Magnum>
+		</products>
+		<researchPrerequisite>Shotgun_C2</researchPrerequisite>
+	</RecipeDef>
+	
+</Defs>

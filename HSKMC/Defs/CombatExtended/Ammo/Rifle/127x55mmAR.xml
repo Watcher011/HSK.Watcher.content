@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_127x55mmAR_FMJ_AAAM</defName>
+		<label>make 12.7x55mm (FMJ) cartridge x60</label>
+		<description>Craft 60 12.7x55mm (FMJ) cartridges.</description>
+		<jobString>Making 12.7x55mm (FMJ) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>13</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_127x55mmAR_FMJ>60</Ammo_127x55mmAR_FMJ>
+		</products>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_127x55mmAR_API_AAAM</defName>
+		<label>make 12.7x55mm cartridge (AP-I) cartridge x60</label>
+		<description>Craft 60 12.7x55mm cartridge (AP-I) cartridge.</description>
+		<jobString>Making 12.7x55mm cartridge (AP-I) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>13</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Prometheum</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>Prometheum</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_127x55mmAR_API>60</Ammo_127x55mmAR_API>
+		</products>
+
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+	</RecipeDef>
+
+    <RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_127x55mmAR_Sabot_AAAM</defName>
+		<label>make 12.7x55mm cartridge (Sabot) cartridge x60</label>
+		<description>Craft 60 12.7x55mm cartridge (Sabot) cartridge.</description>
+		<jobString>Making 12.7x55mm cartridge (Sabot) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>13</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDHBar</li>
+					</categories>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>USLDHBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_127x55mmAR_Sabot>60</Ammo_127x55mmAR_Sabot>
+		</products>
+
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_127x55mmAR_HE_AAAM</defName>
+		<label>make 12.7x55mm cartridge (HE) cartridge x60</label>
+		<description>Craft 60 12.7x55mm cartridge (HE) cartridge.</description>
+		<jobString>Making 12.7x55mm cartridge (HE) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>13</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDHBar</li>
+					</categories>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>USLDHBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>FSX</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_127x55mmAR_HE>60</Ammo_127x55mmAR_HE>
+		</products>
+	
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

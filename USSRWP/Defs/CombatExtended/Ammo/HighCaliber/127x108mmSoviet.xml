@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_127x108mm_FMJ_AAAM</defName>
+		<label>make 12.7x108mm (FMJ) cartridge x60</label>
+		<description>Craft 60 12.7x108mm (FMJ) cartridges.</description>
+		<jobString>Making 12.7x108mm (FMJ) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>19</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>9</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_127x108mm_FMJ>60</Ammo_127x108mm_FMJ>
+		</products>
+		<researchPrerequisite>Sniper_rifles_C1</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_127x108mm_Sabot_AAAM</defName>
+		<label>make 12.7x108mm (Sabot) cartridge x60</label>
+		<description>Craft 60 12.7x108mm (Sabot) cartridges.</description>
+		<jobString>Making 12.7x108mm (Sabot) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>19</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDHBar</li>
+					</categories>
+				</filter>
+				<count>9</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>USLDHBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_127x108mm_Sabot>60</Ammo_127x108mm_Sabot>
+		</products>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_127x108mm_HE_AAAM</defName>
+		<label>make 12.7x108mm (HE) cartridge x60</label>
+		<description>Craft 60 12.7x108mm (HE) cartridges.</description>
+		<jobString>Making 12.7x108mm (HE) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>19</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDHBar</li>
+					</categories>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>USLDHBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>FSX</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_127x108mm_HE>60</Ammo_127x108mm_HE>
+		</products>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_127x108mm_Incendiary_AAAM</defName>
+		<label>make 12.7x108mm (AP-I) cartridge x60</label>
+		<description>Craft 60 12.7x108mm (AP-I) cartridges.</description>
+		<jobString>Making 12.7x108mm (AP-I) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>19</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>9</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Prometheum</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>Prometheum</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_127x108mm_Incendiary>60</Ammo_127x108mm_Incendiary>
+		</products>
+		<researchPrerequisite>Sniper_rifles_C1</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

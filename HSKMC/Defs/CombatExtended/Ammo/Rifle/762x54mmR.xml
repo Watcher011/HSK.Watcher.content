@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_762x54mmR_FMJ_AAAM</defName>
+		<label>make 7.62x54mmR (FMJ) cartridge x60</label>
+		<description>Craft 60 7.62x54mmR (FMJ) cartridges.</description>
+		<jobString>Making 7.62x54mmR (FMJ) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_762x54mmR_FMJ>60</Ammo_762x54mmR_FMJ>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_762x54mmR_AP_AAAM</defName>
+		<label>make 7.62x54mmR (AP) cartridge x60</label>
+		<description>Craft 60 7.62x54mmR (AP) cartridges.</description>
+		<jobString>Making 7.62x54mmR (AP) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDHBar</li>
+						<li>Ceramic</li>
+					</categories>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>USLDHBar</li>
+				<li>Ceramic</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_762x54mmR_AP>60</Ammo_762x54mmR_AP>
+		</products>
+
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_762x54mmR_HP_AAAM</defName>
+		<label>make 7.62x54mmR (HP) cartridge x60</label>
+		<description>Craft 60 7.62x54mmR (HP) cartridges.</description>
+		<jobString>Making 7.62x54mmR (HP) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>HeavyBar</li>
+					</categories>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>11</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Plastic</li>
+				<li>Powder</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_762x54mmR_HP>60</Ammo_762x54mmR_HP>
+		</products>
+
+	</RecipeDef>
+
+</Defs>

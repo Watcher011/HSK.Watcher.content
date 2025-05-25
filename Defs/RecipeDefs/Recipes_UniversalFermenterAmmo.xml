@@ -1,0 +1,3024 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+	
+	<RecipeDef ParentName="GlitterpediaModExtBase" Name="Make_AAAMAmmoBase" Abstract="True">
+		<recipeUsers>
+			<li>AAAM</li>
+		</recipeUsers>
+			<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<processDays>2</processDays>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_9x19mmPara_FMJ_AAAM</defName>
+		<label>make 9x19mm Parabellum (FMJ) cartridge x500</label>
+		<description>Craft 500 9x19mm Parabellum (FMJ) cartridges.</description>
+		<jobString>Making 9x19mm Parabellum (FMJ) cartridges.</jobString>
+		<ingredients>
+			<li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+							<li>USLDBar</li>
+						</categories>
+					</filter>
+					<count>6</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>HeavyBar</li>
+						</categories>
+					</filter>
+					<count>2</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_9x19mmPara_FMJ>500</Ammo_9x19mmPara_FMJ>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_9x19mmPara_AP_AAAM</defName>
+		<label>make 9x19mm Parabellum (AP) cartridge x500</label>
+		<description>Craft 500 9x19mm Parabellum (AP) cartridges.</description>
+		<jobString>Making 9x19mm Parabellum (AP) cartridges.</jobString>
+		<ingredients>
+				<li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+							<li>USLDBar</li>
+						</categories>
+					</filter>
+					<count>6</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>USLDHBar</li>
+							<li>Ceramic</li>
+						</categories>
+					</filter>
+					<count>2</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>USLDHBar</li>
+				<li>Ceramic</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_9x19mmPara_AP>500</Ammo_9x19mmPara_AP>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_9x19mmPara_HP_AAAM</defName>
+		<label>make 9x19mm Parabellum (HP) cartridge x500</label>
+		<description>Craft 500 9x19mm Parabellum (HP) cartridges.</description>
+		<jobString>Making 9x19mm Parabellum (HP) cartridges.</jobString>
+		<ingredients>
+			<li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+							<li>HeavyBar</li>
+						</categories>
+						<thingDefs>
+							<li>Plastic</li>
+						</thingDefs>
+					</filter>
+					<count>3</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>HeavyBar</li>
+						</categories>
+					</filter>
+					<count>4</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+			<li>Plastic</li>
+			<li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_9x19mmPara_HP>500</Ammo_9x19mmPara_HP>
+		</products>
+	</RecipeDef>
+
+	
+	
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_45ACP_FMJ_AAAM</defName>
+		<label>make .45 ACP (FMJ) cartridge x500</label>
+		<description>Craft 500 .45 ACP (FMJ) cartridges.</description>
+		<jobString>Making .45 ACP (FMJ) cartridges.</jobString>
+		<ingredients>
+			<li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+							<li>USLDBar</li>
+						</categories>
+					</filter>
+					<count>6</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>HeavyBar</li>
+						</categories>
+					</filter>
+					<count>2</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_45ACP_FMJ>500</Ammo_45ACP_FMJ>
+		</products>
+		
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_45ACP_AP_AAAM</defName>
+		<label>make .45 ACP (AP) cartridge x500</label>
+		<description>Craft 500 .45 ACP (AP) cartridges.</description>
+		<jobString>Making .45 ACP (AP) cartridges.</jobString>
+		<ingredients>
+			<li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+							<li>USLDBar</li>
+						</categories>
+					</filter>
+					<count>6</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>USLDHBar</li>
+							<li>Ceramic</li>
+						</categories>
+					</filter>
+					<count>2</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>USLDHBar</li>
+				<li>Ceramic</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_45ACP_AP>500</Ammo_45ACP_AP>
+		</products>
+		
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_45ACP_HP_AAAM</defName>
+		<label>make .45 ACP (HP) cartridge x500</label>
+		<description>Craft 500 .45 ACP (HP) cartridges.</description>
+		<jobString>Making .45 ACP (HP) cartridges.</jobString>
+		<ingredients>
+				<li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+							<li>HeavyBar</li>
+						</categories>
+						<thingDefs>
+							<li>Plastic</li>
+						</thingDefs>
+					</filter>
+					<count>3</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>HeavyBar</li>
+						</categories>
+					</filter>
+					<count>4</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+			</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plastic</li>
+			    <li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_45ACP_HP>500</Ammo_45ACP_HP>
+		</products>
+		
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_303British_FMJ_AAAM</defName>
+		<label>make .303 British (FMJ) cartridge x500</label>
+		<description>Craft 500 .303 British (FMJ) cartridges.</description>
+		<jobString>Making .303 British (FMJ) cartridges.</jobString>
+		<ingredients>
+			<li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+							<li>USLDBar</li>
+						</categories>
+					</filter>
+					<count>11</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>HeavyBar</li>
+						</categories>
+					</filter>
+					<count>3</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_303British_FMJ>500</Ammo_303British_FMJ>
+		</products>
+		
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_303British_AP_AAAM</defName>
+		<label>make .303 British (AP) cartridge x500</label>
+		<description>Craft 500 .303 British (AP) cartridges.</description>
+		<jobString>Making .303 British (AP) cartridges.</jobString>
+		<ingredients>
+			<li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+							<li>USLDBar</li>
+						</categories>
+					</filter>
+					<count>11</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>USLDHBar</li>
+							<li>Ceramic</li>
+						</categories>
+					</filter>
+					<count>3</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>USLDHBar</li>
+				<li>Ceramic</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_303British_AP>500</Ammo_303British_AP>
+		</products>
+		
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_303British_HP_AAAM</defName>
+		<label>make .303 British (HP) cartridge x500</label>
+		<description>Craft 500 .303 British (HP) cartridges.</description>
+		<jobString>Making .303 British (HP) cartridges.</jobString>
+		<ingredients>
+				<li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+							<li>HeavyBar</li>
+						</categories>
+						<thingDefs>
+							<li>Plastic</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>HeavyBar</li>
+						</categories>
+					</filter>
+					<count>8</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+			<li>Plastic</li>
+			<li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_303British_HP>500</Ammo_303British_HP>
+		</products>
+		
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_556x45mmNATO_FMJ_AAAM</defName>
+		<label>make 5.56x45mm NATO (FMJ) cartridge x500</label>
+		<description>Craft 500 5.56x45mm NATO (FMJ) cartridges.</description>
+		<jobString>Making 5.56x45mm NATO (FMJ) cartridges.</jobString>
+		<ingredients>
+			<li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+							<li>USLDBar</li>
+						</categories>
+					</filter>
+					<count>8</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>HeavyBar</li>
+						</categories>
+					</filter>
+					<count>2</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_556x45mmNATO_FMJ>500</Ammo_556x45mmNATO_FMJ>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_556x45mmNATO_AP_AAAM</defName>
+		<label>make 5.56x45mm NATO (AP) cartridge x500</label>
+		<description>Craft 500 5.56x45mm NATO (AP) cartridges.</description>
+		<jobString>Making 5.56x45mm NATO (AP) cartridges.</jobString>
+		<ingredients>
+				<li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+							<li>USLDBar</li>
+						</categories>
+					</filter>
+					<count>8</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>USLDHBar</li>
+							<li>Ceramic</li>
+						</categories>
+					</filter>
+					<count>3</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>USLDHBar</li>
+				<li>Ceramic</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_556x45mmNATO_AP>500</Ammo_556x45mmNATO_AP>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_556x45mmNATO_HP_AAAM</defName>
+		<label>make 5.56x45mm NATO (HP) cartridge x500</label>
+		<description>Craft 500 5.56x45mm NATO (HP) cartridges.</description>
+		<jobString>Making 5.56x45mm NATO (HP) cartridges.</jobString>
+		<ingredients>
+			<li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+							<li>HeavyBar</li>
+						</categories>
+						<thingDefs>
+							<li>Plastic</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>HeavyBar</li>
+						</categories>
+					</filter>
+					<count>5</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+			    <li>Plastic</li>
+			    <li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_556x45mmNATO_HP>500</Ammo_556x45mmNATO_HP>
+		</products>
+	</RecipeDef>
+
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_762x39mmSoviet_FMJ_AAAM</defName>
+		<label>make 7.62x39mm Soviet (FMJ) cartridge x500</label>
+		<description>Craft 500 7.62x39mm Soviet (FMJ) cartridges.</description>
+		<jobString>Making 7.62x39mm Soviet (FMJ) cartridges.</jobString>
+		<ingredients>
+			<li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+							<li>USLDBar</li>
+						</categories>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>HeavyBar</li>
+						</categories>
+					</filter>
+					<count>4</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_762x39mmSoviet_FMJ>500</Ammo_762x39mmSoviet_FMJ>
+		</products>
+
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_762x39mmSoviet_AP_AAAM</defName>
+		<label>make 7.62x39mm Soviet (AP) cartridge x500</label>
+		<description>Craft 500 7.62x39mm Soviet (AP) cartridges.</description>
+		<jobString>Making 7.62x39mm Soviet (AP) cartridges.</jobString>
+		<ingredients>
+				<li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+							<li>USLDBar</li>
+						</categories>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>USLDHBar</li>
+							<li>Ceramic</li>
+						</categories>
+					</filter>
+					<count>4</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>USLDHBar</li>
+				<li>Ceramic</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_762x39mmSoviet_AP>500</Ammo_762x39mmSoviet_AP>
+		</products>
+		
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_762x39mmSoviet_HP_AAAM</defName>
+		<label>make 7.62x39mm Soviet (HP) cartridge x500</label>
+		<description>Craft 500 7.62x39mm Soviet (HP) cartridges.</description>
+		<jobString>Making 7.62x39mm Soviet (HP) cartridges.</jobString>
+		<ingredients>
+				<li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+							<li>HeavyBar</li>
+						</categories>
+						<thingDefs>
+							<li>Plastic</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>HeavyBar</li>
+						</categories>
+					</filter>
+					<count>7</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plastic</li>
+			   <li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_762x39mmSoviet_HP>500</Ammo_762x39mmSoviet_HP>
+		</products>
+	
+	</RecipeDef>
+
+
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_762x51mmNATO_FMJ_AAAM</defName>
+		<label>make 7.62x51mm NATO (FMJ) cartridge x500</label>
+		<description>Craft 500 7.62x51mm NATO (FMJ) cartridges.</description>
+		<jobString>Making 7.62x51mm NATO (FMJ) cartridges.</jobString>
+		<ingredients>
+			<li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+							<li>USLDBar</li>
+						</categories>
+					</filter>
+					<count>14</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>HeavyBar</li>
+						</categories>
+					</filter>
+					<count>4</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_762x51mmNATO_FMJ>500</Ammo_762x51mmNATO_FMJ>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_762x51mmNATO_AP_AAAM</defName>
+		<label>make 7.62x51mm NATO (AP) cartridge x500</label>
+		<description>Craft 500 7.62x51mm NATO (AP) cartridges.</description>
+		<jobString>Making 7.62x51mm NATO (AP) cartridges.</jobString>
+		<ingredients>
+			<li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+							<li>USLDBar</li>
+						</categories>
+					</filter>
+					<count>14</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>USLDHBar</li>
+							<li>Ceramic</li>
+						</categories>
+					</filter>
+					<count>4</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+				<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>USLDHBar</li>
+				<li>Ceramic</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_762x51mmNATO_AP>500</Ammo_762x51mmNATO_AP>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_762x51mmNATO_HP_AAAM</defName>
+		<label>make 7.62x51mm NATO (HP) cartridge x500</label>
+		<description>Craft 500 7.62x51mm NATO (HP) cartridges.</description>
+		<jobString>Making 7.62x51mm NATO (HP) cartridges.</jobString>
+		<ingredients>
+			<li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+							<li>HeavyBar</li>
+						</categories>
+						<thingDefs>
+							<li>Plastic</li>
+						</thingDefs>
+					</filter>
+					<count>6</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>HeavyBar</li>
+						</categories>
+					</filter>
+					<count>11</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+			<li>Plastic</li>
+			<li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_762x51mmNATO_HP>500</Ammo_762x51mmNATO_HP>
+		</products>
+	</RecipeDef>
+
+
+    <RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_12Gauge_Buck_AAAM</defName>
+		<label>make 12 gauge (Buck) shell x200</label>
+		<description>Craft 200 12 gauge (Buck) shells.</description>
+		<jobString>Making 12 gauge (Buck) shells.</jobString>
+		<ingredients>
+				<li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+							<li>USLDBar</li>
+						</categories>
+					</filter>
+					<count>7</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>HeavyBar</li>
+						</categories>
+					</filter>
+					<count>6</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_12Gauge_Buck>200</Ammo_12Gauge_Buck>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_12Gauge_Slug_AAAM</defName>
+		<label>make 12 gauge (Slug) shell x200</label>
+		<description>Craft 200 12 gauge (Slug) shells.</description>
+		<jobString>Making 12 gauge (Slug) shells.</jobString>
+		<ingredients>
+		        <li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+							<li>USLDBar</li>
+						</categories>
+					</filter>
+					<count>7</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>HeavyBar</li>
+						</categories>
+					</filter>
+					<count>6</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_12Gauge_Slug>200</Ammo_12Gauge_Slug>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_12Gauge_Beanbag_AAAM</defName>
+		<label>make 12 gauge (Beanbag) shell x200</label>
+		<description>Craft 200 12 gauge (Beanbag) shells.</description>
+		<jobString>Making 12 gauge (Beanbag) shells.</jobString>
+		<ingredients>
+				<li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+							<li>USLDBar</li>
+						</categories>
+					</filter>
+					<count>8</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Cloth</li>
+						</thingDefs>
+					</filter>
+					<count>6</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_12Gauge_Beanbag>200</Ammo_12Gauge_Beanbag>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_12Gauge_ElectroSlug_AAAM</defName>
+		<label>make 12 gauge (EMP) shell x200</label>
+		<description>Craft 200 12 gauge (EMP) shells.</description>
+		<jobString>Making 12 gauge (EMP) shells.</jobString>
+		<researchPrerequisite>MicroelectronicsBasics</researchPrerequisite>
+		<ingredients>
+				<li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+							<li>USLDBar</li>
+						</categories>
+					</filter>
+					<count>8</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>ElectronicComponents</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Powder</li>
+			    <li>ElectronicComponents</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_12Gauge_ElectroSlug>200</Ammo_12Gauge_ElectroSlug>
+		</products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+	</RecipeDef>
+
+
+    <RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_145x114mm_FMJ_AAAM</defName>
+		<label>make 14.5x114mm (FMJ) cartridge x200</label>
+		<description>Craft 200 14.5x114mm (FMJ) cartridges.</description>
+		<jobString>Making 14.5x114mm (FMJ) cartridges.</jobString>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+		<ingredients>
+			<li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+							<li>USLDBar</li>
+						</categories>
+					</filter>
+					<count>40</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>HeavyBar</li>
+						</categories>
+					</filter>
+					<count>15</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+						</thingDefs>
+					</filter>
+					<count>8</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_145x114mm_FMJ>200</Ammo_145x114mm_FMJ>
+		</products>
+	</RecipeDef>
+
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_145x114mm_Incendiary_AAAM</defName>
+		<label>make 14.5x114mm (AP-I) cartridge x200</label>
+		<description>Craft 200 14.5x114mm (AP-I) cartridges.</description>
+		<jobString>Making 14.5x114mm (AP-I) cartridges.</jobString>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+		<ingredients>
+			<li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+							<li>USLDBar</li>
+						</categories>
+					</filter>
+					<count>40</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>HeavyBar</li>
+						</categories>
+					</filter>
+					<count>15</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Prometheum</li>
+						</thingDefs>
+					</filter>
+					<count>14</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+						</thingDefs>
+					</filter>
+					<count>8</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_145x114mm_Incendiary>200</Ammo_145x114mm_Incendiary>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_145x114mm_HE_AAAM</defName>
+		<label>make 14.5x114mm (AP-HE) cartridge x200</label>
+		<description>Craft 200 14.5x114mm (AP-HE) cartridges.</description>
+		<jobString>Making 14.5x114mm (AP-HE) cartridges.</jobString>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+		<ingredients>
+				<li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+							<li>USLDBar</li>
+						</categories>
+					</filter>
+					<count>40</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>USLDHBar</li>
+						</categories>
+					</filter>
+					<count>15</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>FSX</li>
+						</thingDefs>
+					</filter>
+					<count>14</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+						</thingDefs>
+					</filter>
+					<count>8</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+					<li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDHBar</li>
+				<li>HeavyBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_145x114mm_HE>200</Ammo_145x114mm_HE>
+		</products>
+	</RecipeDef>
+
+	
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_50BMG_FMJ_AAAM</defName>
+		<label>make .50 BMG (FMJ) cartridge x200</label>
+		<description>Craft 200 .50 BMG (FMJ) cartridges.</description>
+		<jobString>Making .50 BMG (FMJ) cartridges.</jobString>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+		<ingredients>
+			<li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+							<li>USLDBar</li>
+						</categories>
+					</filter>
+					<count>18</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>HeavyBar</li>
+						</categories>
+					</filter>
+					<count>8</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_50BMG_FMJ>200</Ammo_50BMG_FMJ>
+		</products>
+	</RecipeDef>
+
+
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_50BMG_Incendiary_AAAM</defName>
+		<label>make .50 BMG (AP-I) cartridge x200</label>
+		<description>Craft 200 .50 BMG (AP-I) cartridges.</description>
+		<jobString>Making .50 BMG (AP-I) cartridges.</jobString>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+		<ingredients>
+			<li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+							<li>USLDBar</li>
+						</categories>
+					</filter>
+					<count>18</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>HeavyBar</li>
+						</categories>
+					</filter>
+					<count>8</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Prometheum</li>
+						</thingDefs>
+					</filter>
+					<count>7</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+					<li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_50BMG_Incendiary>200</Ammo_50BMG_Incendiary>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_50BMG_HE_AAAM</defName>
+		<label>make .50 BMG (AP-HE) cartridge x200</label>
+		<description>Craft 200 .50 BMG (AP-HE) cartridges.</description>
+		<jobString>Making .50 BMG (AP-HE) cartridges.</jobString>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+		<ingredients>
+				<li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+							<li>USLDBar</li>
+						</categories>
+					</filter>
+					<count>18</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>HeavyBar</li>
+						</categories>
+					</filter>
+					<count>8</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Prometheum</li>
+						</thingDefs>
+					</filter>
+					<count>7</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_50BMG_HE>200</Ammo_50BMG_HE>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_50BMG_Sabot_AAAM</defName>
+		<label>make .50 BMG (Sabot) cartridge x200</label>
+		<description>Craft 200 .50 BMG (Sabot) cartridges.</description>
+		<jobString>Making .50 BMG (Sabot) cartridges.</jobString>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+		<ingredients>
+			<li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+							<li>USLDBar</li>
+						</categories>
+					</filter>
+					<count>18</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>USLDHBar</li>
+						</categories>
+					</filter>
+					<count>8</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>USLDHBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_50BMG_Sabot>200</Ammo_50BMG_Sabot>
+		</products>
+	</RecipeDef>
+	
+	
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_20x102mm_FMJ_AAAM</defName>
+		<label>make 20x102mm (FMJ) cartridge x40</label>
+		<description>Craft 40 20x102mm (FMJ) cartridges.</description>
+		<jobString>Making 20x102mm (FMJ) cartridges.</jobString>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>9</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_20x102mm_FMJ>40</Ammo_20x102mm_FMJ>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_20x102mm_HE_AAAM</defName>
+		<label>make 20x102mm (HE) cartridge x40</label>
+		<description>Craft 40 20x102mm (HE) cartridges.</description>
+		<jobString>Making 20x102mm (HE) cartridges.</jobString>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDHBar</li>
+					</categories>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>USLDHBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>FSX</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_20x102mm_HE>40</Ammo_20x102mm_HE>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_20x102mm_Incendiary_AAAM</defName>
+		<label>make 20x102mm (AP-I) cartridge x40</label>
+		<description>Craft 40 20x102mm (AP-I) cartridges.</description>
+		<jobString>Making 20x102mm (AP-I) cartridges.</jobString>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Prometheum</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>Prometheum</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_20x102mm_Incendiary>40</Ammo_20x102mm_Incendiary>
+		</products>
+	</RecipeDef>
+	
+	
+	
+		<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_30x173mm_FMJ_AAAM</defName>
+		<label>make 30x173mm (FMJ) cartridge x30</label>
+		<description>Craft 30 30x173mm (FMJ) cartridges.</description>
+		<jobString>Making 30x173mm (FMJ) cartridges.</jobString>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>60</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>16</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_30x173mm_FMJ>30</Ammo_30x173mm_FMJ>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_30x173mm_HE_AAAM</defName>
+		<label>make 30x173mm (HE) cartridge x30</label>
+		<description>Craft 30 30x173mm (HE) cartridges.</description>
+		<jobString>Making 30x173mm (HE) cartridges.</jobString>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>60</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDHBar</li>
+					</categories>
+				</filter>
+				<count>16</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>USLDHBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>FSX</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_30x173mm_HE>30</Ammo_30x173mm_HE>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_30x173mm_Incendiary_AAAM</defName>
+		<label>make 30x173mm (AP-I) cartridge x30</label>
+		<description>Craft 30 30x173mm (AP-I) cartridges.</description>
+		<jobString>Making 30x173mm (AP-I) cartridges.</jobString>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>60</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>16</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Prometheum</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>Prometheum</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_30x173mm_Incendiary>30</Ammo_30x173mm_Incendiary>
+		</products>
+		
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_30x29mmGrenade_HE_AAAM</defName>
+		<label>make 30x29mm HE grenades x100</label>
+		<description>Craft 100 30x29mm HE grenades.</description>
+		<jobString>Making 30x29mm HE grenades.</jobString>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+		<ingredients>
+				<li>
+					<filter>
+						<categories>
+							<li>Metallic</li>
+						</categories>
+					</filter>
+					<count>35</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+							<li>FSX</li>
+						</thingDefs>
+					</filter>
+					<count>6</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>ComponentIndustrial</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_30x29mmGrenade_HE>100</Ammo_30x29mmGrenade_HE>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_30x29mmGrenade_HE_TFuzed_AAAM</defName>
+		<label>make 30x29mm HE Time-Fuzed grenades x100</label>
+		<description>Craft 100 30x29mm HE Time-Fuzed grenades.</description>
+		<jobString>Making 30x29mm HE Time-Fuzed grenades.</jobString>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+		<ingredients>
+			<li>
+					<filter>
+						<categories>
+							<li>Metallic</li>
+						</categories>
+					</filter>
+					<count>45</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+							<li>FSX</li>
+						</thingDefs>
+					</filter>
+					<count>7</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>ComponentIndustrial</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_30x29mmGrenade_HE_TFuzed>100</Ammo_30x29mmGrenade_HE_TFuzed>
+		</products>
+	</RecipeDef>
+
+
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_30x29mmGrenade_EMP_AAAM</defName>
+		<label>make 30x29mm EMP grenades x100</label>
+		<description>Craft 100 30x29mm EMP grenades.</description>
+		<jobString>Making 30x29mm EMP grenades.</jobString>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+		<ingredients>
+			<li>
+					<filter>
+						<categories>
+							<li>Metallic</li>
+						</categories>
+					</filter>
+					<count>30</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>ElectronicComponents</li>
+						</thingDefs>
+					</filter>
+					<count>6</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Powder</li>
+			    <li>ElectronicComponents</li>
+			</thingDefs>
+				<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_30x29mmGrenade_EMP>100</Ammo_30x29mmGrenade_EMP>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_30x29mmGrenade_Smoke_AAAM</defName>
+		<label>make 30x29mm smoke grenades x100</label>
+		<description>Craft 100 30x29mm smoke grenades.</description>
+		<jobString>Making 30x29mm smoke grenades.</jobString>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+		<ingredients>
+				<li>
+					<filter>
+						<categories>
+							<li>Metallic</li>
+						</categories>
+					</filter>
+					<count>42</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Plastic</li>
+						</thingDefs>
+					</filter>
+					<count>15</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>ComponentIndustrial</li>
+						</thingDefs>
+					</filter>
+					<count>6</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plastic</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_30x29mmGrenade_Smoke>100</Ammo_30x29mmGrenade_Smoke>
+		</products>
+	</RecipeDef>
+	
+    <RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_40x46mmGrenade_HE_AAAM</defName>
+		<label>make 40x46mm HE grenades x100</label>
+		<description>Craft 100 40x46mm HE grenades.</description>
+		<jobString>Making 40x46mm HE grenades.</jobString>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+		<ingredients>
+			<li>
+					<filter>
+						<categories>
+							<li>Metallic</li>
+						</categories>
+					</filter>
+					<count>40</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+							<li>FSX</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>ComponentIndustrial</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_40x46mmGrenade_HE>100</Ammo_40x46mmGrenade_HE>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_40x46mmGrenade_HE_TFuzed_AAAM</defName>
+		<label>make 40x46mm HE Time-Fuzed grenades x100</label>
+		<description>Craft 100 40x46mm HE Time-Fuzed grenades.</description>
+		<jobString>Making 40x46mm HE Time-Fuzed grenades.</jobString>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+		<ingredients>
+			<li>
+					<filter>
+						<categories>
+							<li>Metallic</li>
+						</categories>
+					</filter>
+					<count>40</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+							<li>FSX</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Mechanism</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>ComponentIndustrial</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+			<li>Mechanism</li>
+			<li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_40x46mmGrenade_HE_TFuzed>100</Ammo_40x46mmGrenade_HE_TFuzed>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_40x46mmGrenade_HEDP_AAAM</defName>
+		<label>make 40x46mm HEDP grenades x100</label>
+		<description>Craft 100 40x46mm HEDP grenades.</description>
+		<jobString>Making 40x46mm HEDP grenades.</jobString>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+		<ingredients>
+			<li>
+					<filter>
+						<categories>
+							<li>Metallic</li>
+						</categories>
+					</filter>
+					<count>40</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+							<li>FSX</li>
+						</thingDefs>
+					</filter>
+					<count>8</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>Chemical</li>
+						</categories>
+					</filter>
+					<count>5</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>ComponentIndustrial</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+					<li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>Chemical</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_40x46mmGrenade_HEDP>100</Ammo_40x46mmGrenade_HEDP>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_40x46mmGrenade_EMP_AAAM</defName>
+		<label>make 40x46mm EMP grenades x100</label>
+		<description>Craft 100 40x46mm EMP grenades.</description>
+		<jobString>Making 40x46mm EMP grenades.</jobString>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+		<ingredients>
+				<li>
+					<filter>
+						<categories>
+							<li>Metallic</li>
+						</categories>
+					</filter>
+					<count>36</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+						</thingDefs>
+					</filter>
+					<count>6</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>ElectronicComponents</li>
+						</thingDefs>
+					</filter>
+					<count>8</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Powder</li>
+		    	<li>ElectronicComponents</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_40x46mmGrenade_EMP>100</Ammo_40x46mmGrenade_EMP>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_40x46mmGrenade_Smoke_AAAM</defName>
+		<label>make 40x46mm smoke grenades x100</label>
+		<description>Craft 100 40x46mm smoke grenades.</description>
+		<jobString>Making 40x46mm smoke grenades.</jobString>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+		<ingredients>
+			<li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+							<li>USLDBar</li>
+						</categories>
+					</filter>
+					<count>30</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>HeavyBar</li>
+						</categories>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>Chemical</li>
+						</categories>
+					</filter>
+					<count>6</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+							<li>FSX</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>ComponentIndustrial</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>FSX</li>
+			    <li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+				<li>Chemical</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_40x46mmGrenade_Smoke>100</Ammo_40x46mmGrenade_Smoke>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_40x46mmGrenade_Tox_AAAM</defName>
+		<label>make 40x46mm tox grenades x100</label>
+		<description>Craft 100 40x46mm tox grenades.</description>
+		<jobString>Making 40x46mm tox grenades.</jobString>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+		<ingredients>
+			<li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+							<li>USLDBar</li>
+						</categories>
+					</filter>
+					<count>30</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>HeavyBar</li>
+						</categories>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>Chemical</li>
+						</categories>
+					</filter>
+					<count>7</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+							<li>FSX</li>
+						</thingDefs>
+					</filter>
+					<count>3</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>ComponentIndustrial</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+					<li>FSX</li>
+			        <li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+				<li>Chemical</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_40x46mmGrenade_Tox>100</Ammo_40x46mmGrenade_Tox>
+		</products>
+	</RecipeDef>
+	
+	
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_6x24mmCharged_AAAM</defName>
+		<label>make 6x24mm Charged cartridge x500</label>
+		<description>Craft 500 6x24mm Charged cartridges.</description>
+		<jobString>Making 6x24mm Charged cartridges.</jobString>
+		<researchPrerequisite>ChargedShot</researchPrerequisite>
+		<ingredients>
+			<li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+						</categories>
+					</filter>
+					<count>20</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>USLDBar</li>
+						</categories>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>MagneticMaterial</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>MagneticMaterial</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_6x24mmCharged>500</Ammo_6x24mmCharged>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_6x24mmCharged_AP_AAAM</defName>
+		<label>make 6x24mm Charged (Conc.) cartridge x500</label>
+		<description>Craft 500 6x24mm Charged (Conc.) cartridges.</description>
+		<jobString>Making 6x24mm Charged (Conc.) cartridges.</jobString>
+		<researchPrerequisite>ChargedShot</researchPrerequisite>
+		<ingredients>
+			<li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+						</categories>
+					</filter>
+					<count>16</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>USLDBar</li>
+						</categories>
+					</filter>
+					<count>16</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>MagneticMaterial</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>MagneticMaterial</li>
+			    <li>SyntheticAmmonia</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_6x24mmCharged_AP>500</Ammo_6x24mmCharged_AP>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_6x24mmCharged_Ion_AAAM</defName>
+		<label>make 6x24mm Charged (Ion) cartridge x500</label>
+		<description>Craft 500 6x24mm Charged (Ion) cartridges.</description>
+		<jobString>Making 6x24mm Charged (Ion) cartridges.</jobString>
+		<researchPrerequisite>ChargedShot</researchPrerequisite>
+		<ingredients>
+			<li>
+					<filter>
+						<categories>
+							<li>SLDBar</li>
+						</categories>
+					</filter>
+					<count>20</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>USLDBar</li>
+						</categories>
+					</filter>
+					<count>6</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>SyntheticAmmonia</li>
+						</thingDefs>
+					</filter>
+					<count>6</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>MagneticMaterial</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>MagneticMaterial</li>
+			   <li>SyntheticAmmonia</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_6x24mmCharged_Ion>500</Ammo_6x24mmCharged_Ion>
+		</products>
+	</RecipeDef>
+	
+	
+	
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_5x50mmCaseless_Sabot_AAAM</defName>
+		<label>make 5x50mm Caseless (Sabot) cartridge x500</label>
+		<description>Craft 500 5x50mm Caseless (Sabot) cartridges.</description>
+		<jobString>Making 5x50mm Caseless (Sabot) cartridges.</jobString>
+		<researchPrerequisite>ChargedShot</researchPrerequisite>
+		<ingredients>
+				<li>
+					<filter>
+						<categories>
+							<li>USLDBar</li>
+						</categories>
+					</filter>
+					<count>16</count>
+				</li>
+				<li>
+					<filter>
+						<categories>
+							<li>USLDHBar</li>
+						</categories>
+					</filter>
+					<count>8</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+				<categories>
+				<li>USLDBar</li>
+				<li>USLDHBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_5x50mmCaseless_Sabot>500</Ammo_5x50mmCaseless_Sabot>
+		</products>
+	</RecipeDef>
+	
+	
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_30x64mmFuel_Incendiary_AAAM</defName>
+		<label>make 30x64mm fuel cell (Incendiary) x50</label>
+		<description>Craft 50 30x64mm incendiary fuel cells.</description>
+		<jobString>Making incendiary fuel cells.</jobString>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+		<ingredients>
+			<li>
+					<filter>
+						<categories>
+							<li>Metallic</li>
+						</categories>
+					</filter>
+					<count>40</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Prometheum</li>
+							<li>Napalm</li>
+						</thingDefs>
+					</filter>
+					<count>15</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Napalm</li>
+			    <li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_30x64mmFuel_Incendiary>50</Ammo_30x64mmFuel_Incendiary>
+		</products>
+		<workAmount>17200</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_30x64mmFuel_Thermobaric_AAAM</defName>
+		<label>make 30x64mm fuel cell (Thermobaric) x50</label>
+		<description>Craft 50 30x64mm thermobaric fuel cells.</description>
+		<jobString>Making thermobaric fuel cells.</jobString>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+		<ingredients>
+			<li>
+					<filter>
+						<categories>
+							<li>Metallic</li>
+						</categories>
+					</filter>
+					<count>40</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+							<li>FSX</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Napalm</li>
+						</thingDefs>
+					</filter>
+					<count>15</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Napalm</li>
+			    <li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_30x64mmFuel_Thermobaric>50</Ammo_30x64mmFuel_Thermobaric>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_30x64mmFuel_Foam_AAAM</defName>
+		<label>make 30x64mm fuel cell (Foam) x50</label>
+		<description>Craft 50 30x64mm foam fuel cells.</description>
+		<jobString>Making foam fuel cells.</jobString>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+		<ingredients>
+			<li>
+					<filter>
+						<categories>
+							<li>Metallic</li>
+						</categories>
+					</filter>
+					<count>40</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Powder</li>
+							<li>FSX</li>
+						</thingDefs>
+					</filter>
+					<count>6</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Surfactant</li>
+						</thingDefs>
+					</filter>
+					<count>50</count>
+				</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Surfactant</li>
+				<li>Powder</li>
+			    <li>FSX</li>
+			</thingDefs>
+			<categories>
+				<li>USLDBar</li>
+			    <li>SLDBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_30x64mmFuel_Foam>50</Ammo_30x64mmFuel_Foam>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_RailRay_AAAM</defName>
+		<label>make Charged Rail Ray cartridge x20</label>
+		<description>Craft 20 Charged Rail Ray cartridges.</description>
+		<jobString>Making Charged Rail Ray cartridges.</jobString>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+					</categories>
+				</filter>
+				<count>24</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hexcell</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MagneticMaterial</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<thingDefs>
+				<li>Hexcell</li>
+				<li>MagneticMaterial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_RailRay>20</Ammo_RailRay>
+		</products>
+	</RecipeDef>
+	
+	
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_PlasmaPelletBolt_AAAM</defName>
+		<label>make Plasma Charged pellet bolt cartridge x80</label>
+		<description>Craft 80 Plasma charged pellet bolt cartridges.</description>
+		<jobString>Making Plasma Charged pellet bolt cartridges.</jobString>
+		<researchPrerequisite>ChargedShot</researchPrerequisite>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+					</categories>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>16</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BiosyntheticMaterial</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<thingDefs>
+				<li>BiosyntheticMaterial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_PlasmaPelletBolt>80</Ammo_PlasmaPelletBolt>
+		</products>
+	</RecipeDef>
+	
+	
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_PlasmaBolt_AAAM</defName>
+		<label>make Plasma charged bolt cartridge x80</label>
+		<description>Craft 80 Plasma charged bolt cartridges.</description>
+		<jobString>Making Plasma charged bolt cartridges.</jobString>
+		<researchPrerequisite>ChargedShot</researchPrerequisite>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+					</categories>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BiosyntheticMaterial</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<thingDefs>
+				<li>BiosyntheticMaterial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_PlasmaBolt>80</Ammo_PlasmaBolt>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_BlasterBolt_AAAM</defName>
+		<label>make Blaster charged bolt cartridge x80</label>
+		<description>Craft 80 Blaster charged bolt cartridges.</description>
+		<jobString>Making Blaster charged bolt cartridges.</jobString>
+		<researchPrerequisite>ChargedShot</researchPrerequisite>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+					</categories>
+				</filter>
+				<count>16</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MagneticMaterial</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BiosyntheticMaterial</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<thingDefs>
+				<li>BiosyntheticMaterial</li>
+				<li>MagneticMaterial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_BlasterBolt>80</Ammo_BlasterBolt>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_ChargedLaser_AAAM</defName>
+		<label>make Charged Laser beam cartridge x40</label>
+		<description>Craft 40 Charged Laser beam cartridges.</description>
+		<jobString>Making Charged Laser beam cartridges.</jobString>
+		<researchPrerequisite>ChargedShot</researchPrerequisite>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+					</categories>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hexcell</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<thingDefs>
+				<li>Hexcell</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_ChargedLaser>40</Ammo_ChargedLaser>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_ChargedLaser_Stable_AAAM</defName>
+		<label>make Charged Laser beam (Stable) cartridge x40</label>
+		<description>Craft 40 Charged Laser beam (Stable) cartridges.</description>
+		<jobString>Making Charged Laser beam (Stable) cartridges.</jobString>
+		<researchPrerequisite>ChargedShot</researchPrerequisite>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+					</categories>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hexcell</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<thingDefs>
+				<li>Hexcell</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_ChargedLaser_Stable>40</Ammo_ChargedLaser_Stable>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_BlasterPelletBolt_AAAM</defName>
+		<label>make Blaster Charged pellet bolt cartridge x80</label>
+		<description>Craft 80 Blaster Charged  pellet bolt cartridges.</description>
+		<jobString>Making Blaster Charged pellet bolt cartridges.</jobString>
+		<researchPrerequisite>ChargedShot</researchPrerequisite>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+					</categories>
+				</filter>
+				<count>16</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MagneticMaterial</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BiosyntheticMaterial</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<thingDefs>
+				<li>BiosyntheticMaterial</li>
+				<li>MagneticMaterial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_BlasterPelletBolt>80</Ammo_BlasterPelletBolt>
+		</products>
+	</RecipeDef>
+</Defs>

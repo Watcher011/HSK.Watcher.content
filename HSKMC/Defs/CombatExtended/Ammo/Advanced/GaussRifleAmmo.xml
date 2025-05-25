@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_GaussCharged_AAAM</defName>
+		<label>make gauss charged cartridge x40</label>
+		<description>Craft 40 gauss charged cartridges.</description>
+		<jobString>Making gauss charged cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+					</categories>
+				</filter>
+				<count>16</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>24</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MagneticMaterial</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Charged_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<thingDefs>
+				<li>MagneticMaterial</li>
+				<li>Charged_Component</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_GaussCharged>40</Ammo_GaussCharged>
+		</products>
+		<skillRequirements>
+			<Crafting>15</Crafting>
+		</skillRequirements>
+		<researchPrerequisite>ChargedShot</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

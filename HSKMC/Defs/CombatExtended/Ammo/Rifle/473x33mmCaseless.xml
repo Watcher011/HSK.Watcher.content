@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_473x33mmCaseless_FMJ_AAAM</defName>
+		<label>make 4.73x33mm Caseless (FMJ) cartridge x96</label>
+		<description>Craft 96 4.73x33mm Caseless (FMJ) cartridges.</description>
+		<jobString>Making 4.73x33mm Caseless (FMJ) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>Plastic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_473x33mmCaseless_FMJ>96</Ammo_473x33mmCaseless_FMJ>
+		</products>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_473x33mmCaseless_AP_AAAM</defName>
+		<label>make 4.73x33mm Caseless (AP) cartridge x96</label>
+		<description>Craft 96 4.73x33mm Caseless (AP) cartridges.</description>
+		<jobString>Making 4.73x33mm Caseless (AP) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDHBar</li>
+						<li>Ceramic</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>			
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>USLDHBar</li>
+				<li>Ceramic</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>Plastic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_473x33mmCaseless_AP>96</Ammo_473x33mmCaseless_AP>
+		</products>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_473x33mmCaseless_HP_AAAM</defName>
+		<label>make 4.73x33mm Caseless (HP) cartridge x96</label>
+		<description>Craft 96 4.73x33mm Caseless (HP) cartridges.</description>
+		<jobString>Making 4.73x33mm Caseless (HP) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>HeavyBar</li>
+					</categories>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Plastic</li>
+				<li>Powder</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_473x33mmCaseless_HP>96</Ammo_473x33mmCaseless_HP>
+		</products>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_473x33mmCaseless_EMP_AAAM</defName>
+		<label>make 4.73x33mm Caseless (EMP) cartridge x96</label>
+		<description>Craft 96 4.73x33mm Caseless (EMP) cartridges.</description>
+		<jobString>Making 4.73x33mm Caseless (EMP) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ElectronicComponents</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>			
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>Plastic</li>
+				<li>ElectronicComponents</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_473x33mmCaseless_EMP>96</Ammo_473x33mmCaseless_EMP>
+		</products>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+	</RecipeDef>
+	
+</Defs>

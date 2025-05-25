@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+        <defName>MakeAmmo_9x39mmSoviet_FMJ_AAAM</defName>
+        <label>make 9x39mm Soviet (SP-5) cartridge x90</label>
+        <description>Craft 90 9x39mm Soviet (SP-5) cartridges.</description>
+        <jobString>Making 9x39mm Soviet (SP-5) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>11</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_9x39mmSoviet_FMJ>90</Ammo_9x39mmSoviet_FMJ>
+		</products>
+	
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+        <defName>MakeAmmo_9x39mmSoviet_AP_AAAM</defName>
+        <label>make 9x39mm Soviet (SP-6) cartridge x90</label>
+        <description>Craft 90 9x39mm Soviet (SP-6) cartridges.</description>
+        <jobString>Making 9x39mm Soviet (SP-6) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>11</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDHBar</li>
+						<li>Ceramic</li>
+					</categories>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>USLDHBar</li>
+				<li>Ceramic</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_9x39mmSoviet_AP>90</Ammo_9x39mmSoviet_AP>
+		</products>
+	
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+        <defName>MakeAmmo_9x39mmSoviet_SH_AAAM</defName>
+        <label>make 9x39mm Soviet (SH) cartridge x90</label>
+        <description>Craft 90 9x39mm Soviet (SH) cartridges.</description>
+        <jobString>Making 9x39mm Soviet (SH) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>11</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Carbon</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<thingDefs>
+				<li>Carbon</li>
+				<li>Powder</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_9x39mmSoviet_SH>90</Ammo_9x39mmSoviet_SH>
+		</products>
+	
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+        <defName>MakeAmmo_9x39mmSoviet_EMP_AAAM</defName>
+        <label>make 9x39mm Soviet (EMP) cartridge x90</label>
+        <description>Craft 90 9x39mm Soviet (EMP) cartridges.</description>
+        <jobString>Craft 90 9x39mm Soviet (EMP) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>11</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ElectronicComponents</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>			
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>ElectronicComponents</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_9x39mmSoviet_EMP>90</Ammo_9x39mmSoviet_EMP>
+		</products>
+	
+	</RecipeDef>
+
+</Defs>

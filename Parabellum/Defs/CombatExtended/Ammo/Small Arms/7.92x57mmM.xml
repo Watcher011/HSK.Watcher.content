@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_8mmM_P88M_AAAM</defName>
+		<label>make 8x57mm Patrone 88(FMJ) cartridge x50</label>
+		<description>Craft 50 8x57mm Patrone 88(FMJ) cartridge.</description>
+		<jobString>Making 8x57mm Patrone 88(FMJ) cartridge.</jobString>
+		<targetCountAdjustment>50</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>FSX</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_8mmM_P88M>50</Ammo_8mmM_P88M>
+		</products>
+		<researchPrerequisite>Parabellum_Alpha</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_8mmM_SP_AAAM</defName>
+		<label>make 7.92x57mm S Patrone(FMJ) cartridge x75</label>
+		<description>Craft 75 7.92x57mm S Patrone(FMJ) cartridge.</description>
+		<jobString>Making 7.92x57mm S Patrone(FMJ) cartridge.</jobString>
+		<targetCountAdjustment>75</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>FSX</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_8mmM_SP>75</Ammo_8mmM_SP>
+		</products>
+	
+		<researchPrerequisite>Machining</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_8mmM_KP_AAAM</defName>
+		<label>make 7.92x57mm K Patrone(AP) cartridge x75</label>
+		<description>Craft 75 7.92x57mm K Patrone(AP) cartridge.</description>
+		<jobString>Making 7.92x57mm K Patrone(AP) cartridge.</jobString>
+		<targetCountAdjustment>75</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>14</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Tungsten</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Tungsten</li>
+				<li>Powder</li>
+				<li>FSX</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_8mmM_KP>75</Ammo_8mmM_KP>
+		</products>
+		<researchPrerequisite>Machining</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_8mmM_BP_AAAM</defName>
+		<label>make 7.92x57mm B Patrone(HE-T) cartridge x75</label>
+		<description>Craft 75 7.92x57mm B Patrone(HE-T) cartridge.</description>
+		<jobString>Making 7.92x57mm B Patrone(HE-T) cartridge.</jobString>
+		<targetCountAdjustment>75</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>18</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>FSX</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_8mmM_BP>75</Ammo_8mmM_BP>
+		</products>
+		<researchPrerequisite>Rifles_C3</researchPrerequisite>
+	</RecipeDef>
+	
+</Defs>

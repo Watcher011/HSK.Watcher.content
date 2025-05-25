@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==================== Pistol Ammo ========================== -->
+
+	
+	
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_9x19mmPara_JHP_AAAM</defName>
+		<label>make 9x19mm Parabellum (+p+) cartridge x100</label>
+		<description>Craft 100 9x19mm Parabellum (+p+) cartridges.</description>
+		<jobString>Making 9x19mm Parabellum (+p+) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>FSX</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_9x19mmPara_JHP>100</Ammo_9x19mmPara_JHP>
+		</products>
+		<researchPrerequisite>Pistols_C2</researchPrerequisite>
+	</RecipeDef>
+	
+	<!-- ==================== .45 ACP ========================== -->
+	
+	
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_45ACP_Super_AAAM</defName>
+		<label>make .45 ACP (Super) cartridges x80</label>
+		<description>Craft 80 .45 ACP (Super) cartridges.</description>
+		<jobString>Making .45 ACP (Super) cartridges.</jobString>
+		<targetCountAdjustment>80</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>FSX</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_45ACP_Super>80</Ammo_45ACP_Super>
+		</products>
+		<researchPrerequisite>Pistols_C2</researchPrerequisite>
+	</RecipeDef>
+	
+	<!-- ==================== Rifle Ammo ========================== -->
+	
+	
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_556x45mmNATO_D_AAAM</defName>
+		<label>make 5.56x45mm (Duplex) cartridge x80</label>
+		<description>Craft 80 5.56x45mm (Duplex) cartridges.</description>
+		<jobString>Making 5.56x45mm (Duplex) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>FSX</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_556x45mmNATO_D>80</Ammo_556x45mmNATO_D>
+		</products>
+	    <researchPrerequisite>Rifles_C2</researchPrerequisite>
+	</RecipeDef>
+	
+	<!-- ==================== 7.62x39mm Soviet ========================== -->
+	
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_762x39mmSoviet_I_AAAM</defName>
+		<label>make 7.62x39mm (Incendiary) cartridge x80</label>
+		<description>Craft 80 7.62x39mm (Incendiary) cartridges.</description>
+		<jobString>Making 7.62x39mm (Incendiary) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Prometheum</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Prometheum</li>
+				<li>Powder</li>
+				<li>FSX</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_762x39mmSoviet_I>80</Ammo_762x39mmSoviet_I>
+		</products>
+	    <researchPrerequisite>Rifles_C2</researchPrerequisite>
+	</RecipeDef>
+	
+	<!-- ==================== 7.62x51mm NATO ========================== -->
+	
+	
+	
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_303British_I_AAAM</defName>
+		<label>make .303 British (I) cartridge x80</label>
+		<description>Craft 80 .303 British (I) cartridges.</description>
+		<jobString>Making .303 British (I) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>11</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Prometheum</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Prometheum</li>
+				<li>Powder</li>
+				<li>FSX</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_303British_I>80</Ammo_303British_I>
+		</products>
+	    <researchPrerequisite>Rifles_C2</researchPrerequisite>
+	</RecipeDef>
+	
+	<!-- ==================== 7.62x51mm NATO ========================== -->
+	
+	
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_762x51mmNATO_T_AAAM</defName>
+		<label>make 7.62x51mm (Triplex) cartridge x80</label>
+		<description>Craft 80 7.62x51mm (Triplex) cartridges.</description>
+		<jobString>Making 7.62x51mm (Triplex) cartridges.</jobString>
+		<targetCountAdjustment>60</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>17</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>FSX</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_762x51mmNATO_T>60</Ammo_762x51mmNATO_T>
+		</products>
+	    <researchPrerequisite>Rifles_C3</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

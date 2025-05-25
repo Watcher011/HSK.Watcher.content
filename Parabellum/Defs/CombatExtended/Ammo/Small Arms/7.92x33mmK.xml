@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_792x33mmK_FMJ_AAAM</defName>
+		<label>make 7.92x33mm K(FMJ) cartridge x100</label>
+		<description>Craft 100 7.92x33mm K(FMJ) cartridges.</description>
+		<jobString>Making 7.92x33mm K(FMJ) cartridges.</jobString>
+		<targetCountAdjustment>100</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>11</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>FSX</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_792x33mmK_FMJ>100</Ammo_792x33mmK_FMJ>
+		</products>
+		<researchPrerequisite>Machining</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_792x33mmK_AP_AAAM</defName>
+		<label>make 7.92x33mm K(AP) cartridge x100</label>
+		<description>Craft 100 7.92x33mm K(AP) cartridges.</description>
+		<jobString>Making 7.92x33mm K(AP) cartridges.</jobString>
+		<targetCountAdjustment>100</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Tungsten</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Tungsten</li>
+				<li>Powder</li>
+				<li>FSX</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_792x33mmK_AP>100</Ammo_792x33mmK_AP>
+		</products>
+		<researchPrerequisite>Rifles_C1</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_792x33mmK_J_AAAM</defName>
+		<label>make 7.92x33mm K(J) cartridge x100</label>
+		<description>Craft 100 7.92x33mm K(J) cartridges.</description>
+		<jobString>Making 7.92x33mm K(J) cartridges.</jobString>
+		<targetCountAdjustment>100</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>FSX</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_792x33mmK_J>100</Ammo_792x33mmK_J>
+		</products>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+	</RecipeDef>
+	
+</Defs>
+	

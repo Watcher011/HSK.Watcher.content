@@ -22,6 +22,7 @@
 		<li>WatcherXI.AdvancedPower</li>
 		<li>WatcherXI.HSK.Tea</li>
 		<li>WatcherXI.YAdaritAndMetal</li>
+		<li>HSK.WatcherAmmo</li>
 	</incompatibleWith>
 	<modDependencies>
 	    <li>

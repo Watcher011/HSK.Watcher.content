@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_763x25mmM_FMJ_AAAM</defName>
+		<label>make 7.63x25mm Mauser(FMJ) cartridge x100</label>
+		<description>Craft 100 7.63x25mm Mauser(FMJ) cartridge.</description>
+		<jobString>Making 7.63x25mm Mauser(FMJ) cartridge.</jobString>
+		<targetCountAdjustment>100</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>FSX</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_763x25mmM_FMJ>100</Ammo_763x25mmM_FMJ>
+		</products>
+		<researchPrerequisite>Parabellum_Alpha</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_763x25mmM_HP_AAAM</defName>
+		<label>make 7.63x25mm Mauser(HP) cartridge x100</label>
+		<description>Craft 100 7.63x25mm Mauser(HP) cartridge.</description>
+		<jobString>Making 7.63x25mm Mauser(HP) cartridge.</jobString>
+		<targetCountAdjustment>100</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>FSX</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_763x25mmM_HP>100</Ammo_763x25mmM_HP>
+		</products>
+		<researchPrerequisite>Parabellum_Alpha</researchPrerequisite>
+	</RecipeDef>
+	
+</Defs>

@@ -1,0 +1,9 @@
+<loadFolders>
+  <v1.5>
+    <li>/</li>
+    <li IfModActive="ArpoMo6.HMC.USSRWP">USSRWP</li>
+	<li IfModActive="XxNelsonxX.Parabellum">Parabellum</li>
+	<li IfModActive="arpomo6.hmc.project">HSKMC</li>
+	<li IfModActive="HSK.WatcherContent">HSKWC</li>
+  </v1.5>
+</loadFolders>

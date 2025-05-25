@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_12Mag_Buck_AAAM</defName>
+		<label>make .12 mag (Buck) shell x40</label>
+		<description>Craft 40 .12 mag (Buck) shells.</description>
+		<jobString>Making .12 mag (Buck) shells.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDBar</li>
+						<li>USLDHBar</li>
+					</categories>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ElectronicComponents</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<thingDefs>
+				<li>ElectronicComponents</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_12Mag_Buck>40</Ammo_12Mag_Buck>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_12Mag_ElectroSlug_AAAM</defName>
+		<label>make .12 mag (EMP) shell x40</label>
+		<description>Craft 40 .12 mag (EMP) shells.</description>
+		<jobString>Making .12 mag (EMP) shells.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+					</categories>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDBar</li>
+						<li>USLDHBar</li>
+					</categories>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ElectronicComponents</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<thingDefs>
+				<li>ElectronicComponents</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_12Mag_ElectroSlug>40</Ammo_12Mag_ElectroSlug>
+		</products>
+	</RecipeDef>
+
+</Defs>

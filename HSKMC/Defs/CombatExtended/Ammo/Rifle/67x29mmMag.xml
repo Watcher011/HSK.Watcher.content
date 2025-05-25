@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_67x29mm_AP_AAAM</defName>
+		<label>make 6.7x29mm Mag (AP) cartridge x80</label>
+		<description>Craft 80 6.7x29mm Mag (AP) cartridges.</description>
+		<jobString>Making 6.7x29mm Mag (AP) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDBar</li>
+						<li>USLDHBar</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ElectronicComponents</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<thingDefs>
+				<li>ElectronicComponents</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_67x29mm_AP>80</Ammo_67x29mm_AP>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_67x29mm_EMP_AAAM</defName>
+		<label>make 6.7x29mm Mag (EMP) cartridge x80</label>
+		<description>Craft 80 6.7x29mm Mag (EMP) cartridges.</description>
+		<jobString>Making 6.7x29mm Mag (EMP) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+					</categories>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDBar</li>
+						<li>USLDHBar</li>
+					</categories>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ElectronicComponents</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<thingDefs>
+				<li>ElectronicComponents</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_67x29mm_EMP>80</Ammo_67x29mm_EMP>
+		</products>
+
+	</RecipeDef>
+
+</Defs>

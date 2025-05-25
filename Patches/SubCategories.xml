@@ -24,6 +24,14 @@
 				<li>BatteryHim</li>
 				</value>
 			 </Operation>-->
+			 
+	         <Operation Class="PatchOperationAdd">
+				<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_CraftWeapons"]/defNames</xpath>
+				<value>
+				<li>AAAM</li>
+				</value>
+			 </Operation>
+		
 </Patch>
 
 
