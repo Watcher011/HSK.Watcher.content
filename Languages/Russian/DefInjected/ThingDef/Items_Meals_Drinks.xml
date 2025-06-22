@@ -2,38 +2,66 @@
 <LanguageData>
 
   <CupChipfir.label>Кружка Чифира</CupChipfir.label>
-  <CupChipfir.description>Чифи́рь это напиток, получаемый вывариванием высококонцентрированной заварки чая. Обладает психостимулирующим действием, в некотором роде является наркотическим средством, вызывающим зависимость.</CupChipfir.description>
+  <CupChipfir.description>Густой как смола напиток, который:  
+- Прожигает желудок, но заряжает дух  
+- Делает сон необязательной роскошью  
+- Позволяет видеть звуки (побочный эффект)  
+Идеален для ночных смен, боевых дежурств и экзистенциальных кризисов.</CupChipfir.description>
   <CupChipfir.ingestible.ingestCommandString>Выпить {0}</CupChipfir.ingestible.ingestCommandString>
   <CupChipfir.ingestible.ingestReportString>Выпивает{0}.</CupChipfir.ingestible.ingestReportString>
 
   <Cupwithminttea.label>Кружка чаю с мятой</Cupwithminttea.label>
-  <Cupwithminttea.description>Чай с мятой успокаивает нервы, может вызывать сонливость.</Cupwithminttea.description>
+  <Cupwithminttea.description>Подозрительно умиротворяющий напиток для тех, кто:  
+- Ещё верит в медитацию между набегами рейдеров  
+- Пытается заварить травы вместо того, чтобы валить деревья  
+- Делает вид, что не слышит вопли за стеной  
+Единственный способ притвориться, что у вас не постапокалиптическая колония.</Cupwithminttea.description>
   <Cupwithminttea.ingestible.ingestCommandString>Выпить {0}</Cupwithminttea.ingestible.ingestCommandString>
   <Cupwithminttea.ingestible.ingestReportString>Выпивает {0}.</Cupwithminttea.ingestible.ingestReportString>
 
   <CupGreentea.label>Кружка зелёного чаю</CupGreentea.label>
-  <CupGreentea.description>Зеленый чай — это напиток из листьев чайной камелии. Собственно, как и черный чай. Основное их различие в том, что для зеленого чая процесс ферментации минимален, отчего он становится ближе к живому чайному листу. И чем сильнее чай ферментирован, тем темнее его настой и ярче вкус.</CupGreentea.description>
+  <CupGreentea.description>Напиток для избранных, кто предпочитает:  
+- Осознавать всю беспросветность существования (с изысканным послевкусием)  
+- Пить горячую воду с травой вместо нормального чая  
+- Притворяться, что это полезно, пока мир горит  
+Последний оплот цивилизации перед лицом надвигающегося хаоса.</CupGreentea.description>
   <CupGreentea.ingestible.ingestCommandString>Выпить {0}</CupGreentea.ingestible.ingestCommandString>
   <CupGreentea.ingestible.ingestReportString>Выпивает {0}.</CupGreentea.ingestible.ingestReportString>
 
   <RawPuer.label>Пуэр</RawPuer.label>
-  <RawPuer.description>Главной отличительной чертой пуэров является стадия ферментации, которая может занимать различное время. Участвующие в ней микроорганизмы заметно меняют химический состав и вкусовые качества чая.</RawPuer.description>
+  <RawPuer.description>Элитный чай, выдержанный ровно столько, сколько нужно для:  
+- Приобретения вкуса влажного подвала  
+- Развития философской резиньяции  
+- Маскировки под настоящий антиквариат  
+Рекомендуется ценителям тонких оттенков плесени и экзистенциального отчаяния.</RawPuer.description>
 
   <RawGreen.label>Зелёный чай</RawGreen.label>
   <RawGreen.description>Зеленый чай — это напиток из листьев чайной камелии. Собственно, как и черный чай. Основное их различие в том, что для зеленого чая процесс ферментации минимален, отчего он становится ближе к живому чайному листу. И чем сильнее чай ферментирован, тем темнее его настой и ярче вкус.</RawGreen.description>
 
   <CupPuer.label>Чашка Пуэра</CupPuer.label>
-  <CupPuer.description>Чашка целебного напитка.</CupPuer.description>
+  <CupPuer.description>Выдержанный напиток для истинных ценителей, готовых:  
+- Пренебречь вкусом ради статуса  
+- Пить то, что пахнет старым сараем  
+- Притворяться, что ощущают "букет"  
+Идеально для создания видимости утончённости среди общего хаоса.</CupPuer.description>
   <CupPuer.ingestible.ingestCommandString>Выпить {0}</CupPuer.ingestible.ingestCommandString>
   <CupPuer.ingestible.ingestReportString>Выпивает{0}.</CupPuer.ingestible.ingestReportString>
 
   <CupDecaffeinatedCoffee.label>Кофе без кофеина</CupDecaffeinatedCoffee.label>
-  <CupDecaffeinatedCoffee.description>Чашка кофе без кофеина.Кофе без кофеина или Декаф (Декафинат) производится из обычных кофейных зёрен, из которых различными методами извлекается до 99,5% кофеина. Питательная ценность Декафеина точно такая же, как и у обычного кофе. Вся разница в содержании количества кофеина.</CupDecaffeinatedCoffee.description>
+  <CupDecaffeinatedCoffee.description>Идеальный напиток для тех, кто хочет:  
+- Ощутить ритуал без последствий  
+- Обмануть организм плацебо-бодростью  
+- Понять, что жизнь лишена смысла  
+Подаётся с ложной надеждой и привкусом разочарования.</CupDecaffeinatedCoffee.description>
   <CupDecaffeinatedCoffee.ingestible.ingestCommandString>Выпить {0}</CupDecaffeinatedCoffee.ingestible.ingestCommandString>
   <CupDecaffeinatedCoffee.ingestible.ingestReportString>Пью {0}.</CupDecaffeinatedCoffee.ingestible.ingestReportString>
 
   <CupStrongCoffee.label>Чашка крепкого кофе</CupStrongCoffee.label>
-  <CupStrongCoffee.description>Чашка крепкого Кофе.</CupStrongCoffee.description>
+  <CupStrongCoffee.description>Чёрный как ваши мысли, горький как правда жизни напиток, который:  
+- Позволяет забыть, что вы не спали трое суток  
+- Маскирует вкус собственных слёз  
+- Даёт ложное ощущение, что вы контролируете ситуацию  
+Последняя линия обороны между колонистом и нервным срывом.</CupStrongCoffee.description>
   <CupStrongCoffee.ingestible.ingestCommandString>Выпить {0}</CupStrongCoffee.ingestible.ingestCommandString>
   <CupStrongCoffee.ingestible.ingestReportString>Пью {0}.</CupStrongCoffee.ingestible.ingestReportString>
 

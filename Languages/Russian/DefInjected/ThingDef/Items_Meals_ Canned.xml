@@ -4,31 +4,62 @@
   <PicklesV.label>Соленые огурцы</PicklesV.label>
   <PicklesV.description>Огурцы, консервированные в соленом рассоле.</PicklesV.description>
 
-  <SaladSimple.label>Леитний салат</SaladSimple.label>
-  <SaladSimple.description>Простой салат, быстро приготовленный из простых ингредиентов.</SaladSimple.description>
+  <SaladSimple.label>Летний салат</SaladSimple.label>
+  <SaladSimple.description>Смесь случайно найденных съедобных растений, напоминающая еду. Технически соответствует определению "салата", если не смотреть слишком внимательно. Единственное блюдо, которое даже повар-неудачник не может испортить.</SaladSimple.description>
 
-  <DruFungus.label>Сушеные грибы</DruFungus.label>
-  <DruFungus.description>Сушёные грибы — продукт питания со специфическим ароматом и вкусом, получаемый путём сушки свежих съедобных грибов. Сушёные грибы после предварительного замачивания могут широко использоваться в кулинарии, например в супах, рагу, солянке, соусах, начинках для пирогов, грибной икре..</DruFungus.description>
+  <DruFungus.label>Сушёные грибы</DruFungus.label>
+  <DruFungus.description>Почти съедобные грибы, лишённые последних признаков влаги и вкуса. Отлично подходят для:  
+- Долгого хранения (потому что никто не хочет их есть)  
+- Имитации еды в экстренных ситуациях  
+- Напоминания колонистам, что могло быть и хуже.</DruFungus.description>
 
-  <DruFish.label>Сушеная солёная рыба</DruFish.label>
-  <DruFish.description>Процесс состоит из двух этапов: засолка и сушка. Засолка обязательна для продукта без термической обработки: соль уничтожит паразитов, если они есть в рыбе, и затормозит процессы разложения.</DruFish.description>
+  <DruFish.label>Сушёная солёная рыба</DruFish.label>
+  <DruFish.description>Древний как мир способ сохранить рыбу и убить её вкус окончательно. Идеально для:
+- Долгих зим (когда уже всё равно, что есть)
+- Наказания провинившихся колонистов
+- Обмена с кочевниками (пусть их колонисты тоже помучаются).</DruFish.description>
 
-  <DruFishPlastic.label>Сушеная солёная рыба в упаковке</DruFishPlastic.label>
-  <DruFishPlastic.description>Процесс состоит из трёх этапов: засолка, сушка и упаковка. Засолка обязательна для продукта без термической обработки: соль уничтожит паразитов, если они есть в рыбе, и затормозит процессы разложения. После упаковки в пластик можно хранить почти вечно.</DruFishPlastic.description>
+  <DruFishPlastic.label>Сушёная солёная рыба (упаковка)</DruFishPlastic.label>
+  <DruFishPlastic.description>Вакуумная упаковка сохраняет первозданную безвкусность этого "деликатеса" на века. 
+Теперь с удобной порционной расфасовкой для:
+- Аварийных пайков (чтобы колонисты ценили нормальную еду)
+- Торговли (обманывайте других, как обманываете себя)
+- Подарков ненавистным соседям.</DruFishPlastic.description>
 
-  <MealFishAndBeer.label>Пиво с сушеной рыбкой</MealFishAndBeer.label>
-  <MealFishAndBeer.description>Пиво и рыба словно созданы друг для друга.</MealFishAndBeer.description>
+  <MealFishAndBeer.label>Пиво с сушёной рыбкой</MealFishAndBeer.label>
+  <MealFishAndBeer.description>Гастрономический дуэт, рождённый в аду кулинарных кошмаров. Сочетание, которое заставит ваших колонистов:
+- Плакать от ностальгии (если они бывшие заключённые)
+- Сожалеть о своём выживании (после первой порции)
+- Ценить простую сыроедческую диету (как альтернативу)</MealFishAndBeer.description>
 
   <Yzvae.label>Узвар</Yzvae.label>
-  <Yzvae.description>Узвар-Компот на основе сухих плодов, сухих ягод или сухофруктов.</Yzvae.description>
+  <Yzvae.description>Напиток, который заставит ваших колонистов вспомнить бабушку... если закрыть глаза, заткнуть нос и сильно постараться. 
+Сварено из:
+- Сухофруктов (возрастом старше некоторых колонистов)
+- Капли надежды (не входит в состав)
+- Воспоминаний о лучшей жизни (улетучиваются при кипячении)</Yzvae.description>
   <Yzvae.ingestible.ingestCommandString>Выпить узвару {0}</Yzvae.ingestible.ingestCommandString>
   <Yzvae.ingestible.ingestReportString>Выпивает {0}.</Yzvae.ingestible.ingestReportString>
 
-  <Druchips.label>Сушеные чипсы</Druchips.label>
-  <Druchips.description>Сушеные чипсы - закуска, представляющая собой тонкие ломтики картофеля.</Druchips.description>
+  <Druchips.label>Сушёные чипсы</Druchips.label>
+  <Druchips.description>Тончайшие ломтики разочарования, приготовленные по старинному рецепту "что-то надо же есть". 
+Основные характеристики:
+- Хруст есть - вкуса нет
+- 100% натуральная картонность
+- Идеально для: 
+  * Просмотра катастроф на мониторах
+  * Заедания экзистенциального кризиса
+  * Обмена на что-то съедобное.</Druchips.description>
 
   <DirtyEthanol.label>Брага</DirtyEthanol.label>
-  <DirtyEthanol.description>Брага - спиртосодержащий получаемый в результате сбраживания сахара или других сахаристых веществ и предназначенный для последующей перегонки через самодельные аппараты. Соединение с множеством побочных эффектов.</DirtyEthanol.description>
+  <DirtyEthanol.description>Алкогольный эксперимент, который ваши колонисты будут называть "почти пивом", пока не отключатся. 
+Особенности:
+- Создаёт иллюзию, что жизнь не так уж плоха
+- Удаляет воспоминания (временно) и мозговые клетки (навсегда)
+- Идеально для:
+  * "Дезинфекции" ран (не работает)
+  * Торговли с пьяницами
+  * Быстрого пути к слепоте.</DirtyEthanol.description>
   <DirtyEthanol.ingestible.ingestCommandString>Выпить {0}</DirtyEthanol.ingestible.ingestCommandString>
   <DirtyEthanol.ingestible.ingestReportString>Выпивает {0}.</DirtyEthanol.ingestible.ingestReportString>
 
@@ -38,7 +69,10 @@
   <Ethanol.ingestible.ingestReportString>Выпивает {0}.</Ethanol.ingestible.ingestReportString>
 
   <Popcorn.label>Попкорн</Popcorn.label>
-  <Popcorn.description>Попкорн  — закуска, представляющая собой зёрна кукурузы, раздувшиеся изнутри при нагревании. Обычно подаётся подсоленным или подслащенным.</Popcorn.description>
+  <Popcorn.description>"Элитный" кинопопкорн с:
+- Натуральным маслом (если считать робо-смазку маслом)
+- Ароматом страха (от вентиляции)
+- Кровавыми сценами (в прямом эфире за окном)</Popcorn.description>
 
 
   <!--<DirtyEthanol.stuffProps.stuffAdjective>Топливо</DirtyEthanol.stuffProps.stuffAdjective>-->

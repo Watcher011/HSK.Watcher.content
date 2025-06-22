@@ -30,6 +30,17 @@
 		</operations>
 	</Operation>
 
+
+     <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Moat"]/costList</xpath>
+		<value>
+		<costList>
+		   <SoftClay>10</SoftClay>
+			<SandResource>10</SandResource>
+			<FecalSludge>6</FecalSludge>
+		</costList>
+		</value>
+	</Operation>
 <!--
  <Operation Class="PatchOperationAdd">
         <xpath>Defs</xpath>
