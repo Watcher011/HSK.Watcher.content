@@ -299,6 +299,8 @@
 		<graphicData>
 			<texPath>Things/Building/Furniture/Lights/CeilingKristal</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(0.5,0.5)</drawSize>
 			<shadowData>
 				<volume>(0.2, 0.2, 0.2)</volume>
 				<offset>(0,0,0)</offset>
@@ -367,6 +369,7 @@
 		<graphicData>
 			<texPath>Things/Building/Furniture/Lights/CeilingKristal</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
 			<shadowData>
 				<volume>(0.2, 0.2, 0.2)</volume>
 				<offset>(0,0,0)</offset>
