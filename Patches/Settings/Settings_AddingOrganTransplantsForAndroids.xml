@@ -211,6 +211,9 @@
 			<li>Euthanize</li>
 			<li>Anesthetize</li>
 			<li>CureScaria</li>
+			<li>InstallDeathAcidifier</li>
+			<li MayRequire="arpomo6.hmc.project">InstallIgufFirmware</li>
+			<li MayRequire="arpomo6.hmc.project">RemoveIgufFirmware</li>
 			<li MayRequire="Ludeon.RimWorld.Biotech">Vasectomy</li>
 			<li MayRequire="Ludeon.RimWorld.Biotech">ReverseVasectomy</li>
 			<li MayRequire="Ludeon.RimWorld.Biotech">TubalLigation</li>
