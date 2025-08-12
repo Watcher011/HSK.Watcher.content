@@ -154,6 +154,7 @@
 		<graphicData>
 			<texPath>Things/Building/Furniture/LightsSun/CeilingKristalSun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.0,1.0)</drawSize>
 			<shadowData>
 				<volume>(0.2, 0.2, 0.2)</volume>
 				<offset>(0,0,0)</offset>
@@ -300,7 +301,7 @@
 			<texPath>Things/Building/Furniture/Lights/CeilingKristal</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(0.5,0.5)</drawSize>
+			<drawSize>(1,1)</drawSize>
 			<shadowData>
 				<volume>(0.2, 0.2, 0.2)</volume>
 				<offset>(0,0,0)</offset>

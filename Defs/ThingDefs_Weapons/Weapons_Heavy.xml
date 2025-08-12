@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<!-- M249 LMG SAW MG -->
+	
     <ThingDef ParentName="BaseGun_Heavy">
         <defName>Gun_Simp</defName>
         <label>ПКМ-Заказной</label>
@@ -145,8 +145,226 @@
 		</recipeUsers>
 	    <researchPrerequisite>MultibarrelWeapons</researchPrerequisite>
 	</RecipeDef>
+	
+  <ThingDef ParentName="SK_BaseGun">
+        <defName>Gun_SimpMod</defName>
+        <label>ПКМ Заря</label>
+        <description>ПКМ — пулемёт Калашникова модернизированный. Собранный по спецзаказу. Ствол и часть деталей заменена под натовский патрон (762x51mmNATO). Также имеет альтернативный выстрел из огнемёта</description>
+        <graphicData>
+            <texPath>Things/Weapons/PKMZ</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <statBases>
+            <MarketValue>1900</MarketValue>
+            <SightsEfficiency>1.05</SightsEfficiency>
+            <ShotSpread>0.07</ShotSpread>
+            <SwayFactor>1.1</SwayFactor>
+            <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+            <Bulk>15</Bulk>
+            <Mass>8.1</Mass>
+        </statBases>
+		<relicChance>0</relicChance>
+        <weaponTags>
+            <li>MG2</li>
+            <li>GunHeavy</li>
+            <li>MachineGun</li>
+            <li>BrotherhoodHeavy</li>
+            <li>SectarianHeavy</li>
+            <li>SyndicateMachineGun</li>
+            <li>OrionHeavy</li>
+			<li>CE_MachineGun</li>
+			<li>CE_AI_Suppressive</li>
+			<li>Flamethrower</li>
+        </weaponTags>
+        <thingCategories>
+            <li>MachineGun</li>
+        </thingCategories>
+	 	 <costList>
+         <Steel>60</Steel>
+        <Bioferrite>20</Bioferrite>
+         <ComponentIndustrial>7</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <recoilAmount>1.6</recoilAmount>
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
+                <burstShotCount>30</burstShotCount>
+                <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+                <warmupTime>1.6</warmupTime>
+                <range>55</range>
+                 <soundCast>ShotAK47</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>stock</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>8</power>
+					<cooldownTime>1.55</cooldownTime>
+					<chanceFactor>1.5</chanceFactor>
+					<armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>barrel</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>5</power>
+					<cooldownTime>2.02</cooldownTime>
+					<armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>muzzle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>8</power>
+					<cooldownTime>1.55</cooldownTime>
+					<armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+				</li>
+			</tools>
+       <comps>
+	        <li Class="CompProperties_Forbiddable"/>
+            <li Class="CombatExtended.CompProperties_FireModes">
+	               <aiUseBurstMode>TRUE</aiUseBurstMode>
+		        	<aiAimMode>AimedShot</aiAimMode>
+                <aimedBurstShotCount>8</aimedBurstShotCount>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>150</magazineSize>
+                <reloadTime>6.00</reloadTime>
+                <ammoSet>AmmoSet_762x51mmNATO</ammoSet>
+            </li>
+           	<li Class="CombatExtended.CompProperties_UnderBarrel">
+				<standardLabel>switch to rifle</standardLabel>
+				<underBarrelLabel>switch to flamethrower</underBarrelLabel>
+				<propsUnderBarrel>
+					<magazineSize>30</magazineSize>
+					<reloadTime>5</reloadTime>
+					<ammoSet>AmmoSet_Flamethrower</ammoSet>
+				</propsUnderBarrel>
+					<verbPropsUnderBarrel>
+					<recoilAmount>0.35</recoilAmount>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bullet_Flamethrower_Prometheum</defaultProjectile>
+					<ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
+					<warmupTime>1.1</warmupTime>
+					<range>10</range>
+					<minRange>1</minRange>
+					<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+					<burstShotCount>3</burstShotCount>
+					<soundCast>HissFlamethrower</soundCast>
+					<muzzleFlashScale>0</muzzleFlashScale>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+				</verbPropsUnderBarrel>
+				<propsFireModesUnderBarrel>
+					<aiUseBurstMode>FALSE</aiUseBurstMode>
+					<aiAimMode>AimedShot</aiAimMode>
+					<aimedBurstShotCount>3</aimedBurstShotCount>
+					<noSingleShot>true</noSingleShot>	
+				</propsFireModesUnderBarrel>
+			</li>
+			<!--<li>
+				<compClass>CompEquippable</compClass>
+			</li>-->
+        </comps>
+		<modExtensions>
+	    <li Class="CombatExtended.GunDrawExtension">
+		<DrawSize>1.2,1.1</DrawSize>
+	    </li>
+	    </modExtensions>
+        <smeltProducts>
+            <Heavy_Component>1</Heavy_Component>
+            <Weapon_Parts>5</Weapon_Parts>
+			<Plastic>5</Plastic>
+        </smeltProducts>
+    </ThingDef>
 
 
+	<RecipeDef ParentName="RangedWeaponRecipeBase">
+		<defName>BuildGunSimpMod</defName>
+		<label>Сборка ПКМ Заря</label>
+		<description>Сборка заказного пулемёта \nCaliber:7.62x51mm NATO</description>
+		<jobString>Сборка Симп Гана.</jobString>
+		<workAmount>23000</workAmount>
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Heavy_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>18</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Metallic</li>
+					</categories>
+				</filter>
+				<count>45</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>55</count>
+			</li>
+		</ingredients>
+		<products>
+			<Gun_Simp>1</Gun_Simp>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Heavy_Component</li>
+				<li>Weapon_Parts</li>
+				<li>ComponentIndustrial</li>
+				<li>Plastic</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>AdvWeaponCraftingWorkTable</li>
+		</recipeUsers>
+	    <researchPrerequisite>MultibarrelWeapons</researchPrerequisite>
+	</RecipeDef>
 <!--
 
 	<ThingDef ParentName="BaseGun_Heavy">

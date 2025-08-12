@@ -87,7 +87,7 @@
 			</li>
 		</modExtensions>
 		 <researchPrerequisites>
-           <li>Fortification_C2</li>
+           <li>Light_C1</li>
          </researchPrerequisites>
 	</ThingDef>
 
@@ -176,7 +176,7 @@
 			</li>
 		</modExtensions>
 		 <researchPrerequisites>
-            <li>Light_C1</li>
+			 <li>Fortification_C2</li>
          </researchPrerequisites>
 	</ThingDef>
 

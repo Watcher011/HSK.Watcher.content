@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ScenarioDef>
+		<defName>Darkness</defName>
+		<label>darkness</label>
+		<description>The world is witnessing an impenetrable darkness filled with terrifying creatures. A source of light can keep them at bay, and your people will have to fight for survival in this eternal darkness.</description>
+		<scenario>
+			<summary>If you stare into the darkness for too long, the darkness will come for you.</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>PlayerColony</factionDef>
+			</playerFaction>
+			<parts>
+			
+						<!-- Config pages -->
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+					<def>ConfigPage_ConfigureStartingPawns</def>
+					<pawnCount>3</pawnCount>
+					<pawnChoiceCount>8</pawnChoiceCount>
+				</li>
+
+				<!-- Player starting stuff spawn method-->
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>Standing</method>
+					<visible>false</visible>
+				</li>
+
+				<!-- Player pawns modifiers -->
+				<li Class="ScenPart_ForcedHediff">
+					<def>ForcedHediff</def>
+					<visible>false</visible>
+					<context>PlayerStarter</context>
+					<chance>0.5</chance>
+					<hediff>CryptosleepSickness</hediff>
+					<hideOffMap>true</hideOffMap>
+					<severityRange>
+						<min>1</min>
+						<max>1</max>
+					</severityRange>
+				</li>
+
+				<!-- Player starting things -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Apparello_Desert_Rain</thingDef>
+					<count>6</count>
+				</li>
+				
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>GlowstoneLamp</thingDef>
+					<count>4</count>
+				</li>
+				
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MealSurvivalPack</thingDef>
+					<count>30</count>
+				</li>
+				
+				
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineIndustrial</thingDef>
+					<count>24</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>RF_Gun_VektorCP</thingDef>
+					<count>2</count>
+				</li>
+				
+				
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MeleeWeapon_Knife</thingDef>
+					<stuff>Plasteel</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Ammo_9x19mmPara_FMJ</thingDef>
+					<count>1400</count>
+				</li>
+
+				<li Class="ScenPart_StartingAnimal">
+					<def>StartingAnimal</def>
+					<count>1</count>
+					<bondToRandomPlayerPawnChance>1.0</bondToRandomPlayerPawnChance>
+				</li>
+
+				<!-- Scatter some things anywhere -->
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<visible>false</visible>
+					<thingDef>ShipChunk</thingDef>
+					<count>19</count>
+					<allowRoofed>false</allowRoofed>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<visible>false</visible>
+					<thingDef>ShipMechChunk</thingDef>
+					<count>11</count>
+					<allowRoofed>false</allowRoofed>
+				</li>
+				<!-- Game start dialog -->
+				
+				<li Class="ScenPart_GameStartDialog">
+					<def>GameStartDialog</def>
+					<text>We had two stone lanterns, a few headlamps, and a pack of ammo.
+Not that any of this was necessary for survival in the dark, but when the pitch-black darkness, full of whispering creatures, closes in around you, you want to hold on to the light - and anything that helps you forget about it.
+The lanterns crackled, the lamps flickered, and the shadows behind the walls moved. Not all of them were just shadows. </text>
+					<textKey>GameStartDialog</textKey>
+					<closeSound>GameStartSting</closeSound>
+				</li>
+								<!-- Starting research -->
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>Stones_C1</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>Oil_Industry_C5</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>Metals_C3</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>Mining_C1</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>Fortification_C2</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>MedicineProduction</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>Heal_disease_C1</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>Prosthesis_install_C3</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>Prosthesis_making_C2</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>VitalsMonitor</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>PackagedSurvivalMeal</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>Research_table_C1</project>
+				</li>
+
+
+				<li Class="ScenPart_DisableIncident">
+					<def>DisableIncident</def>
+					<incident>TraderCaravanArrival</incident>
+					<visible>false</visible>
+				</li>
+				<li Class="ScenPart_DisableIncident">
+					<def>DisableIncident</def>
+					<incident>VisitorGroup</incident>
+					<visible>false</visible>
+				</li>
+				<li Class="ScenPart_DisableIncident">
+					<def>DisableIncident</def>
+					<incident>TravelerGroup</incident>
+					<visible>false</visible>
+				</li>
+				<li Class="ScenPart_DisableIncident">
+					<def>DisableIncident</def>
+					<incident>RaidFriendly</incident>
+					<visible>false</visible>
+				</li>
+				<li Class="ScenPart_DisableIncident">
+					<def>DisableIncident</def>
+					<incident>SelfTame</incident>
+					<visible>false</visible>
+				</li>
+				<li Class="ScenPart_DisableIncident">
+					<def>DisableIncident</def>
+					<incident>ThrumboPasses</incident>
+					<visible>false</visible>
+				</li>
+				<li Class="ScenPart_DisableIncident">
+					<def>DisableIncident</def>
+					<incident>ThrumboPasses</incident>
+					<visible>false</visible>
+				</li>
+				<li Class="ScenPart_DisableIncident">
+					<def>DisableIncident</def>
+					<incident>Eclipse</incident>
+					<visible>false</visible>
+				</li>
+				<li Class="ScenPart_DisableIncident">
+					<def>DisableIncident</def>
+					<incident>ToxicFallout</incident>
+					<visible>false</visible>
+				</li>
+				<li Class="ScenPart_DisableIncident">
+					<def>DisableIncident</def>
+					<incident>VolcanicWinter</incident>
+					<visible>false</visible>
+				</li>
+				<li Class="ScenPart_DisableIncident">
+					<def>DisableIncident</def>
+					<incident>HeatWave</incident>
+					<visible>false</visible>
+				</li>
+				<li Class="ScenPart_DisableIncident">
+					<def>DisableIncident</def>
+					<incident>Alphabeavers</incident>
+					<visible>false</visible>
+				</li>
+				<li Class="ScenPart_DisableIncident">
+					<def>DisableIncident</def>
+					<incident>FeenixPasses</incident>
+					<visible>false</visible>
+				</li>
+				<li Class="ScenPart_DisableIncident">
+					<def>DisableIncident</def>
+					<incident>IcicatPasses</incident>
+					<visible>false</visible>
+				</li>
+				<li Class="ScenPart_DisableIncident">
+					<def>DisableIncident</def>
+					<incident>MalariaRaid</incident>
+					<visible>false</visible>
+				</li>
+				<li Class="ScenPart_DisableIncident">
+					<def>DisableIncident</def>
+					<incident>NuclearIncident</incident>
+					<visible>false</visible>
+				</li>
+				<li Class="ScenPart_DisableIncident">
+					<def>DisableIncident</def>
+					<incident>EclipseFeral</incident>
+					<visible>false</visible>
+				</li>
+				<li Class="ScenPart_CreateIncident">
+					<def>CreateIncident</def>
+					<incident>UnnaturalDarkness</incident>
+					<intervalDays>0.24</intervalDays>
+				</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
+
+</Defs>
