@@ -17,6 +17,14 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<processDays>2</processDays>
+			<temperatureSafe>
+			<min>-999</min>
+			<max>999</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>-999</min>
+			<max>999</max>
+		</temperatureIdeal>
 	</RecipeDef>
 	
 	<RecipeDef ParentName="Make_AAAMAmmoBase" Class="UniversalFermenterSK.RecipeDef_UF">
