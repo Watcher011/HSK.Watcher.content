@@ -127,11 +127,11 @@
   <CNCMake_GlowstoneArtCNC.label>Светокаменная Скульптура</CNCMake_GlowstoneArtCNC.label>
   <CNCMake_GlowstoneArtCNC.description>Сделать Светокаменную Скульптуру</CNCMake_GlowstoneArtCNC.description>
 
-  <CNCMake_SimpleMechanismCNC.label>собрать простой механизм х15</CNCMake_SimpleMechanismCNC.label>
-<CNCMake_SimpleMechanismCNC.description>собрать простой механизм. Механизмы — это простые детали, похожие на шестерни, для использования в станках или верстаках. Довольно медленно. Производит 15.</CNCMake_SimpleMechanismCNC.description>
+  <CNCMake_SimpleMechanismCNC.label>собрать промышленный компонент х15</CNCMake_SimpleMechanismCNC.label>
+<CNCMake_SimpleMechanismCNC.description>собрать компонент. Довольно медленно. Производит 15.</CNCMake_SimpleMechanismCNC.description>
 
-<CNCMake_ComponentIndustrialCNC.label>собрать промышленный компонент х15</CNCMake_ComponentIndustrialCNC.label>
-<CNCMake_ComponentIndustrialCNC.description>собрать промышленный компонент.</CNCMake_ComponentIndustrialCNC.description>
+<CNCMake_ComponentIndustrialCNC.label>собрать механизмы х15</CNCMake_ComponentIndustrialCNC.label>
+<CNCMake_ComponentIndustrialCNC.description>собрать механизм.Механизмы — это простые детали, похожие на шестерни, для использования в станках или верстаках</CNCMake_ComponentIndustrialCNC.description>
 
 <CNCMake_ElectronicComponentsCNC.label>собрать электронные компоненты х15</CNCMake_ElectronicComponentsCNC.label>
 <CNCMake_ElectronicComponentsCNC.description>собрать электронный компонент.</CNCMake_ElectronicComponentsCNC.description>
