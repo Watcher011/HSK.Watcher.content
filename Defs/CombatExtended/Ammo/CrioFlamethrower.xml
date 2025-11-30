@@ -32,7 +32,7 @@
 			<li>CE_AutoEnableCrafting_DrugLab</li>
 		</tradeTags>
 		<thingCategories>
-			<li>AmmoCrioFlamethrower</li>
+				<li>FuelCat</li>
 		</thingCategories>
 		<stackLimit>500</stackLimit>
 	</ThingDef>
