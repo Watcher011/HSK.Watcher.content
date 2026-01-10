@@ -60,7 +60,7 @@
 		<products>
 			<HemogenPack>5</HemogenPack>
 		</products>
-		<researchPrerequisite>Food_0</researchPrerequisite>
+		<researchPrerequisite>Food_00</researchPrerequisite>
 	</RecipeDef>
 
          </value>
